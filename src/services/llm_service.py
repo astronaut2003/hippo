@@ -12,17 +12,21 @@ logger = logging.getLogger(__name__)
 class LLMService:
     """LLM 调用服务"""
     
-    def __init__(self, api_key: str, model: str = "gpt-4"):
+    def __init__(self, api_key: str, model: str = "Qwen/Qwen2.5-72B-Instruct", base_url: str = None):
         """
-        初始化 LLM 服务
-        
+        初始化 LLM 服务，支持硅基流动平台
         Args:
-            api_key: OpenAI API Key
+            api_key: API Key
             model: 使用的模型名称
+            base_url: API Base URL (硅基流动平台)
         """
-        self.client = AsyncOpenAI(api_key=api_key)
+        if base_url:
+            self.client = AsyncOpenAI(api_key=api_key, base_url=base_url)
+            logger.info(f"✅ LLM 服务初始化成功，模型: {model}, base_url: {base_url}")
+        else:
+            self.client = AsyncOpenAI(api_key=api_key)
+            logger.info(f"✅ LLM 服务初始化成功，模型: {model}")
         self.model = model
-        logger.info(f"✅ LLM 服务初始化成功，模型: {model}")
     
     async def chat_stream(
         self,
@@ -31,19 +35,10 @@ class LLMService:
         max_tokens: int = 2000
     ) -> AsyncGenerator[str, None]:
         """
-        流式生成对话
-        
-        Args:
-            messages: 消息列表 [{"role": "user", "content": "..."}]
-            temperature: 温度参数 (0-2)
-            max_tokens: 最大 token 数
-        
-        Yields:
-            生成的文本块
+        流式生成对话，兼容 reasoning_content 字段
         """
         try:
             logger.info(f"🤖 开始流式生成，消息数: {len(messages)}")
-            
             stream = await self.client.chat.completions.create(
                 model=self.model,
                 messages=messages,
@@ -51,11 +46,13 @@ class LLMService:
                 max_tokens=max_tokens,
                 stream=True
             )
-            
             async for chunk in stream:
-                if chunk.choices[0].delta.content:
-                    yield chunk.choices[0].delta.content
-            
+                if chunk.choices and chunk.choices[0].delta:
+                    delta = chunk.choices[0].delta
+                    if hasattr(delta, "content") and delta.content:
+                        yield delta.content
+                    if hasattr(delta, "reasoning_content") and delta.reasoning_content:
+                        yield delta.reasoning_content
             logger.info("✅ 流式生成完成")
                     
         except Exception as e:

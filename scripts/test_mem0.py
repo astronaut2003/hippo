@@ -38,15 +38,17 @@ def test_mem0():
         "llm": {
             "provider": "openai",
             "config": {
-                "model": os.getenv('LLM_MODEL', 'gpt-3.5-turbo'),
-                "api_key": os.getenv('OPENAI_API_KEY')
+                "model": os.getenv('LLM_MODEL', 'Qwen/Qwen3-VL-8B-Instruct'),
+                "api_key": os.getenv('SILICONFLOW_API_KEY', os.getenv('OPENAI_API_KEY')),
+                "base_url": os.getenv('SILICONFLOW_BASE_URL', None)
             }
         },
         "embedder": {
             "provider": "openai",
             "config": {
-                "model": os.getenv('EMBEDDING_MODEL', 'text-embedding-3-small'),
-                "api_key": os.getenv('OPENAI_API_KEY')
+                "model": os.getenv('EMBEDDING_MODEL', 'BAAI/bge-large-en-v1.5'),
+                "api_key": os.getenv('SILICONFLOW_API_KEY', os.getenv('OPENAI_API_KEY')),
+                "base_url": os.getenv('SILICONFLOW_BASE_URL', None)
             }
         }
     }

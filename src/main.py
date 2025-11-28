@@ -45,14 +45,15 @@ async def lifespan(app: FastAPI):
                     "user": settings.POSTGRES_USER,
                     "password": settings.POSTGRES_PASSWORD,
                     "collection_name": settings.MEM0_COLLECTION_NAME,
-                    "embedding_model_dims": 1536
+                    "embedding_model_dims": settings.EMBEDDING_DIMS
                 }
             },
             "llm": {
                 "provider": "openai",
                 "config": {
                     "model": settings.LLM_MODEL,
-                    "api_key": settings.OPENAI_API_KEY,
+                    "api_key": settings.SILICONFLOW_API_KEY or settings.OPENAI_API_KEY,
+                    "base_url": settings.SILICONFLOW_BASE_URL if settings.SILICONFLOW_API_KEY else None,
                     "temperature": 0.7
                 }
             },
@@ -60,7 +61,8 @@ async def lifespan(app: FastAPI):
                 "provider": "openai",
                 "config": {
                     "model": settings.EMBEDDING_MODEL,
-                    "api_key": settings.OPENAI_API_KEY
+                    "api_key": settings.SILICONFLOW_API_KEY or settings.OPENAI_API_KEY,
+                    "base_url": settings.SILICONFLOW_BASE_URL if settings.SILICONFLOW_API_KEY else None
                 }
             }
         }
@@ -68,8 +70,9 @@ async def lifespan(app: FastAPI):
         # 初始化服务
         memory_service = get_memory_service(mem0_config)
         llm_service = LLMService(
-            api_key=settings.OPENAI_API_KEY,
-            model=settings.LLM_MODEL
+            api_key=settings.SILICONFLOW_API_KEY or settings.OPENAI_API_KEY,
+            model=settings.LLM_MODEL,
+            base_url=settings.SILICONFLOW_BASE_URL if settings.SILICONFLOW_API_KEY else None
         )
         chat_service = ChatService(memory_service, llm_service)
         
