@@ -25,7 +25,7 @@ def init_database():
         'port': int(os.getenv('POSTGRES_PORT', 5432)),
         'database': os.getenv('POSTGRES_DB', 'hippo'),
         'user': os.getenv('POSTGRES_USER', 'postgres'),
-        'password': os.getenv('POSTGRES_PASSWORD')
+        'password': os.getenv('POSTGRES_PASSWORD','20031109@WJX')
     }
     
     if not db_params['password']:
