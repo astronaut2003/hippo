@@ -36,7 +36,7 @@ config = {
     "reranker": {
         "provider": "huggingface",
         "config": {
-            "model": "BAAI/bge-reranker-base",
+            "model": "BAAI/bge-reranker-v2-m3",
             "device": "cuda",
             "batch_size": 32
         }
