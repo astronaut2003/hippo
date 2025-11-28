@@ -21,7 +21,7 @@ def test_mem0():
     print("=" * 60)
     print("测试 mem0 连接和功能")
     print("=" * 60 + "\n")
-    
+
     # mem0 配置
     config = {
         "vector_store": {
@@ -31,7 +31,7 @@ def test_mem0():
                 "host": os.getenv('POSTGRES_HOST', 'localhost'),
                 "port": int(os.getenv('POSTGRES_PORT', 5432)),
                 "user": os.getenv('POSTGRES_USER', 'postgres'),
-                "password": os.getenv('POSTGRES_PASSWORD'),
+                "password": os.getenv('POSTGRES_PASSWORD', '20031109@WJX'),
                 "collection_name": "test_memories"
             }
         },
@@ -50,21 +50,21 @@ def test_mem0():
             }
         }
     }
-    
+
     try:
         print("1️⃣ 初始化 mem0...")
         memory = Memory.from_config(config)
         print("✅ mem0 初始化成功\n")
-        
+
         test_user = "test_user_001"
-        
+
         print("2️⃣ 添加测试记忆...")
         result = memory.add(
             "我喜欢吃川菜，特别是麻辣火锅和水煮鱼",
             user_id=test_user
         )
         print(f"✅ 添加成功: {result}\n")
-        
+
         print("3️⃣ 搜索记忆...")
         results = memory.search(
             query="推荐美食",
@@ -74,17 +74,17 @@ def test_mem0():
         for i, mem in enumerate(results, 1):
             print(f"  {i}. {mem.get('memory', mem.get('text', 'N/A'))}")
         print()
-        
+
         print("4️⃣ 获取所有记忆...")
         all_memories = memory.get_all(user_id=test_user)
         print(f"✅ 共有 {len(all_memories)} 条记忆\n")
-        
+
         print("=" * 60)
         print("🎉 所有测试通过！mem0 工作正常")
         print("=" * 60)
-        
+
         return True
-        
+
     except Exception as e:
         print(f"\n❌ 测试失败: {e}")
         print("\n请检查:")
