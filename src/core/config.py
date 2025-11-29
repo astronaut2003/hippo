@@ -22,13 +22,18 @@ class Settings(BaseSettings):
     POSTGRES_USER: str = "postgres"
     POSTGRES_PASSWORD: str = "20031109@WJX"
 
-    # OpenAI/硅基流动配置
+    # LLM API 配置
+    DEEPSEEK_API_KEY: str = ""
     OPENAI_API_KEY: str = ""
     SILICONFLOW_API_KEY: str = ""
-    SILICONFLOW_BASE_URL: str = "https://api.siliconflow.cn/v1"
-    LLM_MODEL: str = "Qwen/Qwen3-VL-8B-Instruct"
+    
+    # LLM 配置
+    LLM_MODEL: str = "deepseek-chat"
+    LLM_BASE_URL: str = "https://api.deepseek.com/v1"
+    
+    # Embedding 配置
     EMBEDDING_MODEL: str = "BAAI/bge-large-en-v1.5"
-    EMBEDDING_DIMS: int = 1024  # BAAI/bge-large-en-v1.5=1024, text-embedding-3-small=1536
+    EMBEDDING_DIMS: int = 1024  # BGE large en v1.5 的维度
 
     # mem0 配置
     MEM0_VECTOR_STORE: str = "pgvector"

@@ -34,35 +34,34 @@ async def lifespan(app: FastAPI):
     logger.info("🚀 正在启动 Hippo Agent...")
     
     try:
+        # URL 编码数据库密码（处理特殊字符）
+        from urllib.parse import quote_plus
+        encoded_password = quote_plus(settings.POSTGRES_PASSWORD)
+        db_url = f"postgresql://{settings.POSTGRES_USER}:{encoded_password}@{settings.POSTGRES_HOST}:{settings.POSTGRES_PORT}/{settings.POSTGRES_DB}"
+        
         # 初始化 mem0 配置
         mem0_config = {
             "vector_store": {
                 "provider": settings.MEM0_VECTOR_STORE,
                 "config": {
-                    "dbname": settings.POSTGRES_DB,
-                    "host": settings.POSTGRES_HOST,
-                    "port": settings.POSTGRES_PORT,
-                    "user": settings.POSTGRES_USER,
-                    "password": settings.POSTGRES_PASSWORD,
+                    "url": db_url,  # 使用完整 URL 避免特殊字符问题
                     "collection_name": settings.MEM0_COLLECTION_NAME,
                     "embedding_model_dims": settings.EMBEDDING_DIMS
                 }
             },
             "llm": {
-                "provider": "openai",
+                "provider": "openai",  # DeepSeek 兼容 OpenAI API
                 "config": {
-                    "model": settings.LLM_MODEL,
-                    "api_key": settings.SILICONFLOW_API_KEY or settings.OPENAI_API_KEY,
-                    "base_url": settings.SILICONFLOW_BASE_URL if settings.SILICONFLOW_API_KEY else None,
+                    "model": settings.LLM_MODEL,  # deepseek-chat
+                    "api_key": settings.DEEPSEEK_API_KEY or settings.OPENAI_API_KEY,
+                    "base_url": settings.LLM_BASE_URL,  # https://api.deepseek.com/v1
                     "temperature": 0.7
                 }
             },
             "embedder": {
-                "provider": "openai",
+                "provider": "huggingface",  # 本地 HuggingFace 模型
                 "config": {
-                    "model": settings.EMBEDDING_MODEL,
-                    "api_key": settings.SILICONFLOW_API_KEY or settings.OPENAI_API_KEY,
-                    "base_url": settings.SILICONFLOW_BASE_URL if settings.SILICONFLOW_API_KEY else None
+                    "model": settings.EMBEDDING_MODEL  # BAAI/bge-large-en-v1.5
                 }
             }
         }
@@ -70,14 +69,16 @@ async def lifespan(app: FastAPI):
         # 初始化服务
         memory_service = get_memory_service(mem0_config)
         llm_service = LLMService(
-            api_key=settings.SILICONFLOW_API_KEY or settings.OPENAI_API_KEY,
+            api_key=settings.DEEPSEEK_API_KEY or settings.OPENAI_API_KEY,
             model=settings.LLM_MODEL,
-            base_url=settings.SILICONFLOW_BASE_URL if settings.SILICONFLOW_API_KEY else None
+            base_url=settings.LLM_BASE_URL
         )
         chat_service = ChatService(memory_service, llm_service)
         
         logger.info("✅ 所有服务初始化成功")
         logger.info(f"📚 数据库: {settings.POSTGRES_HOST}:{settings.POSTGRES_PORT}/{settings.POSTGRES_DB}")
+        logger.info(f"🤖 LLM: {settings.LLM_MODEL} @ {settings.LLM_BASE_URL}")
+        logger.info(f"📝 Embedding: {settings.EMBEDDING_MODEL} (本地 HuggingFace)")
         logger.info(f"🤖 LLM 模型: {settings.LLM_MODEL}")
         
     except Exception as e:
