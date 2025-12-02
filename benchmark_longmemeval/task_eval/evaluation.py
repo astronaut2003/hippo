@@ -38,11 +38,11 @@ sys.path.append(str(Path(__file__).parent.parent.parent))
 from llm_client import LLMClient
 
 # 尝试下载NLTK资源
-try:
-    nltk.download("wordnet", quiet=True)
-    nltk.download("punkt", quiet=True)
-except Exception as e:
-    logging.warning(f"Failed to download NLTK resources: {e}")
+# try:
+#     nltk.download("wordnet", quiet=True)
+#     nltk.download("punkt", quiet=True)
+# except Exception as e:
+#     logging.warning(f"Failed to download NLTK resources: {e}")
 
 # 初始化词干提取器
 ps = PorterStemmer()
