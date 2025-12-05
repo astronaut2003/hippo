@@ -96,6 +96,7 @@ async def lifespan(app: FastAPI):
 
         
         try:
+            # ✅ 使用已导入的函数并传递配置
             memory_service = get_memory_service(mem0_config)
             logger.info("✅ mem0 服务初始化成功")
         except Exception as mem_error:
@@ -139,7 +140,8 @@ app = FastAPI(
 # 配置 CORS
 import json
 try:
-    cors_origins = json.loads(os.getenv('CORS_ORIGINS', '["http://localhost:3000","http://localhost:5173"]'))
+    cors_origins = json.loads(os.getenv('CORS_ORIGINS', '["http://localhost:3000","http://localhost:5173",'
+                                                        '"http://127.0.0.1:3000"]'))
 except:
     cors_origins = ["http://localhost:3000", "http://localhost:5173"]
 
@@ -165,6 +167,31 @@ async def root():
         "docs": "/docs",
         "health": "/health"
     }
+
+
+# 服务访问函数
+def get_memory_service_instance():
+    """获取记忆服务实例"""
+    global memory_service
+    if memory_service is None:
+        raise RuntimeError("Memory service not initialized")
+    return memory_service
+
+
+def get_llm_service_instance():
+    """获取LLM服务实例"""
+    global llm_service
+    if llm_service is None:
+        raise RuntimeError("LLM service not initialized")
+    return llm_service
+
+
+def get_chat_service_instance():
+    """获取聊天服务实例"""
+    global chat_service
+    if chat_service is None:
+        raise RuntimeError("Chat service not initialized")
+    return chat_service
 
 
 @app.get("/health")
