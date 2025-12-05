@@ -83,12 +83,18 @@ class MemoryService:
             记忆列表
         """
         try:
-            results = self.memory.search(
+            result = self.memory.search(
                 query=query,
                 user_id=user_id,
                 limit=limit,
                 filters=filters or {}
             )
+            
+            # ✅ mem0.search() 返回格式: {'results': [...]}
+            if isinstance(result, dict) and 'results' in result:
+                results = result['results']
+            else:
+                results = result if isinstance(result, list) else []
             
             logger.info(
                 f"🔍 检索记忆: user={user_id}, "
@@ -110,7 +116,14 @@ class MemoryService:
             记忆列表
         """
         try:
-            memories = self.memory.get_all(user_id=user_id)
+            result = self.memory.get_all(user_id=user_id)
+            
+            # ✅ mem0.get_all() 返回格式: {'results': [...]}
+            if isinstance(result, dict) and 'results' in result:
+                memories = result['results']
+            else:
+                memories = result if isinstance(result, list) else []
+            
             logger.info(f"📚 获取所有记忆: user={user_id}, count={len(memories)}")
             return memories
         except Exception as e:

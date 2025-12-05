@@ -5,6 +5,7 @@
 from pydantic_settings import BaseSettings
 from typing import List
 import json
+from pathlib import Path
 
 
 class Settings(BaseSettings):
@@ -32,8 +33,8 @@ class Settings(BaseSettings):
     LLM_BASE_URL: str = "https://api.deepseek.com/v1"
     
     # Embedding 配置
-    EMBEDDING_MODEL: str = "BAAI/bge-large-en-v1.5"
-    EMBEDDING_DIMS: int = 1024  # BGE large en v1.5 的维度
+    EMBEDDING_MODEL: str = "all-MiniLM-L6-v2"
+    EMBEDDING_DIMS: int = 384  # all-MiniLM-L6-v2 的维度
 
     # mem0 配置
     MEM0_VECTOR_STORE: str = "pgvector"
@@ -67,9 +68,19 @@ class Settings(BaseSettings):
             return ["http://localhost:3000"]
 
     class Config:
-        env_file = ".env"
+        # 使用绝对路径指向 .env 文件
+        # 从 src/core/config.py 向上两级到 backend/
+        env_file = str(Path(__file__).parent.parent.parent / ".env")
+        env_file_encoding = "utf-8"
         case_sensitive = True
 
 
 # 全局配置实例
 settings = Settings()
+
+# 打印加载的配置路径（调试用）
+if __name__ == "__main__":
+    print(f"✅ .env 文件路径: {Settings.Config.env_file}")
+    print(f"✅ 文件存在: {Path(Settings.Config.env_file).exists()}")
+    print(f"✅ DEEPSEEK_API_KEY: {'已设置' if settings.DEEPSEEK_API_KEY else '未设置'}")
+    print(f"✅ POSTGRES_PASSWORD: {'已设置' if settings.POSTGRES_PASSWORD else '未设置'}")
