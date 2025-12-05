@@ -36,7 +36,7 @@ config = {
     "reranker": {
         "provider": "huggingface",
         "config": {
-            "model": "BAAI/bge-reranker-base",
+            "model": "BAAI/bge-reranker-v2-m3",
             "device": "cuda",
             "batch_size": 32
         }
@@ -192,7 +192,7 @@ class LongMemEvalLoader:
         sample: Dict[str, Any],
         sample_idx: int,
         user_id_base: Optional[str] = None,
-        infer: bool = True,
+        infer: bool = False,
         clean_before_add: bool = True
     ) -> Dict[str, Any]:
         """
@@ -339,7 +339,7 @@ class LongMemEvalLoader:
         sample: Dict[str, Any],
         sample_idx: int,
         user_id_base: Optional[str] = None,
-        infer: bool = True,
+        infer: bool = False,
         clean_before_add: bool = True
     ) -> Dict[str, Any]:
         """
@@ -430,7 +430,7 @@ class LongMemEvalLoader:
         sample: Dict[str, Any],
         sample_idx: int,
         user_id_base: Optional[str] = None,
-        infer: bool = True,
+        infer: bool = False,
         query_top_k: int = 5,
         clean_before_add: bool = True
     ) -> Dict[str, Any]:
@@ -531,7 +531,7 @@ def load_longmemeval_s(
     memory: Optional[Memory] = None,
     sample_indices: Optional[List[int]] = None,
     user_id_base: Optional[str] = None,
-    infer: bool = True,
+    infer: bool = False,
     clean_before_add: bool = True
 ) -> Tuple[LongMemEvalLoader, List[Dict[str, Any]]]:
     """
