@@ -20,6 +20,13 @@ export interface ChatResponse {
     error?: string
 }
 
+export interface WelcomeResponse {
+    message: string
+    is_new_user: boolean
+    memory_count: number
+    user_id: string
+}
+
 /**
  * 发送消息并接收流式响应
  */
@@ -32,7 +39,7 @@ export const chatAPI = {
         onChunk: (chunk: string) => void
     ): Promise<void> {
         const response = await fetch(
-            `${import.meta.env.VITE_API_URL}/api/v1/chat/message`,
+            `http://localhost:8000/api/v1/chat/message`,
             {
                 method: 'POST',
                 headers: {
@@ -86,6 +93,38 @@ export const chatAPI = {
             }
         } finally {
             reader.releaseLock()
+        }
+    }
+}
+
+/**
+ * 获取个性化欢迎消息
+ */
+export const getWelcomeMessage = async (userId: string): Promise<WelcomeResponse> => {
+    try {
+        const apiUrl = (import.meta as any).env.VITE_API_URL || 'http://localhost:8000'
+        const response = await fetch(
+            `${apiUrl}/api/v1/chat/welcome/${userId}`,
+            {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }
+        )
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`)
+        }
+
+        return await response.json()
+    } catch (error) {
+        console.error('Failed to get welcome message:', error)
+        return {
+            message: "👋 你好！我是 Hippo，很高兴见到你！有什么我可以帮你的吗？",
+            is_new_user: true,
+            memory_count: 0,
+            user_id: userId
         }
     }
 }

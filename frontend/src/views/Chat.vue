@@ -26,7 +26,7 @@
         <div
           v-for="msg in chatStore.messages"
           :key="msg.id"
-          :class="['message-item', `message-${msg.role}`]"
+          :class="['message-item', `message-${msg.role}`, { 'message-welcome': msg.isWelcome }]"
         >
           <div class="message-avatar">
             <span v-if="msg.role === 'user'">👤</span>
@@ -89,7 +89,8 @@
 <script setup lang="ts">
 import { ref, onMounted, nextTick, watch } from 'vue'
 import { useRouter } from 'vue-router'
-import { useChatStore } from '@/stores/chat'
+import { useChatStore } from '../stores/chat'
+import { getWelcomeMessage } from '../api/chat'
 import { ElMessage } from 'element-plus'
 import { Delete, Notebook, Loading, Promotion } from '@element-plus/icons-vue'
 import MarkdownIt from 'markdown-it'
@@ -128,7 +129,7 @@ function formatTime(timestamp: string): string {
   const date = new Date(timestamp)
   const now = new Date()
   const diff = now.getTime() - date.getTime()
-  
+
   if (diff < 60000) {
     return '刚刚'
   } else if (diff < 3600000) {
@@ -206,7 +207,59 @@ watch(
   }
 )
 
-onMounted(() => {
+onMounted(async () => {
+  // 检查是否已有欢迎消息
+  if (chatStore.messages.length === 0) {
+    try {
+      // 生成或获取用户ID
+      let userId = localStorage.getItem('hippo_user_id')
+      if (!userId) {
+        userId = `user_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`
+        localStorage.setItem('hippo_user_id', userId)
+      }
+      
+      // 获取个性化欢迎消息
+      const welcomeData = await getWelcomeMessage(userId)
+      
+      // 添加欢迎消息
+      const welcomeMessage = {
+        id: `welcome_${Date.now()}`,
+        content: welcomeData.message,
+        role: 'assistant' as const,
+        timestamp: new Date(),
+        conversationId: `welcome_${userId}`,
+        isWelcome: true
+      }
+      
+      chatStore.addMessage(welcomeMessage)
+      
+      // 设置当前对话ID
+      chatStore.setConversation(`conversation_${userId}_${Date.now()}`)
+      
+      // 日志记录
+      if (welcomeData.is_new_user) {
+        console.log('🎉 新用户访问，显示欢迎信息')
+      } else {
+        console.log(`📚 老用户回归，已有 ${welcomeData.memory_count} 条记忆`)
+      }
+      
+    } catch (error) {
+      console.error('Failed to load welcome message:', error)
+      
+      // 降级到静态欢迎消息
+      const fallbackMessage = {
+        id: `welcome_fallback_${Date.now()}`,
+        content: "👋 你好！我是 Hippo，很高兴见到你！有什么我可以帮你的吗？",
+        role: 'assistant' as const,
+        timestamp: new Date(),
+        conversationId: 'welcome_fallback',
+        isWelcome: true
+      }
+      
+      chatStore.addMessage(fallbackMessage)
+    }
+  }
+  
   scrollToBottom()
 })
 </script>
@@ -223,7 +276,7 @@ onMounted(() => {
   background: white;
   border-bottom: 1px solid #e4e7ed;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-  
+
   .header-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -232,16 +285,16 @@ onMounted(() => {
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .logo {
     display: flex;
     align-items: center;
     gap: 12px;
-    
+
     .icon {
       font-size: 32px;
     }
-    
+
     h1 {
       margin: 0;
       font-size: 24px;
@@ -249,7 +302,7 @@ onMounted(() => {
       color: #303133;
     }
   }
-  
+
   .header-actions {
     display: flex;
     gap: 8px;
@@ -260,7 +313,7 @@ onMounted(() => {
   flex: 1;
   overflow-y: auto;
   padding: 20px;
-  
+
   .messages {
     max-width: 900px;
     margin: 0 auto;
@@ -272,7 +325,7 @@ onMounted(() => {
   gap: 12px;
   margin-bottom: 24px;
   animation: fadeIn 0.3s ease-in;
-  
+
   .message-avatar {
     flex-shrink: 0;
     width: 40px;
@@ -284,30 +337,30 @@ onMounted(() => {
     font-size: 24px;
     background: #f0f2f5;
   }
-  
+
   .message-content {
     flex: 1;
     min-width: 0;
   }
-  
+
   .message-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 8px;
-    
+
     .message-role {
       font-weight: 600;
       font-size: 14px;
       color: #303133;
     }
-    
+
     .message-time {
       font-size: 12px;
       color: #909399;
     }
   }
-  
+
   .message-text {
     background: white;
     padding: 12px 16px;
@@ -316,19 +369,19 @@ onMounted(() => {
     line-height: 1.6;
     color: #303133;
     word-wrap: break-word;
-    
+
     :deep(pre) {
       background: #f6f8fa;
       padding: 12px;
       border-radius: 4px;
       overflow-x: auto;
-      
+
       code {
         font-family: 'Consolas', 'Monaco', monospace;
         font-size: 14px;
       }
     }
-    
+
     :deep(code) {
       background: #f6f8fa;
       padding: 2px 6px;
@@ -336,7 +389,7 @@ onMounted(() => {
       font-family: 'Consolas', 'Monaco', monospace;
       font-size: 14px;
     }
-    
+
     :deep(p) {
       margin: 8px 0;
       &:first-child {
@@ -347,10 +400,50 @@ onMounted(() => {
       }
     }
   }
-  
+
+  // 欢迎消息特殊样式
+  &.message-welcome {
+    .message-content .message-text {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+      
+      :deep(strong) {
+        color: #ffd700;
+      }
+      
+      :deep(h1), :deep(h2), :deep(h3), :deep(h4) {
+        color: #fff;
+        margin-top: 16px;
+        margin-bottom: 8px;
+      }
+      
+      :deep(ul), :deep(ol) {
+        margin: 12px 0;
+        padding-left: 20px;
+      }
+      
+      :deep(li) {
+        margin-bottom: 4px;
+      }
+      
+      :deep(p) {
+        margin: 8px 0;
+      }
+    }
+    
+    .message-avatar {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      font-size: 20px;
+    }
+  }
+
   &.message-user {
     flex-direction: row-reverse;
-    
+
     .message-text {
       background: #409eff;
       color: white;
@@ -365,7 +458,7 @@ onMounted(() => {
   color: #909399;
   font-size: 14px;
   padding: 12px;
-  
+
   .el-icon {
     font-size: 18px;
   }
@@ -375,18 +468,18 @@ onMounted(() => {
   background: white;
   border-top: 1px solid #e4e7ed;
   padding: 16px 20px;
-  
+
   .input-box {
     max-width: 900px;
     margin: 0 auto;
   }
-  
+
   .input-actions {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 8px;
-    
+
     .input-hint {
       font-size: 12px;
       color: #909399;

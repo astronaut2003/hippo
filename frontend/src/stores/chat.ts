@@ -3,8 +3,8 @@
  */
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
-import { chatAPI } from '@/api/chat'
-import type { Message } from '@/types'
+import { chatAPI } from '../api/chat.ts'
+import type { Message } from '../types/index.ts'
 
 export const useChatStore = defineStore('chat', () => {
     // 状态
@@ -76,6 +76,11 @@ export const useChatStore = defineStore('chat', () => {
         messages.value = []
     }
 
+    // 添加单个消息
+    function addMessage(message: Message) {
+        messages.value.push(message)
+    }
+
     // 设置当前会话
     function setConversation(conversationId: string) {
         currentConversationId.value = conversationId
@@ -89,6 +94,7 @@ export const useChatStore = defineStore('chat', () => {
         chatHistory,
         sendMessage,
         clearMessages,
+        addMessage,
         setConversation
     }
 })

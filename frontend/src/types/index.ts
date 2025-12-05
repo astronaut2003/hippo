@@ -7,7 +7,9 @@ export interface Message {
     id: string
     role: 'user' | 'assistant' | 'system'
     content: string
-    timestamp: string
+    timestamp: string | Date
+    conversationId?: string
+    isWelcome?: boolean
 }
 
 // 会话类型
