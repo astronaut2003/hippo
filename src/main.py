@@ -5,8 +5,18 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 import logging
+import os
+from pathlib import Path
 
-from src.core.config import settings
+# ✅ 按照 test_mem0.py 的方式加载环境变量
+from dotenv import load_dotenv
+from urllib.parse import quote_plus
+
+# 加载环境变量（与 test_mem0.py 相同的方式）
+backend_dir = Path(__file__).parent.parent  # src/ -> backend/
+env_path = backend_dir / '.env'
+load_dotenv(dotenv_path=env_path)
+
 from src.core.logger import setup_logging
 from src.services.memory_service import get_memory_service
 from src.services.llm_service import LLMService
@@ -14,7 +24,7 @@ from src.services.chat_service import ChatService
 from src.api.v1 import chat, memory
 
 # 设置日志
-setup_logging(settings.LOG_LEVEL)
+setup_logging(os.getenv('LOG_LEVEL', 'INFO'))
 logger = logging.getLogger(__name__)
 
 # 全局服务实例
@@ -34,55 +44,83 @@ async def lifespan(app: FastAPI):
     logger.info("🚀 正在启动 Hippo Agent...")
     
     try:
-        # URL 编码数据库密码（处理特殊字符）
-        from urllib.parse import quote_plus
-        encoded_password = quote_plus(settings.POSTGRES_PASSWORD)
-        db_url = f"postgresql://{settings.POSTGRES_USER}:{encoded_password}@{settings.POSTGRES_HOST}:{settings.POSTGRES_PORT}/{settings.POSTGRES_DB}"
+        # ✅ 按照 test_mem0.py 的方式读取环境变量
+        deepseek_key = os.getenv('DEEPSEEK_API_KEY')
+        db_password = os.getenv('POSTGRES_PASSWORD')
         
-        # 初始化 mem0 配置
+        # 检查必需的环境变量
+        if not deepseek_key:
+            raise ValueError("❌ 缺少 DEEPSEEK_API_KEY 环境变量")
+        if not db_password:
+            raise ValueError("❌ 缺少 POSTGRES_PASSWORD 环境变量")
+        
+        # URL 编码数据库密码（与 test_mem0.py 相同）
+        encoded_password = quote_plus(db_password)
+        
+        logger.info("正在初始化 mem0 服务...")
+        logger.info(f"数据库配置: {os.getenv('POSTGRES_HOST', 'localhost')}:{os.getenv('POSTGRES_PORT', 5432)}/{os.getenv('POSTGRES_DB', 'hippo')}")
+        logger.info(f"用户: {os.getenv('POSTGRES_USER', 'postgres')}")
+        logger.info(f"Embedding 维度: {os.getenv('EMBEDDING_DIMS', 384)}")
+        
+        # ✅ 完全按照 test_mem0.py 的配置格式
         mem0_config = {
             "vector_store": {
-                "provider": settings.MEM0_VECTOR_STORE,
+                "provider": "pgvector",
                 "config": {
-                    "url": db_url,  # 使用完整 URL 避免特殊字符问题
-                    "collection_name": settings.MEM0_COLLECTION_NAME,
-                    "embedding_model_dims": settings.EMBEDDING_DIMS
+                    "dbname": os.getenv('POSTGRES_DB', 'hippo'),
+                    "host": os.getenv('POSTGRES_HOST', 'localhost'),
+                    "port": int(os.getenv('POSTGRES_PORT', 5432)),
+                    "user": os.getenv('POSTGRES_USER', 'postgres'),
+                    "password": encoded_password,  # ✅ 使用编码后的密码
+                    "embedding_model_dims": int(os.getenv('EMBEDDING_DIMS', 384)),
+                    "collection_name": os.getenv('MEM0_COLLECTION_NAME', 'hippo_memories')
                 }
             },
             "llm": {
-                "provider": "openai",  # DeepSeek 兼容 OpenAI API
+                "provider": "deepseek",  # ✅ 与 test_mem0.py 相同
                 "config": {
-                    "model": settings.LLM_MODEL,  # deepseek-chat
-                    "api_key": settings.DEEPSEEK_API_KEY or settings.OPENAI_API_KEY,
-                    "base_url": settings.LLM_BASE_URL,  # https://api.deepseek.com/v1
-                    "temperature": 0.7
+                    "model": os.getenv('LLM_MODEL', 'deepseek-chat'),
+                    "api_key": deepseek_key,
                 }
             },
             "embedder": {
-                "provider": "huggingface",  # 本地 HuggingFace 模型
+                "provider": "huggingface",
                 "config": {
-                    "model": settings.EMBEDDING_MODEL  # BAAI/bge-large-en-v1.5
+                    "model": os.getenv('EMBEDDING_MODEL', 'all-MiniLM-L6-v2')
                 }
             }
         }
         
         # 初始化服务
-        memory_service = get_memory_service(mem0_config)
+        logger.info("正在初始化 mem0 服务...")
+
+        
+        try:
+            # ✅ 使用已导入的函数并传递配置
+            memory_service = get_memory_service(mem0_config)
+            logger.info("✅ mem0 服务初始化成功")
+        except Exception as mem_error:
+            logger.error(f"❌ mem0 初始化失败: {mem_error}")
+            logger.error(f"错误类型: {type(mem_error).__name__}")
+            import traceback
+            logger.error(f"详细堆栈:\n{traceback.format_exc()}")
+            raise
+        
         llm_service = LLMService(
-            api_key=settings.DEEPSEEK_API_KEY or settings.OPENAI_API_KEY,
-            model=settings.LLM_MODEL,
-            base_url=settings.LLM_BASE_URL
+            api_key=deepseek_key,  # ✅ 直接使用读取的 API Key
+            model=os.getenv('LLM_MODEL', 'deepseek-chat'),
+            base_url=os.getenv('LLM_BASE_URL', 'https://api.deepseek.com/v1')
         )
         chat_service = ChatService(memory_service, llm_service)
         
         logger.info("✅ 所有服务初始化成功")
-        logger.info(f"📚 数据库: {settings.POSTGRES_HOST}:{settings.POSTGRES_PORT}/{settings.POSTGRES_DB}")
-        logger.info(f"🤖 LLM: {settings.LLM_MODEL} @ {settings.LLM_BASE_URL}")
-        logger.info(f"📝 Embedding: {settings.EMBEDDING_MODEL} (本地 HuggingFace)")
-        logger.info(f"🤖 LLM 模型: {settings.LLM_MODEL}")
+        logger.info(f"📚 数据库: {os.getenv('POSTGRES_HOST', 'localhost')}:{os.getenv('POSTGRES_PORT', 5432)}/{os.getenv('POSTGRES_DB', 'hippo')}")
+        logger.info(f"🤖 LLM: {os.getenv('LLM_MODEL', 'deepseek-chat')} @ {os.getenv('LLM_BASE_URL', 'https://api.deepseek.com/v1')}")
+        logger.info(f"📝 Embedding: {os.getenv('EMBEDDING_MODEL', 'all-MiniLM-L6-v2')} (本地 HuggingFace)")
         
     except Exception as e:
         logger.error(f"❌ 服务初始化失败: {e}")
+        logger.error(f"错误类型: {type(e).__name__}")
         raise
     
     yield  # 应用运行
@@ -93,16 +131,23 @@ async def lifespan(app: FastAPI):
 
 # 创建 FastAPI 应用
 app = FastAPI(
-    title=settings.APP_NAME,
-    version=settings.APP_VERSION,
+    title=os.getenv('APP_NAME', 'Hippo Agent'),
+    version=os.getenv('APP_VERSION', '1.0.0'),
     description="具备长期记忆能力的智能问答 Agent",
     lifespan=lifespan
 )
 
 # 配置 CORS
+import json
+try:
+    cors_origins = json.loads(os.getenv('CORS_ORIGINS', '["http://localhost:3000","http://localhost:5173",'
+                                                        '"http://127.0.0.1:3000"]'))
+except:
+    cors_origins = ["http://localhost:3000", "http://localhost:5173"]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.CORS_ORIGINS_LIST,
+    allow_origins=cors_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -118,10 +163,35 @@ async def root():
     """根路径"""
     return {
         "message": "Welcome to Hippo Agent API",
-        "version": settings.APP_VERSION,
+        "version": os.getenv('APP_VERSION', '1.0.0'),
         "docs": "/docs",
         "health": "/health"
     }
+
+
+# 服务访问函数
+def get_memory_service_instance():
+    """获取记忆服务实例"""
+    global memory_service
+    if memory_service is None:
+        raise RuntimeError("Memory service not initialized")
+    return memory_service
+
+
+def get_llm_service_instance():
+    """获取LLM服务实例"""
+    global llm_service
+    if llm_service is None:
+        raise RuntimeError("LLM service not initialized")
+    return llm_service
+
+
+def get_chat_service_instance():
+    """获取聊天服务实例"""
+    global chat_service
+    if chat_service is None:
+        raise RuntimeError("Chat service not initialized")
+    return chat_service
 
 
 @app.get("/health")
@@ -129,8 +199,8 @@ async def health():
     """健康检查"""
     return {
         "status": "ok",
-        "app": settings.APP_NAME,
-        "version": settings.APP_VERSION
+        "app": os.getenv('APP_NAME', 'Hippo Agent'),
+        "version": os.getenv('APP_VERSION', '1.0.0')
     }
 
 
@@ -140,5 +210,5 @@ if __name__ == "__main__":
         "src.main:app",
         host="0.0.0.0",
         port=8000,
-        reload=settings.DEBUG
+        reload=os.getenv('DEBUG', 'True').lower() == 'true'
     )
