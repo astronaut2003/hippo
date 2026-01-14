@@ -1,0 +1,76 @@
+{
+  "sample_idx": 0,
+  "question_id": "7161e7e2",
+  "question": "I'm checking our previous chat about the shift rotation sheet for GM social media agents. Can you remind me what was the rotation for Admon on a Sunday?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Admon was assigned to the 8 am - 4 pm (Day Shift) on Sundays.",
+  "question_date": "2023/05/30 (Tue) 23:31",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-09T22:58:24.386795",
+  "predicted_answer": "On a Sunday, Admon was scheduled for the 8 am - 4 pm shift.",
+  "prompt_length": 10769,
+  "gen_token_usage": {
+    "prompt_tokens": 3109,
+    "answer_tokens": 19,
+    "total_tokens": 3128,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.37,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 14,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.7826086956521738,
+      "rouge1_f": 0.7692307692307693,
+      "rouge2_f": 0.4166666666666667,
+      "rougeL_f": 0.6153846153846154,
+      "semantic_similarity": 0.9052689075469971,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.5418060200668896,
+      "avg_semantic": 0.9052689075469971,
+      "overall_average": 0.6144986152648926
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.7826086956521738,
+    "rouge1_f": 0.7692307692307693,
+    "rouge2_f": 0.4166666666666667,
+    "rougeL_f": 0.6153846153846154,
+    "semantic_similarity": 0.9052689075469971,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.5418060200668896,
+    "avg_semantic": 0.9052689075469971,
+    "overall_average": 0.6144986152648926
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.6869,
+    "retrieval_time": 0.6913,
+    "generation_time": 2.6817,
+    "evaluation_time": 9.6185,
+    "cleanup_time": 1.7076,
+    "total_time": 140.3866
+  }
+}
