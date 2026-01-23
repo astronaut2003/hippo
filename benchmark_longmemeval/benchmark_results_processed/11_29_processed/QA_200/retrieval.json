@@ -1,0 +1,242 @@
+{
+  "sample_idx": 200,
+  "question_id": "0ea62687",
+  "question": "How much more miles per gallon was my car getting a few months ago compared to now?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T05:23:38.053607",
+  "load_result": {
+    "total_sessions": 43,
+    "added_sessions": 43,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "4c67dab0-d84d-440e-a025-f820c2be5e9f",
+      "memory": "Car was getting 30 miles per gallon in the city a few months ago",
+      "hash": "45a68c1031fd589dcdfc1a3910ba77e4",
+      "metadata": null,
+      "score": 0.7857833308295626,
+      "created_at": "2025-12-08T13:23:57.828793-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.9999999993089105
+    },
+    {
+      "id": "6b54be05-e7b7-4c98-bc31-0d801cc19921",
+      "memory": "Hoping to get back to 30 miles per gallon in the city",
+      "hash": "11e810f7ac5cfaaf4c29c286a0ed4775",
+      "metadata": null,
+      "score": 0.652418691162659,
+      "created_at": "2025-12-08T13:23:57.847137-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.644765003424576
+    },
+    {
+      "id": "c9aae98d-8ad7-4b65-bb79-6df29e846b8f",
+      "memory": "They're already a month old now",
+      "hash": "d96ab8bcd50666e7732b0df1be170d7c",
+      "metadata": null,
+      "score": 0.1859003316506686,
+      "created_at": "2025-12-08T13:38:08.763504-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.4141661016774018
+    },
+    {
+      "id": "30759e05-e9d9-4fc5-8fb2-91174b16b8af",
+      "memory": "Oil change is overdue by about 1000 miles",
+      "hash": "6da725b78d60fe803dc55382cd05fadd",
+      "metadata": null,
+      "score": 0.4649391892951842,
+      "created_at": "2025-12-08T13:23:57.873476-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.38069093064976534
+    },
+    {
+      "id": "6bab8e3b-78e1-4ccb-84a3-bb7fd5b03f3c",
+      "memory": "Has been building models for a few months",
+      "hash": "fe1c6b92674f30ea9949fa40dea818bb",
+      "metadata": null,
+      "score": 0.188508901567121,
+      "created_at": "2025-12-08T13:33:00.001649-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.37079301977197665
+    },
+    {
+      "id": "d056f37c-b219-41df-8370-5b05b8ae5979",
+      "memory": "Thinking of getting a tune-up for the car soon",
+      "hash": "c907d5bee3319b069be91e3e3324ecf9",
+      "metadata": null,
+      "score": 0.28073505060402076,
+      "created_at": "2025-12-08T13:23:57.791154-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.25721515317126686
+    },
+    {
+      "id": "d42ae326-359b-45ee-8f0c-b01c0b46c5d2",
+      "memory": "Hasn't uploaded ride data in a while",
+      "hash": "13b05460c980cba3a29ba432e9e26566",
+      "metadata": null,
+      "score": 0.18473125285459335,
+      "created_at": "2025-12-08T13:27:47.876919-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.1780454760318055
+    },
+    {
+      "id": "ddf2669d-e8a6-441c-99d5-ff5d2d335307",
+      "memory": "Will check the air filter, spark plugs, and tire pressure",
+      "hash": "2fcdd0b1a3832c6c148cd93d2cff68bc",
+      "metadata": null,
+      "score": 0.24275650978696994,
+      "created_at": "2025-12-08T13:23:57.860507-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.05848578581275375
+    },
+    {
+      "id": "86104ae4-99d9-4608-985d-e5688ab3d4e0",
+      "memory": "Recently built a model of a Ford Mustang, which is a type of car",
+      "hash": "c9cc5804e455aceff83d84f9626c9313",
+      "metadata": null,
+      "score": 0.19173715495748023,
+      "created_at": "2025-12-08T13:33:00.015003-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.030452392979447938
+    },
+    {
+      "id": "9b8cd24d-3cc3-41d5-b9a4-0805042566f5",
+      "memory": "Considering getting a dash cam",
+      "hash": "2e5f3220137247e984cbd78c9024b7b1",
+      "metadata": null,
+      "score": 0.19905756693456245,
+      "created_at": "2025-12-08T13:23:57.890215-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.011656452738109767
+    },
+    {
+      "id": "2c5bab6f-7e37-40c4-b3f4-4fcc0bd3a520",
+      "memory": "Wants to know how many days are in a certain amount of time, and remembers that it's equivalent to 14 days",
+      "hash": "8d967fbe66662c4f589bfd747e68a183",
+      "metadata": null,
+      "score": 0.20534586679331823,
+      "created_at": "2025-12-08T13:36:37.639161-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.011417736052026157
+    },
+    {
+      "id": "cb62fe16-3ed6-4239-81da-43035a4689d5",
+      "memory": "Got new golf clubs three weeks ago",
+      "hash": "05a3e371f5833bf88020dd8cee5c4b25",
+      "metadata": null,
+      "score": 0.17185367364187665,
+      "created_at": "2025-12-08T13:27:47.756050-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.00144528387883145
+    },
+    {
+      "id": "082e8e95-b717-4e10-8429-516226dd5fd6",
+      "memory": "Invested in a new area rug for the bedroom about two months ago",
+      "hash": "97f1f7f8b555d884dbdb757a74b477ff",
+      "metadata": null,
+      "score": 0.2622655710886857,
+      "created_at": "2025-12-08T13:34:38.733968-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.0012722109860496822
+    },
+    {
+      "id": "bd32ac4f-0ee8-42b7-b882-83f45b534e2e",
+      "memory": "Considering a dash cam that costs around $150",
+      "hash": "475027721d10217d93ae8bee1808e6d6",
+      "metadata": null,
+      "score": 0.24782679289619552,
+      "created_at": "2025-12-08T13:23:57.907230-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.0007876596121991272
+    },
+    {
+      "id": "47fc198a-61c3-4f8d-8108-11cffdca33d0",
+      "memory": "Thinks the dash cam is a good value for the features it offers",
+      "hash": "d501e0f6c08520de511bee6e907e697a",
+      "metadata": null,
+      "score": 0.1840526783391511,
+      "created_at": "2025-12-08T13:23:57.936227-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.0005789967110006973
+    },
+    {
+      "id": "7af12d3c-5092-410d-870c-d6bb62e1458d",
+      "memory": "Thinking of spending around $200 to $300 for the lamp",
+      "hash": "a18edc19086ce762ca254015f7f305c2",
+      "metadata": null,
+      "score": 0.17421186383999293,
+      "created_at": "2025-12-08T13:34:38.824447-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.0005247549018767844
+    },
+    {
+      "id": "a6cb3f0c-72e9-417f-b21f-5cff561d6a4c",
+      "memory": "Will go with the dash cam that costs around $150",
+      "hash": "736b59ef3b0847c430b30f20cfdfa5e6",
+      "metadata": null,
+      "score": 0.20443893641424804,
+      "created_at": "2025-12-08T13:23:57.950220-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.0003980149274596711
+    },
+    {
+      "id": "f126462b-69fe-4621-83ca-33cd6a57b467",
+      "memory": "Got approved for a $450,000 loan, but the house being bought is more expensive than that",
+      "hash": "2d45330a381ae662e9e212e48754b5c2",
+      "metadata": null,
+      "score": 0.21411610091905178,
+      "created_at": "2025-12-08T13:40:46.341589-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.0003885242585485612
+    },
+    {
+      "id": "d6626d37-64c7-4eab-a996-ef513df2fcdc",
+      "memory": "Wants to know the average cost of homeowner's insurance in the Oakwood neighborhood, where the new house is located",
+      "hash": "3fd3c6fe569ff2a84d2613c9490211e9",
+      "metadata": null,
+      "score": 0.22373424405420017,
+      "created_at": "2025-12-08T13:40:46.382309-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.00029071764282573423
+    },
+    {
+      "id": "44122a10-c830-4663-b827-ca1781beec3e",
+      "memory": "Caught 12 fish including some nice bass and walleye on the previous trip",
+      "hash": "f14d60eadd93d71d1486a6a06abbc8b2",
+      "metadata": null,
+      "score": 0.1913506983886543,
+      "created_at": "2025-12-08T13:39:04.641507-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_200",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.0955,
+    "load_time": 1359.4185
+  }
+}

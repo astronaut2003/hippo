@@ -1,0 +1,242 @@
+{
+  "sample_idx": 143,
+  "question_id": "6b7dfb22",
+  "question": "I've been feeling a bit stuck with my paintings lately. Do you have any ideas on how I can find new inspiration?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T10:59:47.859906",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "57a8071f-1186-4e05-8972-8579d88f6de6",
+      "memory": "Trying to focus on solo activities like painting and video games, but it's not fulfilling",
+      "hash": "31c84e648e93c088ae8a4db4e19f60a0",
+      "metadata": null,
+      "score": 0.355401481720122,
+      "created_at": "2025-12-06T19:00:11.373279-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.9999999985286815
+    },
+    {
+      "id": "8b00089a-440d-4c81-98ce-30ccdf912d91",
+      "memory": "Been feeling disconnected from social circle lately",
+      "hash": "9d7761812c3180396c8670b1f01928b5",
+      "metadata": null,
+      "score": 0.24061530600525724,
+      "created_at": "2025-12-06T19:00:11.320146-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.9742086082783814
+    },
+    {
+      "id": "fff76f4b-ce7b-4b8d-9faa-8495ce0712d4",
+      "memory": "Looking for inspiration for new cocktails to try at home",
+      "hash": "13aba266fa8894ec6720e7d8ce6242fc",
+      "metadata": null,
+      "score": 0.40422024706804394,
+      "created_at": "2025-12-06T19:02:45.133482-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.3274690414519379
+    },
+    {
+      "id": "3e3947ce-63ba-4f7a-8ab2-b1f0d492437b",
+      "memory": "Wants inspiration for next Instacart order",
+      "hash": "0010635da4422607aa8c367070f0967a",
+      "metadata": null,
+      "score": 0.3600974904806073,
+      "created_at": "2025-12-06T19:18:32.863905-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.12610664478828978
+    },
+    {
+      "id": "4e2d8fd7-6997-49bd-81ea-1739c4cde5b2",
+      "memory": "Excited to try some new recipes now",
+      "hash": "acd7ca6824c7266bd1177e40f3fc820d",
+      "metadata": null,
+      "score": 0.25103070013479206,
+      "created_at": "2025-12-06T19:16:48.478205-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.052864846621866884
+    },
+    {
+      "id": "f8fd9ccf-ce3c-4332-a87e-d16782a8fe50",
+      "memory": "Thinking of displaying framed photos and decorative vases on the shelf",
+      "hash": "e050d00e6f23ba6a535e34fec3d77abc",
+      "metadata": null,
+      "score": 0.3172211880768562,
+      "created_at": "2025-12-06T19:11:09.172239-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.02202650493424768
+    },
+    {
+      "id": "59797ee9-8db8-4350-8137-78ff242cdca6",
+      "memory": "Listening to a lot of music recently",
+      "hash": "545a0e4404936522611931a31bf928d2",
+      "metadata": null,
+      "score": 0.23550540664667685,
+      "created_at": "2025-12-06T19:23:28.238435-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.012806629625481188
+    },
+    {
+      "id": "15ee1d8f-5653-422c-9b79-43bba6019c9e",
+      "memory": "Wants inspiration for healthy snack ideas that can be prepped in advance",
+      "hash": "1e25199ba7b3aa40762f228dd995b2d6",
+      "metadata": null,
+      "score": 0.22540310892820328,
+      "created_at": "2025-12-06T19:08:53.482677-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.003791334857899657
+    },
+    {
+      "id": "54569a9e-da6c-4374-89ee-cc662f91801e",
+      "memory": "Enjoys collaborating with others to brainstorm ideas and develop effective strategies",
+      "hash": "56bd859121961ddfa7754f68b7c99404",
+      "metadata": null,
+      "score": 0.2342189969218503,
+      "created_at": "2025-12-06T19:24:28.682880-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.00373899703769253
+    },
+    {
+      "id": "6c759bbf-b082-44c5-b8ea-a7eb7dcfe243",
+      "memory": "Thinking about how to organize photos digitally",
+      "hash": "64083ba7a5b23a0c2b95c49a9902f6f4",
+      "metadata": null,
+      "score": 0.2367664497419027,
+      "created_at": "2025-12-06T19:25:23.098754-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.0018855646861752624
+    },
+    {
+      "id": "0fa93b7d-df42-4a5d-9667-976181bbee42",
+      "memory": "Looking for inspiration for a DIY project to upcycle old jeans",
+      "hash": "f4135aa3c8438f3ae79b6a282f62cfa1",
+      "metadata": null,
+      "score": 0.28929095856361964,
+      "created_at": "2025-12-06T19:25:54.540855-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.0017552112412089864
+    },
+    {
+      "id": "3782ccb5-a895-4e88-8cae-6a090baae065",
+      "memory": "Excited to try out Mindful Movement",
+      "hash": "0815d0733a0c904e439b979c14698c7a",
+      "metadata": null,
+      "score": 0.2572709741562851,
+      "created_at": "2025-12-06T19:14:28.208563-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.0016419763326107248
+    },
+    {
+      "id": "49ccca80-f5b4-47aa-b832-be5434af5934",
+      "memory": "Has the opportunity to develop creative campaigns that connect with audience and drive results",
+      "hash": "1c35bf754c772558eeb3c0f9d0993d02",
+      "metadata": null,
+      "score": 0.32562779050325136,
+      "created_at": "2025-12-06T19:24:28.715729-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.001448200113559673
+    },
+    {
+      "id": "2df3e205-b435-473e-9862-e67955ca5608",
+      "memory": "Inspired by guitar work of David Gilmour and Stevie Ray Vaughan",
+      "hash": "3ac8750b3152ac87d48eeaf4aca64cc3",
+      "metadata": null,
+      "score": 0.271755331411809,
+      "created_at": "2025-12-06T19:23:28.258645-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.0014444115850192106
+    },
+    {
+      "id": "545b2308-1aa0-4b78-bfbe-0138d4a9e30e",
+      "memory": "Has a few variant covers featuring Miles Morales in collection",
+      "hash": "31228d185def78d86af667532d22d724",
+      "metadata": null,
+      "score": 0.2566153671946292,
+      "created_at": "2025-12-06T19:01:40.086803-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.001137961720857373
+    },
+    {
+      "id": "e15fdda2-c08c-42d3-b232-331c04bff342",
+      "memory": "Wants recommendations for recipes that use almond butter or cashew butter in creative ways",
+      "hash": "f9eed59e00c093f72c1a8b386b350ece",
+      "metadata": null,
+      "score": 0.2529373782295906,
+      "created_at": "2025-12-06T19:08:53.721688-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.0010990942243496674
+    },
+    {
+      "id": "9feb8ba2-af31-4fb5-a022-2984e4d8724a",
+      "memory": "Exploring different genres of music on ukulele",
+      "hash": "166a8c6c0f11b2183eda9b78a6f493e3",
+      "metadata": null,
+      "score": 0.2427435620031009,
+      "created_at": "2025-12-06T19:23:28.186826-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.00021328012524083934
+    },
+    {
+      "id": "9206b57c-d9bc-4454-a4bb-9f4a455055e0",
+      "memory": "Will vary heights and textures of items for visual interest",
+      "hash": "8c599bfe6d2bda76773739f721687ef6",
+      "metadata": null,
+      "score": 0.23581911863136587,
+      "created_at": "2025-12-06T19:11:09.241718-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.00020275643485066633
+    },
+    {
+      "id": "68313f0c-469d-4ba1-98fa-2116f48afd1c",
+      "memory": "Is a creative problem solver who thrives on finding innovative solutions that help clients achieve their goals",
+      "hash": "1508eac5debad1500c9f85c76ae3eaa0",
+      "metadata": null,
+      "score": 0.2778418786398169,
+      "created_at": "2025-12-06T19:24:28.669566-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.00017763989378612012
+    },
+    {
+      "id": "8f176c0f-9902-495e-a7cf-9cbd6a2bef97",
+      "memory": "Will place vases together with clock in between, then alternate between framed photos and vases",
+      "hash": "fa4c20caf14d8618749b6bc255f4634f",
+      "metadata": null,
+      "score": 0.22626700047134723,
+      "created_at": "2025-12-06T19:11:09.226210-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_143",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5936,
+    "load_time": 1670.2998
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 104,
+  "question_id": "2788b940",
+  "question": "How many fitness classes do I attend in a typical week?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T07:21:35.373210",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "c5b12a33-5c8b-4c2b-b7cc-e084c46fc28b",
+      "memory": "Mixes up workout routine by attending different classes like Zumba, Hip Hop Abs, yoga, and BodyPump",
+      "hash": "3583892103414690338e9d4da981c2a3",
+      "metadata": null,
+      "score": 0.5151487841455605,
+      "created_at": "2025-12-01T15:21:52.289046-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.999999998081481
+    },
+    {
+      "id": "8454a854-1606-403c-a210-f38c9e0ae3e9",
+      "memory": "Looking to explore new fitness routines",
+      "hash": "191edb8fd67dabcf7567204c51efb5f4",
+      "metadata": null,
+      "score": 0.4284780321444751,
+      "created_at": "2025-12-01T15:37:53.604198-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.9524282903717569
+    },
+    {
+      "id": "4374d51c-4951-4777-a04d-cf5d0f540ffe",
+      "memory": "Will try scheduling workouts into calendar and doing shorter workouts throughout the day",
+      "hash": "1c07d563dbb2ee1395f1dbbe12dc6d21",
+      "metadata": null,
+      "score": 0.3998190997538958,
+      "created_at": "2025-12-01T15:29:05.797017-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.5726926963777805
+    },
+    {
+      "id": "c57c0e95-7528-49ab-a8ce-3215c691723a",
+      "memory": "Struggles with finding time for exercise with a busy schedule",
+      "hash": "feeb92d5782239e69d2bd56d7949c54d",
+      "metadata": null,
+      "score": 0.4073407677843999,
+      "created_at": "2025-12-01T15:29:05.780505-08:00",
+      "updated_at": "2025-12-01T15:31:09.915973-08:00",
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.5458646504269186
+    },
+    {
+      "id": "7872da3c-e0e6-43b0-a914-e6a0658efd88",
+      "memory": "Looking for workout playlist recommendations to motivate during weightlifting classes like BodyPump on Mondays at 6:30 PM",
+      "hash": "b48df4090e728ef46876e96bcd0a863f",
+      "metadata": null,
+      "score": 0.38636647993410844,
+      "created_at": "2025-12-01T15:37:53.692020-08:00",
+      "updated_at": "2025-12-01T15:39:49.650144-08:00",
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.47201625949205667
+    },
+    {
+      "id": "f9401558-cea8-48f4-8c35-7b3a8da6bfbd",
+      "memory": "Thinking of making a playlist for yoga classes on Sundays",
+      "hash": "8d6bbfaf6c6c0d03a4166db442b62fcb",
+      "metadata": null,
+      "score": 0.38279998357419165,
+      "created_at": "2025-12-01T15:39:50.508239-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.4604075446349995
+    },
+    {
+      "id": "95d696f8-6e35-416a-9496-475b5e2987c2",
+      "memory": "Takes Zumba classes on Tuesdays and Thursdays at 7:00 PM",
+      "hash": "d0c5156b833db0ad2699b79e8e7bcdf4",
+      "metadata": null,
+      "score": 0.5139268840524351,
+      "created_at": "2025-12-01T15:21:52.190168-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.4582105100869674
+    },
+    {
+      "id": "3cf149c2-10ca-45c4-892d-9078af30279e",
+      "memory": "Recently started taking a BodyPump class on Mondays",
+      "hash": "8a36076f16b7d9bcd54df016f0b771be",
+      "metadata": null,
+      "score": 0.41543795734841044,
+      "created_at": "2025-12-01T15:21:52.224685-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.4354212166855109
+    },
+    {
+      "id": "f37baa15-0989-400e-b6eb-a7f4ae0735fc",
+      "memory": "Thinking of trying new recipes to support fitness goals",
+      "hash": "6d4a5830938a7de779e42d79d6a28c66",
+      "metadata": null,
+      "score": 0.27901476126057434,
+      "created_at": "2025-12-01T15:39:50.545364-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.39624454850648577
+    },
+    {
+      "id": "20593569-ec32-4f22-9cd1-0a110c2d17a7",
+      "memory": "Will try to adjust wake-up time and fit in a quick 15-20 minute workout in the morning",
+      "hash": "8a6060e6a5b9b9391e0bc6e5428471d7",
+      "metadata": null,
+      "score": 0.30738432614198496,
+      "created_at": "2025-12-01T15:37:53.654660-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.295200353506043
+    },
+    {
+      "id": "2ee2cea9-2d1c-4cb5-92ee-c17ac5b71f95",
+      "memory": "Will try out a few of the Fitness Blender videos to start",
+      "hash": "4668d0bf9cf273edb3b641b6021e8c03",
+      "metadata": null,
+      "score": 0.2999784961563919,
+      "created_at": "2025-12-01T15:29:05.765345-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.28179511281394864
+    },
+    {
+      "id": "0927d5c3-0fbf-4cb1-b997-e76137b1459e",
+      "memory": "Thinking of trying some protein-rich snacks like Greek yogurt or hard-boiled eggs to support weightlifting classes like BodyPump on Mondays",
+      "hash": "3be0c41c06c48a2f8a82af27b38035d0",
+      "metadata": null,
+      "score": 0.3140908908445523,
+      "created_at": "2025-12-01T15:37:53.636472-08:00",
+      "updated_at": "2025-12-01T15:38:25.013785-08:00",
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.2803070646811084
+    },
+    {
+      "id": "8ceede2f-ff43-4459-89a5-f06c3bc46150",
+      "memory": "Has been taking sculpting classes for a few months",
+      "hash": "ef1924ebf2825a029db6833dde5c53b8",
+      "metadata": null,
+      "score": 0.275999236199138,
+      "created_at": "2025-12-01T15:30:03.781583-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.13028389254837425
+    },
+    {
+      "id": "e80d68ac-979b-4a87-a034-83bcc7d137dd",
+      "memory": "Likes to arrive about 15 minutes early to Zumba classes to warm up",
+      "hash": "abe96b2828fc51d5bd3fe3de7484e030",
+      "metadata": null,
+      "score": 0.3419925839749227,
+      "created_at": "2025-12-01T15:21:52.240694-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.09285874100228642
+    },
+    {
+      "id": "f16d2ffe-c5d1-4401-b0bf-0a25931f9f52",
+      "memory": "Will plan workout the night before and keep it short and enjoyable",
+      "hash": "e25150f8d778b52f14a212cfc3004bcf",
+      "metadata": null,
+      "score": 0.3116881572842451,
+      "created_at": "2025-12-01T15:37:53.672990-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.07603078834399973
+    },
+    {
+      "id": "c7f7f393-4c1c-43ea-978e-e549ba83127e",
+      "memory": "Looking for new yoga routines to try at home",
+      "hash": "163d1c921efa0a48b68477d3733a832d",
+      "metadata": null,
+      "score": 0.3117346407639508,
+      "created_at": "2025-12-01T15:24:51.964500-08:00",
+      "updated_at": "2025-12-01T15:37:52.792340-08:00",
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.0703951239412278
+    },
+    {
+      "id": "4621259d-d8eb-4319-b3a6-7b4d3728fa22",
+      "memory": "Attends Hip Hop Abs on Saturdays at 10:00 AM, which gets pumped up for the day",
+      "hash": "aaa2be0048b4c1758ab24bfbde113df9",
+      "metadata": null,
+      "score": 0.37537595405103696,
+      "created_at": "2025-12-01T15:39:50.589942-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.06819003896680381
+    },
+    {
+      "id": "37a32ddc-26a7-4898-b424-eb642909a7af",
+      "memory": "Not free on Sundays because has a yoga class at 6:00 PM",
+      "hash": "c06a2c1cd41246a65e85cb4143b4e8fb",
+      "metadata": null,
+      "score": 0.33045830853042735,
+      "created_at": "2025-12-01T15:23:17.975413-08:00",
+      "updated_at": "2025-12-01T15:37:53.562052-08:00",
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.04196650685227583
+    },
+    {
+      "id": "6ea8eb80-d2ca-4377-aaa3-0ad78cbae3fa",
+      "memory": "Is a beginner in yoga",
+      "hash": "1b47ab9b1cce45d027f0f1915b470b9c",
+      "metadata": null,
+      "score": 0.2894462309262127,
+      "created_at": "2025-12-01T15:24:51.997451-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.0017800590537811899
+    },
+    {
+      "id": "21404887-4b22-4a95-bd29-888c1a195508",
+      "memory": "Usually meal preps on Sundays and brings healthy snacks to work, which has helped cut down on junk food and stay motivated",
+      "hash": "f0c4ba28a1afb4fc2c8b7a55ca96f578",
+      "metadata": null,
+      "score": 0.319691485122809,
+      "created_at": "2025-12-01T15:21:52.257639-08:00",
+      "updated_at": "2025-12-01T15:39:50.460798-08:00",
+      "user_id": "benchmark_processed_104",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3777,
+    "load_time": 1273.0514
+  }
+}

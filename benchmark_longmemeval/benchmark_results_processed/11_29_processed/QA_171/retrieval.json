@@ -1,0 +1,242 @@
+{
+  "sample_idx": 171,
+  "question_id": "51c32626",
+  "question": "When did I submit my research paper on sentiment analysis?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T17:16:46.582039",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "c3e5de48-81dc-4efc-9ead-8168b7c0fb96",
+      "memory": "Worked on a research paper on sentiment analysis submitted to ACL",
+      "hash": "11a40c153e750080f956464ff8e8e333",
+      "metadata": null,
+      "score": 0.623053174390261,
+      "created_at": "2025-12-08T01:22:23.459095-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.9999999990376174
+    },
+    {
+      "id": "b2e88f38-7e84-4898-8b37-aca40140a84d",
+      "memory": "ACL submission date was February 1st",
+      "hash": "86b7c7176244a749a86cd7702380bd34",
+      "metadata": null,
+      "score": 0.3154814010945475,
+      "created_at": "2025-12-08T01:39:29.685418-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.5159972905264347
+    },
+    {
+      "id": "7153ba9f-1aa4-488c-bb12-c1d555db929d",
+      "memory": "Been exploring different approaches to sentiment analysis",
+      "hash": "4c676a3cfdcca75b6f8aa9bce8540cce",
+      "metadata": null,
+      "score": 0.48233655719192614,
+      "created_at": "2025-12-08T01:39:29.569468-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.5145844758808893
+    },
+    {
+      "id": "c48d740a-705a-4e37-a2a0-5a908dcd31de",
+      "memory": "Interested in natural language processing techniques for sentiment analysis since thesis",
+      "hash": "351a3ecc9baece8733e5a31ed420591e",
+      "metadata": null,
+      "score": 0.41779742317975455,
+      "created_at": "2025-12-08T01:22:23.440146-08:00",
+      "updated_at": "2025-12-08T01:39:29.549547-08:00",
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.511184946568452
+    },
+    {
+      "id": "0eb3d114-777c-4652-8187-61dac8c3c799",
+      "memory": "Specifically interested in deep learning techniques for sentiment analysis",
+      "hash": "2618ca4f2e33e0a35085c2d01b580ff3",
+      "metadata": null,
+      "score": 0.40026523234784833,
+      "created_at": "2025-12-08T01:39:29.586320-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.3283284959081035
+    },
+    {
+      "id": "e4c1bf5d-9cf6-4292-90cf-d391e56c55d7",
+      "memory": "Looking for guidance on natural language processing techniques for sentiment analysis",
+      "hash": "262e49bfb2bf2be7616996843f50defc",
+      "metadata": null,
+      "score": 0.43602928181967193,
+      "created_at": "2025-12-08T01:22:23.418956-08:00",
+      "updated_at": "2025-12-08T01:39:29.514221-08:00",
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.2780225750300829
+    },
+    {
+      "id": "2338074b-ec63-4658-93e5-c7f424cfa22e",
+      "memory": "Wants to know if assistant has worked with any sentiment analysis datasets or libraries",
+      "hash": "157d80a05497b43c045baecc0800bcea",
+      "metadata": null,
+      "score": 0.4676202349194447,
+      "created_at": "2025-12-08T01:22:23.689087-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.27506882093013235
+    },
+    {
+      "id": "1ade038b-b578-4a17-bdc9-a8d35c82ff67",
+      "memory": "Interested in examples of successful architectures for sentiment analysis",
+      "hash": "4f6992fabcd6bd5263fcbd9a88de051e",
+      "metadata": null,
+      "score": 0.41167911972484383,
+      "created_at": "2025-12-08T01:39:29.618378-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.26712150336281987
+    },
+    {
+      "id": "59250b36-b3e9-46e8-9fe3-f293ffd77edb",
+      "memory": "Familiar with the importance of preprocessing and feature extraction for sentiment analysis",
+      "hash": "2123d8ab66b33150f1362a03622c03bd",
+      "metadata": null,
+      "score": 0.4052929082284359,
+      "created_at": "2025-12-08T01:22:23.575729-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.178679499289569
+    },
+    {
+      "id": "88507de1-4888-4fa1-8e0e-795e04e577bc",
+      "memory": "Interested in the hybrid CNN-RNN architecture for sentiment analysis",
+      "hash": "4729153e9ec535b2034987db3d5a5050",
+      "metadata": null,
+      "score": 0.2549947835784227,
+      "created_at": "2025-12-08T01:39:29.634251-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.13481520002488706
+    },
+    {
+      "id": "5c1121e1-4038-4798-a204-2b139aa6775d",
+      "memory": "Interested in how Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) are used for sentiment analysis",
+      "hash": "25a0d469c10b2b3b1dc2ff4912421de5",
+      "metadata": null,
+      "score": 0.3077422001022623,
+      "created_at": "2025-12-08T01:39:29.602415-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.12765957629799263
+    },
+    {
+      "id": "4cfba63d-09f3-4231-8f52-e28ebec22ceb",
+      "memory": "Curious about applications of the hybrid CNN-RNN architecture in sentiment analysis for social media text data",
+      "hash": "8fd195e8603798394d2391113cedcfa7",
+      "metadata": null,
+      "score": 0.310354392778172,
+      "created_at": "2025-12-08T01:39:29.650920-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.1226683073293567
+    },
+    {
+      "id": "98e1f19c-81e0-42f4-b981-ec2c0450c69b",
+      "memory": "Has used supervised learning before",
+      "hash": "bfcf1c521d82beda0272e14c003aeb15",
+      "metadata": null,
+      "score": 0.24063785940742777,
+      "created_at": "2025-12-08T01:22:23.535588-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.0018806629357762297
+    },
+    {
+      "id": "31159479-ef41-4a95-9d2c-0a68e2975f5b",
+      "memory": "Working with product reviews",
+      "hash": "b494ca8074c7c93eff5bb5a73950ddb7",
+      "metadata": null,
+      "score": 0.38968331941107737,
+      "created_at": "2025-12-08T01:22:23.497130-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.0018658863639808086
+    },
+    {
+      "id": "90ccf88d-05eb-4e24-bec9-415953743c63",
+      "memory": "Wants help with text classification using machine learning",
+      "hash": "c4912d6a786df43f7e03701de7250e14",
+      "metadata": null,
+      "score": 0.23870826075638327,
+      "created_at": "2025-12-08T01:22:23.477858-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.0018469796944785928
+    },
+    {
+      "id": "6eaecc37-88c1-44bd-b27b-eabe0bf09a87",
+      "memory": "Had an amazing academic advisor, Dr. Smith, who provided valuable guidance during undergraduate studies",
+      "hash": "a10b64dc7246943610e1d547081b98f7",
+      "metadata": null,
+      "score": 0.2051972943915486,
+      "created_at": "2025-12-08T01:29:37.354070-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.0017818159306602765
+    },
+    {
+      "id": "099a5f88-23fe-4444-b2c1-ab8b6396080f",
+      "memory": "Wants to classify product reviews as either positive or negative",
+      "hash": "b406e24399f5c3adcb0d48ff9f20f878",
+      "metadata": null,
+      "score": 0.3938220275069721,
+      "created_at": "2025-12-08T01:22:23.516276-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.0010584063723279235
+    },
+    {
+      "id": "a4319e95-9390-4397-ae3d-fced03c6b6b1",
+      "memory": "Will write Python code to tokenize reviews, remove stopwords, and perform stemming or lemmatization",
+      "hash": "9fb7edb38a36377cc2202d2fc3ae9e2c",
+      "metadata": null,
+      "score": 0.308030701545347,
+      "created_at": "2025-12-08T01:22:23.726733-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.0005402167800487476
+    },
+    {
+      "id": "c65de1d6-97c3-463a-b051-0b5581898dcd",
+      "memory": "Mostly interested in accuracy and F1-score as evaluation metrics",
+      "hash": "b7fdf76349b7b5e6af9990facce4fb1d",
+      "metadata": null,
+      "score": 0.23775889520793797,
+      "created_at": "2025-12-08T01:22:23.646494-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.0001780531011373718
+    },
+    {
+      "id": "94aeb07e-115f-41c7-a4c9-1cd704df9e62",
+      "memory": "Class balance in dataset is relatively even, with around 55% positive reviews and 45% negative reviews",
+      "hash": "aa36332a90efa6f272df6bc09ebe28bc",
+      "metadata": null,
+      "score": 0.28760352746215856,
+      "created_at": "2025-12-08T01:22:23.628276-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_171",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.1493,
+    "load_time": 1481.5316
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_idx": 207,
+  "question_id": "73d42213",
+  "question": "What time did I reach the clinic on Monday?",
+  "question_type": "multi-session",
+  "gold_answer": "9:00 AM",
+  "question_date": "2023/05/30 (Tue) 22:10",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2026-01-14T00:43:07.395295",
+  "predicted_answer": "You left home at 7 AM on Monday, and it took two hours to get to the clinic, so you reached the clinic at 9 AM.",
+  "prompt_length": 2878,
+  "gen_token_usage": {
+    "prompt_tokens": 777,
+    "answer_tokens": 31,
+    "total_tokens": 808,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.59,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 26,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.08,
+      "rouge1_f": 0.13793103448275862,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.13793103448275862,
+      "semantic_similarity": 0.39042913913726807,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.08896551724137931,
+      "avg_semantic": 0.39042913913726807,
+      "overall_average": 0.14925824105739594
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.08,
+    "rouge1_f": 0.13793103448275862,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.13793103448275862,
+    "semantic_similarity": 0.39042913913726807,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.08896551724137931,
+    "avg_semantic": 0.39042913913726807,
+    "overall_average": 0.14925824105739594
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1127.22,
+    "retrieval_time": 1.2223,
+    "generation_time": 3.0018,
+    "evaluation_time": 0.9052,
+    "cleanup_time": 1.5515,
+    "total_time": 1133.9046
+  }
+}

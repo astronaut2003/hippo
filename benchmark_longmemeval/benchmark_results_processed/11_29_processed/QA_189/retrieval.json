@@ -1,0 +1,242 @@
+{
+  "sample_idx": 189,
+  "question_id": "27016adc",
+  "question": "What percentage of the countryside property's price is the cost of the renovations I plan to do on my current house?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T01:12:02.567339",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "f5a9e986-8bd4-41c8-9848-fca2d6df9739",
+      "memory": "Planning to do some renovations to current house",
+      "hash": "a0b5ad4374f60474c459012425fdba42",
+      "metadata": null,
+      "score": 0.5999095659525072,
+      "created_at": "2025-12-08T09:28:12.386138-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.9999999993233663
+    },
+    {
+      "id": "45de6ffc-73b7-4e42-bcb4-5f3df2052b63",
+      "memory": "Trying to get a sense of how much to budget for property taxes after renovations are complete",
+      "hash": "f34f63f7f178fe4608a918343a9fa9a3",
+      "metadata": null,
+      "score": 0.6448313206713497,
+      "created_at": "2025-12-08T09:28:12.425315-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.4696566400931288
+    },
+    {
+      "id": "e7018c16-5483-4bbe-907b-6972ff47e292",
+      "memory": "Planning to start the renovation project in the spring",
+      "hash": "45a2caa5b9b2e4bf794f8c255955b498",
+      "metadata": null,
+      "score": 0.45112069283603906,
+      "created_at": "2025-12-08T09:28:12.471001-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.4681291140302892
+    },
+    {
+      "id": "1f471079-862d-4608-b105-e22d06a6f4b0",
+      "memory": "Estimates the renovations will cost around $20,000",
+      "hash": "2e69dac75ee17319ac5cd80d7571cb27",
+      "metadata": null,
+      "score": 0.6296144496074114,
+      "created_at": "2025-12-08T09:28:12.455871-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.45981406023655
+    },
+    {
+      "id": "3d689e8a-d121-45a9-9c2d-5a21215aef96",
+      "memory": "Considering buying a plot of land in the countryside",
+      "hash": "617301477b465fcc0526050e239e592c",
+      "metadata": null,
+      "score": 0.5337582519854136,
+      "created_at": "2025-12-08T09:18:25.006107-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.40459036654560226
+    },
+    {
+      "id": "a660fe64-dd4c-48d1-8454-d43ae01aff36",
+      "memory": "Renovations include adding a deck and a patio",
+      "hash": "5f21052ae62e203fca3bbf19e9980c84",
+      "metadata": null,
+      "score": 0.44741872521880677,
+      "created_at": "2025-12-08T09:28:12.440690-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.3989965250631583
+    },
+    {
+      "id": "1043d7e6-fccf-44bc-8cde-d07895b28706",
+      "memory": "Unsure about how to determine the property's value",
+      "hash": "4c290c4cd329a0650f12ea662df603f4",
+      "metadata": null,
+      "score": 0.3354855031153618,
+      "created_at": "2025-12-08T09:18:25.100788-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.20842025820879048
+    },
+    {
+      "id": "3db6656e-fece-4a9b-a9e9-ecd321754ed3",
+      "memory": "Planning to visit some local antique shops and dealers to learn more about restoration and maybe find pieces to practice on",
+      "hash": "9cf8a8a70a01af8da8d5d05099f0e465",
+      "metadata": null,
+      "score": 0.32032208815305074,
+      "created_at": "2025-12-08T09:14:09.906211-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.14108411913294155
+    },
+    {
+      "id": "529f301e-d5aa-4ad3-a3a6-8ce5de8e3b21",
+      "memory": "Interested in a 5-acre property listed at $200,000",
+      "hash": "8a1811e72b4d2c9784ed4e6dcf0064e7",
+      "metadata": null,
+      "score": 0.4986517435203301,
+      "created_at": "2025-12-08T09:18:25.036822-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.12195390721213026
+    },
+    {
+      "id": "00b8c3e8-1d73-4788-b813-d7b6e35fbc2f",
+      "memory": "Concerned about property taxes on the 5-acre property",
+      "hash": "fb1544614373f667fd04675242dcd5bb",
+      "metadata": null,
+      "score": 0.4247588998128561,
+      "created_at": "2025-12-08T09:18:25.052495-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.12068862624558076
+    },
+    {
+      "id": "0a5e6fa1-a981-45d9-b4a5-48a62df662a3",
+      "memory": "Interested in specific lenders that specialize in rural property financing",
+      "hash": "b30810e5fd4684ccb537b6f165c42a64",
+      "metadata": null,
+      "score": 0.3449313166761168,
+      "created_at": "2025-12-08T09:18:25.086482-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.08255700191483296
+    },
+    {
+      "id": "71aef6c1-78ea-4cb6-85af-77a32f24b1d4",
+      "memory": "Planning to ask the dealer if they know of any resources or courses in antique restoration and conservation they would recommend",
+      "hash": "7e1977c0ef0525f091f67494ff656140",
+      "metadata": null,
+      "score": 0.32335274324551627,
+      "created_at": "2025-12-08T09:14:09.921346-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.0725946565812083
+    },
+    {
+      "id": "6f2611a3-2e5a-4fc0-a9c4-b03f0738664b",
+      "memory": "Wants to know more about environmental factors to consider when buying a rural property and how to identify potential red flags",
+      "hash": "f72c54fc36c4939de66557313b8c519b",
+      "metadata": null,
+      "score": 0.44983110257418657,
+      "created_at": "2025-12-08T09:18:25.136275-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.06157139303200628
+    },
+    {
+      "id": "7db43b7b-314f-474a-ad1a-331e4ed83b71",
+      "memory": "Wants to know how appraisals work and what kind of appraisal is needed for a rural property like the 5-acre one",
+      "hash": "1633defad54958cb2c1fd7d5fab612c0",
+      "metadata": null,
+      "score": 0.4308971095473973,
+      "created_at": "2025-12-08T09:18:25.118243-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.06147447075478488
+    },
+    {
+      "id": "92ca2f0f-ea3f-453e-831d-0d65bb017f20",
+      "memory": "Thinking of taking a course on antique restoration and conservation",
+      "hash": "ddb13caa8f7a82cd99654288f198964b",
+      "metadata": null,
+      "score": 0.27347364115671235,
+      "created_at": "2025-12-08T09:14:09.873132-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.04486185047564684
+    },
+    {
+      "id": "99e09fe1-3033-455a-846b-e2204b03c345",
+      "memory": "Wants to know more about the pros and cons of getting a rural property loan versus a traditional mortgage",
+      "hash": "6c64dda0ce315490c9090c87380cd915",
+      "metadata": null,
+      "score": 0.3736790119731068,
+      "created_at": "2025-12-08T09:18:25.068998-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.013755478023124535
+    },
+    {
+      "id": "c3be05dc-3756-4992-8275-93c8ab87f64f",
+      "memory": "Curious about the costs associated with adoption",
+      "hash": "0bb89f4cd6a0fac628ffcc47b9315087",
+      "metadata": null,
+      "score": 0.3046103129940061,
+      "created_at": "2025-12-08T09:32:03.905897-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.0013553631895861843
+    },
+    {
+      "id": "57af10df-b5fb-4329-9010-233701dd9928",
+      "memory": "Wants a recommendation for a specific rental car company with affordable rates in Massa",
+      "hash": "7a79b0b4b609cd109ff0fa01e86d46b4",
+      "metadata": null,
+      "score": 0.3256747963020433,
+      "created_at": "2025-12-08T09:14:26.694528-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.0004932582470575506
+    },
+    {
+      "id": "05317c90-d5ab-47cd-aa17-51bb748206dd",
+      "memory": "Looking for information about the availability of rental cars in Massa and the surrounding area",
+      "hash": "4f89318a133630cdc6293381fc305893",
+      "metadata": null,
+      "score": 0.2959232594480625,
+      "created_at": "2025-12-08T09:14:26.677457-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 8.627502306592689e-05
+    },
+    {
+      "id": "16aa7c56-5a25-4909-8ee9-ebb11ce6811e",
+      "memory": "Wants an idea of what rental car rates are like in Massa during peak season",
+      "hash": "bacc58107c9edc716abfdfcae5a7a521",
+      "metadata": null,
+      "score": 0.3856282993406762,
+      "created_at": "2025-12-08T09:14:26.709677-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_189",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5637,
+    "load_time": 1337.2972
+  }
+}

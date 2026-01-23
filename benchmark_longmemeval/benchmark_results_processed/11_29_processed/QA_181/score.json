@@ -1,0 +1,77 @@
+{
+  "sample_idx": 181,
+  "question_id": "4adc0475",
+  "question": "What is the total number of goals and assists I have in the recreational indoor soccer league?",
+  "question_type": "multi-session",
+  "gold_answer": "5",
+  "question_date": "2023/05/30 (Tue) 18:44",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-08T21:38:29.357499",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 2984,
+  "gen_token_usage": {
+    "prompt_tokens": 810,
+    "answer_tokens": 10,
+    "total_tokens": 820,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.1514371633529663,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.1514371633529663,
+      "overall_average": 0.03028743341565132
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.1514371633529663,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.1514371633529663,
+    "overall_average": 0.03028743341565132
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1687.4148,
+    "retrieval_time": 0.7081,
+    "generation_time": 3.6594,
+    "evaluation_time": 2.1498,
+    "cleanup_time": 1.6438,
+    "total_time": 1695.579
+  }
+}

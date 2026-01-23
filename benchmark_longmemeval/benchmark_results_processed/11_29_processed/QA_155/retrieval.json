@@ -1,0 +1,242 @@
+{
+  "sample_idx": 155,
+  "question_id": "b6025781",
+  "question": "I'm planning my meal prep next week, any suggestions for new recipes?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T16:12:45.590276",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "2f862188-1297-4bed-b6ab-cd9cbce432a3",
+      "memory": "Trying to plan meals for the weekend",
+      "hash": "5ec2722fe3b7c40484320ca74fd02be5",
+      "metadata": null,
+      "score": 0.6207816671219539,
+      "created_at": "2025-12-07T00:19:41.993637-08:00",
+      "updated_at": "2025-12-07T00:27:33.883377-08:00",
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.9999999992254671
+    },
+    {
+      "id": "9c8ada57-c04e-4d73-a989-cb686b827913",
+      "memory": "Thinking of adding roasted sweet potatoes to meal prep this week",
+      "hash": "db0570e9790fc4014c92797a5db1355c",
+      "metadata": null,
+      "score": 0.5577493270224192,
+      "created_at": "2025-12-07T00:24:32.761574-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.560037664910952
+    },
+    {
+      "id": "630525a0-20ff-47d1-92bb-cb440c7362a5",
+      "memory": "Thinking of trying out some Mexican-inspired dishes for the weekend",
+      "hash": "60153337fe09dd8585d2ae8af78d4a42",
+      "metadata": null,
+      "score": 0.5469933169573381,
+      "created_at": "2025-12-07T00:27:33.951638-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.5085700159803496
+    },
+    {
+      "id": "6c0d8995-5d27-4cce-a335-0f9c8df39ba3",
+      "memory": "Planning to make a batch of chicken fajitas this weekend",
+      "hash": "2128734810ed3157b292b2190b74745f",
+      "metadata": null,
+      "score": 0.48998523165883584,
+      "created_at": "2025-12-07T00:27:34.091930-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.4515738889433266
+    },
+    {
+      "id": "7bae32f7-e429-4f93-874a-969f17d0fb24",
+      "memory": "Thinking of making a spicy mayo or a chipotle ranch dressing",
+      "hash": "d430cbffc680efdb899b0e8568adfc6c",
+      "metadata": null,
+      "score": 0.4295803513702695,
+      "created_at": "2025-12-07T00:27:34.074975-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.4496852295489333
+    },
+    {
+      "id": "65cead98-34c4-4ae0-9f42-37e988ad6ac1",
+      "memory": "Thinking of making a batch of homemade granola to snack on throughout the week",
+      "hash": "73413cdf1a32a0fec2cb067e90eb143b",
+      "metadata": null,
+      "score": 0.4428066288317315,
+      "created_at": "2025-12-07T00:24:32.820646-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.44157948368626615
+    },
+    {
+      "id": "1c954ecb-8e82-406d-bfcb-6cb922bb334d",
+      "memory": "Planning to make a batch of sweet potato fries this weekend",
+      "hash": "707013accce63470702f556a8c18eb7f",
+      "metadata": null,
+      "score": 0.46640856841998257,
+      "created_at": "2025-12-07T00:27:34.045051-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.42634641044965377
+    },
+    {
+      "id": "2cae6e8d-f6a8-435c-bc32-3a0f577cf9dc",
+      "memory": "Interested in dishes with chicken or veggies",
+      "hash": "2d922c9d4192b011b221087484fe2066",
+      "metadata": null,
+      "score": 0.5041311268207361,
+      "created_at": "2025-12-07T00:27:33.966551-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.35557848550158
+    },
+    {
+      "id": "9749b962-57f9-4233-92f0-3737bf29dd5f",
+      "memory": "Wants to find healthy recipes online",
+      "hash": "63624b3f98329730fbf732756fe20af0",
+      "metadata": null,
+      "score": 0.5962600328292655,
+      "created_at": "2025-12-07T00:24:32.613717-08:00",
+      "updated_at": "2025-12-07T00:27:33.902282-08:00",
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.32174567383975367
+    },
+    {
+      "id": "7c90f2c6-d698-4032-a4bc-eeb12cf97aca",
+      "memory": "Looking for suggestions for dipping sauces",
+      "hash": "4d4c07042435e4f165d0fc3a4f991261",
+      "metadata": null,
+      "score": 0.5002181051011497,
+      "created_at": "2025-12-07T00:27:34.060633-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.29463721793287634
+    },
+    {
+      "id": "52f04f8a-5f4f-4b55-9f0b-e7be13f415b7",
+      "memory": "Wants suggestions for customizing granola recipe to fit taste preferences",
+      "hash": "abc52a79557a704400f2aceeb29cd9e0",
+      "metadata": null,
+      "score": 0.44210410575557946,
+      "created_at": "2025-12-07T00:24:32.834410-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.23728687031132478
+    },
+    {
+      "id": "50c223d6-070a-4f53-97e0-2c2cce6c85f3",
+      "memory": "Hoping to replicate the sweet potato fries at home",
+      "hash": "ba6c06c89f1baae9c893bfe2c57b9b3e",
+      "metadata": null,
+      "score": 0.3995614108019939,
+      "created_at": "2025-12-07T00:27:34.029431-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.20757285627516878
+    },
+    {
+      "id": "90b10eba-efd0-4558-8974-6810c468860d",
+      "memory": "Wants tips on cooking chicken breast to make it nice and tender",
+      "hash": "fa58f8cdca30af61c7c60cf55a9a5e72",
+      "metadata": null,
+      "score": 0.4082600078425307,
+      "created_at": "2025-12-07T00:27:34.105478-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.19932510455831404
+    },
+    {
+      "id": "19f52e0a-3fc8-4a01-b777-1e5b9ba95312",
+      "memory": "Wants a simple recipe for lentil bolognese",
+      "hash": "5938bed6eec1b32066a884d30cf22dc2",
+      "metadata": null,
+      "score": 0.3860465984954979,
+      "created_at": "2025-12-07T00:24:32.730151-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.16715355826117156
+    },
+    {
+      "id": "fec44f5f-120f-4771-99ae-9ad77481567d",
+      "memory": "Will try the Texas-Style BBQ Sauce first",
+      "hash": "8e8bbb7a9464ad224860774a223633e3",
+      "metadata": null,
+      "score": 0.40867746268613525,
+      "created_at": "2025-12-07T00:26:28.868427-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.15886145048947178
+    },
+    {
+      "id": "05867a8b-14fd-40d7-8080-2e404f2dd5ad",
+      "memory": "Looking for BBQ sauce recipes",
+      "hash": "3bdeffae28a5efc1fdd3e92b6642209f",
+      "metadata": null,
+      "score": 0.5016135314082081,
+      "created_at": "2025-12-07T00:26:28.788765-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.15018361862384882
+    },
+    {
+      "id": "e227d1be-3881-4256-aaf9-f363bec2f6c5",
+      "memory": "Wants protein sources that go well with quinoa and roasted vegetables",
+      "hash": "a3fa658a90406f9bf05fb607964cdf05",
+      "metadata": null,
+      "score": 0.39094938657894385,
+      "created_at": "2025-12-07T00:24:32.683101-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.1084933589817227
+    },
+    {
+      "id": "1fb223e5-d36b-45d3-aa3a-ce61051dce21",
+      "memory": "Recently tried applewood chips with a pork shoulder that turned out amazing",
+      "hash": "2d12ea01539adfa46dc5195a49cd6d8c",
+      "metadata": null,
+      "score": 0.39993037160790734,
+      "created_at": "2025-12-07T00:26:28.918277-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.10477734831203918
+    },
+    {
+      "id": "bbfc5611-46b8-4a82-8f6c-7b51cc37c7f0",
+      "memory": "Wants tips on achieving crispy exterior and fluffy interior for sweet potato fries",
+      "hash": "607fa67c229cf876b71a5c800be3fb27",
+      "metadata": null,
+      "score": 0.4104388010358758,
+      "created_at": "2025-12-07T00:27:33.997344-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.08497844523673023
+    },
+    {
+      "id": "f48638bd-4469-4f85-9452-2a01e8c8c520",
+      "memory": "Interested in trying traditional Japanese cuisine",
+      "hash": "a3fc46265a7834057778a740e311ca97",
+      "metadata": null,
+      "score": 0.40366543149589695,
+      "created_at": "2025-12-07T00:25:31.554254-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_155",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2554,
+    "load_time": 1579.3022
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 168,
+  "question_id": "9aaed6a3",
+  "question": "How much cashback did I earn at SaveMart last Thursday?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T15:39:49.249249",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "a2c62833-3bb1-4b62-955d-6ec6c7fb916e",
+      "memory": "Wants to know how much cashback they'd earn",
+      "hash": "59a4b0d763bc5f9be8358a18ec8c7070",
+      "metadata": null,
+      "score": 0.6741684396701177,
+      "created_at": "2025-12-07T23:44:05.791208-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.9999999991853143
+    },
+    {
+      "id": "3840f9ce-7f65-4d8c-b43a-4d287f928592",
+      "memory": "Spent $75 on groceries at SaveMart last Thursday",
+      "hash": "74caa918d05c410e15e5162c326c92bd",
+      "metadata": null,
+      "score": 0.6748216617253557,
+      "created_at": "2025-12-07T23:46:38.359360-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.858514335173306
+    },
+    {
+      "id": "40443b29-5ffb-447d-88d5-85b6766a7924",
+      "memory": "Can earn 1% cashback on all purchases at SaveMart",
+      "hash": "b777acb14ea591ea19cb0ae4dc14a773",
+      "metadata": null,
+      "score": 0.7579188806511705,
+      "created_at": "2025-12-07T23:44:05.715522-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.7626192613604936
+    },
+    {
+      "id": "5258ce02-8536-4da8-b729-bbf76aaef802",
+      "memory": "Has a digital coupon from the SaveMart app that gives $1 off a jar of pasta sauce",
+      "hash": "49b45195a9d1983db2720c14a4749644",
+      "metadata": null,
+      "score": 0.3580832645799934,
+      "created_at": "2025-12-07T23:44:05.816611-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.2970188085790491
+    },
+    {
+      "id": "257fa078-141a-4c9e-ba27-d395fe0a1ec4",
+      "memory": "Had a 20% off coupon for grocery shopping at Walmart last month",
+      "hash": "e29d7fe72332025c1add088dfb881d3f",
+      "metadata": null,
+      "score": 0.5023023663602929,
+      "created_at": "2025-12-07T23:57:31.111270-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.2659248603742259
+    },
+    {
+      "id": "b888c622-fdea-4932-b5f3-ad90c9925a52",
+      "memory": "Has been using Ibotta and Fetch Rewards for a while and is happy with the cashback earned",
+      "hash": "ef772080376c162b05eef865ec067a7a",
+      "metadata": null,
+      "score": 0.4769916508864677,
+      "created_at": "2025-12-07T23:57:31.142958-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.2151194368133263
+    },
+    {
+      "id": "7c9c47c0-9769-4c52-8823-c7535cbc111a",
+      "memory": "Spent $100 at Gap last weekend on a new pair of jeans and a sweater",
+      "hash": "36c864ac4e1827ab0e0a9772c4a17a13",
+      "metadata": null,
+      "score": 0.36602538155891007,
+      "created_at": "2025-12-07T23:46:38.420088-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.204924757012583
+    },
+    {
+      "id": "893e468c-24b3-40a8-88f1-86298b0dff84",
+      "memory": "Has a membership at SaveMart",
+      "hash": "cdc0edfa8fd8bd89e6c7fed3ae510366",
+      "metadata": null,
+      "score": 0.5035449749588824,
+      "created_at": "2025-12-07T23:44:05.700884-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.19169020340256576
+    },
+    {
+      "id": "870094d9-fbf1-43cd-974f-737e8737545e",
+      "memory": "Spent $15 on coffee and snacks at The Daily Grind last week",
+      "hash": "517856ae750ca2fa1f986ec0c2ac1e38",
+      "metadata": null,
+      "score": 0.48499120721999284,
+      "created_at": "2025-12-07T23:46:38.379343-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.1400035691698677
+    },
+    {
+      "id": "f6aca5ed-f736-47fc-9411-90e1551cebde",
+      "memory": "Spent $12.99 on a sandwich and salad with a 20% off offer at The Daily Grind last week",
+      "hash": "6edd4f2812cdcb51a9b8ece594daf5fd",
+      "metadata": null,
+      "score": 0.4170173182979554,
+      "created_at": "2025-12-07T23:46:38.392094-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.12397147080059759
+    },
+    {
+      "id": "4e87c7cd-a9ac-4853-94c9-35cfacec558d",
+      "memory": "Wants to know if SaveMart has any sales or promotions on ground beef this week",
+      "hash": "193492d4800212c27deec3ac6be1f9e8",
+      "metadata": null,
+      "score": 0.4204884080031136,
+      "created_at": "2025-12-07T23:44:05.876416-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.08453469047289357
+    },
+    {
+      "id": "10b4f241-6e28-4cc0-b832-158a06613010",
+      "memory": "Spent $50 at Sephora last week on skincare products",
+      "hash": "4b0702b949f55e13deff31c913aca745",
+      "metadata": null,
+      "score": 0.3798883238552353,
+      "created_at": "2025-12-07T23:46:38.434542-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.07434506081266049
+    },
+    {
+      "id": "8c5cdb41-7641-4536-bc84-9698534ec9d5",
+      "memory": "Spent $50 at Office Depot last month for printer ink and paper",
+      "hash": "4acdb224bc2a1f6639f231412887d892",
+      "metadata": null,
+      "score": 0.4012135591237109,
+      "created_at": "2025-12-07T23:46:38.406299-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.031959775371682764
+    },
+    {
+      "id": "c97f0b8e-6573-4a77-b6e8-4c8b2b151e57",
+      "memory": "Donated $20 to the 'Paws for a Cause' event",
+      "hash": "dc72a6bef7b66c4bf719c0fd8ffaee48",
+      "metadata": null,
+      "score": 0.2808515425895981,
+      "created_at": "2025-12-07T23:48:36.026781-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.006493626056977658
+    },
+    {
+      "id": "13051535-73d6-4f19-912d-891ea2aecf68",
+      "memory": "Wants to know how much they'd save if they bought ground beef in bulk, say 3 pounds, instead of just 1 pound",
+      "hash": "b6b28bf37225a26fbcce8985e7bd8a7c",
+      "metadata": null,
+      "score": 0.2803516126737465,
+      "created_at": "2025-12-07T23:44:05.858700-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.006147186417976672
+    },
+    {
+      "id": "7e77eebf-8ccb-4981-a38d-e55c47cab388",
+      "memory": "Trying to plan a grocery shopping trip for the week",
+      "hash": "c0b8924cc3f428b562be0d7d37ab4f72",
+      "metadata": null,
+      "score": 0.35334578741745154,
+      "created_at": "2025-12-07T23:44:05.683852-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.0032168618105397643
+    },
+    {
+      "id": "51b7f6b0-1333-4fec-87f2-402dd1288679",
+      "memory": "Planning to update bank account information next week",
+      "hash": "ff9bd1820fccc81c9cd990eccac7e0ed",
+      "metadata": null,
+      "score": 0.2556415348690234,
+      "created_at": "2025-12-07T23:40:32.221143-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.001041805140023372
+    },
+    {
+      "id": "3594de5f-4dfd-4ca3-8ca9-414713897a9e",
+      "memory": "Planning to buy household essentials online from Walmart's website",
+      "hash": "7ef74476ca18151d01d43a5a4d8a077b",
+      "metadata": null,
+      "score": 0.24628491471976183,
+      "created_at": "2025-12-07T23:57:31.075962-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.0001257096514697454
+    },
+    {
+      "id": "f63727c0-2d17-4500-943d-9c81b7f59d5a",
+      "memory": "Usually reserves walking days for Tuesdays, Thursdays, and Saturdays",
+      "hash": "2eba070c9e5b498f215d2ab67411e6a0",
+      "metadata": null,
+      "score": 0.25491633373443556,
+      "created_at": "2025-12-08T00:05:59.408581-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 5.8970102265473894e-05
+    },
+    {
+      "id": "4cbaf4e2-499e-4aba-b95e-ebbb017814d8",
+      "memory": "Wants to stay within a budget of $50",
+      "hash": "88bce7721f84b73d3dd18be24392732f",
+      "metadata": null,
+      "score": 0.2541960188362147,
+      "created_at": "2025-12-07T23:44:05.777170-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_168",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2049,
+    "load_time": 2077.4229
+  }
+}

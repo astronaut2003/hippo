@@ -1,0 +1,78 @@
+{
+  "sample_idx": 45,
+  "question_id": "b320f3f8",
+  "question": "What type of action figure did I buy from a thrift store?",
+  "question_type": "single-session-user",
+  "gold_answer": "a blue Snaggletooth",
+  "question_date": "2023/05/30 (Tue) 17:49",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-29T23:20:11.829071",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 2976,
+  "gen_token_usage": {
+    "prompt_tokens": 811,
+    "answer_tokens": 10,
+    "total_tokens": 821,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.12350964546203613,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.12350964546203613,
+      "overall_average": 0.024701928719878197
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.12350964546203613,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.12350964546203613,
+    "overall_average": 0.024701928719878197
+  },
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "load_time": 46388.5569,
+    "retrieval_time": 0.0687,
+    "generation_time": 1.2941,
+    "evaluation_time": 1.5329,
+    "cleanup_time": 0.0,
+    "total_time": 46391.8356
+  }
+}

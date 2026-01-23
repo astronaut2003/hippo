@@ -1,0 +1,243 @@
+{
+  "sample_idx": 47,
+  "question_id": "4fd1909e",
+  "question": "Where did I attend the Imagine Dragons concert?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T12:39:02.826820",
+  "load_result": {
+    "total_sessions": 55,
+    "added_sessions": 55,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "567b7a35-58d1-4226-91e9-bd6d0b70baaf",
+      "memory": "Went to Imagine Dragons concert at Xfinity Center on June 15th",
+      "hash": "5f081c26a2838c44ff24aa92ad74dfdd",
+      "metadata": null,
+      "score": 0.8949687964416215,
+      "created_at": "2025-11-29T20:47:05.169199-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.9999999992755138
+    },
+    {
+      "id": "7ab6fbcc-f9e0-4684-9608-368bc0bfff50",
+      "memory": "Imagine Dragons played Radioactive and Demons",
+      "hash": "935921c367acd5b3a78261a34d294997",
+      "metadata": null,
+      "score": 0.4358448375884215,
+      "created_at": "2025-11-29T20:47:05.187558-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.29424553176803814
+    },
+    {
+      "id": "5ca03f98-bd8d-4643-8e5b-2ede23bfac79",
+      "memory": "Thinking about checking out music festival in Rhode Island again this summer but hasn't looked into tickets yet",
+      "hash": "5f9e9bf96c25ac3f34e0715e47677b0c",
+      "metadata": null,
+      "score": 0.42020813958875297,
+      "created_at": "2025-11-29T20:47:05.144893-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.20462711335107056
+    },
+    {
+      "id": "6a9890a2-eea0-4fcf-8195-65722803613a",
+      "memory": "Had an amazing garlic burger at the Squeeze Inn in Sacramento when stopping there for lunch on the way back from Yellowstone",
+      "hash": "51c6914fe1b34cbd2416d0bfc0825443",
+      "metadata": null,
+      "score": 0.25506244362576697,
+      "created_at": "2025-11-29T20:56:30.574837-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.14572350692503314
+    },
+    {
+      "id": "3d3595d8-fb0c-4a2a-b63e-5a6e26cecbf4",
+      "memory": "Has tickets to see Jonas Brothers at TD Garden on July 17th",
+      "hash": "19d42842246732f59bfdb58797b797e7",
+      "metadata": null,
+      "score": 0.37333308069167775,
+      "created_at": "2025-11-29T20:47:05.101626-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.10760413324263729
+    },
+    {
+      "id": "a6f4ca41-e1dd-4f21-acc9-f11ec357c0c5",
+      "memory": "Has tickets to see The Lumineers at House of Blues on August 20th",
+      "hash": "fe6969d0af80f028ecbebb8471fb8bac",
+      "metadata": null,
+      "score": 0.39915297881969425,
+      "created_at": "2025-11-29T20:47:05.123308-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.107360168035044
+    },
+    {
+      "id": "896adce2-4174-408b-bcfd-93dd6a6d26b0",
+      "memory": "Attended little cousin's high school graduation ceremony last month on June 17th at the local community center",
+      "hash": "0292993f16bf6a98b47e9399eac5aec4",
+      "metadata": null,
+      "score": 0.24231886880311032,
+      "created_at": "2025-11-29T20:40:40.093364-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.10232333324785882
+    },
+    {
+      "id": "bab454d2-3b81-4972-a567-1f6cb528253c",
+      "memory": "Got back from a family road trip to Yellowstone",
+      "hash": "aa41ae985fcdc73394775484a7d5b605",
+      "metadata": null,
+      "score": 0.25447620133676085,
+      "created_at": "2025-11-29T20:56:30.302273-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.07534068455870345
+    },
+    {
+      "id": "4a14656f-fba6-4e67-b912-11850a0035c8",
+      "memory": "Is definitely going to make sure not to miss the traditional music and dance performance at the Stale Folk Festival",
+      "hash": "519414fdd45bd44a81dc1ad18e844d03",
+      "metadata": null,
+      "score": 0.320195931732756,
+      "created_at": "2025-11-29T21:02:20.962992-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.05523493902507776
+    },
+    {
+      "id": "5bc7cbd0-cc2c-4d07-8649-014f59683cc0",
+      "memory": "Went on a 5-day road trip",
+      "hash": "d49a300c17fef61f450b8c7411760bf6",
+      "metadata": null,
+      "score": 0.2370585191775543,
+      "created_at": "2025-11-29T20:56:30.466647-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.05474452128407035
+    },
+    {
+      "id": "e4c9fb1d-f2c5-43f5-afbb-5aa32ec8bb76",
+      "memory": "Thinking about volunteering at another music festival in the area",
+      "hash": "78b39aba479ffcf56b2c4c2ab052bbd9",
+      "metadata": null,
+      "score": 0.2947341233747217,
+      "created_at": "2025-11-29T20:47:05.227342-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.04807993902430224
+    },
+    {
+      "id": "cafd0c72-b7c3-4eee-8ef8-ee4f0e9a60d6",
+      "memory": "Had great experience volunteering at Harvard Athletic Complex last month",
+      "hash": "34b633f6a87d0b87a15ca34144e2a3da",
+      "metadata": null,
+      "score": 0.24541267289849455,
+      "created_at": "2025-11-29T20:47:05.289587-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.032377243840236915
+    },
+    {
+      "id": "cf2c4817-7786-41c3-9bca-efe5b8b60910",
+      "memory": "Trying to plan out summer concert schedule",
+      "hash": "ca2beac44157f528fa21a99e9517b960",
+      "metadata": null,
+      "score": 0.40503879697631245,
+      "created_at": "2025-11-29T20:47:05.058654-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.027389533738013176
+    },
+    {
+      "id": "b3eb0c9c-c81e-4161-abb1-a85dea678776",
+      "memory": "Went to a music store and tried out a few electric guitars last weekend",
+      "hash": "341af4f2914a9d544a9fb9f3e3d59e2c",
+      "metadata": null,
+      "score": 0.25679341107330755,
+      "created_at": "2025-11-29T20:42:35.641772-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.006862531939676002
+    },
+    {
+      "id": "8d2d5bdd-f9f5-4ac3-a9df-f70113d72d47",
+      "memory": "Not picky about festival type",
+      "hash": "a53de8c3d9acc9d6801e3060e4c0788e",
+      "metadata": null,
+      "score": 0.24284045213670463,
+      "created_at": "2025-11-29T20:47:05.270006-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.0035645451784042585
+    },
+    {
+      "id": "fcaaf188-2061-4de9-acf5-1e6ced57e3e0",
+      "memory": "Has heard about the Stale Folk Festival before",
+      "hash": "8b4176bbc8fe31f6e89582935474c87b",
+      "metadata": null,
+      "score": 0.30508315176828427,
+      "created_at": "2025-11-29T21:02:20.962298-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.0016118562242831685
+    },
+    {
+      "id": "e44a7234-d39a-44cf-9c3e-3dbfcce3aabc",
+      "memory": "Will call The Little Door to make a reservation and ask about their anniversary packages and menus",
+      "hash": "7801f16779222c08a85927a129351a88",
+      "metadata": null,
+      "score": 0.2787528166052324,
+      "created_at": "2025-11-29T20:49:37.380561-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.0001774983342699413
+    },
+    {
+      "id": "bc532796-cb31-40da-a34d-1e809115a4db",
+      "memory": "Planning to attend a few more weddings this year",
+      "hash": "9c4bbd93ec95ce0a7aa966f988bfdf42",
+      "metadata": null,
+      "score": 0.23972883466956701,
+      "created_at": "2025-11-29T20:49:37.252736-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 6.245951505645267e-05
+    },
+    {
+      "id": "53521701-21c8-48ed-aa26-63e5dc7851df",
+      "memory": "Planning to do a bike ride this weekend",
+      "hash": "368b141c0f7bcd3c903cdd0fbecafb64",
+      "metadata": null,
+      "score": 0.24062512907523143,
+      "created_at": "2025-11-29T21:00:01.744238-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 5.520481474569213e-05
+    },
+    {
+      "id": "2800d103-02ed-47c3-b041-306cfb23125b",
+      "memory": "Wants to know if there will be food vendors at the Stale Folk Festival",
+      "hash": "b931535afedf74b3dc193549ef98eccf",
+      "metadata": null,
+      "score": 0.25107232003817287,
+      "created_at": "2025-11-29T21:02:20.963356-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_47",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "retrieval_time": 0.0723,
+    "load_time": 1398.1383
+  }
+}

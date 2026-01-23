@@ -1,0 +1,242 @@
+{
+  "sample_idx": 128,
+  "question_id": "eeda8a6d_abs",
+  "question": "How many fish are there in my 30-gallon tank?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T05:01:33.389887",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "7bfc8e4c-b738-4636-8460-dc75cf44b7bc",
+      "memory": "Currently has 10 neon tetras, 5 golden honey gouramis, and a small pleco catfish in the tank",
+      "hash": "71e3019755f0911d4a87950c86bbb88b",
+      "metadata": null,
+      "score": 0.577957079222505,
+      "created_at": "2025-12-06T13:07:37.771482-08:00",
+      "updated_at": "2025-12-06T13:15:01.665596-08:00",
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.9999999988598143
+    },
+    {
+      "id": "1405b2be-8c1f-4a98-8900-6a74487bba2d",
+      "memory": "Already has some artificial coral and rocks in the tank",
+      "hash": "1652452cc98a769099e5eec17ca0c1d8",
+      "metadata": null,
+      "score": 0.39833543893962037,
+      "created_at": "2025-12-06T13:15:01.728497-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.5339193938416227
+    },
+    {
+      "id": "9265cb81-3ca6-460b-ba08-7f28ba951526",
+      "memory": "Is thinking of getting some schooling fish to add to the 20-gallon tank, like lemon tetras or zebra danios",
+      "hash": "212b2342d89b495cfec8fba446deffc5",
+      "metadata": null,
+      "score": 0.5297894607293914,
+      "created_at": "2025-12-06T13:07:37.754370-08:00",
+      "updated_at": "2025-12-06T13:15:01.627367-08:00",
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.49048908348520376
+    },
+    {
+      "id": "370dc522-c561-483e-bbf8-1e0163f734d0",
+      "memory": "Upgraded old 10-gallon tank which has betta fish named Bubbles",
+      "hash": "d22024e41455c6b7d33d44dcd0e4e69b",
+      "metadata": null,
+      "score": 0.5615150299164753,
+      "created_at": "2025-12-06T13:07:37.739820-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.4119309892136139
+    },
+    {
+      "id": "c32f3af0-61d6-4264-95ef-1b2965081647",
+      "memory": "Has a new 20-gallon tank",
+      "hash": "64eed9b7ff9425c2ea3eb31408c0c18c",
+      "metadata": null,
+      "score": 0.5444527016559184,
+      "created_at": "2025-12-06T13:15:01.697251-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.354919372515875
+    },
+    {
+      "id": "3e22cb8b-4cc7-4e09-becd-ad857cdfb274",
+      "memory": "Is thinking of adding some decorations to the 20-gallon tank to create more hiding places for the fish",
+      "hash": "c1f93968ac7ef5c77442b65f9665832b",
+      "metadata": null,
+      "score": 0.5130777667095514,
+      "created_at": "2025-12-06T13:07:37.804216-08:00",
+      "updated_at": "2025-12-06T13:15:01.647254-08:00",
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.3332843290056824
+    },
+    {
+      "id": "019c3d45-0fa4-4117-a96f-ba487371e8e0",
+      "memory": "Is thinking of adding some live plants to the tank",
+      "hash": "9d1189a64634093227506213c37e38e0",
+      "metadata": null,
+      "score": 0.4509698481123553,
+      "created_at": "2025-12-06T13:07:37.706370-08:00",
+      "updated_at": "2025-12-06T13:15:01.682019-08:00",
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.22854089197517313
+    },
+    {
+      "id": "59c0285c-3414-4528-afd5-65f72b573269",
+      "memory": "Thinks a treasure chest would be a great addition to the tank",
+      "hash": "bdd40da3f57da137c95b6a945ed31cda",
+      "metadata": null,
+      "score": 0.2768826948256198,
+      "created_at": "2025-12-06T13:15:01.757013-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.09297607415149865
+    },
+    {
+      "id": "9c42c660-203b-42f1-83dd-93f057712f4e",
+      "memory": "Wants to add a treasure chest or a sunken ship decoration to the tank",
+      "hash": "bb8a0db4680283016423c0fa7c22b65a",
+      "metadata": null,
+      "score": 0.3056743783227507,
+      "created_at": "2025-12-06T13:15:01.742704-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.07180419406162171
+    },
+    {
+      "id": "73174274-2dbb-4ed2-9061-f033100bc5aa",
+      "memory": "Considering adding schooling fish to distract gouramis and reduce aggression",
+      "hash": "0eba56b3972ed91151635ab19b1577ef",
+      "metadata": null,
+      "score": 0.33851571555956345,
+      "created_at": "2025-12-06T13:07:37.788883-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.022419197285426067
+    },
+    {
+      "id": "67c35a0b-cb38-49e7-8a14-025e171c8754",
+      "memory": "Was thinking of getting more plants for home office",
+      "hash": "3d0d6877182a9d28ec221b3c57d4f995",
+      "metadata": null,
+      "score": 0.164382336222025,
+      "created_at": "2025-12-06T13:21:32.370727-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.004778428572784078
+    },
+    {
+      "id": "39033f85-1069-4eea-bda9-d07da6b54daf",
+      "memory": "Is thinking of placing the treasure chest near the artificial coral and rocks to create a little 'city' area for the fish to explore",
+      "hash": "8211621f3aa3f5966d557f709b6b80b5",
+      "metadata": null,
+      "score": 0.29761556601643746,
+      "created_at": "2025-12-06T13:15:01.770289-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.0028681445093713875
+    },
+    {
+      "id": "2295d9a9-da5f-4547-a015-23f387706c35",
+      "memory": "Had a big barbecue lunch together at the lake house",
+      "hash": "2c84bfb184e1e0eaf4713528531092ca",
+      "metadata": null,
+      "score": 0.14168401510087147,
+      "created_at": "2025-12-06T13:19:01.771896-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.0008754381258273891
+    },
+    {
+      "id": "18983249-d6d1-469f-a71d-23f24a94bec4",
+      "memory": "Wants to visit 20 most recommended places (ranked at least 4 on Google)",
+      "hash": "da766aa0d68da149741e915b586b4284",
+      "metadata": null,
+      "score": 0.14016620235299632,
+      "created_at": "2025-12-06T13:10:49.482625-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.0008294425566775958
+    },
+    {
+      "id": "aa336884-3598-48ce-b9cc-85ed82340fbb",
+      "memory": "Just got back from a lovely family trip to our lake house",
+      "hash": "87eb403b7164369e0c2ee5c77d4432e5",
+      "metadata": null,
+      "score": 0.13054586077728994,
+      "created_at": "2025-12-06T13:19:01.694453-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.0007363640526770685
+    },
+    {
+      "id": "19af3894-9b29-42a8-8b33-59f08999bda8",
+      "memory": "For each restaurant, wants 3 recommended dishes",
+      "hash": "5b68e4d061c121e19844168ccdd2855c",
+      "metadata": null,
+      "score": 0.23578931443551815,
+      "created_at": "2025-12-06T13:10:49.547041-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.0006102296313679428
+    },
+    {
+      "id": "d1270b3e-d73d-492c-94d2-c13d038dc05c",
+      "memory": "Is 32 years old",
+      "hash": "8f4a5ddb4af093f550c63dd89a5862b5",
+      "metadata": null,
+      "score": 0.14400279528800314,
+      "created_at": "2025-12-06T13:09:07.002402-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.0004940989745074719
+    },
+    {
+      "id": "fe16910d-d644-4b6c-ab6e-3ae23d96f2ad",
+      "memory": "Siblings and I played some board games during our lake house trip",
+      "hash": "b2d4658c5267b2f7e77fcf62c9a821c6",
+      "metadata": null,
+      "score": 0.13721709265060725,
+      "created_at": "2025-12-06T13:19:01.726560-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.0004186357948621846
+    },
+    {
+      "id": "4b2f52f4-03a4-45f3-9a85-2874b9a24850",
+      "memory": "Is particularly interested in Java Moss and Anacharis plants",
+      "hash": "f0c08ec6e3addde50c4679c7c77e39a0",
+      "metadata": null,
+      "score": 0.14671743213242708,
+      "created_at": "2025-12-06T13:15:01.712996-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.00029989546031945584
+    },
+    {
+      "id": "25c90875-7301-4473-9023-555a4198f2b9",
+      "memory": "Took cuttings from Pothos plant on March 5th and put them in water to propagate",
+      "hash": "b4c2867454abfe104ec4f9e2a0388667",
+      "metadata": null,
+      "score": 0.13100754455227015,
+      "created_at": "2025-12-06T13:21:32.431529-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_128",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2013,
+    "load_time": 1272.8595
+  }
+}

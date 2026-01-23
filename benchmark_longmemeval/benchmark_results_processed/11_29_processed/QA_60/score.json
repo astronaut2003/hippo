@@ -1,0 +1,77 @@
+{
+  "sample_idx": 60,
+  "question_id": "c14c00dd",
+  "question": "What brand of shampoo do I currently use?",
+  "question_type": "single-session-user",
+  "gold_answer": "Trader Joe's",
+  "question_date": "2023/05/30 (Tue) 19:01",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-01T02:27:14.117253",
+  "predicted_answer": "You currently use a lavender scented shampoo from Trader Joe's.",
+  "prompt_length": 3280,
+  "gen_token_usage": {
+    "prompt_tokens": 858,
+    "answer_tokens": 12,
+    "total_tokens": 870,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.65,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3636363636363636,
+      "rouge1_f": 0.42857142857142855,
+      "rouge2_f": 0.33333333333333337,
+      "rougeL_f": 0.42857142857142855,
+      "semantic_similarity": 0.40865039825439453,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.3051948051948052,
+      "avg_semantic": 0.40865039825439453,
+      "overall_average": 0.32588592171669006
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3636363636363636,
+    "rouge1_f": 0.42857142857142855,
+    "rouge2_f": 0.33333333333333337,
+    "rougeL_f": 0.42857142857142855,
+    "semantic_similarity": 0.40865039825439453,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.3051948051948052,
+    "avg_semantic": 0.40865039825439453,
+    "overall_average": 0.32588592171669006
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1344.3276,
+    "retrieval_time": 1.2965,
+    "generation_time": 2.5039,
+    "evaluation_time": 1.2166,
+    "cleanup_time": 1.6032,
+    "total_time": 1350.9518
+  }
+}

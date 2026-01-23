@@ -1,0 +1,242 @@
+{
+  "sample_idx": 210,
+  "question_id": "09ba9854",
+  "question": "How much will I save by taking the train from the airport to my hotel instead of a taxi?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2026-01-14T01:43:44.067102",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "79a37d06-925d-4557-bd35-86e92874b353",
+      "memory": "Friend told that it's only around $10 to get from the airport to the hotel by train",
+      "hash": "eab2a6379ab2b4aa7932172a11997ecf",
+      "metadata": null,
+      "score": 0.7572049698909462,
+      "created_at": "2026-01-13T09:49:01.554423-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.9999999992487437
+    },
+    {
+      "id": "b3ba5f6f-a693-45b2-873e-ddb76afabcda",
+      "memory": "Pretty sure friend said it's $10 to get from the airport to the hotel by train",
+      "hash": "cef358eb242fcb25c6084d95727a29b5",
+      "metadata": null,
+      "score": 0.7070238092585499,
+      "created_at": "2026-01-13T09:49:01.569391-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.9291149437550693
+    },
+    {
+      "id": "b8ee6c2c-9a43-4db8-8096-585fe0057829",
+      "memory": "Was told a taxi from the airport to the hotel would cost around $60, which is pricey",
+      "hash": "ad81d3365a56c8633b69504c76617074",
+      "metadata": null,
+      "score": 0.7364754290806241,
+      "created_at": "2026-01-13T09:55:07.091047-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.7428114653025524
+    },
+    {
+      "id": "f6d5dc0e-8223-42bb-9ac4-513ebc5e7505",
+      "memory": "Thinking of asking the hotel for recommendations on transportation from the airport",
+      "hash": "a8de80a67326a7642566a6ae0889539e",
+      "metadata": null,
+      "score": 0.5655683878654514,
+      "created_at": "2026-01-13T09:55:07.108967-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.6030643151873747
+    },
+    {
+      "id": "2191a463-420e-4cd4-9569-c5f4669fe775",
+      "memory": "Unsure about the best way to get from the airport to the hotel",
+      "hash": "f6815cb8d9f39e2436cf92ef920c1c73",
+      "metadata": null,
+      "score": 0.6294521238178229,
+      "created_at": "2026-01-13T09:49:01.539262-08:00",
+      "updated_at": "2026-01-13T09:55:07.037957-08:00",
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.5847457214407789
+    },
+    {
+      "id": "3a51fc56-fcb4-40e8-ae6d-c59ffbc17dae",
+      "memory": "Considering taking the train but friend mentioned it's not the only option",
+      "hash": "1d4ae65308c3de64a835166e4d094240",
+      "metadata": null,
+      "score": 0.4971013968324909,
+      "created_at": "2026-01-13T09:55:07.055527-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.47229891575276595
+    },
+    {
+      "id": "56dfa163-9b14-4239-920e-777d79b18813",
+      "memory": "Considering a taxi because of a lot of luggage but friend said it's expensive",
+      "hash": "e1f4813bccb20316dfd20582e418c31a",
+      "metadata": null,
+      "score": 0.6429304939103422,
+      "created_at": "2026-01-13T09:55:07.074758-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.3458360538812365
+    },
+    {
+      "id": "970ebac7-da19-45cf-960d-d6c6b6659e7e",
+      "memory": "Friend might have said something about it being a special deal or discounted ticket or package deal with the hotel",
+      "hash": "4c8704530d2d2a7ed75c63d958c83dbd",
+      "metadata": null,
+      "score": 0.30124768635571453,
+      "created_at": "2026-01-13T09:49:01.582694-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.11359818267273009
+    },
+    {
+      "id": "31280f85-96d9-48d2-b357-da38c9972730",
+      "memory": "Booked a hotel in Tokyo",
+      "hash": "9f595d5c9fe1040b87f0e9b8e5ee358d",
+      "metadata": null,
+      "score": 0.2968616927927614,
+      "created_at": "2026-01-13T09:49:01.508245-08:00",
+      "updated_at": "2026-01-13T09:55:07.019187-08:00",
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.03961122279539768
+    },
+    {
+      "id": "a85d38ed-dbba-4858-9e78-359a71a04bc7",
+      "memory": "Planning a trip to Japan and needs help with itinerary",
+      "hash": "6f39f498809fccc38783f63525870dae",
+      "metadata": null,
+      "score": 0.2345513256909002,
+      "created_at": "2026-01-13T09:49:01.470582-08:00",
+      "updated_at": "2026-01-13T09:55:07.002694-08:00",
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.0038461386186223996
+    },
+    {
+      "id": "4a5bc94a-d171-4751-ab5f-08eac2ff9943",
+      "memory": "Planning a photography trip",
+      "hash": "4be55b9e010fafe16e488ed248b3f1aa",
+      "metadata": null,
+      "score": 0.2807505421540344,
+      "created_at": "2026-01-13T09:51:49.216752-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.0013491540399619695
+    },
+    {
+      "id": "0e32aaa7-06ab-4943-b7df-765b73d9c11f",
+      "memory": "Is traveling around the world",
+      "hash": "55ac241036350062c30e72da6172b4f7",
+      "metadata": null,
+      "score": 0.2334729569187574,
+      "created_at": "2026-01-13T09:45:27.933362-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.0012362409303565281
+    },
+    {
+      "id": "cf2f7b2a-389e-4998-abf2-c5ac44ba4e97",
+      "memory": "Flying into Narita International Airport",
+      "hash": "14ede210617d3133f1805a37bdd30aee",
+      "metadata": null,
+      "score": 0.2618605793854371,
+      "created_at": "2026-01-13T09:49:01.491388-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.0011870205583394355
+    },
+    {
+      "id": "22f14449-a6ca-4643-8d52-01d6d3927f99",
+      "memory": "Might join Jack for a hike instead as a way to bond",
+      "hash": "341fc749e7f8054de3f9c5aa07eeedde",
+      "metadata": null,
+      "score": 0.27866721847150006,
+      "created_at": "2026-01-13T09:44:00.704358-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.0007458999899125943
+    },
+    {
+      "id": "a6668de5-782a-4395-8586-be96494b4574",
+      "memory": "Is happy to be traveling around the world",
+      "hash": "b29f2b3950dcf1e5338a928976aaf756",
+      "metadata": null,
+      "score": 0.19584126946600763,
+      "created_at": "2026-01-13T09:45:27.947806-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.0007366577366517429
+    },
+    {
+      "id": "de5302ef-3264-460f-b3af-33d7417dfb37",
+      "memory": "Thinking of visiting the Santa Ynez Valley while in the area",
+      "hash": "aabe3d39169e57cedc30b2150cf7025e",
+      "metadata": null,
+      "score": 0.25225449047605963,
+      "created_at": "2026-01-13T09:51:49.405024-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.0006427306511868104
+    },
+    {
+      "id": "ac3c2ec3-46f7-44e8-a316-09f1d8fd6eed",
+      "memory": "Interested in visiting Solvang while in the area",
+      "hash": "aef2986360b30a96efef5ba6ee77a5fd",
+      "metadata": null,
+      "score": 0.19256047861922337,
+      "created_at": "2026-01-13T09:51:49.369857-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.000299620954549464
+    },
+    {
+      "id": "7be244ce-1af8-4baa-a452-45870c9f6e63",
+      "memory": "Taking a break from working on the project to attend a morning seminar on entrepreneurship at the co-working space near the apartment today",
+      "hash": "ade5de307f49a9f05af27dee6374f805",
+      "metadata": null,
+      "score": 0.19330090056668747,
+      "created_at": "2026-01-13T09:45:59.047052-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.0002349968270976188
+    },
+    {
+      "id": "9604437d-a044-4480-8abc-0f6e92101ec2",
+      "memory": "Didn't have a chance to explore the Santa Ynez Valley on recent trip",
+      "hash": "c0a29e62ba469f15b2b975012c41a60a",
+      "metadata": null,
+      "score": 0.20582346981013913,
+      "created_at": "2026-01-13T09:51:49.472184-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.0001073964157985764
+    },
+    {
+      "id": "45f3d03b-a234-4111-b1e8-0cfd9a49484b",
+      "memory": "Wants to convince coworker Jack to try yoga, but Jack is more interested in going on a hike instead",
+      "hash": "160e17b32f3e03d8fdec828ca047f9c8",
+      "metadata": null,
+      "score": 0.22571620988704208,
+      "created_at": "2026-01-13T09:44:00.688071-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_210",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2556,
+    "load_time": 1291.6888
+  }
+}

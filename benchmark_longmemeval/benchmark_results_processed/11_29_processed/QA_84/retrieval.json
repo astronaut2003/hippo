@@ -1,0 +1,242 @@
+{
+  "sample_idx": 84,
+  "question_id": "36b9f61e",
+  "question": "What is the total amount I spent on luxury items in the past few months?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T11:27:42.275120",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "ca50691c-b8f4-42a4-a55e-a19cb92fd344",
+      "memory": "Splurges on luxury items every few months, usually when feeling stressed or celebratory",
+      "hash": "141db4bfd1045454ab21b90097d64711",
+      "metadata": null,
+      "score": 0.5959456015777189,
+      "created_at": "2025-11-30T19:35:23.213788-08:00",
+      "updated_at": "2025-11-30T19:36:13.910455-08:00",
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.9999999989288976
+    },
+    {
+      "id": "e4f3e1a4-08c6-4e7e-896e-2ee48d98102d",
+      "memory": "Occasionally splurges on luxury clothing items like evening gowns",
+      "hash": "61b73372f56504292454813867c49e74",
+      "metadata": null,
+      "score": 0.5279655708569431,
+      "created_at": "2025-11-30T19:36:13.993260-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.8598860958253761
+    },
+    {
+      "id": "50fc1872-d39e-4903-9c0f-96dfe191ea6a",
+      "memory": "Made some luxury purchases, like a pair of leather boots from a high-end Italian designer for $500",
+      "hash": "b77313997bfce2bead4e73d1627c93f9",
+      "metadata": null,
+      "score": 0.5121080140094019,
+      "created_at": "2025-11-30T19:44:16.649310-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.8069553830761472
+    },
+    {
+      "id": "73ce20a7-ecf4-4e22-b05a-7a0123517da3",
+      "memory": "Recently bought a luxury evening gown for a wedding for $800",
+      "hash": "05f5711f36828e651d5aba8ffb87d5b7",
+      "metadata": null,
+      "score": 0.47275790714821003,
+      "created_at": "2025-11-30T19:35:23.229750-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.6873781754640987
+    },
+    {
+      "id": "eb4d0c03-50bc-4d52-9119-b28a0663c347",
+      "memory": "Tends to splurge on high-end accessories like handbags and shoes",
+      "hash": "616d256eaf2bfb045f8b7cc450f7fe9f",
+      "metadata": null,
+      "score": 0.4129908560775487,
+      "created_at": "2025-11-30T19:36:13.977623-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.5815226234919877
+    },
+    {
+      "id": "d1025a56-3ed3-493c-9b8e-3e2d6b924568",
+      "memory": "Tends to swing between luxury and budget-friendly purchases",
+      "hash": "b7223b14d533798ff7ad5d335959241e",
+      "metadata": null,
+      "score": 0.6328898535336442,
+      "created_at": "2025-11-30T19:44:16.613756-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.5618566272072701
+    },
+    {
+      "id": "ca9ba62d-f3b8-4a28-ab0b-d38666f6690f",
+      "memory": "Wants to get luxury items without feeling too guilty about it",
+      "hash": "1dbe94d91c1001e74429bcc99b81eb92",
+      "metadata": null,
+      "score": 0.570948023903456,
+      "created_at": "2025-11-30T19:36:14.057575-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.48656338222755585
+    },
+    {
+      "id": "a69042b8-6430-40e5-afdd-8fad28dc69f1",
+      "memory": "Does not set a budget before making luxury purchases",
+      "hash": "4bc52a4718c2e380f56827aec5a489eb",
+      "metadata": null,
+      "score": 0.6228157668889224,
+      "created_at": "2025-11-30T19:36:13.962802-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.45836631875790246
+    },
+    {
+      "id": "08253b06-c741-4e4f-bddb-f67b7d1fc739",
+      "memory": "Wants to track expenses and categorize them into luxury and budget-friendly purchases",
+      "hash": "a120467a1eb4e3883a521871cd521637",
+      "metadata": null,
+      "score": 0.5645267730741678,
+      "created_at": "2025-11-30T19:44:16.597966-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.42207400375823795
+    },
+    {
+      "id": "dcf38380-d28d-4ca7-8303-841eedd8bbf9",
+      "memory": "Tries to justify luxury purchases by telling self they are investment pieces",
+      "hash": "1f1b81649be309645e4568ac7920feae",
+      "metadata": null,
+      "score": 0.48835717485689156,
+      "created_at": "2025-11-30T19:36:14.009657-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.41193062805406294
+    },
+    {
+      "id": "153b6778-2852-4374-a3d9-c5973f60c17f",
+      "memory": "Acknowledges luxury purchases are often an emotional response to a particular occasion or mood",
+      "hash": "961aaacceeb9b6d3d065c56b80772f7e",
+      "metadata": null,
+      "score": 0.42411422270708854,
+      "created_at": "2025-11-30T19:36:14.025995-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.37745711433033047
+    },
+    {
+      "id": "e5c64e42-f9a1-4e2f-9df5-b1f63d2aed09",
+      "memory": "Trying to get a better handle on spending habits",
+      "hash": "bdd7b8ae632093af0b47fbb3826dbf9c",
+      "metadata": null,
+      "score": 0.5304190168440877,
+      "created_at": "2025-11-30T19:35:23.193048-08:00",
+      "updated_at": "2025-11-30T19:44:15.838192-08:00",
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.3365825805198268
+    },
+    {
+      "id": "4732c7e7-21e1-40a7-b76c-962e0d614082",
+      "memory": "Bought a designer handbag from Gucci for $1,200",
+      "hash": "882ef927a1f41cf4576364a0c55d4e4b",
+      "metadata": null,
+      "score": 0.4318284385821479,
+      "created_at": "2025-11-30T19:36:13.928252-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.30507514652703355
+    },
+    {
+      "id": "43876a98-a320-42dd-bc1c-6ad9f544217d",
+      "memory": "Trying to understand shopping habits better, especially when it comes to clothing",
+      "hash": "7995dc9b95e9e419bab038bfc9498395",
+      "metadata": null,
+      "score": 0.3809581145183231,
+      "created_at": "2025-11-30T19:44:16.663633-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.17910383937447455
+    },
+    {
+      "id": "589f5d14-5f60-4c02-8df4-ec4410640584",
+      "memory": "Unsure how to determine how much to allocate for the 'treat yourself' budget",
+      "hash": "ff09d047c1a962c851ed66a6e8aa8628",
+      "metadata": null,
+      "score": 0.42901510006872007,
+      "created_at": "2025-11-30T19:36:14.074117-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.13173676061447553
+    },
+    {
+      "id": "5ca7605f-791e-4274-bc4e-4f76623004ab",
+      "memory": "Wants to cut back on unnecessary expenses but leave room for discretionary spending",
+      "hash": "52b79e08aee53ccecdbcc5b7189ecd8c",
+      "metadata": null,
+      "score": 0.3875340453310329,
+      "created_at": "2025-11-30T19:35:23.276253-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.09968896219778627
+    },
+    {
+      "id": "834fb52f-8517-4876-ad46-bf5e06b6daaa",
+      "memory": "Wants to focus on variable expenses category",
+      "hash": "d7fa97f4b6c5ac18d8cd4dc7182ced2b",
+      "metadata": null,
+      "score": 0.41021574251502324,
+      "created_at": "2025-11-30T19:35:23.260254-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.043576458078268
+    },
+    {
+      "id": "d893fac7-2650-40bd-b3ad-ddd08e7d993e",
+      "memory": "Tries to balance spending with budget-friendly options",
+      "hash": "d14d6987809317b642bea72942f935ed",
+      "metadata": null,
+      "score": 0.32928308888059876,
+      "created_at": "2025-11-30T19:36:13.946712-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.03524963638777064
+    },
+    {
+      "id": "87e9da1b-dada-482b-b2a8-d9cd17fcdd27",
+      "memory": "Thinks can work with the formula provided for determining the 'treat yourself' budget",
+      "hash": "a021b6b1ccc3b793019fe00c282613a8",
+      "metadata": null,
+      "score": 0.3649276368281431,
+      "created_at": "2025-11-30T19:36:14.089654-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.017121278226475987
+    },
+    {
+      "id": "68cc4e76-60d2-47ef-a79f-f73dbb7dc9ee",
+      "memory": "Wants to create a budget that takes into account irregular income",
+      "hash": "550a70e8f7d77df185bd79752bf316bd",
+      "metadata": null,
+      "score": 0.31441939478410186,
+      "created_at": "2025-11-30T19:35:23.245351-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_84",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4399,
+    "load_time": 1445.2035
+  }
+}

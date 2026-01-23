@@ -1,0 +1,242 @@
+{
+  "sample_idx": 158,
+  "question_id": "1d4e3b97",
+  "question": "I noticed my bike seems to be performing even better during my Sunday group rides. Could there be a reason for this?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T17:35:38.192696",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "aca01625-1ecc-4d36-b74a-9b5a79e71615",
+      "memory": "Replaced the old bike's chain and cassette on February 1st, which improved the bike's performance",
+      "hash": "5dc843e03503251fc25a3f8f33fb2a23",
+      "metadata": null,
+      "score": 0.41043616425099166,
+      "created_at": "2025-12-07T01:57:50.130358-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.9999999983689412
+    },
+    {
+      "id": "4f3b2c60-c531-4585-93d1-e4e0b6e4af1e",
+      "memory": "Planning a 20-mile bike ride this weekend",
+      "hash": "61381b803ecf018b706e4b0c6a765dd9",
+      "metadata": null,
+      "score": 0.32473876735567153,
+      "created_at": "2025-12-07T01:57:50.080846-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.5932840857884043
+    },
+    {
+      "id": "b978692b-e071-4afa-89b7-3152695bc4c5",
+      "memory": "Feeling good about getting back on track this week",
+      "hash": "2fc62194245803a7c41d14954e7a9179",
+      "metadata": null,
+      "score": 0.24268301500507075,
+      "created_at": "2025-12-07T01:38:14.273798-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.4518988784559584
+    },
+    {
+      "id": "790070aa-431f-4123-b878-7d1694dda227",
+      "memory": "Has been experimenting with different times of day to workout",
+      "hash": "a5928742ae9371377c6548e33a949f2f",
+      "metadata": null,
+      "score": 0.3644996398335591,
+      "created_at": "2025-12-07T01:44:32.707952-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.4453894265940622
+    },
+    {
+      "id": "e0abd1d6-4479-4827-b8db-f2fa336af0f9",
+      "memory": "Thinking of getting a new bike helmet to replace the old one",
+      "hash": "49d26554b4c77e66c605058614b0615e",
+      "metadata": null,
+      "score": 0.2188481398114907,
+      "created_at": "2025-12-07T01:57:50.144740-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.32245943614545
+    },
+    {
+      "id": "57d2fa03-edb5-4264-afb8-14abf3ffe018",
+      "memory": "Excited to start incorporating more functional training exercises into routine",
+      "hash": "66a2af429798ab9fef210de887268bf2",
+      "metadata": null,
+      "score": 0.2355382565738564,
+      "created_at": "2025-12-07T01:44:32.880306-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.24138092176982762
+    },
+    {
+      "id": "ae3487ab-2be0-4e8f-b924-b7fd8ff53f24",
+      "memory": "Interested in trying out indoor cycling",
+      "hash": "52ec6aeb3fe2f70a35b02770cf5758b5",
+      "metadata": null,
+      "score": 0.3283371025688311,
+      "created_at": "2025-12-07T01:40:17.738856-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.19914897066208828
+    },
+    {
+      "id": "76f5b78a-069d-4ad2-837f-53f2a80e66ab",
+      "memory": "Considering getting a fitness tracker to increase daily step count and reach running goals",
+      "hash": "5bf808e26ed21f66a242462c46767a40",
+      "metadata": null,
+      "score": 0.20656174691893286,
+      "created_at": "2025-12-07T01:44:32.770417-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.1891281355481742
+    },
+    {
+      "id": "f6a6d464-c2d9-4aa6-8bf3-7e869a5aceae",
+      "memory": "Thinking of getting a fitness tracker to help stay on top of workouts and daily activity",
+      "hash": "3056f072d29a0404f68d8d1db9b37cbb",
+      "metadata": null,
+      "score": 0.21463044602087766,
+      "created_at": "2025-12-07T01:40:17.825028-08:00",
+      "updated_at": "2025-12-07T01:44:32.613036-08:00",
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.16730324136353145
+    },
+    {
+      "id": "f28527f3-cd18-427e-b225-fdbf39eca724",
+      "memory": "Trying to get back into a regular exercise routine since the start of the year",
+      "hash": "6aab039b66e85144462ef3c09044f740",
+      "metadata": null,
+      "score": 0.21643771542175488,
+      "created_at": "2025-12-07T01:44:32.638627-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.10065384602856128
+    },
+    {
+      "id": "bcf0a257-a66a-48e6-b375-e4b1d9fa4aab",
+      "memory": "Trying to get back on track with bedtime routine this week",
+      "hash": "689daa3c293d059d4af03195a0b003e8",
+      "metadata": null,
+      "score": 0.23726264716137396,
+      "created_at": "2025-12-07T01:38:14.258316-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.074800054102689
+    },
+    {
+      "id": "87f19caf-b9b5-492b-8db8-8734283db94f",
+      "memory": "Struggles with finding motivation to workout consistently",
+      "hash": "8713454933e6c1313deea0ba87b2713d",
+      "metadata": null,
+      "score": 0.24078799626207287,
+      "created_at": "2025-12-07T01:44:32.915900-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.012866153730282959
+    },
+    {
+      "id": "3079a6fe-1623-4003-8838-60881fa25280",
+      "memory": "Has been listening to calming music or nature sounds on phone while reading before bed",
+      "hash": "c5a072dc49a3c3dcf5d5e490c6ff7cbb",
+      "metadata": null,
+      "score": 0.24460543913752905,
+      "created_at": "2025-12-07T01:39:06.689046-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.005016017353053105
+    },
+    {
+      "id": "53ba58d1-4c53-4596-8854-e22e419eca2f",
+      "memory": "Has been having issues with phone's battery life lately",
+      "hash": "094dbea9a8353ccfb78f97ee90711ab9",
+      "metadata": null,
+      "score": 0.2177194634274338,
+      "created_at": "2025-12-07T01:53:48.351686-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.003599424490639404
+    },
+    {
+      "id": "87c1579d-9b35-4957-a9f1-121d93208994",
+      "memory": "Took a yoga class while in Brooklyn during a solo trip to NYC and loved it",
+      "hash": "c20f966e3cd62810d7874fa067fb4a07",
+      "metadata": null,
+      "score": 0.2363945898676421,
+      "created_at": "2025-12-07T01:41:04.641467-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.00343920810233523
+    },
+    {
+      "id": "94354c68-1f78-4129-9f1d-02501bed6ae5",
+      "memory": "Took a day trip to the Hamptons on a whim during a solo trip to NYC and it ended up being one of the highlights of the trip",
+      "hash": "d9ae6525a429f172fbcf19e8a0243c12",
+      "metadata": null,
+      "score": 0.19936462150233322,
+      "created_at": "2025-12-07T01:41:04.729934-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.0023858242367081756
+    },
+    {
+      "id": "c0c92d1c-de0f-42fb-b955-f78777dd41a7",
+      "memory": "Believes functional training will help with overall fitness goals and make daily activities easier",
+      "hash": "c44141f60a69e220a208e208c719433b",
+      "metadata": null,
+      "score": 0.23310700489022496,
+      "created_at": "2025-12-07T01:44:32.896837-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.0021496995013239656
+    },
+    {
+      "id": "fac2cd56-3c8a-4442-b7ef-0e4f5c24bfa6",
+      "memory": "Has trouble with upper range, especially when singing in harmony with others",
+      "hash": "771ddca42eb6760736b0235b0e225cd2",
+      "metadata": null,
+      "score": 0.3181172474604209,
+      "created_at": "2025-12-07T01:48:16.034477-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.002079079850556883
+    },
+    {
+      "id": "4c67f6e0-2866-426e-808d-9b6b26099ce2",
+      "memory": "Feels confident about cardiovascular endurance after finishing the 'Run for the Cure' in 35 minutes",
+      "hash": "df7497681f9d4c0cdab6da66b19ddd74",
+      "metadata": null,
+      "score": 0.23656269673115848,
+      "created_at": "2025-12-07T01:40:17.794233-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.0017611358722134543
+    },
+    {
+      "id": "d7584d09-989b-472d-882b-f9f26d8a957d",
+      "memory": "Most tempted to mindlessly scroll in the evenings, usually after dinner around 7-8 pm when watching TV or before bed when winding down",
+      "hash": "3604f460c75f9b7e4f12d48e25c56c09",
+      "metadata": null,
+      "score": 0.20167208822139038,
+      "created_at": "2025-12-07T01:38:14.178712-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_158",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2564,
+    "load_time": 1536.3577
+  }
+}

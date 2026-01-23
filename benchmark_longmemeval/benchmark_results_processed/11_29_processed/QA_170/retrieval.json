@@ -1,0 +1,242 @@
+{
+  "sample_idx": 170,
+  "question_id": "e6041065",
+  "question": "What percentage of packed shoes did I wear on my last trip?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T16:44:53.637704",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "5ab0bb55-3a77-49b4-aba3-b320cddafcfa",
+      "memory": "On last trip, packed 5 pairs of shoes",
+      "hash": "f3d6c95667b2c64f18ad0adb8e2a981f",
+      "metadata": null,
+      "score": 0.784816909252045,
+      "created_at": "2025-12-08T01:14:03.462485-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.9999999991082168
+    },
+    {
+      "id": "db0c8d94-7b7f-453a-b37b-46698544c9f7",
+      "memory": "Packed a lot of shoes for last trip but only wore sneakers and sandals, so won't pack extra shoes",
+      "hash": "c88059df8da61cf3426dfadc731b42f5",
+      "metadata": null,
+      "score": 0.7586938156047676,
+      "created_at": "2025-12-08T00:48:30.025428-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.7736778133738053
+    },
+    {
+      "id": "37e9da13-08b4-41d2-80f6-733dcc955cab",
+      "memory": "On last trip, packed nuts and energy bars which helped save money and stay energized",
+      "hash": "73ad0bf026068586cce60cb82e83c35a",
+      "metadata": null,
+      "score": 0.39132998478790665,
+      "created_at": "2025-12-08T01:14:03.446390-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.4940871368588276
+    },
+    {
+      "id": "b9faf356-9d8c-46ac-9eb1-edc8e59e4880",
+      "memory": "Learned a lesson on last trip by packing an entire bag of skincare and hair care products but only used half",
+      "hash": "801861c58343c37f5d6bd66d1189dec1",
+      "metadata": null,
+      "score": 0.45946775151887215,
+      "created_at": "2025-12-08T01:14:03.409427-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.49333276938570386
+    },
+    {
+      "id": "4511ce28-2194-4b29-a951-3646024a21bd",
+      "memory": "Worried about packing enough undergarments and socks, especially for outdoor activities",
+      "hash": "d3a79aa9fdb717a87b7b2d6c4e09f7c1",
+      "metadata": null,
+      "score": 0.5789292361161293,
+      "created_at": "2025-12-08T01:14:03.355986-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.46762729376545076
+    },
+    {
+      "id": "75778284-8ddc-4a8c-b8f1-213de6de4c28",
+      "memory": "Thinks can get away with packing 2-3 tops and 2 bottoms since tends to stick to favorite pieces",
+      "hash": "51291dd2fcbb8be46c92420685be1332",
+      "metadata": null,
+      "score": 0.32448794432256506,
+      "created_at": "2025-12-08T00:48:30.040920-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.3512353665218512
+    },
+    {
+      "id": "7fe11339-10a6-456c-9b9f-bfb23e920fd7",
+      "memory": "Planning a 5-day trip to the city and trying to pack lightly",
+      "hash": "6a5e1bc2365054aa432273b88c3a67c3",
+      "metadata": null,
+      "score": 0.3608024240376887,
+      "created_at": "2025-12-08T00:48:30.008962-08:00",
+      "updated_at": "2025-12-08T01:14:03.326495-08:00",
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.29441321067650067
+    },
+    {
+      "id": "8396036a-1b1e-4ead-8499-92823aa1b83c",
+      "memory": "Tends to overpack toiletries and only ends up using a few basics",
+      "hash": "79ef7816e77e7d799aa32f9f4dc0388d",
+      "metadata": null,
+      "score": 0.25095952075915096,
+      "created_at": "2025-12-08T00:48:30.107029-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.2713343286345963
+    },
+    {
+      "id": "6936fbbe-883c-48c6-91a8-1446c9727a4e",
+      "memory": "Will prioritize packing versatile clothing items that can be dressed up or down",
+      "hash": "25facd50ccbbd6303e8508523d91e35f",
+      "metadata": null,
+      "score": 0.3760737759662548,
+      "created_at": "2025-12-08T01:14:03.376132-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.23947637818449916
+    },
+    {
+      "id": "8da3fab2-7fae-4fde-9a16-f9541db73c13",
+      "memory": "Will pack favorite black pants and a pair of comfortable shorts",
+      "hash": "bc0c14564dc0f3ae87178c54aeb12a28",
+      "metadata": null,
+      "score": 0.4345793573411704,
+      "created_at": "2025-12-08T00:48:30.056095-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.17232738238153322
+    },
+    {
+      "id": "cb7940db-0579-46ea-9eb0-89422717b768",
+      "memory": "Tries to make a packing list a week before traveling to help plan and prepare, which helps avoid forgetting essential items and prioritize what is needed",
+      "hash": "a4d98e67713c5f8ec2b0f31f84381181",
+      "metadata": null,
+      "score": 0.30288353582839106,
+      "created_at": "2025-12-08T01:14:03.525591-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.16950245904587624
+    },
+    {
+      "id": "498d8e43-ba7d-4777-a661-dbcd632d169b",
+      "memory": "Trying to pack more scarves and jackets to add variety to outfits",
+      "hash": "8e02d53797ffb08ca3bbcaaea4aab57c",
+      "metadata": null,
+      "score": 0.33656141409293894,
+      "created_at": "2025-12-08T01:14:03.392580-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.1465910346764161
+    },
+    {
+      "id": "b9ea0491-239c-4d98-aecb-29473d78bca6",
+      "memory": "Thinking of packing snacks like nuts and energy bars to avoid relying on airport or bus station food",
+      "hash": "dd2d93db9347f985de07987fef82363d",
+      "metadata": null,
+      "score": 0.2807004135520093,
+      "created_at": "2025-12-08T01:14:03.428697-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.038384122086807575
+    },
+    {
+      "id": "dea17207-8d82-4e5a-860c-756fa7a8d211",
+      "memory": "Will pack a small toiletry bag with essentials like toothbrush, toothpaste, deodorant, and any prescription medications",
+      "hash": "8a51f7a3e2c85db27fc371d9b2e3736c",
+      "metadata": null,
+      "score": 0.34835419595736306,
+      "created_at": "2025-12-08T00:48:30.121459-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.01814615222891951
+    },
+    {
+      "id": "20c1056e-dde0-42ed-b13b-f15af39fa0f7",
+      "memory": "For tops, will bring a white t-shirt, a gray sweater, and a bold-patterned blouse",
+      "hash": "9b07b4e29583169672ed5193aff7f489",
+      "metadata": null,
+      "score": 0.24457122438563242,
+      "created_at": "2025-12-08T00:48:30.072764-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.006229017189011008
+    },
+    {
+      "id": "8a7e036a-bfe2-41d9-90b4-587ebdb672af",
+      "memory": "Will also pack a small laundry detergent pack, just in case",
+      "hash": "09cb2bac5359e320a077bdb6c28a2d46",
+      "metadata": null,
+      "score": 0.3041643887459472,
+      "created_at": "2025-12-08T00:48:30.089947-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.001366876440591258
+    },
+    {
+      "id": "ade39eb1-5f7c-45e7-9292-a4b67f9f061e",
+      "memory": "Planning to shop at Walmart again this week",
+      "hash": "3b36aa0310612f6d176891f0463aa5b7",
+      "metadata": null,
+      "score": 0.24509201412631298,
+      "created_at": "2025-12-08T01:14:55.778356-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.000577979858776642
+    },
+    {
+      "id": "87eded43-d783-4b82-977f-20a2955ec98d",
+      "memory": "Wants tips on finding good deals or discounts for a ski trip",
+      "hash": "5d3f7a51c6b1ac784cbdb8e0a4797a4a",
+      "metadata": null,
+      "score": 0.27985077659109003,
+      "created_at": "2025-12-08T01:11:37.541401-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.00019552320413883164
+    },
+    {
+      "id": "94dc2e50-f9b4-414e-baa6-8406b092243a",
+      "memory": "Had a coupon for 10% off on all dairy products at Walmart last week",
+      "hash": "c8c5f6d6a180e844f595353bc25e0967",
+      "metadata": null,
+      "score": 0.2433242937426622,
+      "created_at": "2025-12-08T01:14:55.746237-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 1.1906589203756603e-05
+    },
+    {
+      "id": "a0ebe673-8beb-486c-ad90-95475809cab3",
+      "memory": "Made around $80 at the Artisan Market the week before with knitted scarves and hats",
+      "hash": "97470a66c0366f79e76771ffeab16e0b",
+      "metadata": null,
+      "score": 0.3443823423466847,
+      "created_at": "2025-12-08T00:58:26.176593-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_170",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4068,
+    "load_time": 1908.149
+  }
+}

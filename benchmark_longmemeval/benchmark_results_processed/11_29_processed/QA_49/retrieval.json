@@ -1,0 +1,243 @@
+{
+  "sample_idx": 49,
+  "question_id": "8a137a7f",
+  "question": "What type of bulb did I replace in my bedside lamp?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T13:24:38.930503",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "1e2dea88-f911-4dd5-9f78-b4ded7a3de5a",
+      "memory": "Has a Philips LED bulb in bedside lamp",
+      "hash": "84cb3792cd6ce69ae1695cf3388f774a",
+      "metadata": null,
+      "score": 0.6530933721089361,
+      "created_at": "2025-11-29T21:27:20.022576-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.9999999992176314
+    },
+    {
+      "id": "3b1de033-42b6-4f57-8bd4-fa5bb2faf6d0",
+      "memory": "Has been using a Philips LED bulb in bedside lamp and really likes the warm tone it provides",
+      "hash": "73d34a2e16b8f3df7c9aa154d82ac728",
+      "metadata": null,
+      "score": 0.5327804512148989,
+      "created_at": "2025-11-29T21:27:20.168051-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.982731118952222
+    },
+    {
+      "id": "986925c8-a73d-45c6-8480-dc72f82e4164",
+      "memory": "Plans to start with some warm white bulbs for the kitchen",
+      "hash": "b2d5b3fe4a3ba492316277ecf1ab51b1",
+      "metadata": null,
+      "score": 0.3551410498381583,
+      "created_at": "2025-11-29T21:27:20.145770-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.26288273206588
+    },
+    {
+      "id": "12c567dc-2893-4468-ba67-f98239ec4810",
+      "memory": "Has been meaning to get some smart light bulbs for the kitchen",
+      "hash": "e2895a050f3fb8c9959917405abadc78",
+      "metadata": null,
+      "score": 0.4608653387680668,
+      "created_at": "2025-11-29T21:27:20.088236-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.16701435600913556
+    },
+    {
+      "id": "74eeabab-07dc-4bcf-907e-24f961d3bac2",
+      "memory": "Likes the idea of a linen shade for a floor lamp",
+      "hash": "15f6911395a333b5f3b36ccfe8d6a9c2",
+      "metadata": null,
+      "score": 0.4129868702358683,
+      "created_at": "2025-11-29T21:27:20.046044-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.14946296493155015
+    },
+    {
+      "id": "aee1fc9f-0a71-49ef-90f7-064d04a3fcf9",
+      "memory": "Plans to start with a few smart bulbs for the kitchen and see how that goes",
+      "hash": "d4bc0a817dfaeeb75ce66f63c8b0a09e",
+      "metadata": null,
+      "score": 0.3449935472333564,
+      "created_at": "2025-11-29T21:27:20.107789-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.1468172811604112
+    },
+    {
+      "id": "a67932de-8608-4dc3-a688-d72dabfd8fb1",
+      "memory": "Plans to try placing a floor lamp behind the sofa",
+      "hash": "c8eac8f616b1d3eb2f5a83d33d35903b",
+      "metadata": null,
+      "score": 0.35429835894766637,
+      "created_at": "2025-11-29T21:27:20.000187-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.14529869344519106
+    },
+    {
+      "id": "ef770290-1de0-41e3-876d-023e9b4f2104",
+      "memory": "Has been meaning to replace the harsh overhead lighting in the kitchen",
+      "hash": "0ba1844610675dc683dc35e158c8e2d0",
+      "metadata": null,
+      "score": 0.31581872890578894,
+      "created_at": "2025-11-29T21:27:20.126377-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.13293779384291665
+    },
+    {
+      "id": "6ba206a2-fa0f-4b7d-81d6-0cc8103c60ad",
+      "memory": "Has been using the timer function on desk lamp and finds it helpful for staying focused",
+      "hash": "7e5303ebc9779ec9569fcebce9b0a9a2",
+      "metadata": null,
+      "score": 0.32819007472460904,
+      "created_at": "2025-11-29T21:27:20.067801-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.010244292895382782
+    },
+    {
+      "id": "4f999096-ba48-439d-8e22-6e97c578bc5c",
+      "memory": "Has a new turntable",
+      "hash": "5614e68eb7c0e6a4a3f816db6e0fdb2e",
+      "metadata": null,
+      "score": 0.16783064776315018,
+      "created_at": "2025-11-29T21:43:20.437028-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.00503902814990948
+    },
+    {
+      "id": "ee5b0ad1-5d19-48f0-9240-de680b374a5c",
+      "memory": "Likes the layered lighting concept",
+      "hash": "34855595b1c6617fbb2435124d714582",
+      "metadata": null,
+      "score": 0.15056608787170422,
+      "created_at": "2025-11-29T21:27:19.975324-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.004347370501401116
+    },
+    {
+      "id": "71d95314-3a8d-43e2-9e54-945577baae65",
+      "memory": "Looking for a yoga mat with good grip",
+      "hash": "cd10b7c8159ecd5dfb22ebae31b41a04",
+      "metadata": null,
+      "score": 0.14590298706983007,
+      "created_at": "2025-11-29T21:30:25.828183-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.0009605610104527162
+    },
+    {
+      "id": "75d877c7-ec45-4600-9922-58530848f72c",
+      "memory": "Thinking of getting a new gaming keyboard to replace old one",
+      "hash": "d9fe9e78f146a846da5e783a40022592",
+      "metadata": null,
+      "score": 0.17816211820925082,
+      "created_at": "2025-11-29T21:29:37.016327-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.0008910221832240437
+    },
+    {
+      "id": "47904015-65c6-48cc-8962-464907bae4d3",
+      "memory": "Wants suggestions on which type of trees would be best for enhancing photosynthesis",
+      "hash": "95be219cae536d42e30ce61693db2353",
+      "metadata": null,
+      "score": 0.18275957973190676,
+      "created_at": "2025-11-29T21:37:51.638346-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.0008687876655050045
+    },
+    {
+      "id": "adba87c2-96c1-4bb5-8d3f-94050cd26ceb",
+      "memory": "Lost a water bottle at the picnic area",
+      "hash": "cfb65eba4f614bcfb36518edf6486e7c",
+      "metadata": null,
+      "score": 0.156047824581297,
+      "created_at": "2025-11-29T21:30:25.807078-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.0008032779119569631
+    },
+    {
+      "id": "36c38c6c-17c8-4dac-86b3-d809792223f8",
+      "memory": "The water bowl was around $25, stainless steel",
+      "hash": "c582de6c8637fe6f059a2c1989f3083c",
+      "metadata": null,
+      "score": 0.13033441269990745,
+      "created_at": "2025-11-29T21:42:23.035955-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.0006818088017334878
+    },
+    {
+      "id": "7fa16260-e584-4c5f-876c-ea8991580f10",
+      "memory": "Has a pet named Whiskers",
+      "hash": "09492af1f4c1b20a989f474178cc2adb",
+      "metadata": null,
+      "score": 0.12740712350826444,
+      "created_at": "2025-11-29T21:42:23.036285-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.0004887117149654568
+    },
+    {
+      "id": "cc67b9a2-e337-4501-b074-2792ed429b3a",
+      "memory": "Wants to know the calorie count of a typical Footlong sandwich",
+      "hash": "204ace2dd980ce6282e1b757be4acf74",
+      "metadata": null,
+      "score": 0.12917844470500403,
+      "created_at": "2025-11-29T21:34:22.691963-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.0003955953454575347
+    },
+    {
+      "id": "389d73d1-e533-4e1a-b63f-7088ef4fbba2",
+      "memory": "Wants a new shampoo for Whiskers around $15",
+      "hash": "8b1945249415a6546384e8cf7e3965b5",
+      "metadata": null,
+      "score": 0.18329923786659397,
+      "created_at": "2025-11-29T21:42:23.038274-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.0003682125669243557
+    },
+    {
+      "id": "32a243b6-5bbb-4231-bd9d-68eeb0270eca",
+      "memory": "Wants a pet camera to keep an eye on Max and Whiskers when not home",
+      "hash": "33b13d68bee57d3df7bf117225cf1f04",
+      "metadata": null,
+      "score": 0.13268516360126656,
+      "created_at": "2025-11-29T21:42:23.036616-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_49",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "retrieval_time": 0.0698,
+    "load_time": 1163.5369
+  }
+}

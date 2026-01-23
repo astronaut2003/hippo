@@ -1,0 +1,77 @@
+{
+  "sample_idx": 191,
+  "question_id": "77eafa52",
+  "question": "How much more did I have to pay for the trip after the initial quote?",
+  "question_type": "multi-session",
+  "gold_answer": "$300",
+  "question_date": "2023/05/30 (Tue) 20:07",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-09T01:58:00.779637",
+  "predicted_answer": "You initially received a quote of $2,500 for the trip, but the corrected price was $2,800. Therefore, you had to pay an additional $300 after the initial quote.",
+  "prompt_length": 2854,
+  "gen_token_usage": {
+    "prompt_tokens": 793,
+    "answer_tokens": 39,
+    "total_tokens": 832,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.61,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.08333333333333333,
+      "rouge1_f": 0.06451612903225806,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06451612903225806,
+      "semantic_similarity": 0.4129678010940552,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.05309139784946236,
+      "avg_semantic": 0.4129678010940552,
+      "overall_average": 0.12506668269634247
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.08333333333333333,
+    "rouge1_f": 0.06451612903225806,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06451612903225806,
+    "semantic_similarity": 0.4129678010940552,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.05309139784946236,
+    "avg_semantic": 0.4129678010940552,
+    "overall_average": 0.12506668269634247
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1042.6708,
+    "retrieval_time": 0.4107,
+    "generation_time": 2.1868,
+    "evaluation_time": 5.5903,
+    "cleanup_time": 1.6517,
+    "total_time": 1052.515
+  }
+}

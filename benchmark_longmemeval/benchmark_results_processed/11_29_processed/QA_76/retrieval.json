@@ -1,0 +1,242 @@
+{
+  "sample_idx": 76,
+  "question_id": "gpt4_d84a3211",
+  "question": "How much total money have I spent on bike-related expenses since the start of the year?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T07:57:29.591505",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "6d41c4df-b7bd-4465-823c-1fa8c82c08d2",
+      "memory": "Has been keeping track of bike mileage and is currently at 347 miles since the start of the year",
+      "hash": "911e9a30625d58c720854672aa185656",
+      "metadata": null,
+      "score": 0.5503578060292819,
+      "created_at": "2025-11-30T16:03:32.676835-08:00",
+      "updated_at": "2025-11-30T16:21:02.294505-08:00",
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.9999999989008109
+    },
+    {
+      "id": "87ebfdb0-de66-4f1e-a290-fcf49ac43a94",
+      "memory": "Has been keeping track of bike mileage and is currently at 347 miles since the start of the year",
+      "hash": "911e9a30625d58c720854672aa185656",
+      "metadata": null,
+      "score": 0.5503578060292819,
+      "created_at": "2025-11-30T15:57:53.154262-08:00",
+      "updated_at": "2025-11-30T16:21:02.312059-08:00",
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.9999999989008109
+    },
+    {
+      "id": "8ad6f11d-c27a-4e9e-b2d2-91c948534372",
+      "memory": "Recently got a new set of bike lights installed for $40",
+      "hash": "dd0574134355be6287f9f7407f8d4274",
+      "metadata": null,
+      "score": 0.3957052091851102,
+      "created_at": "2025-11-30T15:57:53.136983-08:00",
+      "updated_at": "2025-11-30T16:02:27.208715-08:00",
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.49708590522649826
+    },
+    {
+      "id": "7a6544d7-496f-4227-854a-53040baeaa26",
+      "memory": "Bought a Bell Zephyr helmet for $120 at the local bike shop",
+      "hash": "37d0d1d6d8035570d27019bb51ccc15b",
+      "metadata": null,
+      "score": 0.38280288706902305,
+      "created_at": "2025-11-30T16:03:32.744450-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.3923576098094048
+    },
+    {
+      "id": "8a2007e0-08ca-4ed4-87c6-5c2b62893f74",
+      "memory": "Uses bike for daily commutes to work",
+      "hash": "fcdd1840676e6314092430bc2b571265",
+      "metadata": null,
+      "score": 0.39497925413830337,
+      "created_at": "2025-11-30T15:57:53.185565-08:00",
+      "updated_at": "2025-11-30T16:02:27.237713-08:00",
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.32286517695484945
+    },
+    {
+      "id": "797d8695-46a7-434e-897e-775b6385a71b",
+      "memory": "Wants to make sure bike is ready for the trip",
+      "hash": "3a1f08ba28ea47c10cf5c8fafa8f1742",
+      "metadata": null,
+      "score": 0.3359539652067689,
+      "created_at": "2025-11-30T16:00:28.456670-08:00",
+      "updated_at": "2025-11-30T16:21:02.277087-08:00",
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.26624799499244184
+    },
+    {
+      "id": "ead1ec5d-d63f-4f2f-b31c-050c79602013",
+      "memory": "Considering getting bike insurance to protect the investment",
+      "hash": "e074f4cc0b71e01cb3eb6ec70b0b6e4f",
+      "metadata": null,
+      "score": 0.5048614125685281,
+      "created_at": "2025-11-30T16:02:27.295317-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.24438573008442094
+    },
+    {
+      "id": "f21b9702-b091-4a47-83f5-6aba87be7c98",
+      "memory": "Might go back to the local bike shop for the next tune-up",
+      "hash": "fff1bb31d25ef5aad56d7f1053a87334",
+      "metadata": null,
+      "score": 0.2906591432784177,
+      "created_at": "2025-11-30T16:03:32.789485-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.2072460025874793
+    },
+    {
+      "id": "08626e47-503f-4b7f-a8de-5cb2ded8c12f",
+      "memory": "Got the helmet from the local bike shop downtown on April 10th",
+      "hash": "dd81a03a0cbcd6271af5e1eef7d002ad",
+      "metadata": null,
+      "score": 0.3013786321836459,
+      "created_at": "2025-11-30T15:57:53.218968-08:00",
+      "updated_at": "2025-11-30T16:03:31.720087-08:00",
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.11489356303183768
+    },
+    {
+      "id": "3943a06c-2345-4b9a-b52b-a917bcfca813",
+      "memory": "Wants to be able to bring the bike on the road trip",
+      "hash": "a9bc3f0c8248f339902d89c2294eb499",
+      "metadata": null,
+      "score": 0.31723899646862425,
+      "created_at": "2025-11-30T16:03:32.832911-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.10965756756831356
+    },
+    {
+      "id": "ed22a239-bc8a-4f16-8fbd-215bee00922e",
+      "memory": "Thinking about getting a bike rack for the car to take the bike on longer trips",
+      "hash": "b8bbb0f19b9c6a9a8683ae3e402dab8f",
+      "metadata": null,
+      "score": 0.3450951675024292,
+      "created_at": "2025-11-30T15:57:53.264046-08:00",
+      "updated_at": "2025-11-30T16:03:32.529784-08:00",
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.1013561210379045
+    },
+    {
+      "id": "64cdb134-78c2-4a9b-9c58-26cc103d5b82",
+      "memory": "Has been using a specialized bike cleaner",
+      "hash": "0800aaa3ed2526ffc1e26624aed8b09a",
+      "metadata": null,
+      "score": 0.30874127116752415,
+      "created_at": "2025-11-30T16:03:32.652995-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.09209655725716792
+    },
+    {
+      "id": "8af92bc2-ae10-4891-8cfc-4ddce13e3024",
+      "memory": "Will make sure to schedule an appointment with the local bike shop soon",
+      "hash": "f4b5f3dc3468268ba914091a916f292a",
+      "metadata": null,
+      "score": 0.3733498470172312,
+      "created_at": "2025-11-30T16:03:32.804541-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.07398719778448362
+    },
+    {
+      "id": "790e0a8f-3c05-4832-a5f0-ab956edd1908",
+      "memory": "Looking to get tips on how to properly clean bike",
+      "hash": "572dad7e5b90f316fece81fac0209474",
+      "metadata": null,
+      "score": 0.3141109974350359,
+      "created_at": "2025-11-30T16:03:32.617759-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.06609394694037386
+    },
+    {
+      "id": "f7a03d0e-c7ce-4846-a7cf-dccc5610a37a",
+      "memory": "Has had good experiences with the local bike shop downtown",
+      "hash": "0a07e917d6050d9378e9131692c7993c",
+      "metadata": null,
+      "score": 0.31804814470474607,
+      "created_at": "2025-11-30T16:03:32.729030-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.044501086992237204
+    },
+    {
+      "id": "7767cf63-27b7-47aa-a06f-755a18acfa09",
+      "memory": "Replaced the chain during the service, costing $25",
+      "hash": "68a706fedf31484366c7044d42560376",
+      "metadata": null,
+      "score": 0.28371554012759503,
+      "created_at": "2025-11-30T15:57:53.121112-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.028897403300141445
+    },
+    {
+      "id": "782973ce-dd21-4034-bc33-a489fa6f47dc",
+      "memory": "The new bike lights made a huge difference for early morning rides",
+      "hash": "83bf1ad133ec6b8f81186d3e55bd7860",
+      "metadata": null,
+      "score": 0.3127692244787388,
+      "created_at": "2025-11-30T15:57:53.249953-08:00",
+      "updated_at": "2025-11-30T16:21:02.346559-08:00",
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.02845650164205855
+    },
+    {
+      "id": "33cbba60-ac79-4361-bd14-038950cf76b6",
+      "memory": "Thinking of getting a bike ride in after yoga class today",
+      "hash": "882aa46c6839da1c90fab119fc02ca27",
+      "metadata": null,
+      "score": 0.36397355837410605,
+      "created_at": "2025-11-30T16:14:32.864729-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.009954460854305656
+    },
+    {
+      "id": "0368a16b-afa3-4b20-b359-7c74a7c54e2d",
+      "memory": "Found a good deal on a Saris Bones 2-Bike Trunk Rack online",
+      "hash": "41fbdb52fdce572385d5c78c3d63927d",
+      "metadata": null,
+      "score": 0.3208840972753788,
+      "created_at": "2025-11-30T16:02:27.266519-08:00",
+      "updated_at": "2025-11-30T16:03:32.595872-08:00",
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.0003624911872683413
+    },
+    {
+      "id": "525f8c74-e6da-4d60-8314-70220d456df3",
+      "memory": "Will take a bike ride through the park after yoga class today",
+      "hash": "cb20c576524228324dbf7cb28db9b06f",
+      "metadata": null,
+      "score": 0.2998169262191398,
+      "created_at": "2025-11-30T16:14:32.893749-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_76",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.5164,
+    "load_time": 1488.9006
+  }
+}

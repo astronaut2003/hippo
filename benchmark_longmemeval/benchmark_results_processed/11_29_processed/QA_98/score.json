@@ -1,0 +1,77 @@
+{
+  "sample_idx": 98,
+  "question_id": "2ce6a0f2",
+  "question": "How many different art-related events did I attend in the past month?",
+  "question_type": "multi-session",
+  "gold_answer": 4,
+  "question_date": "2023/03/08 (Wed) 23:27",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-02T04:56:32.297952",
+  "predicted_answer": "You attended two art-related events in the past month: the lecture on 'The Evolution of Street Art' on March 3rd and the 'Women in Art' exhibition on February 10th.",
+  "prompt_length": 3238,
+  "gen_token_usage": {
+    "prompt_tokens": 837,
+    "answer_tokens": 40,
+    "total_tokens": 877,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 29,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.08369243144989014,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.08369243144989014,
+      "overall_average": 0.016738485544919968
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.08369243144989014,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.08369243144989014,
+    "overall_average": 0.016738485544919968
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1390.5749,
+    "retrieval_time": 1.2329,
+    "generation_time": 2.0816,
+    "evaluation_time": 1.146,
+    "cleanup_time": 1.6165,
+    "total_time": 1396.656
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 118,
+  "question_id": "e3038f8c",
+  "question": "How many rare items do I have in total?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T01:09:19.906337",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "cee8b32c-7039-4932-ac95-0eca423f9072",
+      "memory": "Has a collection of 57 rare records",
+      "hash": "e63e10b047bfe5fd98e90cd574a8effd",
+      "metadata": null,
+      "score": 0.5631853405942866,
+      "created_at": "2025-12-06T09:12:22.723078-08:00",
+      "updated_at": "2025-12-06T09:13:57.253825-08:00",
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.9999999988268747
+    },
+    {
+      "id": "b09af4d6-5e7f-4796-9393-d7d2df4e068d",
+      "memory": "Thinking of starting a collection of rare items",
+      "hash": "63208b5570d5f43e2470cb3881e22e3f",
+      "metadata": null,
+      "score": 0.6464738349317372,
+      "created_at": "2025-12-06T09:20:33.883800-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.9256152967896983
+    },
+    {
+      "id": "10cbac06-9a62-4486-9049-e75e1eb49ae7",
+      "memory": "Has 12 rare figurines in their collection",
+      "hash": "f71efd1bbae9377ff532660e6b8f2ae3",
+      "metadata": null,
+      "score": 0.5998433165492172,
+      "created_at": "2025-12-06T09:12:22.637108-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.7213959158104684
+    },
+    {
+      "id": "040fa4a2-289d-44a3-b33a-e7ad76f4d181",
+      "memory": "Has 25 rare coins that need to be stored safely",
+      "hash": "6d7d0a7073c1016f755466699d1893d1",
+      "metadata": null,
+      "score": 0.503573238536966,
+      "created_at": "2025-12-06T09:16:13.742158-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.7099426919325504
+    },
+    {
+      "id": "a44541db-133e-45b1-86ad-8cb841014cb3",
+      "memory": "Has been collecting rare books for a while and has a small but valuable collection of 5 books",
+      "hash": "fcd7c5505ef7682e1adb301c8d1835a9",
+      "metadata": null,
+      "score": 0.5089700601782096,
+      "created_at": "2025-12-06T09:13:22.035268-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.5240516297096466
+    },
+    {
+      "id": "01308a0a-4c70-4ae5-8cbc-f5b49a0db275",
+      "memory": "Thinking about rare records and how to showcase them better",
+      "hash": "28ee3fb457a8558f2004c6ffc875f238",
+      "metadata": null,
+      "score": 0.4124818706628669,
+      "created_at": "2025-12-06T09:13:58.098279-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.524038595930245
+    },
+    {
+      "id": "3301743e-b4ec-4a1c-8609-dbf63296362a",
+      "memory": "Wants to update inventory list of rare records and is looking for good software or apps to help organize and track the collection",
+      "hash": "324514f9c294c8b6a10b19b2664b6de1",
+      "metadata": null,
+      "score": 0.3596894827037019,
+      "created_at": "2025-12-06T09:16:13.799865-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.47976077756164315
+    },
+    {
+      "id": "ee017c5a-d7d6-4433-9517-b9c6950b894e",
+      "memory": "Has other collectibles like rare figurines",
+      "hash": "b2b41445dcdb4bbc0f1d42f3d3cc707e",
+      "metadata": null,
+      "score": 0.5621953668710786,
+      "created_at": "2025-12-06T09:12:22.622647-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.44733564323707903
+    },
+    {
+      "id": "96abe4a8-f1cb-4dc1-9861-54077c7cd976",
+      "memory": "Looking to improve knowledge about the rare figurines",
+      "hash": "ffffca45b06340a5b1000217b4adec7c",
+      "metadata": null,
+      "score": 0.4257812331210138,
+      "created_at": "2025-12-06T09:12:22.650265-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.4403596064920186
+    },
+    {
+      "id": "8d0d4e9a-c6ee-4e1b-954b-245247fa9342",
+      "memory": "Thinking of getting a rare book collection appraised",
+      "hash": "cf72f6394dcec83f091a34def907db9f",
+      "metadata": null,
+      "score": 0.449576136609169,
+      "created_at": "2025-12-06T09:16:13.780211-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.42782015974535464
+    },
+    {
+      "id": "91f4ae67-0662-4481-8010-34e2eb554e1f",
+      "memory": "Looking for a way to organize music collection, specifically rare records",
+      "hash": "3971f048a22624702276bc8924e727d4",
+      "metadata": null,
+      "score": 0.37802125822313737,
+      "created_at": "2025-12-06T09:13:58.020544-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.3693091186365383
+    },
+    {
+      "id": "dabdc248-6f44-447b-8e67-9413720738a8",
+      "memory": "Will start looking into display cases and storage solutions for rare records",
+      "hash": "17a78cea436b0a7fbd2805237119b34d",
+      "metadata": null,
+      "score": 0.3592026590557962,
+      "created_at": "2025-12-06T09:13:58.115049-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.2638947637247501
+    },
+    {
+      "id": "1f51d1a7-2e5b-4950-b640-caffc8755000",
+      "memory": "Had some experience with rare vinyl records",
+      "hash": "928123adfbb294d24b17f7d09c677c02",
+      "metadata": null,
+      "score": 0.3139158871558704,
+      "created_at": "2025-12-06T09:20:33.948536-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.19640831529848074
+    },
+    {
+      "id": "71bd798c-ac6c-427b-acee-72ce927079c7",
+      "memory": "Particularly interested in rare vinyl records",
+      "hash": "17d2ac65c66fabcc967863acdeca0393",
+      "metadata": null,
+      "score": 0.380120016646715,
+      "created_at": "2025-12-06T09:20:33.932737-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.18838442981630268
+    },
+    {
+      "id": "cb218509-fdbd-4e1e-9ffc-04dfe77fd2ca",
+      "memory": "Had a few lucky finds recently, each highly valued by collectors and experts, selling for a significant amount of money",
+      "hash": "11e6aabed47ba06aa280af43e728ef3c",
+      "metadata": null,
+      "score": 0.5072778803485887,
+      "created_at": "2025-12-06T09:20:33.904699-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.18474727815671527
+    },
+    {
+      "id": "eb90b134-3ea2-4e53-9300-69ee614c5578",
+      "memory": "Thinking about getting records professionally graded, especially the rare ones like the 1967 Sgt. Pepper's Lonely Hearts Club Band album",
+      "hash": "136d336673ad3c37e966a612c31e3c87",
+      "metadata": null,
+      "score": 0.30049100447885657,
+      "created_at": "2025-12-06T09:20:33.994924-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.183459339371567
+    },
+    {
+      "id": "847c2813-41fa-410d-8eca-70c5cf95807d",
+      "memory": "Wants to know about coin collector communities or forums to connect with other collectors and learn more about rare coins",
+      "hash": "96da417bd96c962263d28695c854ca90",
+      "metadata": null,
+      "score": 0.29386236940206406,
+      "created_at": "2025-12-06T09:16:13.763560-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.1315991058514155
+    },
+    {
+      "id": "ee086ef7-ddb4-4347-b1a0-9defea4817f2",
+      "memory": "Wants a system that can protect and showcase rare records",
+      "hash": "70f5568443c463bde39862ed231b1fc6",
+      "metadata": null,
+      "score": 0.36717821367150094,
+      "created_at": "2025-12-06T09:13:58.128853-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.07009387557417293
+    },
+    {
+      "id": "d59ca254-ebd2-4777-9bd3-7c27fa7c4089",
+      "memory": "Wants suggestions on what type of jewelry is popular right now",
+      "hash": "f7d2cab0e40ba2c3f917e56ca6f37f46",
+      "metadata": null,
+      "score": 0.31301057453750025,
+      "created_at": "2025-12-06T09:10:11.417224-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.0004934935702996018
+    },
+    {
+      "id": "da08a203-6827-499b-b2a7-fe549e3d8863",
+      "memory": "Sent around 150 messages in the WhatsApp group",
+      "hash": "8365cbb09823cc4a1d08f08e245bbb98",
+      "metadata": null,
+      "score": 0.29717865353629425,
+      "created_at": "2025-12-06T09:15:39.653297-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_118",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3475,
+    "load_time": 1334.238
+  }
+}

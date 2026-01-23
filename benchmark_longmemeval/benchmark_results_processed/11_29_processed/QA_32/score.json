@@ -1,0 +1,77 @@
+{
+  "sample_idx": 32,
+  "question_id": "25e5aa4f",
+  "question": "Where did I complete my Bachelor's degree in Computer Science?",
+  "question_type": "single-session-user",
+  "gold_answer": "University of California, Los Angeles (UCLA)",
+  "question_date": "2023/05/30 (Tue) 15:02",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-29T16:06:34.187073",
+  "predicted_answer": "You completed your Bachelor's degree in Computer Science from UCLA.",
+  "prompt_length": 3136,
+  "gen_token_usage": {
+    "prompt_tokens": 820,
+    "answer_tokens": 11,
+    "total_tokens": 831,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 6,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.125,
+      "rouge1_f": 0.11764705882352942,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.11764705882352942,
+      "semantic_similarity": 0.5529648065567017,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.09007352941176472,
+      "avg_semantic": 0.5529648065567017,
+      "overall_average": 0.18265178799629211
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.125,
+    "rouge1_f": 0.11764705882352942,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.11764705882352942,
+    "semantic_similarity": 0.5529648065567017,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.09007352941176472,
+    "avg_semantic": 0.5529648065567017,
+    "overall_average": 0.18265178799629211
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1627.6849,
+    "retrieval_time": 0.2357,
+    "generation_time": 1.4787,
+    "evaluation_time": 7.9521,
+    "cleanup_time": 1.6357,
+    "total_time": 1638.9876
+  }
+}

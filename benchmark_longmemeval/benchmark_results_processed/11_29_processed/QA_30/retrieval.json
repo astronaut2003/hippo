@@ -1,0 +1,242 @@
+{
+  "sample_idx": 30,
+  "question_id": "b86304ba",
+  "question": "How much is the painting of a sunset worth in terms of the amount I paid for it?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T10:45:27.817029",
+  "load_result": {
+    "total_sessions": 41,
+    "added_sessions": 41,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "b270d28b-6be9-4d28-a75d-f66d397adb95",
+      "memory": "Has a flea market find that is worth triple what was paid for it, hung up in the living room, brightens up the living room space, and is a great conversation starter when having guests over",
+      "hash": "555d234334385c58f6100fccc307cef5",
+      "metadata": null,
+      "score": 0.265122810186042,
+      "created_at": "2025-11-28T19:05:00.013128-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.9999999981095283
+    },
+    {
+      "id": "3e7e47af-2f30-4213-8827-c9b88ca08f8a",
+      "memory": "Considering getting the Art Deco brooch appraised to determine its value",
+      "hash": "89ec526f3e9c7c5d13fd460ccbc5f75e",
+      "metadata": null,
+      "score": 0.4922358729622677,
+      "created_at": "2025-11-28T18:48:14.827650-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.4579735423821316
+    },
+    {
+      "id": "80fa8cf9-8ce6-448b-b189-c29230afb2ee",
+      "memory": "Will price the \"Spring Morning\" bundle at $5.25",
+      "hash": "772559a1c12a4f9547b044de1a30e13a",
+      "metadata": null,
+      "score": 0.3321365002257285,
+      "created_at": "2025-11-28T18:47:06.822434-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.4100093436258296
+    },
+    {
+      "id": "e94ef2fb-82db-4c26-80b8-315bdd98f27b",
+      "memory": "The Rolex watch is still in great condition and could be worth up to $1,000",
+      "hash": "fac702feab0783d335067159c6804931",
+      "metadata": null,
+      "score": 0.34411137596001257,
+      "created_at": "2025-11-28T18:48:14.680171-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.2055586110727206
+    },
+    {
+      "id": "90bc037b-af0a-47f0-b85d-c21863f05b4c",
+      "memory": "Has a vinyl record of The Beatles' 'Please Please Me' bought for $20 at a thrift store",
+      "hash": "37c9be54cb7c642b338ec9420c077443",
+      "metadata": null,
+      "score": 0.3229591140111159,
+      "created_at": "2025-11-28T18:48:14.736421-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.06662036821617041
+    },
+    {
+      "id": "cb9194af-9a88-4183-89a7-33ee08e84bc8",
+      "memory": "Recently got a great deal on a stand mixer from KitchenAid when it was on sale at Bed Bath & Beyond for $250",
+      "hash": "0b3c12dc9c330919240b3ad0a64f8c2f",
+      "metadata": null,
+      "score": 0.2763165754031868,
+      "created_at": "2025-11-28T18:54:18.706753-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.04241975805433033
+    },
+    {
+      "id": "79180c9b-4847-4425-83bd-e076c8cde776",
+      "memory": "The collection includes a rare 1920s Art Deco piece featuring a large emerald",
+      "hash": "263d4790df743c276c89eca8f438a903",
+      "metadata": null,
+      "score": 0.2707597556869456,
+      "created_at": "2025-11-28T18:48:14.802771-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.023112383189606442
+    },
+    {
+      "id": "9089350d-1b9f-49c9-880a-186c93294f36",
+      "memory": "Coin is in near-mint condition",
+      "hash": "779c060ab3b63153af07e7a492a4182e",
+      "metadata": null,
+      "score": 0.30004615814724506,
+      "created_at": "2025-11-28T18:52:26.655874-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.020004013204801885
+    },
+    {
+      "id": "eb8dcb38-2a1d-4ae4-9832-fcf0539465e2",
+      "memory": "Thinks the Beatles vinyl record might be worth more",
+      "hash": "a02b086d0e417044e907d92387568c6a",
+      "metadata": null,
+      "score": 0.3243871509486589,
+      "created_at": "2025-11-28T18:48:14.750430-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.007415484359665688
+    },
+    {
+      "id": "565f260d-a13b-4451-b9c0-2cb9cde529b7",
+      "memory": "Has a bunch of rare items including antiques, collectibles, and coins",
+      "hash": "0c94bc719e1e921f643d766cedda07d6",
+      "metadata": null,
+      "score": 0.28058434431032253,
+      "created_at": "2025-11-28T18:48:14.649732-08:00",
+      "updated_at": "2025-11-28T18:55:26.576758-08:00",
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.006365118166784107
+    },
+    {
+      "id": "51e05bee-d0dd-4f6a-869e-eac9feebd991",
+      "memory": "Interested in Outside Lands Music and Arts Festival in San Francisco",
+      "hash": "d8dfc1143307a967b643441ed7c91f04",
+      "metadata": null,
+      "score": 0.2204318466205902,
+      "created_at": "2025-11-28T18:59:42.103067-08:00",
+      "updated_at": "2025-11-28T19:00:36.628040-08:00",
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.0024079455667913477
+    },
+    {
+      "id": "f97513ee-0ecc-42bc-9a0e-a750f4b7768b",
+      "memory": "Planning a photography trip to Valley of Fire State Park",
+      "hash": "8b30fa139e2a3a0c80f0c9734a40071a",
+      "metadata": null,
+      "score": 0.25616746972514803,
+      "created_at": "2025-11-28T19:02:47.092955-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.0024054215148345435
+    },
+    {
+      "id": "b45e7158-7612-452e-8816-2ad6091a5e30",
+      "memory": "Has a vintage watch collection",
+      "hash": "eb99b4f64210c35f822c337e54854dc5",
+      "metadata": null,
+      "score": 0.2426005887502483,
+      "created_at": "2025-11-28T18:55:26.692163-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.002070263472856023
+    },
+    {
+      "id": "fb509b9a-f3f4-4860-8837-a49a2e8c291b",
+      "memory": "Thinking of capturing some low-light shots at Valley of Fire, especially during the golden hour",
+      "hash": "b5740d890569f71938f843265fb040a3",
+      "metadata": null,
+      "score": 0.2673787236855954,
+      "created_at": "2025-11-28T19:02:47.189954-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.001227230119283371
+    },
+    {
+      "id": "a5a45c08-557f-43b7-b5b3-f5354bbc1443",
+      "memory": "Interested in Slovenian circulation coins",
+      "hash": "35a6e165badf0159ac61f377eb6e4648",
+      "metadata": null,
+      "score": 0.2163754108029705,
+      "created_at": "2025-11-28T18:52:26.687860-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.0010696571614085854
+    },
+    {
+      "id": "855ae58c-5373-47a5-a15d-624cbc9cd356",
+      "memory": "Is looking for a reputable seller that sells vintage camera equipment",
+      "hash": "d0eff0674c55450db55b3f8e10db0f51",
+      "metadata": null,
+      "score": 0.27605936832834593,
+      "created_at": "2025-11-28T18:55:26.796645-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.0008396078544884177
+    },
+    {
+      "id": "6634610a-176a-42b9-8c20-d15a1c416b44",
+      "memory": "Happy to have the flea market find as part of the collection",
+      "hash": "f27883f551545febedf496006a2ea65c",
+      "metadata": null,
+      "score": 0.2617325627529491,
+      "created_at": "2025-11-28T19:05:00.045293-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.0008156293608987764
+    },
+    {
+      "id": "a5bc6ee5-beb2-4e4d-9d68-a6993ac1d30c",
+      "memory": "Thinking of taking an art history course to learn more about the context and significance of different art movements",
+      "hash": "376e2525fe171b09b707ce98f03f0255",
+      "metadata": null,
+      "score": 0.21321459538850063,
+      "created_at": "2025-11-28T19:04:59.265082-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.0003708553482247531
+    },
+    {
+      "id": "b8fedadd-4d06-45e8-86af-50f49b645acf",
+      "memory": "Attended a music festival at the Merriweather Post Pavilion in Columbia, Maryland",
+      "hash": "8610411b5eae182a74bc911fac71818f",
+      "metadata": null,
+      "score": 0.2200081346049519,
+      "created_at": "2025-11-28T18:49:57.875459-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.00026520574488994255
+    },
+    {
+      "id": "477e50d4-7236-4fb0-a081-ccf737387535",
+      "memory": "Planning to offer some seasonal flavors and decorations",
+      "hash": "c4ee4a75220f09c4b3b29ae3e6e0cf62",
+      "metadata": null,
+      "score": 0.21006526935592712,
+      "created_at": "2025-11-28T18:47:06.756816-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_30",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3049,
+    "load_time": 1217.907
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 58,
+  "question_id": "faba32e5",
+  "question": "How long did Alex marinate the BBQ ribs in special sauce?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T01:43:47.755267",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "27ac8d05-e430-46d2-bf6e-f801866ca15c",
+      "memory": "Alex marinated ribs in a special sauce for 24 hours before grilling",
+      "hash": "dea96bba20b89c1eb5dbcc02281f5007",
+      "metadata": null,
+      "score": 0.8593633825921786,
+      "created_at": "2025-11-30T09:56:54.381729-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.9999999994157492
+    },
+    {
+      "id": "49ff23fb-58ad-4b98-bc7c-f0ea0cb19b25",
+      "memory": "Friend Alex's BBQ ribs were amazing, tender and flavorful",
+      "hash": "0daec3963c7d6280a7dd08cd7856d771",
+      "metadata": null,
+      "score": 0.7037838508256242,
+      "created_at": "2025-11-30T09:56:54.364855-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.4286958477133826
+    },
+    {
+      "id": "ed49fd46-950a-4231-ab40-31e524c9ca61",
+      "memory": "Wants to try BBQ ribs for the party",
+      "hash": "797fcd8fa3812658eb68882c68ba7dc4",
+      "metadata": null,
+      "score": 0.5942372065334622,
+      "created_at": "2025-11-30T09:56:54.400369-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.23974268517810196
+    },
+    {
+      "id": "3398e463-0dcf-4af9-9cdb-3622b2352f95",
+      "memory": "Wants sides that pair well with BBQ ribs and brisket",
+      "hash": "a887c027993657c91f6db6f2ac20491e",
+      "metadata": null,
+      "score": 0.42269611211723046,
+      "created_at": "2025-11-30T09:56:54.449295-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.0781790059732025
+    },
+    {
+      "id": "1ad0be54-2a31-4732-a985-d36740426c65",
+      "memory": "Had tender, melt-in-your-mouth brisket at a BBQ festival",
+      "hash": "a6a245350a37706b18aedfc7d866d451",
+      "metadata": null,
+      "score": 0.48353655698622766,
+      "created_at": "2025-11-30T09:56:54.433105-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.07306159680583123
+    },
+    {
+      "id": "d7a05744-1962-4bfd-8815-1820ebb604bd",
+      "memory": "Believes in quality, fresh ingredients and the perfect steak dinner",
+      "hash": "e0a783b2ad840df1319463d39ca28dfa",
+      "metadata": null,
+      "score": 0.40224141170730887,
+      "created_at": "2025-11-30T10:05:04.481585-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.012059543225015647
+    },
+    {
+      "id": "16f5a369-5269-4018-93f9-ffa998d973dc",
+      "memory": "Thinking of hosting a BBQ party soon",
+      "hash": "d6a41119570f8b17cca533811d2e3fdd",
+      "metadata": null,
+      "score": 0.3713120548257117,
+      "created_at": "2025-11-30T09:56:54.326685-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.0050821393620171336
+    },
+    {
+      "id": "13b40b04-8bee-4999-986a-08bd552603ce",
+      "memory": "Thinking of making brisket for the party",
+      "hash": "1829588397edd295b7991480375b629b",
+      "metadata": null,
+      "score": 0.35119380185936566,
+      "created_at": "2025-11-30T09:56:54.418517-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.004318405993945641
+    },
+    {
+      "id": "f36bf78d-ad79-4be9-a584-47a346a35a59",
+      "memory": "Heard their grapefruit and rosemary flavor is amazing",
+      "hash": "1ccbc94000c68b6e544c055b830750bf",
+      "metadata": null,
+      "score": 0.30900642418322277,
+      "created_at": "2025-11-30T10:02:32.804843-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.001628540080396408
+    },
+    {
+      "id": "71a97e37-4339-4f97-bcb7-207153ec91de",
+      "memory": "Has a small pleco catfish in the tank",
+      "hash": "d3ef9196bbe0a4d3ca8c36b70d7b6116",
+      "metadata": null,
+      "score": 0.2834462854766163,
+      "created_at": "2025-11-30T09:55:43.581247-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.0016027424186602804
+    },
+    {
+      "id": "a6811e8e-c364-4a14-91f6-96ff2749545a",
+      "memory": "Interested in trying out the grapefruit basil martini recipe",
+      "hash": "4a46f4ce450f7ce1961c20062a9cadb8",
+      "metadata": null,
+      "score": 0.37479918988309574,
+      "created_at": "2025-11-30T10:02:32.663839-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.0012092027105776258
+    },
+    {
+      "id": "a6e9cf57-8350-4a50-b018-05a043423023",
+      "memory": "Mission is to provide an unforgettable experience by bringing the best steak dinner directly to your doorstep",
+      "hash": "91a3c69a26a4aef18f60e9bba0b97490",
+      "metadata": null,
+      "score": 0.3380786974996368,
+      "created_at": "2025-11-30T10:05:04.496534-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.00115186838244269
+    },
+    {
+      "id": "c96a3b05-7d43-4803-be0f-69ad7433b2e8",
+      "memory": "Had an amazing dinner at an Italian place called Moto during a trip to Nashville",
+      "hash": "ee76e9afbc65312e1e378f10bd00495f",
+      "metadata": null,
+      "score": 0.28813580636478353,
+      "created_at": "2025-11-30T09:46:31.069961-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.0010900765749580993
+    },
+    {
+      "id": "2fd4ca44-f27b-45ca-b973-30eb2a9a4459",
+      "memory": "Decided to go with baked beans and potato salad as sides",
+      "hash": "7134e6773a8e87876c7c940f6bc93c70",
+      "metadata": null,
+      "score": 0.3124247177180589,
+      "created_at": "2025-11-30T09:56:54.480449-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.0010818859566531084
+    },
+    {
+      "id": "20924441-095c-4f77-975f-6d618b9e3641",
+      "memory": "Has 5 golden honey gouramis in the tank",
+      "hash": "2b9f854899c6766cf8156aaa705461d9",
+      "metadata": null,
+      "score": 0.24608284999606028,
+      "created_at": "2025-11-30T09:55:43.566070-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.0010634988543357822
+    },
+    {
+      "id": "5d610e6c-acbe-44b3-a84c-a65f35348eb3",
+      "memory": "Looking for new cocktail recipes to try out",
+      "hash": "2fb6fd9e3d05f1409b227b2c54774d3f",
+      "metadata": null,
+      "score": 0.32417176290252986,
+      "created_at": "2025-11-30T10:02:32.593636-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.0008177803051860572
+    },
+    {
+      "id": "c7b81d89-0202-4c6b-b524-850a74f9a7fe",
+      "memory": "Excited to try out more stevia-based cocktails",
+      "hash": "2ffa488e8b310b1604d1860ab7f04ba3",
+      "metadata": null,
+      "score": 0.24666775214048325,
+      "created_at": "2025-11-30T10:02:32.775472-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.0003259531774435126
+    },
+    {
+      "id": "4f90288c-d0d0-41cc-b841-7af5847eac14",
+      "memory": "Heard about a new craft distillery in town making unique flavored vodkas",
+      "hash": "0dde45114d170978c5f92992751f77e8",
+      "metadata": null,
+      "score": 0.3019543014155964,
+      "created_at": "2025-11-30T10:02:32.789948-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.0002468329189871386
+    },
+    {
+      "id": "c44c0fac-92df-4945-980b-5fb9f9d8d4b2",
+      "memory": "Interested in trying some delicious ramen while in Shibuya",
+      "hash": "506b1b5239ebb4fcc9152f6060025778",
+      "metadata": null,
+      "score": 0.2724071619450788,
+      "created_at": "2025-11-30T09:45:58.895080-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.00021735783678754578
+    },
+    {
+      "id": "1e28c1aa-5ccb-4f66-b44a-b7c7ad99d075",
+      "memory": "Been experimenting with sugar-free cocktails lately",
+      "hash": "43ca126d87603d8c02937b3e468a2f26",
+      "metadata": null,
+      "score": 0.2616004945170185,
+      "created_at": "2025-11-30T10:02:32.713725-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_58",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2696,
+    "load_time": 1277.873
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 9,
+  "question_id": "f8c5f88b",
+  "question": "Where did I buy my new tennis racket from?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T01:10:48.879242",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "12607425-e56d-4528-8380-309af6a1bc67",
+      "memory": "Has a new tennis racket from a sports store downtown",
+      "hash": "addff4fa41a279a1779d0a568add6b38",
+      "metadata": null,
+      "score": 0.8756604702583191,
+      "created_at": "2025-11-28T09:22:52.618974-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.9999999992075798
+    },
+    {
+      "id": "16388336-6680-40b9-b0cb-ffa109d0be97",
+      "memory": "The new tennis racket has been performing well and improved their game",
+      "hash": "c2d02ec6d9217af58026f8e212d69222",
+      "metadata": null,
+      "score": 0.7274130860461798,
+      "created_at": "2025-11-28T09:22:52.634429-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.5954568743751756
+    },
+    {
+      "id": "646d1344-58a3-4d2f-b1d8-ef2a58fe9768",
+      "memory": "Planning to buy new tennis balls this weekend",
+      "hash": "44c9c3b61cd57842da15fb4056f29c0b",
+      "metadata": null,
+      "score": 0.6970346782125698,
+      "created_at": "2025-11-28T09:22:52.649300-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.5943861833985207
+    },
+    {
+      "id": "89a2eae9-4cae-4b26-add2-1bb18c438937",
+      "memory": "Might try thrift shopping or consignment stores for unique pieces",
+      "hash": "0d7909d0c4060ec34ca3a9ee432a310e",
+      "metadata": null,
+      "score": 0.3578049279049115,
+      "created_at": "2025-11-28T09:16:47.244839-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.3555916782471857
+    },
+    {
+      "id": "d8aef970-33f9-467b-8d8b-6b96addb58f9",
+      "memory": "Currently focusing on improving game with new racket and practicing with friends",
+      "hash": "67193b6d5e9412fed91d75ac4a41d84e",
+      "metadata": null,
+      "score": 0.5661144727084981,
+      "created_at": "2025-11-28T09:22:52.696377-08:00",
+      "updated_at": "2025-11-28T09:27:06.055103-08:00",
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.34324612309721647
+    },
+    {
+      "id": "f250878d-109a-4892-8121-6d6255c9e703",
+      "memory": "Will consider getting a tennis ball machine in the future",
+      "hash": "fc60869b4090d923bddf1ee4e8aa3398",
+      "metadata": null,
+      "score": 0.58009449764227,
+      "created_at": "2025-11-28T09:22:52.679500-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.3040854948265597
+    },
+    {
+      "id": "c690ab87-e9de-445a-8536-d199c5bb6681",
+      "memory": "Has been enjoying tennis lessons",
+      "hash": "78dc41e3b50c080020809410ca454147",
+      "metadata": null,
+      "score": 0.48650437125838225,
+      "created_at": "2025-11-28T09:27:06.257409-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.23215373480773946
+    },
+    {
+      "id": "2dfe6781-b123-42f7-8a5e-d6ca3b72cbf3",
+      "memory": "Has new ankle boots from H&M",
+      "hash": "e0f662099d2d7e2590680edc18344f9f",
+      "metadata": null,
+      "score": 0.32101841110145257,
+      "created_at": "2025-11-28T09:11:18.961850-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.16504246467269773
+    },
+    {
+      "id": "a42c9a6e-e075-4ecb-a329-9e0ce691817a",
+      "memory": "Has new high-waisted jeans from Old Navy",
+      "hash": "598320609c03d0e5bfc418e286f9fd43",
+      "metadata": null,
+      "score": 0.3560232384823621,
+      "created_at": "2025-11-28T09:11:19.041560-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.10778430230997532
+    },
+    {
+      "id": "54c2b362-097d-46f0-9be4-bf452952f69d",
+      "memory": "Has been loving a new brand discovered at Target",
+      "hash": "cfb806e4fc1d0546513e7c7f28ced358",
+      "metadata": null,
+      "score": 0.3750202040576246,
+      "created_at": "2025-11-28T09:11:19.025339-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.10316842110909435
+    },
+    {
+      "id": "298f6f71-ab76-4b58-98aa-74358800603c",
+      "memory": "Wants to improve serves and volleys in tennis",
+      "hash": "0b168e968f1597a5febb110b210a66d1",
+      "metadata": null,
+      "score": 0.4592908585952304,
+      "created_at": "2025-11-28T09:27:06.274991-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.08062360488227681
+    },
+    {
+      "id": "1a003c3a-7901-44ec-a7e6-4f6e96a91282",
+      "memory": "Has been buying clothes from Banana Republic and J.Crew",
+      "hash": "2a807592f315024383e5ef9d135b64ba",
+      "metadata": null,
+      "score": 0.3396373154677681,
+      "created_at": "2025-11-28T09:16:47.201009-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.07264889172569258
+    },
+    {
+      "id": "e44836fa-c250-4359-a8ae-9466dbb68981",
+      "memory": "Recently bought an eyeshadow palette at Sephora",
+      "hash": "6283c2c8a1b1ec90bba61ffd4e76242d",
+      "metadata": null,
+      "score": 0.27977292749302557,
+      "created_at": "2025-11-28T09:20:04.751832-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.04723449067634962
+    },
+    {
+      "id": "4829d534-3734-4ec2-ae2d-5f8096cec6dd",
+      "memory": "Planning to play tennis with friends at the local park this Sunday",
+      "hash": "1efec679404b7586d307323ebc6c9574",
+      "metadata": null,
+      "score": 0.44095486709328013,
+      "created_at": "2025-11-28T09:22:52.586134-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.03249692210609745
+    },
+    {
+      "id": "e416e70b-3fe5-4e4c-bdeb-ef2b50fe4844",
+      "memory": "Is a recreational tennis player",
+      "hash": "9428e9a360cbb702fe470ed9fb2c53b4",
+      "metadata": null,
+      "score": 0.5134122826205838,
+      "created_at": "2025-11-28T09:22:52.663293-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.028539416102041543
+    },
+    {
+      "id": "c327775b-cfa3-443c-8134-8b21fc751334",
+      "memory": "Went to the mall last weekend to buy her gift",
+      "hash": "5cf0b48f9e609d4f859351511389b1b6",
+      "metadata": null,
+      "score": 0.3081394652306459,
+      "created_at": "2025-11-28T09:24:33.869365-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.0215205258896083
+    },
+    {
+      "id": "a48de02f-27bc-43ad-8a4e-ad9cf8fc3f86",
+      "memory": "Has one tennis lesson per week on Saturday morning",
+      "hash": "bc8dc332200b37a28e6980c1d1ee1979",
+      "metadata": null,
+      "score": 0.41651411444210235,
+      "created_at": "2025-11-28T09:27:06.145040-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.012127948242340885
+    },
+    {
+      "id": "cb79730b-250b-43ef-8634-7c1d2ec9550a",
+      "memory": "Has been eyeing a particular designer brand but it is out of budget",
+      "hash": "b9bc789e80c4938c5617c4ceb6fe305d",
+      "metadata": null,
+      "score": 0.29708447395893256,
+      "created_at": "2025-11-28T09:24:56.356229-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.003344926878084371
+    },
+    {
+      "id": "bff2580f-b2cc-4247-9bbe-91d276180d4b",
+      "memory": "Looking for a good deal on a quality watch",
+      "hash": "9346f31fef87791ab9e9b56eec6526a0",
+      "metadata": null,
+      "score": 0.32408897264066144,
+      "created_at": "2025-11-28T09:24:56.323317-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.0009829529597226382
+    },
+    {
+      "id": "40ad587f-bfe8-49e2-9a3a-aea1c319aacc",
+      "memory": "Likes the idea of investing in timeless pieces and looking for alternative brands",
+      "hash": "e2457c7a2f969753239deb4a6a4eb5fd",
+      "metadata": null,
+      "score": 0.28715895976219885,
+      "created_at": "2025-11-28T09:16:47.182875-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_9",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1184,
+    "load_time": 1279.1192
+  }
+}

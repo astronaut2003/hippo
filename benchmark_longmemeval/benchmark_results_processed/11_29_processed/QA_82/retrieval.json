@@ -1,0 +1,242 @@
+{
+  "sample_idx": 82,
+  "question_id": "6cb6f249",
+  "question": "How many days did I take social media breaks in total?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T10:39:57.383932",
+  "load_result": {
+    "total_sessions": 41,
+    "added_sessions": 41,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "5370286b-6b67-40c2-ace8-fe21ec7a0ae4",
+      "memory": "Took a 10-day break from social media in mid-February and a week-long break from social media in mid-January and found it refreshing",
+      "hash": "80859c4dc2c6e12136abfb1cbdd3b620",
+      "metadata": null,
+      "score": 0.7250404729599684,
+      "created_at": "2025-11-30T18:51:02.654383-08:00",
+      "updated_at": "2025-11-30T18:51:47.110017-08:00",
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.9999999992835783
+    },
+    {
+      "id": "1fbefb95-9912-48ac-853d-52084f1b0c5d",
+      "memory": "Trying to track screen time and social media usage",
+      "hash": "de8210fcd665d9ff7566543544d10b81",
+      "metadata": null,
+      "score": 0.4626619263956151,
+      "created_at": "2025-11-30T18:51:47.955170-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.4568621729985136
+    },
+    {
+      "id": "4833d938-336f-49ca-9b47-e7c76a70ee8c",
+      "memory": "Making an effort to cut down on social media lately",
+      "hash": "6ccb717206445bf216d203aef6949961",
+      "metadata": null,
+      "score": 0.5361448291924881,
+      "created_at": "2025-11-30T18:51:02.640040-08:00",
+      "updated_at": "2025-11-30T18:51:47.938035-08:00",
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.27176459106527645
+    },
+    {
+      "id": "aa35d987-ca81-4942-8b37-a3cb6cb407aa",
+      "memory": "Thinking of setting a goal to limit Instagram usage to 15 minutes a day, Monday to Friday",
+      "hash": "d5de722ccf0d35118a8c882404b07bb7",
+      "metadata": null,
+      "score": 0.4988259405074696,
+      "created_at": "2025-11-30T18:51:48.032744-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.24764004481757582
+    },
+    {
+      "id": "46b86d47-5652-477b-b1c3-3e88e994772c",
+      "memory": "Feels social media has become so ingrained in our daily lives that it's hard to imagine functioning without it",
+      "hash": "d883b47982ce477ec6fed92372a07540",
+      "metadata": null,
+      "score": 0.47501842591029386,
+      "created_at": "2025-11-30T18:53:25.342625-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.1402896606169318
+    },
+    {
+      "id": "624f6b1e-89f4-475a-8fdc-0d4e24d9f3b8",
+      "memory": "Feels we're stuck in a catch-22 situation with social media",
+      "hash": "bc8fcd078901d0a36cef128232bba3be",
+      "metadata": null,
+      "score": 0.4561973641976632,
+      "created_at": "2025-11-30T18:53:25.373751-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.13231038772464188
+    },
+    {
+      "id": "3f7e70a6-17ae-42e9-8811-1de9b0ff2ce1",
+      "memory": "Considering incorporating weekly reflections to track progress",
+      "hash": "7ccc9bb1a3036412f3985528c78daa8d",
+      "metadata": null,
+      "score": 0.3000247156653738,
+      "created_at": "2025-11-30T18:51:02.732226-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.12120416249637765
+    },
+    {
+      "id": "3759cdfa-0aba-43bd-b75c-ec7d691a7a64",
+      "memory": "Often mindlessly scrolls through Instagram during breaks at work",
+      "hash": "2a93a6507b0b9761c994af147801c021",
+      "metadata": null,
+      "score": 0.39240931855994116,
+      "created_at": "2025-11-30T18:51:48.047858-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.11682190622374905
+    },
+    {
+      "id": "6c75c877-c147-48f7-96ee-cc15efb3e895",
+      "memory": "Feels worried about how much power social media companies have over our daily lives and mental health",
+      "hash": "cfe3eae6ca8018525958db918544316c",
+      "metadata": null,
+      "score": 0.46715647722364234,
+      "created_at": "2025-11-30T18:53:25.316167-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.05880756985123544
+    },
+    {
+      "id": "3de42b36-59d8-4c45-b36e-02d3a80e8d80",
+      "memory": "Believes the negative effects of social media on mental health are too significant to ignore",
+      "hash": "023c1a1cdd15be556ad1711fad44d363",
+      "metadata": null,
+      "score": 0.41368689964610744,
+      "created_at": "2025-11-30T18:53:25.356700-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.027462685894848862
+    },
+    {
+      "id": "c8835dbe-2d50-40f7-9658-1b0abcd90bde",
+      "memory": "Has been on a plane at least once a week for the past 6 weeks",
+      "hash": "0684c45db72d5eea250228001227a162",
+      "metadata": null,
+      "score": 0.28360710706787445,
+      "created_at": "2025-11-30T18:52:54.441995-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.015993254019479968
+    },
+    {
+      "id": "469b4494-5be9-400f-9d93-30e490a08d4b",
+      "memory": "Wants to start journaling with daily entries, aiming for 10-15 minutes a day",
+      "hash": "1902ae4540301a8f794d5757c8948ed8",
+      "metadata": null,
+      "score": 0.3541356910961354,
+      "created_at": "2025-11-30T18:51:02.685200-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.01194181915115552
+    },
+    {
+      "id": "fdcb8b48-dd63-45c8-a529-5305d1c1c3ac",
+      "memory": "Believes we need to find a way to wean ourselves off of social media platforms and rely more on in-person interactions",
+      "hash": "9259da4d1aa25607d7c8635954a1a623",
+      "metadata": null,
+      "score": 0.41985095762885893,
+      "created_at": "2025-11-30T18:53:25.329727-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.009017855330709418
+    },
+    {
+      "id": "aadf109d-1d5c-451a-8c39-139f55995dfa",
+      "memory": "Feels frustrated to see social media companies prioritize profits over the mental health and safety of their users",
+      "hash": "f20a8bb6eb5f6307e16c6c6256438e1c",
+      "metadata": null,
+      "score": 0.362132454924456,
+      "created_at": "2025-11-30T18:53:25.302033-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.005238483831228237
+    },
+    {
+      "id": "546776e5-a1fc-4cf2-aaac-057436bb7227",
+      "memory": "Feels social media companies are more interested in profiting off of engagement than actually addressing cyberbullying",
+      "hash": "fa88b201ff96143ad7efb2da6e62db0f",
+      "metadata": null,
+      "score": 0.37290283965651544,
+      "created_at": "2025-11-30T18:53:25.267024-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.0019466673794782308
+    },
+    {
+      "id": "bd959a3d-8f1d-4cef-ae22-fb82f4daf754",
+      "memory": "Curious about the battery life and wireless charging support of Galaxy Buds Pro",
+      "hash": "9d1421fecc52e223a1da08ebe8ab03d7",
+      "metadata": null,
+      "score": 0.23196010168617273,
+      "created_at": "2025-11-30T18:45:44.523334-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.0018603067320101525
+    },
+    {
+      "id": "d53d3d9d-240e-4ba5-bc40-cad79864f44f",
+      "memory": "Has trouble sticking to daily reading habit",
+      "hash": "37641650473b2e18f387e4182a521a37",
+      "metadata": null,
+      "score": 0.23661068112722344,
+      "created_at": "2025-11-30T19:00:16.928451-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.0007326307142406665
+    },
+    {
+      "id": "8c3fbda1-23d8-4953-990d-d3f3a47a2024",
+      "memory": "Has been doing laundry every other day since attending a lot of workout classes",
+      "hash": "8cd58859daca79b98784daa044a8fe2b",
+      "metadata": null,
+      "score": 0.2741325083580963,
+      "created_at": "2025-11-30T18:43:41.566895-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.0006108102756049201
+    },
+    {
+      "id": "751b0021-6074-4912-b3a6-7ccb30f45291",
+      "memory": "Emma came over for lunch two weeks ago on Sunday",
+      "hash": "dd3d1f77cc26d6bdb9d4b58ed4d0502b",
+      "metadata": null,
+      "score": 0.22558270244376366,
+      "created_at": "2025-11-30T18:59:41.716088-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.0005612075619484131
+    },
+    {
+      "id": "931a6f99-d912-4a6f-a950-852bc66a83ba",
+      "memory": "Wants to focus journaling on reflecting on the day, gratitude, and insights",
+      "hash": "d3bbd00e1f60c5071d2c90247c0f6ca3",
+      "metadata": null,
+      "score": 0.24871590142361724,
+      "created_at": "2025-11-30T18:51:02.701853-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_82",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3209,
+    "load_time": 1468.9428
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_idx": 118,
+  "question_id": "e3038f8c",
+  "question": "How many rare items do I have in total?",
+  "question_type": "multi-session",
+  "gold_answer": 99,
+  "question_date": "2023/05/30 (Tue) 20:48",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T01:09:19.906334",
+  "predicted_answer": "You have a total of 99 rare items: 57 rare records, 12 rare figurines, 25 rare coins, and 5 rare books.",
+  "prompt_length": 3106,
+  "gen_token_usage": {
+    "prompt_tokens": 816,
+    "answer_tokens": 32,
+    "total_tokens": 848,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 21,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1,
+      "rouge1_f": 0.0909090909090909,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0909090909090909,
+      "semantic_similarity": 0.40386056900024414,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.07045454545454545,
+      "avg_semantic": 0.40386056900024414,
+      "overall_average": 0.13713574409484863
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1,
+    "rouge1_f": 0.0909090909090909,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0909090909090909,
+    "semantic_similarity": 0.40386056900024414,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.07045454545454545,
+    "avg_semantic": 0.40386056900024414,
+    "overall_average": 0.13713574409484863
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1334.238,
+    "retrieval_time": 0.3475,
+    "generation_time": 1.6342,
+    "evaluation_time": 0.8563,
+    "cleanup_time": 1.5887,
+    "total_time": 1338.6677
+  }
+}

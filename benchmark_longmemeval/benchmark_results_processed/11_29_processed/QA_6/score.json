@@ -1,0 +1,77 @@
+{
+  "sample_idx": 6,
+  "question_id": "6ade9755",
+  "question": "Where do I take yoga classes?",
+  "question_type": "single-session-user",
+  "gold_answer": "Serenity Yoga",
+  "question_date": "2023/05/30 (Tue) 21:04",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-28T23:53:52.463344",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 3037,
+  "gen_token_usage": {
+    "prompt_tokens": 805,
+    "answer_tokens": 10,
+    "total_tokens": 815,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.61,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.13739490509033203,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.13739490509033203,
+      "overall_average": 0.027478981763124466
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.13739490509033203,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.13739490509033203,
+    "overall_average": 0.027478981763124466
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1190.8049,
+    "retrieval_time": 0.3739,
+    "generation_time": 1.4295,
+    "evaluation_time": 2.3921,
+    "cleanup_time": 1.6245,
+    "total_time": 1196.6314
+  }
+}

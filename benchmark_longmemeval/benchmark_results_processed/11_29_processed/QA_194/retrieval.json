@@ -1,0 +1,242 @@
+{
+  "sample_idx": 194,
+  "question_id": "a96c20ee",
+  "question": "At which university did I present a poster on my thesis research?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T03:04:42.960007",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "5209d540-641d-41fe-b8dd-9f14278edaf7",
+      "memory": "Presented a poster on thesis research on education technology at a first research conference at Harvard University",
+      "hash": "7349b03dd3f7239825de5ab4b61d671e",
+      "metadata": null,
+      "score": 0.5274242767515845,
+      "created_at": "2025-12-08T11:06:52.466338-08:00",
+      "updated_at": "2025-12-08T11:08:41.026506-08:00",
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.9999999993340064
+    },
+    {
+      "id": "cfcc5f07-26c8-452b-9aa9-24f863c42cdc",
+      "memory": "Saw interesting projects on AI in education at Harvard University",
+      "hash": "2683e7c3974055d6d11451301d00192d",
+      "metadata": null,
+      "score": 0.26046004830319935,
+      "created_at": "2025-12-08T11:08:41.053549-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.2705852107223034
+    },
+    {
+      "id": "87f9a0b1-8f43-446a-be2e-6ecc4c447abf",
+      "memory": "Thesis research explored the impact of AI on education, specifically looking at how it can be used to support student learning outcomes",
+      "hash": "3fe541d59f8d0ccb8444799fbd24f78d",
+      "metadata": null,
+      "score": 0.17323594513161897,
+      "created_at": "2025-12-08T11:06:52.482163-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.2678795739278514
+    },
+    {
+      "id": "2088b6ee-60fc-4632-a208-15c49f49a5eb",
+      "memory": "Presented research at a conference over the summer and received positive feedback from educators and policymakers",
+      "hash": "389ab1c3e022f3a9cef5291217a0069c",
+      "metadata": null,
+      "score": 0.2123869504675699,
+      "created_at": "2025-12-08T11:06:52.737677-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.22091217336066987
+    },
+    {
+      "id": "43aeab3c-c48f-4023-abc2-5c3c9ea8bed0",
+      "memory": "We want errors reported when the places requested have nothing to do with the city Nanjing, Jiangsu Province, China",
+      "hash": "f1c6800cc3439c28bdf82deab376b82d",
+      "metadata": null,
+      "score": 0.1382601239692009,
+      "created_at": "2025-12-08T11:20:50.805949-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.035961615234675205
+    },
+    {
+      "id": "2a285609-3d7b-4678-a450-2e1a0c1f21d6",
+      "memory": "Asking if the Withings Body+ uses bioelectrical impedance analysis (BIA) or dual-energy X-ray absorptiometry (DXA)",
+      "hash": "686aef541190a2fb954ecf2655881d83",
+      "metadata": null,
+      "score": 0.14976496047615154,
+      "created_at": "2025-12-08T11:26:40.057066-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.007752911123537597
+    },
+    {
+      "id": "1bf24c28-fee3-4eca-b113-6ae6ebe2346e",
+      "memory": "Explored potential of AI-powered adaptive learning systems to promote equity and inclusion in research",
+      "hash": "be87376803d7cca1066cb18db2e5fc23",
+      "metadata": null,
+      "score": 0.13264531037306865,
+      "created_at": "2025-12-08T11:06:52.685593-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.0061646142311490145
+    },
+    {
+      "id": "a9ed2621-3aef-486b-a24b-d7be80fd92e6",
+      "memory": "Planning to visit the teamLab Borderless digital art museum in Odaiba",
+      "hash": "693d7c77a26495b2555c9ab58b6ac383",
+      "metadata": null,
+      "score": 0.22767335100847866,
+      "created_at": "2025-12-08T11:22:15.917329-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.003476634354203472
+    },
+    {
+      "id": "e367c3eb-9056-4c1c-abec-ea3558949cc7",
+      "memory": "Would like to ask about marketing strategies for agritourism program",
+      "hash": "cd474dca1d1613688fa1ee562da61090",
+      "metadata": null,
+      "score": 0.12499214568257465,
+      "created_at": "2025-12-08T11:09:22.007953-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.0010885680185007364
+    },
+    {
+      "id": "ed402abe-8210-47d4-8a5f-d4e56fc019f4",
+      "memory": "Particularly interested in learning more about Latin American literature and history",
+      "hash": "c3270ef876cc50db57c15a1970fa2d57",
+      "metadata": null,
+      "score": 0.1623003779520529,
+      "created_at": "2025-12-08T11:23:10.624523-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.001085646370280243
+    },
+    {
+      "id": "daadd66a-4ec4-429f-9d6b-5b2617ad304e",
+      "memory": "Used Shutterfly before to create a customized photo album for friend's graduation ceremony and was really happy with the quality",
+      "hash": "d14cc0ee03a1e2067a4bf77cd7474a58",
+      "metadata": null,
+      "score": 0.20582125789446187,
+      "created_at": "2025-12-08T11:27:23.348853-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.0010378837732843533
+    },
+    {
+      "id": "6ba03382-017d-49a1-a3a6-0159e164316b",
+      "memory": "Located in the 95123 zip code",
+      "hash": "ef2e42b7325025df890160da44392caf",
+      "metadata": null,
+      "score": 0.1661985335214291,
+      "created_at": "2025-12-08T11:10:48.948791-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.0009508694675870543
+    },
+    {
+      "id": "07e4fcbf-b6b4-43f9-9651-4b4b518f4a60",
+      "memory": "Wants something personalized, like the customized photo album got for friend's graduation ceremony",
+      "hash": "3448bb37c961be37e13f8ef72a5f5529",
+      "metadata": null,
+      "score": 0.2057325450469077,
+      "created_at": "2025-12-08T11:27:23.310818-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.0008739539024779819
+    },
+    {
+      "id": "c01f2d4d-dbfe-4a88-bb03-dfc8b00c7c15",
+      "memory": "Some developers reached out after conference, interested in learning more about findings and how to apply them to their work",
+      "hash": "727b2bcf6cf6ccb781b2720012c0da68",
+      "metadata": null,
+      "score": 0.13878734701462256,
+      "created_at": "2025-12-08T11:06:52.768899-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.0004727988989859082
+    },
+    {
+      "id": "d170c9fe-097d-4930-a060-70bf2e11fd6c",
+      "memory": "Made a spring vegetable tart with a homemade crust last week in class",
+      "hash": "953880760dc8c881aa1d4362c6b21458",
+      "metadata": null,
+      "score": 0.12757978933012665,
+      "created_at": "2025-12-08T11:14:45.089460-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.000265044304872138
+    },
+    {
+      "id": "e9c6cae7-d0cd-4e41-b0db-f69fb0ed0b96",
+      "memory": "Muhammad has a great sales pitch that explains a totally false history of the pottery",
+      "hash": "634b15b663e6ba1ae1d4018cba876258",
+      "metadata": null,
+      "score": 0.13213389156970684,
+      "created_at": "2025-12-08T11:11:07.021827-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.00023570079448370572
+    },
+    {
+      "id": "ff47aa7b-333d-4e96-b200-f9350518e943",
+      "memory": "Wants resources focusing specifically on the cultural significance of football in Latin America",
+      "hash": "63c1e2437979d95af589629a345053c1",
+      "metadata": null,
+      "score": 0.15006358586074303,
+      "created_at": "2025-12-08T11:23:10.689249-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.00023277914626321247
+    },
+    {
+      "id": "a5ef27c0-110d-4c31-8cbf-cb2684ad37a8",
+      "memory": "Friend Muhammad has an old piece of pottery from Pakistan and wants to sell it",
+      "hash": "e4d0fd125c8e2aa0a26ad71198bfe8c1",
+      "metadata": null,
+      "score": 0.13944679313265596,
+      "created_at": "2025-12-08T11:11:06.987819-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.00022166418020698814
+    },
+    {
+      "id": "9f9f2f74-d6ee-4dff-8a67-cb466cd8d6de",
+      "memory": "Considering a botanical print with leaves or flowers in shades of green and beige",
+      "hash": "48ad1446ceb0be046c571798d0c0f02a",
+      "metadata": null,
+      "score": 0.15193949665500983,
+      "created_at": "2025-12-08T11:05:40.265493-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 5.201804114312988e-05
+    },
+    {
+      "id": "d47193a6-f0b5-45af-a03d-30f2a99590b0",
+      "memory": "Thinks it's important to be on same page and work towards common future",
+      "hash": "abbb1527c5cfc4522d6543608798d568",
+      "metadata": null,
+      "score": 0.22043290114765424,
+      "created_at": "2025-12-08T11:15:57.209148-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_194",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4746,
+    "load_time": 1451.0343
+  }
+}

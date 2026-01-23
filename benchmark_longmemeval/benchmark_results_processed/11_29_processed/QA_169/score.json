@@ -1,0 +1,77 @@
+{
+  "sample_idx": 169,
+  "question_id": "1f2b8d4f",
+  "question": "What is the difference in price between my luxury boots and the similar pair found at the budget store?",
+  "question_type": "multi-session",
+  "gold_answer": "$750",
+  "question_date": "2023/05/30 (Tue) 21:36",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-08T16:14:32.278401",
+  "predicted_answer": "The difference in price between your luxury boots, which cost $800, and the similar pair found at the budget store for $50 is $750.",
+  "prompt_length": 3119,
+  "gen_token_usage": {
+    "prompt_tokens": 835,
+    "answer_tokens": 30,
+    "total_tokens": 865,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 24,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.09523809523809523,
+      "rouge1_f": 0.07999999999999999,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.07999999999999999,
+      "semantic_similarity": 0.36838293075561523,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.0638095238095238,
+      "avg_semantic": 0.36838293075561523,
+      "overall_average": 0.12472419440746307
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.09523809523809523,
+    "rouge1_f": 0.07999999999999999,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.07999999999999999,
+    "semantic_similarity": 0.36838293075561523,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.0638095238095238,
+    "avg_semantic": 0.36838293075561523,
+    "overall_average": 0.12472419440746307
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1816.2636,
+    "retrieval_time": 0.5792,
+    "generation_time": 1.9107,
+    "evaluation_time": 0.9474,
+    "cleanup_time": 1.6462,
+    "total_time": 1821.3514
+  }
+}

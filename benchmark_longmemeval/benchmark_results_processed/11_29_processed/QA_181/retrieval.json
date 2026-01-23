@@ -1,0 +1,242 @@
+{
+  "sample_idx": 181,
+  "question_id": "4adc0475",
+  "question": "What is the total number of goals and assists I have in the recreational indoor soccer league?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T21:38:29.357502",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "b858e0cf-3500-4cab-90ea-d60e82434ec1",
+      "memory": "Playing in a recreational indoor soccer league",
+      "hash": "249180919e5446db364230be11078347",
+      "metadata": null,
+      "score": 0.6058253340368526,
+      "created_at": "2025-12-08T05:58:37.253169-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.9999999993625288
+    },
+    {
+      "id": "92c69cad-fff7-41f3-8574-478f7ba43c6b",
+      "memory": "Has scored 3 goals so far in the indoor soccer league",
+      "hash": "bb85478bbbb89413da1da44c513e252b",
+      "metadata": null,
+      "score": 0.6572456503847635,
+      "created_at": "2025-12-08T05:58:37.269143-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.5941232044128025
+    },
+    {
+      "id": "7dfcc009-8ac9-4d96-ba16-85cfe9bf1c58",
+      "memory": "Working on passing game in soccer, which has improved significantly over the past few weeks",
+      "hash": "4fc64d994151972a74060b1f46cbbd27",
+      "metadata": null,
+      "score": 0.45027139832231156,
+      "created_at": "2025-12-08T05:58:37.285441-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.16611288399432184
+    },
+    {
+      "id": "cd764bf6-d6bb-463b-98a8-6fb55d06e574",
+      "memory": "Will continue to track progress and celebrate small wins",
+      "hash": "d2306860496e003f8516ab7528c87041",
+      "metadata": null,
+      "score": 0.22496118707834756,
+      "created_at": "2025-12-08T05:40:15.157312-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.08593138967450255
+    },
+    {
+      "id": "dc3e8261-8228-4207-9ef1-0df3fde19e27",
+      "memory": "Wants to know more about their schedule and pricing",
+      "hash": "d5f5d1abe85d47610ac93d7893959db2",
+      "metadata": null,
+      "score": 0.18885404200604772,
+      "created_at": "2025-12-08T05:44:15.432248-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.04912081251680914
+    },
+    {
+      "id": "ede1e6c9-ee87-4290-873c-e1b6626cfe52",
+      "memory": "Will break goals down into smaller, manageable objectives",
+      "hash": "b7604dccb45ba5afcb035b3987e52d8a",
+      "metadata": null,
+      "score": 0.2841405177420685,
+      "created_at": "2025-12-08T05:40:15.091137-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.046568194562141764
+    },
+    {
+      "id": "92c924b9-63e5-4886-8361-10037b03c010",
+      "memory": "Wants more information on how to track progress",
+      "hash": "833dcfa6544d1a5f1968adc592461b7f",
+      "metadata": null,
+      "score": 0.19588923362621366,
+      "created_at": "2025-12-08T05:40:15.236510-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.0413832577349598
+    },
+    {
+      "id": "3941e273-a045-4735-b9b2-87b65226d0fe",
+      "memory": "Wants to know what kind of things to track and how often to track them",
+      "hash": "31fa74f2453ac913c1fe49a6a95dc485",
+      "metadata": null,
+      "score": 0.23741634366650508,
+      "created_at": "2025-12-08T05:40:15.251950-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.032867904674744874
+    },
+    {
+      "id": "003667b1-92b4-4e95-b09d-562c773c8e5e",
+      "memory": "Finished the charity 5K run with a personal best time of 27 minutes and 12 seconds",
+      "hash": "5ef59f001f54cb5f10e66fd0cd5390de",
+      "metadata": null,
+      "score": 0.2758384417278503,
+      "created_at": "2025-12-08T05:40:14.909409-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.029849057628566968
+    },
+    {
+      "id": "d290cd8f-a688-461e-879e-ce0a88919adf",
+      "memory": "Looking for nutrition advice to fuel body better for sports activities",
+      "hash": "36b0787eee15afa6cb1ae26326f41c57",
+      "metadata": null,
+      "score": 0.19865556192574063,
+      "created_at": "2025-12-08T05:58:37.222000-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.013747891579749576
+    },
+    {
+      "id": "d214a8d5-b883-4cf3-a7b4-68d4e5b4b060",
+      "memory": "Will start by setting specific and achievable goals for 5K training",
+      "hash": "0c211efaa39daae94bfa82173d3088f5",
+      "metadata": null,
+      "score": 0.3710776048890819,
+      "created_at": "2025-12-08T05:40:15.072922-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.0075601579258019105
+    },
+    {
+      "id": "a3ff14d5-8756-41c4-bc3a-7b864c8865fc",
+      "memory": "Will create a training schedule",
+      "hash": "9f220f766ddbb43b7096aba6d28b7a41",
+      "metadata": null,
+      "score": 0.18965559300897555,
+      "created_at": "2025-12-08T05:40:15.106110-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.0027730569539915592
+    },
+    {
+      "id": "810f2411-9bcd-429d-a2cc-0eb4bc3c1d20",
+      "memory": "Working on backhand in tennis, which has always been a weak spot",
+      "hash": "abf86658d607f5daa24da2cc25966df0",
+      "metadata": null,
+      "score": 0.1931376333423217,
+      "created_at": "2025-12-08T05:58:37.316884-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.0014388721003874298
+    },
+    {
+      "id": "3859fc13-51fd-46a9-bd03-24c641759e84",
+      "memory": "Planning a 10K run this weekend",
+      "hash": "c110e203a155376c58265061d3af944b",
+      "metadata": null,
+      "score": 0.2013256885381315,
+      "created_at": "2025-12-08T06:04:44.468353-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.0007036904073848445
+    },
+    {
+      "id": "c0f267d1-1a87-44fd-b90e-93a6e7dc2153",
+      "memory": "Planning to do hill repeats to improve running efficiency and endurance",
+      "hash": "f261ff36da23304bca160f6f4963345b",
+      "metadata": null,
+      "score": 0.21489660753060041,
+      "created_at": "2025-12-08T06:04:44.702038-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.00024493897635883703
+    },
+    {
+      "id": "e64d7ea5-efb1-4f4d-999a-81101b009579",
+      "memory": "Wants tips on how to track bike mileage more accurately",
+      "hash": "eb8b3266b499aa956c8e215ed37d4ea0",
+      "metadata": null,
+      "score": 0.21134250156580267,
+      "created_at": "2025-12-08T05:59:50.957774-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.00023910275354164956
+    },
+    {
+      "id": "4072889a-e47a-4e36-bbed-cc6de285e006",
+      "memory": "Looking for advice on how to structure training for a next endurance event, which is a 5K run",
+      "hash": "448b4dae8a8318f32ff96b8c360cb46b",
+      "metadata": null,
+      "score": 0.19165723596162546,
+      "created_at": "2025-12-08T05:40:14.876912-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.00020408541663852466
+    },
+    {
+      "id": "aaf217f3-930b-4e4c-8bd9-0a326b5d1bf5",
+      "memory": "Aims to do 2-3 strength sessions per week",
+      "hash": "bbd848de915195dfaf46a74691639631",
+      "metadata": null,
+      "score": 0.29382008704350976,
+      "created_at": "2025-12-08T05:40:15.037135-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.00015611896035976509
+    },
+    {
+      "id": "2f71b607-cda2-48bb-a344-edbbf8288684",
+      "memory": "Has been using a spreadsheet to track sales and expenses",
+      "hash": "95723fe4dbf86a0963df03d14485b35e",
+      "metadata": null,
+      "score": 0.1899188619185152,
+      "created_at": "2025-12-08T05:39:04.024847-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 6.802847221284156e-05
+    },
+    {
+      "id": "eeed120c-8cb5-4a6a-a53a-ce152cc25f33",
+      "memory": "Wants to know how to incorporate duathlon training into 5K training",
+      "hash": "b357863f35509471f33d5a0efe72aa14",
+      "metadata": null,
+      "score": 0.19728540765265304,
+      "created_at": "2025-12-08T05:40:14.926560-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_181",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.7081,
+    "load_time": 1687.4148
+  }
+}

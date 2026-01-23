@@ -1,0 +1,242 @@
+{
+  "sample_idx": 18,
+  "question_id": "af8d2e46",
+  "question": "How many shirts did I pack for my 5-day trip to Costa Rica?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T04:39:30.076173",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 49,
+    "failed_sessions": 1,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "149a3d63-6856-4c9e-bfff-5d97ccc8a386",
+      "memory": "On last trip to Costa Rica, brought 7 shirts and 5 pairs of shorts but only wore 3 shirts and 2 shorts",
+      "hash": "ccc8883fb4500b8b4ab22fb3c69daa2e",
+      "metadata": null,
+      "score": 0.8402738642560321,
+      "created_at": "2025-11-28T13:25:00.656427-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.999999999322902
+    },
+    {
+      "id": "84d7ceed-da22-4ac2-ae14-c561c4db56e3",
+      "memory": "Went on a trip to Costa Rica",
+      "hash": "a858c6af2f3947058871dcec5662a6ec",
+      "metadata": null,
+      "score": 0.6303885722604516,
+      "created_at": "2025-11-28T13:25:00.643444-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.6380105068384674
+    },
+    {
+      "id": "fba3bced-f8eb-415e-bce9-11521b10be4d",
+      "memory": "Trying to get better at packing for trips",
+      "hash": "164842d49268f657c24c3c7bb08aa884",
+      "metadata": null,
+      "score": 0.44732821160602554,
+      "created_at": "2025-11-28T13:25:00.616492-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.4425754797634041
+    },
+    {
+      "id": "a37ec133-e20b-43fe-b801-f55ce35f64f9",
+      "memory": "Needs to work on packing more essentials and fewer 'just in case' items",
+      "hash": "ff2130521ed75da19f8a521b965582a6",
+      "metadata": null,
+      "score": 0.3037166238187513,
+      "created_at": "2025-11-28T13:25:00.684332-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.10995824082383164
+    },
+    {
+      "id": "000144de-e13f-4c55-900a-ce5a2673330a",
+      "memory": "Got a new backpack on February 10th",
+      "hash": "295b4186c2b8f10ace9f432ab6eb249b",
+      "metadata": null,
+      "score": 0.3939781359027087,
+      "created_at": "2025-11-28T12:41:37.582538-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.06712561132863623
+    },
+    {
+      "id": "7f1cecdd-c180-4989-ad70-39656678913f",
+      "memory": "Wanted a backpack with multiple compartments",
+      "hash": "a21a196d54f55b884a67b2271d62b6a9",
+      "metadata": null,
+      "score": 0.3568040096216616,
+      "created_at": "2025-11-28T12:41:37.635729-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.03557939132858304
+    },
+    {
+      "id": "e393f7c2-8b3b-410a-91ac-f2acfe039dae",
+      "memory": "Looking to buy a new lunch bag",
+      "hash": "36105e33a0729283a332a7554b3258d2",
+      "metadata": null,
+      "score": 0.31418279759225265,
+      "created_at": "2025-11-28T12:41:37.538126-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.02669348687095498
+    },
+    {
+      "id": "7106e992-8583-4277-9445-78ce81f2d7fd",
+      "memory": "New backpack has multiple compartments",
+      "hash": "089250b438962fa2c4f6a9553cf3d78b",
+      "metadata": null,
+      "score": 0.29049721119009664,
+      "created_at": "2025-11-28T12:41:37.620423-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.02524207727503822
+    },
+    {
+      "id": "d98d3977-368d-4ad0-b464-cca9e113bba2",
+      "memory": "Got the backpack at the outlet mall near house",
+      "hash": "f735706b8741374e1173d31cbe304221",
+      "metadata": null,
+      "score": 0.34313686783887587,
+      "created_at": "2025-11-28T12:41:37.596740-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.005692183444839551
+    },
+    {
+      "id": "debee179-c69c-4583-b323-009cfce01554",
+      "memory": "Got sister a birthday gift - a beautiful personalized necklace with her birthstone, an aquamarine, which cost $80",
+      "hash": "b79fb7210b3e2da3cceb6e5d9de3c68c",
+      "metadata": null,
+      "score": 0.26860902265852227,
+      "created_at": "2025-11-28T13:10:33.712735-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.0023374816907323443
+    },
+    {
+      "id": "c080f3a9-d573-41e1-8218-5cec627d8724",
+      "memory": "Original price of backpack was $80 but got it for $40",
+      "hash": "51992bfc8346a00e9ac29c6c780cdbfd",
+      "metadata": null,
+      "score": 0.28606280042899035,
+      "created_at": "2025-11-28T12:41:37.661943-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.0015106877028283432
+    },
+    {
+      "id": "321737a2-f8d7-4a06-8baa-d841f897f491",
+      "memory": "Looking for insulated lunch bag recommendations",
+      "hash": "2f7340b8d89b40edd40344515ff58d9f",
+      "metadata": null,
+      "score": 0.2683683161077554,
+      "created_at": "2025-11-28T12:41:37.570012-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.0013176141302078369
+    },
+    {
+      "id": "01fa4eae-3f41-4b64-a43a-a3936d0ff009",
+      "memory": "Was drawn to the backpack's design",
+      "hash": "8feb18597f993fb0337f20683f7d8d78",
+      "metadata": null,
+      "score": 0.3022127454350933,
+      "created_at": "2025-11-28T12:41:37.646357-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.001157537412306086
+    },
+    {
+      "id": "c40cd34d-e89a-46db-8d36-48e3d602c64c",
+      "memory": "Looking for a good online store to buy a luggage tag for suitcase",
+      "hash": "331848999d23400e1515fedaa9da454b",
+      "metadata": null,
+      "score": 0.2817709275786111,
+      "created_at": "2025-11-28T12:41:37.507135-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.0008965975103129534
+    },
+    {
+      "id": "22b15986-09f3-4fa0-a80e-5af5f8a6b40c",
+      "memory": "Has a $5 gift card from a coffee shop visited on January 15th that needs to be used soon",
+      "hash": "8aea3eb073d10e066d2e54c5bbac99ec",
+      "metadata": null,
+      "score": 0.26877035997522136,
+      "created_at": "2025-11-28T12:41:37.557203-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.0008510734739592889
+    },
+    {
+      "id": "d3dce1f3-9dd1-493c-8f01-3d4fd7309794",
+      "memory": "Trying to do at least one charity event a month",
+      "hash": "1592f52ba84c1fa5da9a14bdd7c3b13f",
+      "metadata": null,
+      "score": 0.2684196590122546,
+      "created_at": "2025-11-28T12:44:48.281700-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.0008326701401141904
+    },
+    {
+      "id": "3e2dcde6-e5dc-4161-81e6-0a91477b36fd",
+      "memory": "Loves the idea of a dessert table with aquamarine-colored desserts and a candy buffet",
+      "hash": "9c4c82a5f6bbb088e682a124369b6830",
+      "metadata": null,
+      "score": 0.23080117244683085,
+      "created_at": "2025-11-28T13:10:33.890957-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.0005118709732985799
+    },
+    {
+      "id": "074f6fc9-9342-47ad-b659-7e404fb54b94",
+      "memory": "Has been tracking yoga progress and hit 25 classes since starting 3 months ago",
+      "hash": "71c7b5402e6d64f0b2577a3d6ebf377c",
+      "metadata": null,
+      "score": 0.2545532922906111,
+      "created_at": "2025-11-28T13:24:03.444405-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.00043192947399952074
+    },
+    {
+      "id": "5d8c9c2b-faab-437c-87c9-0fcd703613c0",
+      "memory": "Old backpack was getting worn out, especially the straps",
+      "hash": "707d809ebd0db4e5ccf7b00e7aaf3c27",
+      "metadata": null,
+      "score": 0.276486613439664,
+      "created_at": "2025-11-28T12:41:37.608351-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.0002134786726031418
+    },
+    {
+      "id": "2514b422-aaa3-47f5-a621-47467d976807",
+      "memory": "Will set up a few food stations like a DIY taco bar and a build-your-own-sundae station",
+      "hash": "6bf68f2024a059d6740b95a57262efb6",
+      "metadata": null,
+      "score": 0.2686298525593725,
+      "created_at": "2025-11-28T13:10:33.849618-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_18",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.9375,
+    "load_time": 2904.2991
+  }
+}

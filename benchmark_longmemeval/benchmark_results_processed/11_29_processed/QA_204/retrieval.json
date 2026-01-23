@@ -1,0 +1,242 @@
+{
+  "sample_idx": 204,
+  "question_id": "61f8c8f8",
+  "question": "How much faster did I finish the 5K run compared to my previous year's time?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T06:58:15.321129",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "e81b3b77-6787-41db-83ab-4bed73f5717d",
+      "memory": "Has done a 5K run last year, but it took 45 minutes to complete",
+      "hash": "7b2dece41fd5acf7ad99264e60f5ef57",
+      "metadata": null,
+      "score": 0.7858691606600503,
+      "created_at": "2025-12-08T15:12:45.968832-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.9999999992295706
+    },
+    {
+      "id": "6cc4c39b-e26e-49fc-bf0d-5d3d9b7b5be6",
+      "memory": "Training for a 5K run and trying to create a training plan",
+      "hash": "8b5ae9c82b520f5f267465e28c5b919c",
+      "metadata": null,
+      "score": 0.4924477004089928,
+      "created_at": "2025-12-08T15:08:43.882991-08:00",
+      "updated_at": "2025-12-08T15:12:45.911215-08:00",
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.33845767573637303
+    },
+    {
+      "id": "2c826ecc-4e76-49b2-a656-e887e5e3e6e9",
+      "memory": "Will try to maintain a pace of around 16 minutes per mile for the base building phase",
+      "hash": "1d3b4d36551848a99c43a454f55bc418",
+      "metadata": null,
+      "score": 0.35279976132335034,
+      "created_at": "2025-12-08T15:12:45.984747-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.17563493204987238
+    },
+    {
+      "id": "008ef22b-dc27-4248-90fe-b20426106c3c",
+      "memory": "Will make sure to stay consistent, listen to body, and track progress",
+      "hash": "00bb41d81463921516470b45d2538e7c",
+      "metadata": null,
+      "score": 0.21873411270760282,
+      "created_at": "2025-12-08T15:12:46.065546-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.12737031949976094
+    },
+    {
+      "id": "be503f3c-f755-4626-b841-974c90e04efd",
+      "memory": "Believes having a strong core can help improve running efficiency and reduce risk of injury",
+      "hash": "f41f1a777a7ac482375e39fda52f48da",
+      "metadata": null,
+      "score": 0.3012637523435757,
+      "created_at": "2025-12-08T15:05:32.216271-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.08258991095750289
+    },
+    {
+      "id": "501822c0-2ce1-4dcf-ade9-3d94ae298bec",
+      "memory": "Uses a Garmin Forerunner 245 Music to track runs",
+      "hash": "b13c050ae734a729cba2a68833d84e2f",
+      "metadata": null,
+      "score": 0.1976151279970419,
+      "created_at": "2025-12-08T15:05:32.142111-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.021524167860244244
+    },
+    {
+      "id": "ffe3b877-249c-4246-a842-64ae051ab05e",
+      "memory": "Is looking forward to getting started and tracking progress",
+      "hash": "7b19fa6ef95c45ccbdead5686c981db8",
+      "metadata": null,
+      "score": 0.24611241755016394,
+      "created_at": "2025-12-08T15:12:46.034024-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.01286762439221811
+    },
+    {
+      "id": "a70e0dcd-06d5-424b-bd3e-d4b3d73abac8",
+      "memory": "Wants tips on creating a workout plan that combines running with strength training and other exercises to help lower blood pressure",
+      "hash": "d10bd9d89d290e8f38f57c5372915858",
+      "metadata": null,
+      "score": 0.2190706350469629,
+      "created_at": "2025-12-08T15:05:32.182091-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.011741196614558426
+    },
+    {
+      "id": "a9a77188-dbdd-4d70-b087-6d0a52ac82e4",
+      "memory": "Enjoying the process of learning and self-improvement",
+      "hash": "b7069940db982dff694ea203d868aa33",
+      "metadata": null,
+      "score": 0.23800165940237683,
+      "created_at": "2025-12-08T15:04:14.686692-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.010694708398707738
+    },
+    {
+      "id": "ed75a68e-76b0-4a32-b52b-2c58771d391a",
+      "memory": "Wants to know which processor brand is better for gaming performance",
+      "hash": "3856b8f4967adbb825e481e6e86c24db",
+      "metadata": null,
+      "score": 0.24273112387682855,
+      "created_at": "2025-12-08T15:12:05.517250-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.0016894579818346345
+    },
+    {
+      "id": "0e5233af-7ac3-4509-94f1-3cc991093cf7",
+      "memory": "Currently reading 'The 4-Hour Work Week'",
+      "hash": "62efe2989d8a954637e6394bd7727fb0",
+      "metadata": null,
+      "score": 0.1778686037927298,
+      "created_at": "2025-12-08T15:04:14.555091-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.0011725693629685541
+    },
+    {
+      "id": "48bf8afd-4dd3-47e3-8485-980785f7db6e",
+      "memory": "Finding 'The 4-Hour Work Week' helpful in terms of thinking about productivity and time management",
+      "hash": "b94b7cbf36eb250ebebc90051cc4f4f5",
+      "metadata": null,
+      "score": 0.17386532465525048,
+      "created_at": "2025-12-08T15:04:14.577298-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.0010445044215778535
+    },
+    {
+      "id": "f4d709cf-a652-45b5-9ed7-b4b391c8b3b7",
+      "memory": "Thinking of trying out new yoga routines",
+      "hash": "ca2f4e64ea89edbb744002c142a8aed7",
+      "metadata": null,
+      "score": 0.20156542054248555,
+      "created_at": "2025-12-08T15:14:22.131650-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.0009556010486101268
+    },
+    {
+      "id": "1797d0bb-989f-4309-94f3-a17057aea22a",
+      "memory": "Has already started making some changes to diet and exercise routine",
+      "hash": "3f94214f7b32f6dbceed72ceb1a214c4",
+      "metadata": null,
+      "score": 0.2092744718809858,
+      "created_at": "2025-12-08T15:05:32.105908-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.0008287851628726919
+    },
+    {
+      "id": "ab9649d9-4789-4dfc-be67-460421a0dbeb",
+      "memory": "Was thinking of starting with a base building phase, but not sure how to pace self",
+      "hash": "4b045c3f0da6dd98bd684e463e1484b9",
+      "metadata": null,
+      "score": 0.22456270494687441,
+      "created_at": "2025-12-08T15:12:45.952470-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.000681837438959094
+    },
+    {
+      "id": "2b0455f7-0edb-469a-b843-8de203bbf8ea",
+      "memory": "Had a great time relaxing and catching up with each other",
+      "hash": "961d0197da85df07b23e5374eccda7ae",
+      "metadata": null,
+      "score": 0.17563860629785658,
+      "created_at": "2025-12-08T15:16:08.728657-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.0006669222449818638
+    },
+    {
+      "id": "b392295f-e53f-4599-bf6f-29d0259ce9cb",
+      "memory": "Completed a coding boot camp in December",
+      "hash": "76c54d9148ae340cb41d16d41f0796a0",
+      "metadata": null,
+      "score": 0.2728638741700798,
+      "created_at": "2025-12-08T15:16:57.808866-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.0006240135095990933
+    },
+    {
+      "id": "7e156c2b-38d9-4309-b80e-ec6fd4ab9ee3",
+      "memory": "Has a Trek FX 3 bike, had it for about 3 years",
+      "hash": "61eafde05f7d1a27df08d552de9156f8",
+      "metadata": null,
+      "score": 0.27789683452734526,
+      "created_at": "2025-12-08T15:01:12.902400-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.0005676590574782284
+    },
+    {
+      "id": "f8dcfb85-307c-4bb9-aa25-409a562c18db",
+      "memory": "Wants to know the passing rate for the CPA exam in Texas and if it is difficult to pass",
+      "hash": "018d89ce9a42653b651efaf22fa3c35d",
+      "metadata": null,
+      "score": 0.18505046385808976,
+      "created_at": "2025-12-08T14:58:26.521986-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.00020653502596056178
+    },
+    {
+      "id": "0fc2bd9f-b7ad-41a3-9cd1-d6d4141ca9ca",
+      "memory": "Considering mentioning the 5-acre plot in Oakdale in the listing",
+      "hash": "38c00ac480a084656f69d53823fb6b6a",
+      "metadata": null,
+      "score": 0.1690819724188601,
+      "created_at": "2025-12-08T15:02:35.492283-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_204",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4302,
+    "load_time": 1310.2491
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 10,
+  "question_id": "5d3d2817",
+  "question": "What was my previous occupation?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T01:32:13.228420",
+  "load_result": {
+    "total_sessions": 53,
+    "added_sessions": 53,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "7afab60d-0606-4f51-afed-4a720db129ab",
+      "memory": "Used Trello in previous role as a marketing specialist at a small startup",
+      "hash": "2a078fa7e584f4565ed57746aa26a6e6",
+      "metadata": null,
+      "score": 0.39017112705247425,
+      "created_at": "2025-11-28T09:40:12.641178-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.9999999986706832
+    },
+    {
+      "id": "5d8df076-9a07-45f5-95e2-85b2196a2684",
+      "memory": "In previous role, was responsible for managing a team of interns and manually assigning tasks and tracking progress",
+      "hash": "926fa2fd221c2f9c548d1451194cde47",
+      "metadata": null,
+      "score": 0.2810787923976865,
+      "created_at": "2025-11-28T09:40:12.725429-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.9929541798768104
+    },
+    {
+      "id": "3e76592e-900b-4e5d-a23c-23a939ff5864",
+      "memory": "Has a new role as a senior marketing analyst",
+      "hash": "cf757e2d9a4f1bdfd6fff3a2159ab92b",
+      "metadata": null,
+      "score": 0.3049563519405638,
+      "created_at": "2025-11-28T09:40:12.709750-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.6406266026353734
+    },
+    {
+      "id": "83965a0d-0b9e-4342-a081-713e79e0596b",
+      "memory": "Had a weekly farmers' market on July 17th where I sold 20 soaps",
+      "hash": "a4b210a2d3f278b8156738efc235350f",
+      "metadata": null,
+      "score": 0.2108266319616232,
+      "created_at": "2025-11-28T09:37:56.113757-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.3650437221177947
+    },
+    {
+      "id": "1b0c9a9a-9773-4468-b627-9392739bcd90",
+      "memory": "Was a panelist at the Industry Summit in April",
+      "hash": "d8ca9c431e8cbc13128e0d55adf8e05d",
+      "metadata": null,
+      "score": 0.28189103711116925,
+      "created_at": "2025-11-28T09:40:47.910826-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.06664534749746505
+    },
+    {
+      "id": "6db76d61-f8d0-4f0f-a796-2b0d8db3543f",
+      "memory": "Found the retreat to be a transformative experience",
+      "hash": "5169bb6cee43dea2dfadfd2f91d7c698",
+      "metadata": null,
+      "score": 0.30734245880696787,
+      "created_at": "2025-11-28T09:47:50.419972-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.016974974567267074
+    },
+    {
+      "id": "c8f42acc-1f7a-4a48-9c16-52f2b920b1d0",
+      "memory": "Really into still life lately",
+      "hash": "96c8311d8899b63abeb14b4d6c6d7902",
+      "metadata": null,
+      "score": 0.27025187370905324,
+      "created_at": "2025-11-28T09:36:13.112676-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.003157294560102961
+    },
+    {
+      "id": "b2b74511-94df-4d93-84af-dc672347537e",
+      "memory": "Feels proud of space created and maintained",
+      "hash": "84836c80707a6b9375ea46436af00b6a",
+      "metadata": null,
+      "score": 0.21948848792347583,
+      "created_at": "2025-11-28T09:42:56.164375-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.0026301702565129947
+    },
+    {
+      "id": "c7f51205-a59d-48da-b956-296465ae1534",
+      "memory": "Started taking swimming lessons at the YMCA",
+      "hash": "c17bc7699506cd0dd147ced11bfe8c50",
+      "metadata": null,
+      "score": 0.2456911145396925,
+      "created_at": "2025-11-28T09:32:44.909622-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.0018462027977827514
+    },
+    {
+      "id": "98d0aeed-392d-43fe-a9a1-47e08c5df80e",
+      "memory": "Would like to continue exploring the teachings and principles in daily life",
+      "hash": "c40a4cf685ee34c94d2dfadbd04f5983",
+      "metadata": null,
+      "score": 0.2528986083135141,
+      "created_at": "2025-11-28T09:47:50.431937-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.0017072590179042996
+    },
+    {
+      "id": "4fda36a5-8603-4bf1-bf27-1353910dbeeb",
+      "memory": "Daily cleaning routine has become a habit",
+      "hash": "c90a650314afd130121ae8bbd0b332d2",
+      "metadata": null,
+      "score": 0.2404672125330278,
+      "created_at": "2025-11-28T09:42:55.972842-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.0015773161580727182
+    },
+    {
+      "id": "d54ca6c0-6321-41bf-9700-5f65dacc559a",
+      "memory": "Has been following a daily cleaning routine for the past 6 weeks",
+      "hash": "9298585c700de50edd99ea4d3e3ad0f5",
+      "metadata": null,
+      "score": 0.23063970360479827,
+      "created_at": "2025-11-28T09:42:55.892828-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.001220575467764357
+    },
+    {
+      "id": "f553d027-05bd-4c9c-8b0f-f47eb766913f",
+      "memory": "Made $250 at the weekly farmers' market",
+      "hash": "d7cc5a450dd4d0eae2a38737b1cd67ee",
+      "metadata": null,
+      "score": 0.26488036687909866,
+      "created_at": "2025-11-28T09:37:56.171941-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.0011126912007236977
+    },
+    {
+      "id": "4dfe5d20-762d-4642-be37-7777623ff756",
+      "memory": "Likes the idea of painting vintage items",
+      "hash": "0c7de1622551f0324d30343117c14e88",
+      "metadata": null,
+      "score": 0.24688891760271392,
+      "created_at": "2025-11-28T09:36:13.147100-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.0009884531493725272
+    },
+    {
+      "id": "f4bc3db7-d40f-47ec-8a58-dea02cf7d7f3",
+      "memory": "Likes coming home to a tidy space after a long day",
+      "hash": "fc2d20be84f0ce100c8ad91fa896452e",
+      "metadata": null,
+      "score": 0.22371489967311764,
+      "created_at": "2025-11-28T09:42:56.028792-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.0009379972877013375
+    },
+    {
+      "id": "f5c33052-1172-4fcb-8f14-e6a438c7e85b",
+      "memory": "Daily cleaning routine has been a game-changer",
+      "hash": "e5bea6fbd8baf1f44b770c93b3fbdae7",
+      "metadata": null,
+      "score": 0.2630148835290759,
+      "created_at": "2025-11-28T09:42:55.939568-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.0008619331746291922
+    },
+    {
+      "id": "5c4f9707-ee10-45af-b6e0-53ec7da9aff2",
+      "memory": "Looking for inspiration for next painting project",
+      "hash": "9a11b1f584d781ddb0ac985d3e0ecd6e",
+      "metadata": null,
+      "score": 0.21183379084186138,
+      "created_at": "2025-11-28T09:36:13.075294-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.0002706614690150501
+    },
+    {
+      "id": "a7f92fea-f801-4aa4-85fe-3cce70b9b165",
+      "memory": "Has been meaning to tackle desk and workspace decluttering project but hasn't had time yet",
+      "hash": "9acc3ad6cb993b9b3143620b619be899",
+      "metadata": null,
+      "score": 0.224070101852628,
+      "created_at": "2025-11-28T09:42:55.876988-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.0002098101785573339
+    },
+    {
+      "id": "222d0397-8348-49cd-b692-bed482907a07",
+      "memory": "Thinking of painting a still life of vintage cameras",
+      "hash": "c9af0e5fcd8b3f3d324da26f7af363d0",
+      "metadata": null,
+      "score": 0.250321354483373,
+      "created_at": "2025-11-28T09:36:13.161755-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.00010015108221165788
+    },
+    {
+      "id": "beb41737-b00e-467a-be13-835775d86353",
+      "memory": "Finds the intricate pattern relaxing to work on during commute",
+      "hash": "27995799bcd6fd945dd17a5ee34b7106",
+      "metadata": null,
+      "score": 0.2413022575772324,
+      "created_at": "2025-11-28T09:37:16.419950-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_10",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4096,
+    "load_time": 1069.5195
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_idx": 156,
+  "question_id": "a89d7624",
+  "question": "I'm planning a trip to Denver soon. Any suggestions on what to do there?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that take into account their previous experience in Denver, specifically their interest in live music and memorable encounter with Brandon Flowers. They might appreciate suggestions that revisit or build upon this experience, such as revisiting the same bar or exploring similar music venues in the area. The user may not prefer general tourist recommendations or activities unrelated to their interest in live music.",
+  "question_date": "2023/05/30 (Tue) 21:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T16:39:10.658663",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 3092,
+  "gen_token_usage": {
+    "prompt_tokens": 818,
+    "answer_tokens": 10,
+    "total_tokens": 828,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 68,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.05555555555555555,
+      "rouge1_f": 0.05128205128205128,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.02564102564102564,
+      "semantic_similarity": 0.12017399072647095,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.03311965811965812,
+      "avg_semantic": 0.12017399072647095,
+      "overall_average": 0.050530530512332916
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.05555555555555555,
+    "rouge1_f": 0.05128205128205128,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.02564102564102564,
+    "semantic_similarity": 0.12017399072647095,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.03311965811965812,
+    "avg_semantic": 0.12017399072647095,
+    "overall_average": 0.050530530512332916
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1590.9719,
+    "retrieval_time": 1.065,
+    "generation_time": 1.5469,
+    "evaluation_time": 1.0078,
+    "cleanup_time": 1.6532,
+    "total_time": 1596.2467
+  }
+}

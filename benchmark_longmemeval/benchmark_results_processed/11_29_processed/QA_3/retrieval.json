@@ -1,0 +1,242 @@
+{
+  "sample_idx": 3,
+  "question_id": "58bf7951",
+  "question": "What play did I attend at the local community theater?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-28T22:06:03.253372",
+  "load_result": {
+    "total_sessions": 57,
+    "added_sessions": 57,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "d9b7aaa9-e2d8-4cdd-a0e5-3f555f7ee87b",
+      "memory": "Went to a play at the local community theater and was impressed by the lead actress's performance",
+      "hash": "73d36d39983f55a429ce6d2e520006d4",
+      "metadata": null,
+      "score": 0.7302894778550084,
+      "created_at": "2025-11-28T06:18:28.630171-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.999999999080902
+    },
+    {
+      "id": "5ad46de6-138e-437d-8d8d-5502d170fed7",
+      "memory": "Attended a production of The Glass Menagerie",
+      "hash": "c979e4523ec220932c4db1a77c13d955",
+      "metadata": null,
+      "score": 0.3061051009872555,
+      "created_at": "2025-11-28T06:18:28.670278-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.592825005416123
+    },
+    {
+      "id": "435feebf-1a33-42cb-82e7-16c7408c1155",
+      "memory": "Recently auditioned for a role in \"The Crucible\" and it didn't go well",
+      "hash": "d8cee1f0011e13da631c3a218a6117f9",
+      "metadata": null,
+      "score": 0.3339507880049407,
+      "created_at": "2025-11-28T06:18:28.704681-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.2574974197434741
+    },
+    {
+      "id": "0de3b4a7-01c4-4627-9965-335d47ac77b2",
+      "memory": "Planning to play Ticket to Ride and Codenames for game night",
+      "hash": "f596406e0be68a9ba81591ad9120ef33",
+      "metadata": null,
+      "score": 0.2783883587212158,
+      "created_at": "2025-11-28T06:21:17.219713-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.22849275535871444
+    },
+    {
+      "id": "b86174fd-1f40-4dc9-8581-d787518215b8",
+      "memory": "Really enjoying the psychological thriller genre",
+      "hash": "43d683faba65f16eb6e13f075f008c60",
+      "metadata": null,
+      "score": 0.23723048147221454,
+      "created_at": "2025-11-28T06:27:16.938564-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.015411415036401085
+    },
+    {
+      "id": "d9af77d9-d7ca-4c2a-83cf-db178fb8fe3c",
+      "memory": "Chose Sushi Go! for family game night",
+      "hash": "4a9e29de84a9953e3f0d37a89f7d4c84",
+      "metadata": null,
+      "score": 0.21133083887462684,
+      "created_at": "2025-11-28T06:20:27.634811-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.014636921857037286
+    },
+    {
+      "id": "4d61072e-9a8b-422a-913d-e7bbdb065b91",
+      "memory": "Recently tried the new Italian place downtown and it was pretty good",
+      "hash": "05a9a26d794175f41e26d2ab1490f528",
+      "metadata": null,
+      "score": 0.2911280251700366,
+      "created_at": "2025-11-28T06:18:28.608961-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.007563579780498143
+    },
+    {
+      "id": "43ba6776-cb84-4554-90de-acb9e5249960",
+      "memory": "Looking for game recommendations similar to The Last of Us Part II",
+      "hash": "2c83dba16bf97f1c31d726ebd506def0",
+      "metadata": null,
+      "score": 0.23634477190862355,
+      "created_at": "2025-11-28T06:06:32.598880-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.0036420287568747415
+    },
+    {
+      "id": "8af590dd-652b-443a-9a86-9082dc2f2ca8",
+      "memory": "Thinking of taking some acting classes to improve skills",
+      "hash": "3377d1e46c692ab0c9c7487aba03db24",
+      "metadata": null,
+      "score": 0.31789508290806057,
+      "created_at": "2025-11-28T06:18:28.685330-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.001280245289473478
+    },
+    {
+      "id": "07067ad1-d4ab-4ab5-8f2f-b81da34504be",
+      "memory": "Did discover some new shows that I really love on The CW after the merger",
+      "hash": "df8eb020935fe05f37570e23971aaaf2",
+      "metadata": null,
+      "score": 0.22602092165598642,
+      "created_at": "2025-11-28T06:17:30.040173-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.0010835541742072526
+    },
+    {
+      "id": "7fcd8376-845c-4e83-9dda-deb70bcbe7a7",
+      "memory": "Planning to upload walkthroughs and reviews of games played",
+      "hash": "6691b63443e179d2483ffbb6e043b9c1",
+      "metadata": null,
+      "score": 0.226867577405028,
+      "created_at": "2025-11-28T06:06:32.727222-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.0009973922462630908
+    },
+    {
+      "id": "4896fe1f-ec64-453e-9681-566394b08f4d",
+      "memory": "Has been really enjoying All American on The CW",
+      "hash": "7daf38c1c44f6d5d22995c8e1efbb14e",
+      "metadata": null,
+      "score": 0.22909440664823238,
+      "created_at": "2025-11-28T06:17:30.069949-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.0008688943964501291
+    },
+    {
+      "id": "6edacc24-e721-454d-948d-6e0caa4fd49d",
+      "memory": "Planning to host a game night at new apartment",
+      "hash": "e433e4056e5145f0d569a89fddc1dd91",
+      "metadata": null,
+      "score": 0.3509675600411001,
+      "created_at": "2025-11-28T06:21:17.149961-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.0008660895320613059
+    },
+    {
+      "id": "836c56f4-5ea7-4a0d-ab43-d36abcf2571a",
+      "memory": "Thinking of getting Emily to audition for a role",
+      "hash": "455e8eb1016044de6be37c2bad2a4702",
+      "metadata": null,
+      "score": 0.24924355722298452,
+      "created_at": "2025-11-28T06:18:28.657296-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.0006393337766273824
+    },
+    {
+      "id": "c76563c8-f624-4792-8660-f672456aea60",
+      "memory": "Got a ceramic vase from the street fair",
+      "hash": "e20bb8b9b299595808c1b46ee00be853",
+      "metadata": null,
+      "score": 0.2521439433310887,
+      "created_at": "2025-11-28T06:28:15.869297-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.0005626382659954987
+    },
+    {
+      "id": "bdd0ac70-67c7-4ab8-be90-bfd24ca32b38",
+      "memory": "Thinking of focusing on scene study and character development in acting classes",
+      "hash": "1237ed407f13c2b58f2e594f3929ac1d",
+      "metadata": null,
+      "score": 0.34600078589976613,
+      "created_at": "2025-11-28T06:18:28.723485-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.000544757255516751
+    },
+    {
+      "id": "142a5b58-c746-47b2-bab6-078c850ffc97",
+      "memory": "Has always struggled with getting into character and making performances feel authentic",
+      "hash": "8421abc1f8a6ff3542b526acfea4a848",
+      "metadata": null,
+      "score": 0.30014901855930964,
+      "created_at": "2025-11-28T06:18:28.738430-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.0005414264790550234
+    },
+    {
+      "id": "9cc2da96-914b-47d1-adf3-2521370837d1",
+      "memory": "Had a late-night gaming session with friends on Sunday and woke up late as a result",
+      "hash": "56bb938632fc1e9e3465ed24e7c88e80",
+      "metadata": null,
+      "score": 0.2683545166486746,
+      "created_at": "2025-11-28T06:23:41.177937-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.00049137718011696
+    },
+    {
+      "id": "d6bce8d4-4db9-4da4-93a7-4af3421a43d0",
+      "memory": "Has not consolidated music into a central library",
+      "hash": "c65f4f3111d2f79634c990c3ce114201",
+      "metadata": null,
+      "score": 0.2634481054138517,
+      "created_at": "2025-11-28T06:15:05.526150-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 1.2183629688950666e-05
+    },
+    {
+      "id": "2e0e3cab-981e-4656-badc-85c08df569fe",
+      "memory": "Planning a family game night with participants of different ages and interests",
+      "hash": "5c3a8c2f6395abb7fe7a8c1d1fed6d21",
+      "metadata": null,
+      "score": 0.3333799820744039,
+      "created_at": "2025-11-28T06:20:27.586161-08:00",
+      "updated_at": "2025-11-28T06:21:17.125182-08:00",
+      "user_id": "benchmark_processed_3",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3627,
+    "load_time": 1332.8148
+  }
+}

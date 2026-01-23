@@ -1,0 +1,242 @@
+{
+  "sample_idx": 180,
+  "question_id": "e25c3b8d",
+  "question": "How much did I save on the designer handbag at TK Maxx?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T21:08:57.240765",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "35258c43-4755-4de6-a599-9f7286fb4eaf",
+      "memory": "Had luck finding great deals at TK Maxx before, like a designer handbag for $200",
+      "hash": "02bd21a6428859834e5ba74d015798ea",
+      "metadata": null,
+      "score": 0.745072290877335,
+      "created_at": "2025-12-08T05:18:45.854246-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.9999999992846266
+    },
+    {
+      "id": "86c25db8-3b8a-41ac-aa9b-8e1141d159e6",
+      "memory": "Got a fantastic deal on the handbag, originally $500",
+      "hash": "d28a4e51d2d73ae7b846511a2ea070d2",
+      "metadata": null,
+      "score": 0.7010262111906542,
+      "created_at": "2025-12-08T05:14:56.607826-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.5666021412100853
+    },
+    {
+      "id": "5eaa4824-f8ea-4529-af5d-b98252ffdaad",
+      "memory": "Loving the handbag from TK Maxx, it's been the go-to bag lately",
+      "hash": "eaad847310c692d53d4183bbebe4cf58",
+      "metadata": null,
+      "score": 0.6707013355249978,
+      "created_at": "2025-12-08T05:18:45.782769-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.4938127325920811
+    },
+    {
+      "id": "d45813d4-4a21-435d-b1bd-7b1d818033d2",
+      "memory": "Wondering if could find discounted designer dresses at TK Maxx or similar stores",
+      "hash": "046e2e7420628026cbc9df7af4782d53",
+      "metadata": null,
+      "score": 0.45499094968249787,
+      "created_at": "2025-12-08T05:18:45.834636-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.47812590494949037
+    },
+    {
+      "id": "879b0d6d-bec6-4910-ae9f-b6a25a12ae30",
+      "memory": "Had good experiences with TK Maxx in the past",
+      "hash": "58e15a1d7b2e3cc1d915807efc77677e",
+      "metadata": null,
+      "score": 0.4090746298434959,
+      "created_at": "2025-12-08T05:18:45.909800-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.39236823169907853
+    },
+    {
+      "id": "5cf4ba89-165f-456e-a715-c8fb1712135c",
+      "memory": "Will check out TK Maxx's accessories section for shoes, jewelry, or a clutch to match the potential new dress",
+      "hash": "4b6a7c540829566f7e7b71cb385e3371",
+      "metadata": null,
+      "score": 0.4887352868111239,
+      "created_at": "2025-12-08T05:18:45.928557-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.32240084676192965
+    },
+    {
+      "id": "ca019459-ced6-46bd-99b1-cbe71a378dda",
+      "memory": "Might check out TK Maxx's formal dress section to see what they have",
+      "hash": "25e23a8a2824c38cca4ba6411e23e3a6",
+      "metadata": null,
+      "score": 0.38094262405445845,
+      "created_at": "2025-12-08T05:18:45.871220-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.27911703648614034
+    },
+    {
+      "id": "b8fe5c67-e80b-490e-a824-7fe2968b7f32",
+      "memory": "The handbag brand is somewhat similar to H&M but more upscale",
+      "hash": "59f2ea5b1ac0ced166f17afd816023a6",
+      "metadata": null,
+      "score": 0.4089560173208558,
+      "created_at": "2025-12-08T05:14:56.627930-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.2599502053154821
+    },
+    {
+      "id": "c0a5ce9f-2941-4aff-84f4-dacf6f150cca",
+      "memory": "The handbag is a neutral color, black leather, medium-sized tote",
+      "hash": "cf3c5afc99101091b3aa8b3c1bac4f31",
+      "metadata": null,
+      "score": 0.46897510944493004,
+      "created_at": "2025-12-08T05:14:56.646569-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.25279374919821923
+    },
+    {
+      "id": "9aeccf71-e225-436b-bbde-2786d6aca2b7",
+      "memory": "Looking for fashion advice to style a new designer handbag",
+      "hash": "031db428cc203cf9c5a3605b83280f04",
+      "metadata": null,
+      "score": 0.4780152914983705,
+      "created_at": "2025-12-08T05:14:56.585862-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.22180480523642718
+    },
+    {
+      "id": "0361d3a3-c542-4289-8807-dc6cf6720ce1",
+      "memory": "Budget for new shoes is around $100",
+      "hash": "2b07832dd8df3697b4f789d4c36e7620",
+      "metadata": null,
+      "score": 0.40601493097250124,
+      "created_at": "2025-12-08T05:35:09.198988-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.039303798006966095
+    },
+    {
+      "id": "5146ed34-2a5f-4736-8922-6a4278f42f54",
+      "memory": "Eyeing some luxury brands lately and might splurge on a high-end formal dress",
+      "hash": "aea6a6f8d1a41884fdd2cc4570459ec9",
+      "metadata": null,
+      "score": 0.2873414511943935,
+      "created_at": "2025-12-08T05:18:45.814636-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.003937168021423201
+    },
+    {
+      "id": "3e5a7226-60c3-4aae-aa51-8b6a450bce7d",
+      "memory": "Thinking of buying new clothes for an upcoming event",
+      "hash": "d33615e30df6bb77f56e81450924bf89",
+      "metadata": null,
+      "score": 0.3025314314133186,
+      "created_at": "2025-12-08T05:18:45.745927-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.002237725023439283
+    },
+    {
+      "id": "8f065d8b-cdeb-4dc5-b221-f3ad28b0e40f",
+      "memory": "Interested in whether Everlane's jeans would be a good investment for a capsule wardrobe",
+      "hash": "2ba3b8ea7d174611669329d2ebe0be99",
+      "metadata": null,
+      "score": 0.2820652674294302,
+      "created_at": "2025-12-08T05:14:56.767648-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.001570978479107816
+    },
+    {
+      "id": "82b64c4c-e58b-467a-a7f5-d6f8ce1fd07d",
+      "memory": "Also interested in checking out Everlane's denim selection",
+      "hash": "77791bc71f8150c0a1d793d5959a2903",
+      "metadata": null,
+      "score": 0.2651832061559131,
+      "created_at": "2025-12-08T05:14:56.747811-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.0013345846618450991
+    },
+    {
+      "id": "0b11c7fd-4c84-4d31-811b-a056b9e1e024",
+      "memory": "Is the CEO of Grailzy, an auction site for watches",
+      "hash": "c1abdb90db694c196e2788c1ae36ad5e",
+      "metadata": null,
+      "score": 0.23912808500738192,
+      "created_at": "2025-12-08T05:18:00.659698-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.001222903080644791
+    },
+    {
+      "id": "2aaeedd7-f407-4762-8a20-698ceba5c623",
+      "memory": "Interested in whether Everlane's white shirt would be a good choice for a capsule wardrobe",
+      "hash": "73485720ced07eea6a79c98dec5b7263",
+      "metadata": null,
+      "score": 0.26732416875327936,
+      "created_at": "2025-12-08T05:14:56.728517-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.0007667619371473811
+    },
+    {
+      "id": "65c90fba-fbca-47da-87d5-b5cb0d58ac30",
+      "memory": "Got back from the mall last weekend and bought a pair of black and white Vans Old Skool sneakers on a whim, and has been wearing them almost every day since",
+      "hash": "84a0e127f017fd081dddc56fce73a474",
+      "metadata": null,
+      "score": 0.31293715662020194,
+      "created_at": "2025-12-08T05:29:56.069083-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.0006850986184566243
+    },
+    {
+      "id": "224131de-3c45-4f66-aaca-e2ab5f2967c4",
+      "memory": "Grailzy is like eBay but for watches only",
+      "hash": "d4c213354ca1a57ad58da3f5130d915e",
+      "metadata": null,
+      "score": 0.2805073477273625,
+      "created_at": "2025-12-08T05:18:00.717328-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.00046951291497893734
+    },
+    {
+      "id": "34493fa0-3c51-4828-bda1-f87b7e616eea",
+      "memory": "Lent spare pair of running shoes to sister a few weeks ago and needs to remind her to return them soon",
+      "hash": "92057c6d3d6fab09dc82ffcf2448c5e8",
+      "metadata": null,
+      "score": 0.2465666389909449,
+      "created_at": "2025-12-08T05:29:56.150876-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_180",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4297,
+    "load_time": 1765.5514
+  }
+}

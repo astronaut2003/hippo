@@ -1,0 +1,242 @@
+{
+  "sample_idx": 159,
+  "question_id": "07b6f563",
+  "question": "Can you suggest some useful accessories for my phone?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T18:01:20.422257",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 52,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "8076506e-2820-487b-9422-ac4c3af2654e",
+      "memory": "Looking for a phone wallet case for iPhone 13 Pro",
+      "hash": "c49ef88fa5340a35df5a82dc57251166",
+      "metadata": null,
+      "score": 0.42490626982506774,
+      "created_at": "2025-12-07T02:20:47.652627-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.9999999984517212
+    },
+    {
+      "id": "2bc964ec-1547-4278-9b1e-ab250a7c0322",
+      "memory": "Looking for a new screen protector to replace the cracked one on iPhone 13 Pro",
+      "hash": "433907cd0138625fd17c221fec37057f",
+      "metadata": null,
+      "score": 0.3228558925489709,
+      "created_at": "2025-12-07T02:20:47.615742-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.766830902550731
+    },
+    {
+      "id": "d555bc5e-53df-4a16-aa1b-2e773b54bfd4",
+      "memory": "Believes a wireless charging power bank would be convenient to just place iPhone 13 Pro on it and charge without cables",
+      "hash": "db642d62aeeb0393d5396eedd20a7204",
+      "metadata": null,
+      "score": 0.30625988432198525,
+      "created_at": "2025-12-07T02:20:47.747834-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.6980375999505865
+    },
+    {
+      "id": "49f030cb-e1bd-4a60-8f80-0c4c21d7f978",
+      "memory": "Interested in getting a portable power bank to charge phone on-the-go",
+      "hash": "9cce03cf3b3ca512b6843fde085e9362",
+      "metadata": null,
+      "score": 0.3704120697954883,
+      "created_at": "2025-12-07T02:20:47.671281-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.6878571311398678
+    },
+    {
+      "id": "2410b09e-695c-49d5-a40e-4b824b4275bd",
+      "memory": "Will take a look at official Fitbit screen protectors and see what they have to offer",
+      "hash": "0d3c8f26a5090ef2d83d4d6b0a700c04",
+      "metadata": null,
+      "score": 0.300058201427656,
+      "created_at": "2025-12-07T02:18:51.871982-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.5620032218560324
+    },
+    {
+      "id": "a62f6de7-92f6-4ca9-a7ff-3973b79fe819",
+      "memory": "Wants a keyboard with recording capabilities and USB connectivity",
+      "hash": "e4647c609b3ba34f70b4f357f2a7eb8c",
+      "metadata": null,
+      "score": 0.28633710003222673,
+      "created_at": "2025-12-07T02:03:26.773870-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.4897731666281074
+    },
+    {
+      "id": "c41bc951-205a-484f-8859-ad0d67589e90",
+      "memory": "Thinking of buying a new handbag, maybe something from Kate Spade or Michael Kors",
+      "hash": "2c0319e8d653ed10fcd07709c2e22e5f",
+      "metadata": null,
+      "score": 0.3104876507341018,
+      "created_at": "2025-12-07T02:05:00.011169-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.4886893761923312
+    },
+    {
+      "id": "1a501e8f-7e27-483a-8d08-f0a96e32d084",
+      "memory": "Will take a look at official Fitbit bands first for a high-quality replacement",
+      "hash": "020d2c61e470c470cd7ca75511e01705",
+      "metadata": null,
+      "score": 0.27028601802092067,
+      "created_at": "2025-12-07T02:18:51.854044-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.3189168528461997
+    },
+    {
+      "id": "b6099364-50d1-4a2d-bcec-eb3e6038042d",
+      "memory": "Thinking of getting a wireless charging power bank",
+      "hash": "c7efecab15d72f5d5af63841e3009934",
+      "metadata": null,
+      "score": 0.24984129784682693,
+      "created_at": "2025-12-07T02:20:47.729972-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.1335866211532627
+    },
+    {
+      "id": "7f88a4d1-4bb6-4ab7-90ac-4db9815e33ba",
+      "memory": "Already has a portable power bank from Best Buy that's been working great",
+      "hash": "7a020c2d39f7cbe025c3a75d34b7f0fd",
+      "metadata": null,
+      "score": 0.2842404962929462,
+      "created_at": "2025-12-07T02:20:47.690889-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.10870344243148264
+    },
+    {
+      "id": "57803509-cb9c-441a-9c1f-0384e38ff766",
+      "memory": "Looking to get some gaming accessories for new PS5",
+      "hash": "ce1000e966cdd4e106aa0e862b93d775",
+      "metadata": null,
+      "score": 0.47849564654830673,
+      "created_at": "2025-12-07T02:14:42.808753-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.08229262122352547
+    },
+    {
+      "id": "0adcee76-330a-4dbd-be69-458b278b1712",
+      "memory": "Got new pillows and a throw blanket for the apartment",
+      "hash": "ff52b583a84f8abe5bf872338a384c9b",
+      "metadata": null,
+      "score": 0.24596637280011488,
+      "created_at": "2025-12-07T02:04:17.773229-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.009120081751518896
+    },
+    {
+      "id": "03a81f50-3914-4b7c-9b04-503a9f9173b6",
+      "memory": "Looking to improve daily routine, especially social media usage",
+      "hash": "7e620b84d489f92bdf8c4cb63aa9c3ff",
+      "metadata": null,
+      "score": 0.27303593359599937,
+      "created_at": "2025-12-07T02:15:49.312778-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.008106132307040052
+    },
+    {
+      "id": "bba9515d-1e35-4ab1-b77f-1960d65854c7",
+      "memory": "Wearing a Fitbit Charge 4 every day",
+      "hash": "8cedd1bd5dc8571b90096095ac8f1c6a",
+      "metadata": null,
+      "score": 0.2569882488594776,
+      "created_at": "2025-12-07T02:18:51.739713-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.007694912094010552
+    },
+    {
+      "id": "bc7e4040-3c5c-41a5-b0ff-6cea99872238",
+      "memory": "Wants a fitness tracker that's easy to use and has a user-friendly interface",
+      "hash": "e298c2870386ea52cf8465476e7ebaf3",
+      "metadata": null,
+      "score": 0.3215766675535866,
+      "created_at": "2025-12-07T02:25:00.059321-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.0062015256543048545
+    },
+    {
+      "id": "7583578b-fba6-4833-bf00-3ab023cb802c",
+      "memory": "Got paper products for the apartment",
+      "hash": "8d0e39125199f350c31a802c8d9726f5",
+      "metadata": null,
+      "score": 0.29617919311828733,
+      "created_at": "2025-12-07T02:04:17.805020-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.002686589506668496
+    },
+    {
+      "id": "38cfdb0f-0f06-4c54-9838-6e36ce28e4e9",
+      "memory": "Wants to add a gift card to Sur La Table so their friend can pick out additional kitchen tools or gadgets",
+      "hash": "1c6c8b43e32d77226bf4237622abe28a",
+      "metadata": null,
+      "score": 0.27761180673421537,
+      "created_at": "2025-12-07T02:05:55.132519-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.002002797475595025
+    },
+    {
+      "id": "a061ff36-76af-4721-a975-85176080fc6e",
+      "memory": "Got cleaning supplies for the apartment",
+      "hash": "7b6ea25a84f1ae2abe967182336f55ad",
+      "metadata": null,
+      "score": 0.33150026408524086,
+      "created_at": "2025-12-07T02:04:17.788833-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.0006409719729842231
+    },
+    {
+      "id": "e5706079-c968-424b-83f8-da702bd2cd5f",
+      "memory": "Had a bunch of expenses recently, mostly gifts for others",
+      "hash": "66c4187e8397acb4c4c5454b2c8661f2",
+      "metadata": null,
+      "score": 0.2622212617331589,
+      "created_at": "2025-12-07T02:04:17.574259-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 6.482070862475788e-05
+    },
+    {
+      "id": "eae17c90-9a5d-43fc-9dd4-ca61bba9a877",
+      "memory": "Likes to listen to pop music when they need a boost",
+      "hash": "0d45272ae243a48f258517a09864fec4",
+      "metadata": null,
+      "score": 0.251673755620031,
+      "created_at": "2025-12-07T02:02:37.335195-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_159",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3755,
+    "load_time": 1422.0418
+  }
+}

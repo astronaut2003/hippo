@@ -1,0 +1,242 @@
+{
+  "sample_idx": 175,
+  "question_id": "6456829e",
+  "question": "How many plants did I initially plant for tomatoes and cucumbers?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T18:59:18.656286",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "b1838348-71ea-42eb-9a02-29fc3c6ad789",
+      "memory": "Planted 5 tomato plants initially, and they've been producing like crazy",
+      "hash": "39d9fdc5b6381451ce0bb469b2da63e5",
+      "metadata": null,
+      "score": 0.5713739896697172,
+      "created_at": "2025-12-08T03:23:24.400235-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.9999999991418597
+    },
+    {
+      "id": "aa355fff-1ae2-48f2-89f4-1eeb515624c5",
+      "memory": "Planning to plant tomatoes, peppers, cucumbers, and marigolds together",
+      "hash": "b7019e70506880cf65741f8e89c966dc",
+      "metadata": null,
+      "score": 0.699027151450685,
+      "created_at": "2025-12-08T03:19:51.677825-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.6421021400324474
+    },
+    {
+      "id": "7f3242f1-bb12-4a82-bd94-ec71364a1fd6",
+      "memory": "Has 3 cucumber plants that are producing a lot",
+      "hash": "8e3a79de23582fb89c9814910013b0f0",
+      "metadata": null,
+      "score": 0.6932769669236556,
+      "created_at": "2025-12-08T03:21:43.918513-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.48269872004290115
+    },
+    {
+      "id": "610c3b8b-e211-442b-bf6b-45d3073de893",
+      "memory": "Tomatoes are delicious and flavorful",
+      "hash": "fb4959126e84cb80590f83e6052efbe7",
+      "metadata": null,
+      "score": 0.47328218863414084,
+      "created_at": "2025-12-08T03:23:24.454877-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.42876215312884036
+    },
+    {
+      "id": "e49dd59a-9424-4f66-b837-2ce5c526444b",
+      "memory": "Has been growing own cucumbers in garden",
+      "hash": "966cb1af8368651ac732e2fed9efd80c",
+      "metadata": null,
+      "score": 0.5937245129998192,
+      "created_at": "2025-12-08T03:21:43.903991-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.39110058887386756
+    },
+    {
+      "id": "480bf2b8-5897-426e-8b3d-58fe1e470b89",
+      "memory": "Looking for recipe suggestions that feature cucumbers as the main ingredient",
+      "hash": "933bb1d1eb8644b727eb5eb957beda65",
+      "metadata": null,
+      "score": 0.4768720109613678,
+      "created_at": "2025-12-08T03:21:43.885820-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.2523542413998034
+    },
+    {
+      "id": "3f8b8df7-966b-4c42-bc22-293eba12f000",
+      "memory": "Planning to use the compost to fertilize tomato plants",
+      "hash": "787e5215b03cdb657796e388c6ba74ba",
+      "metadata": null,
+      "score": 0.4699441525061856,
+      "created_at": "2025-12-08T03:19:51.796349-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.23984111500590924
+    },
+    {
+      "id": "40927763-cb6c-4256-a407-a5e48da90123",
+      "memory": "Has been getting a lot of tomatoes from their garden lately",
+      "hash": "1472ee9a1d0207611ff336b178275b3c",
+      "metadata": null,
+      "score": 0.5468149308623005,
+      "created_at": "2025-12-08T03:23:24.221741-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.19433417240807002
+    },
+    {
+      "id": "51a1d48e-36ca-40b1-9c31-c6c7f5316aec",
+      "memory": "Wants specific tips on how to fertilize tomato plants",
+      "hash": "dbc5cf4b77ea93e5712c944d3bb1524c",
+      "metadata": null,
+      "score": 0.5202930676409637,
+      "created_at": "2025-12-08T03:19:51.812514-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.15060836573460434
+    },
+    {
+      "id": "95bfe231-a828-4d3e-86ba-be370a6a7f51",
+      "memory": "Has been doing their best to keep tomato plants healthy",
+      "hash": "f1c4672dae4dd8cd702ce2e20b6e81b0",
+      "metadata": null,
+      "score": 0.47865762602894746,
+      "created_at": "2025-12-08T03:23:24.274667-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.14802201953822608
+    },
+    {
+      "id": "10f1c211-d96c-4831-a12c-4110a2be5180",
+      "memory": "Wants to know signs to look out for to determine if tomato plants are getting enough nutrients",
+      "hash": "a3cdcb786af28632fc9509e2884a018a",
+      "metadata": null,
+      "score": 0.42940139013664785,
+      "created_at": "2025-12-08T03:19:51.827615-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.14015356270194518
+    },
+    {
+      "id": "d92beb1a-95a8-44c9-94bd-fc106e389c60",
+      "memory": "Looking for recipe ideas that feature fresh tomatoes as the main ingredient",
+      "hash": "c0845757f3c34a3ad467eaa20089970a",
+      "metadata": null,
+      "score": 0.45837359607690076,
+      "created_at": "2025-12-08T03:23:24.011423-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.11416791566487217
+    },
+    {
+      "id": "4ae4025b-e3fe-4328-b359-9febc243d11a",
+      "memory": "Wants tips on how to keep tomato plants healthy and productive throughout the season",
+      "hash": "8b7b5fe7e3c5ce9f3ed8bc1883cbe869",
+      "metadata": null,
+      "score": 0.4247308263655599,
+      "created_at": "2025-12-08T03:23:24.250631-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.1121447010755337
+    },
+    {
+      "id": "bf84fa40-c5a6-4bb8-91ea-14223b0213a2",
+      "memory": "Thinks pickling will be a great way to preserve some cucumbers",
+      "hash": "9a5a9b42b8be7ddc99b2b377882333f8",
+      "metadata": null,
+      "score": 0.40065927998786743,
+      "created_at": "2025-12-08T03:21:44.013703-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.07961916550746742
+    },
+    {
+      "id": "5053d62b-38d7-44b3-b72b-4ec8b534688a",
+      "memory": "Looking for a good recipe for pickling cucumbers",
+      "hash": "bf48e229898e90825a6a76c2abd86ca6",
+      "metadata": null,
+      "score": 0.44731859996962997,
+      "created_at": "2025-12-08T03:21:43.949661-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.07142458173410564
+    },
+    {
+      "id": "ba92a75b-7402-4737-a080-310e470156e2",
+      "memory": "Has been harvesting cucumbers from garden daily",
+      "hash": "2c37850d4c7aafb2560285c1cfc8fd7a",
+      "metadata": null,
+      "score": 0.5638356319680478,
+      "created_at": "2025-12-08T03:21:43.998246-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.05790713168353474
+    },
+    {
+      "id": "8b567dfa-f3d8-446b-acca-ab4ca00a855c",
+      "memory": "Thinking of trying to make some homemade pasta sauce from scratch using fresh tomatoes",
+      "hash": "e385ede144a2e2406839640b09b08639",
+      "metadata": null,
+      "score": 0.4185315291707433,
+      "created_at": "2025-12-08T03:23:24.136905-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.046915139889269805
+    },
+    {
+      "id": "2e414c76-c483-4c36-9310-f01914405cd8",
+      "memory": "Has been harvesting tomatoes almost daily",
+      "hash": "1fdf01f965b109ce1b23d56138fb8953",
+      "metadata": null,
+      "score": 0.5012827723245475,
+      "created_at": "2025-12-08T03:23:24.425405-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.039695499704727244
+    },
+    {
+      "id": "be04a93c-c422-4d08-8f46-bc349883aa4d",
+      "memory": "Looking for suggestions on how to store cucumbers to keep them fresh longer",
+      "hash": "f1f05c236b5867ed233019b30523b541",
+      "metadata": null,
+      "score": 0.41570552780488923,
+      "created_at": "2025-12-08T03:21:43.935832-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.02453947662172634
+    },
+    {
+      "id": "e7d6d902-f9c6-4675-addb-ba3ee4b15d83",
+      "memory": "Wants tips on how to store fresh tomatoes to keep them fresh for a longer period",
+      "hash": "5c3bd5594a6a1806fa923ed19e44063a",
+      "metadata": null,
+      "score": 0.39891975251112277,
+      "created_at": "2025-12-08T03:23:24.082211-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_175",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5008,
+    "load_time": 1605.3312
+  }
+}

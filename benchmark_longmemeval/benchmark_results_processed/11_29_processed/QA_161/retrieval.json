@@ -1,0 +1,242 @@
+{
+  "sample_idx": 161,
+  "question_id": "0a34ad58",
+  "question": "I’m a bit anxious about getting around Tokyo. Do you have any helpful tips?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T11:38:10.662213",
+  "load_result": {
+    "total_sessions": 42,
+    "added_sessions": 42,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "c377d89a-e5f9-4596-ba23-db0909057318",
+      "memory": "Feels nervous about the trip",
+      "hash": "9ea1816bebaa63fe916e3fcaf8939084",
+      "metadata": null,
+      "score": 0.4534064047123356,
+      "created_at": "2025-12-07T19:45:22.035447-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.9999999992283092
+    },
+    {
+      "id": "78d4c594-ce90-48a5-af6b-110eaf70f611",
+      "memory": "Heading to Tokyo soon",
+      "hash": "9ea8f8f94e3aefc326e0e05972edc8ce",
+      "metadata": null,
+      "score": 0.7060179854465369,
+      "created_at": "2025-12-07T19:45:21.937865-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.997552330756034
+    },
+    {
+      "id": "ca14f803-490d-4e70-bf21-8b4e9c2f11e1",
+      "memory": "Planning to do some shopping while in Tokyo",
+      "hash": "618e2c270cab8ea1a0b706b9e4387f1b",
+      "metadata": null,
+      "score": 0.6383567169749351,
+      "created_at": "2025-12-07T19:45:22.115814-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.8700438344995871
+    },
+    {
+      "id": "93e47502-b2cd-4e41-9e81-396d0ec330b5",
+      "memory": "Planning to visit the Tokyo Tower",
+      "hash": "4d75c1f078bf5fd73a1331a47621cd49",
+      "metadata": null,
+      "score": 0.6432728942888922,
+      "created_at": "2025-12-07T19:45:22.151649-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.525563707012565
+    },
+    {
+      "id": "b06b2cad-0cbc-482b-88e2-4d2973c63e6b",
+      "memory": "Looking for recommendations for solo travel destinations in Asia",
+      "hash": "20769520b57ef7a23cb0a9b6d8e6fae9",
+      "metadata": null,
+      "score": 0.35431776320554664,
+      "created_at": "2025-12-07T20:07:03.283992-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.4779863277479492
+    },
+    {
+      "id": "d3dd4567-2129-4b92-a56d-1ecbb07d6863",
+      "memory": "Trying to plan next trip and thinking about different types of vacations had recently",
+      "hash": "2e32b8aac3e01ed829bf240061fabb31",
+      "metadata": null,
+      "score": 0.37114072325498815,
+      "created_at": "2025-12-07T20:07:03.241591-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.415808086103407
+    },
+    {
+      "id": "a6dfab6c-7061-40c2-b600-71f101470e28",
+      "memory": "Looking for something similar to Japan",
+      "hash": "54bea646edaa642761602f3ff3f69a30",
+      "metadata": null,
+      "score": 0.4269153195123948,
+      "created_at": "2025-12-07T20:07:03.325500-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.32628718200630147
+    },
+    {
+      "id": "f4b0e6b6-e802-4b30-b6dd-450e8a1d4245",
+      "memory": "Loved trip to Japan in June",
+      "hash": "dcf72c13939f988bd071c881a5b37051",
+      "metadata": null,
+      "score": 0.5191030616182584,
+      "created_at": "2025-12-07T20:07:03.299206-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.22491945652778061
+    },
+    {
+      "id": "3cd099c6-3b23-42b4-b02d-c47ecea2cff0",
+      "memory": "Thinking of taking a guided tour to Taroko National Park and Sun Moon Lake",
+      "hash": "415086f820fc71234e1d922f651b4742",
+      "metadata": null,
+      "score": 0.34312897911448587,
+      "created_at": "2025-12-07T20:07:03.492078-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.19740244948846422
+    },
+    {
+      "id": "c89292ca-9bee-4434-aadc-e4453eb99536",
+      "memory": "Looking for good restaurants near the Park Hyatt Tokyo",
+      "hash": "697905a6b2619f905240fa2be60a52cf",
+      "metadata": null,
+      "score": 0.49140840683364284,
+      "created_at": "2025-12-07T19:45:21.954542-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.15605341835449335
+    },
+    {
+      "id": "25d1ac49-2c28-4bba-84a0-301317d60def",
+      "memory": "Wants to know best ways to get to Taroko National Park and Sun Moon Lake",
+      "hash": "f551177835cf1eb9761907a835ceb1ab",
+      "metadata": null,
+      "score": 0.3895801176837034,
+      "created_at": "2025-12-07T20:07:03.458916-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.14209643136059583
+    },
+    {
+      "id": "18d06a2b-8ddb-49af-bed2-dddf2a8c7283",
+      "memory": "Will be staying at the Park Hyatt Tokyo",
+      "hash": "98aca695f3021455d7f5ea827140c64d",
+      "metadata": null,
+      "score": 0.5342693912241894,
+      "created_at": "2025-12-07T19:45:22.098777-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.12193516152937052
+    },
+    {
+      "id": "73edd563-a6b9-4ce1-98c3-8db404cf756a",
+      "memory": "Planning to visit the Tsukiji Fish Market and try fresh sushi for breakfast",
+      "hash": "72031d3b964001fc882945baf1aba900",
+      "metadata": null,
+      "score": 0.4316056387633067,
+      "created_at": "2025-12-07T19:45:22.134664-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.06011208534522098
+    },
+    {
+      "id": "816021fd-7260-47f6-be6f-c75396c5c48d",
+      "memory": "Planning to take a guided tour to Nikko National Park",
+      "hash": "07f43aad6ea7983b70f7265ba56d87ef",
+      "metadata": null,
+      "score": 0.40672350594624657,
+      "created_at": "2025-12-07T19:45:22.002516-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.02629217928189507
+    },
+    {
+      "id": "525994fb-2ab1-431a-9e43-12d2ac71b6f3",
+      "memory": "Wants to know how to get to Shinjuku Station from Narita Airport",
+      "hash": "a0aee3e1f9edaa05af79024210637558",
+      "metadata": null,
+      "score": 0.46113649862226547,
+      "created_at": "2025-12-07T19:45:22.067424-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.021995604497675222
+    },
+    {
+      "id": "fd4ff32f-3a58-4a15-b8b2-167dbcba5d73",
+      "memory": "Planning to visit the Tsukiji Fish Market",
+      "hash": "405cf6db25f938ab89e6092bc2d243c0",
+      "metadata": null,
+      "score": 0.370964606744321,
+      "created_at": "2025-12-07T19:45:21.971547-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.008939410134363338
+    },
+    {
+      "id": "472f63c1-e34b-4af2-87a8-c48db769a34b",
+      "memory": "Thinking of visiting Taiwan first",
+      "hash": "4b2cffc2c2bcf86d7c515ecb63403488",
+      "metadata": null,
+      "score": 0.3523536818304192,
+      "created_at": "2025-12-07T20:07:03.394532-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.006725991902541954
+    },
+    {
+      "id": "2f2d1628-7464-4793-9355-b798a179868c",
+      "memory": "Wants recommendations for must-see national parks or scenic areas in Taiwan",
+      "hash": "3f84025d74bd125f468076da44496d35",
+      "metadata": null,
+      "score": 0.3133749705429749,
+      "created_at": "2025-12-07T20:07:03.428106-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.0023753254039854707
+    },
+    {
+      "id": "fe9b9c86-27b8-4d2b-9142-71bf22f43135",
+      "memory": "Wants to know best time to visit Taiwan and Vietnam",
+      "hash": "557ae877cfa70cf0ed4e2cb93cacdcc8",
+      "metadata": null,
+      "score": 0.3625093492403465,
+      "created_at": "2025-12-07T20:07:03.365995-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.0015115506404900726
+    },
+    {
+      "id": "b8438791-6861-4e8d-9e78-8e31c23913d2",
+      "memory": "Wants to know the train ride duration and cost from Narita Airport to Shinjuku Station",
+      "hash": "e576a173a650b3933d5da81e6ffe276f",
+      "metadata": null,
+      "score": 0.3529210332422911,
+      "created_at": "2025-12-07T19:45:22.082404-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_161",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.8826,
+    "load_time": 1732.9229
+  }
+}

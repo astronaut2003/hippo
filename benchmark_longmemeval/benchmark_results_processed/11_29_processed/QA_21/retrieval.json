@@ -1,0 +1,242 @@
+{
+  "sample_idx": 21,
+  "question_id": "8ebdbe50",
+  "question": "What certification did I complete last month?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T06:38:42.434662",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "c525a407-864f-43c3-91a6-6bb00ba3e41e",
+      "memory": "Has a latest certification in Data Science completed last month",
+      "hash": "f8c2d7fdc192355fe6c8cbd2af78839d",
+      "metadata": null,
+      "score": 0.6824155412122708,
+      "created_at": "2025-11-28T15:03:09.354946-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.9999999992961209
+    },
+    {
+      "id": "0d15639c-347f-43d5-8648-f98ede3a5010",
+      "memory": "Attended a job readiness training program last week",
+      "hash": "dde0ef39125fdc1f10747b79882a16b4",
+      "metadata": null,
+      "score": 0.4332471595091904,
+      "created_at": "2025-11-28T15:00:09.918567-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.3787960558264159
+    },
+    {
+      "id": "5cc4c03d-1b3d-4d70-a419-bac814cc1f99",
+      "memory": "Interested in food safety certification program",
+      "hash": "d78870f4f70d25d23488cc55876486b4",
+      "metadata": null,
+      "score": 0.49571789384558773,
+      "created_at": "2025-11-28T15:00:09.887430-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.169183598359707
+    },
+    {
+      "id": "5558cd79-af6c-4f09-8413-76b0d26aeba9",
+      "memory": "Would like to find a training provider authorized by the NYC DOHMH that offers the Food Safety Certification program near location in Queens",
+      "hash": "4bd122fdaaf08df81ffff062f971daf0",
+      "metadata": null,
+      "score": 0.3835976912528259,
+      "created_at": "2025-11-28T15:00:09.903005-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.12219118255040493
+    },
+    {
+      "id": "89dcd718-aa5c-4daa-ab8c-74827153e120",
+      "memory": "Been feeling overwhelmed with commitments and responsibilities lately",
+      "hash": "9dbf277d155741240559cf4fcf7e2822",
+      "metadata": null,
+      "score": 0.27616406742799193,
+      "created_at": "2025-11-28T14:46:33.867296-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.03636968144139111
+    },
+    {
+      "id": "660fb408-bf51-44b0-a0a6-e645693f7d4b",
+      "memory": "New to the US and just started taking English classes",
+      "hash": "0bbd00461f986942978b9d67928cd237",
+      "metadata": null,
+      "score": 0.3246680322262626,
+      "created_at": "2025-11-28T15:00:09.832858-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.0309312425967609
+    },
+    {
+      "id": "5fa8601c-f0be-4644-ae2b-5d5c833b0a58",
+      "memory": "Interested in pursuing a vocational training program in IT",
+      "hash": "9be31725b63eac59dc251692e3f62b0f",
+      "metadata": null,
+      "score": 0.3397153000736851,
+      "created_at": "2025-11-28T14:43:22.960342-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.021082551186715957
+    },
+    {
+      "id": "588fb1f5-840a-4454-a17f-a9a5c7095e71",
+      "memory": "Wants to have a successful online course",
+      "hash": "3a5629c66a151985a32096380dc92436",
+      "metadata": null,
+      "score": 0.32894664227000114,
+      "created_at": "2025-11-28T14:44:31.833370-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.016828906220009182
+    },
+    {
+      "id": "7797ec40-7ff2-4bf8-992c-35102f07e46e",
+      "memory": "Considering trying Strava to track progress",
+      "hash": "8f936ae1a93d91bbfdb3cffeebcd274a",
+      "metadata": null,
+      "score": 0.21322251095953854,
+      "created_at": "2025-11-28T14:49:51.475263-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.016351363803717548
+    },
+    {
+      "id": "f9ab6989-44ac-4f40-afd5-4b6b00f9f9a9",
+      "memory": "Would like to know more about the NYC Department of Education's Adult Education job training and placement services",
+      "hash": "c664ad45fc4185dee7f0c22cf20691cc",
+      "metadata": null,
+      "score": 0.29833166464555194,
+      "created_at": "2025-11-28T15:00:09.869075-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.0023340775030751223
+    },
+    {
+      "id": "b75d9946-9ac2-45f3-a4f9-fdf989a7a691",
+      "memory": "Received asylum approval letter three months ago",
+      "hash": "28961c50bc0c19ef31c79ab62764caed",
+      "metadata": null,
+      "score": 0.2849009704397752,
+      "created_at": "2025-11-28T14:43:22.940288-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.0008437880479035486
+    },
+    {
+      "id": "48efd744-bc3c-4b70-bedc-9baa34c387a2",
+      "memory": "Was offered a scholarship to pursue a vocational training program in IT",
+      "hash": "121eddf637e6f86b94924f082ed100fb",
+      "metadata": null,
+      "score": 0.3064663764843845,
+      "created_at": "2025-11-28T14:43:22.990420-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.000587496658333481
+    },
+    {
+      "id": "88a8a58a-ef5a-4e8c-8168-106bc4fe17f1",
+      "memory": "Got guitar on February 10th",
+      "hash": "274d93a61d8028fa66cfd63a9e311f62",
+      "metadata": null,
+      "score": 0.3195427358506172,
+      "created_at": "2025-11-28T15:04:16.195714-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.0005336606985547502
+    },
+    {
+      "id": "de9d7806-1dd5-4274-958e-950477fda215",
+      "memory": "Still getting settled, but would like to get started on job search",
+      "hash": "ba35f256a673bafddef16dedffd50c85",
+      "metadata": null,
+      "score": 0.2997552245300995,
+      "created_at": "2025-11-28T15:00:09.932609-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.0004857319263826633
+    },
+    {
+      "id": "9d975a3a-a45e-4323-a866-573cf026c93d",
+      "memory": "Made a big batch of rice and roasted vegetables last Sunday",
+      "hash": "61c68f3ca8814432d5749ee989f9498d",
+      "metadata": null,
+      "score": 0.22723576187793743,
+      "created_at": "2025-11-28T14:39:20.548644-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.00021554522051060417
+    },
+    {
+      "id": "ba0e0586-5abe-4264-8351-381570c624f6",
+      "memory": "Considering going back to school for a Master's degree in Business Administration",
+      "hash": "8d488caccf75c909cd29c6b8d88d602a",
+      "metadata": null,
+      "score": 0.33342918047135894,
+      "created_at": "2025-11-28T15:03:09.368105-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.00020708720189200057
+    },
+    {
+      "id": "86221977-81c1-4e17-85d2-98973eee04ba",
+      "memory": "Wants to know how creating a course on a platform like Udemy works",
+      "hash": "d6410b1338aded89fce21485f7a4823e",
+      "metadata": null,
+      "score": 0.34975990906124427,
+      "created_at": "2025-11-28T14:44:31.902809-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.00017036866074615802
+    },
+    {
+      "id": "6d71ff47-590b-41db-b4a4-0d3c6e13e895",
+      "memory": "Wants to know the workflow process and thought process for creating a course on Udemy",
+      "hash": "7f4173b93b448474e31a81ab216a07dd",
+      "metadata": null,
+      "score": 0.3619845999470866,
+      "created_at": "2025-11-28T14:44:31.918950-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 9.834124822424014e-05
+    },
+    {
+      "id": "d24e4c52-dd34-43d1-a82c-42cfe65ae2ee",
+      "memory": "Got acoustic guitar serviced last week",
+      "hash": "6e629c27d09ef44b3a4f33e440872bf0",
+      "metadata": null,
+      "score": 0.27242241725594224,
+      "created_at": "2025-11-28T15:04:16.179674-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 3.2221023308966054e-06
+    },
+    {
+      "id": "520f1ba2-322f-476a-b251-916f62143021",
+      "memory": "Bought tofu, tempeh, and seitan at Whole Foods last month",
+      "hash": "51ee8810e43544c15ab0e9ce0985cdbb",
+      "metadata": null,
+      "score": 0.22566159603634445,
+      "created_at": "2025-11-28T15:01:10.926939-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_21",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2701,
+    "load_time": 1701.4535
+  }
+}

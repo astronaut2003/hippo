@@ -1,0 +1,242 @@
+{
+  "sample_idx": 44,
+  "question_id": "001be529",
+  "question": "How long did I wait for the decision on my asylum application?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T22:57:17.798825",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 50,
+    "failed_sessions": 1,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "7af8cb8a-7bfe-46f7-a3ad-3b29a126c903",
+      "memory": "Asylum application was approved after over a year of waiting",
+      "hash": "b12fe75960ef8f940421ee57d6fdf6d6",
+      "metadata": null,
+      "score": 0.8913970166847154,
+      "created_at": "2025-11-29T07:16:03.599023-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.999999999006576
+    },
+    {
+      "id": "2e446cf7-afe6-453f-81b2-b78541de7239",
+      "memory": "Hasn't started looking for accommodations yet",
+      "hash": "e31a1be8cf84bcaac93e5a3b965478d0",
+      "metadata": null,
+      "score": 0.3241994833285925,
+      "created_at": "2025-11-29T06:58:39.618911-08:00",
+      "updated_at": "2025-11-29T07:16:02.919804-08:00",
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.24092095637965905
+    },
+    {
+      "id": "18bd09dc-c374-4c23-a656-dc50d3855594",
+      "memory": "Did not expect that a psychology degree could be valuable in HR",
+      "hash": "1bb23cf7f5f54c79030df9619ff91b98",
+      "metadata": null,
+      "score": 0.16614892681386412,
+      "created_at": "2025-11-29T07:02:06.616155-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.004316936036950432
+    },
+    {
+      "id": "6e578a32-aed0-4ca4-886e-bc0672a514cc",
+      "memory": "Will have a hard time deciding what to try first",
+      "hash": "4c4b3a068ff4ea2417f840b81c4b241f",
+      "metadata": null,
+      "score": 0.14639436028071431,
+      "created_at": "2025-11-29T07:20:03.977367-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.0035328654000325154
+    },
+    {
+      "id": "e03bf9ac-d7fa-457b-91a3-60d78f3c04ef",
+      "memory": "Volunteering at a non-profit organization that helps refugees",
+      "hash": "d4c363bfb79a3c007fc2429c98cb337c",
+      "metadata": null,
+      "score": 0.21740745797110533,
+      "created_at": "2025-11-29T07:16:03.615309-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.0021756160108969344
+    },
+    {
+      "id": "508cfd19-25e9-4de3-baec-dddc786163e9",
+      "memory": "Wants to know the runtime of The Avengers to fit it into schedule",
+      "hash": "f4036b42170d832c38a54f9de321c474",
+      "metadata": null,
+      "score": 0.19651974949016898,
+      "created_at": "2025-11-29T07:17:50.205109-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.002172394841049761
+    },
+    {
+      "id": "e712a49d-0392-4339-91c5-5c107ca29caa",
+      "memory": "Interested in learning about ancestors' experiences immigrating to the United States",
+      "hash": "3f274e94a307a9e175a5218a300f4b19",
+      "metadata": null,
+      "score": 0.15292436284004327,
+      "created_at": "2025-11-29T07:06:44.192866-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.002140751584315761
+    },
+    {
+      "id": "f46ec8ef-fa5f-487e-a316-5d99954b2107",
+      "memory": "Planning to focus on Neighborhood 1 for housing search",
+      "hash": "c697781a48b3fdfaa804ae6ae36665e3",
+      "metadata": null,
+      "score": 0.1652054286708654,
+      "created_at": "2025-11-29T07:16:03.647114-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.0012751095580326528
+    },
+    {
+      "id": "3066f3a9-8a4a-4eaf-b532-c7b2f966a650",
+      "memory": "Has been using a new shampoo for about a week",
+      "hash": "f32a21730467a8416332eb5ff6db9c8a",
+      "metadata": null,
+      "score": 0.15057050114121562,
+      "created_at": "2025-11-29T07:04:06.565150-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.0011939171298259521
+    },
+    {
+      "id": "5791dad9-4d9d-41f2-a1ce-bfc781d92600",
+      "memory": "Not eligible for government assistance programs",
+      "hash": "570f000cbd891d7d01bd6e351b46cd38",
+      "metadata": null,
+      "score": 0.2015721031846745,
+      "created_at": "2025-11-29T07:16:03.533141-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.0010740706634531677
+    },
+    {
+      "id": "cf92d191-8e73-401c-a08b-b61c2a0a6feb",
+      "memory": "Meditates for 30 minutes in the morning",
+      "hash": "73054694bdcc52baa2b501298271ae13",
+      "metadata": null,
+      "score": 0.14087376845175592,
+      "created_at": "2025-11-29T07:16:31.192740-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.0006320124720733953
+    },
+    {
+      "id": "3efc0983-585c-4836-96c0-bdccc6b59fa5",
+      "memory": "Thinking about next trip",
+      "hash": "254c8ec36245e408489944d4e504cddd",
+      "metadata": null,
+      "score": 0.19801078560203525,
+      "created_at": "2025-11-29T06:58:39.421481-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.0006115485695148803
+    },
+    {
+      "id": "b3c14fe5-983f-4d68-8a9b-96acaf872cd3",
+      "memory": "Particularly interested in history of immigration in the US during late 1800s and early 1900s",
+      "hash": "39a68005c13604102d2c3c93fd96f7b3",
+      "metadata": null,
+      "score": 0.1963958255531763,
+      "created_at": "2025-11-29T07:06:44.208074-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.0005779157666988025
+    },
+    {
+      "id": "ee7b3b5c-7dd8-4ad5-b6a1-99dd58f2f4b0",
+      "memory": "Had a layover in Chicago on the way back from San Diego",
+      "hash": "a4705aba683775b0e27626d26a436368",
+      "metadata": null,
+      "score": 0.18871828766905716,
+      "created_at": "2025-11-29T06:58:39.581865-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.000535661597527054
+    },
+    {
+      "id": "4f992b61-6dbc-42d5-ab60-69f604c19c1a",
+      "memory": "Got back from a trip to LA and San Diego last month",
+      "hash": "37ea30ed894385a46a37610226357b7d",
+      "metadata": null,
+      "score": 0.1823643358993272,
+      "created_at": "2025-11-29T06:58:39.403786-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.0005197452288704312
+    },
+    {
+      "id": "9900413c-22d6-4042-89de-1b206c815325",
+      "memory": "Flew into Chicago from New York on 2/10",
+      "hash": "ce95efde4ecfc64f28352226bc850108",
+      "metadata": null,
+      "score": 0.14117652772140854,
+      "created_at": "2025-11-29T06:58:39.566387-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.00042178376940050306
+    },
+    {
+      "id": "a7c8ce51-3c50-4228-a66c-27d20ac4774e",
+      "memory": "Was in Chicago not too long ago for a work conference and stayed at the Hilton Hotel",
+      "hash": "dd58131a526f20afeff1bf54587884ae",
+      "metadata": null,
+      "score": 0.1685189401434979,
+      "created_at": "2025-11-29T06:59:21.375523-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.0002715256700588144
+    },
+    {
+      "id": "7ed4a026-d659-4f92-af0d-4a24f565f4e8",
+      "memory": "Wants a quick weekend getaway for 2-3 days",
+      "hash": "cdf1138b702ef894d05504f88f72b485",
+      "metadata": null,
+      "score": 0.17313320427837742,
+      "created_at": "2025-11-29T06:58:39.440197-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.00015101602165867067
+    },
+    {
+      "id": "b24e3e6d-9a4f-4876-bc98-c4c4362ff580",
+      "memory": "Particularly interested in learning about Irish immigrant experience during 19th century",
+      "hash": "eaea5a6f436af23fb53c0e5a4677c488",
+      "metadata": null,
+      "score": 0.15041883796937838,
+      "created_at": "2025-11-29T07:06:44.239852-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 1.89480579245509e-05
+    },
+    {
+      "id": "5aee43bc-1529-4341-9645-59337a157e6e",
+      "memory": "Been working in current job for about 5 years",
+      "hash": "595a40498738ddba0e20cf9225f03696",
+      "metadata": null,
+      "score": 0.1777099199069282,
+      "created_at": "2025-11-29T07:10:15.558842-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_44",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.1544,
+    "load_time": 1366.2295
+  }
+}

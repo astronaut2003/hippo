@@ -1,0 +1,242 @@
+{
+  "sample_idx": 5,
+  "question_id": "c5e8278d",
+  "question": "What was my last name before I changed it?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-28T23:31:59.729768",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "9a1fca22-953e-4e18-91fe-d632b3bef50a",
+      "memory": "Recently changed last name from Johnson to Winters",
+      "hash": "1bcfd2ed1cd238905c7998dd52148946",
+      "metadata": null,
+      "score": 0.4637817358610315,
+      "created_at": "2025-11-28T07:49:13.268618-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.9999999985638597
+    },
+    {
+      "id": "b923a349-4b80-4715-8560-d69045cdff88",
+      "memory": "Wants to know if needs to notify DMV about name change",
+      "hash": "8904b9f2e681b4edf203f2d4164559d0",
+      "metadata": null,
+      "score": 0.4766134328636665,
+      "created_at": "2025-11-28T07:49:13.362115-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.41902344547968684
+    },
+    {
+      "id": "897b4312-bde1-4aea-a020-08195830e836",
+      "memory": "Wants to know if needs to update credit report with Experian, TransUnion, and Equifax to reflect name change",
+      "hash": "6b564bfc714b1224e2ef66c636d15ee8",
+      "metadata": null,
+      "score": 0.3956911506290215,
+      "created_at": "2025-11-28T07:49:13.413496-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.4130366057978605
+    },
+    {
+      "id": "f32e926b-aa1e-4838-95dc-c9480af41589",
+      "memory": "Needs to update credit card information with new name",
+      "hash": "8c278ab06646dc99057482f2e052b0b8",
+      "metadata": null,
+      "score": 0.4711166687275059,
+      "created_at": "2025-11-28T07:49:13.445030-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.19327225574967713
+    },
+    {
+      "id": "cb90b660-d050-41e9-b1f9-f987b6d44075",
+      "memory": "Mom was born in Dublin",
+      "hash": "168b37342080ee06edb4daec33b628b4",
+      "metadata": null,
+      "score": 0.22529790318590232,
+      "created_at": "2025-11-28T07:40:48.422073-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.0058679575248940345
+    },
+    {
+      "id": "a23d8f37-ed06-4b4d-b9bd-b9a5f5aa1fd7",
+      "memory": "Bought a kitchen appliance from their registry",
+      "hash": "1839dc0058c3165f74ce2d330f97a4f1",
+      "metadata": null,
+      "score": 0.17671222720380894,
+      "created_at": "2025-11-28T07:51:46.951177-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.0032736420679679115
+    },
+    {
+      "id": "9c6c21a1-8318-48ec-b3db-7c4abbb08468",
+      "memory": "Wants to reflect on how the experience has shaped as a person",
+      "hash": "8f274334ae41d922d810fdc8451812d0",
+      "metadata": null,
+      "score": 0.17374415331371068,
+      "created_at": "2025-11-28T07:37:01.001823-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.0026677265584419286
+    },
+    {
+      "id": "3e3de45e-5323-4ff8-8a71-239796339a89",
+      "memory": "Prefers to call health insurance provider to update address because it's easier to get done quickly",
+      "hash": "24f7066e56d264740821a0d2797f9e07",
+      "metadata": null,
+      "score": 0.13798543858030687,
+      "created_at": "2025-11-28T07:49:13.346021-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.0017070820322630763
+    },
+    {
+      "id": "642498df-ddfe-4f5d-b7e8-daa5a7850f84",
+      "memory": "Has Asian heritage from great-great-grandfather who was from Mongolia",
+      "hash": "c8a7a647d48f8b63e386676bcd98f7d6",
+      "metadata": null,
+      "score": 0.1660133308563998,
+      "created_at": "2025-11-28T07:40:48.473476-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.001456032500400254
+    },
+    {
+      "id": "207a78c6-81ec-498f-8698-a425439ed3d9",
+      "memory": "Lent the old black coat to a roommate",
+      "hash": "89e67767370f578b79fbe872aa6c2590",
+      "metadata": null,
+      "score": 0.14783837401645372,
+      "created_at": "2025-11-28T07:36:11.248746-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.0014275446102597917
+    },
+    {
+      "id": "8999792f-16f2-47c5-9175-5dc554bde9bc",
+      "memory": "Needs to update address with health insurance provider",
+      "hash": "198d59cfe1718cb023d9a34ff2ca53a6",
+      "metadata": null,
+      "score": 0.17300607399308748,
+      "created_at": "2025-11-28T07:49:13.331479-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.0013968653439546787
+    },
+    {
+      "id": "26cfa61f-75b3-49cb-b8d9-c2fe90c5ccd7",
+      "memory": "Realized it's been five years since graduating with a Bachelor's degree in Business Administration",
+      "hash": "621fe4f89dc16a7d08d579e29450043f",
+      "metadata": null,
+      "score": 0.16747746617603476,
+      "created_at": "2025-11-28T07:48:15.487620-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.0010973316144489544
+    },
+    {
+      "id": "cb7e39e9-458a-47b1-9129-997258559460",
+      "memory": "Decided to wear an old black coat for the hike instead",
+      "hash": "1f09860caaa945968839e52969073251",
+      "metadata": null,
+      "score": 0.1789740235537564,
+      "created_at": "2025-11-28T07:36:11.233128-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.0008520344450183406
+    },
+    {
+      "id": "cf7f61a6-7fab-4ad2-972b-c9773da791fe",
+      "memory": "Wants specific tips for updating social media profiles on Instagram, Twitter, and LinkedIn",
+      "hash": "a9cff9836d7edfe207723daf2b6dc0d7",
+      "metadata": null,
+      "score": 0.1573924380738962,
+      "created_at": "2025-11-28T07:49:13.396078-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.0007635576323705592
+    },
+    {
+      "id": "bfea59de-defe-41cb-b878-c360ddd7ff34",
+      "memory": "Thinking of dedicating a section to paternal grandmother who passed away on February 10th",
+      "hash": "9fecbcc007aea62012e04ab9ed58dee9",
+      "metadata": null,
+      "score": 0.1391771361868916,
+      "created_at": "2025-11-28T07:37:00.875740-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.000516753891826748
+    },
+    {
+      "id": "1f14f4f2-60bf-49c6-b599-fd4c8ee59c6f",
+      "memory": "Graduated with a Bachelor's degree in Business Administration five years ago",
+      "hash": "de39871b5ff56562de4cc8bb80db0c2b",
+      "metadata": null,
+      "score": 0.201159473017135,
+      "created_at": "2025-11-28T07:48:15.323327-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.0004399187650536747
+    },
+    {
+      "id": "c41faf7c-9a35-415d-bfb6-81047baf7bd1",
+      "memory": "Recently went on a road trip with siblings to visit grandparents and had a blast",
+      "hash": "c8fea851781f4b15e59385c6b97a7e9b",
+      "metadata": null,
+      "score": 0.15598994790575774,
+      "created_at": "2025-11-28T07:45:47.406947-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.0003656858974761243
+    },
+    {
+      "id": "b196f487-9ff7-4869-b0dd-ea324bcc3bd4",
+      "memory": "Wants to update social media profiles, especially Facebook, without losing friends and memories",
+      "hash": "766f12c57b3f7065a18547d84580dbb2",
+      "metadata": null,
+      "score": 0.17992291572951358,
+      "created_at": "2025-11-28T07:49:13.379868-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.00021502878615637275
+    },
+    {
+      "id": "023fc060-dc17-40c3-bcb5-560d3252144c",
+      "memory": "Interested in old family recipes or traditions passed down",
+      "hash": "21f46ff1df262509afa677df8b7a7883",
+      "metadata": null,
+      "score": 0.13767826265061553,
+      "created_at": "2025-11-28T07:45:47.485658-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 9.066818881243233e-05
+    },
+    {
+      "id": "16f486bc-20bf-4847-8f2a-2c93e3c85879",
+      "memory": "Wants to acknowledge the challenges grandmother faced and the impact it had on family",
+      "hash": "b09080d34eccc01d21d16efedeb00b76",
+      "metadata": null,
+      "score": 0.16914480041788427,
+      "created_at": "2025-11-28T07:37:00.939531-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_5",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2201,
+    "load_time": 1306.0069
+  }
+}

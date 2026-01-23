@@ -1,0 +1,77 @@
+{
+  "sample_idx": 155,
+  "question_id": "b6025781",
+  "question": "I'm planning my meal prep next week, any suggestions for new recipes?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that suggest healthy meal prep recipes, especially those that incorporate quinoa and roasted vegetables, and offer variations in protein sources. They might appreciate suggestions that build upon their existing preferences, such as new twists on chicken Caesar salads or turkey and avocado wraps. The user may not prefer responses that suggest unhealthy or high-calorie meal prep options, or those that deviate significantly from their established healthy eating habits.",
+  "question_date": "2023/05/30 (Tue) 21:41",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T16:12:45.590268",
+  "predicted_answer": "You might consider trying out some Mexican-inspired dishes, such as chicken fajitas. Additionally, adding roasted sweet potatoes or making sweet potato fries could be great options for your meal prep. If you're looking for snacks, homemade granola could also be a good choice.",
+  "prompt_length": 2886,
+  "gen_token_usage": {
+    "prompt_tokens": 773,
+    "answer_tokens": 52,
+    "total_tokens": 825,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.59,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 73,
+      "response_length": 43,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.16363636363636364,
+      "rouge1_f": 0.15126050420168066,
+      "rouge2_f": 0.034188034188034185,
+      "rougeL_f": 0.11764705882352941,
+      "semantic_similarity": 0.5378528833389282,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.10813598166539343,
+      "avg_semantic": 0.5378528833389282,
+      "overall_average": 0.19407936930656433
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.16363636363636364,
+    "rouge1_f": 0.15126050420168066,
+    "rouge2_f": 0.034188034188034185,
+    "rougeL_f": 0.11764705882352941,
+    "semantic_similarity": 0.5378528833389282,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.10813598166539343,
+    "avg_semantic": 0.5378528833389282,
+    "overall_average": 0.19407936930656433
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1579.3022,
+    "retrieval_time": 1.2554,
+    "generation_time": 1.6679,
+    "evaluation_time": 1.1829,
+    "cleanup_time": 1.6461,
+    "total_time": 1585.062
+  }
+}

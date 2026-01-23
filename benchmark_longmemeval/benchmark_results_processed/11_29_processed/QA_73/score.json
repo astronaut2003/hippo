@@ -1,0 +1,77 @@
+{
+  "sample_idx": 73,
+  "question_id": "b5ef892d",
+  "question": "How many days did I spend on camping trips in the United States this year?",
+  "question_type": "multi-session",
+  "gold_answer": "8 days.",
+  "question_date": "2023/04/29 (Sat) 23:45",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-01T06:53:42.551076",
+  "predicted_answer": "You spent a total of 8 days on camping trips in the United States this year: 3 days in Big Sur in early April and 5 days in Yellowstone National Park last month.",
+  "prompt_length": 2973,
+  "gen_token_usage": {
+    "prompt_tokens": 811,
+    "answer_tokens": 38,
+    "total_tokens": 849,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 33,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.125,
+      "rouge1_f": 0.1142857142857143,
+      "rouge2_f": 0.06060606060606061,
+      "rougeL_f": 0.1142857142857143,
+      "semantic_similarity": 0.3671935796737671,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.08839285714285715,
+      "avg_semantic": 0.3671935796737671,
+      "overall_average": 0.14415299892425537
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.125,
+    "rouge1_f": 0.1142857142857143,
+    "rouge2_f": 0.06060606060606061,
+    "rougeL_f": 0.1142857142857143,
+    "semantic_similarity": 0.3671935796737671,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.08839285714285715,
+    "avg_semantic": 0.3671935796737671,
+    "overall_average": 0.14415299892425537
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1214.7097,
+    "retrieval_time": 0.3885,
+    "generation_time": 1.8895,
+    "evaluation_time": 1.2114,
+    "cleanup_time": 1.6173,
+    "total_time": 1219.8486
+  }
+}

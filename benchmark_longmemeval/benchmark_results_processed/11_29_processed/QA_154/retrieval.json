@@ -1,0 +1,242 @@
+{
+  "sample_idx": 154,
+  "question_id": "fca70973",
+  "question": "I am planning another theme park weekend; do you have any suggestions?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T15:50:17.261531",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "5bd33ad4-766e-4095-a0f8-06996fa9728b",
+      "memory": "Looking for recommendations on upcoming theme park events",
+      "hash": "dfc76c51314964f8eb90bb13829a5f6d",
+      "metadata": null,
+      "score": 0.7864325224721016,
+      "created_at": "2025-12-07T00:12:40.100460-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.9999999994250325
+    },
+    {
+      "id": "1f0bc397-0644-4207-aadc-12c016dd2e96",
+      "memory": "Interested in upcoming theme park events like thrill rides, unique food experiences, or nighttime shows",
+      "hash": "15beb351a920db59cfb5934e2fa42e31",
+      "metadata": null,
+      "score": 0.6869605934043006,
+      "created_at": "2025-12-07T00:12:40.139236-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.5785147375908459
+    },
+    {
+      "id": "9016e1c6-90b6-4d13-947f-d67c454c794b",
+      "memory": "Recently visited multiple theme parks including Disneyland, Knott's Berry Farm, Six Flags Magic Mountain, and Universal Studios Hollywood",
+      "hash": "fbeab86591d8f5a4f7a543ef49192fa4",
+      "metadata": null,
+      "score": 0.5069148191451939,
+      "created_at": "2025-12-07T00:12:40.123314-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.4379129860807714
+    },
+    {
+      "id": "7a15c6eb-592a-498c-857f-1ab8b0f6d583",
+      "memory": "Particularly interested in Halloween-themed events",
+      "hash": "bcd38d89ed259e141ddc966360a8ce9e",
+      "metadata": null,
+      "score": 0.41077637611576623,
+      "created_at": "2025-12-07T00:12:40.155376-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.3222528098092674
+    },
+    {
+      "id": "e03b7f7c-d9a4-4dca-8cd6-952b8689145a",
+      "memory": "Planning a trip to Chicago",
+      "hash": "393ec0fcc041421e79672e0f4b128b82",
+      "metadata": null,
+      "score": 0.3763240075524851,
+      "created_at": "2025-12-07T00:08:26.343137-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.27420828420279375
+    },
+    {
+      "id": "25f5f1e7-e7b8-40fa-a129-b3f71870e5a2",
+      "memory": "Interested in unique food experiences at Halloween-themed events",
+      "hash": "da9a02b4c74cc554ec38c7f75de22b59",
+      "metadata": null,
+      "score": 0.3778281408502777,
+      "created_at": "2025-12-07T00:12:40.186516-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.09976243521550479
+    },
+    {
+      "id": "0e3c0abb-00b1-485c-b46c-590f90dc3624",
+      "memory": "Interested in exclusive dining experiences or restaurants that offer special Halloween-themed menus",
+      "hash": "5544c0eb7e74b3cc16da7fcdb5d8376a",
+      "metadata": null,
+      "score": 0.3784707957440231,
+      "created_at": "2025-12-07T00:12:40.207005-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.07755609634883798
+    },
+    {
+      "id": "01e4ab33-371e-4935-9501-ab074e7d5f3c",
+      "memory": "Is thinking of trying out Pizza Hut's buffalo wings as well",
+      "hash": "3bbddd989da703bfa45cd5e7eb2542f0",
+      "metadata": null,
+      "score": 0.3433203384788366,
+      "created_at": "2025-12-07T00:04:17.263022-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.062485746765859294
+    },
+    {
+      "id": "f98e626e-f063-4b65-99e6-bce20c4e55f9",
+      "memory": "Thinking of planning a birthday celebration in October",
+      "hash": "87f6958ec77f17c6a2288db634f0a3f8",
+      "metadata": null,
+      "score": 0.33391760910621765,
+      "created_at": "2025-12-07T00:09:33.333502-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.034076459906815536
+    },
+    {
+      "id": "95f96b48-6f90-4cd3-b59a-d13c7a91789f",
+      "memory": "Interested in the VIP Experience's Gourmet Buffet at Halloween Horror Nights",
+      "hash": "feef56092896bcce494455288e62585a",
+      "metadata": null,
+      "score": 0.38762250846025315,
+      "created_at": "2025-12-07T00:12:40.222497-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.027284768123605953
+    },
+    {
+      "id": "f8aaa89a-9975-4133-9298-6289332c7a5d",
+      "memory": "Interested in must-try food items during Halloween-themed events",
+      "hash": "ac441f4fbaa9d0857ef43d1d7cc0eabd",
+      "metadata": null,
+      "score": 0.39038051970050497,
+      "created_at": "2025-12-07T00:12:40.170492-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.020538642708113786
+    },
+    {
+      "id": "bfaad9a8-4999-410f-a8e3-3a29c3c0671a",
+      "memory": "Wants to know if the Universal Studios Hollywood VIP Experience's Gourmet Buffet and Behind-the-Scenes Tour package can be booked online or if they need to call to reserve it",
+      "hash": "abc428090f37f4d89143a41cb78159e5",
+      "metadata": null,
+      "score": 0.3128510230550654,
+      "created_at": "2025-12-07T00:12:40.269869-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.013253891022960726
+    },
+    {
+      "id": "7e017245-1e8b-4ea2-b0e6-2b2accbb64c2",
+      "memory": "Interested in the behind-the-scenes tour as an add-on to the VIP Experience",
+      "hash": "e713fa36d387e3459fc68522d1311d8a",
+      "metadata": null,
+      "score": 0.3061299118692886,
+      "created_at": "2025-12-07T00:12:40.238058-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.007879527125142033
+    },
+    {
+      "id": "11c697f1-efa3-4180-8a70-2fdd5b6568fa",
+      "memory": "Interested in the Universal Studios Hollywood VIP Experience's Gourmet Buffet and Behind-the-Scenes Tour",
+      "hash": "bb314b805d0d49d33b9a325ed5361cea",
+      "metadata": null,
+      "score": 0.43188077345756515,
+      "created_at": "2025-12-07T00:12:40.254124-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.007219664707438768
+    },
+    {
+      "id": "7f6c0c2e-1f6c-4541-92f8-5d1da4654e61",
+      "memory": "Curious to explore more indie rock bands, maybe some newer ones that are similar to Arctic Monkeys",
+      "hash": "9ce3c13ec7089c3822a0ef29c980cba7",
+      "metadata": null,
+      "score": 0.3451645851640521,
+      "created_at": "2025-12-07T00:11:44.989817-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.0034780682362404954
+    },
+    {
+      "id": "37907d37-62c3-4cbf-8c6a-85511aff58ca",
+      "memory": "Looking for inspiration for a new art project",
+      "hash": "68c3500ef16780af752386222bb4c128",
+      "metadata": null,
+      "score": 0.3703686599712423,
+      "created_at": "2025-12-06T23:52:13.175678-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.0016350155867605092
+    },
+    {
+      "id": "6d8fe097-ae9a-479d-b6a2-3c16e7cc8710",
+      "memory": "Curious about upcoming literary festivals or book events in the area",
+      "hash": "0395fa921eb84b20eec8eb4133ae3e6f",
+      "metadata": null,
+      "score": 0.37061238844577193,
+      "created_at": "2025-12-06T23:55:02.508518-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.0009343572874907464
+    },
+    {
+      "id": "167dcc7f-b1f8-4790-a0c5-a5575b9e5c55",
+      "memory": "Thinking of decluttering closet this weekend and donating some old clothes to Goodwill",
+      "hash": "14ad039fa9919297bf7982234ee552f0",
+      "metadata": null,
+      "score": 0.31157668887434053,
+      "created_at": "2025-12-06T23:50:39.470970-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.00082951625851878
+    },
+    {
+      "id": "83bbd904-0485-4fc4-9f37-93c28db3ca85",
+      "memory": "Wants tips on how to get to the city center from O'Hare",
+      "hash": "fd04df07ac5975e510933cc3278d717b",
+      "metadata": null,
+      "score": 0.3093243151870154,
+      "created_at": "2025-12-07T00:08:26.443963-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.0007694739328261528
+    },
+    {
+      "id": "59061514-2925-467b-b418-2fe462b88f05",
+      "memory": "Has some flexibility with travel dates but needs to attend the wedding",
+      "hash": "170952901e7e3519fb0f1a216c6aaff4",
+      "metadata": null,
+      "score": 0.31998367906201336,
+      "created_at": "2025-12-07T00:08:26.523033-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_154",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.6519,
+    "load_time": 1343.027
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 126,
+  "question_id": "88432d0a_abs",
+  "question": "How many times did I bake egg tarts in the past two weeks?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T04:13:12.026543",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "512b8620-fcb8-47c2-b8b9-233cccc9a5a9",
+      "memory": "Considering making a homemade tart crust",
+      "hash": "d5a8eefd3c480457e0d9271e391743e4",
+      "metadata": null,
+      "score": 0.5072158939265659,
+      "created_at": "2025-12-06T12:14:37.421192-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.9999999973728798
+    },
+    {
+      "id": "16b8e084-4e8f-4025-83e8-113f6961a676",
+      "memory": "The stand mixer will come in handy when making the tart crust",
+      "hash": "6e9f7d1e0c0e827d3b90c9637e15825b",
+      "metadata": null,
+      "score": 0.3582675582021747,
+      "created_at": "2025-12-06T12:14:37.521637-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.6093011336162737
+    },
+    {
+      "id": "7e5f64f0-1c3d-4dc7-8c07-b5004cd4cfe7",
+      "memory": "Decided to stick with all-purpose flour for the tart crust",
+      "hash": "01dfd4ab575b1334658c2eb3dc35ff62",
+      "metadata": null,
+      "score": 0.4528216037748487,
+      "created_at": "2025-12-06T12:14:37.475066-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.46298603246174624
+    },
+    {
+      "id": "8f9f5cf3-a91d-43f7-9bf6-a5b659d2baad",
+      "memory": "Likes the idea of a fruit tart for dessert",
+      "hash": "72991a9609da0d75a13959d975fc353a",
+      "metadata": null,
+      "score": 0.4024745967159572,
+      "created_at": "2025-12-06T12:14:37.358992-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.448774806051097
+    },
+    {
+      "id": "1a5baf23-714f-4d55-9a8e-99a098b3b45d",
+      "memory": "Has been experimenting with different types of flour for baking",
+      "hash": "24052388f540a73df314fdf0a585e8bd",
+      "metadata": null,
+      "score": 0.29034659545272423,
+      "created_at": "2025-12-06T12:14:37.438146-08:00",
+      "updated_at": "2025-12-06T12:33:03.578717-08:00",
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.23158446395203752
+    },
+    {
+      "id": "27dcc1af-6cd3-449e-ac28-949cde5f7f0e",
+      "memory": "Thinking of trying a new recipe for a rustic Italian bread this weekend",
+      "hash": "0a7c8e260501a2003afac32422d4a6a3",
+      "metadata": null,
+      "score": 0.32270740091049555,
+      "created_at": "2025-12-06T12:33:03.854936-08:00",
+      "updated_at": "2025-12-06T12:33:52.903236-08:00",
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.19610174597344388
+    },
+    {
+      "id": "dfafdef1-1328-4f47-876c-5cece13b012e",
+      "memory": "Recently baked a chocolate cake for sister's birthday party using a new recipe found online, which turned out amazing and everyone loved it",
+      "hash": "321d0392b2a9c3dfd9ec21cda534d20d",
+      "metadata": null,
+      "score": 0.31849491916323747,
+      "created_at": "2025-12-06T12:14:37.331507-08:00",
+      "updated_at": "2025-12-06T12:20:03.137891-08:00",
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.16517963859308457
+    },
+    {
+      "id": "dbf66926-5c18-4764-9149-530116d8afef",
+      "memory": "Used the convection setting to bake a batch of cookies last Thursday",
+      "hash": "98a5755fe03637d9bbf46b170fc70ad3",
+      "metadata": null,
+      "score": 0.49073034608341337,
+      "created_at": "2025-12-06T12:33:03.778250-08:00",
+      "updated_at": "2025-12-06T12:33:53.670112-08:00",
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.16257099839373193
+    },
+    {
+      "id": "af888007-ccea-4a70-924f-c96c500653c0",
+      "memory": "Feeds starter once a day with all-purpose flour and water",
+      "hash": "ae7f4a84c7185fa7b991291f4eb738f7",
+      "metadata": null,
+      "score": 0.2867026228132289,
+      "created_at": "2025-12-06T12:20:03.228334-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.1189176144353757
+    },
+    {
+      "id": "de08abeb-9d97-45c1-90b6-e612aed8311d",
+      "memory": "Created sourdough starter about a month ago",
+      "hash": "9be43b02fd5614c8afdc318b4da66fd5",
+      "metadata": null,
+      "score": 0.29332489111869875,
+      "created_at": "2025-12-06T12:20:03.178337-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.07757071738397685
+    },
+    {
+      "id": "b110397b-0464-4758-b6db-ea65e8ffe646",
+      "memory": "Thinking of trying a slower rise for the Italian bread recipe",
+      "hash": "7658982d54577c1348ac6b43d938bdff",
+      "metadata": null,
+      "score": 0.3565367129372205,
+      "created_at": "2025-12-06T12:33:53.757967-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.039383151192531586
+    },
+    {
+      "id": "cfd143d4-e9f6-45f8-ad7b-d33be9cacf3e",
+      "memory": "The cookies turned out perfectly crispy on the outside and chewy on the inside",
+      "hash": "163d1afb1b74bc20cefa3cdf8b102445",
+      "metadata": null,
+      "score": 0.3467753062192337,
+      "created_at": "2025-12-06T12:33:53.735721-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.0265955027316251
+    },
+    {
+      "id": "f6e8b390-ec81-4f1e-b9f8-488c85753d06",
+      "memory": "Willing to give sourdough starter another try for the Italian bread recipe",
+      "hash": "7cd3dd016ede069fb2d5fb9d25ae522c",
+      "metadata": null,
+      "score": 0.2832701943612938,
+      "created_at": "2025-12-06T12:33:53.814683-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.01942775518424905
+    },
+    {
+      "id": "d59736ce-33ec-42eb-95f7-79bccbb1b1ba",
+      "memory": "Made a delicious whole wheat baguette last Saturday",
+      "hash": "f08653ce93cc368fc1af6b49a690c972",
+      "metadata": null,
+      "score": 0.3881261203364387,
+      "created_at": "2025-12-06T12:14:37.454692-08:00",
+      "updated_at": "2025-12-06T12:33:53.654135-08:00",
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.01922231098875643
+    },
+    {
+      "id": "a3f484ea-f939-46c8-b12c-c072a87a2c44",
+      "memory": "Tried a new bread recipe using sourdough starter on Tuesday, but it didn't turn out as expected - bread came out dense and heavy",
+      "hash": "01c0f84b641b9294b87833f3f6534865",
+      "metadata": null,
+      "score": 0.35830199702039456,
+      "created_at": "2025-12-06T12:20:03.275922-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.017628615223477705
+    },
+    {
+      "id": "c67fe7df-2af6-4ce0-8c91-040228acf0dd",
+      "memory": "Planning to use a slower rise for the Italian bread recipe",
+      "hash": "705eaf6b19228e581ca57c239d0d87d0",
+      "metadata": null,
+      "score": 0.32783072794061197,
+      "created_at": "2025-12-06T12:33:53.846486-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.017490065662371098
+    },
+    {
+      "id": "082ed9ff-ad58-4a69-8790-70a272b2998c",
+      "memory": "Thinking of baking chicken wings for tonight's dinner",
+      "hash": "8353801c4bb6e8a61cc1478855fc1e82",
+      "metadata": null,
+      "score": 0.35796497257494997,
+      "created_at": "2025-12-06T12:33:03.630034-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.012268526054734889
+    },
+    {
+      "id": "255b28d3-fa3d-449e-a524-0755e3ce38db",
+      "memory": "Has had good results with the convection setting on the oven",
+      "hash": "16ad39b521f89dd81b2eb6f9e9e38a5f",
+      "metadata": null,
+      "score": 0.2726556649961789,
+      "created_at": "2025-12-06T12:33:53.719818-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.010142930256491734
+    },
+    {
+      "id": "ed8ceceb-ef00-4574-a0b3-015aa3d6b1d6",
+      "memory": "Plans to try the dry brine method and baking powder trick for chicken wings",
+      "hash": "8bce55fd78d2068bb4c877cd60795b00",
+      "metadata": null,
+      "score": 0.3853272749000488,
+      "created_at": "2025-12-06T12:33:03.670306-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.0033048955887111566
+    },
+    {
+      "id": "913b1bf0-db8f-4270-8e3a-8e67894227ed",
+      "memory": "Will consider using a higher protein flour for the Italian bread recipe",
+      "hash": "7ad8abd5aafb37e09cff21b749799224",
+      "metadata": null,
+      "score": 0.2818740445240143,
+      "created_at": "2025-12-06T12:33:53.702567-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_126",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.219,
+    "load_time": 1464.1498
+  }
+}

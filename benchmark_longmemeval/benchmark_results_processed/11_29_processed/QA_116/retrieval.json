@@ -1,0 +1,242 @@
+{
+  "sample_idx": 116,
+  "question_id": "edced276",
+  "question": "How many days did I spend in total traveling in Hawaii and in New York City?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T00:17:42.893801",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "2f610c34-96f0-46d3-a76d-cfb0796dcbe3",
+      "memory": "Recently got back from a solo trip to New York City for five days",
+      "hash": "c2859ebf85a66f8f0247304c0ae68271",
+      "metadata": null,
+      "score": 0.5452153910337267,
+      "created_at": "2025-12-06T08:18:08.497166-08:00",
+      "updated_at": "2025-12-06T08:28:35.931276-08:00",
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.9999999989671814
+    },
+    {
+      "id": "71694e13-0864-48e5-b9d7-f51e8c8d97bd",
+      "memory": "With family, had to plan everything out for a 10-day trip far in advance and it was hard to make changes on the fly",
+      "hash": "96e2bedda81f34c6b3a77b8345a5ae1b",
+      "metadata": null,
+      "score": 0.40877893676197685,
+      "created_at": "2025-12-06T08:28:35.995472-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.6054475570763399
+    },
+    {
+      "id": "d4e5e1d4-3705-4eab-bd6d-f49f4191b347",
+      "memory": "Considering staying in Europe for around 7-10 days",
+      "hash": "6b02232ce15d06b16540aba77de1181c",
+      "metadata": null,
+      "score": 0.2439617319237149,
+      "created_at": "2025-12-06T08:18:08.544984-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.3727247132047476
+    },
+    {
+      "id": "2002f608-36f1-4a98-83b4-9226585ea3a0",
+      "memory": "Flexibility is a big factor when traveling",
+      "hash": "e26b6a8cf5621de1cf02d26aad3fa28c",
+      "metadata": null,
+      "score": 0.23828449746528926,
+      "created_at": "2025-12-06T08:28:35.982637-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.27960433232933146
+    },
+    {
+      "id": "30df948c-b3cc-4516-8dcc-fe2efeff2dca",
+      "memory": "Thinking of spending 4 days in Paris and 3 days in Rome",
+      "hash": "67592285d8e1482dc6f3a6a835fba469",
+      "metadata": null,
+      "score": 0.35299779189158287,
+      "created_at": "2025-12-06T08:18:08.608027-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.2467417108078198
+    },
+    {
+      "id": "5b90271c-2c0e-4021-9a78-94ec0c21e08d",
+      "memory": "Thinking of planning another trip soon",
+      "hash": "12aa9490d1530dcfb40c3b55be202f9b",
+      "metadata": null,
+      "score": 0.3869908852896331,
+      "created_at": "2025-12-06T08:18:08.464714-08:00",
+      "updated_at": "2025-12-06T08:28:35.213463-08:00",
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.20387275395370305
+    },
+    {
+      "id": "118702ac-32aa-4ea3-8465-691ed89f7f9c",
+      "memory": "Just got back from an amazing island-hopping trip to Hawaii with family",
+      "hash": "2b19db175a6ac68c986ceba3610e9b40",
+      "metadata": null,
+      "score": 0.5406077900319606,
+      "created_at": "2025-12-06T08:28:35.968136-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.1955598817904402
+    },
+    {
+      "id": "62da76e8-ecf7-443b-bef5-97c5d10bf00a",
+      "memory": "Curious about destinations that are particularly well-suited for solo travel",
+      "hash": "50ce232937ecf5cc11039a897fac996e",
+      "metadata": null,
+      "score": 0.25632811561846397,
+      "created_at": "2025-12-06T08:28:36.009343-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.09741653530205496
+    },
+    {
+      "id": "d129ed65-e28b-4799-b8e7-76a1c97c9829",
+      "memory": "Trying to plan next trip and having a hard time deciding whether to go solo or with family",
+      "hash": "b3043773865a0d1b3300eba99ce4c95c",
+      "metadata": null,
+      "score": 0.29602887073674544,
+      "created_at": "2025-12-06T08:28:35.952174-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.09132694300027022
+    },
+    {
+      "id": "1a859da9-f183-4fff-ac57-4ce0bce75acd",
+      "memory": "Saved a lot by staying at a hostel and eating at local cafes in New York City",
+      "hash": "7cf1061c12bd2d4cf2ea935e05321f43",
+      "metadata": null,
+      "score": 0.38366925501362326,
+      "created_at": "2025-12-06T08:18:08.509378-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.07454655799580191
+    },
+    {
+      "id": "755b7e05-1bfc-4c5c-b885-8f857601538e",
+      "memory": "Also considered visiting Barcelona or Amsterdam",
+      "hash": "353226b60421f56db154725404ae4821",
+      "metadata": null,
+      "score": 0.24869429139498228,
+      "created_at": "2025-12-06T08:18:08.557260-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.008419840173610417
+    },
+    {
+      "id": "886e1933-ce3b-4c31-9716-fc392e84ff58",
+      "memory": "Prefers to try biking around the city to get exercise and see sights",
+      "hash": "09d37772ef953325e9567fc1e328348a",
+      "metadata": null,
+      "score": 0.23537266135226032,
+      "created_at": "2025-12-06T08:39:16.973582-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.006699979742046112
+    },
+    {
+      "id": "04716bff-a56d-4353-b26f-3b0d426dc88e",
+      "memory": "Planning a night out with friends and wanted to check the schedule for local events",
+      "hash": "ae067cd10b299a3e25f236c8edb03fd6",
+      "metadata": null,
+      "score": 0.3580153673191218,
+      "created_at": "2025-12-06T08:25:08.222518-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.00622670046974404
+    },
+    {
+      "id": "e2f993bf-3a7b-4190-be47-85fe81e628df",
+      "memory": "Is not sure if can handle a long hike",
+      "hash": "d361c16c5bb6533d339e605936b01f31",
+      "metadata": null,
+      "score": 0.30046869014690236,
+      "created_at": "2025-12-06T08:43:04.764900-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.004982581741659237
+    },
+    {
+      "id": "99f02a50-b4d0-4aa1-b3ab-687e1379a710",
+      "memory": "Trying to plan out meals for the rest of the week",
+      "hash": "a5b36704414f04b2991898f9490555f3",
+      "metadata": null,
+      "score": 0.28237447681166983,
+      "created_at": "2025-12-06T08:42:52.048709-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.004846163054429608
+    },
+    {
+      "id": "dfa79fde-7a21-4fcb-95de-6bbbdc8fc21e",
+      "memory": "Plans to stick to biking around the city instead of taking public transportation or walking",
+      "hash": "7b286eb6fbbf899879a9f96389bee737",
+      "metadata": null,
+      "score": 0.26163077819144065,
+      "created_at": "2025-12-06T08:39:17.004355-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.0016049141442018664
+    },
+    {
+      "id": "b6290965-0850-4302-a802-7cf5e96f59c3",
+      "memory": "Has developed some habits during 45-minute commute that have helped stay productive",
+      "hash": "1f69bbeb10c7296484211ac23dcea462",
+      "metadata": null,
+      "score": 0.25667438336606135,
+      "created_at": "2025-12-06T08:35:37.491965-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.0014429846699740606
+    },
+    {
+      "id": "667359d6-650f-4e1a-b3dd-f66cee60d026",
+      "memory": "Wants to know the best time to visit Japan and any specific festivals or events to try to catch",
+      "hash": "c684da7579fb0bc22ff098b1ec552e26",
+      "metadata": null,
+      "score": 0.39497615567797534,
+      "created_at": "2025-12-06T08:28:36.050526-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.0009059776788000962
+    },
+    {
+      "id": "81da7b52-1be0-4489-afa1-51d9cd8d38cc",
+      "memory": "Recently went to the iHeartRadio Music Festival on June 22nd and had an amazing time",
+      "hash": "70dcb12aec78452d4b3a8e14d94f842b",
+      "metadata": null,
+      "score": 0.24449149671159864,
+      "created_at": "2025-12-06T08:43:58.105258-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.0008732765927638239
+    },
+    {
+      "id": "ab7ff20b-fc32-4a7c-9bc8-e1b38c3ee680",
+      "memory": "Recently started a new job with a 45-minute commute",
+      "hash": "cce15baf8da503f1332b9f1dd57841c6",
+      "metadata": null,
+      "score": 0.32444754521355246,
+      "created_at": "2025-12-06T08:35:37.373047-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_116",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2233,
+    "load_time": 1575.3839
+  }
+}

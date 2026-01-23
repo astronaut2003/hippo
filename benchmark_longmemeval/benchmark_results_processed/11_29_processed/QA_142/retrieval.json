@@ -1,0 +1,242 @@
+{
+  "sample_idx": 142,
+  "question_id": "06f04340",
+  "question": "What should I serve for dinner this weekend with my homegrown ingredients?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T10:33:10.285317",
+  "load_result": {
+    "total_sessions": 55,
+    "added_sessions": 55,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "193be03b-8ed2-4707-b969-266c8dd9abff",
+      "memory": "Used jalapeno peppers, mango puree, tequila, lime juice, and agave syrup for the Spicy Mango Margarita",
+      "hash": "16de77114b48248301f425a727f9d191",
+      "metadata": null,
+      "score": 0.44173216436816,
+      "created_at": "2025-12-06T18:50:26.743634-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.9999999975989907
+    },
+    {
+      "id": "7ba4069d-4951-4afd-b6ec-ded6839baffb",
+      "memory": "Recently packed a quinoa salad with roasted vegetables in a container with some mixed greens and a vinaigrette dressing, and it was a hit",
+      "hash": "45a4c5d7c90c3b59dc8ad7025d551466",
+      "metadata": null,
+      "score": 0.4128616104372521,
+      "created_at": "2025-12-06T18:44:37.559881-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.9039816979002857
+    },
+    {
+      "id": "c6801dcc-ee46-48cd-9862-41aa232ec2d9",
+      "memory": "Wants something a bit healthier than oatmeal or scrambled eggs",
+      "hash": "4e34f4347716c3c9583800f7376617c2",
+      "metadata": null,
+      "score": 0.3975308224489301,
+      "created_at": "2025-12-06T18:33:34.361919-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.8016055924681219
+    },
+    {
+      "id": "b364638c-a80f-4fd7-9ed1-23b1f86e09de",
+      "memory": "Looking for healthy meal ideas suitable for a big family gathering",
+      "hash": "0f448f40e707dda9292f229b49e2f441",
+      "metadata": null,
+      "score": 0.6635985382703082,
+      "created_at": "2025-12-06T18:44:00.200315-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.7273026592081661
+    },
+    {
+      "id": "c793eb2d-b983-442b-bd4a-342193da31fc",
+      "memory": "Wondering if a lemon blueberry poppy seed cake would pair well with grilled chicken or fish options",
+      "hash": "a33ca4fd1bbdf2b45736e3b0ecf3aef3",
+      "metadata": null,
+      "score": 0.4148395006080433,
+      "created_at": "2025-12-06T18:44:00.258356-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.6888636487605968
+    },
+    {
+      "id": "cf7e4553-d4fb-40ab-9be3-5b2433730d37",
+      "memory": "Trying to find new recipe ideas that use fresh basil and mint",
+      "hash": "ae0816f53c95d6d5a249a136e99933ff",
+      "metadata": null,
+      "score": 0.47194976162905145,
+      "created_at": "2025-12-06T18:40:19.785227-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.49502109914278103
+    },
+    {
+      "id": "565dcb8d-25a3-4cbb-96b1-cc3ab07350d1",
+      "memory": "Trying to plan a family dinner for mom's 60th birthday, which is coming up soon",
+      "hash": "3620c97d93dfba9fc1d4f18732c01f6c",
+      "metadata": null,
+      "score": 0.48362339086338757,
+      "created_at": "2025-12-06T18:44:00.154599-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.47448565681785876
+    },
+    {
+      "id": "745e4195-d74e-4d21-9884-80488cdd5591",
+      "memory": "Has been using basil and mint in cooking lately",
+      "hash": "1c183bc991ed2961c25c3971af61380f",
+      "metadata": null,
+      "score": 0.3901151601017828,
+      "created_at": "2025-12-06T18:40:19.807303-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.34857380910667374
+    },
+    {
+      "id": "8d5e6fdc-41f6-4aea-a8d9-7e818a03dcee",
+      "memory": "Might ask the wine shop about wine and cheese pairing recommendations",
+      "hash": "1f2bfffef1350fe17749a9da64083550",
+      "metadata": null,
+      "score": 0.37667175970982025,
+      "created_at": "2025-12-06T18:57:41.719294-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.29464855226548314
+    },
+    {
+      "id": "a2dac7b6-66eb-4261-8ad9-34ea2d400bb2",
+      "memory": "Wants recommendations for ingredients or flavor combinations that might work well for a Middle Eastern or Indian-inspired Old Fashioned",
+      "hash": "715076fc2d118d23762c3f55131784e0",
+      "metadata": null,
+      "score": 0.5051666581624907,
+      "created_at": "2025-12-06T18:50:26.955915-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.23552709555721119
+    },
+    {
+      "id": "4876f79b-a549-4296-a197-e8f076202efc",
+      "memory": "Looking for healthy lunch ideas that incorporate mixed greens and a vinaigrette dressing",
+      "hash": "7ac12280d8b9a9f8dd7fc8f56e4d25c5",
+      "metadata": null,
+      "score": 0.563153993578301,
+      "created_at": "2025-12-06T18:44:37.541180-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.1534627208529953
+    },
+    {
+      "id": "b2df31cf-2eb9-475a-a452-cb7ea82e10bf",
+      "memory": "Looking for a healthy breakfast recipe that incorporates oatmeal and banana",
+      "hash": "c98b08dcf4b68c05ea8bb9580de7bb50",
+      "metadata": null,
+      "score": 0.44396339359728604,
+      "created_at": "2025-12-06T18:44:37.573938-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.12512072839946925
+    },
+    {
+      "id": "acbcc925-6fc2-4c4c-a8dc-0eaaa4b2b052",
+      "memory": "Wants recommendations for specific recipes or ingredients that complement spicy mango flavors",
+      "hash": "5bacd6c050551ad0330094b34321f27e",
+      "metadata": null,
+      "score": 0.3992071767714757,
+      "created_at": "2025-12-06T18:50:26.802167-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.05021672764508383
+    },
+    {
+      "id": "2ef7302f-6f86-4495-bb74-09d811f7b8a3",
+      "memory": "Thinking of experimenting with new ingredients and flavor combinations in the next Old Fashioned",
+      "hash": "1fe6b2c9d2d6a05f697030ce52b89ff9",
+      "metadata": null,
+      "score": 0.476955116521116,
+      "created_at": "2025-12-06T18:50:26.866796-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.04246307145598982
+    },
+    {
+      "id": "d6cfbc20-1fe7-40e4-9a75-89be51d136de",
+      "memory": "Looking for inspiration for new cocktail recipes",
+      "hash": "9ab1dbaf4303cb97e38cefa1c7dbfd54",
+      "metadata": null,
+      "score": 0.43430705413610954,
+      "created_at": "2025-12-06T18:50:25.969142-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.04196596001583498
+    },
+    {
+      "id": "5d1a062f-1e3e-4de4-8dfe-b64a35b077fe",
+      "memory": "Thinking of trying out a new breakfast option",
+      "hash": "a87bbc742a84eca18366c2d742a34ca4",
+      "metadata": null,
+      "score": 0.4466531818998618,
+      "created_at": "2025-12-06T18:33:34.346372-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.02334019498750016
+    },
+    {
+      "id": "e2800e43-4e8e-4ec3-89fe-34228acfa1e5",
+      "memory": "Wants suggestions for recipes or ingredients to achieve a smoky flavor in an Old Fashioned",
+      "hash": "2173b7446f4222600304c5bebc87fb18",
+      "metadata": null,
+      "score": 0.4352483457645051,
+      "created_at": "2025-12-06T18:50:26.925567-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.012835595987710521
+    },
+    {
+      "id": "51e0b286-e5c7-4030-b5d1-d37e78b18dcb",
+      "memory": "Looking for quick and easy breakfast ideas that can be prepared in 15 minutes or less",
+      "hash": "7a7a7f52f35f2c4c1cd221d2748ea685",
+      "metadata": null,
+      "score": 0.526902443899343,
+      "created_at": "2025-12-06T18:33:34.377993-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.008499666816465938
+    },
+    {
+      "id": "7040aa6d-14fe-4d41-aec1-721c7f4653fa",
+      "memory": "Wants recommendations for a good bourbon to use in an Old Fashioned",
+      "hash": "3e834edf49812e9e45903c8d41ade3fd",
+      "metadata": null,
+      "score": 0.3854464605622639,
+      "created_at": "2025-12-06T18:50:26.818808-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.0008444712074118097
+    },
+    {
+      "id": "d29bf96c-ccc1-4f2b-a3b2-d034a675f650",
+      "memory": "Counting down the days until the trip and is getting excited about trying out the recommended restaurants",
+      "hash": "58ff290a25add3adff123dce35539412",
+      "metadata": null,
+      "score": 0.4175387554627605,
+      "created_at": "2025-12-06T18:35:32.028470-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_142",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4409,
+    "load_time": 1592.7529
+  }
+}

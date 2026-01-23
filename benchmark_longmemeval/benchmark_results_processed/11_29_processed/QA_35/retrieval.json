@@ -1,0 +1,242 @@
+{
+  "sample_idx": 35,
+  "question_id": "60d45044",
+  "question": "What type of rice is my favorite?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T17:21:19.648573",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "aaaa9159-b734-4c27-b047-a9e1cfae36d0",
+      "memory": "Wants to make Japanese-style dishes with favorite Japanese short-grain rice",
+      "hash": "69d0e4944deaba39d6ed18ca972ed106",
+      "metadata": null,
+      "score": 0.635470451726076,
+      "created_at": "2025-11-29T01:34:34.830874-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.999999998916011
+    },
+    {
+      "id": "7a4c97f7-ebe9-4ca0-a4ed-13e80b4894f9",
+      "memory": "Wants to make onigiri for lunch today",
+      "hash": "d401284a5eef1ea93777843939af8dad",
+      "metadata": null,
+      "score": 0.297773649176086,
+      "created_at": "2025-11-29T01:34:34.863600-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.33722048082604067
+    },
+    {
+      "id": "f2337ab5-61fc-4395-9765-8caf88f96003",
+      "memory": "Wants recipes using basil and mint",
+      "hash": "0383a6c14e97f27008a6a19e82093cf5",
+      "metadata": null,
+      "score": 0.2512406327132689,
+      "created_at": "2025-11-29T01:34:34.797888-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.02264271658249465
+    },
+    {
+      "id": "b5ed7abe-e054-404b-9230-4c3ea6ca8ce0",
+      "memory": "Wants simple recipes like marinade or sauce",
+      "hash": "34d4ac76553ae65b21f2b115bd0c6e86",
+      "metadata": null,
+      "score": 0.30423602102983016,
+      "created_at": "2025-11-29T01:34:34.814412-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.01953850486017739
+    },
+    {
+      "id": "f832132d-f525-44eb-8d0e-15289416ae10",
+      "memory": "Interested in healthy snack options for eating window",
+      "hash": "fa7a254c14a08ef7790f534a7993130e",
+      "metadata": null,
+      "score": 0.28571321479714074,
+      "created_at": "2025-11-29T01:23:21.673061-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.01606440937795434
+    },
+    {
+      "id": "21eb4de4-ec42-4e5a-9c02-334bbc69b2a0",
+      "memory": "Was thinking of experimenting with different flavors like oatmeal raisin with nuts",
+      "hash": "7b5310d651e049b68b1ea1d4a66365ed",
+      "metadata": null,
+      "score": 0.4089158703148247,
+      "created_at": "2025-11-29T01:22:40.449298-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.012322153338661518
+    },
+    {
+      "id": "896623e2-d67e-4b17-9361-756a0832f7ac",
+      "memory": "Likes the Herby Delight and Indian-Style popcorn ideas",
+      "hash": "9fdeefdf49d4bea7e37a50928e1d2286",
+      "metadata": null,
+      "score": 0.4034829951844946,
+      "created_at": "2025-11-29T01:22:40.381661-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.008283928265100871
+    },
+    {
+      "id": "79b77a4c-be05-46b1-af94-b8cdfa036ae6",
+      "memory": "Asked about favorite eco-friendly clothing brands",
+      "hash": "64d25077abaaef05bfe1cfc7152553e7",
+      "metadata": null,
+      "score": 0.23866979895178447,
+      "created_at": "2025-11-29T01:23:21.726273-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.0029199934830349446
+    },
+    {
+      "id": "047e9bc2-4d0b-462b-a4cd-d6072def0d72",
+      "memory": "Wants simple recipes that pair well with grilled chicken or vegetables",
+      "hash": "dc3a66253d6f298669867ec9a8888475",
+      "metadata": null,
+      "score": 0.26474146615890826,
+      "created_at": "2025-11-29T01:34:34.846187-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.002725747651603143
+    },
+    {
+      "id": "ab625e64-be60-4df4-a2d8-c6402959e481",
+      "memory": "Trying to get inspiration for new snack ideas, especially healthier ones",
+      "hash": "6f8184c394427ae6eda3a4d7685bc317",
+      "metadata": null,
+      "score": 0.29076275900860593,
+      "created_at": "2025-11-29T01:22:40.350040-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.002386773686055045
+    },
+    {
+      "id": "e2ca7fa7-23c0-48bb-9c31-e87869171907",
+      "memory": "Plans to start with basil and mint",
+      "hash": "08180598c169ea8e5e0636404aea919b",
+      "metadata": null,
+      "score": 0.21672820176540714,
+      "created_at": "2025-11-29T01:34:34.782983-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.002245353623575692
+    },
+    {
+      "id": "0015cef3-ae8b-467a-b5a5-c3053b1d1faf",
+      "memory": "Thinking of getting a cookbook by her favorite chef for a friend who loves to cook",
+      "hash": "177e6fdc6790cff2cd1ee9c722be6de6",
+      "metadata": null,
+      "score": 0.23886247870113747,
+      "created_at": "2025-11-29T01:39:22.374036-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.002101866016323249
+    },
+    {
+      "id": "7a380ffa-0fb2-4526-a9c4-88c1a9a7b465",
+      "memory": "Heard great things about flavor and tenderness achieved with low-and-slow cooking",
+      "hash": "19df08ce51592a4de4cd5a17b966adcf",
+      "metadata": null,
+      "score": 0.28742317182352917,
+      "created_at": "2025-11-29T01:26:25.263091-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.0012237797511919447
+    },
+    {
+      "id": "c4972002-1c57-4342-99a3-e77b2b212163",
+      "memory": "Has been making a lot of popcorn lately, usually with olive oil and a bit of salt",
+      "hash": "fa82ec64975aed7497bfbcb848105532",
+      "metadata": null,
+      "score": 0.27151508240143607,
+      "created_at": "2025-11-29T01:22:40.366969-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.0011701269643302605
+    },
+    {
+      "id": "0f56df50-f302-43a6-a074-28c33ba90e9d",
+      "memory": "Heard that hickory and applewood are popular choices for smoking",
+      "hash": "4ceb009bbd4c2254cafd8f95f8533c19",
+      "metadata": null,
+      "score": 0.21006320862311517,
+      "created_at": "2025-11-29T01:26:25.326585-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.0010155779925417863
+    },
+    {
+      "id": "172974d4-f0f0-431a-b588-1b072910371f",
+      "memory": "Marinated chicken breasts in olive oil, garlic, and paprika",
+      "hash": "5a13035a026b04058c3c8e2cdb449e3f",
+      "metadata": null,
+      "score": 0.21841051974141473,
+      "created_at": "2025-11-29T01:26:25.105484-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.0008598918711281126
+    },
+    {
+      "id": "aafb2886-4853-4b18-8225-2dbb01c18979",
+      "memory": "Loves trying out new restaurants",
+      "hash": "d65f1d8f40de1e867cec3a3aad38fd5a",
+      "metadata": null,
+      "score": 0.22570229008783038,
+      "created_at": "2025-11-29T01:24:09.548766-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.0008533791050928792
+    },
+    {
+      "id": "79b8b79d-5b92-4f78-9c33-9717a8f9b09c",
+      "memory": "Has been snacking on nuts lately, especially almonds and walnuts",
+      "hash": "ab40460a61e2919181d2bbae59e8f460",
+      "metadata": null,
+      "score": 0.21282750838742404,
+      "created_at": "2025-11-29T01:22:40.465458-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.0008164734308932235
+    },
+    {
+      "id": "9894a7fc-9f8b-4913-8ceb-0f6c24567b31",
+      "memory": "Interested in trying out different types of wood for added flavor",
+      "hash": "564a78261c1d603db577c2d2ac68ce02",
+      "metadata": null,
+      "score": 0.3678466835922642,
+      "created_at": "2025-11-29T01:26:25.312231-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.00031840189505585317
+    },
+    {
+      "id": "582ea3fc-706e-4cce-b563-dcb346c71012",
+      "memory": "Has been experimenting with different seasonings like paprika and garlic powder",
+      "hash": "859e7225f0175ec57f7ed9ef486d4184",
+      "metadata": null,
+      "score": 0.2615136015494406,
+      "created_at": "2025-11-29T01:22:40.417514-08:00",
+      "updated_at": "2025-11-29T01:26:24.955514-08:00",
+      "user_id": "benchmark_processed_35",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0461,
+    "load_time": 1222.7135
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 23,
+  "question_id": "75499fd8",
+  "question": "What breed is my dog?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T07:36:00.556124",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 52,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "9706913f-1e1c-40a0-b413-91e0d3f9e4a8",
+      "memory": "Max is a Golden Retriever",
+      "hash": "994d2bd414c4934de23e480aa44787ad",
+      "metadata": null,
+      "score": 0.45508104905915137,
+      "created_at": "2025-11-28T15:47:45.348309-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.9999999988974456
+    },
+    {
+      "id": "27e30a01-dd17-479e-af94-838a2622d1c1",
+      "memory": "Thinking of getting a hitch-mounted rack, probably Thule or Saris",
+      "hash": "d70ad0975000d2ff690c8ccc2c72e537",
+      "metadata": null,
+      "score": 0.12549036455911233,
+      "created_at": "2025-11-28T15:42:58.280205-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.7486972052038408
+    },
+    {
+      "id": "fff8a37c-dab4-45cf-8604-2616bcd40679",
+      "memory": "Will go with a nylon collar from Yellow Dog Design",
+      "hash": "383a3d7d8aa3d5019e1677ed4ee19d7a",
+      "metadata": null,
+      "score": 0.4370785378545444,
+      "created_at": "2025-11-28T15:47:45.363257-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.642172896813747
+    },
+    {
+      "id": "c995159d-6901-4389-a8fc-1e44fc3ff52d",
+      "memory": "Has a dog named Max",
+      "hash": "6eb63db85cfee6eb681d1e56b38a031c",
+      "metadata": null,
+      "score": 0.536046147155075,
+      "created_at": "2025-11-28T15:47:45.219299-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.5485445413823065
+    },
+    {
+      "id": "55ccfa57-d5ec-46e1-9610-473beb841ee1",
+      "memory": "Has combination skin",
+      "hash": "94921ba83e8d79dfb9da854ce249d43b",
+      "metadata": null,
+      "score": 0.1376115351679571,
+      "created_at": "2025-11-28T15:38:38.327883-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.47945762205618686
+    },
+    {
+      "id": "8e89b9ae-3946-448d-aca9-1e10f5a01516",
+      "memory": "Max needs flea and tick prevention medication applied every two weeks",
+      "hash": "9cb7387db49d1f9cdc6fe710013c0959",
+      "metadata": null,
+      "score": 0.1382803863416797,
+      "created_at": "2025-11-28T15:47:45.236871-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.46770578194379936
+    },
+    {
+      "id": "87712f63-e30f-4058-987c-82464c46c7f3",
+      "memory": "Thinking of getting Max a new collar with a nice name tag",
+      "hash": "3c07f1c7e6e54a72f046bed8606069f6",
+      "metadata": null,
+      "score": 0.35781421569412686,
+      "created_at": "2025-11-28T15:47:45.333631-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.40387420055654416
+    },
+    {
+      "id": "96aeb339-05ee-4c48-b11c-f1578b3cd05f",
+      "memory": "Max loves peanut butter",
+      "hash": "5a4a854f109f61ffbd56891f33071eba",
+      "metadata": null,
+      "score": 0.15395495353043942,
+      "created_at": "2025-11-28T15:47:45.314754-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.40301435469675756
+    },
+    {
+      "id": "523cdd9e-48a2-48e8-8370-20f8c188d2aa",
+      "memory": "Nylon collar will be durable and easy to clean, which is perfect for Max's active lifestyle",
+      "hash": "f74d1e85bcdd080c6bbe1f7c0eb85705",
+      "metadata": null,
+      "score": 0.2320213368889476,
+      "created_at": "2025-11-28T15:47:45.378985-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.3874207306431872
+    },
+    {
+      "id": "6dbf258b-4f8a-4d48-8218-8546f3b58f29",
+      "memory": "Looking for a good dog walker in my area",
+      "hash": "c09aeb01f61135967c6dd43cb4d8095b",
+      "metadata": null,
+      "score": 0.366632968863103,
+      "created_at": "2025-11-28T15:47:45.154903-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.3784043622477398
+    },
+    {
+      "id": "8e93ae5a-d01a-446f-82eb-bed1332f88d8",
+      "memory": "Max would love the Kong Toy",
+      "hash": "e9e2d950dd2f8aa96d3aaf0c29c7ad0f",
+      "metadata": null,
+      "score": 0.26455272311651623,
+      "created_at": "2025-11-28T15:47:45.267165-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.26622531212808775
+    },
+    {
+      "id": "14517058-f81e-4f79-bc41-e94c36247b97",
+      "memory": "Lives near Toronto",
+      "hash": "87b1f91a5ccc695a0e494bd480aa0c83",
+      "metadata": null,
+      "score": 0.12177940848770492,
+      "created_at": "2025-11-28T15:52:56.282373-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.1794858703343982
+    },
+    {
+      "id": "d467cd1c-b227-4a7d-9260-0604043cc748",
+      "memory": "Will get a nice engraved name tag to go with the collar",
+      "hash": "37613134079ef085ead11a6d9f1cbcfc",
+      "metadata": null,
+      "score": 0.32194816106517044,
+      "created_at": "2025-11-28T15:47:45.395817-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.02302788658178702
+    },
+    {
+      "id": "313f10dd-d664-4464-9edc-00886e48ef46",
+      "memory": "Thinking of getting Max a new toy to keep him engaged during the day while away",
+      "hash": "fd277d4ab44e1ff010488868312314b7",
+      "metadata": null,
+      "score": 0.15934618517051924,
+      "created_at": "2025-11-28T15:47:45.250987-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.019290619520411906
+    },
+    {
+      "id": "d2348c78-ad61-4773-8979-01fac330e297",
+      "memory": "Interested in introducing natural predators like ladybugs or lacewings",
+      "hash": "2f3c8a5747fc8e84ac689861b754dbbb",
+      "metadata": null,
+      "score": 0.15037022257825702,
+      "created_at": "2025-11-28T15:36:30.987149-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.018727868674605994
+    },
+    {
+      "id": "a72b0816-8073-4b0f-b26c-ea5d760e5eee",
+      "memory": "Looking for recommendations on hot chocolate mixes",
+      "hash": "d85bd23d81084415b4e122e5a68ee06d",
+      "metadata": null,
+      "score": 0.14196276152762155,
+      "created_at": "2025-11-28T15:41:31.327487-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.0006419271139097726
+    },
+    {
+      "id": "be852dad-649e-4553-bcd7-006d9be6bceb",
+      "memory": "Got a new road bike, a Cannondale Synapse, on April 15th",
+      "hash": "dc5b042f972bc44fd47e26b00f07ebad",
+      "metadata": null,
+      "score": 0.1418231017981125,
+      "created_at": "2025-11-28T15:42:58.246669-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.0003117631273943449
+    },
+    {
+      "id": "1373067c-0a59-46ec-bac6-fc942955d561",
+      "memory": "Interested in vegan cuisine",
+      "hash": "7dd468c3d69dd8f30e8e7c60d58961cc",
+      "metadata": null,
+      "score": 0.14279249613217054,
+      "created_at": "2025-11-28T15:40:37.244343-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.00022028457062096208
+    },
+    {
+      "id": "8dfcfb5e-4206-4e09-a219-29e50da15a4a",
+      "memory": "Wants assistant to respond only in English",
+      "hash": "b65190b3237b95d10183ba135ced0b75",
+      "metadata": null,
+      "score": 0.11698416687731164,
+      "created_at": "2025-11-28T15:43:32.454632-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.0001334325155694515
+    },
+    {
+      "id": "b65e5334-b8b8-4a18-9805-32972c994fb2",
+      "memory": "Recently got a skincare set from Drunk Elephant at the new Sephora store and is loving it",
+      "hash": "1b3e3577a2b463a129b319a038b280bd",
+      "metadata": null,
+      "score": 0.12103004562557909,
+      "created_at": "2025-11-28T15:38:38.241636-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_23",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2286,
+    "load_time": 1526.6989
+  }
+}

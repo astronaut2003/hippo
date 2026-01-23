@@ -1,0 +1,242 @@
+{
+  "sample_idx": 206,
+  "question_id": "ef9cf60a",
+  "question": "How much did I spend on gifts for my sister?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2026-01-14T00:21:42.318381",
+  "load_result": {
+    "total_sessions": 54,
+    "added_sessions": 54,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "9ebedf55-75d2-4895-8317-3263a827c4ca",
+      "memory": "Got sister a gift card to her favorite spa last time, which was $100, and she loved it",
+      "hash": "0bae5f973f912da43f2b20eba254fe29",
+      "metadata": null,
+      "score": 0.7471714054532703,
+      "created_at": "2026-01-13T08:42:20.132565-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.9999999990096532
+    },
+    {
+      "id": "efca859a-96c2-45aa-a27c-c24f7d581c88",
+      "memory": "Recently got sister a silver necklace with a small pendant from Tiffany's that cost around $200",
+      "hash": "65b42ed3e7b165ec03086861239f437d",
+      "metadata": null,
+      "score": 0.5943730321582027,
+      "created_at": "2026-01-13T08:26:52.372268-08:00",
+      "updated_at": "2026-01-13T08:42:19.316014-08:00",
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.972759044855039
+    },
+    {
+      "id": "217e4ec6-0ac9-4e25-ab1f-aabdf3ee65be",
+      "memory": "Budget for niece's gift is around $200",
+      "hash": "cc5aa83a1e633d03e195efdaed6f2a2b",
+      "metadata": null,
+      "score": 0.7421037176478359,
+      "created_at": "2026-01-13T08:26:52.358220-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.8632127038575713
+    },
+    {
+      "id": "a38016af-4471-425a-833c-516ce5a122d3",
+      "memory": "Budget for small gift is around $20-$50",
+      "hash": "e96a537d86eaf4d1337d4a952baf4961",
+      "metadata": null,
+      "score": 0.5968947037460894,
+      "created_at": "2026-01-13T08:42:20.177973-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.7117499429310289
+    },
+    {
+      "id": "04f170dc-7869-4bb9-849e-19b444d430f9",
+      "memory": "Trying to get ideas for sister's birthday gift next year",
+      "hash": "afcad9f77d4c9d0c20ae13618823dc34",
+      "metadata": null,
+      "score": 0.6012889163470938,
+      "created_at": "2026-01-13T08:42:20.058593-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.6525945698113935
+    },
+    {
+      "id": "22d703c1-f8fd-4324-ac2c-e9ec3dd242be",
+      "memory": "Trying to plan a gift for niece's upcoming birthday",
+      "hash": "48da3dd362eedce9629844b0d31139a4",
+      "metadata": null,
+      "score": 0.6022855019856082,
+      "created_at": "2026-01-13T08:26:52.337805-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.3319533744397427
+    },
+    {
+      "id": "0160f80d-2814-4ae8-b2ba-611d7d82e45a",
+      "memory": "Thinking of getting sister a spa day",
+      "hash": "4269ef841efa77b89264266f9eb7b57e",
+      "metadata": null,
+      "score": 0.46663045015617133,
+      "created_at": "2026-01-13T08:42:20.095587-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.29563460507434164
+    },
+    {
+      "id": "254d1783-9545-4295-bf8a-0fe5940ac7d7",
+      "memory": "Sister loves relaxing and pampering herself",
+      "hash": "cfc6940cab5699737842379584f1f94b",
+      "metadata": null,
+      "score": 0.4191218181645764,
+      "created_at": "2026-01-13T08:42:20.075405-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.22019171242521454
+    },
+    {
+      "id": "3050a439-f5b8-4565-961d-71a965a3d248",
+      "memory": "Likes the idea of personalized jewelry or a fun experience gift for niece",
+      "hash": "0b448f41ae0e60e3d2e24a6c7e776e2c",
+      "metadata": null,
+      "score": 0.4819311590469694,
+      "created_at": "2026-01-13T08:26:52.387608-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.1781367153983158
+    },
+    {
+      "id": "714e9a10-7094-48ce-b47f-5b870b1610fe",
+      "memory": "Considering including a personalized note or message with the gift",
+      "hash": "5ab3aada421e7a8964ed229a828934b7",
+      "metadata": null,
+      "score": 0.4264756069375416,
+      "created_at": "2026-01-13T08:42:20.241558-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.1579099842550485
+    },
+    {
+      "id": "29d9929d-9fd1-4c86-9628-eb83e7427413",
+      "memory": "Considering getting a gift box or bag to go along with the necklace",
+      "hash": "31e56024885c9c652b154823081279aa",
+      "metadata": null,
+      "score": 0.4756455394651624,
+      "created_at": "2026-01-13T08:26:52.515434-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.14293477968891555
+    },
+    {
+      "id": "1eb34efd-d1cf-4b33-aa24-914c34e2a361",
+      "memory": "Decided to go with a customized necklace with niece's name or initials",
+      "hash": "940eb988ca767929cfd71c1504e48f92",
+      "metadata": null,
+      "score": 0.41493639112871816,
+      "created_at": "2026-01-13T08:26:52.419674-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.10705386578475928
+    },
+    {
+      "id": "eeae60ce-2a3d-4df4-b707-2a3723433602",
+      "memory": "Sister likes to try out new things and experiment with different scents",
+      "hash": "1c58e33084514482ccd43e40854d3d6d",
+      "metadata": null,
+      "score": 0.39138839012152193,
+      "created_at": "2026-01-13T08:42:20.226062-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.09126027951636442
+    },
+    {
+      "id": "192c8bd5-8543-4d9a-975a-7a1fd9720721",
+      "memory": "Considering including a personalized message with the gift",
+      "hash": "7a5c1ee396b2784c3ea88e64c47ea2db",
+      "metadata": null,
+      "score": 0.4221355294228142,
+      "created_at": "2026-01-13T08:26:52.545802-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.053561925439487325
+    },
+    {
+      "id": "5caeaffa-03c1-4860-b30e-82800f34b9f1",
+      "memory": "Needs to restock on Luna's favorite toys",
+      "hash": "5e1019a53590d876db8fec004927e113",
+      "metadata": null,
+      "score": 0.27952764341410224,
+      "created_at": "2026-01-13T08:29:13.870760-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.028717405886676838
+    },
+    {
+      "id": "3c65c15e-e4e0-4457-9936-174d0ed732ba",
+      "memory": "Thinking of also getting a small gift to go along with the spa day",
+      "hash": "5efd0214c79c839f9960ae897361719a",
+      "metadata": null,
+      "score": 0.3507916931598821,
+      "created_at": "2026-01-13T08:42:20.148388-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.027008107323775964
+    },
+    {
+      "id": "c3859985-041f-4283-a680-9c79c6bcc106",
+      "memory": "Small gift should complement the relaxing vibe",
+      "hash": "f902d8823819113e0c4260aaea178450",
+      "metadata": null,
+      "score": 0.4251990077383878,
+      "created_at": "2026-01-13T08:42:20.162052-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.02439278040890757
+    },
+    {
+      "id": "d6d5693e-f4b5-43c9-8576-baa15fab0640",
+      "memory": "Decided to go with a gift set that includes a few different oils",
+      "hash": "1aebad45f94d847ba90f7d1bfe74480e",
+      "metadata": null,
+      "score": 0.45029272977187207,
+      "created_at": "2026-01-13T08:42:20.210897-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.022143151584190147
+    },
+    {
+      "id": "830765d0-01a6-4a83-8330-ebec330ea81e",
+      "memory": "Decided to go with Alex and Ani's gift wrapping service",
+      "hash": "9158931cf1e64e70d82a4396fc1902dd",
+      "metadata": null,
+      "score": 0.39119867384187984,
+      "created_at": "2026-01-13T08:26:52.530623-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.011958856450133103
+    },
+    {
+      "id": "d940fac2-698c-48a0-b642-eb871d5f0add",
+      "memory": "Interested in a package deal that includes flights, hotel, and some guided tours",
+      "hash": "1d1ce28714388ddef5ffe1849e2d95d9",
+      "metadata": null,
+      "score": 0.2813368180213972,
+      "created_at": "2026-01-13T08:34:26.095510-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_206",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1828,
+    "load_time": 1278.4452
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 140,
+  "question_id": "caf03d32",
+  "question": "I've been struggling with my slow cooker recipes. Any advice on getting better results?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T09:35:29.576456",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "721f9090-d825-46f6-b215-c47ddd04ded4",
+      "memory": "Wants to try more slow cooker recipes",
+      "hash": "3ed89c7961764ac756faf948f1751740",
+      "metadata": null,
+      "score": 0.8499990923044372,
+      "created_at": "2025-12-06T18:02:13.031734-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.999999999089569
+    },
+    {
+      "id": "51b4daf1-4511-444d-b44d-ca493598231c",
+      "memory": "Wants slow cooker recipes that are vegetarian or vegan",
+      "hash": "cccadb758a0538e4cc6b8a459b1bd4dc",
+      "metadata": null,
+      "score": 0.6610476245095311,
+      "created_at": "2025-12-06T18:02:13.054833-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.5022265353019578
+    },
+    {
+      "id": "8753e52a-a07b-49d8-856a-3fd73660d4c8",
+      "memory": "Recently figured out how to use the slow cooker and made a delicious beef stew",
+      "hash": "bdbf328e4db93fe0424b66ef41a687e0",
+      "metadata": null,
+      "score": 0.6045785375467454,
+      "created_at": "2025-12-06T18:02:13.012446-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.4273871149842905
+    },
+    {
+      "id": "46e47a8c-2455-4caf-a91e-b72529561f6c",
+      "memory": "Wants to try making a slow cooker yogurt with a cashew base",
+      "hash": "cf0eb32fbec4079e09d8426dbd7607ef",
+      "metadata": null,
+      "score": 0.4869803944749678,
+      "created_at": "2025-12-06T18:02:13.103234-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.3705502153018039
+    },
+    {
+      "id": "ad86c254-9060-4283-81e9-8484e16c3201",
+      "memory": "Planning a dinner party and needs help with recipes",
+      "hash": "2e04f3d433c801c3f4bb60225757bc82",
+      "metadata": null,
+      "score": 0.4447198978878367,
+      "created_at": "2025-12-06T17:56:19.991155-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.2646129115186468
+    },
+    {
+      "id": "ed33aec8-e2eb-461e-9392-adf2d9786550",
+      "memory": "Wants suggestions for a good ratio of guava to oatmeal and other ingredients to enhance flavor and nutritional value",
+      "hash": "83cc4dba7ad7b36a506d9068e44d82e4",
+      "metadata": null,
+      "score": 0.26122151447095987,
+      "created_at": "2025-12-06T17:37:30.369051-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.1659554882353257
+    },
+    {
+      "id": "7694d1dc-17aa-47b0-8cbb-9c927ef4943d",
+      "memory": "Trying to optimize morning routine",
+      "hash": "47b815b6cbcc1d0e8febac503cdccb49",
+      "metadata": null,
+      "score": 0.2511313125651572,
+      "created_at": "2025-12-06T17:53:15.131363-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.14779073423245523
+    },
+    {
+      "id": "53ff1cef-f73f-49de-bb31-bf924c504511",
+      "memory": "Has been trying to eat more plant-based meals lately",
+      "hash": "671314a1b53665d09f3dee4b3ffd76ef",
+      "metadata": null,
+      "score": 0.32985451747009903,
+      "created_at": "2025-12-06T18:02:13.086636-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.0801351220456922
+    },
+    {
+      "id": "c8bc4af9-7b32-4d62-ac6d-0708b19b41ba",
+      "memory": "Wants suggestions on how to incorporate guavas and durian into daily routine, like in smoothies or salads",
+      "hash": "251f00c93ca6629638bde16fb725b45a",
+      "metadata": null,
+      "score": 0.26500058407075683,
+      "created_at": "2025-12-06T17:37:30.341375-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.059258808999230896
+    },
+    {
+      "id": "d36f8745-90b1-4995-b6ba-fdc7e403cf8e",
+      "memory": "Looking for new coffee recipes that are low in caffeine",
+      "hash": "7f92ef8bb77ba26ab66041f5702c832b",
+      "metadata": null,
+      "score": 0.34189710128242184,
+      "created_at": "2025-12-06T17:53:15.150520-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.05221292310786367
+    },
+    {
+      "id": "96c7ddab-73ea-4369-9ee9-32f603f96ed3",
+      "memory": "Wants tips on how to soak and blend cashews to get the right consistency for yogurt",
+      "hash": "eaaed348f1512524e772d64e8cdd3e7d",
+      "metadata": null,
+      "score": 0.2858817532449241,
+      "created_at": "2025-12-06T18:02:13.118056-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.037653683060937956
+    },
+    {
+      "id": "88471f7e-ffef-4305-9dae-6dfdf2957132",
+      "memory": "Wants a personal meal planner",
+      "hash": "08d6c54e5949533154f65b1f936f0b6b",
+      "metadata": null,
+      "score": 0.27795253492270927,
+      "created_at": "2025-12-06T17:47:51.002641-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.015558687890370298
+    },
+    {
+      "id": "76320757-d977-4c54-8ccf-5489efa416d1",
+      "memory": "Looking for recommendations for camping food",
+      "hash": "384daea593c254b0b9ce57412e8a93e1",
+      "metadata": null,
+      "score": 0.29608021389562844,
+      "created_at": "2025-12-06T17:36:40.689562-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.0122018420452435
+    },
+    {
+      "id": "20db7226-d396-4fa4-9f70-0abd963134af",
+      "memory": "Tried cooking camping food for the first time during the Big Sur trip",
+      "hash": "c992f0bee1ef5e899056d80469149d42",
+      "metadata": null,
+      "score": 0.3907930735347433,
+      "created_at": "2025-12-06T17:36:40.707660-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.009125789730279138
+    },
+    {
+      "id": "3322eb79-8fb9-4493-af04-08e710c6d28b",
+      "memory": "Eyeing a new portable stove that's supposed to be more efficient and compact than the current one",
+      "hash": "1d34e67c727ba1d852dc34dc6d4bac43",
+      "metadata": null,
+      "score": 0.25872929372036224,
+      "created_at": "2025-12-06T17:36:40.858678-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.004181600867703473
+    },
+    {
+      "id": "dc0aaf31-c87a-41a5-83ae-104190850c81",
+      "memory": "Finds the previously provided restaurant and cafe options not very exciting",
+      "hash": "8014e1092c49c6311c118e2104899e68",
+      "metadata": null,
+      "score": 0.2536963285063861,
+      "created_at": "2025-12-06T17:58:09.830795-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.0017563053581093801
+    },
+    {
+      "id": "33784300-ef3a-49e7-bc40-2aab5dc2188b",
+      "memory": "Looking for healthy lunch ideas that are high in protein to support fitness goals",
+      "hash": "141eb2f1e17dcb5d8a67a78f87805fe4",
+      "metadata": null,
+      "score": 0.2681267397532683,
+      "created_at": "2025-12-06T17:37:30.286362-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.0010447707323576316
+    },
+    {
+      "id": "62c6c513-6280-4642-90b6-3c5db8acfd12",
+      "memory": "Plans to try using freeze-dried chicken strips as the treats because they are high-value, low-calorie, and aromatic",
+      "hash": "d1c9b2860702e81cfb361fd6f9f63fff",
+      "metadata": null,
+      "score": 0.35403625880778067,
+      "created_at": "2025-12-06T17:43:42.239574-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.0009591608310774334
+    },
+    {
+      "id": "6a02fa53-cd8e-4437-b453-f66a9bbb602f",
+      "memory": "Will try the 7-minute workout",
+      "hash": "0ebacf9eb00f505ebabd15df9f5d8028",
+      "metadata": null,
+      "score": 0.2509836930789219,
+      "created_at": "2025-12-06T17:53:15.221091-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.0004318698265392553
+    },
+    {
+      "id": "3d224d28-c62c-438b-a28d-bf6f91fd5ed4",
+      "memory": "Will start with 2-3 freeze-dried chicken strips and place them in plain sight to observe Luna's behavior",
+      "hash": "906aa220a1e9bd5a4436ca32ec05300a",
+      "metadata": null,
+      "score": 0.28272184997668065,
+      "created_at": "2025-12-06T17:43:42.267341-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_140",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2755,
+    "load_time": 1603.5741
+  }
+}

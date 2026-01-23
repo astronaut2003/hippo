@@ -1,0 +1,242 @@
+{
+  "sample_idx": 24,
+  "question_id": "21436231",
+  "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T08:01:33.132058",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "320cdaf1-8d55-4056-9948-a375fd4827c5",
+      "memory": "Caught 12 largemouth bass on last trip to Lake Michigan",
+      "hash": "bd64fa5e46b7131f806344199db591b2",
+      "metadata": null,
+      "score": 0.9026544341098915,
+      "created_at": "2025-11-28T16:04:21.277171-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.9999999994548456
+    },
+    {
+      "id": "721fe67f-a9cd-435f-84de-de57c30c0fc7",
+      "memory": "Has experience with fishing in Lake Michigan",
+      "hash": "b78b73a9b1028ca3eaa15ec8adb9f750",
+      "metadata": null,
+      "score": 0.6885533521218762,
+      "created_at": "2025-11-28T16:04:21.244316-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.6602144426611558
+    },
+    {
+      "id": "8c4f524e-ddd9-47ad-8bc2-45a9dabe651d",
+      "memory": "Planning a fishing trip to Lake Michigan with friends",
+      "hash": "50d0df51251294300ae5f15f8947e3f9",
+      "metadata": null,
+      "score": 0.648314652142725,
+      "created_at": "2025-11-28T16:04:21.216508-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.4618969161192119
+    },
+    {
+      "id": "aace976f-59a1-4117-9f17-28d8ccf999c5",
+      "memory": "Thinking of organizing a fly fishing trip to Montana or Colorado next summer",
+      "hash": "aab52e6083e521e1a15f540d65987814",
+      "metadata": null,
+      "score": 0.38227712488571614,
+      "created_at": "2025-11-28T16:04:21.295479-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.09838539949966696
+    },
+    {
+      "id": "f08083de-303a-4871-abc9-077828a2b3e3",
+      "memory": "Located in the Pacific Northwest",
+      "hash": "b2a20eac322f8f3d3f43947b76df511e",
+      "metadata": null,
+      "score": 0.24049856719856458,
+      "created_at": "2025-11-28T16:09:10.387681-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.010945655920265402
+    },
+    {
+      "id": "f5f11b09-c511-44ee-b05d-c934aad428e5",
+      "memory": "Thinking of taking a class to learn more about fly fishing, especially tying own flies",
+      "hash": "2b5db9dca8a584f77ed2cebe266451aa",
+      "metadata": null,
+      "score": 0.3279765420398184,
+      "created_at": "2025-11-28T16:04:21.312042-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.004517720258235641
+    },
+    {
+      "id": "493675c0-fb7b-45b5-8406-b6b2df11bba5",
+      "memory": "Thinking of restocking tackle box with size 2 hooks and chartreuse plastic worms",
+      "hash": "65a74db82497250dcde728439250de91",
+      "metadata": null,
+      "score": 0.3139239798416156,
+      "created_at": "2025-11-28T16:04:21.334305-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.0016581680389910643
+    },
+    {
+      "id": "50218799-e251-4ee5-9982-7506153403d8",
+      "memory": "Max is a big fan of playing fetch in the park",
+      "hash": "4b18f17d4f6a367238e801d4e3cc8809",
+      "metadata": null,
+      "score": 0.18731467292190399,
+      "created_at": "2025-11-28T16:09:10.339253-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.0013643727298941024
+    },
+    {
+      "id": "ffeec52f-dfe6-4c36-a7db-47eb90ab4d13",
+      "memory": "Thinking about checking out Rattlesnake Ridge Trail",
+      "hash": "d146b991a2e68965e424bca0e43f909a",
+      "metadata": null,
+      "score": 0.2202292472253103,
+      "created_at": "2025-11-28T16:09:10.403348-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.001279265152298681
+    },
+    {
+      "id": "06df7a6f-8e26-4e23-9f74-8a093d18eea4",
+      "memory": "Found that spinner lures worked better for trout than live bait",
+      "hash": "9e757c041703f0054bbece0a060cfa9c",
+      "metadata": null,
+      "score": 0.5023442741178842,
+      "created_at": "2025-11-28T16:04:21.260659-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.0012026319394852103
+    },
+    {
+      "id": "a89be1f8-72f0-400c-82f2-8d0bc8f084d5",
+      "memory": "Planning to try out the Fender Acoustic 40 and Fishman Loudbox Mini",
+      "hash": "50029834a6dd44500c8bf28626aaa92c",
+      "metadata": null,
+      "score": 0.26174615788492794,
+      "created_at": "2025-11-28T16:10:36.359464-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.0006632880115836207
+    },
+    {
+      "id": "85e40f42-d5ec-4e5d-a3e1-ceaf53cacd52",
+      "memory": "Has 'Blackfish' as one of my favorite documentaries",
+      "hash": "2b814e07a573b3511843cdb2da6882ef",
+      "metadata": null,
+      "score": 0.27801817111735,
+      "created_at": "2025-11-28T16:06:11.787298-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.000566274731319078
+    },
+    {
+      "id": "7edfb952-9969-4aec-8935-dd0b3fda5e2b",
+      "memory": "Asked to name 3 bands representative of 70s classic rock",
+      "hash": "165718c959e61d0c27e4c49d9d0b8e21",
+      "metadata": null,
+      "score": 0.17182198188320016,
+      "created_at": "2025-11-28T16:03:24.056766-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.0005245787769931599
+    },
+    {
+      "id": "da0a17af-df9d-4622-b7e4-24ddf96a597e",
+      "memory": "Thinking about getting a new guitar amp",
+      "hash": "a49759f3d938738dd17d6265cb968c3e",
+      "metadata": null,
+      "score": 0.23885723741214948,
+      "created_at": "2025-11-28T16:10:36.267386-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.0004913051974812051
+    },
+    {
+      "id": "261f2598-e37b-4aa1-bb1a-fbe4ae8ea381",
+      "memory": "Asked who is closest to Led Zeppelin today",
+      "hash": "e96ffc294ccc441a1566eb6c46bd52a6",
+      "metadata": null,
+      "score": 0.23901272249425884,
+      "created_at": "2025-11-28T16:03:24.087158-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.00038841705083408293
+    },
+    {
+      "id": "e0314306-51ee-41e2-8619-f613821ac534",
+      "memory": "Currently using Fender Mustang I V2 for practice",
+      "hash": "cbe44e16cc7e7f87a3643e900ea260bf",
+      "metadata": null,
+      "score": 0.1876146360686303,
+      "created_at": "2025-11-28T16:10:36.282985-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.00028448910482721214
+    },
+    {
+      "id": "5bb8d229-9885-4f1f-8788-995263436d0c",
+      "memory": "Wants to learn about 70s classic rock",
+      "hash": "4167a7ae84c9503383cd0a4ba9ae7a7d",
+      "metadata": null,
+      "score": 0.21512002918047107,
+      "created_at": "2025-11-28T16:03:24.025650-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.00027289534196601545
+    },
+    {
+      "id": "9e097484-5757-4573-94b8-bea32da829cc",
+      "memory": "Has been playing guitar for a bit but stopped for a while",
+      "hash": "34e163768dd2e0513d43eca62732426a",
+      "metadata": null,
+      "score": 0.2197238528190391,
+      "created_at": "2025-11-28T16:05:18.800109-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.0002676963451672725
+    },
+    {
+      "id": "f07cf66c-2118-4961-ab8b-13bf234ff4a8",
+      "memory": "The rangers' dining facility serves four meals a day",
+      "hash": "35e07734f47f5e79ed36e261ed74758e",
+      "metadata": null,
+      "score": 0.20028439620677332,
+      "created_at": "2025-11-28T16:23:18.203791-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.00019854968774399181
+    },
+    {
+      "id": "8780d2ba-05d1-4f3f-a092-b9ca6668572e",
+      "memory": "Max is good at sniffing out squirrels",
+      "hash": "5ebf867fc1a120cb2e478dfefe29f45f",
+      "metadata": null,
+      "score": 0.19031398068313038,
+      "created_at": "2025-11-28T16:09:10.323140-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_24",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2834,
+    "load_time": 1911.1066
+  }
+}

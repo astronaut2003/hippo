@@ -1,0 +1,242 @@
+{
+  "sample_idx": 77,
+  "question_id": "aae3761f",
+  "question": "How many hours in total did I spend driving to my three road trip destinations combined?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T08:22:24.840339",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "bf129446-81c9-44aa-916f-6f3a4b37b51b",
+      "memory": "It took four hours to drive to Outer Banks from their place",
+      "hash": "6094cd1d0be77fd7cf9f89cc4e489f05",
+      "metadata": null,
+      "score": 0.4500590578730431,
+      "created_at": "2025-11-30T16:24:32.409195-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.9999999985535227
+    },
+    {
+      "id": "0cade46a-40e5-4804-86eb-a4378d9cdb70",
+      "memory": "Drove for six hours to Washington D.C. recently",
+      "hash": "cc199f3c2c985462b131c851aafb8b7d",
+      "metadata": null,
+      "score": 0.48581062291548455,
+      "created_at": "2025-11-30T16:25:20.690339-08:00",
+      "updated_at": "2025-11-30T16:38:40.483855-08:00",
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.9979596960114929
+    },
+    {
+      "id": "0f821ab5-590b-41d6-9536-21da46b7d2f4",
+      "memory": "Trip length preference is around 7-10 days",
+      "hash": "691a71bd816cb80a435ea63c356f7d8e",
+      "metadata": null,
+      "score": 0.4646697095162937,
+      "created_at": "2025-11-30T16:38:40.547677-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.8454205089872529
+    },
+    {
+      "id": "fc10bbca-ccdd-44f2-ab19-82723c884bfb",
+      "memory": "Starting from hometown for road trip",
+      "hash": "aafcd87e9c7491f3596cba8b2613fc9d",
+      "metadata": null,
+      "score": 0.3782953070137805,
+      "created_at": "2025-11-30T16:38:40.512679-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.4530213797234341
+    },
+    {
+      "id": "3dec2d0b-4403-4416-afbc-44538d1e14b9",
+      "memory": "Thinking of stopping at scenic spots along the way to break up the drive",
+      "hash": "ca1da023e211c1a51b3c896110b6899a",
+      "metadata": null,
+      "score": 0.3432950512120399,
+      "created_at": "2025-11-30T16:24:32.501041-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.4206968515828259
+    },
+    {
+      "id": "0bd34b70-8b28-40e9-a264-8c382a92ef23",
+      "memory": "Comfortable with driving distance for road trips to coastal towns",
+      "hash": "5902f1f554a8914d49ee19204088cdc7",
+      "metadata": null,
+      "score": 0.4283300629808498,
+      "created_at": "2025-11-30T16:24:32.485571-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.37763868084762414
+    },
+    {
+      "id": "a4216819-d679-45c5-a703-98f483ca3f0a",
+      "memory": "Planning a new road trip and needs help with route planning",
+      "hash": "9d4780c941a8415c17923d44ad9522a8",
+      "metadata": null,
+      "score": 0.433497582260154,
+      "created_at": "2025-11-30T16:24:32.361053-08:00",
+      "updated_at": "2025-11-30T16:38:40.463703-08:00",
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.268457078146191
+    },
+    {
+      "id": "6241f8b7-7f47-460c-b0a0-b23600c06136",
+      "memory": "Had a recent trip to Outer Banks in North Carolina",
+      "hash": "674a76aaa87b3718835c26068936ab39",
+      "metadata": null,
+      "score": 0.2680754739215617,
+      "created_at": "2025-11-30T16:24:32.394181-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.07658283626911368
+    },
+    {
+      "id": "a236b299-78f9-4244-977f-26ea89bca034",
+      "memory": "Planning a solo trip, so a smaller grill should be sufficient",
+      "hash": "59c8c1aadb5d8da98bd95b93ed4e13d2",
+      "metadata": null,
+      "score": 0.2589574421064953,
+      "created_at": "2025-11-30T16:25:20.742928-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.06278580849140565
+    },
+    {
+      "id": "c1872a1a-0764-4c86-a3f4-d4ed14e41a65",
+      "memory": "Decided to go to Tybee Island",
+      "hash": "9571e4ea299a4e705476d2fe6710229d",
+      "metadata": null,
+      "score": 0.2625007285590282,
+      "created_at": "2025-11-30T16:24:32.454285-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.011491108620643052
+    },
+    {
+      "id": "d9fa0ee6-ffca-47f8-a79e-5a704dd007c2",
+      "memory": "Planning to stop at Topsail Island, NC for a quick lunch break and a short walk on the beach",
+      "hash": "2c0e4a54ea4c36c131bcb48f84d585b5",
+      "metadata": null,
+      "score": 0.3081134638957074,
+      "created_at": "2025-11-30T16:24:32.517983-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.006605859695762762
+    },
+    {
+      "id": "a17104cf-fc99-4cc5-ab9a-734e9288538a",
+      "memory": "Wants to add buffer time in the morning schedule in case of needing to make up for lost time",
+      "hash": "eaff01760acb688cffaf17ee77ce0ed3",
+      "metadata": null,
+      "score": 0.2525272721790717,
+      "created_at": "2025-11-30T16:27:30.886200-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.003429909901965989
+    },
+    {
+      "id": "8062ea6b-7d09-42ef-a681-c47dbe72ed4f",
+      "memory": "Planning a camping trip and needs advice on gear",
+      "hash": "ac673c04a94c8abef09e643f174c93f3",
+      "metadata": null,
+      "score": 0.27181969007167617,
+      "created_at": "2025-11-30T16:25:20.657342-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.00295716612646577
+    },
+    {
+      "id": "fea5c60b-4292-4080-8a0d-c7784d57f47b",
+      "memory": "Participated in \"Food Drive\" event",
+      "hash": "f6414325632181534858c83a96118477",
+      "metadata": null,
+      "score": 0.29596841416011543,
+      "created_at": "2025-11-30T16:40:52.291978-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.002435451227445686
+    },
+    {
+      "id": "2e779af8-4626-439d-9cab-cb3e09ba89a6",
+      "memory": "No specific road conditions or restrictions to consider",
+      "hash": "5b9543c9fffd232adc3a0998fe06c465",
+      "metadata": null,
+      "score": 0.33814858328214886,
+      "created_at": "2025-11-30T16:38:40.574580-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.002293503942651485
+    },
+    {
+      "id": "dfeede4d-4cbf-435c-91d3-637ddd850d6b",
+      "memory": "Thinks the Beartooth Highway looks amazing",
+      "hash": "2ece803da2c0f32e5f509290dd505a28",
+      "metadata": null,
+      "score": 0.2590192310977487,
+      "created_at": "2025-11-30T16:38:40.632941-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.001631773014412632
+    },
+    {
+      "id": "3d53621e-8b12-4d0e-8407-eea970879e56",
+      "memory": "Will be driving on Beartooth Highway in the summer",
+      "hash": "9d12a0b2145ef7a2a0e96d3d7eafce8b",
+      "metadata": null,
+      "score": 0.30648529787913203,
+      "created_at": "2025-11-30T16:38:40.648711-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.0013037354602429441
+    },
+    {
+      "id": "87286c6c-a017-4945-834f-99847fe608c7",
+      "memory": "Aims to take at least 10,000 steps a day",
+      "hash": "e931ad8bcc40bf469820c019885d78a5",
+      "metadata": null,
+      "score": 0.2653744706596075,
+      "created_at": "2025-11-30T16:41:47.430466-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.0012824916489131998
+    },
+    {
+      "id": "9b3c9b22-b9b8-4f20-9d0f-63f2c0e6d41a",
+      "memory": "Wants to aim for 2-3 focused work sessions per day",
+      "hash": "44061018141c75b55e63dbdb74fae5b2",
+      "metadata": null,
+      "score": 0.3515694143234514,
+      "created_at": "2025-11-30T16:27:30.816647-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.0009321067087992354
+    },
+    {
+      "id": "df9668fd-167b-466f-b00a-4ca90c92077b",
+      "memory": "Prefers 90 minutes duration for each focused work session",
+      "hash": "e454a464adb5a584cd745b3c8762b4a6",
+      "metadata": null,
+      "score": 0.3380138661905701,
+      "created_at": "2025-11-30T16:27:30.830207-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_77",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2558,
+    "load_time": 1547.8377
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_idx": 86,
+  "question_id": "gpt4_2f8be40d",
+  "question": "How many weddings have I attended in this year?",
+  "question_type": "multi-session",
+  "gold_answer": "I attended three weddings. The couples were Rachel and Mike, Emily and Sarah, and Jen and Tom.",
+  "question_date": "2023/10/15 (Sun) 23:47",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-01T12:22:40.176694",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 3300,
+  "gen_token_usage": {
+    "prompt_tokens": 844,
+    "answer_tokens": 10,
+    "total_tokens": 854,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 17,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.09523809523809525,
+      "rouge1_f": 0.07407407407407408,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.07407407407407408,
+      "semantic_similarity": 0.06501096487045288,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.06084656084656086,
+      "avg_semantic": 0.06501096487045288,
+      "overall_average": 0.06167944148182869
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.09523809523809525,
+    "rouge1_f": 0.07407407407407408,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.07407407407407408,
+    "semantic_similarity": 0.06501096487045288,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.06084656084656086,
+    "avg_semantic": 0.06501096487045288,
+    "overall_average": 0.06167944148182869
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1412.0518,
+    "retrieval_time": 1.2776,
+    "generation_time": 1.5806,
+    "evaluation_time": 1.3068,
+    "cleanup_time": 1.6686,
+    "total_time": 1417.8879
+  }
+}

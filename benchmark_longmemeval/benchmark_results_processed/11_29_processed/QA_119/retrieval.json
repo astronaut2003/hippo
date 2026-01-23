@@ -1,0 +1,242 @@
+{
+  "sample_idx": 119,
+  "question_id": "2b8f3739",
+  "question": "What is the total amount of money I earned from selling my products at the markets?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T01:31:38.583540",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "bbb123fb-e03c-4fbb-9afd-eda0e4464b57",
+      "memory": "Sold 15 jars of homemade jam at the Homemade and Handmade Market on May 29th, earning $225",
+      "hash": "fdae09eb7ff35dab78298bb8a83cbfa9",
+      "metadata": null,
+      "score": 0.4673235314476867,
+      "created_at": "2025-12-06T09:35:29.367823-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.9999999989211741
+    },
+    {
+      "id": "a3ec6c0a-49ca-48dc-a92d-c779e75f40ed",
+      "memory": "Earned a total of $120 from selling herbs",
+      "hash": "a3d2234b74ec091951aa50676e45eb0d",
+      "metadata": null,
+      "score": 0.5640543606509965,
+      "created_at": "2025-12-06T09:55:43.651576-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.753443883152085
+    },
+    {
+      "id": "fbd29197-656d-48ba-b18e-d5f7749b8783",
+      "memory": "Sold 12 bunches of fresh organic herbs at the farmers' market on May 15th",
+      "hash": "f6610a5dd0f18f2be75bf1a893174c9c",
+      "metadata": null,
+      "score": 0.40271890475957445,
+      "created_at": "2025-12-06T09:55:43.636782-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.2970868022150408
+    },
+    {
+      "id": "13836862-8420-4b84-bcc3-31b4fbe8e0ed",
+      "memory": "Considering selling the bike on Craigslist or Facebook Marketplace",
+      "hash": "bece8147f0a0f83e07470c58d80d1a01",
+      "metadata": null,
+      "score": 0.3342750417321237,
+      "created_at": "2025-12-06T09:36:06.655189-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.16203654375322898
+    },
+    {
+      "id": "a76dd435-d112-45a4-ab96-396a1cdc51df",
+      "memory": "Group project is analyzing a dataset from a retail company",
+      "hash": "81907fc52b98c10814f3d85a1afff3b9",
+      "metadata": null,
+      "score": 0.22863287655937092,
+      "created_at": "2025-12-06T09:32:45.399348-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.08140198093429872
+    },
+    {
+      "id": "6550b651-91dc-446c-a3ec-9d5cdff5864a",
+      "memory": "Considering participating in the Harvest Festival Market on October 2nd",
+      "hash": "1dbf03e37bd92c37903448cc117b1d6a",
+      "metadata": null,
+      "score": 0.2330465803392951,
+      "created_at": "2025-12-06T09:35:29.347721-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.039967781565262615
+    },
+    {
+      "id": "2d668096-0e03-4a94-829d-aefaa1bcf3ab",
+      "memory": "Wants to be competitive in the market",
+      "hash": "6390cd0def5ab7f54cdbec075c531cee",
+      "metadata": null,
+      "score": 0.28822650999840854,
+      "created_at": "2025-12-06T09:55:43.735409-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.039842879354234695
+    },
+    {
+      "id": "80e09bd5-d818-46c7-930f-3cede19c6497",
+      "memory": "Thinking of expanding product offerings for the upcoming Harvest Festival Market",
+      "hash": "78aa98c8785fde55d6fa5cc6a93ec0f8",
+      "metadata": null,
+      "score": 0.2548950416371123,
+      "created_at": "2025-12-06T09:55:43.589022-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.016122776592712478
+    },
+    {
+      "id": "7411951b-511b-4d04-9079-47e925461250",
+      "memory": "Had a successful season selling fresh organic herbs from backyard garden",
+      "hash": "e9bd66bf6913921722138eb24382731f",
+      "metadata": null,
+      "score": 0.28440842892510115,
+      "created_at": "2025-12-06T09:55:43.621897-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.004017550608261466
+    },
+    {
+      "id": "5060ac37-77f9-4f1e-8039-e48cfbe1ec09",
+      "memory": "Wants to research popular herb-based products to sell alongside fresh herbs",
+      "hash": "37836e9b81ed327a24c77bf76f5ff6fc",
+      "metadata": null,
+      "score": 0.34326888580567794,
+      "created_at": "2025-12-06T09:55:43.607124-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.002867503726160857
+    },
+    {
+      "id": "451a52bd-a80b-4131-af28-3d85add67376",
+      "memory": "Likes the idea of a bundle of products as a prize",
+      "hash": "4db05b6753778efcbffb4cc0676781a8",
+      "metadata": null,
+      "score": 0.2280206503201914,
+      "created_at": "2025-12-06T09:37:59.766960-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.002613995449412253
+    },
+    {
+      "id": "3f1c4332-b7fc-4724-865a-00a4acd1c549",
+      "memory": "Sales associate was super helpful",
+      "hash": "e34dacaea2ee212e945df3b72f740c69",
+      "metadata": null,
+      "score": 0.20645595536628325,
+      "created_at": "2025-12-06T09:43:49.622068-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.001997200758215872
+    },
+    {
+      "id": "de7cc262-dae6-45a2-90a6-bc4c17374ce2",
+      "memory": "Wants resources or tips on how to get started with formulating and manufacturing skincare products",
+      "hash": "9d9647b7894044b5893dcff54622ee06",
+      "metadata": null,
+      "score": 0.30717000079966406,
+      "created_at": "2025-12-06T09:55:43.764392-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.0016314451073062579
+    },
+    {
+      "id": "d3e81f9f-824d-4e8a-8ff0-04edd9d0a9d1",
+      "memory": "Thinking of asking Lush to include a free product or sample with every purchase made using a specific code or link",
+      "hash": "239cab46e7764561d62ff9951677afec",
+      "metadata": null,
+      "score": 0.19871899125129538,
+      "created_at": "2025-12-06T09:37:59.866236-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.00123276630357215
+    },
+    {
+      "id": "daa7b26d-23d1-45b3-a34e-281b86e4f6b7",
+      "memory": "Wants tips on how to price herbal teas and infused oils",
+      "hash": "6e256a4efed9673ad1498ff0893ffa40",
+      "metadata": null,
+      "score": 0.35218575501430077,
+      "created_at": "2025-12-06T09:55:43.719309-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.000773179667112728
+    },
+    {
+      "id": "6ba88fdd-c7d5-48e1-9fe2-e30d46b38d1c",
+      "memory": "Wants recommendations for online courses or resources on skincare product formulation and manufacturing",
+      "hash": "5d035ffc4d18ca329d702dc2698490f2",
+      "metadata": null,
+      "score": 0.2119382085232009,
+      "created_at": "2025-12-06T09:55:43.831316-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.0005925138659883168
+    },
+    {
+      "id": "cda3dffd-07c6-4f8e-9539-01b64dc53217",
+      "memory": "Thinking about expanding product line to include herbal skincare products like face creams and body lotions",
+      "hash": "5fa88fec0f138718b969c74886bb2f48",
+      "metadata": null,
+      "score": 0.26583980024458403,
+      "created_at": "2025-12-06T09:55:43.749886-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.0004721385884737603
+    },
+    {
+      "id": "4eccf175-fba6-4a84-adbd-6e1c08489a2e",
+      "memory": "Will look into good manufacturing practices and labeling regulations for skincare products",
+      "hash": "d91282fa69b4e95aab0c72d47bb517da",
+      "metadata": null,
+      "score": 0.2404609966123913,
+      "created_at": "2025-12-06T09:55:43.814386-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.0003920941731692091
+    },
+    {
+      "id": "1f26dc96-1fcf-4ecb-b563-38699582585d",
+      "memory": "Wants to know the additional cost for the gift box or bag",
+      "hash": "c63d58b79447bb0fdef57a8c31fdee45",
+      "metadata": null,
+      "score": 0.21796160510195572,
+      "created_at": "2025-12-06T09:47:12.699554-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.0003054651272997591
+    },
+    {
+      "id": "97dcbdbe-62d5-4b00-9e7b-6f60f550a977",
+      "memory": "Wants to keep the cost under $20 per class",
+      "hash": "fa6f88486b51a85e566d5023403bed31",
+      "metadata": null,
+      "score": 0.22549121082462864,
+      "created_at": "2025-12-06T09:33:32.683609-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_119",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1434,
+    "load_time": 1445.2708
+  }
+}

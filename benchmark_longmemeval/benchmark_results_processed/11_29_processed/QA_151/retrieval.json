@@ -1,0 +1,242 @@
+{
+  "sample_idx": 151,
+  "question_id": "75f70248",
+  "question": "I've been sneezing quite a bit lately. Do you think it might be my living room?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T14:33:28.334203",
+  "load_result": {
+    "total_sessions": 42,
+    "added_sessions": 42,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "de532914-2933-479d-8395-b8c7d2207988",
+      "memory": "Wants to keep living room dust-free, especially with a cat that sheds a lot",
+      "hash": "ef4c485dd33f675c45653278352610bf",
+      "metadata": null,
+      "score": 0.4230526295594299,
+      "created_at": "2025-12-06T22:48:02.417357-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.9999999965664453
+    },
+    {
+      "id": "7d96db6b-af63-4191-88bf-9f2d716fea46",
+      "memory": "Looking for good plants that can thrive in indoor conditions and help purify the air, especially in a room with a cat that sheds a lot",
+      "hash": "52571a2aea4d2129cc4d6b4af41801c9",
+      "metadata": null,
+      "score": 0.24746230687539905,
+      "created_at": "2025-12-06T22:48:02.513939-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.8909934387863867
+    },
+    {
+      "id": "0e4fdea4-f187-419a-9be6-a2bfab73b762",
+      "memory": "Thinking of getting a spider plant or a snake plant because they seem easy to care for and can thrive in indoor conditions, and are great at removing air pollutants",
+      "hash": "ce510daa8aeade2a842a98b350e09f31",
+      "metadata": null,
+      "score": 0.15460728533491375,
+      "created_at": "2025-12-06T22:48:02.532319-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.5321250654637482
+    },
+    {
+      "id": "00e0f81a-0432-45e3-957c-ef1ee632dd96",
+      "memory": "Having issues with TV, picture has been flickering lately",
+      "hash": "cd95b66ead7d65596c8a11f6005852fe",
+      "metadata": null,
+      "score": 0.16246963432629463,
+      "created_at": "2025-12-06T22:48:02.358994-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.3451970381492654
+    },
+    {
+      "id": "3fe7d76d-9d85-475f-a7cc-d928a2ee95dd",
+      "memory": "Has been taking a lot of photos lately",
+      "hash": "688fafd069679285463dcfe9622c23d5",
+      "metadata": null,
+      "score": 0.24587618809320277,
+      "created_at": "2025-12-06T22:43:32.161871-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.24807983652378998
+    },
+    {
+      "id": "2caa6bf7-93c3-4481-b8f8-f6d7870de1bb",
+      "memory": "Been trying to get back into reading more often",
+      "hash": "b4710d24950ce4b1cf36782e20012383",
+      "metadata": null,
+      "score": 0.10500395794732656,
+      "created_at": "2025-12-06T22:36:40.438730-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.04173275670465526
+    },
+    {
+      "id": "a9c696ba-80c4-4f7f-89bb-2d15217d24d5",
+      "memory": "Took over 200 photos of blooming flowers and trees at the nearby park last weekend",
+      "hash": "6cd83a809047a734a6ba17818fb97cd9",
+      "metadata": null,
+      "score": 0.09920340424609525,
+      "created_at": "2025-12-06T22:43:32.193546-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.009603760132688108
+    },
+    {
+      "id": "13b759c1-e4b3-454c-af83-c8d971b52b89",
+      "memory": "Thinking of using Adobe Lightroom to organize photos",
+      "hash": "3c1e1b67252bf8b366773463c49177fd",
+      "metadata": null,
+      "score": 0.15124612945076277,
+      "created_at": "2025-12-06T22:43:32.209914-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.00482136329890892
+    },
+    {
+      "id": "02aa3954-03f4-473b-be18-4e5f66dbfa64",
+      "memory": "Has a lot of travel photos",
+      "hash": "b1d125bc09bd05d8116c458b2ae7385c",
+      "metadata": null,
+      "score": 0.1008607252209267,
+      "created_at": "2025-12-06T22:43:32.252611-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.004022059589819224
+    },
+    {
+      "id": "bab6056b-3c09-4c88-9057-a6691879b342",
+      "memory": "Looking for a TV repair service in area",
+      "hash": "39cdffbab84a1135bac8d937215df90c",
+      "metadata": null,
+      "score": 0.1241840504484377,
+      "created_at": "2025-12-06T22:48:02.393444-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.0023553427199845055
+    },
+    {
+      "id": "903c0bfe-7fbd-4b89-a68e-9e20da4fdf80",
+      "memory": "Looking for good vacuum cleaners for pet owners, especially ones that can handle a lot of cat hair",
+      "hash": "56e116d46f2f06fd9435a2129c215bbd",
+      "metadata": null,
+      "score": 0.13391067498157358,
+      "created_at": "2025-12-06T22:48:02.496392-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.002154288857886565
+    },
+    {
+      "id": "3de4c929-6715-43f1-8d55-5ab2953b3405",
+      "memory": "Took Max to the vet for his vaccinations and check-up about a month ago",
+      "hash": "438372da6da23391048197aa7a044e56",
+      "metadata": null,
+      "score": 0.1530282585990216,
+      "created_at": "2025-12-06T22:40:22.207295-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.0020845421597972145
+    },
+    {
+      "id": "613ce47c-ca34-4bae-8e54-3c0262da9846",
+      "memory": "Wants a reminder when Max needs his flea and tick prevention medication next",
+      "hash": "9b4ecebb5a6235ceb16a719fb17a9902",
+      "metadata": null,
+      "score": 0.18457829623169972,
+      "created_at": "2025-12-06T22:40:22.132601-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.0019165606756665246
+    },
+    {
+      "id": "99a4235b-6b84-42d2-8d91-c902af9f5059",
+      "memory": "Has about a week's supply of Luna's wet food left",
+      "hash": "415af4087ec1368e695f3f3d4ec3156d",
+      "metadata": null,
+      "score": 0.09931785063742114,
+      "created_at": "2025-12-06T22:40:22.103275-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.001747924292962226
+    },
+    {
+      "id": "b3ea8377-d2b9-486c-8271-01e9dbb36211",
+      "memory": "The vet gave the flea and tick prevention medication for Max about a month ago",
+      "hash": "0906be6c1bd7112cbf89fab9a570bcb1",
+      "metadata": null,
+      "score": 0.12081490866828001,
+      "created_at": "2025-12-06T22:40:22.226608-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.0013173284808143564
+    },
+    {
+      "id": "808aa2b8-aa8b-4ff1-8408-3ec88d9270b3",
+      "memory": "Max needs the flea and tick prevention medication applied to him every month",
+      "hash": "b59e1d4d56e1b2a8bdaef343741e0800",
+      "metadata": null,
+      "score": 0.15545670481208973,
+      "created_at": "2025-12-06T22:40:22.173810-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.0011876585632397889
+    },
+    {
+      "id": "c8bfecf5-ed91-47a3-8639-cd2ce583b433",
+      "memory": "Started buying coffee every other day about three months ago",
+      "hash": "50f739bbd72bc279dce0814123a47715",
+      "metadata": null,
+      "score": 0.19122705354985908,
+      "created_at": "2025-12-06T22:41:20.857925-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.0008431819135214934
+    },
+    {
+      "id": "20e35d86-f7af-423a-aad0-f3708b53ed4a",
+      "memory": "Is worried spaced repetition might not be as effective for learning grammar rules as other methods",
+      "hash": "cf4f013168fc3b49ad791de1c99cd86f",
+      "metadata": null,
+      "score": 0.09804975019752667,
+      "created_at": "2025-12-06T22:35:44.127502-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.0007292295617135401
+    },
+    {
+      "id": "ce89c3b0-9285-4ac1-9701-19ca3440d25d",
+      "memory": "Noticed being most productive between 9:00 am and 11:00 am",
+      "hash": "08dbe74cbdf5972bcb5ee38227ecde40",
+      "metadata": null,
+      "score": 0.16315032060297266,
+      "created_at": "2025-12-06T22:34:57.888126-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.0006696337915151277
+    },
+    {
+      "id": "7860ffbf-dd03-46bf-a043-8c956fdec97d",
+      "memory": "Wants to make sure not to forget to apply flea and tick prevention medication to Max on time",
+      "hash": "4a56e8ba74037bb136cf7aaa14785fd2",
+      "metadata": null,
+      "score": 0.11240513585635437,
+      "created_at": "2025-12-06T22:40:22.155461-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_151",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4699,
+    "load_time": 1478.1839
+  }
+}

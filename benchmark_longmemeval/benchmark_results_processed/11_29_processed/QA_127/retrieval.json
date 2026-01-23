@@ -1,0 +1,242 @@
+{
+  "sample_idx": 127,
+  "question_id": "80ec1f4f_abs",
+  "question": "How many different museums or galleries did I visit in December?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T04:37:42.921398",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "4ea3c483-8dfd-49c4-89bf-367d5e375d4b",
+      "memory": "Remember recent visit to the Natural History Museum with niece and had a great time exploring the dinosaur exhibit",
+      "hash": "b4ff98b717e77b74d876d364f33cc2ce",
+      "metadata": null,
+      "score": 0.38582243182699816,
+      "created_at": "2025-12-06T12:58:43.242956-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.9999999945515331
+    },
+    {
+      "id": "b9d7b107-17d0-4a0f-8e3d-d6cd4013063e",
+      "memory": "Took niece to the Natural History Museum on 2/8 and she loved the dinosaur exhibit",
+      "hash": "544cda625b26346f77c11f91cd9cfe3d",
+      "metadata": null,
+      "score": 0.31621276435773804,
+      "created_at": "2025-12-06T12:58:43.130959-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.6113261670564306
+    },
+    {
+      "id": "eb04f8ee-ae46-4cda-85dc-7128dd2c715c",
+      "memory": "Recently visited the Natural History Museum with niece and thought about how art and science can intersect",
+      "hash": "01a5a491b63dda2e0802532800dc1a3d",
+      "metadata": null,
+      "score": 0.41025281836323957,
+      "created_at": "2025-12-06T12:58:43.195009-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.359695903646449
+    },
+    {
+      "id": "c66a8e11-7649-4418-87f0-b66f11b6340b",
+      "memory": "Interested in contemporary art",
+      "hash": "716057f3fa19d351a3d41be40caac8cb",
+      "metadata": null,
+      "score": 0.3427550095122991,
+      "created_at": "2025-12-06T12:42:04.523499-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.2531511510555375
+    },
+    {
+      "id": "1de14d8d-eff1-4cc7-89e3-242661bcc9b9",
+      "memory": "Would like to ask about upcoming art events or exhibitions in their area",
+      "hash": "646e458d2a50f2478d15bda74de8e947",
+      "metadata": null,
+      "score": 0.514447987778881,
+      "created_at": "2025-12-06T12:38:14.024308-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.20030095488034624
+    },
+    {
+      "id": "a6eb966f-08d7-4e8f-8985-f705d4b76f35",
+      "memory": "Recently got back into art after attending a guided workshop at the Modern Art Museum in January",
+      "hash": "736143bfc577ffc81a1bc6fbccc50c64",
+      "metadata": null,
+      "score": 0.4761636765726589,
+      "created_at": "2025-12-06T12:38:13.922714-08:00",
+      "updated_at": "2025-12-06T12:52:29.602625-08:00",
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.0959837545055257
+    },
+    {
+      "id": "61d0eebe-0534-4b35-8da7-b134477ba919",
+      "memory": "Thinking about attending an upcoming art exhibition at the local museum featuring a famous contemporary artist",
+      "hash": "b6b99759c00381d2a27821e2ec933d69",
+      "metadata": null,
+      "score": 0.4443632317920002,
+      "created_at": "2025-12-06T12:52:30.591047-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.07810202323317797
+    },
+    {
+      "id": "ec238007-db52-4c43-b5de-b8b85fc11adc",
+      "memory": "Will go with the Toyota Museum Tour",
+      "hash": "ac96a5b66f76a31cf9c7f5b2540fdd76",
+      "metadata": null,
+      "score": 0.47061660203977373,
+      "created_at": "2025-12-06T12:49:55.214120-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.07502075786312444
+    },
+    {
+      "id": "7f441e97-532f-438a-b806-327b029c4099",
+      "memory": "Recently met a curator, Rachel Lee, at the opening night of 'The Art Cube', a new contemporary art gallery",
+      "hash": "a9affe3fba1ad4cb465fdde4918b29dd",
+      "metadata": null,
+      "score": 0.39978394915762416,
+      "created_at": "2025-12-06T12:38:14.037586-08:00",
+      "updated_at": "2025-12-06T12:42:04.475636-08:00",
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.05647704816220198
+    },
+    {
+      "id": "9f2d4a87-07b4-4fd5-82cd-7bbab085d628",
+      "memory": "Wants to try contacting The Art Cube directly to ask about their event calendar or upcoming exhibitions",
+      "hash": "1baeb92d2d5f32d9426f8f4f76274f18",
+      "metadata": null,
+      "score": 0.3962156523953264,
+      "created_at": "2025-12-06T12:38:14.106872-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.02680337147535262
+    },
+    {
+      "id": "4cad4aaa-1d73-491d-aba0-3a5bf865691d",
+      "memory": "Interested in art pieces or exhibitions that focus on dinosaurs or natural history",
+      "hash": "2276744bae51694eefcaf8dccdbe478b",
+      "metadata": null,
+      "score": 0.38603716702016944,
+      "created_at": "2025-12-06T12:58:43.258222-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.02496396516675406
+    },
+    {
+      "id": "4470afe2-47c8-4747-ae9c-feb4c46283d1",
+      "memory": "Wonders if The Art Cube might have a website or social media page where they can find more information",
+      "hash": "651cf68e98070bcae51c63661aea60a1",
+      "metadata": null,
+      "score": 0.33864771452719666,
+      "created_at": "2025-12-06T12:38:14.121555-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.0140989973947778
+    },
+    {
+      "id": "dc080075-89c2-4752-b5f4-9c79616e234e",
+      "memory": "Must have gotten information about the exhibition and gallery from Rachel Lee or the gallery's promotional materials",
+      "hash": "93038f8f33cb691029a8d18719d7a564",
+      "metadata": null,
+      "score": 0.45184437302811215,
+      "created_at": "2025-12-06T12:38:14.092407-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.011016692812120546
+    },
+    {
+      "id": "53a36add-b6d4-472f-9edc-77170715ecba",
+      "memory": "Might attend another event at 'The Art Cube' soon",
+      "hash": "cd5495f2dd39338ccbf7125a2c7eb21b",
+      "metadata": null,
+      "score": 0.3513460863062905,
+      "created_at": "2025-12-06T12:42:04.555600-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.009632461623954848
+    },
+    {
+      "id": "099d3667-ef67-410f-ba9f-7e62f123646d",
+      "memory": "Rachel Lee mentioned some upcoming exhibitions and events they are interested in attending",
+      "hash": "d1d68ca4b8ac3e9263b6a9fba0cba372",
+      "metadata": null,
+      "score": 0.32776342018631244,
+      "created_at": "2025-12-06T12:38:14.050551-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.008025319332289494
+    },
+    {
+      "id": "ba4d6cbd-197d-48d0-ab4d-138c1f666b76",
+      "memory": "Wants to connect with other art enthusiasts and learn from their experiences",
+      "hash": "7c00b64a2a5767da470e6ce3b57903c4",
+      "metadata": null,
+      "score": 0.3074726226942032,
+      "created_at": "2025-12-06T12:42:04.590542-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.007193429643005228
+    },
+    {
+      "id": "83c711e3-2df4-44bc-a26b-bba33cea1df4",
+      "memory": "Looking for art supply stores in the city",
+      "hash": "ab1e4174dc4ab06aa406d117b3d8b759",
+      "metadata": null,
+      "score": 0.3952357548310005,
+      "created_at": "2025-12-06T12:58:43.088269-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.005283356877353161
+    },
+    {
+      "id": "c180393b-deb3-4cda-8213-f43aa2ae45c1",
+      "memory": "Interested in street art",
+      "hash": "b4a84a1aba4c8761906ba7268a5c1ae7",
+      "metadata": null,
+      "score": 0.33901125454191267,
+      "created_at": "2025-12-06T12:42:04.538290-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.002932657967720421
+    },
+    {
+      "id": "61ffc47e-84e9-4c30-a326-9b665d1177c6",
+      "memory": "Wants to find more information about The Art Cube's event calendar or contact information",
+      "hash": "cf1eefcb77ed4fa52c00756f5292c9b6",
+      "metadata": null,
+      "score": 0.34861633172031314,
+      "created_at": "2025-12-06T12:38:14.064929-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.0026572666277325007
+    },
+    {
+      "id": "2de5838a-1b6d-4531-832b-564e7b427be8",
+      "memory": "Has heard great things about the exhibition",
+      "hash": "e2b4e1ba6fe3979725f25fb885979c42",
+      "metadata": null,
+      "score": 0.41804036120313715,
+      "created_at": "2025-12-06T12:52:30.608898-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_127",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2193,
+    "load_time": 1423.6265
+  }
+}

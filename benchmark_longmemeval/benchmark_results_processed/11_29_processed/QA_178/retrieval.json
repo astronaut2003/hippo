@@ -1,0 +1,242 @@
+{
+  "sample_idx": 178,
+  "question_id": "60036106",
+  "question": "What was the total number of people reached by my Facebook ad campaign and Instagram influencer collaboration?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T20:20:50.498837",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "13dd3f6a-c692-4956-bb03-700e5aa5a806",
+      "memory": "Previous Facebook ad campaign reached around 2,000 people and resulted in 50 clicks to website",
+      "hash": "25288062402dfa6118a8384b71e770dc",
+      "metadata": null,
+      "score": 0.7040508223767579,
+      "created_at": "2025-12-08T04:43:30.356163-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.9999999991082908
+    },
+    {
+      "id": "188b1ec7-9944-487b-93f2-42079748d766",
+      "memory": "Recently collaborated with an influencer who promoted product to her 10,000 followers, and it was a great success",
+      "hash": "77667e1c6e2cf7152dc45943bd50ac2c",
+      "metadata": null,
+      "score": 0.5863867908158753,
+      "created_at": "2025-12-08T04:43:30.153005-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.6243031381113001
+    },
+    {
+      "id": "0479c8c1-4af7-47bf-a083-27a1eed27746",
+      "memory": "Planning to run another Facebook ad campaign soon",
+      "hash": "0dd64e30218250cd45829782d5e605d7",
+      "metadata": null,
+      "score": 0.5102006981613391,
+      "created_at": "2025-12-08T04:43:30.319019-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.360852216306725
+    },
+    {
+      "id": "b7f7db5e-723a-4cae-b276-cf82000d4ee1",
+      "memory": "Trying to improve Instagram engagement",
+      "hash": "47db65aec65029d4a39ef21efe5951e1",
+      "metadata": null,
+      "score": 0.43913185497893903,
+      "created_at": "2025-12-08T04:43:30.098094-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.20892577819531158
+    },
+    {
+      "id": "1cd426ce-91b5-4d83-875e-babffb1a35a5",
+      "memory": "Around 50 people voted in the poll, which was a great response",
+      "hash": "4ba3dc172f94ce7cac55c470bf79a7d6",
+      "metadata": null,
+      "score": 0.2991598031307345,
+      "created_at": "2025-12-08T04:43:30.303026-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.1260463829555384
+    },
+    {
+      "id": "8e37a545-394a-4b40-a0db-55c6f44e6a48",
+      "memory": "Has been using Instagram stories to give followers a sneak peek into production process, and to ask for their feedback on new products",
+      "hash": "041e85a2416edfb7dce99d93e11aa590",
+      "metadata": null,
+      "score": 0.3866678737954725,
+      "created_at": "2025-12-08T04:43:30.270417-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.027311108388449943
+    },
+    {
+      "id": "22e4a471-0e1f-4946-ad33-babe9b458b99",
+      "memory": "Thinking of inviting around 8-10 people, including Michael and Sarah",
+      "hash": "ca38b3650afd2ce4ce81d61412d0bd99",
+      "metadata": null,
+      "score": 0.2758932449467678,
+      "created_at": "2025-12-08T04:35:06.924366-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.026572280810329484
+    },
+    {
+      "id": "d8e1b25d-de9e-44d1-822e-e1f5d7ba7dae",
+      "memory": "Wants to add a column to track the method of communication used to follow up with each person",
+      "hash": "0b77acd1d99880d0a3ffd56b3d714578",
+      "metadata": null,
+      "score": 0.30373833916329934,
+      "created_at": "2025-12-08T04:38:00.030953-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.01666197355072733
+    },
+    {
+      "id": "a9021bc3-bccf-4a8b-9ce0-9d7d18dc3e00",
+      "memory": "Wants to add a column to track the location where each person was met",
+      "hash": "fe7adf920d7e615e0611a32eefdf927d",
+      "metadata": null,
+      "score": 0.2567197348012849,
+      "created_at": "2025-12-08T04:38:00.014385-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.0060338435946570785
+    },
+    {
+      "id": "1659f3e5-4784-44e6-85e5-a0355a366156",
+      "memory": "Has been experimenting with polls, like one last week where followers were asked to vote for their favorite product design",
+      "hash": "56a8d6440e04b189395f421b8c87864c",
+      "metadata": null,
+      "score": 0.284334522476558,
+      "created_at": "2025-12-08T04:43:30.285710-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.005797177256039534
+    },
+    {
+      "id": "261f1369-a738-4c04-b4d3-41850bbffae7",
+      "memory": "Sharing some of the bounty with neighbors and friends",
+      "hash": "ccd0b6346458a82b4dcffbcb9eadf891",
+      "metadata": null,
+      "score": 0.23138052967579925,
+      "created_at": "2025-12-08T04:24:37.217488-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.004417148027478443
+    },
+    {
+      "id": "bf4ebad0-5ba9-427e-8f0c-7cacdd97ea17",
+      "memory": "Will start working on personal statement and reaching out to potential recommenders",
+      "hash": "0536c4a63867cf617726571128f41fd6",
+      "metadata": null,
+      "score": 0.2511347900649556,
+      "created_at": "2025-12-08T04:44:06.026824-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.004074351760512103
+    },
+    {
+      "id": "06c3c518-ff83-4816-84a3-71de4a1a3fab",
+      "memory": "Would like to target people who have shown interest in similar products",
+      "hash": "50287fbc513d5c507f181c1cbcad85d4",
+      "metadata": null,
+      "score": 0.3098174244221077,
+      "created_at": "2025-12-08T04:43:30.338484-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.002414285789921701
+    },
+    {
+      "id": "0671c0ce-bca5-41db-be7a-0161edcc5dff",
+      "memory": "Wants to organize contacts from recent conversations with people from different backgrounds and industries",
+      "hash": "ac1482230b4978b4e6470de88932e0dc",
+      "metadata": null,
+      "score": 0.2074059177561428,
+      "created_at": "2025-12-08T04:37:59.931988-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.00175879741835719
+    },
+    {
+      "id": "4c2bf997-7254-4b49-bf9c-29eac3f93e06",
+      "memory": "Has taken four trips in the past three months",
+      "hash": "d20df86781d424de2c79781a4d7f34b8",
+      "metadata": null,
+      "score": 0.19014199113513797,
+      "created_at": "2025-12-08T04:28:36.009447-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.0011002476065518482
+    },
+    {
+      "id": "7e564b9f-60c1-4da1-96ef-34edb556a053",
+      "memory": "Wants information on the percentage of women in the workforce",
+      "hash": "df7b93e997fa84469051f17e4df7da78",
+      "metadata": null,
+      "score": 0.1827387298626667,
+      "created_at": "2025-12-08T04:22:55.829545-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.0007509032590703987
+    },
+    {
+      "id": "559a3d12-8384-4a18-902d-ff239a2cfa1d",
+      "memory": "On last trip to Paris, packed a lot of clothes but only wore 2 shirts, 2 pairs of pants, and 1 dress the entire trip",
+      "hash": "92a416d76896c0749e4d6d6b37129a7b",
+      "metadata": null,
+      "score": 0.21175469095614974,
+      "created_at": "2025-12-08T04:23:44.022364-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.00048778947837234513
+    },
+    {
+      "id": "64e653fd-dec1-44e8-ac11-45475baff840",
+      "memory": "Has ordered from Uber Eats at least 3 times a week for the past month",
+      "hash": "cebae746791af2cfbaba479846983c8e",
+      "metadata": null,
+      "score": 0.20266104827576653,
+      "created_at": "2025-12-08T04:33:47.329845-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.00046040659621824904
+    },
+    {
+      "id": "9c478ebd-ecc0-4f80-8941-a64bd0b6df02",
+      "memory": "Target audience is young adults who are interested in unique accessories",
+      "hash": "cc54cc86ddcdddff00bcfe9621a79df0",
+      "metadata": null,
+      "score": 0.24630606515865047,
+      "created_at": "2025-12-08T04:43:30.233509-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.0003461128272272393
+    },
+    {
+      "id": "50a50d69-0a75-4d96-912e-0081fd08ccd7",
+      "memory": "Wants to reconnect with old friends, like Michael and Sarah, who haven't been seen in months",
+      "hash": "d9daf196e1dc90c625ae2428a785db08",
+      "metadata": null,
+      "score": 0.19126013965153693,
+      "created_at": "2025-12-08T04:35:06.906621-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_178",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4568,
+    "load_time": 1458.9953
+  }
+}

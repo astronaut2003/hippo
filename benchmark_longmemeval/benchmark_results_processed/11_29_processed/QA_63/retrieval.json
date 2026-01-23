@@ -1,0 +1,242 @@
+{
+  "sample_idx": 63,
+  "question_id": "a82c026e",
+  "question": "What game did I finally beat last weekend?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T03:35:26.283417",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "d9683e7f-62ae-4bbc-8b9c-bee886299dc1",
+      "memory": "Beat the last boss in the Dark Souls 3 DLC last weekend after weeks of trying",
+      "hash": "2e7cd168e488937260fb1f7b8effecf3",
+      "metadata": null,
+      "score": 0.48427575165476916,
+      "created_at": "2025-11-30T11:47:55.026618-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.9999999991070425
+    },
+    {
+      "id": "51d534d2-dc1d-4951-b40a-eb20e5da174c",
+      "memory": "Attended a Lakers game at the Staples Center in LA with coworkers earlier this month",
+      "hash": "c2fd4f6e78f3298daade210e329c0115",
+      "metadata": null,
+      "score": 0.23647931426148067,
+      "created_at": "2025-11-30T11:49:45.006336-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.27566862039050444
+    },
+    {
+      "id": "dedff6ca-9e61-474f-9b2e-4dc4d4d751b4",
+      "memory": "Loves the sense of accomplishment when defeating a tough boss or overcoming a difficult section in Dark Souls 3",
+      "hash": "73270c12f970c9447a76e2c4742e2d2c",
+      "metadata": null,
+      "score": 0.2629792685852774,
+      "created_at": "2025-11-30T11:47:55.041850-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.25621565314651396
+    },
+    {
+      "id": "e8482f2f-0835-40d4-a6f0-d13c05c53dcc",
+      "memory": "Watched the Lakers take on the Chicago Bulls and win 114-112",
+      "hash": "76b213b6abb0f63f0685c0e9a06456d1",
+      "metadata": null,
+      "score": 0.2932054288281635,
+      "created_at": "2025-11-30T11:49:45.023126-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.25064752857827094
+    },
+    {
+      "id": "0527a34b-7e4f-49c0-9ae0-b434f5f3ec75",
+      "memory": "Drove the Blue Ridge Parkway last weekend and it was amazing",
+      "hash": "e33db44bc544b20f53196bbd11e2c8ec",
+      "metadata": null,
+      "score": 0.22401694960739396,
+      "created_at": "2025-11-30T11:43:00.377844-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.10661674775487237
+    },
+    {
+      "id": "4ad60d10-de3c-40d5-b5ae-ccc92853a615",
+      "memory": "Soccer games are always on Sundays, starting at 9 am and ending by 11 am",
+      "hash": "ffcc34aab869ca046fa16d764c1c6301",
+      "metadata": null,
+      "score": 0.25992707903838974,
+      "created_at": "2025-11-30T11:47:07.202906-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.0712937951906393
+    },
+    {
+      "id": "3839b4d2-89c0-47f2-a1d1-5587fd313e3b",
+      "memory": "Tried surfing for the first time and managed to catch a few waves but also wiped out a lot",
+      "hash": "c843e2112fb447fb27cff5bf6f219a4c",
+      "metadata": null,
+      "score": 0.21753599938757012,
+      "created_at": "2025-11-30T11:43:00.505936-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.0636431911822829
+    },
+    {
+      "id": "2ac4107d-ca88-4982-9ff1-22869fe4eebf",
+      "memory": "Started making plans with friends to go to Governors Ball together",
+      "hash": "35592882d49b7a746768b596c5c7ac59",
+      "metadata": null,
+      "score": 0.16885638926900892,
+      "created_at": "2025-11-30T11:39:29.736971-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.029056779252610267
+    },
+    {
+      "id": "a4db88e2-ffc6-422a-a87f-6133d5e077e1",
+      "memory": "Has played 8 games of soccer in the recreational league",
+      "hash": "fb3eb1f3725858a2b9873d1bf14882ac",
+      "metadata": null,
+      "score": 0.1893832077924409,
+      "created_at": "2025-11-30T11:47:07.393132-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.02673466224218203
+    },
+    {
+      "id": "2705adc9-261a-436e-906a-f845c325f3b0",
+      "memory": "Discovered 'Electric' by Alina Baraz feat. Khalid last week",
+      "hash": "620f364f0781387ddfc5ec5baff431fe",
+      "metadata": null,
+      "score": 0.1834253038055874,
+      "created_at": "2025-11-30T11:39:29.614782-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.01662389840126507
+    },
+    {
+      "id": "b934b589-09e1-4d86-8554-4fbcee3d6e3b",
+      "memory": "Was impressed by LeBron James' dunk in the fourth quarter",
+      "hash": "00dffeeb4d5f8a71ddc8e2d93d3ade5f",
+      "metadata": null,
+      "score": 0.16238008022954428,
+      "created_at": "2025-11-30T11:49:45.037517-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.005011269531893061
+    },
+    {
+      "id": "e4cc3a48-22b5-4086-a4ea-29de68587fd5",
+      "memory": "The Strokes are headlining one of the nights at Governors Ball",
+      "hash": "4becde8383b7638d0294f83b2280b846",
+      "metadata": null,
+      "score": 0.21926682367140105,
+      "created_at": "2025-11-30T11:39:29.722521-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.003310302641534634
+    },
+    {
+      "id": "e57ccc1c-5c32-4365-88fd-dc5b84743508",
+      "memory": "Stopped at a seafood restaurant in Nags Head and had a huge plate of fish and chips",
+      "hash": "4146c2643be533178eae3b2fb7b528be",
+      "metadata": null,
+      "score": 0.22791651516797573,
+      "created_at": "2025-11-30T11:43:00.520471-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.0015067190943782742
+    },
+    {
+      "id": "f0684a7f-99ef-4cf0-90cf-572d841663da",
+      "memory": "Drove to the Cape Hatteras National Seashore and spent the day surfing and swimming",
+      "hash": "0ffc2024499a17f4b8532cadee353953",
+      "metadata": null,
+      "score": 0.23907901148122715,
+      "created_at": "2025-11-30T11:43:00.492840-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.0012292709052930757
+    },
+    {
+      "id": "b15b385c-c10b-4f98-8120-1354f92de1f0",
+      "memory": "Drove down on a Friday evening and stopped at a hotel in Elizabeth City for the night",
+      "hash": "0d63aac20fec2f3d3273fbf10b155498",
+      "metadata": null,
+      "score": 0.25333973885595296,
+      "created_at": "2025-11-30T11:43:00.478669-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.001019609321030412
+    },
+    {
+      "id": "d83ac726-5bc8-4696-a42e-a19c0206e152",
+      "memory": "Has been taking tennis lessons with Alex",
+      "hash": "bb5b3a6850b194c7b0d0f7c17ab48fbd",
+      "metadata": null,
+      "score": 0.19415624473530943,
+      "created_at": "2025-11-30T11:47:07.407975-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.0007625993042535153
+    },
+    {
+      "id": "63576ce9-4d69-4d3b-9b98-24f5d85bc549",
+      "memory": "Wakes up around 7:40 am",
+      "hash": "6b8bc5e8b26ed00f2c159b0aac6a2f16",
+      "metadata": null,
+      "score": 0.15670695002321983,
+      "created_at": "2025-11-30T11:37:21.986180-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.000761407077535531
+    },
+    {
+      "id": "9f1e54c8-7fb6-4a3e-abaa-488d4c38e79f",
+      "memory": "Focuses on cleaning the kitchen on Wednesdays",
+      "hash": "98398b8f26fdd6fe90cbeba2748311bc",
+      "metadata": null,
+      "score": 0.20047571692832772,
+      "created_at": "2025-11-30T11:44:37.298601-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.0006853600447383909
+    },
+    {
+      "id": "6b261b23-91a5-4abc-adcb-19f6a03b4b4f",
+      "memory": "Got the duffel bag back from brother who borrowed it a few weeks ago",
+      "hash": "5447858ea56d8a25ed6c3c1bf839d426",
+      "metadata": null,
+      "score": 0.22843220662527086,
+      "created_at": "2025-11-30T11:43:39.751527-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.0002789810520083212
+    },
+    {
+      "id": "f55350eb-8845-48ff-bf8b-455bea5d425b",
+      "memory": "Wants to dedicate 3-4 days a week to running, with one longer run on the weekends",
+      "hash": "2060e7fa00bfc31f77cacf8922b3f07b",
+      "metadata": null,
+      "score": 0.15665106900888032,
+      "created_at": "2025-11-30T11:47:07.240372-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_63",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3199,
+    "load_time": 1021.1672
+  }
+}

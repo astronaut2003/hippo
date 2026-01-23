@@ -1,0 +1,242 @@
+{
+  "sample_idx": 60,
+  "question_id": "c14c00dd",
+  "question": "What brand of shampoo do I currently use?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T02:27:14.117256",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "41f8ebbc-e906-4d55-a2f8-1508225ca5f7",
+      "memory": "Has been using a lavender scented shampoo from Trader Joe's that is doing wonders for hair",
+      "hash": "754d762f76c21e0f4b04b8d5787d3354",
+      "metadata": null,
+      "score": 0.5521059604512972,
+      "created_at": "2025-11-30T10:29:32.799725-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.999999998737785
+    },
+    {
+      "id": "a2cfb229-2ffd-47f0-a7fc-ca88e6e5c38c",
+      "memory": "Planning to buy a new skincare set from Sephora",
+      "hash": "73400624f64b6be311a2f137fee07082",
+      "metadata": null,
+      "score": 0.26663553182084576,
+      "created_at": "2025-11-30T10:41:15.713939-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.2136645659474346
+    },
+    {
+      "id": "7ccc1e0e-eb8e-48f2-937e-ec4305bc2453",
+      "memory": "Has been eyeing Drunk Elephant Moisturizing Cream",
+      "hash": "4cb1e6f7ffb33c11ebc7cc7ac2882517",
+      "metadata": null,
+      "score": 0.2326569050584923,
+      "created_at": "2025-11-30T10:41:15.808272-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.03370561859176763
+    },
+    {
+      "id": "b6e2d01f-dfeb-4385-8568-bd832acc6814",
+      "memory": "Considering offering a free reusable bag with purchase of bamboo utensil set and bottle of eco-friendly all-purpose cleaner from sister's company",
+      "hash": "a1236e12738ba02fb0971086bd348ed2",
+      "metadata": null,
+      "score": 0.22183952377843016,
+      "created_at": "2025-11-30T10:39:04.237538-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.009618259694714807
+    },
+    {
+      "id": "b7851aa0-f477-43e7-9856-d269773ec747",
+      "memory": "Has been using a sweet and smoky rub but wants to experiment with new flavors",
+      "hash": "526682d63dd03bd583b860f58a33ca82",
+      "metadata": null,
+      "score": 0.2733855540680497,
+      "created_at": "2025-11-30T10:41:56.952708-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.00310673772525305
+    },
+    {
+      "id": "947d5b1f-0528-4b66-95c0-e747c135ec1f",
+      "memory": "Got a good deal on wireless headphones on Amazon three weeks ago",
+      "hash": "27deb2bb6ae75381bad228b0c24b154a",
+      "metadata": null,
+      "score": 0.19870608308059123,
+      "created_at": "2025-11-30T10:41:15.761317-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.002244256582960125
+    },
+    {
+      "id": "062c55e5-db78-4b68-b824-33b163a1ec87",
+      "memory": "Has been using a loofah but is open to trying new exfoliating gloves or scrubbers",
+      "hash": "a0561ec384300bd16dcf800715eef217",
+      "metadata": null,
+      "score": 0.2885478017363933,
+      "created_at": "2025-11-30T10:29:32.787512-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.002145790487440849
+    },
+    {
+      "id": "25221365-76cb-4526-af10-00bcb07b9e67",
+      "memory": "Undecided between wireless earbuds with noise cancellation or more affordable options",
+      "hash": "3941c10ad7c0d742ce71eb057725a9f1",
+      "metadata": null,
+      "score": 0.20589293699645078,
+      "created_at": "2025-11-30T10:34:53.832521-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.0020781401870963094
+    },
+    {
+      "id": "6a20d57b-7c85-469b-b557-36b8acad5034",
+      "memory": "Has been using apple wood but wants to try other options for smoky flavor",
+      "hash": "f2b2a94de59fe650ccfaa042d32f6c58",
+      "metadata": null,
+      "score": 0.22549545256719852,
+      "created_at": "2025-11-30T10:41:56.997155-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.002022647680941803
+    },
+    {
+      "id": "8fed09f2-8a2f-447d-880e-4dee54d4d339",
+      "memory": "Got back from the Earth Day Market at the park with sister who sells eco-friendly cleaning products",
+      "hash": "690640cf6afe8a4be7e3a703a4c9bc04",
+      "metadata": null,
+      "score": 0.25613363506712156,
+      "created_at": "2025-11-30T10:39:04.090390-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.0019865354209714086
+    },
+    {
+      "id": "27de8c0c-b9bb-4f82-b595-c4a64fa48aad",
+      "memory": "Wants tips on choosing a statement light fixture and specific recommendations",
+      "hash": "d5c09ed13373bf9e882e96d065c717a3",
+      "metadata": null,
+      "score": 0.21971198148020374,
+      "created_at": "2025-11-30T10:49:38.364725-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.0019468119350039745
+    },
+    {
+      "id": "3d75a10d-e06a-4de0-b33f-304b8d58496b",
+      "memory": "Has been using a refillable water bottle on bathroom counter",
+      "hash": "4797037177064c66e7206b0bd5f92db7",
+      "metadata": null,
+      "score": 0.22799982181849232,
+      "created_at": "2025-11-30T10:29:32.824777-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.0019046809650385141
+    },
+    {
+      "id": "3fb97468-9f45-4f02-ba89-a019ada174c7",
+      "memory": "Recently bought a new pack of Luna's favorite wet food",
+      "hash": "6fbe18fba675248d80f81b49d1b6ad68",
+      "metadata": null,
+      "score": 0.18529335100248817,
+      "created_at": "2025-11-30T10:31:06.815892-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.0018440123682882511
+    },
+    {
+      "id": "e962e8b9-5e15-4dea-8fc5-ca29a3e784de",
+      "memory": "Looking for TV show recommendations similar to The Expanse",
+      "hash": "194acaa17f2b5d82602bc248f318bb39",
+      "metadata": null,
+      "score": 0.19604492249572358,
+      "created_at": "2025-11-30T10:48:51.338923-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.0015926710388943044
+    },
+    {
+      "id": "1e425c97-32b3-49a3-9b71-e03143a3bb51",
+      "memory": "Wants suggestions for a good plumber in area",
+      "hash": "a6d1340ff1c94d5d23b476fb0a63cd78",
+      "metadata": null,
+      "score": 0.17260219052428602,
+      "created_at": "2025-11-30T10:29:32.865583-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.0013796087050689761
+    },
+    {
+      "id": "306ff657-7745-4e79-80fc-50ac53bf6f14",
+      "memory": "Thinking of partnering with sister who sells eco-friendly cleaning products to offer a joint promotion",
+      "hash": "b59b2e00e92ac8141396159cb0c9b7da",
+      "metadata": null,
+      "score": 0.22692887243031343,
+      "created_at": "2025-11-30T10:39:04.135368-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.0009794848645970037
+    },
+    {
+      "id": "0ae0aa0e-fea5-46c3-8628-05df8048fbf5",
+      "memory": "Considering AirPods Pro, Sony, or Sennheiser brands for new earbuds",
+      "hash": "277a919ebef2f110215eef38487afab6",
+      "metadata": null,
+      "score": 0.3072230947213246,
+      "created_at": "2025-11-30T10:34:53.861689-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.000948669069422267
+    },
+    {
+      "id": "12798d78-2538-4169-9633-5dbf3fce2819",
+      "memory": "Recently got Luna a new stainless steel food bowl from Petco for $15.99",
+      "hash": "5cc7189f7047f60f2442beaf0b0f8bb5",
+      "metadata": null,
+      "score": 0.19094387267730561,
+      "created_at": "2025-11-30T10:31:06.745807-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.0005838148695213798
+    },
+    {
+      "id": "c137dbc0-ce22-49bb-818c-daa14c388307",
+      "memory": "Wants bedside lamps with minimalist design to match new comforter and pillows",
+      "hash": "4146d2c58a1cf00b8e2cbcf1fe77d08d",
+      "metadata": null,
+      "score": 0.1724861296203122,
+      "created_at": "2025-11-30T10:42:39.700415-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.00031947312653809117
+    },
+    {
+      "id": "a1f69b52-34a9-41e7-925b-424436c99000",
+      "memory": "Wants to choose a statement mirror that won't make the apartment look too flashy or tacky and still feel cozy and inviting",
+      "hash": "d6cfd40dc39d34800cec391b47d7e406",
+      "metadata": null,
+      "score": 0.21697146982587323,
+      "created_at": "2025-11-30T10:49:38.426561-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_60",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2965,
+    "load_time": 1344.3276
+  }
+}

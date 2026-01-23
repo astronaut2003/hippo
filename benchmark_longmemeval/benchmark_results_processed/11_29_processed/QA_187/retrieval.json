@@ -1,0 +1,242 @@
+{
+  "sample_idx": 187,
+  "question_id": "3fdac837",
+  "question": "What is the total number of days I spent in Japan and Chicago?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T00:23:37.803436",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "697e6f77-6871-42a9-a724-9cb7fa44d90a",
+      "memory": "Went to Japan before from April 15th to 22nd",
+      "hash": "878869dfb73e8988ad4eefdd608f6181",
+      "metadata": null,
+      "score": 0.5947687982870422,
+      "created_at": "2025-12-08T08:48:08.170939-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.9999999978472808
+    },
+    {
+      "id": "96b74dd8-9d32-4c4d-9fdb-fb0fa300af75",
+      "memory": "Planning a trip to Asia",
+      "hash": "7f747b811aed1d0cc149af7c67875cfa",
+      "metadata": null,
+      "score": 0.3752752936494098,
+      "created_at": "2025-12-08T08:48:08.151209-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.5074939369321633
+    },
+    {
+      "id": "1ead73ae-0114-48f6-a767-61d28c02348c",
+      "memory": "Planning to visit other cities in Asia besides Tokyo",
+      "hash": "61a4aa31b9cca22014025ebc0da048d5",
+      "metadata": null,
+      "score": 0.3836644525650396,
+      "created_at": "2025-12-08T08:48:08.210092-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.43562234441385067
+    },
+    {
+      "id": "1641f5cd-b0f0-4023-be07-e6bd52f58bff",
+      "memory": "Fell in love with Tokyo",
+      "hash": "3c09d533c1bc6deeb5f88efebbf1d804",
+      "metadata": null,
+      "score": 0.3042797837080832,
+      "created_at": "2025-12-08T08:48:08.192593-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.018884046293759584
+    },
+    {
+      "id": "f72b3581-d3c8-4cbc-9107-cd57df7135e1",
+      "memory": "Spent about an hour and a half on the repotting project",
+      "hash": "3756d34278d8adda7c20f3c954ed444d",
+      "metadata": null,
+      "score": 0.3248978828790944,
+      "created_at": "2025-12-08T08:42:01.807956-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.016914404728010157
+    },
+    {
+      "id": "f2676438-fb79-472b-969d-e5bbf331dcbd",
+      "memory": "Looking for popular destinations in Asia within a 5-hour flight radius from Tokyo",
+      "hash": "773d260f75056d0d0c227d1d937b7926",
+      "metadata": null,
+      "score": 0.427567946104905,
+      "created_at": "2025-12-08T08:48:08.225938-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.0036931292606072986
+    },
+    {
+      "id": "5dd5fc24-ab6d-4cc9-a0cc-69baa782857d",
+      "memory": "Realized that posting during peak hours (between 12 pm and 3 pm) and using hashtags like #lunchbreak or #foodstagram gets more engagement compared to posting during off-peak hours",
+      "hash": "1fab66fafb6ee770ef593fa57c7bcb81",
+      "metadata": null,
+      "score": 0.18963986992670462,
+      "created_at": "2025-12-08T08:47:27.273916-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.0031379999304231784
+    },
+    {
+      "id": "0003d129-f44f-4fbc-85dc-69a7727e369a",
+      "memory": "Planning a hike this weekend",
+      "hash": "2d3e6795af4950d009d932a594dbbdb9",
+      "metadata": null,
+      "score": 0.19906874997667517,
+      "created_at": "2025-12-08T08:50:35.669993-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.002621877468854067
+    },
+    {
+      "id": "aff5430f-9236-4908-b34b-cc9f6a7be986",
+      "memory": "Wants to know about Mixbook's shipping options and turnaround time",
+      "hash": "2a3f7b629400636611ecf944c1cfed0e",
+      "metadata": null,
+      "score": 0.22549312417286196,
+      "created_at": "2025-12-08T08:39:07.396642-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.001951985825218422
+    },
+    {
+      "id": "d946257d-6d43-492e-ab3b-a3f8e15c0c42",
+      "memory": "Wants to know if the airline operates direct flights from Tokyo to any of the recommended destinations",
+      "hash": "d1f30b8b2f773fec3b911aa759612a07",
+      "metadata": null,
+      "score": 0.31343503534759665,
+      "created_at": "2025-12-08T08:48:08.293483-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.00143401566987281
+    },
+    {
+      "id": "a34e199a-b64f-4c34-8e1a-3fa35cee2cab",
+      "memory": "The portion was huge and ended up taking some leftovers home for lunch the next day",
+      "hash": "b37cedf0ffb234266039bb6876514743",
+      "metadata": null,
+      "score": 0.33115417740270403,
+      "created_at": "2025-12-08T08:25:34.955904-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.0014110221473208051
+    },
+    {
+      "id": "adb4e76c-56f2-4061-86fd-8839bc3b32f2",
+      "memory": "今天外面很多人",
+      "hash": "15fe46d2522091fc728e1f98449362b8",
+      "metadata": null,
+      "score": 0.22193933571097618,
+      "created_at": "2025-12-08T08:26:34.462850-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.001405273766682804
+    },
+    {
+      "id": "8d17eb36-5095-4330-ae8d-5cb01619970b",
+      "memory": "Trying to plan a healthy meal prep for the week",
+      "hash": "2351c610bed3f66a084b652680bfcdad",
+      "metadata": null,
+      "score": 0.2061477681609034,
+      "created_at": "2025-12-08T08:31:40.162888-08:00",
+      "updated_at": "2025-12-08T08:32:32.613793-08:00",
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.0013161738667937847
+    },
+    {
+      "id": "f1dffa0f-401f-4cfc-a0c5-978deae18114",
+      "memory": "Recently attended a workshop on capturing cityscapes at night",
+      "hash": "8a0c56819067046b6ed74e806fcefcf0",
+      "metadata": null,
+      "score": 0.18915544155950653,
+      "created_at": "2025-12-08T08:43:12.028107-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.0010184898694687201
+    },
+    {
+      "id": "96676f66-81a7-4505-81ba-ebb74cdba1c3",
+      "memory": "Trying to figure out when the first cooking class was taken",
+      "hash": "c5da7b4230f633b493b833db2fe30f38",
+      "metadata": null,
+      "score": 0.233291538180218,
+      "created_at": "2025-12-08T08:24:15.793929-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.000869237272189188
+    },
+    {
+      "id": "a47eac05-ddac-45bc-ad39-5b247e0670b5",
+      "memory": "The anniversary photo album took around an hour to customize and cost around $40",
+      "hash": "d113486ac66214d21588c4d109028b61",
+      "metadata": null,
+      "score": 0.20576281921103712,
+      "created_at": "2025-12-08T08:39:07.365416-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.000767408815173166
+    },
+    {
+      "id": "336c981d-e3fe-4693-976f-f62b9ec10b0a",
+      "memory": "Thinking of using some Greek yogurt from Costco last month in the omelette",
+      "hash": "480630f7a4f389e986428527011adaf7",
+      "metadata": null,
+      "score": 0.19608436472423801,
+      "created_at": "2025-12-08T08:31:40.352606-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.0006867261869326485
+    },
+    {
+      "id": "f454047b-57d7-494b-babf-e4fe3b2a6cc9",
+      "memory": "Made a batch of chocolate chip cookies last week and ate half of them in one sitting",
+      "hash": "5d872bed1bd708fe30c9805328a02a1c",
+      "metadata": null,
+      "score": 0.2982587313093884,
+      "created_at": "2025-12-08T08:27:20.789639-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.0006122025379471324
+    },
+    {
+      "id": "600f8061-12c8-406d-89ad-90077fe2973c",
+      "memory": "Spent about an hour and a half at the nursery picking out the healthiest ones and chatting with the staff about their care",
+      "hash": "47d3c2688dd6e280d3fdf0ac1a41a292",
+      "metadata": null,
+      "score": 0.20300496363618592,
+      "created_at": "2025-12-08T08:42:01.775078-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.0005812023423636257
+    },
+    {
+      "id": "0b5a5e2b-fd4a-4318-8861-1374daa724db",
+      "memory": "First cooking class was on a weekday, in the morning, during the winter season",
+      "hash": "51a68d207753e69cea4aa3bacf800d34",
+      "metadata": null,
+      "score": 0.23780564103134746,
+      "created_at": "2025-12-08T08:24:15.838057-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_187",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.4527,
+    "load_time": 1618.1321
+  }
+}

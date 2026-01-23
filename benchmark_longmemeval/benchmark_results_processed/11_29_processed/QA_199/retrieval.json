@@ -1,0 +1,242 @@
+{
+  "sample_idx": 199,
+  "question_id": "1192316e",
+  "question": "What is the total time it takes I to get ready and commute to work?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T04:56:22.901725",
+  "load_result": {
+    "total_sessions": 42,
+    "added_sessions": 42,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "f02fac34-feb4-4838-929a-6f0da5831ec9",
+      "memory": "Daily commute to work takes about 30 minutes",
+      "hash": "f3dc1435ea9a2722cdcd4852a8fc483c",
+      "metadata": null,
+      "score": 0.7721126006805992,
+      "created_at": "2025-12-08T12:57:58.010154-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.9999999993135544
+    },
+    {
+      "id": "bdd2791f-de12-460f-9a90-89859847cf93",
+      "memory": "Takes about an hour to get ready in the morning",
+      "hash": "c5f7e09a01799eb619c619de4dcde74d",
+      "metadata": null,
+      "score": 0.5890888954640129,
+      "created_at": "2025-12-08T13:02:32.289820-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.8693943888361564
+    },
+    {
+      "id": "4f6ddd99-7a69-44c1-a469-131967bbc650",
+      "memory": "Trying to optimize morning routine to get the most out of the day",
+      "hash": "4d7be9aade670f1cd743bd95dfac7c8e",
+      "metadata": null,
+      "score": 0.25667170623741914,
+      "created_at": "2025-12-08T13:02:32.249693-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.3897825942607056
+    },
+    {
+      "id": "828147c3-7f0c-4393-8a4f-152751f57fa3",
+      "memory": "Looking for advice on how to make the most of morning commute",
+      "hash": "2279d243103d397ef1a06c00756c6e3a",
+      "metadata": null,
+      "score": 0.5317828871941951,
+      "created_at": "2025-12-08T12:57:57.992001-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.3623484971942386
+    },
+    {
+      "id": "f6986952-ffc9-4191-9fd2-0000140ae464",
+      "memory": "Curious about tips for staying focused and alert during morning commute",
+      "hash": "4d2c4f1bc302a3633b589c58eb16c141",
+      "metadata": null,
+      "score": 0.4071779477403952,
+      "created_at": "2025-12-08T12:57:58.133540-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.3101016999439884
+    },
+    {
+      "id": "95123882-72b1-4b4d-8f82-27ca7066dd77",
+      "memory": "Asked for the workload in other terms like number of projects, committees served on, and how else to constitute a full-time (40-hour a week) instructional designer workload",
+      "hash": "13a8491566ed99cc14b6871a860ddd49",
+      "metadata": null,
+      "score": 0.30499673494241836,
+      "created_at": "2025-12-08T13:01:52.603949-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.30654245795126467
+    },
+    {
+      "id": "a8e1d0c0-5ace-4520-bf3d-486f8c8bfefb",
+      "memory": "Thinking of trying out some tips to stay focused and alert during morning commute",
+      "hash": "66bfcee677b7b47b3977458dcc7b3250",
+      "metadata": null,
+      "score": 0.42448405241080467,
+      "created_at": "2025-12-08T12:57:58.152996-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.2997746020831824
+    },
+    {
+      "id": "5c49b0d4-3a00-446a-8d9b-df2d9ae48bfe",
+      "memory": "Morning routine includes a 30-minute workout",
+      "hash": "2610bcc536614150d1ba5c93967c5d85",
+      "metadata": null,
+      "score": 0.30881721410182517,
+      "created_at": "2025-12-08T13:02:32.323284-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.2886702436477915
+    },
+    {
+      "id": "97b3d091-e043-4537-a685-0e3625dab21a",
+      "memory": "Trying to improve productivity and time management skills",
+      "hash": "570aa89915ebe242b37ca7e0f8b4946d",
+      "metadata": null,
+      "score": 0.27762824482754633,
+      "created_at": "2025-12-08T12:57:58.235654-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.1871718485972182
+    },
+    {
+      "id": "49b2bfc7-1a4f-4281-8cdc-ba0375a999ba",
+      "memory": "Wakes up at 6:30 AM",
+      "hash": "6aa512c08619c978271a60216c48cff0",
+      "metadata": null,
+      "score": 0.26939417843201985,
+      "created_at": "2025-12-08T13:02:32.274733-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.13896133349862377
+    },
+    {
+      "id": "1c76e7e0-eb38-4fe9-92e5-500b282fd0e5",
+      "memory": "Morning routine includes a 20-minute meditation session",
+      "hash": "b144b7775588a4fff0aee57c4356b54a",
+      "metadata": null,
+      "score": 0.22510089750096052,
+      "created_at": "2025-12-08T13:02:32.306131-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.12918394144467282
+    },
+    {
+      "id": "fae05f50-6aa1-4782-8b12-c622d918a9e8",
+      "memory": "Curious about recommendations for podcasts or audiobooks that are particularly good for a morning commute",
+      "hash": "0c3c3c418e283f07e856d963754ed1ed",
+      "metadata": null,
+      "score": 0.2633488987852452,
+      "created_at": "2025-12-08T12:57:58.184264-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.09746990318009123
+    },
+    {
+      "id": "e7273d7d-e205-440d-89d7-a5713501cbd9",
+      "memory": "Wants meditation to help feel more alert and prepared for morning workout and busy day ahead",
+      "hash": "fa1d70ddca1f3273bc01b986827232fe",
+      "metadata": null,
+      "score": 0.2574574506745186,
+      "created_at": "2025-12-08T13:02:32.427537-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.0672385059913287
+    },
+    {
+      "id": "02420504-31c4-412a-967c-b9b33e49e474",
+      "memory": "Asked to correlate the workload with the Instructional Designer's cognitive load",
+      "hash": "19d89438df0b60fae23239215dd155c0",
+      "metadata": null,
+      "score": 0.244596268981483,
+      "created_at": "2025-12-08T13:01:52.617105-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.06627931943874565
+    },
+    {
+      "id": "aa810f3c-d89d-4eba-ba26-af8637880d06",
+      "memory": "Asked about the average workload of an instructional designer at a college in the U.S., the kinds of tasks that take up their time, what brings them pleasure on the job, and what is tedious",
+      "hash": "5ada45f65f0881839ec22d88225c3717",
+      "metadata": null,
+      "score": 0.28210458395363713,
+      "created_at": "2025-12-08T13:01:52.573542-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.021701890342656117
+    },
+    {
+      "id": "665a072d-9f88-4a5e-95a7-bc4d46519a81",
+      "memory": "Wants to make home office functional and comfortable because working from home more often",
+      "hash": "2eb269a24484b76221e230dabb9c1e21",
+      "metadata": null,
+      "score": 0.25439318463432503,
+      "created_at": "2025-12-08T13:22:25.295639-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.01713383967020916
+    },
+    {
+      "id": "a9997908-27cd-43e9-af5e-c6351b08400a",
+      "memory": "On February 22nd, 2023, filled up gas in Honda Civic at Chevron gas station near house, spent $28 on 12 gallons of gas, mileage was 14,890 miles",
+      "hash": "3e29ce810a899df6600fe081cf5b65bb",
+      "metadata": null,
+      "score": 0.2337231556383856,
+      "created_at": "2025-12-08T12:58:34.857633-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.013128522249605222
+    },
+    {
+      "id": "e6256ad4-853e-47f5-a1bd-347b283bb309",
+      "memory": "Can definitely start by being more mindful of what is already at home before shopping and making a list of what needs to be used up",
+      "hash": "aed8acbb7618f72e93686c6ba0c64879",
+      "metadata": null,
+      "score": 0.23218009804330303,
+      "created_at": "2025-12-08T13:11:33.122592-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.004705919009857544
+    },
+    {
+      "id": "46f9a30e-4e49-4d38-bf5b-14e5946588be",
+      "memory": "Just got back from a trip to LA on American Airlines on February 10th",
+      "hash": "84fb3dbc6877208f0575a2924501b706",
+      "metadata": null,
+      "score": 0.2334424570102818,
+      "created_at": "2025-12-08T13:08:03.788962-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.0031361446210786048
+    },
+    {
+      "id": "2398ad45-7024-4a20-a26b-f82482f51521",
+      "memory": "Exact date of service at Toyota dealership was January 10th, 2023, mileage was 23,456 miles",
+      "hash": "9ef1b379e2a90b424b808890bfb4ac95",
+      "metadata": null,
+      "score": 0.2966563632779082,
+      "created_at": "2025-12-08T12:58:34.832005-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_199",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.6311,
+    "load_time": 1629.2009
+  }
+}

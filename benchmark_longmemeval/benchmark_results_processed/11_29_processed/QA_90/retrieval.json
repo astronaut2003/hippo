@@ -1,0 +1,242 @@
+{
+  "sample_idx": 90,
+  "question_id": "80ec1f4f",
+  "question": "How many different museums or galleries did I visit in the month of February?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T01:48:29.017364",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "3d19acb6-82f3-46fc-989f-70b316b89506",
+      "memory": "Took niece to the Natural History Museum on 2/8 and she loved the dinosaur exhibit",
+      "hash": "544cda625b26346f77c11f91cd9cfe3d",
+      "metadata": null,
+      "score": 0.3281679972588395,
+      "created_at": "2025-12-01T10:03:24.374107-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.9999999978390726
+    },
+    {
+      "id": "1f1d98fb-8ea9-419d-83e6-322d75b571dd",
+      "memory": "Remember recent visit to the Natural History Museum with niece and had a great time exploring the dinosaur exhibit",
+      "hash": "b4ff98b717e77b74d876d364f33cc2ce",
+      "metadata": null,
+      "score": 0.3600507217234178,
+      "created_at": "2025-12-01T10:03:24.479840-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.4441666906084419
+    },
+    {
+      "id": "288aabed-4e73-40a4-9e63-00ebd22f71be",
+      "memory": "Recently visited the Natural History Museum with niece and it made think about how art and science can intersect",
+      "hash": "536eb13e84bec99da8081037dbd32724",
+      "metadata": null,
+      "score": 0.346434273134932,
+      "created_at": "2025-12-01T10:03:24.436036-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.2565124514414458
+    },
+    {
+      "id": "72bb1559-1dfd-46f6-b5e3-097487bc62d4",
+      "memory": "Will check the museum's website and plan the visit accordingly",
+      "hash": "0f256a817087a50b6a1546a17bbf97d7",
+      "metadata": null,
+      "score": 0.5005289195622196,
+      "created_at": "2025-12-01T09:53:03.431200-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.23306607869165172
+    },
+    {
+      "id": "0ab1f96c-47ad-4dd1-bd46-69aab8a67b8a",
+      "memory": "Interested in contemporary art",
+      "hash": "716057f3fa19d351a3d41be40caac8cb",
+      "metadata": null,
+      "score": 0.3299694793656588,
+      "created_at": "2025-12-01T10:04:38.876054-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.13918846899350595
+    },
+    {
+      "id": "12304461-2c54-4c81-ae80-47ff2bd8d787",
+      "memory": "Recently got back into art after attending a guided workshop at the Modern Art Museum in January",
+      "hash": "736143bfc577ffc81a1bc6fbccc50c64",
+      "metadata": null,
+      "score": 0.4268868380239922,
+      "created_at": "2025-12-01T10:04:38.860779-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.1192287993038125
+    },
+    {
+      "id": "30343fc0-6e03-4178-beb3-b07afd6734d5",
+      "memory": "Definitely wants to check out the National Waterfront Museum and see what exhibits they have on display",
+      "hash": "9fcd2ef9e7dcaafe33175e55fd4e08c4",
+      "metadata": null,
+      "score": 0.42912115053309796,
+      "created_at": "2025-12-01T09:53:03.396278-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.118951412796401
+    },
+    {
+      "id": "63b1fc4c-c184-49e5-bc3b-3240bcd8def0",
+      "memory": "Wants to check out some of the cultural places in Swansea the next time they are there",
+      "hash": "d76f85a56ba2139d77fcc6f1a26c20a5",
+      "metadata": null,
+      "score": 0.2804828249232332,
+      "created_at": "2025-12-01T09:53:03.361367-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.07349588386641755
+    },
+    {
+      "id": "2809812b-b079-41f2-b3f1-903020ccaf9e",
+      "memory": "Recently met a curator, Rachel Lee, at the opening night of 'The Art Cube', a new contemporary art gallery",
+      "hash": "a9affe3fba1ad4cb465fdde4918b29dd",
+      "metadata": null,
+      "score": 0.33845445737251556,
+      "created_at": "2025-12-01T10:04:38.909639-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.05728216851938314
+    },
+    {
+      "id": "9abbd22b-3d33-42bd-82f2-2f0b79dc5499",
+      "memory": "Wants to connect with other art enthusiasts and learn from their experiences",
+      "hash": "7c00b64a2a5767da470e6ce3b57903c4",
+      "metadata": null,
+      "score": 0.2847680691931235,
+      "created_at": "2025-12-01T10:04:39.032923-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.01760476952610403
+    },
+    {
+      "id": "b5eacff1-8328-4b7f-a793-260a9c5f809f",
+      "memory": "Wants to explore some online resources to learn more about contemporary art and street art",
+      "hash": "6ae4f905a61b1294dcca32c0e3d5d30e",
+      "metadata": null,
+      "score": 0.29036278132822435,
+      "created_at": "2025-12-01T10:04:39.016892-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.006299517651229696
+    },
+    {
+      "id": "845b851a-6fb2-4e15-821a-81a9f585561a",
+      "memory": "Might attend another event at 'The Art Cube' soon",
+      "hash": "cd5495f2dd39338ccbf7125a2c7eb21b",
+      "metadata": null,
+      "score": 0.3785463073944295,
+      "created_at": "2025-12-01T10:04:39.001452-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.006165770367938409
+    },
+    {
+      "id": "79fa94b6-d6af-472b-bc22-194cc5c7e19a",
+      "memory": "Wants to know if it's best to visit during the week or on the weekend to avoid crowds",
+      "hash": "0d6a05d75baae20acb702b56a05b1e1c",
+      "metadata": null,
+      "score": 0.3520848779859074,
+      "created_at": "2025-12-01T09:53:03.414558-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.0048546760439027075
+    },
+    {
+      "id": "cf32ab31-6912-4130-854a-3b4d46d132a1",
+      "memory": "When will the art installation be held",
+      "hash": "d8f2eb2c7df58d032346aeef6d6f2624",
+      "metadata": null,
+      "score": 0.3932104175671204,
+      "created_at": "2025-12-01T09:52:38.998685-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.0034646522753360915
+    },
+    {
+      "id": "6d197405-179d-489d-979a-5a99f2d37342",
+      "memory": "Looking for art supply stores in the city",
+      "hash": "ab1e4174dc4ab06aa406d117b3d8b759",
+      "metadata": null,
+      "score": 0.35421362659726147,
+      "created_at": "2025-12-01T10:03:24.331235-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.0027318243255921503
+    },
+    {
+      "id": "8fb55a52-4a66-4fe5-962d-12f530c9398b",
+      "memory": "Interested in street art",
+      "hash": "b4a84a1aba4c8761906ba7268a5c1ae7",
+      "metadata": null,
+      "score": 0.33690556195873955,
+      "created_at": "2025-12-01T10:04:38.892418-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.002261132807815108
+    },
+    {
+      "id": "e8d34236-cb97-403e-a888-f2e0c85d7a8b",
+      "memory": "Went to the festival with sister and her boyfriend",
+      "hash": "33042bf10114f26cd2227abf7847f4b5",
+      "metadata": null,
+      "score": 0.30077077521623785,
+      "created_at": "2025-12-01T10:08:15.496968-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.000989400164994562
+    },
+    {
+      "id": "4f42e729-e6d7-4042-b0ae-63596050a328",
+      "memory": "Has been meaning to organize bathroom cabinet for weeks",
+      "hash": "b0ff6dc407c6d69e754e7a6f6533342d",
+      "metadata": null,
+      "score": 0.2870926358610484,
+      "created_at": "2025-12-01T09:48:55.699840-08:00",
+      "updated_at": "2025-12-01T09:49:31.485850-08:00",
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.0007810511612850219
+    },
+    {
+      "id": "f617d992-43a0-4d89-8199-a21d1754a8b3",
+      "memory": "Has experience with charity events",
+      "hash": "c86bcaa27dbb014f5c63ab19575eedf7",
+      "metadata": null,
+      "score": 0.28358004248429936,
+      "created_at": "2025-12-01T09:50:17.569154-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.0006967635821384324
+    },
+    {
+      "id": "9f565cbe-19e8-45ee-a379-0fb7dee09a0b",
+      "memory": "Mostly interested in cataloging vinyl records, concert tickets, and music memorabilia",
+      "hash": "efefbfe9fabda97d135a464018f7c7e4",
+      "metadata": null,
+      "score": 0.3389202670222605,
+      "created_at": "2025-12-01T10:06:04.741104-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_90",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4251,
+    "load_time": 1342.5185
+  }
+}

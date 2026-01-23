@@ -1,0 +1,77 @@
+{
+  "sample_idx": 151,
+  "question_id": "75f70248",
+  "question": "I've been sneezing quite a bit lately. Do you think it might be my living room?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that consider the potential impact of their cat, Luna, and her shedding on their sneezing, as well as the recent deep clean of the living room and its possible effect on stirring up dust. They might not prefer responses that fail to take into account these specific details previously mentioned, such as generic suggestions or unrelated factors.",
+  "question_date": "2023/05/30 (Tue) 17:51",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T14:33:28.334201",
+  "predicted_answer": "It could be related to your living room, especially since you want to keep it dust-free and have a cat that sheds a lot. Dust and pet dander can contribute to sneezing.",
+  "prompt_length": 3252,
+  "gen_token_usage": {
+    "prompt_tokens": 867,
+    "answer_tokens": 38,
+    "total_tokens": 905,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.66,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 62,
+      "response_length": 32,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2142857142857143,
+      "rouge1_f": 0.21052631578947367,
+      "rouge2_f": 0.02150537634408602,
+      "rougeL_f": 0.10526315789473684,
+      "semantic_similarity": 0.6357256770133972,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1325187969924812,
+      "avg_semantic": 0.6357256770133972,
+      "overall_average": 0.23316016793251038
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2142857142857143,
+    "rouge1_f": 0.21052631578947367,
+    "rouge2_f": 0.02150537634408602,
+    "rougeL_f": 0.10526315789473684,
+    "semantic_similarity": 0.6357256770133972,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1325187969924812,
+    "avg_semantic": 0.6357256770133972,
+    "overall_average": 0.23316016793251038
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1478.1839,
+    "retrieval_time": 0.4699,
+    "generation_time": 1.6212,
+    "evaluation_time": 1.0543,
+    "cleanup_time": 1.9278,
+    "total_time": 1483.2619
+  }
+}

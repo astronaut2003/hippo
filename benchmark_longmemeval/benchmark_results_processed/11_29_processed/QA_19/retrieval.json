@@ -1,0 +1,242 @@
+{
+  "sample_idx": 19,
+  "question_id": "dccbc061",
+  "question": "What was my previous stance on spirituality?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T05:28:00.811928",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 48,
+    "failed_sessions": 1,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "d8aa6e9e-0ead-4590-b7e0-f940345829af",
+      "memory": "Used to be a staunch atheist but has been exploring other possibilities",
+      "hash": "acdda025de183b9b875124e532307a13",
+      "metadata": null,
+      "score": 0.5078218537086536,
+      "created_at": "2025-11-28T13:49:09.888235-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.9999999983285921
+    },
+    {
+      "id": "859f3fad-4e67-40a7-9c2c-cf33ea62fc8e",
+      "memory": "Trying to find books on synchronicity and its connection to spirituality",
+      "hash": "86da114bfe1eafbf0876024ef75d5d0c",
+      "metadata": null,
+      "score": 0.4477749379787568,
+      "created_at": "2025-11-28T13:49:09.861067-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.5795737340217934
+    },
+    {
+      "id": "01a526d1-7add-4118-90e2-8b0e91100d7a",
+      "memory": "Has been reading a lot about Buddhism lately",
+      "hash": "689715ac2c18eecfefb733d8a2eaaafa",
+      "metadata": null,
+      "score": 0.5022307214684057,
+      "created_at": "2025-11-28T13:49:09.875066-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.11365164752987891
+    },
+    {
+      "id": "cb587ab5-d110-4c04-9522-0703e3480b21",
+      "memory": "Believes this approach could help develop a greater sense of trust and faith in the universe",
+      "hash": "bb062683b3dd86d9b6eac1fa638f69b5",
+      "metadata": null,
+      "score": 0.3939376128231609,
+      "created_at": "2025-11-28T13:49:10.097649-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.0997166063352682
+    },
+    {
+      "id": "f2cdc90b-88db-4851-8b69-73581e466b3b",
+      "memory": "Excited about using meditation and intentional practices to attract more synchronicities",
+      "hash": "337d8b9ab33962186a9b9eb2b6d5f5f7",
+      "metadata": null,
+      "score": 0.3609450704478644,
+      "created_at": "2025-11-28T13:49:10.057984-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.02547560737892159
+    },
+    {
+      "id": "3552e623-c354-4eb6-8966-52661b5139e9",
+      "memory": "Really interested in the concept of synchronicity and its connection to consciousness",
+      "hash": "edb1e05b173b0faad7726eb003e6196c",
+      "metadata": null,
+      "score": 0.18988231742319517,
+      "created_at": "2025-11-28T13:49:09.900833-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.017615697729215517
+    },
+    {
+      "id": "d04f6429-edbb-4159-99a4-39583fbcefbf",
+      "memory": "Interested in using meditation or other practices to 'tune in' to the quantum realm and attract more synchronicities",
+      "hash": "20c2bb50e759268c742bfc854d9cbc7d",
+      "metadata": null,
+      "score": 0.2946771356164809,
+      "created_at": "2025-11-28T13:49:10.045191-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.016863020921957107
+    },
+    {
+      "id": "cfbddb43-00ee-450d-b130-2d70cf053b67",
+      "memory": "Intrigued by the Orch-OR theory and its potential connection to consciousness and synchronicity",
+      "hash": "e9cfad876e212b6deec3a65f9d5a7318",
+      "metadata": null,
+      "score": 0.19476437270685154,
+      "created_at": "2025-11-28T13:49:09.953848-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.008213454155953247
+    },
+    {
+      "id": "8e545882-547b-42a0-8fd9-1c38854ec1e7",
+      "memory": "Intrigued by the concept of Synchronicity Walking as a form of active meditation",
+      "hash": "b037bb8b8f5cb845ecc07ad23bb2ee91",
+      "metadata": null,
+      "score": 0.3005273523923394,
+      "created_at": "2025-11-28T13:49:10.084505-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.003741387128328959
+    },
+    {
+      "id": "49a6c280-c47d-42fe-a892-d6651b923996",
+      "memory": "Intrigued by the idea that synchronicities could be a form of quantum feedback guiding toward greater awareness or personal growth",
+      "hash": "31b61997b94695e1754814145212a617",
+      "metadata": null,
+      "score": 0.2295314248292471,
+      "created_at": "2025-11-28T13:49:10.005792-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.003660572401247211
+    },
+    {
+      "id": "57a7120f-6d43-47f1-ad5d-ff0a63e353de",
+      "memory": "Thinking of trying out some new tea flavors",
+      "hash": "7e1924bd1d3f685f1b433798999b932e",
+      "metadata": null,
+      "score": 0.17648546582085745,
+      "created_at": "2025-11-28T14:09:54.994562-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.003075103974084964
+    },
+    {
+      "id": "d03a367f-e79a-48e5-93da-d6aa6831cdd2",
+      "memory": "Recently switched to tea from coffee",
+      "hash": "98646f8b7aa350c1ec660f3e45796787",
+      "metadata": null,
+      "score": 0.22910099102518794,
+      "created_at": "2025-11-28T14:09:55.075349-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.003062670939149311
+    },
+    {
+      "id": "8e8f68e4-0d74-4f1b-bd42-8d09795556f0",
+      "memory": "Has had great experiences volunteering at the Children's Museum in the past",
+      "hash": "4552df7016c32400bb3709fdeac3d56f",
+      "metadata": null,
+      "score": 0.1845399766294197,
+      "created_at": "2025-11-28T14:00:02.278386-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.002608068174579006
+    },
+    {
+      "id": "b02544b8-0881-4be3-b624-52c4af6592fa",
+      "memory": "Wonders if consciousness is somehow 'tuning in' to the quantum realm",
+      "hash": "45617ae8abc0a22e8fbb88fcdbc02ec4",
+      "metadata": null,
+      "score": 0.1736036951924122,
+      "created_at": "2025-11-28T13:49:10.018879-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.0022154711868031785
+    },
+    {
+      "id": "8fe4e729-ec32-4e4d-9131-9ead4f4d95e5",
+      "memory": "Loves the idea of Intentional Synchronicity Meditation and Quantum Journaling",
+      "hash": "cd6a65fe324e46da9e76fd9562dc39d7",
+      "metadata": null,
+      "score": 0.3022698520292016,
+      "created_at": "2025-11-28T13:49:10.070385-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.0018941250530816727
+    },
+    {
+      "id": "2a314166-02b1-4325-881b-6e29cdea4515",
+      "memory": "Finds Tiger Woods' comeback story incredibly inspiring",
+      "hash": "3a4e65f8b4ec6a014b221b96e73f1ae6",
+      "metadata": null,
+      "score": 0.1795799301773161,
+      "created_at": "2025-11-28T13:31:08.109174-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.001720221961866314
+    },
+    {
+      "id": "f0951afc-fa28-46cb-8c04-745f5f207999",
+      "memory": "Just got back from a 5K charity run to support cancer research",
+      "hash": "a66e3e90e185efed61a4b923ba38dccb",
+      "metadata": null,
+      "score": 0.17277188597697798,
+      "created_at": "2025-11-28T13:51:49.557195-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.0016644327025396638
+    },
+    {
+      "id": "20bf3ddd-86d6-49a8-b94c-09123157c614",
+      "memory": "Wants to know more about the Global Consciousness Project and its findings on collective consciousness",
+      "hash": "6c9af74ab45ba4ab149c04811d903f31",
+      "metadata": null,
+      "score": 0.19030853435476092,
+      "created_at": "2025-11-28T13:49:09.968160-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.001576445070687347
+    },
+    {
+      "id": "d6e6b2bb-c78c-4428-9f56-dfd927004fd6",
+      "memory": "Believes the Orch-OR theory could provide a scientific framework for understanding how consciousness is connected to the universe",
+      "hash": "3de5ca6380de5455ef7c7e7d2910f509",
+      "metadata": null,
+      "score": 0.20302322162856312,
+      "created_at": "2025-11-28T13:49:09.993886-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.0009544745281370913
+    },
+    {
+      "id": "84baa67b-f53a-4db4-9f74-6b5abda20197",
+      "memory": "Will focus on moderate hikes first and maybe try one difficult trail if feeling up to it",
+      "hash": "4fa646ea1c3971f37a0a872a37ac0b78",
+      "metadata": null,
+      "score": 0.16680050746372244,
+      "created_at": "2025-11-28T13:45:18.059354-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_19",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3114,
+    "load_time": 2568.8369
+  }
+}

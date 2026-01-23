@@ -1,0 +1,77 @@
+{
+  "sample_idx": 31,
+  "question_id": "d52b4f67",
+  "question": "Where did I attend my cousin's wedding?",
+  "question_type": "single-session-user",
+  "gold_answer": "The Grand Ballroom",
+  "question_date": "2023/05/30 (Tue) 23:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-29T11:05:51.122495",
+  "predicted_answer": "You attended your cousin's wedding at the Grand Ballroom.",
+  "prompt_length": 3078,
+  "gen_token_usage": {
+    "prompt_tokens": 823,
+    "answer_tokens": 11,
+    "total_tokens": 834,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.4,
+      "rouge1_f": 0.4615384615384615,
+      "rouge2_f": 0.3636363636363636,
+      "rougeL_f": 0.4615384615384615,
+      "semantic_similarity": 0.6368326544761658,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.33076923076923076,
+      "avg_semantic": 0.6368326544761658,
+      "overall_average": 0.39198192954063416
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.4,
+    "rouge1_f": 0.4615384615384615,
+    "rouge2_f": 0.3636363636363636,
+    "rougeL_f": 0.4615384615384615,
+    "semantic_similarity": 0.6368326544761658,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.33076923076923076,
+    "avg_semantic": 0.6368326544761658,
+    "overall_average": 0.39198192954063416
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1369.1763,
+    "retrieval_time": 0.4319,
+    "generation_time": 1.9493,
+    "evaluation_time": 0.8011,
+    "cleanup_time": 1.7276,
+    "total_time": 1374.0904
+  }
+}

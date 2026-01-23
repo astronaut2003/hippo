@@ -1,0 +1,77 @@
+{
+  "sample_idx": 71,
+  "question_id": "6d550036",
+  "question": "How many projects have I led or am currently leading?",
+  "question_type": "multi-session",
+  "gold_answer": 2,
+  "question_date": "2023/05/30 (Tue) 23:32",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-01T06:14:21.775454",
+  "predicted_answer": "You have led at least two projects: the data analysis team in a Marketing Research class project and a project in Nigeria that connects 100 rural villages to running water. Additionally, you are currently leading a team of five engineers.",
+  "prompt_length": 2964,
+  "gen_token_usage": {
+    "prompt_tokens": 770,
+    "answer_tokens": 45,
+    "total_tokens": 815,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.59,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 40,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.15540462732315063,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.15540462732315063,
+      "overall_average": 0.031080925837159157
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.15540462732315063,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.15540462732315063,
+    "overall_average": 0.031080925837159157
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1129.2769,
+    "retrieval_time": 1.1808,
+    "generation_time": 4.2843,
+    "evaluation_time": 4.7197,
+    "cleanup_time": 1.6199,
+    "total_time": 1141.0854
+  }
+}

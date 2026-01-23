@@ -1,0 +1,242 @@
+{
+  "sample_idx": 96,
+  "question_id": "gpt4_2ba83207",
+  "question": "Which grocery store did I spend the most money at in the past month?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T04:08:54.452759",
+  "load_result": {
+    "total_sessions": 53,
+    "added_sessions": 53,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "4ceac717-d88c-4a9f-8764-87fac8f6afea",
+      "memory": "Has been buying more items in bulk",
+      "hash": "cbf49def8ddbe05b7eecb51d6936e6d8",
+      "metadata": null,
+      "score": 0.38333843554824987,
+      "created_at": "2025-12-01T12:30:18.589274-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.9999999983512932
+    },
+    {
+      "id": "47543db4-a29b-4c84-8441-5d32325af996",
+      "memory": "Went to Trader Joe's with sister the week before last and spent around $80 on pre-packaged meals and snacks",
+      "hash": "2212336882cda268898270e9d7a8c76d",
+      "metadata": null,
+      "score": 0.5997942490641315,
+      "created_at": "2025-12-01T12:09:21.102431-08:00",
+      "updated_at": "2025-12-01T12:30:18.458705-08:00",
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.8821106715097136
+    },
+    {
+      "id": "70bfb8cd-17ef-41a8-8e47-a541aac0d42d",
+      "memory": "Bought a few packs of cauliflower gnocchi at Trader Joe's when went with sister",
+      "hash": "eeee40b84da5fcd6223afb69a7737c66",
+      "metadata": null,
+      "score": 0.3994170834692381,
+      "created_at": "2025-12-01T12:30:18.561116-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.6036933535780936
+    },
+    {
+      "id": "25d97ecc-944e-45b7-9ae4-e44ed86a2016",
+      "memory": "Already has chicken breast and ground beef bought last week at Walmart",
+      "hash": "2b8eff49a1d1abb049046fcb0e09c39a",
+      "metadata": null,
+      "score": 0.36725281298568546,
+      "created_at": "2025-12-01T12:22:56.810685-08:00",
+      "updated_at": "2025-12-01T12:30:18.503328-08:00",
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.5888252496329546
+    },
+    {
+      "id": "8bee9118-6e5c-41e8-9274-983430967b2c",
+      "memory": "Placed an online order with Thrive Market last month and got great deals on organic and sustainable products",
+      "hash": "3ea5b39fb90c32c8dcee75547e3640de",
+      "metadata": null,
+      "score": 0.377655460531077,
+      "created_at": "2025-12-01T12:22:56.856413-08:00",
+      "updated_at": "2025-12-01T12:30:18.471834-08:00",
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.5830967819662289
+    },
+    {
+      "id": "48e3411b-112c-4277-b327-57c6417eee25",
+      "memory": "Got a pair of boots and a sweater from Macy's Black Friday sale",
+      "hash": "6f6a10caf0f592430b1490f27ab8da59",
+      "metadata": null,
+      "score": 0.35050714881593903,
+      "created_at": "2025-12-01T12:11:24.208599-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.5560310183119915
+    },
+    {
+      "id": "23a511fb-e8ba-4650-b785-d048da5cf7b1",
+      "memory": "Has been doing a lot of online shopping lately",
+      "hash": "3ad477287efa85cc097685759d250d89",
+      "metadata": null,
+      "score": 0.42678134807802115,
+      "created_at": "2025-12-01T12:28:40.963804-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.46220493492143266
+    },
+    {
+      "id": "62245957-1a8e-4f52-af44-3b89caf5f798",
+      "memory": "Planning to shop at Publix this week",
+      "hash": "1158802282c72eb1c26bed408a145922",
+      "metadata": null,
+      "score": 0.4019473926963481,
+      "created_at": "2025-12-01T12:22:56.932108-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.4266039384063126
+    },
+    {
+      "id": "42f134a3-5a9a-444c-9eeb-b4715285d8da",
+      "memory": "Trying to plan meals for the upcoming week and make a grocery list",
+      "hash": "6f226bb52270fa38dcf8c47f3d0a8069",
+      "metadata": null,
+      "score": 0.45231275989842756,
+      "created_at": "2025-12-01T12:22:56.776610-08:00",
+      "updated_at": "2025-12-01T12:30:18.429728-08:00",
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.1993960522282511
+    },
+    {
+      "id": "75ca0355-376e-4b07-bc5a-e743d31d8697",
+      "memory": "Bought a dress from Banana Republic during their friends and family sale",
+      "hash": "4c7d23d9f12b73f0c52738a8f5d5fdc7",
+      "metadata": null,
+      "score": 0.3751379134099597,
+      "created_at": "2025-12-01T12:11:24.329408-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.1840446142286144
+    },
+    {
+      "id": "c84618c3-9e40-49bd-a6af-fc363cd71f37",
+      "memory": "Thrive Market has a wide selection of bulk items",
+      "hash": "cb1b43753c7d00f4e6ae11f28f792067",
+      "metadata": null,
+      "score": 0.3500313330493031,
+      "created_at": "2025-12-01T12:30:18.668034-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.180641936195633
+    },
+    {
+      "id": "9a9cd422-7626-4427-ad4d-7fb23eb94e76",
+      "memory": "Got the food bowl at a local pet store downtown for around $15",
+      "hash": "1b4c0cc395512276672b574e2c705b83",
+      "metadata": null,
+      "score": 0.42956257332117975,
+      "created_at": "2025-12-01T12:18:57.704774-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.12713368025736937
+    },
+    {
+      "id": "ab72a82c-4df5-470c-92d2-e271b791f532",
+      "memory": "Got mom a beautiful cashmere scarf for $70 during the holiday season",
+      "hash": "e3cd2358619f4f77eb4bc6ee07c7a484",
+      "metadata": null,
+      "score": 0.37324354479794947,
+      "created_at": "2025-12-01T12:23:56.340344-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.04672255398967632
+    },
+    {
+      "id": "73232105-e3af-4baf-a7f9-a05ee7f2e5e6",
+      "memory": "Has had good experiences with Amazon, like when getting a funny meme-themed mug for a friend's housewarming party for $20",
+      "hash": "0e5f63c1003c0a05a6bc75606aead87a",
+      "metadata": null,
+      "score": 0.35101534182358307,
+      "created_at": "2025-12-01T12:28:41.071689-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.029551773652826557
+    },
+    {
+      "id": "580bc694-1c59-4cac-9ea1-1f3b4af14c23",
+      "memory": "Trying to shop more sustainably",
+      "hash": "1c802275410cacaf1dd9e75528996470",
+      "metadata": null,
+      "score": 0.4425718832535003,
+      "created_at": "2025-12-01T12:22:56.824055-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.0271498832766044
+    },
+    {
+      "id": "9e75d803-0a12-4c5b-a919-ca34f001b2e0",
+      "memory": "Couldn't resist purchasing a gift for self last week when seeing a 20% off sale at favorite bookstore",
+      "hash": "496a427449f1989f3a3814b16d2f821c",
+      "metadata": null,
+      "score": 0.42543413862746376,
+      "created_at": "2025-12-01T12:28:41.135521-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.02194342896737133
+    },
+    {
+      "id": "8a46cd03-6098-4c66-8d36-c7eecdbf4713",
+      "memory": "Planning to do some holiday shopping this weekend",
+      "hash": "d58547bb657fa7458591b7fdf96e24b8",
+      "metadata": null,
+      "score": 0.44832760953009637,
+      "created_at": "2025-12-01T12:11:24.383023-08:00",
+      "updated_at": "2025-12-01T12:14:12.979124-08:00",
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.013881624485829126
+    },
+    {
+      "id": "57811d71-62ed-4588-84ca-9aa887944a7b",
+      "memory": "Excited to explore more bulk shopping options and reduce waste even further",
+      "hash": "cfcd63d1b03ea7cf625f4d3e67e10778",
+      "metadata": null,
+      "score": 0.41792697515403154,
+      "created_at": "2025-12-01T12:30:18.654154-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.0016850654073038015
+    },
+    {
+      "id": "8f68b9ce-ab13-40a0-8a85-23b80466d8da",
+      "memory": "The store owner said the food bowl was a popular brand",
+      "hash": "cfb6796b4c8099d122d6de5876559052",
+      "metadata": null,
+      "score": 0.4133482670851396,
+      "created_at": "2025-12-01T12:18:57.720337-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.00042106981065219564
+    },
+    {
+      "id": "0e6fa8fa-018b-4540-8799-5559e8aee0be",
+      "memory": "Found it hard to choose among the suggested food tour companies",
+      "hash": "317b694303615a3afc4fb008c83b9727",
+      "metadata": null,
+      "score": 0.3890461152412322,
+      "created_at": "2025-12-01T12:18:13.029071-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_96",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2015,
+    "load_time": 1562.391
+  }
+}

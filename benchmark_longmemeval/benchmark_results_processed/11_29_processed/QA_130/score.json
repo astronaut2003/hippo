@@ -1,0 +1,77 @@
+{
+  "sample_idx": 130,
+  "question_id": "edced276_abs",
+  "question": "How many days did I spend in total traveling in Hawaii and in Seattle?",
+  "question_type": "multi-session",
+  "gold_answer": "The information provided is not enough. You mentioned traveling for 10 days in Hawaii but did not mention abything about the trip to Seattle.",
+  "question_date": "2023/05/30 (Tue) 20:59",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T05:42:51.684339",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 3023,
+  "gen_token_usage": {
+    "prompt_tokens": 823,
+    "answer_tokens": 10,
+    "total_tokens": 833,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 24,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1935483870967742,
+      "rouge1_f": 0.17647058823529413,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.11764705882352941,
+      "semantic_similarity": 0.09968531131744385,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.12191650853889943,
+      "avg_semantic": 0.09968531131744385,
+      "overall_average": 0.11747026443481445
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1935483870967742,
+    "rouge1_f": 0.17647058823529413,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.11764705882352941,
+    "semantic_similarity": 0.09968531131744385,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.12191650853889943,
+    "avg_semantic": 0.09968531131744385,
+    "overall_average": 0.11747026443481445
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1226.2231,
+    "retrieval_time": 1.1097,
+    "generation_time": 1.5012,
+    "evaluation_time": 2.1307,
+    "cleanup_time": 1.6673,
+    "total_time": 1232.6327
+  }
+}

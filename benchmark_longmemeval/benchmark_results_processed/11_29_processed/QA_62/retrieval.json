@@ -1,0 +1,242 @@
+{
+  "sample_idx": 62,
+  "question_id": "3d86fd0a",
+  "question": "Where did I meet Sophia?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T03:10:09.054799",
+  "load_result": {
+    "total_sessions": 55,
+    "added_sessions": 55,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "671d28bf-9771-449e-9fd4-05ac057263a1",
+      "memory": "Met Sophia at a coffee shop in the city",
+      "hash": "97625d04ebebaa3c3060585135bd1c87",
+      "metadata": null,
+      "score": 0.83189478276837,
+      "created_at": "2025-11-30T11:14:08.177280-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.9999999993327557
+    },
+    {
+      "id": "6c0b9d64-fa71-40f3-a369-17b0e783de96",
+      "memory": "Recommended some coffee spots to Sophia",
+      "hash": "fee79b58fbedbc0bc69f8a7cc031e59e",
+      "metadata": null,
+      "score": 0.5723332062165133,
+      "created_at": "2025-11-30T11:14:08.225843-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.3208674231731936
+    },
+    {
+      "id": "55cc00da-2c02-48d2-91b6-6cd09475f431",
+      "memory": "Met Maria at a cooking class",
+      "hash": "5d3c65131a24c05e18c08819a8dba18a",
+      "metadata": null,
+      "score": 0.5337393966212695,
+      "created_at": "2025-11-30T11:14:08.402107-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.2718729728471605
+    },
+    {
+      "id": "3eb86beb-8b27-4a47-aca7-f58488b6e851",
+      "memory": "Met Lucy at an animal shelter",
+      "hash": "4c7e07628cd3edec9a868d8f7a05bec5",
+      "metadata": null,
+      "score": 0.3854489321160828,
+      "created_at": "2025-11-30T11:14:08.368508-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.2715683599004449
+    },
+    {
+      "id": "c8c7fe3d-f3c0-4a68-9b1c-0c911ef4f880",
+      "memory": "Met Rachel at a yoga studio",
+      "hash": "b575ab79d12055b5480854d82502530c",
+      "metadata": null,
+      "score": 0.41714740515957227,
+      "created_at": "2025-11-30T11:14:08.243303-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.2347643771632187
+    },
+    {
+      "id": "4ae9d82b-75cc-4f2d-ac4e-3b2314e98ea6",
+      "memory": "Met David at a bookstore",
+      "hash": "9acdbb8f486590857c9e456311628901",
+      "metadata": null,
+      "score": 0.2774728786095041,
+      "created_at": "2025-11-30T11:14:08.289423-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.18299315742924155
+    },
+    {
+      "id": "92cff319-6952-4b6f-9f3d-f502536fa5d6",
+      "memory": "Met Juan at a car repair shop",
+      "hash": "f757526fe97790da45c7b5ba7facdfa8",
+      "metadata": null,
+      "score": 0.36588650673439416,
+      "created_at": "2025-11-30T11:14:08.322060-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.16212115722566942
+    },
+    {
+      "id": "56fa9614-11bf-48b8-8e39-0533ea29702a",
+      "memory": "Sophia is into indie music",
+      "hash": "bac521c644858874933bf5ac85605eba",
+      "metadata": null,
+      "score": 0.5647418467287609,
+      "created_at": "2025-11-30T11:14:08.193135-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.15919058596015037
+    },
+    {
+      "id": "2e83f4ef-91cd-497a-b5f0-7932fc22260e",
+      "memory": "Met Alex on a train commute",
+      "hash": "8e6d7924db2a6103180488fec2e0b00b",
+      "metadata": null,
+      "score": 0.3277624881337018,
+      "created_at": "2025-11-30T11:14:08.449799-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.15449342505044536
+    },
+    {
+      "id": "629d44d7-01b7-48ff-acea-b58f421d7063",
+      "memory": "Talked with Sophia about new bands to check out",
+      "hash": "f311aba75eace6336886f44503d95beb",
+      "metadata": null,
+      "score": 0.5878303557545846,
+      "created_at": "2025-11-30T11:14:08.209741-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.12380056854201625
+    },
+    {
+      "id": "6a31b662-8b1b-4772-8157-6101de3e71ec",
+      "memory": "Stayed at the Kimpton Hotel Monaco",
+      "hash": "a7491e254716c075e2601b3ec1fe3afe",
+      "metadata": null,
+      "score": 0.4347381734937191,
+      "created_at": "2025-11-30T11:13:03.623122-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.09330923891937119
+    },
+    {
+      "id": "bc928cae-256a-4f68-9c35-d754bb1221e8",
+      "memory": "Really enjoyed the quirky decor in the lobby at Kimpton Hotel Monaco",
+      "hash": "0d81c71feb47fc7cd704574512c3287d",
+      "metadata": null,
+      "score": 0.34334531240842703,
+      "created_at": "2025-11-30T11:13:03.854593-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.004075081075342861
+    },
+    {
+      "id": "01300a8f-8801-482a-92dd-fe022430a52e",
+      "memory": "Rachel is a yoga instructor",
+      "hash": "1fb0b7d76e32f0ebcd5ec89b5ed73785",
+      "metadata": null,
+      "score": 0.2681138144885812,
+      "created_at": "2025-11-30T11:14:08.258299-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.0013693901427448214
+    },
+    {
+      "id": "1ecc7cd9-1012-442a-9b59-f230d5560d1f",
+      "memory": "Maria is a chef",
+      "hash": "732bbd584b5c5b2b05e19217f32a7be9",
+      "metadata": null,
+      "score": 0.3862252740155971,
+      "created_at": "2025-11-30T11:14:08.418267-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.0011380192059873785
+    },
+    {
+      "id": "9d14befe-e467-4227-9b83-afb78ae92e54",
+      "memory": "Really enjoyed the free wine hour at Kimpton Hotel Monaco",
+      "hash": "a7a8172d24446d06f8f483d9f51bb01c",
+      "metadata": null,
+      "score": 0.37655487956032885,
+      "created_at": "2025-11-30T11:13:03.832909-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.0010509687545340832
+    },
+    {
+      "id": "f50bc145-65d3-48d1-ab56-833ba8e55a92",
+      "memory": "Will visit the Umeda Sky Building in the morning, and then head to Osaka Castle in the afternoon",
+      "hash": "efe19aa20cd2335cb071bf9139155f9a",
+      "metadata": null,
+      "score": 0.27070760503728875,
+      "created_at": "2025-11-30T11:32:36.267591-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.0007448286069158056
+    },
+    {
+      "id": "a05644d7-9c27-416b-8769-619e0069f9c2",
+      "memory": "Rachel is interested in yoga and wellness",
+      "hash": "a5b718a6dbfd215a873a624dae514951",
+      "metadata": null,
+      "score": 0.26953943608225855,
+      "created_at": "2025-11-30T11:14:08.273626-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.0005515104259837067
+    },
+    {
+      "id": "f4823666-52d1-4752-b910-4431df655385",
+      "memory": "Maria is interested in cooking and is a foodie",
+      "hash": "44ba7463ea186010db07f1e6bbe8f870",
+      "metadata": null,
+      "score": 0.3970286594343644,
+      "created_at": "2025-11-30T11:14:08.433714-08:00",
+      "updated_at": "2025-11-30T11:16:06.240698-08:00",
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.0004852044534586089
+    },
+    {
+      "id": "9049bf0f-7ec1-4f22-9115-4188629e1b47",
+      "memory": "Thinking of visiting the Umeda Sky Building and Osaka Castle on the same day",
+      "hash": "ffbaadbe50cb296cf1d6bc790db3f83f",
+      "metadata": null,
+      "score": 0.2737041336725188,
+      "created_at": "2025-11-30T11:32:36.248163-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.00017142830132688426
+    },
+    {
+      "id": "56f13774-781a-4d07-9138-d19a4ca81efb",
+      "memory": "Lucy is interested in animals and volunteering",
+      "hash": "2fc512077fd13633c142f2388a228699",
+      "metadata": null,
+      "score": 0.2778378105934963,
+      "created_at": "2025-11-30T11:14:08.383986-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_62",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3773,
+    "load_time": 1512.058
+  }
+}

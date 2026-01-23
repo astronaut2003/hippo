@@ -1,0 +1,242 @@
+{
+  "sample_idx": 205,
+  "question_id": "60159905",
+  "question": "How many dinner parties have I attended in the past month?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2026-01-13T23:53:55.439381",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "49b7e1b3-8366-4c13-a99d-3fef3d0aa689",
+      "memory": "Hosting a dinner party soon",
+      "hash": "64754856e8188e5bdabb064f512e0e7a",
+      "metadata": null,
+      "score": 0.7226930883276774,
+      "created_at": "2026-01-13T07:56:08.940071-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.999999998306761
+    },
+    {
+      "id": "23907966-d238-4e60-aa2e-66871f499391",
+      "memory": "Inspired to try out new dishes for a dinner party",
+      "hash": "08cbefcf7b46b12f2fb21fe1962737ab",
+      "metadata": null,
+      "score": 0.5157394760443503,
+      "created_at": "2026-01-13T07:57:52.319937-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.44372677339955097
+    },
+    {
+      "id": "656cdc8c-4e5b-4c2d-a519-deab6304d07f",
+      "memory": "Had experience with low-key dinner parties at Alex's place yesterday",
+      "hash": "1afaf795af7fd2dec8f534f14800d01c",
+      "metadata": null,
+      "score": 0.5664668689894861,
+      "created_at": "2026-01-13T07:56:09.039291-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.2845565669603191
+    },
+    {
+      "id": "936741c6-077b-492f-8c80-36e1499749e8",
+      "memory": "Wants recommendations for board games for a dinner party",
+      "hash": "ac247c8a2ee60e03994f94a2d71dc07e",
+      "metadata": null,
+      "score": 0.4205043806421997,
+      "created_at": "2026-01-13T07:57:52.404003-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.1844351827243132
+    },
+    {
+      "id": "727e7188-b622-4b4e-8c62-1dd5040943c9",
+      "memory": "Looking for Italian recipe ideas for a dinner party",
+      "hash": "0ccb6883e1c25a0761330fa8a14e0357",
+      "metadata": null,
+      "score": 0.4041327566563621,
+      "created_at": "2026-01-13T07:56:08.923932-08:00",
+      "updated_at": "2026-01-13T07:57:52.283410-08:00",
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.04524116443212655
+    },
+    {
+      "id": "c35824eb-743f-4886-ad8e-7b5405af279a",
+      "memory": "Looking for healthy dinner ideas that don't take too long to cook",
+      "hash": "b6c48d7b35060502f7014bdc18a992be",
+      "metadata": null,
+      "score": 0.3919278332792202,
+      "created_at": "2026-01-13T07:59:16.939558-08:00",
+      "updated_at": "2026-01-13T08:15:03.403748-08:00",
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.03125038850798202
+    },
+    {
+      "id": "6de7c910-3f0e-4703-96ad-fb87af30292c",
+      "memory": "Got back from a birthday party for colleague and friend David last week",
+      "hash": "b75c2df0b03fd370d60af6887c26fbb4",
+      "metadata": null,
+      "score": 0.34439480129417543,
+      "created_at": "2026-01-13T07:54:42.712154-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.029035369367488597
+    },
+    {
+      "id": "49f934d8-2fb1-4907-818d-61202214a477",
+      "memory": "Had a big party with at least 15 people to watch the Super Bowl",
+      "hash": "5af3f2d9ac79baaa792ad9efeba95360",
+      "metadata": null,
+      "score": 0.4794351430611784,
+      "created_at": "2026-01-13T08:05:20.270379-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.024197755938101567
+    },
+    {
+      "id": "4faf51d1-74c0-489f-af51-9ee180a148fa",
+      "memory": "Wants to organize apartment and have a game night or potluck dinner soon",
+      "hash": "7ad368c68dc654755179fc6cd60319b3",
+      "metadata": null,
+      "score": 0.4353846790235558,
+      "created_at": "2026-01-13T07:54:42.868391-08:00",
+      "updated_at": "2026-01-13T07:56:08.225087-08:00",
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.01920027745446882
+    },
+    {
+      "id": "1211c3dc-1d85-4ad3-b7df-bf0bc0e40d87",
+      "memory": "Wants guests to mingle and explore different areas of the party",
+      "hash": "977f62d2e66f8712a36f11033c77daf6",
+      "metadata": null,
+      "score": 0.37403356312443026,
+      "created_at": "2026-01-13T07:56:09.086639-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.013707055822821577
+    },
+    {
+      "id": "a4b24036-4639-4e97-93ee-f233ec10cbdb",
+      "memory": "Considering a potluck theme where everyone brings a dish from a different cuisine",
+      "hash": "f5a8089833c5b42d55a8ac0f4c7de654",
+      "metadata": null,
+      "score": 0.34861925150615775,
+      "created_at": "2026-01-13T07:56:08.955340-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.007122876305836904
+    },
+    {
+      "id": "545cdf91-e509-481a-b5ef-519cc32eacb0",
+      "memory": "Had a great experience with a BBQ theme at Mike's place two weeks ago",
+      "hash": "f8b20c6055234471c84a2eaf98dda853",
+      "metadata": null,
+      "score": 0.325119578964319,
+      "created_at": "2026-01-13T07:56:08.990388-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.003754245097129952
+    },
+    {
+      "id": "a2fb7e80-c9ad-4cae-b644-76ded9c05f12",
+      "memory": "Planning a movie night with friends next week",
+      "hash": "c9bd784b861c022d8ce8c068e5b4c332",
+      "metadata": null,
+      "score": 0.3331607878053644,
+      "created_at": "2026-01-13T07:54:42.673845-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.003683355441762407
+    },
+    {
+      "id": "b0bcd7ed-12c1-447f-a8ab-c8b73ed3e8d4",
+      "memory": "Looking for new side dish ideas for next BBQ",
+      "hash": "20284931bb71e6ab26ebe1f394a7ca30",
+      "metadata": null,
+      "score": 0.3514084372765671,
+      "created_at": "2026-01-13T08:03:48.404155-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.002987377276308835
+    },
+    {
+      "id": "3a10796f-173a-482e-afdd-d7805b4df64d",
+      "memory": "Never made BBQ sauce before",
+      "hash": "a8b8b5e159f757c092a4c1f6af912982",
+      "metadata": null,
+      "score": 0.32079830248783825,
+      "created_at": "2026-01-13T08:03:48.494454-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.0026408415122570104
+    },
+    {
+      "id": "5960558f-def9-4352-a977-0d9a7960136d",
+      "memory": "Had a huge hit with a new BBQ sauce recipe at last BBQ",
+      "hash": "eab0e30fc3844effcb7ccc5301a667b7",
+      "metadata": null,
+      "score": 0.3301625116023117,
+      "created_at": "2026-01-13T08:03:48.455740-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.002595465673627671
+    },
+    {
+      "id": "8d04e4f4-b582-4285-b631-f89b37938de8",
+      "memory": "Interested in gourmet food items as gifts",
+      "hash": "8f72b3d782d8ec4af11cab06b60e51d5",
+      "metadata": null,
+      "score": 0.3495016220399805,
+      "created_at": "2026-01-13T08:00:03.519082-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.0022760585248417856
+    },
+    {
+      "id": "6cc1c534-9b0a-44a5-b5f2-b278a5f83159",
+      "memory": "Had a big BBQ recently where they grilled burgers, hot dogs, and sausages",
+      "hash": "bf55e9ecbd90c57d69ba767fa6f0506d",
+      "metadata": null,
+      "score": 0.3994221026453484,
+      "created_at": "2026-01-13T08:03:48.423655-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.001626102117428647
+    },
+    {
+      "id": "2cfa0121-f5c0-4716-9cd5-0fb451cbe571",
+      "memory": "Wants to have a good selection of wine for guests",
+      "hash": "9b454d4ea8cca3b53a2c644834595750",
+      "metadata": null,
+      "score": 0.37564114446511254,
+      "created_at": "2026-01-13T07:57:52.450118-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.00158411735570755
+    },
+    {
+      "id": "be2bf89e-854d-4ac2-94ad-be0b3319d6ee",
+      "memory": "Thinking of setting up fun activities and games to keep guests entertained throughout the party",
+      "hash": "dc906242fe0f9b2c4658d32d6a200466",
+      "metadata": null,
+      "score": 0.36608693583136687,
+      "created_at": "2026-01-13T07:56:09.102204-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_205",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1905,
+    "load_time": 1651.9615
+  }
+}

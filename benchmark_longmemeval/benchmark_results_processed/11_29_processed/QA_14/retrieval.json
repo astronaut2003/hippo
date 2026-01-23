@@ -1,0 +1,242 @@
+{
+  "sample_idx": 14,
+  "question_id": "726462e0",
+  "question": "What was the discount I got on my first purchase from the new clothing brand?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T02:49:26.207288",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "489bbb3c-9584-4768-8871-58b9d8cd54b7",
+      "memory": "Got a 10% discount on first purchase from a new clothing brand last month",
+      "hash": "b5f656d4c9f7f8f069483ff9dbd5814c",
+      "metadata": null,
+      "score": 0.8358761454675303,
+      "created_at": "2025-11-28T10:55:16.940216-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.9999999994136324
+    },
+    {
+      "id": "898014c2-8c1a-4cd2-b726-5374db543407",
+      "memory": "Looking for affordable fashion brands that offer high-quality, timeless pieces at lower price point",
+      "hash": "87b20fd2412aa44fd3a1182a735edd58",
+      "metadata": null,
+      "score": 0.4716118607492614,
+      "created_at": "2025-11-28T11:11:11.342974-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.220339712729794
+    },
+    {
+      "id": "8eb5aedd-f344-4be1-b4fa-1035d244799f",
+      "memory": "Open to trying out new brands and products",
+      "hash": "7520093a3db85a0986771b2e02b04545",
+      "metadata": null,
+      "score": 0.42555759676142857,
+      "created_at": "2025-11-28T11:12:27.788059-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.17055610499739549
+    },
+    {
+      "id": "e2e2fffc-6f7a-4847-9e7c-aea2e73fd203",
+      "memory": "Used to splurge on luxury items like Givenchy gown from Neiman Marcus",
+      "hash": "1d64e11893fef7ceed2a8e9f80f82f2c",
+      "metadata": null,
+      "score": 0.4738977348729677,
+      "created_at": "2025-11-28T11:11:11.272297-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.1515695195770026
+    },
+    {
+      "id": "11700f5e-3caf-4726-848e-8cb15201f5ea",
+      "memory": "Went to Trader Joe's with sister a week prior and spent around $75",
+      "hash": "39635fe95ceda2bcc08413ecaa7e4661",
+      "metadata": null,
+      "score": 0.4098692666783518,
+      "created_at": "2025-11-28T11:10:08.186770-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.13654276700384477
+    },
+    {
+      "id": "69541ef4-2614-4505-abc1-a542b63aa69f",
+      "memory": "Wants to know if Zazzle or CafePress have any discounts or promotions",
+      "hash": "2197c95626598811a8896362b8b317ad",
+      "metadata": null,
+      "score": 0.4898536221721108,
+      "created_at": "2025-11-28T10:59:30.647728-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.11505609392974654
+    },
+    {
+      "id": "560cbe2d-345c-48fa-a36e-97d414789603",
+      "memory": "Wants to track savings from using coupons and discounts",
+      "hash": "0472267c363cdb56c2174c287f319aa2",
+      "metadata": null,
+      "score": 0.28894648374383075,
+      "created_at": "2025-11-28T11:10:08.249262-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.10892861999544476
+    },
+    {
+      "id": "7f151dbd-a0cb-4422-8f33-d3b0a1bf63f1",
+      "memory": "Ordered groceries online from Target with a 10% off coupon, saving around $8",
+      "hash": "6b11f8c99bb5813332d6c542ed7310a3",
+      "metadata": null,
+      "score": 0.41477908784763573,
+      "created_at": "2025-11-28T11:10:08.170688-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.08890940912516992
+    },
+    {
+      "id": "e681558e-74e4-4332-9cf0-ccee7757b4a0",
+      "memory": "Went to Walmart last Sunday and spent around $50",
+      "hash": "c964b5ece7781c9df7f8c8fa3b1a4958",
+      "metadata": null,
+      "score": 0.44282412543759775,
+      "created_at": "2025-11-28T11:10:08.136877-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.08421025313957849
+    },
+    {
+      "id": "a16e78f0-11f0-4563-93a5-bf7706e074ae",
+      "memory": "Used to spend $200 on La Mer moisturizer",
+      "hash": "f192c794282f6f08218a54b42e289881",
+      "metadata": null,
+      "score": 0.4478934725139705,
+      "created_at": "2025-11-28T11:11:11.166846-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.0807146711579841
+    },
+    {
+      "id": "26f609b7-22ce-495d-962d-19044d75b731",
+      "memory": "There are various sponsorship levels ranging from $25k to $250",
+      "hash": "6829c54a8412bf50d7fb35ba20b8dc2e",
+      "metadata": null,
+      "score": 0.27890327312536356,
+      "created_at": "2025-11-28T11:09:02.540506-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.0559549232324269
+    },
+    {
+      "id": "3a3c5ba7-6113-434d-a8d7-75fe01908de2",
+      "memory": "Has a new black Fjallraven Kanken backpack that has been used daily for 3 weeks",
+      "hash": "251316967d2acb1e6457203bb77b5312",
+      "metadata": null,
+      "score": 0.29908439766388406,
+      "created_at": "2025-11-28T11:00:16.565129-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.05331844580983483
+    },
+    {
+      "id": "9a0f2859-232a-450d-ab84-877c4e4982a3",
+      "memory": "Will check out Zazzle and CafePress for guitar-themed gifts and keep an eye out for promotions or discounts",
+      "hash": "4ba5f8758ca07cdebe3dd1ce54e47755",
+      "metadata": null,
+      "score": 0.2964296912159805,
+      "created_at": "2025-11-28T10:59:30.661787-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.01975890157377313
+    },
+    {
+      "id": "0994e482-9d01-492b-a349-d83045449bd2",
+      "memory": "Regularly shops at Aldi's every 10-14 days, usually spending around $30-40 per trip",
+      "hash": "a3469165beb5e1cb7f099d1f4ff73269",
+      "metadata": null,
+      "score": 0.30723211779145904,
+      "created_at": "2025-11-28T11:10:08.203296-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.016995429003521474
+    },
+    {
+      "id": "1914d86e-a9ac-4c67-8783-49c38f49dea7",
+      "memory": "Got a new camera bag on February 22nd that is compact and easier to carry around than the old one",
+      "hash": "d19c936f66ee73481f43dd6ceb047abf",
+      "metadata": null,
+      "score": 0.31517597017852333,
+      "created_at": "2025-11-28T10:49:46.645984-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.006727331683726878
+    },
+    {
+      "id": "113bab33-4b4d-4e90-9034-80de6b1429c5",
+      "memory": "Estimated spending around $25 at farmer's market",
+      "hash": "b14c6f96cc06d025156dbf6f068b4d40",
+      "metadata": null,
+      "score": 0.2764603279454545,
+      "created_at": "2025-11-28T11:10:08.234201-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.004577249591096542
+    },
+    {
+      "id": "b97a26ba-b0ab-4e28-8971-d0416af99dc9",
+      "memory": "Trying to be more frugal now",
+      "hash": "4319ec9ac71077492372bf74b4643bd6",
+      "metadata": null,
+      "score": 0.3615622031644362,
+      "created_at": "2025-11-28T11:11:11.181657-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.0011158349521793996
+    },
+    {
+      "id": "297c3a82-7596-49b5-b470-5910c6ff992f",
+      "memory": "Recently got a new camera strap that I really like",
+      "hash": "97c768fb61bbee734be81fb479552d5f",
+      "metadata": null,
+      "score": 0.35292460166221284,
+      "created_at": "2025-11-28T10:49:46.620155-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.0009732380228390432
+    },
+    {
+      "id": "f4704c0c-3887-40ef-bffe-6641b8a59284",
+      "memory": "Looking for affordable skincare products for the trip",
+      "hash": "4843774c66b81ec27901621d7962ff99",
+      "metadata": null,
+      "score": 0.38250936285250936,
+      "created_at": "2025-11-28T11:11:11.134627-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.0005737988595927041
+    },
+    {
+      "id": "047272c3-3bc9-4bb2-af6d-0ab2a4ea12c7",
+      "memory": "Looking for affordable sunglasses with UV protection",
+      "hash": "9801dca6abe0ecb65f18165457acbc9b",
+      "metadata": null,
+      "score": 0.34434731982354383,
+      "created_at": "2025-11-28T11:11:11.238107-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_14",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1633,
+    "load_time": 1384.1345
+  }
+}

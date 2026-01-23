@@ -1,0 +1,77 @@
+{
+  "sample_idx": 64,
+  "question_id": "0862e8bf_abs",
+  "question": "What is the name of my hamster?",
+  "question_type": "single-session-user",
+  "gold_answer": "You did not mention this information. You mentioned your cat Luna but not your hamster.",
+  "question_date": "2023/05/30 (Tue) 21:39",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-01T03:52:33.407148",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 2769,
+  "gen_token_usage": {
+    "prompt_tokens": 777,
+    "answer_tokens": 10,
+    "total_tokens": 787,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.59,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 15,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.16666666666666669,
+      "rouge1_f": 0.16,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.08,
+      "semantic_similarity": 0.18358385562896729,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.10166666666666667,
+      "avg_semantic": 0.18358385562896729,
+      "overall_average": 0.11805009841918945
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.16666666666666669,
+    "rouge1_f": 0.16,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.08,
+    "semantic_similarity": 0.18358385562896729,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.10166666666666667,
+    "avg_semantic": 0.18358385562896729,
+    "overall_average": 0.11805009841918945
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1266.0341,
+    "retrieval_time": 1.2434,
+    "generation_time": 1.4663,
+    "evaluation_time": 1.7974,
+    "cleanup_time": 1.6762,
+    "total_time": 1272.2196
+  }
+}

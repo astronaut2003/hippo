@@ -1,0 +1,77 @@
+{
+  "sample_idx": 115,
+  "question_id": "gpt4_731e37d7",
+  "question": "How much total money did I spend on attending workshops in the last four months?",
+  "question_type": "multi-session",
+  "gold_answer": "$720",
+  "question_date": "2023/02/26 (Sun) 23:35",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-06T23:51:32.120684",
+  "predicted_answer": "You attended five workshops in the last three months, and you paid $500 for the digital marketing workshop. However, there is no information about the costs of the other workshops. Therefore, I don't have enough information to answer this question.",
+  "prompt_length": 3269,
+  "gen_token_usage": {
+    "prompt_tokens": 846,
+    "answer_tokens": 47,
+    "total_tokens": 893,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.65,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 40,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.24507761001586914,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.24507761001586914,
+      "overall_average": 0.04901552200317383
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.24507761001586914,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.24507761001586914,
+    "overall_average": 0.04901552200317383
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1563.3871,
+    "retrieval_time": 1.1968,
+    "generation_time": 4.0398,
+    "evaluation_time": 0.8007,
+    "cleanup_time": 1.337,
+    "total_time": 1570.7649
+  }
+}

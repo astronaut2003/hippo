@@ -1,0 +1,242 @@
+{
+  "sample_idx": 105,
+  "question_id": "60bf93ed",
+  "question": "How many days did it take for my laptop backpack to arrive after I bought it?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T07:42:53.941681",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "f6cb151b-29e8-473a-9873-9ef1a18f1eb3",
+      "memory": "Considering upgrading laptop's RAM to improve performance, thinking about adding another 8GB or 16GB to Lenovo Yoga 7i which currently has 8GB of RAM",
+      "hash": "7a3b238ded067af8235a2082c7bc4c9d",
+      "metadata": null,
+      "score": 0.17039836291088922,
+      "created_at": "2025-12-01T15:50:22.427074-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.9999998177784288
+    },
+    {
+      "id": "91e13cd8-a32b-4d66-911d-d09a618a8d0a",
+      "memory": "Considering checking out the Day One app for travel journaling",
+      "hash": "43f0bd54d6540ecd2155336f29494d16",
+      "metadata": null,
+      "score": 0.16567105721095848,
+      "created_at": "2025-12-01T15:55:48.421337-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.7496001692595671
+    },
+    {
+      "id": "6b7f23c9-3328-4695-8545-f80c40d97732",
+      "memory": "Likes the date suggestions for the beach trip",
+      "hash": "6856ca3aee5e4c4cba466d504d97c806",
+      "metadata": null,
+      "score": 0.15918186023222602,
+      "created_at": "2025-12-01T16:01:59.419567-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.3985471260414724
+    },
+    {
+      "id": "e1733097-669f-4ef1-829c-d6fe577ee864",
+      "memory": "Spent a whole week at Disney World and had an amazing time",
+      "hash": "0c1132b9e187be032552d358e9363049",
+      "metadata": null,
+      "score": 0.25507482912828305,
+      "created_at": "2025-12-01T15:55:48.403313-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.3942547592440431
+    },
+    {
+      "id": "fc428ac6-b8ac-4f91-b6ed-57abf1079c4d",
+      "memory": "Has been posting daily updates for three weeks",
+      "hash": "14771139a9b0d44479f7cc1c8b10676e",
+      "metadata": null,
+      "score": 0.22312159557455163,
+      "created_at": "2025-12-01T15:46:14.507290-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.3666584901172506
+    },
+    {
+      "id": "a2291262-ae86-4c70-a20d-eb7252e763b1",
+      "memory": "Made a spinach and feta stuffed chicken breast on Tuesday and it was a huge success",
+      "hash": "ad9d4b7f75e074d9301aca7bb0ab0191",
+      "metadata": null,
+      "score": 0.15881323767171152,
+      "created_at": "2025-12-01T15:45:09.761097-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.20919640286418612
+    },
+    {
+      "id": "cb97d724-2b3d-4f5a-8b1d-e78ef11abb3d",
+      "memory": "Went on a trip to Hawaii 3 months ago",
+      "hash": "cbfcaebdde27d327c07c654237bad72b",
+      "metadata": null,
+      "score": 0.29289009709365,
+      "created_at": "2025-12-01T15:55:48.437186-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.20372233184722163
+    },
+    {
+      "id": "a11b2316-8ae2-4a39-9163-c1f83bc8b65e",
+      "memory": "Decided to try a vegetarian diet for at least a month",
+      "hash": "f0481351bbf85d9bd32a033af834704f",
+      "metadata": null,
+      "score": 0.15923501018036484,
+      "created_at": "2025-12-01T16:03:34.757049-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.20080282730484056
+    },
+    {
+      "id": "1ad879a0-178b-47f8-bdc6-e58db1dc326f",
+      "memory": "Bought a miniature statue of a llama made out of alpaca wool when visiting Peru",
+      "hash": "ed62b00b37a98b4a99ad667436f4ff05",
+      "metadata": null,
+      "score": 0.1539710794813398,
+      "created_at": "2025-12-01T15:53:16.968727-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.19525924427496222
+    },
+    {
+      "id": "2aca360a-fdb9-4a15-9403-8ca975e325f3",
+      "memory": "Went on a trip to Disney World 4 months ago",
+      "hash": "ba7c9077094e9fc8af6c48686188e71a",
+      "metadata": null,
+      "score": 0.25792011121932756,
+      "created_at": "2025-12-01T15:55:48.385898-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.1815827557341652
+    },
+    {
+      "id": "c5143bb9-4c42-4e0c-97c3-68c52926b06b",
+      "memory": "Went on a week-long vacation to Disney World 4 months ago",
+      "hash": "efec569d24a3f2fd9b7055ad4b72a6c0",
+      "metadata": null,
+      "score": 0.3084320458104653,
+      "created_at": "2025-12-01T15:55:48.484671-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.17576112465263155
+    },
+    {
+      "id": "f0b22ea1-a7c7-4136-a335-fcf34e78251a",
+      "memory": "Was discussing summer plans with parents over Sunday lunch the week before last",
+      "hash": "be9d40ffe1536029beb2b9888679413f",
+      "metadata": null,
+      "score": 0.192871814637604,
+      "created_at": "2025-12-01T16:01:59.404629-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.1529611844168937
+    },
+    {
+      "id": "48c33908-ac00-467a-b7ad-220f6dae9e1f",
+      "memory": "Will start looking for places within a 10-20 minute drive from the beach",
+      "hash": "25022750cfc1938ebb3e98fd223cb657",
+      "metadata": null,
+      "score": 0.19787496655235817,
+      "created_at": "2025-12-01T16:01:59.533316-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.1383984177114453
+    },
+    {
+      "id": "93f548c2-160e-447b-86d8-e53d6795eb52",
+      "memory": "Will focus on key experiences and emotions when documenting past trips",
+      "hash": "788160152329a262b52d280725fdd9a9",
+      "metadata": null,
+      "score": 0.15703669889497446,
+      "created_at": "2025-12-01T15:55:48.472202-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.12678991155483485
+    },
+    {
+      "id": "c4e93345-d66d-44c0-a4cc-4ff6cf2f3277",
+      "memory": "Will start searching for vacation rentals within the 10-20 minute drive range from the beach",
+      "hash": "78b928f9ffc5f186594b35f81bb48433",
+      "metadata": null,
+      "score": 0.2417224139175641,
+      "created_at": "2025-12-01T16:01:59.549437-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.1263902174805803
+    },
+    {
+      "id": "9c410404-0cdf-4980-a51c-afd60f21941c",
+      "memory": "Decided to start documenting past trips, beginning with the Hawaii trip 3 months ago",
+      "hash": "c02d8c8b928f645fce96601e0babc0c9",
+      "metadata": null,
+      "score": 0.24395881327315586,
+      "created_at": "2025-12-01T15:55:48.457023-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.07936534074437099
+    },
+    {
+      "id": "1f4ad6b2-9506-4fff-90a5-b18a5dca492a",
+      "memory": "Usually takes about 30 minutes to an hour to scan headlines and read in-depth articles on current events, politics, and business while reading The New York Times",
+      "hash": "9463f46279145061dec27246a0b5fbbb",
+      "metadata": null,
+      "score": 0.23877526590647596,
+      "created_at": "2025-12-01T15:49:33.916637-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.07118030122376694
+    },
+    {
+      "id": "2e650be2-0091-49a5-a656-ec216669106c",
+      "memory": "Thinking of meal prepping some lunches for the week",
+      "hash": "1461a7b4b5b86b36476e69dc6988873e",
+      "metadata": null,
+      "score": 0.15429315132361227,
+      "created_at": "2025-12-01T15:45:09.828274-08:00",
+      "updated_at": "2025-12-01T16:03:34.609716-08:00",
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.012373138298662613
+    },
+    {
+      "id": "1ce468ea-8888-43d9-8d7d-c7bebf6f4aff",
+      "memory": "Attended niece's high school graduation ceremony last month on June 15th",
+      "hash": "c9c222202a624a6cd877754b63019c70",
+      "metadata": null,
+      "score": 0.19985521980565205,
+      "created_at": "2025-12-01T15:53:57.033027-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.0005908521097675966
+    },
+    {
+      "id": "3469c78e-f913-4841-a8a3-0140bd0dd136",
+      "memory": "Has had fair share of souvenirs that didn't turn out the way they thought they would",
+      "hash": "22c53ec93b2f4b54851d963446c9c205",
+      "metadata": null,
+      "score": 0.21511899355802427,
+      "created_at": "2025-12-01T15:53:17.007713-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_105",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2965,
+    "load_time": 1522.964
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 152,
+  "question_id": "d6233ab6",
+  "question": "I've been feeling nostalgic lately. Do you think it would be a good idea to attend my high school reunion?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T14:58:11.606375",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "080e52b5-8c2c-47e2-8ab7-5d0051ad2089",
+      "memory": "Been thinking a lot about relationships lately",
+      "hash": "7afaa145ff0c84dd5dcc846096251fe5",
+      "metadata": null,
+      "score": 0.18923932913649638,
+      "created_at": "2025-12-06T23:07:05.742126-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.999999998489034
+    },
+    {
+      "id": "a7b8ebc2-bc99-4a33-84d1-d03c3d0945d6",
+      "memory": "Asking because a lot of old high school friends plan to work after they graduate from university",
+      "hash": "ff6bfc57dcb258fb78caa6245bc72089",
+      "metadata": null,
+      "score": 0.3849102462359655,
+      "created_at": "2025-12-06T23:03:35.371679-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.8806450688532371
+    },
+    {
+      "id": "ff20931f-1823-4d0a-9d12-a07321db53f0",
+      "memory": "Thinking of checking out some concerts in the Bay Area soon",
+      "hash": "ff355738fd178fa74019f4c2270a175c",
+      "metadata": null,
+      "score": 0.3092029458107509,
+      "created_at": "2025-12-06T22:58:31.820133-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.176513147427484
+    },
+    {
+      "id": "739b65b3-5917-4650-adb1-61e03ef68f24",
+      "memory": "Still remembers happy high school experiences such as being part of the debate team and taking advanced placement courses in economics",
+      "hash": "98d575da7d4cc3a5ce8d8b973b7380ca",
+      "metadata": null,
+      "score": 0.31976631469478317,
+      "created_at": "2025-12-06T23:03:35.218249-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.15683224151391353
+    },
+    {
+      "id": "71a9ca93-ae49-49f8-8527-d0e7dbe117d2",
+      "memory": "Thinking of checking out new TV shows",
+      "hash": "8bb735cd88a458f95013625335ddc4fb",
+      "metadata": null,
+      "score": 0.2721962859988126,
+      "created_at": "2025-12-06T23:11:08.240556-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.05653802450673536
+    },
+    {
+      "id": "9ccf227b-d47f-41b5-8b73-7ba1d9511cad",
+      "memory": "Still on a high from the Khalid concert at the Greek Theatre in Berkeley with sister, Sophia",
+      "hash": "09beef72aba60a8456e32a4ce1060ada",
+      "metadata": null,
+      "score": 0.25964208251552273,
+      "created_at": "2025-12-06T22:58:31.787384-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.005423521110366487
+    },
+    {
+      "id": "b60ba689-3c96-4250-81f7-f00a7fa1630c",
+      "memory": "Thinking about submitting a script written last year to a few festivals",
+      "hash": "b3e06c3e8dc3a6f57f2d235099bb98a8",
+      "metadata": null,
+      "score": 0.20521330131369675,
+      "created_at": "2025-12-06T23:16:26.556460-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.002547922319823057
+    },
+    {
+      "id": "c4b676e6-469e-444a-be61-36374ec897a5",
+      "memory": "Excited for the Taylor Swift concert at Levi's Stadium in Santa Clara on August 20th",
+      "hash": "5d53beb751583ba09f9ad7f05092773b",
+      "metadata": null,
+      "score": 0.2674436269072773,
+      "created_at": "2025-12-06T22:58:31.739351-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.002257278765978294
+    },
+    {
+      "id": "150ed0d4-8129-4ed0-a021-0424e9222350",
+      "memory": "Wants to know about upcoming concerts in the Bay Area, specifically in Berkeley or San Francisco",
+      "hash": "77366b37aec2e668e3a6703bf74372ab",
+      "metadata": null,
+      "score": 0.24243956326202684,
+      "created_at": "2025-12-06T22:58:31.723731-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.0009383593567858698
+    },
+    {
+      "id": "e0bb11c7-6163-4cb4-8123-755a6cd06494",
+      "memory": "Loves 'The Good Place' and 'Brooklyn Nine-Nine' on Hulu",
+      "hash": "5df88ff251aa67cc3e1905e5ac015421",
+      "metadata": null,
+      "score": 0.20163958226894763,
+      "created_at": "2025-12-06T23:11:08.274856-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.0008923924288352106
+    },
+    {
+      "id": "4aa77b47-38a1-4d38-b10f-778f97ed8a6f",
+      "memory": "Just got back from the Khalid concert at the Greek Theatre in Berkeley with sister, Sophia",
+      "hash": "5607652f9c1ceeee4364927160f789be",
+      "metadata": null,
+      "score": 0.26123922135724464,
+      "created_at": "2025-12-06T22:58:31.846177-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.0008702014981004097
+    },
+    {
+      "id": "363319ea-da5e-4551-aa40-1f3c54d9f1c0",
+      "memory": "Thinking of selling an old car, a 2012 Nissan Versa",
+      "hash": "1e6af72c38048b93b336a97dd328d3e4",
+      "metadata": null,
+      "score": 0.2095414842272926,
+      "created_at": "2025-12-06T23:22:00.290510-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.0007805731934442654
+    },
+    {
+      "id": "809a291c-57cb-4e7f-b6ee-6bdeabfa3523",
+      "memory": "Really enjoys historical fiction",
+      "hash": "9600c8cfb16ada2a498533af4eb53b20",
+      "metadata": null,
+      "score": 0.21467752725975925,
+      "created_at": "2025-12-06T23:15:32.828010-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.0005288358168618155
+    },
+    {
+      "id": "0afde369-2a0d-44cd-a9ed-9ab6b1847b38",
+      "memory": "Interested in learning more about antique restoration classes",
+      "hash": "7cfc444d67c71f4038b240ab3a521e3a",
+      "metadata": null,
+      "score": 0.23389945033774454,
+      "created_at": "2025-12-06T23:13:33.020881-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.0005246570052299373
+    },
+    {
+      "id": "fa3a1490-c2c8-43e0-bdea-0f36a5a0d7f4",
+      "memory": "Interested in learning about antique clock restoration",
+      "hash": "b24b4742cea2828c033745c79f2161af",
+      "metadata": null,
+      "score": 0.22150991949535268,
+      "created_at": "2025-12-06T23:13:33.054643-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.00036571806626574594
+    },
+    {
+      "id": "baa39841-efd6-4c12-b215-55c0e04a6212",
+      "memory": "Thinking of upgrading bedroom furniture, specifically dresser",
+      "hash": "b3d7351940612bb4452113cbc93d4cd8",
+      "metadata": null,
+      "score": 0.2158689778809424,
+      "created_at": "2025-12-06T23:18:39.796098-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.0002773866341850122
+    },
+    {
+      "id": "18e06329-92c3-4847-8053-e101801d3a4a",
+      "memory": "Interested in finding an antique restoration class that focuses on furniture restoration",
+      "hash": "c596fc67a2344c4a198e62eac90e2c83",
+      "metadata": null,
+      "score": 0.21067918190598034,
+      "created_at": "2025-12-06T23:13:33.038034-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.0002527460552522137
+    },
+    {
+      "id": "8ae56f66-f48b-4d01-a1e3-28bdfd71e2eb",
+      "memory": "Thinks it's great to see so many hospitals taking the initiative to promote sustainability",
+      "hash": "4e655207bfd9293ffef086c52315f93a",
+      "metadata": null,
+      "score": 0.18720877270442052,
+      "created_at": "2025-12-06T23:19:01.861770-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.00020216802481120628
+    },
+    {
+      "id": "24f46084-2d9b-4173-8d13-73e43a5b09b0",
+      "memory": "Feels transported to another place and time when listening to Mozart's pieces",
+      "hash": "2e1b89f886854f2e43d2098adada27e2",
+      "metadata": null,
+      "score": 0.22473600177553743,
+      "created_at": "2025-12-06T22:59:53.340638-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 9.79859279199004e-06
+    },
+    {
+      "id": "deba1e7b-0e15-4abf-87e8-8e5b934ddd47",
+      "memory": "Interested in learning more about the festival's history and its impact on the theater community",
+      "hash": "87962ee1f1956a24c4ecc8e7d317daa6",
+      "metadata": null,
+      "score": 0.2911957415872424,
+      "created_at": "2025-12-06T23:16:26.479915-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_152",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5802,
+    "load_time": 1428.8087
+  }
+}

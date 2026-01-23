@@ -1,0 +1,77 @@
+{
+  "sample_idx": 168,
+  "question_id": "9aaed6a3",
+  "question": "How much cashback did I earn at SaveMart last Thursday?",
+  "question_type": "multi-session",
+  "gold_answer": "$0.75",
+  "question_date": "2023/05/30 (Tue) 23:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-08T15:39:49.249245",
+  "predicted_answer": "You spent $75 at SaveMart last Thursday and can earn 1% cashback on all purchases. Therefore, you earned $0.75 in cashback.",
+  "prompt_length": 2975,
+  "gen_token_usage": {
+    "prompt_tokens": 837,
+    "answer_tokens": 31,
+    "total_tokens": 868,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 21,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.09523809523809523,
+      "rouge1_f": 0.16666666666666669,
+      "rouge2_f": 0.0909090909090909,
+      "rougeL_f": 0.16666666666666669,
+      "semantic_similarity": 0.37900006771087646,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.10714285714285715,
+      "avg_semantic": 0.37900006771087646,
+      "overall_average": 0.1615143120288849
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.09523809523809523,
+    "rouge1_f": 0.16666666666666669,
+    "rouge2_f": 0.0909090909090909,
+    "rougeL_f": 0.16666666666666669,
+    "semantic_similarity": 0.37900006771087646,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.10714285714285715,
+    "avg_semantic": 0.37900006771087646,
+    "overall_average": 0.1615143120288849
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 2077.4229,
+    "retrieval_time": 1.2049,
+    "generation_time": 1.4526,
+    "evaluation_time": 1.2769,
+    "cleanup_time": 1.6585,
+    "total_time": 2083.0191
+  }
+}

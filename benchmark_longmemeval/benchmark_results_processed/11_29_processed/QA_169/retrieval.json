@@ -1,0 +1,242 @@
+{
+  "sample_idx": 169,
+  "question_id": "1f2b8d4f",
+  "question": "What is the difference in price between my luxury boots and the similar pair found at the budget store?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T16:14:32.278404",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "1c25d9d6-d845-4d37-a983-047e13743a24",
+      "memory": "Found that similar boots can be found at a budget store for $50",
+      "hash": "df90cb45beeae0dc8f95e892309eae25",
+      "metadata": null,
+      "score": 0.7226369158161281,
+      "created_at": "2025-12-08T00:24:26.036486-08:00",
+      "updated_at": "2025-12-08T00:25:04.872548-08:00",
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.9999999991859081
+    },
+    {
+      "id": "f907cfc7-d75d-4e4b-bd47-a7d044711f34",
+      "memory": "Recently bought a pair of boots that they love but could have found something similar for much cheaper",
+      "hash": "3917bb224a0c0fb287b1ad354195035e",
+      "metadata": null,
+      "score": 0.7257156941871966,
+      "created_at": "2025-12-08T00:24:25.950303-08:00",
+      "updated_at": "2025-12-08T00:25:04.856309-08:00",
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.9388265619696232
+    },
+    {
+      "id": "6a3d96f5-0c49-4463-861c-d0d2f2a3c3ae",
+      "memory": "Boots are a pair of black ankle boots with a heel from a luxury brand",
+      "hash": "4f7e380168d47881e41b1e4c26f2b817",
+      "metadata": null,
+      "score": 0.6984116767758706,
+      "created_at": "2025-12-08T00:24:25.967293-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.6920130232633247
+    },
+    {
+      "id": "aa41a720-1dca-4a7e-ab4c-c5362c043c66",
+      "memory": "Recently splurged on a pair of boots for $800",
+      "hash": "b0939bde485fc889a16bc33ec22b008e",
+      "metadata": null,
+      "score": 0.5486538061012504,
+      "created_at": "2025-12-08T00:24:25.870127-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.502075890083312
+    },
+    {
+      "id": "0d5d235f-4f4c-4132-9186-caf90935990a",
+      "memory": "Thinking more along the lines of $50-$100 for boots",
+      "hash": "93ba1d8465cc29597061164831351c2e",
+      "metadata": null,
+      "score": 0.62640602955868,
+      "created_at": "2025-12-08T00:24:26.055269-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.40907498682324905
+    },
+    {
+      "id": "100bbb48-a36c-402c-9c18-3b85888b9bac",
+      "memory": "Used to be a bit of a luxury shopper but has been making an effort to scale back and explore more budget-friendly options",
+      "hash": "02b8aa15b2c003cd1aebf1fa55d1332e",
+      "metadata": null,
+      "score": 0.4625191710189177,
+      "created_at": "2025-12-08T00:25:04.888856-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.3817071406807329
+    },
+    {
+      "id": "391c85d0-be94-41fd-a684-da163983b14b",
+      "memory": "Had some success at thrift stores and discount retailers, like finding a great pair of vintage jeans for $10",
+      "hash": "944eec0555b9d27c0522c3dfc8a49b21",
+      "metadata": null,
+      "score": 0.4423558908166212,
+      "created_at": "2025-12-08T00:25:04.942570-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.3377903601825919
+    },
+    {
+      "id": "f1fbb458-e603-485d-b245-95dfda5bde60",
+      "memory": "Looking for advice on budget-friendly fashion options",
+      "hash": "f88456bc37fdfb49257c501ce57f3fc7",
+      "metadata": null,
+      "score": 0.44088794017222177,
+      "created_at": "2025-12-08T00:24:25.819770-08:00",
+      "updated_at": "2025-12-08T00:25:04.819482-08:00",
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.2331268158201392
+    },
+    {
+      "id": "1996f93d-ba83-4fe5-a604-325f850df464",
+      "memory": "Paid $800 for the boots",
+      "hash": "ea98e2e985c8cd9cb6ec9d49a1b118c5",
+      "metadata": null,
+      "score": 0.574908883221205,
+      "created_at": "2025-12-08T00:24:26.002523-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.22002581712275662
+    },
+    {
+      "id": "c88dcd60-39c1-4024-bb98-6502db9571e0",
+      "memory": "Looking at thrift stores and discount retailers for affordable options",
+      "hash": "db2979384997e5aa31449532b303c3a0",
+      "metadata": null,
+      "score": 0.3895876229546228,
+      "created_at": "2025-12-08T00:25:04.924851-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.2153115693411704
+    },
+    {
+      "id": "836d64b6-1801-4c4d-b43b-05288457f40c",
+      "memory": "Going back to Bed Bath & Beyond to take another look at that shoe rack",
+      "hash": "85209cbec1eb4bfd1690138ef9faa400",
+      "metadata": null,
+      "score": 0.33031548666831134,
+      "created_at": "2025-12-08T00:27:02.702687-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.16020569979583935
+    },
+    {
+      "id": "66dafce8-59b2-452a-9ade-d45611a08b07",
+      "memory": "Looking for advice on shoe care",
+      "hash": "2af4703ebab170aea9a1e4665b3e93a3",
+      "metadata": null,
+      "score": 0.39551813987973294,
+      "created_at": "2025-12-08T00:27:02.573626-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.0862578232288693
+    },
+    {
+      "id": "63414961-4f00-4974-bfbc-f06746b5d5b8",
+      "memory": "Thinking of buying a new pair of jeans",
+      "hash": "a5d53bea997908f655a806704b2f2716",
+      "metadata": null,
+      "score": 0.4609665392815062,
+      "created_at": "2025-12-08T00:25:04.906742-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.08426400564880777
+    },
+    {
+      "id": "ab1dc1e7-07f9-4fc4-af64-be75398e6f19",
+      "memory": "Loves the sleek design, quality of the leather, and how they made them feel confident and stylish",
+      "hash": "d9868219f2a9e26413b96a3ddd85f57d",
+      "metadata": null,
+      "score": 0.43367337606914924,
+      "created_at": "2025-12-08T00:24:25.985206-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.028361338867225347
+    },
+    {
+      "id": "6c304f9a-3e42-42dc-9475-90b0c1c8e511",
+      "memory": "Wants recommendations for popular budget-friendly fashion bloggers or influencers",
+      "hash": "983fa6f1f9d8f6c513ae8fca21cccaeb",
+      "metadata": null,
+      "score": 0.29724289827540035,
+      "created_at": "2025-12-08T00:24:25.918361-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.01754397983729848
+    },
+    {
+      "id": "431309d6-12ec-464c-bf66-fb3110835132",
+      "memory": "Thinking about getting a shoe rack with individual cubbies or one with shelves",
+      "hash": "1df1143e735c4b19745c71c0ce89aa22",
+      "metadata": null,
+      "score": 0.29298995105278147,
+      "created_at": "2025-12-08T00:27:02.688808-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.00804809462187366
+    },
+    {
+      "id": "7a8fca28-85d1-4bb5-8601-87948521d356",
+      "memory": "Packed rain boots and an extra jacket for the trip",
+      "hash": "07a9cbcfd672df084791b49c7b3d5a6d",
+      "metadata": null,
+      "score": 0.38831559006425126,
+      "created_at": "2025-12-08T00:17:46.786178-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.007427923490316033
+    },
+    {
+      "id": "70377777-3c87-4482-b936-0cc281a02410",
+      "memory": "The rain boots were helpful for keeping feet dry",
+      "hash": "99332a03eb1873e29b012778456d33ac",
+      "metadata": null,
+      "score": 0.4619851479119253,
+      "created_at": "2025-12-08T00:17:46.809633-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.004057431585670152
+    },
+    {
+      "id": "2af852ac-e096-4d13-bc58-5ec392b8596f",
+      "memory": "Looking for good deals on non-perishable items at ShopRite",
+      "hash": "212802950bf1b38ec68dd4678f7e0fa3",
+      "metadata": null,
+      "score": 0.28554697413280716,
+      "created_at": "2025-12-08T00:36:44.112232-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.0015692161881625901
+    },
+    {
+      "id": "84cc0a4c-b3bb-477f-ac8e-c58e0d3a7643",
+      "memory": "Recently got old sneakers resoled and it took a week to get them back",
+      "hash": "2fb6dd40f9b20996df84529a73b244d2",
+      "metadata": null,
+      "score": 0.3798234178155377,
+      "created_at": "2025-12-08T00:27:02.605752-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_169",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5792,
+    "load_time": 1816.2636
+  }
+}

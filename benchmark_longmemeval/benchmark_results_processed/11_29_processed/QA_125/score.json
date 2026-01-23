@@ -1,0 +1,77 @@
+{
+  "sample_idx": 125,
+  "question_id": "81507db6",
+  "question": "How many graduation ceremonies have I attended in the past three months?",
+  "question_type": "multi-session",
+  "gold_answer": 3,
+  "question_date": "2023/07/21 (Fri) 23:33",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T03:50:01.533042",
+  "predicted_answer": "You have attended two graduation ceremonies in the past three months: your colleague Alex's graduation from a leadership development program and your nephew Jack's eighth grade graduation ceremony.",
+  "prompt_length": 3417,
+  "gen_token_usage": {
+    "prompt_tokens": 878,
+    "answer_tokens": 32,
+    "total_tokens": 910,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.67,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.136630117893219,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.136630117893219,
+      "overall_average": 0.02732602320611477
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.136630117893219,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.136630117893219,
+    "overall_average": 0.02732602320611477
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1384.5405,
+    "retrieval_time": 1.2576,
+    "generation_time": 1.4926,
+    "evaluation_time": 1.6214,
+    "cleanup_time": 1.5696,
+    "total_time": 1390.4848
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_idx": 147,
+  "question_id": "d24813b1",
+  "question": "I'm thinking of inviting my colleagues over for a small gathering. Any tips on what to bake?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer baking suggestions that take into account their previous success with the lemon poppyseed cake, such as variations of that recipe or other desserts that share similar qualities. They might prefer suggestions that balance impressiveness with manageability, considering their previous experience. The user may not prefer overly complex or unfamiliar recipes, or suggestions that do not build upon their existing baking experience.",
+  "question_date": "2023/05/30 (Tue) 17:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T12:48:50.716322",
+  "predicted_answer": "You could consider making a batch of chocolate chip cookies, as you mentioned wanting to bring them to a party. Additionally, you might want to try out new recipes or experiment with different baked goods, as you seem excited about that.",
+  "prompt_length": 2851,
+  "gen_token_usage": {
+    "prompt_tokens": 780,
+    "answer_tokens": 46,
+    "total_tokens": 826,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.6,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 65,
+      "response_length": 41,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.19801980198019803,
+      "rouge1_f": 0.18867924528301888,
+      "rouge2_f": 0.019230769230769232,
+      "rougeL_f": 0.09433962264150944,
+      "semantic_similarity": 0.2577856183052063,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.12025966747618158,
+      "avg_semantic": 0.2577856183052063,
+      "overall_average": 0.14776484668254852
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.19801980198019803,
+    "rouge1_f": 0.18867924528301888,
+    "rouge2_f": 0.019230769230769232,
+    "rougeL_f": 0.09433962264150944,
+    "semantic_similarity": 0.2577856183052063,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.12025966747618158,
+    "avg_semantic": 0.2577856183052063,
+    "overall_average": 0.14776484668254852
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1655.6408,
+    "retrieval_time": 0.3912,
+    "generation_time": 1.5137,
+    "evaluation_time": 1.0154,
+    "cleanup_time": 1.7097,
+    "total_time": 1660.277
+  }
+}

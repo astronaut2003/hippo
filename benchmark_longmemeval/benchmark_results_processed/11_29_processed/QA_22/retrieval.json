@@ -1,0 +1,242 @@
+{
+  "sample_idx": 22,
+  "question_id": "6b168ec8",
+  "question": "How many bikes do I own?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T07:07:09.553917",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "015c49f9-1ea0-4b7b-bf34-81c110c74dac",
+      "memory": "Has three bikes: a road bike, a mountain bike, and a commuter bike",
+      "hash": "277ecec8e89bf0f3beffbfd532b1fae3",
+      "metadata": null,
+      "score": 0.5982120181420809,
+      "created_at": "2025-11-28T15:27:22.248638-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.9999999991139698
+    },
+    {
+      "id": "b1b390b5-3a7c-4f27-bda6-0a2a437c88cf",
+      "memory": "Thinking of getting a bike lock with a GPS tracker to keep bikes safe",
+      "hash": "2eaff2cda53b1cc6842f4b65395591cb",
+      "metadata": null,
+      "score": 0.2301672015821235,
+      "created_at": "2025-11-28T15:27:22.264817-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.15034551134937066
+    },
+    {
+      "id": "b9f050da-0bf0-4482-86a8-607c60c307d7",
+      "memory": "Has a Trek Emonda bike",
+      "hash": "c44b93cd6959e1147032a50a57e12878",
+      "metadata": null,
+      "score": 0.41695132658079,
+      "created_at": "2025-11-28T15:27:22.217503-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.08480853348621785
+    },
+    {
+      "id": "65761a62-02c3-403e-a0e1-f070b416fdc6",
+      "memory": "Planning a long ride this weekend",
+      "hash": "9bc33034a8791fbd6c9937be717bf13b",
+      "metadata": null,
+      "score": 0.3051451021640108,
+      "created_at": "2025-11-28T15:27:22.184705-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.017377016452526442
+    },
+    {
+      "id": "dda50fe5-bad2-41fc-b5f3-30ac7b2657fe",
+      "memory": "Decided to go with the Abus SmartX bike lock with GPS tracking",
+      "hash": "93a83ffd6c8866cffb6adfe19c46e3a6",
+      "metadata": null,
+      "score": 0.20972262166935635,
+      "created_at": "2025-11-28T15:27:22.281008-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.01462160733553373
+    },
+    {
+      "id": "3e14f867-e755-4b82-a164-0a3f612ec48b",
+      "memory": "Considering upgrading road bike's wheels to carbon fiber wheels to make it lighter and faster",
+      "hash": "f270bdfdc72f8cc73bcccfe02a34ef36",
+      "metadata": null,
+      "score": 0.2394637468176745,
+      "created_at": "2025-11-28T15:27:22.233214-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.004535875414767976
+    },
+    {
+      "id": "512b0dd1-e40d-44cc-82bd-8f9fedf46f65",
+      "memory": "Retired old Nikes after a grueling 10K three Sundays ago",
+      "hash": "11a282192eaef191abfd3eac2ea77899",
+      "metadata": null,
+      "score": 0.1329782447795224,
+      "created_at": "2025-11-28T15:15:13.371122-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.00414676017100854
+    },
+    {
+      "id": "a0c923b4-7abb-4b7b-b837-fa709ab9b247",
+      "memory": "Looking to buy a new pair of sneakers, specifically the ASICS Gel-Kayano",
+      "hash": "6d6a2a9916f18717948c78b890a5be39",
+      "metadata": null,
+      "score": 0.15252254368840062,
+      "created_at": "2025-11-28T15:09:04.817949-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.003284284754493325
+    },
+    {
+      "id": "c902b0cb-5141-4db7-bad7-425e17ef7506",
+      "memory": "Planning to buy a house soon",
+      "hash": "1387cbed2efa249bcffc4a481da328b7",
+      "metadata": null,
+      "score": 0.2076297656536251,
+      "created_at": "2025-11-28T15:08:05.662792-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.0022260264889464895
+    },
+    {
+      "id": "3b2b5517-303e-4cc4-8cd6-cacf558df9fc",
+      "memory": "Has been buying a lot of gifts lately",
+      "hash": "190ca466948e69cda2a6444b1d905201",
+      "metadata": null,
+      "score": 0.13582041301521539,
+      "created_at": "2025-11-28T15:28:21.322246-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.0017359356281854191
+    },
+    {
+      "id": "ffe70917-98c7-447c-b36a-0addf951609d",
+      "memory": "Interested in the Fitbit Inspire HR",
+      "hash": "0f5c708b704edfb57951055e94f83c9d",
+      "metadata": null,
+      "score": 0.13834631352615184,
+      "created_at": "2025-11-28T15:29:25.051127-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.0014009838743825082
+    },
+    {
+      "id": "53a7ce00-0e17-4163-8134-7c7ffe15897f",
+      "memory": "Got a new stand mixer as a birthday gift from sister last month",
+      "hash": "b7c8426193df741bb2259f3e4c86f9d4",
+      "metadata": null,
+      "score": 0.12809447761197218,
+      "created_at": "2025-11-28T15:20:42.866278-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.001370564441645614
+    },
+    {
+      "id": "d172dcea-9c07-4a90-9532-9568642eb3a6",
+      "memory": "Has been experimenting with different baking recipes",
+      "hash": "85d6a540be9cec1a4ebe0f5f9a15406a",
+      "metadata": null,
+      "score": 0.16193714549127847,
+      "created_at": "2025-11-28T15:20:42.744570-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.0011263639955077704
+    },
+    {
+      "id": "3d0def8f-0f3d-4f91-be1e-0dc77c9551a2",
+      "memory": "Interested in trying out caramel éclairs",
+      "hash": "d11dd9ebe067d8379939b7e0e232efa9",
+      "metadata": null,
+      "score": 0.14260616240691484,
+      "created_at": "2025-11-28T15:20:42.800434-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.0009146109442892804
+    },
+    {
+      "id": "151668e4-c025-470b-80e5-b2f4566625c1",
+      "memory": "Is thinking of doing a clothing swap with friends to get new pieces without spending money",
+      "hash": "e76483885a90a8720df320c935dbb3df",
+      "metadata": null,
+      "score": 0.15959730535721153,
+      "created_at": "2025-11-28T15:09:56.109426-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.0004957522551871035
+    },
+    {
+      "id": "7e0c3f31-26d6-4f4e-a98a-1f80e4c35028",
+      "memory": "Got brown loafers polished on February 1st and picked them up on February 5th",
+      "hash": "424542808094bded8548589538c4d17e",
+      "metadata": null,
+      "score": 0.164832506240553,
+      "created_at": "2025-11-28T15:09:04.925061-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.0004021280010968852
+    },
+    {
+      "id": "e0e0702c-9e97-4d7d-89c6-62d48ef75b17",
+      "memory": "Focusing on eating more complex carbs, lean proteins, and healthy fats",
+      "hash": "a5a4a2a4657c5161c7f668da3000362e",
+      "metadata": null,
+      "score": 0.12035712166196633,
+      "created_at": "2025-11-28T15:15:13.498920-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.00020659864733807193
+    },
+    {
+      "id": "7d39be5e-7073-4019-8453-7eb2cc40ba07",
+      "memory": "Balancing running with spin classes at the gym",
+      "hash": "ff900bd32e96913c157f57bf50e98691",
+      "metadata": null,
+      "score": 0.13694525465672852,
+      "created_at": "2025-11-28T15:15:13.452737-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.00013612696149760078
+    },
+    {
+      "id": "00d66b04-a384-4d1c-9593-0cc76b00e63e",
+      "memory": "Wants to watch 2 episodes of \"The Crown\" per week on Netflix",
+      "hash": "a6950ee898305762578b375e4fa565e7",
+      "metadata": null,
+      "score": 0.14780327609820582,
+      "created_at": "2025-11-28T15:33:52.622844-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.00010841147833731954
+    },
+    {
+      "id": "fa231b0e-b8d2-4886-a647-0f8eaec9f76b",
+      "memory": "Got a birthday gift for sister-in-law - a silver necklace from boutique on Main Street for around $50 plus $5 for wrapping",
+      "hash": "f745e7dea3c1cd1905ef8c9d00ebabab",
+      "metadata": null,
+      "score": 0.12500986101901584,
+      "created_at": "2025-11-28T15:28:21.338330-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_22",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1826,
+    "load_time": 1725.244
+  }
+}

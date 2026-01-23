@@ -1,0 +1,242 @@
+{
+  "sample_idx": 148,
+  "question_id": "57f827a0",
+  "question": "I was thinking about rearranging the furniture in my bedroom this weekend. Any tips?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T13:16:30.997679",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "da57b2ea-f31f-4bb9-8326-307a02a97a18",
+      "memory": "Interested in trying the tips provided",
+      "hash": "5fd71cbbe68880802b998dffd57fed6f",
+      "metadata": null,
+      "score": 0.21003304044527232,
+      "created_at": "2025-12-06T21:24:02.033114-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.9999999987501617
+    },
+    {
+      "id": "1f246ec4-c8b9-4055-a1ae-4fe0b125d5b4",
+      "memory": "Might need to reorganize the cabinet again to make it more efficient",
+      "hash": "96399e90e5e55a614f2426bb0db2300d",
+      "metadata": null,
+      "score": 0.2955303210363155,
+      "created_at": "2025-12-06T21:33:52.998217-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.8562338751663893
+    },
+    {
+      "id": "d6d9caa4-7557-4742-90eb-792671c52904",
+      "memory": "Likes the tip about assigning zones for organizing bathroom cabinets",
+      "hash": "e78ce1a4d73570f223d64a921812873d",
+      "metadata": null,
+      "score": 0.34573769786822145,
+      "created_at": "2025-12-06T21:33:52.982654-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.5319020130410127
+    },
+    {
+      "id": "ed0e836e-2104-42e6-bc30-b58afb57f316",
+      "memory": "Looking for mid-century modern design inspiration for a new bedroom dresser to replace my new one",
+      "hash": "053d64e884223f864cbfeaf51da49cf0",
+      "metadata": null,
+      "score": 0.3677692613883056,
+      "created_at": "2025-12-06T21:36:30.989087-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.4768930921941475
+    },
+    {
+      "id": "cb9a2730-c407-49c8-b892-080a103a648f",
+      "memory": "Organized bathroom cabinets last weekend and it feels great to have everything tidy",
+      "hash": "1ba59e6e13ef477b6ebbd5dc5975eff7",
+      "metadata": null,
+      "score": 0.41668713520192274,
+      "created_at": "2025-12-06T21:33:52.966900-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.385961406034982
+    },
+    {
+      "id": "46763d6d-7648-4f15-b353-0a6d4182b8bd",
+      "memory": "Trying to organize collectibles",
+      "hash": "94f948ef08b213021ec92dae78c2b74f",
+      "metadata": null,
+      "score": 0.21506563035512882,
+      "created_at": "2025-12-06T21:26:20.739030-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.34695306921804303
+    },
+    {
+      "id": "99bb1c6a-6032-4155-ae1d-f7bb939c8568",
+      "memory": "Decided to go with brass accents and simple knobs for the dresser",
+      "hash": "eb27b7f87121781d6785e6c345da80a0",
+      "metadata": null,
+      "score": 0.2459445253597657,
+      "created_at": "2025-12-06T21:36:31.086403-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.09317348431496741
+    },
+    {
+      "id": "0e4d3012-797b-47d4-8eb0-e352b7197f27",
+      "memory": "Looking for stylish storage bins to match bathroom decor",
+      "hash": "b9a7fb02bfbccfcb62c6176c286aa417",
+      "metadata": null,
+      "score": 0.22657343073667935,
+      "created_at": "2025-12-06T21:33:53.015778-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.01653493011310677
+    },
+    {
+      "id": "d790256b-2420-449e-892f-095e46ec25ca",
+      "memory": "Wants to know key elements that define a mid-century modern dresser to incorporate them into my design",
+      "hash": "ea12e15071b57f7a4800096558c3c350",
+      "metadata": null,
+      "score": 0.2417190966792011,
+      "created_at": "2025-12-06T21:36:31.006483-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.010993726664304333
+    },
+    {
+      "id": "4631a274-d0f7-4d9d-91a7-c6682a5ac1dc",
+      "memory": "With family, had to plan everything out for a 10-day trip far in advance and it was hard to make changes on the fly",
+      "hash": "96e2bedda81f34c6b3a77b8345a5ae1b",
+      "metadata": null,
+      "score": 0.2919105268814525,
+      "created_at": "2025-12-06T21:41:00.811519-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.005666118616139765
+    },
+    {
+      "id": "6723232d-34db-4cd2-8f8d-82ecf7a258af",
+      "memory": "Decided to go with a satin finish for my walnut dresser",
+      "hash": "2fc3624c5c8f7f7ee72fd82362f2a4e6",
+      "metadata": null,
+      "score": 0.23635092273583608,
+      "created_at": "2025-12-06T21:36:31.054631-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.005557771395615309
+    },
+    {
+      "id": "97eec611-403a-4d25-9829-c96aa8f29860",
+      "memory": "Considering a walnut dresser with an oil-based stain",
+      "hash": "15036c43e69fb363ab1da2459ca49079",
+      "metadata": null,
+      "score": 0.215100697014181,
+      "created_at": "2025-12-06T21:36:31.022498-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.004336749473665339
+    },
+    {
+      "id": "018c62bb-eea2-432f-aab7-d777778d5a20",
+      "memory": "Thinking of creating a content calendar to stay organized and ensure consistent posting",
+      "hash": "36e40471ddde4487f680a95b11eeee1d",
+      "metadata": null,
+      "score": 0.2222306202460416,
+      "created_at": "2025-12-06T21:30:26.526294-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.0032213333134146725
+    },
+    {
+      "id": "1ea080bc-9c74-4ba5-ac7f-1dafc40c88fe",
+      "memory": "Spent $282,000 on minor renovations to increase the price of grandparents' old house",
+      "hash": "0d393205952e23a9bc4e7aa25f954e7a",
+      "metadata": null,
+      "score": 0.23052594664149614,
+      "created_at": "2025-12-06T21:27:55.306262-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.001828076260928026
+    },
+    {
+      "id": "ffb41d15-8b61-47fe-a9d9-6f85c3813545",
+      "memory": "Wants to focus on dinner recipes",
+      "hash": "cceb7023c74d2367297d2d82ec4e8bda",
+      "metadata": null,
+      "score": 0.2080147780554137,
+      "created_at": "2025-12-06T21:29:00.728543-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.0010411583842476564
+    },
+    {
+      "id": "8b2980fc-20d6-433e-a98e-7b9c2920d77f",
+      "memory": "Has been trying to cut down on screen time before bed but finds it hard when in the middle of a good show",
+      "hash": "a8c5048ddabd0699b1c46073e58332a6",
+      "metadata": null,
+      "score": 0.3133825159079565,
+      "created_at": "2025-12-06T21:37:53.715576-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.0005968036668492291
+    },
+    {
+      "id": "f16f1ec6-0a9d-4993-8485-6ef992398a9d",
+      "memory": "Planning to sell grandparents' old house for $420,000",
+      "hash": "c53235aede6acaf3980ed458bc56d717",
+      "metadata": null,
+      "score": 0.2546758218232432,
+      "created_at": "2025-12-06T21:27:55.322659-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.0004672399388953421
+    },
+    {
+      "id": "d54f681e-6bcd-4712-871a-7787202e319b",
+      "memory": "Considering buying a 5-acre plot of land in the countryside to build a small cottage",
+      "hash": "b10839991fb991115a181f3733fe4343",
+      "metadata": null,
+      "score": 0.22091717305941022,
+      "created_at": "2025-12-06T21:27:55.275749-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.0003871416636561406
+    },
+    {
+      "id": "bff5065a-a075-4faf-8d03-5c47c54900ca",
+      "memory": "Will make sure to implement suggestions to show their Receptionist that their hard work is appreciated",
+      "hash": "fa2cd188dd899dcab1d92e0593a8ebdf",
+      "metadata": null,
+      "score": 0.21327020838509675,
+      "created_at": "2025-12-06T21:25:16.265976-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.00010727447576678773
+    },
+    {
+      "id": "fd399443-0ba7-4923-be7d-7e747ac9f839",
+      "memory": "Hasn't tried progressive muscle relaxation yet but will give it a shot tonight",
+      "hash": "80cf52b256d001525ae1db66bfd4cd74",
+      "metadata": null,
+      "score": 0.23965549039329306,
+      "created_at": "2025-12-06T21:37:53.682801-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_148",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.483,
+    "load_time": 1585.4418
+  }
+}

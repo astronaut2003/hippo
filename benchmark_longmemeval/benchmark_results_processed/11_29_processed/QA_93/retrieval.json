@@ -1,0 +1,242 @@
+{
+  "sample_idx": 93,
+  "question_id": "d682f1a2",
+  "question": "How many different types of food delivery services have I used recently?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T02:58:32.212742",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "299c0e60-5250-4c43-8483-78f4b948fb30",
+      "memory": "Has been really busy lately and relying on food delivery services",
+      "hash": "fd3b35d886419adf9c88ae0e094ba9b3",
+      "metadata": null,
+      "score": 0.5928668028559196,
+      "created_at": "2025-12-01T11:17:40.214676-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.9999999990634331
+    },
+    {
+      "id": "1e9b447f-f9dd-4dab-a14b-931fcfa07527",
+      "memory": "Found a new food delivery service called Fresh Fusion that has great pre-made meals",
+      "hash": "f90e069eacebbeedef344443a8db0e93",
+      "metadata": null,
+      "score": 0.578366635947801,
+      "created_at": "2025-12-01T11:17:40.227819-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.5517501120043549
+    },
+    {
+      "id": "565e1d39-c600-4045-9dc8-225ed9fb8593",
+      "memory": "Has been relying on Uber Eats for convenience but wants to make healthier choices",
+      "hash": "388986f4713469e44c67dbf69d5787c3",
+      "metadata": null,
+      "score": 0.3677006760122802,
+      "created_at": "2025-12-01T11:02:00.166226-08:00",
+      "updated_at": "2025-12-01T11:17:40.140709-08:00",
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.10099218747458315
+    },
+    {
+      "id": "f48dac2a-0566-4405-9345-b49525e1fc02",
+      "memory": "Has been cooking at home a lot more frequently over the past three months",
+      "hash": "9f0d086bbc0e1d96ea45a6fbd9891a79",
+      "metadata": null,
+      "score": 0.3551307518601575,
+      "created_at": "2025-12-01T10:59:44.713586-08:00",
+      "updated_at": "2025-12-01T11:01:59.423657-08:00",
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.04461897122262145
+    },
+    {
+      "id": "6cce3521-e6a3-4398-9078-b7e017be150d",
+      "memory": "Interested in learning more about meal planning and grocery lists",
+      "hash": "d5c76114cfe8bbbb014b096c1bcfcc23",
+      "metadata": null,
+      "score": 0.46085913355502883,
+      "created_at": "2025-12-01T11:12:08.386864-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.01214367138441566
+    },
+    {
+      "id": "f31535a1-2a88-4110-86a8-9345f586bf17",
+      "memory": "Planning to bring a few different types of cookies to the potluck",
+      "hash": "02df12eb2790a6a0edefe1ee07065f11",
+      "metadata": null,
+      "score": 0.38638197064927127,
+      "created_at": "2025-12-01T11:08:39.019703-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.011485219299641372
+    },
+    {
+      "id": "8de64f5d-dd00-4145-bb29-d502c1d3f0a7",
+      "memory": "Looking for healthy meal ideas for busy weekdays",
+      "hash": "035de5df78f6f00a8b552f0d346e25e5",
+      "metadata": null,
+      "score": 0.30144927419037243,
+      "created_at": "2025-12-01T11:02:00.149358-08:00",
+      "updated_at": "2025-12-01T11:12:07.429393-08:00",
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.005094786403636759
+    },
+    {
+      "id": "9a68067e-5092-4061-8619-edca7073aea4",
+      "memory": "Invested in community-supported agriculture (CSA) program last month",
+      "hash": "e1b1164a977d49f7f3a13c56938d9114",
+      "metadata": null,
+      "score": 0.2991118830587127,
+      "created_at": "2025-12-01T11:13:20.388955-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.002332360185799104
+    },
+    {
+      "id": "92dd7eb1-7abf-47ad-8a6d-52a6c35d7622",
+      "memory": "Is adding the recommended restaurants to their list",
+      "hash": "cfdc404876dea078fe0923be6f955c84",
+      "metadata": null,
+      "score": 0.42140903565196175,
+      "created_at": "2025-12-01T11:02:38.219256-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.002167032620834751
+    },
+    {
+      "id": "b2f60a60-3c94-4b57-93c8-976d315ee427",
+      "memory": "Experimenting with different types of non-dairy milk",
+      "hash": "13b7d2ded3c1749eef0b0501cd316b88",
+      "metadata": null,
+      "score": 0.31210401693782996,
+      "created_at": "2025-12-01T11:08:38.944679-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.002007242770093948
+    },
+    {
+      "id": "f54618f4-886c-4735-a048-22c4901af4b2",
+      "memory": "Wants good apps for organizing and keeping track of recipes",
+      "hash": "686693dfc21e69bb9e4647f9e1612368",
+      "metadata": null,
+      "score": 0.3455912645823752,
+      "created_at": "2025-12-01T11:12:08.360817-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.0017587601738050073
+    },
+    {
+      "id": "91e52c3e-3548-4369-8a1d-f9090a6a24cd",
+      "memory": "Wants recommendations for meal prep containers to start meal prepping for the week",
+      "hash": "7d7e40b206bf00904a27732d2d598f50",
+      "metadata": null,
+      "score": 0.383726827277586,
+      "created_at": "2025-12-01T11:12:08.320017-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.0016491670229615385
+    },
+    {
+      "id": "ebb81b06-784b-4cdb-99a7-95dd79d685dd",
+      "memory": "Wants other restaurant recommendations in the Valparaíso area",
+      "hash": "90515d2be1f891f64299a3c09d8019fe",
+      "metadata": null,
+      "score": 0.36207623146040985,
+      "created_at": "2025-12-01T11:02:38.201460-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.0015669051713504262
+    },
+    {
+      "id": "3b31bb43-4ce6-4daf-97ae-8a60f616766a",
+      "memory": "Wants examples of how to plan meals for the week and create a grocery list based on those meals",
+      "hash": "ff51f35c8eb5a9be50399df92b7f6f1d",
+      "metadata": null,
+      "score": 0.43325038811016114,
+      "created_at": "2025-12-01T11:12:08.399306-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.0009367668834933176
+    },
+    {
+      "id": "9628bbb6-e0a2-45b4-ba2f-349269e4faaf",
+      "memory": "Wants to know which restaurant has better food between La Concepción Mirador Boutique Hotel & Restaurant and Il Paparazzo",
+      "hash": "3c6d784e6434be410cc75e219bb8e9bd",
+      "metadata": null,
+      "score": 0.33053621504973585,
+      "created_at": "2025-12-01T11:02:38.137347-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.0007863554197440092
+    },
+    {
+      "id": "6f1db524-3730-4a0e-8b00-91798b596509",
+      "memory": "Wants to know if any of the recommended restaurants have outdoor seating",
+      "hash": "d50004f926a32cd5172bea1a790b2809",
+      "metadata": null,
+      "score": 0.3088272498039559,
+      "created_at": "2025-12-01T11:02:38.234832-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.0007486632358353344
+    },
+    {
+      "id": "5051335e-e0fe-4c92-9950-855433fce586",
+      "memory": "Wants to know if either restaurant requires a reservation ahead of time",
+      "hash": "42e0e193f9817f833716aa6d1959b156",
+      "metadata": null,
+      "score": 0.3032116339626173,
+      "created_at": "2025-12-01T11:02:38.152098-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.0004328348891503258
+    },
+    {
+      "id": "d1f039fe-86ad-4db4-b4de-648ded52a0fe",
+      "memory": "Wants a healthy dinner option that's quick to make and doesn't require a lot of ingredients",
+      "hash": "ee2b9f5dbd5665502130e36c78ca0479",
+      "metadata": null,
+      "score": 0.30522190660399245,
+      "created_at": "2025-12-01T11:17:40.254663-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.00037986933214121657
+    },
+    {
+      "id": "900a82eb-012e-4b50-9c83-135553906c27",
+      "memory": "Wants to serve the pork belly with some roasted vegetables",
+      "hash": "6b5e956fbdb9094380eb8f6383701a08",
+      "metadata": null,
+      "score": 0.3096069392522377,
+      "created_at": "2025-12-01T10:59:44.761321-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.000356289387705458
+    },
+    {
+      "id": "6a6cc9cc-1704-4da2-9d5e-f9b39e50c2ca",
+      "memory": "Has a bunch of cookbooks and online recipes that they want to consolidate and make easier to access",
+      "hash": "0872a983c42136ce15c7e6fd2677c134",
+      "metadata": null,
+      "score": 0.39183779126954155,
+      "created_at": "2025-12-01T11:12:08.373009-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_93",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3399,
+    "load_time": 1361.0521
+  }
+}

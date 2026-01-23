@@ -1,0 +1,242 @@
+{
+  "sample_idx": 64,
+  "question_id": "0862e8bf_abs",
+  "question": "What is the name of my hamster?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T03:52:33.407152",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 52,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "5f8c4556-2307-4158-96ec-646ce4b63b90",
+      "memory": "Found a skeleton with a bag on him in the underground jungle named Billy Marrows",
+      "hash": "71a1eef1a931204421fede38d85e8f44",
+      "metadata": null,
+      "score": 0.288147975508226,
+      "created_at": "2025-11-30T12:12:44.445137-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.9999999965474411
+    },
+    {
+      "id": "43d7647d-6141-4094-9b5e-d4ef72724883",
+      "memory": "Cat's name is Luna",
+      "hash": "f6f729b279c2f9c39afa115c578ca9d0",
+      "metadata": null,
+      "score": 0.4329562345298006,
+      "created_at": "2025-11-30T12:01:27.149468-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.8761771898083685
+    },
+    {
+      "id": "fbd2425b-94a5-437d-9389-c3b8c947794e",
+      "memory": "Found a huge beehive",
+      "hash": "4e9c3bf16cdfbdf891f5946c7642d76b",
+      "metadata": null,
+      "score": 0.20608540862035216,
+      "created_at": "2025-11-30T12:12:44.426085-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.6418291386283662
+    },
+    {
+      "id": "3c4cfb36-bede-48b7-8a4f-8032e13ed55f",
+      "memory": "Has a new litter box with low sides for cat",
+      "hash": "d1212dabd3801b1f2baf05684748415b",
+      "metadata": null,
+      "score": 0.3143200837271603,
+      "created_at": "2025-11-30T12:01:27.056799-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.37079014115184417
+    },
+    {
+      "id": "0081e78c-0b64-4b8a-8ba2-6be59e4d9db3",
+      "memory": "Has a lot of chicken breast and ground beef in fridge",
+      "hash": "4c4ba299232939b6628c7c88793e8bf0",
+      "metadata": null,
+      "score": 0.17531395040169878,
+      "created_at": "2025-11-30T11:57:55.478056-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.22444583534891363
+    },
+    {
+      "id": "edd95a6b-32d8-4568-974c-e7fdd0f76954",
+      "memory": "Luna has been a sweetie throughout all the changes to her environment",
+      "hash": "2ca9adc4278b509093c4976435abaaf0",
+      "metadata": null,
+      "score": 0.17358891537979265,
+      "created_at": "2025-11-30T12:01:27.164778-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.08131808691959168
+    },
+    {
+      "id": "0964ab34-7abb-4b8a-b9ac-58926248997c",
+      "memory": "Found a suspicious looking eye",
+      "hash": "ad21621f0952c4f31d14fa3d919c005c",
+      "metadata": null,
+      "score": 0.22480216850487234,
+      "created_at": "2025-11-30T12:12:44.392354-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.051920286884248164
+    },
+    {
+      "id": "7e97258c-7fcf-47c7-abf2-51053432dee0",
+      "memory": "Has a cat with digestive health issues",
+      "hash": "1727a0f5ec28ed11dc4418bbcc050a85",
+      "metadata": null,
+      "score": 0.27757553082458275,
+      "created_at": "2025-11-30T12:01:27.008455-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.006551648952816466
+    },
+    {
+      "id": "051da0b1-edcd-4184-9aeb-f6fab528e7b2",
+      "memory": "Has heard of Kamasi Washington",
+      "hash": "1987505cd78dfbc833b13e2dff2f4411",
+      "metadata": null,
+      "score": 0.18917545751819886,
+      "created_at": "2025-11-30T11:54:03.885245-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.006505552317305645
+    },
+    {
+      "id": "f868832b-2757-4d45-b872-a36ace598c1e",
+      "memory": "Does not want to eat anything that will make them feel sluggish or unfocused",
+      "hash": "2518757ed0feb81240dd3972d485b6dc",
+      "metadata": null,
+      "score": 0.23397302760183727,
+      "created_at": "2025-11-30T11:54:43.120733-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.005716641326706175
+    },
+    {
+      "id": "b36dcc5b-a112-48db-a161-e37faafc18b9",
+      "memory": "Stocked up on chicken breast and ground beef last Saturday at Walmart",
+      "hash": "fc45e3a0005684239424d8f7fdec7920",
+      "metadata": null,
+      "score": 0.21266651351565952,
+      "created_at": "2025-11-30T11:57:55.494116-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.005219456186553755
+    },
+    {
+      "id": "2e98ee47-0a8f-4a7d-b354-e87cd6ebf01a",
+      "memory": "Has been having issues with cat's litter box getting stinky",
+      "hash": "84f49ce87d3213bdfef9b4fac01089b8",
+      "metadata": null,
+      "score": 0.25247777313888514,
+      "created_at": "2025-11-30T12:01:27.072311-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.003935335625895185
+    },
+    {
+      "id": "fe60db1c-a062-4a7a-a1c9-9d0b63b610a3",
+      "memory": "Has veggies like apples, bananas, and carrots bought at Walmart last Saturday",
+      "hash": "859debd630e65b0b98ad04d15b7b9250",
+      "metadata": null,
+      "score": 0.18328429022110432,
+      "created_at": "2025-11-30T11:57:55.525644-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.0031556439623978793
+    },
+    {
+      "id": "162e5a56-9ad8-43a2-96a3-488ea2bbe0ef",
+      "memory": "Has already started giving cat a probiotic supplement",
+      "hash": "40069280edb1a0fca8a5117aa0a08852",
+      "metadata": null,
+      "score": 0.2219778681937954,
+      "created_at": "2025-11-30T12:01:27.028910-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.002532022336272923
+    },
+    {
+      "id": "4edd4eff-68c2-48ae-ba02-49b33c11bf43",
+      "memory": "Worried about cat getting out due to front door issue",
+      "hash": "dafc37e48a8287784a4bc78a20e9b866",
+      "metadata": null,
+      "score": 0.16912861501581028,
+      "created_at": "2025-11-30T12:01:27.135533-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.0024628773830066924
+    },
+    {
+      "id": "daaba7bc-68c0-4f5b-a3ef-06c2009eb349",
+      "memory": "Interested in vegan mac 'n cheese with broccoli",
+      "hash": "212f82c46367ed4a6099121a2126f1b2",
+      "metadata": null,
+      "score": 0.1577388791674576,
+      "created_at": "2025-11-30T12:02:33.679793-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.0023305141867541934
+    },
+    {
+      "id": "e909b297-b433-443b-8ed4-12b5f0f3b3da",
+      "memory": "Wants to make drawings in Procreate more children like",
+      "hash": "535aafe7f67502b00add37a60320683d",
+      "metadata": null,
+      "score": 0.16161685181769375,
+      "created_at": "2025-11-30T11:57:04.156983-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.0020644707475203157
+    },
+    {
+      "id": "34f0fe09-a7f2-4fce-9329-094f0d1f8f23",
+      "memory": "Thinking of getting cat microchipped",
+      "hash": "4b08676e095422866ec5aee8d15d5eac",
+      "metadata": null,
+      "score": 0.2052942165376682,
+      "created_at": "2025-11-30T12:01:27.104916-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.001546871383070246
+    },
+    {
+      "id": "f633c118-7937-48ef-9e84-5fc19844b4c6",
+      "memory": "Washed all of cat's blankets and beds on January 25th because they were getting stinky",
+      "hash": "fa5e65ad39ad11d1d9d966aba5d0b9b4",
+      "metadata": null,
+      "score": 0.23236239610630768,
+      "created_at": "2025-11-30T12:01:27.089003-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.00036152932707772035
+    },
+    {
+      "id": "c653e202-f75a-4125-a189-9bd87ce6e30a",
+      "memory": "Wants to make a sundress and a pair of linen pants",
+      "hash": "d0d513d8d24d46f95859185b9ff06345",
+      "metadata": null,
+      "score": 0.15720547631109158,
+      "created_at": "2025-11-30T12:10:48.320785-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_64",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2434,
+    "load_time": 1266.0341
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 17,
+  "question_id": "ad7109d1",
+  "question": "What speed is my new internet plan?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T03:55:25.466106",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 43,
+    "failed_sessions": 1,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "322c1148-900a-4f8e-833d-2136617abd74",
+      "memory": "Upgraded to 500 Mbps internet about three weeks ago",
+      "hash": "86de0a9abc36099a61adf79f730d1354",
+      "metadata": null,
+      "score": 0.5653145984764201,
+      "created_at": "2025-11-28T12:07:40.646829-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.9999999987608147
+    },
+    {
+      "id": "b948f889-536a-4901-bead-ddfcee2bc3b4",
+      "memory": "Internet speed has been really good lately, especially when streaming movies on Netflix",
+      "hash": "4d2ab9819f906e9ebe42233f752943a4",
+      "metadata": null,
+      "score": 0.47928690259273754,
+      "created_at": "2025-11-28T12:07:40.661681-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.5618280674025119
+    },
+    {
+      "id": "636571aa-58b0-49fc-886d-6a864fa10fbf",
+      "memory": "Already got a Western Digital 2TB external hard drive",
+      "hash": "cbfe38ced52f183d1dae865dcab90b8b",
+      "metadata": null,
+      "score": 0.1891158436123404,
+      "created_at": "2025-11-28T12:07:40.674544-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.1152496981120481
+    },
+    {
+      "id": "b867d334-caa3-48b9-9429-e85ce508e850",
+      "memory": "Is already subscribed to Disney+",
+      "hash": "d6d2ccaa72b96e8356548981c2364d84",
+      "metadata": null,
+      "score": 0.1933439981983487,
+      "created_at": "2025-11-28T11:56:13.269211-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.008446293432435066
+    },
+    {
+      "id": "cb2671a6-2f58-41c6-b745-99a2e94404e1",
+      "memory": "Looking to get new gear for running",
+      "hash": "c2906c643eb0106ea60ffb7494f572f5",
+      "metadata": null,
+      "score": 0.200070297237115,
+      "created_at": "2025-11-28T12:06:15.585565-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.003214320984298546
+    },
+    {
+      "id": "50248e5c-6035-4031-bbab-cea931f12da3",
+      "memory": "Will take inventory of gear and identify what needs replacement or upgrade",
+      "hash": "83ddf82be9d652c711919945495fa5ba",
+      "metadata": null,
+      "score": 0.1652058843122564,
+      "created_at": "2025-11-28T12:06:15.714055-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.0021852277407501896
+    },
+    {
+      "id": "56321c51-2e49-4e70-a478-194544734dae",
+      "memory": "Wants advice on how often to post new content",
+      "hash": "a8ed9e6c8fa7c7ddfe647a5e9240c0d0",
+      "metadata": null,
+      "score": 0.20989435830775124,
+      "created_at": "2025-11-28T12:39:23.557925-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.0019129458352454341
+    },
+    {
+      "id": "321f4625-7fef-416c-80ad-59f2772f6f73",
+      "memory": "Concerned about fuel efficiency for the Grand Canyon trip",
+      "hash": "7cd3837a0b7c71d3139b6004acde014d",
+      "metadata": null,
+      "score": 0.1690618942684045,
+      "created_at": "2025-11-28T11:58:17.851633-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.0018891920752599932
+    },
+    {
+      "id": "42e469f3-b115-4692-9bae-27ece099753c",
+      "memory": "Has a lot of music on phone",
+      "hash": "6af72c2c7495c3964d5d672356d3d102",
+      "metadata": null,
+      "score": 0.16897226838255813,
+      "created_at": "2025-11-28T11:58:18.068358-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.0016380640157124212
+    },
+    {
+      "id": "90d886f4-ae79-4f0e-9b88-0c93375bcc6a",
+      "memory": "Wants to know which shuttle service offers the most affordable rates",
+      "hash": "55b4189b70a09add42c233af802f6cc1",
+      "metadata": null,
+      "score": 0.290996861414203,
+      "created_at": "2025-11-28T12:30:52.826707-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.0016331005434766575
+    },
+    {
+      "id": "dba8398a-ead6-4f01-86b9-e31c9dc4ca8f",
+      "memory": "Hates traffic and rush hour",
+      "hash": "6e2ae1f8c031e34e80f38edf29ce5c0f",
+      "metadata": null,
+      "score": 0.2042024348998475,
+      "created_at": "2025-11-28T12:30:52.869477-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.0014182531024143112
+    },
+    {
+      "id": "bbe6b7c3-42d7-4341-a8b0-ce8f38961f1b",
+      "memory": "Planning a 30-mile bike ride this weekend",
+      "hash": "303bd4e33e8b7d3367e5d9e99a820295",
+      "metadata": null,
+      "score": 0.25380695431520406,
+      "created_at": "2025-11-28T12:24:34.297269-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.001227277599247781
+    },
+    {
+      "id": "7b0ac08b-5c51-47c1-a4d6-3be8c7e10d79",
+      "memory": "Has been relying a lot on food delivery lately",
+      "hash": "f120147d9ba162737d80d26954eeaff6",
+      "metadata": null,
+      "score": 0.17951201757411145,
+      "created_at": "2025-11-28T12:35:26.077162-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.0012038783729934662
+    },
+    {
+      "id": "5609fb05-3f18-48a7-9f7c-53144fc27941",
+      "memory": "Trying to increase Twitter engagement",
+      "hash": "f4d4754613b8e40dd3e5a34fd63b0aad",
+      "metadata": null,
+      "score": 0.18143013606968397,
+      "created_at": "2025-11-28T12:29:56.324552-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.001070810045910847
+    },
+    {
+      "id": "c9145840-d5e3-421f-84fc-61a37c4ed003",
+      "memory": "Has been doing a lot of driving lately",
+      "hash": "956c8d8eedd083ba979c37cc05bc3760",
+      "metadata": null,
+      "score": 0.1949740459236186,
+      "created_at": "2025-11-28T11:58:17.808034-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.0007607112090859862
+    },
+    {
+      "id": "9767a70e-78a2-4b45-a773-d89623834fff",
+      "memory": "Planning to check out a new bike model at the bike shop down the street",
+      "hash": "75ffeb0a1c67ca7cf1504d4b0b6a2475",
+      "metadata": null,
+      "score": 0.1821987355821848,
+      "created_at": "2025-11-28T12:05:06.147996-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.0004995380271565114
+    },
+    {
+      "id": "7f441e39-7827-4c49-a2b9-911696eccbe6",
+      "memory": "Thinking of trying out the new bike-sharing program in the city on weekends instead of driving or taking public transportation",
+      "hash": "446ddbd8442ddb89a956905498ce4518",
+      "metadata": null,
+      "score": 0.2082103379409933,
+      "created_at": "2025-11-28T12:38:10.310336-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.0004728298194116873
+    },
+    {
+      "id": "9e242988-f567-4271-b594-afa20fb4a66e",
+      "memory": "Wants to know about traffic in Boston during peak hours to not miss the flight because of traffic delays",
+      "hash": "e79307cc53f2e310ff7391f9d452af89",
+      "metadata": null,
+      "score": 0.19764371719465623,
+      "created_at": "2025-11-28T12:30:52.854816-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.00020054791390693158
+    },
+    {
+      "id": "4e094e2f-487c-4b08-b7dd-63c0ad2de573",
+      "memory": "Has a new 20-gallon tank with 10 neon tetras, 5 golden honey gouramis, and a small pleco catfish",
+      "hash": "2c4324211bfbbdff2dc1a95228b87d64",
+      "metadata": null,
+      "score": 0.1703220788742884,
+      "created_at": "2025-11-28T12:00:32.958021-08:00",
+      "updated_at": "2025-11-28T12:25:49.128439-08:00",
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.00019700257659567176
+    },
+    {
+      "id": "b9f4af0e-87e3-4508-b049-a468d71e771b",
+      "memory": "Wants to know if it's better to book a shuttle service during non-peak hours to avoid traffic or if it's not worth the extra expense",
+      "hash": "748c0d68c6b61ecedf95d73c4618dfab",
+      "metadata": null,
+      "score": 0.1976117045093772,
+      "created_at": "2025-11-28T12:30:52.882092-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_17",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.244,
+    "load_time": 2638.1329
+  }
+}

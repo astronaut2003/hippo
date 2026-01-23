@@ -1,0 +1,242 @@
+{
+  "sample_idx": 69,
+  "question_id": "f4f1d8a4_abs",
+  "question": "What did my dad gave me as a birthday gift?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T05:30:33.726329",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "d8b5ab46-f792-4074-9ad1-edbc47b8bf8c",
+      "memory": "Considering a coffee mug or a plant from The Sill as a gift",
+      "hash": "7be6a4848f5b8c272834be62ffe88da1",
+      "metadata": null,
+      "score": 0.27132674934601697,
+      "created_at": "2025-11-30T13:40:10.261598-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.9999999981295731
+    },
+    {
+      "id": "c64395fb-cd35-451a-af8e-96487fa35a3d",
+      "memory": "Got a new stand mixer as a birthday gift from sister last month",
+      "hash": "b7c8426193df741bb2259f3e4c86f9d4",
+      "metadata": null,
+      "score": 0.3866360664401139,
+      "created_at": "2025-11-30T13:40:10.381913-08:00",
+      "updated_at": "2025-11-30T13:43:58.464295-08:00",
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.9552975381959028
+    },
+    {
+      "id": "b6a0bd0c-0507-454b-9ec5-2310fa1a7263",
+      "memory": "The gift will be a surprise presented during the celebration",
+      "hash": "af6495bf6247d0c2bcce1561d69b7e17",
+      "metadata": null,
+      "score": 0.3935606797571803,
+      "created_at": "2025-11-30T13:40:10.473546-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.9518562735108086
+    },
+    {
+      "id": "868e7bd8-5ad6-4648-9f34-6ce86d3d9385",
+      "memory": "Might grab lunch together or have some cake to mark the occasion",
+      "hash": "bceec9f34bd10919439b2769b97b39da",
+      "metadata": null,
+      "score": 0.23683974645277442,
+      "created_at": "2025-11-30T13:40:10.456425-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.905182827980106
+    },
+    {
+      "id": "3fd5d30e-b6d9-4bab-8294-565990e14dfb",
+      "memory": "Considering getting a new dress for birthday",
+      "hash": "07c9c4575e39fa0b5c8cd870d10f4864",
+      "metadata": null,
+      "score": 0.31842491162373754,
+      "created_at": "2025-11-30T13:51:33.634442-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.6589262874379402
+    },
+    {
+      "id": "e6fcc46c-e3c9-4a42-a9b0-48c0b68076c4",
+      "memory": "Thinks a heartfelt note would be a great addition to the gift",
+      "hash": "0772e022d2cc0269b0dde5e9a6219950",
+      "metadata": null,
+      "score": 0.40030357578179204,
+      "created_at": "2025-11-30T13:40:10.321487-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.643991516217131
+    },
+    {
+      "id": "a30c0a14-13a6-4c94-9209-1dc9ad236825",
+      "memory": "Decided to splurge on the dress for birthday",
+      "hash": "4b1c537635b22c7486c8c98c31a44953",
+      "metadata": null,
+      "score": 0.3816818318629591,
+      "created_at": "2025-11-30T13:51:33.680520-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.6182267147199996
+    },
+    {
+      "id": "b3984ebf-b475-46ef-979e-1d5ea710fff4",
+      "memory": "Got a scented candle from Bath & Body Works for mom on sale for $10",
+      "hash": "1bfa4a2d69dc62474340450eb02f9a52",
+      "metadata": null,
+      "score": 0.2839552317560158,
+      "created_at": "2025-11-30T13:40:10.276987-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.5972155034464361
+    },
+    {
+      "id": "1a46b0b3-c33e-45e0-beaa-2645591ee208",
+      "memory": "Birthday is next month",
+      "hash": "a56a8d0b2770cfeb3882afe4dd353212",
+      "metadata": null,
+      "score": 0.34097614438709806,
+      "created_at": "2025-11-30T13:51:33.620193-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.5897653758890216
+    },
+    {
+      "id": "6885f050-ce37-41f4-8fbd-a5a4f73ccd2f",
+      "memory": "Got a free travel-sized hand sanitizer with the purchase of the scented candle",
+      "hash": "b8bf4afac694541136b7f7c800bc08a5",
+      "metadata": null,
+      "score": 0.28353967798178614,
+      "created_at": "2025-11-30T13:40:10.336361-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.44940576470480015
+    },
+    {
+      "id": "dc35bb0e-cc10-44f9-b41d-de41c8654144",
+      "memory": "The necklace cost around $50 and was paid for using a credit card",
+      "hash": "23f9ebc2f70980a1941b5bc7b3a6a4e8",
+      "metadata": null,
+      "score": 0.2474881308867102,
+      "created_at": "2025-11-30T13:40:10.397388-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.41726904031483275
+    },
+    {
+      "id": "acc4c922-2459-4354-a69d-85daf4a0f06c",
+      "memory": "Had an amazing strawberry funnel cake at Knott's Berry Farm",
+      "hash": "f16ea613bbeca9fd661a1d562f038e7a",
+      "metadata": null,
+      "score": 0.27573923378490606,
+      "created_at": "2025-11-30T13:31:01.365484-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.32984910870250594
+    },
+    {
+      "id": "4fdbd03d-f9f6-406d-a883-37afb2d0803d",
+      "memory": "Might consider adding a small gift card to the coworker's favorite coffee shop or restaurant",
+      "hash": "6db074f000c226697c7c13569e247664",
+      "metadata": null,
+      "score": 0.3674555479381655,
+      "created_at": "2025-11-30T13:40:10.366304-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.2852309322834379
+    },
+    {
+      "id": "2463d4b0-1532-438f-8c9b-374cc9302da3",
+      "memory": "Wants to keep the gift simple yet thoughtful",
+      "hash": "a648d0cf7051f4a19207d9850b84b0d2",
+      "metadata": null,
+      "score": 0.4221712661758029,
+      "created_at": "2025-11-30T13:40:10.349968-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.2249372707930083
+    },
+    {
+      "id": "39181cb0-e0d8-4703-89e7-f7259c2fe82e",
+      "memory": "Got rid of old coffee table from parents that was taking up too much space and didn't fit with new decor",
+      "hash": "8791ee300e24ee6f456bd09273495793",
+      "metadata": null,
+      "score": 0.24923644602385264,
+      "created_at": "2025-11-30T13:35:16.380226-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.06203944510400082
+    },
+    {
+      "id": "7f94a2cb-ed32-4583-b235-a0a165045ef9",
+      "memory": "Looking for gift ideas for a coworker who is leaving the company",
+      "hash": "8a26088292e8cc6cb37d50813ee5b431",
+      "metadata": null,
+      "score": 0.3977869346863278,
+      "created_at": "2025-11-30T13:40:10.236893-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.05527874777714231
+    },
+    {
+      "id": "e0848665-b827-44b2-b0c3-0daf74c953b6",
+      "memory": "Celebrating niece's 7th birthday at Disneyland with family soon",
+      "hash": "6dd589d2289fc73f73721a52a2bbd4a9",
+      "metadata": null,
+      "score": 0.21610932494603613,
+      "created_at": "2025-11-30T13:31:01.425852-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.04441464733936185
+    },
+    {
+      "id": "593db217-0aa2-4d3d-a6c5-ffd4d9dc4f80",
+      "memory": "Attended a graduation party for a colleague's son on June 27th",
+      "hash": "1dae950700150c3b7ccfabfcc0e0627e",
+      "metadata": null,
+      "score": 0.34182103568373484,
+      "created_at": "2025-11-30T13:36:38.113866-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.021929411043754284
+    },
+    {
+      "id": "028f5e8f-2653-484d-bad4-fab12ef5efbf",
+      "memory": "Likes the idea of a personalized item for the coworker",
+      "hash": "5e4c4c984dd66d39eec814919043d4b2",
+      "metadata": null,
+      "score": 0.3251956446010039,
+      "created_at": "2025-11-30T13:40:10.292306-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.013608086268736493
+    },
+    {
+      "id": "384170d8-362b-4a0f-baef-c80848db6b97",
+      "memory": "Attended a music festival last month",
+      "hash": "0c11047709be9b5f54f3d13880777845",
+      "metadata": null,
+      "score": 0.21432061564319832,
+      "created_at": "2025-11-30T13:49:13.098040-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_69",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2729,
+    "load_time": 1313.2135
+  }
+}

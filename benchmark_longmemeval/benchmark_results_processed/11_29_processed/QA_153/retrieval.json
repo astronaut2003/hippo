@@ -1,0 +1,242 @@
+{
+  "sample_idx": 153,
+  "question_id": "1da05512",
+  "question": "I'm trying to decide whether to buy a NAS device now or wait. What do you think?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T15:22:05.453923",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "06da3a8c-b09b-4ed8-a966-4371aafb909a",
+      "memory": "Thinking of getting a NAS device",
+      "hash": "030d78ac5c112df128b55a1aedd4b40e",
+      "metadata": null,
+      "score": 0.8520247332008035,
+      "created_at": "2025-12-06T23:44:49.178872-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.9999999993924643
+    },
+    {
+      "id": "68bb3f87-9d9c-4ac4-a3e2-88041200ceae",
+      "memory": "Considering getting a NAS device for central backup and storage",
+      "hash": "a9642823fa41b73b1275eec46b8c3223",
+      "metadata": null,
+      "score": 0.7519528244219222,
+      "created_at": "2025-12-06T23:44:49.286264-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.7456762066025797
+    },
+    {
+      "id": "e007451b-300f-458b-9017-bfa36e4bfb1e",
+      "memory": "Thinks a NAS would be more convenient and provide more storage",
+      "hash": "4a607fdba81b7e95a31f52ef19bec749",
+      "metadata": null,
+      "score": 0.7498888931079342,
+      "created_at": "2025-12-06T23:44:49.242032-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.7298417015086622
+    },
+    {
+      "id": "e19855f2-fcb8-4d83-a221-4c1d863e140c",
+      "memory": "Is a beginner looking for NAS device recommendations",
+      "hash": "455722aa281b64d6b7d50f3a76988c7c",
+      "metadata": null,
+      "score": 0.7997699946363593,
+      "created_at": "2025-12-06T23:44:49.193842-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.6247789981301727
+    },
+    {
+      "id": "6fb92fc3-4183-4480-b859-9643087c3a0a",
+      "memory": "Concerned about the security of data on a NAS",
+      "hash": "5e989727481b1b1c46b133b188452bb6",
+      "metadata": null,
+      "score": 0.5853616434513217,
+      "created_at": "2025-12-06T23:44:49.273326-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.5068251108960667
+    },
+    {
+      "id": "3b6f852e-bb6a-4ecf-aced-3dbeee8df08d",
+      "memory": "Wants to use a NAS as a central backup location for all devices, including laptop and phone",
+      "hash": "310160e55e2a889efdb960bdf14fab29",
+      "metadata": null,
+      "score": 0.5063906321449759,
+      "created_at": "2025-12-06T23:44:49.258446-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.4276471753621466
+    },
+    {
+      "id": "4027670d-9c73-4d53-8100-3735742e95a8",
+      "memory": "Wants NAS devices with strong security features, such as encryption and access control",
+      "hash": "802ae3cb4dfaa6020d24837b665bc281",
+      "metadata": null,
+      "score": 0.6095810976927702,
+      "created_at": "2025-12-06T23:44:49.302648-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.32383996178592966
+    },
+    {
+      "id": "7500a408-ed66-46a4-a0a8-66f679a7b2ac",
+      "memory": "Thinking of buying a new laptop soon because current one is about three years old and starting to slow down",
+      "hash": "22e95c7eeb6f822da1e510a4980218e9",
+      "metadata": null,
+      "score": 0.41276389695621685,
+      "created_at": "2025-12-06T23:47:05.559247-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.2606969354826808
+    },
+    {
+      "id": "59aa86ee-5861-47b0-a8a5-203ed4697c43",
+      "memory": "Having issues with home network's storage capacity",
+      "hash": "4159698a99fbb7d742e8eb4c9c8bb431",
+      "metadata": null,
+      "score": 0.2982228573100415,
+      "created_at": "2025-12-06T23:44:49.159750-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.050152382724093794
+    },
+    {
+      "id": "88620931-eff1-4d8a-b5ca-b8b8e0cd5038",
+      "memory": "Thinking of getting a laptop with an Intel Core i5 or i7 processor",
+      "hash": "1d8443aa30e6b8fa85686a807d78da7a",
+      "metadata": null,
+      "score": 0.3232381256635024,
+      "created_at": "2025-12-06T23:47:05.731563-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.039235495745767936
+    },
+    {
+      "id": "bfe1829d-a48c-4305-9532-9d389f0e561f",
+      "memory": "Has been using S22 Ultra for a while and pleased with its performance",
+      "hash": "1c8dc8079198c74b92d5ad0801e1e558",
+      "metadata": null,
+      "score": 0.3180507513595846,
+      "created_at": "2025-12-06T23:47:05.655261-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.022117270018561
+    },
+    {
+      "id": "ff1831ba-72c6-4a78-92e7-587821732ac5",
+      "memory": "Has been looking at options from Acer, Lenovo, and HP",
+      "hash": "a20a4c11781f9d1917263c0c668c90fb",
+      "metadata": null,
+      "score": 0.3189645213765746,
+      "created_at": "2025-12-06T23:47:05.746581-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.001330050193580556
+    },
+    {
+      "id": "30a6ac55-ea45-42e8-bb1a-6fb3f87e007c",
+      "memory": "Has been eyeing the new MacBook Air with the M1 chip but finds it a bit pricey",
+      "hash": "ab5cdad6f45bea92173cd8dc303c1a3b",
+      "metadata": null,
+      "score": 0.4012825739819914,
+      "created_at": "2025-12-06T23:47:05.593893-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.001027665982032511
+    },
+    {
+      "id": "7a4c52dc-5baf-4bb2-9149-c226a72128c0",
+      "memory": "Has been enjoying new Samsung Galaxy S22 Ultra",
+      "hash": "a957f412b3c4d45bb534592dc94e16fb",
+      "metadata": null,
+      "score": 0.298955790287959,
+      "created_at": "2025-12-06T23:47:05.608741-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.0009303862174819903
+    },
+    {
+      "id": "abcd90de-f26a-4bb7-95d2-3e91547297e2",
+      "memory": "Considering renting a paddleboard instead of a canoe or kayak",
+      "hash": "ada6c40932891a301211c0742e6949d2",
+      "metadata": null,
+      "score": 0.24856581082451162,
+      "created_at": "2025-12-06T23:24:58.176339-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.0008009502472581288
+    },
+    {
+      "id": "3365f5cc-35f5-4c5b-8bf0-529a95519916",
+      "memory": "Considering flying American Airlines again",
+      "hash": "c7360a8d711dbc85787986d7633b2b1c",
+      "metadata": null,
+      "score": 0.2799837034290111,
+      "created_at": "2025-12-06T23:34:23.157968-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.000615834792976465
+    },
+    {
+      "id": "0584b195-d863-4177-8c90-53104f6ffa59",
+      "memory": "Traded in old iPhone 11 Pro at Best Buy to help offset cost of new phone",
+      "hash": "463c4a445fc8f0ad2a467cb8de084d77",
+      "metadata": null,
+      "score": 0.24039203432542883,
+      "created_at": "2025-12-06T23:47:05.670945-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.0003980416810375684
+    },
+    {
+      "id": "38bcbd2b-db8a-4aaf-b9e0-2e08d91ef370",
+      "memory": "Thinking of booking a connecting flight from Dallas to San Antonio",
+      "hash": "49fa7f91f30df68f4ef6a0862ee35b5e",
+      "metadata": null,
+      "score": 0.23511528187639194,
+      "created_at": "2025-12-06T23:34:23.191188-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.0003529650539855701
+    },
+    {
+      "id": "45fa8c6f-bb49-4871-9fd5-312516de6d98",
+      "memory": "Got a wireless charging pad from Belkin on Amazon for around $25",
+      "hash": "dc48d6e9f9ec6057729c6dc676c5389d",
+      "metadata": null,
+      "score": 0.23873105558971214,
+      "created_at": "2025-12-06T23:47:05.621958-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.00011668936617316779
+    },
+    {
+      "id": "f3450744-c375-4f58-9869-b99b891eabd2",
+      "memory": "Considering the Chase Sapphire Preferred card but also wants to look into Citi / AAdvantage credit cards",
+      "hash": "9ea4a867b76ceefdbf4b2874285d11b9",
+      "metadata": null,
+      "score": 0.23801864201643125,
+      "created_at": "2025-12-06T23:34:23.277916-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_153",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.455,
+    "load_time": 1686.4718
+  }
+}

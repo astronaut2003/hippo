@@ -1,0 +1,77 @@
+{
+  "sample_idx": 87,
+  "question_id": "2e6d26dc",
+  "question": "How many babies were born to friends and family members in the last few months?",
+  "question_type": "multi-session",
+  "gold_answer": 5,
+  "question_date": "2023/05/13 (Sat) 23:55",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-02T00:40:14.438403",
+  "predicted_answer": "Based on the memories, there have been at least four babies born to friends and family members in the last few months: \n\n1. Charlotte, daughter of friends Mike and Emma.\n2. Jasper, son of friend David.\n3. Max, son of cousin Rachel.\n4. Ava and Lily, twins born to the user's aunt.\n\nIf you need more specific details or additional context, let me know!",
+  "prompt_length": 3226,
+  "gen_token_usage": {
+    "prompt_tokens": 859,
+    "answer_tokens": 81,
+    "total_tokens": 940,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.66,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 64,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.15582692623138428,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.15582692623138428,
+      "overall_average": 0.031165385618805885
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.15582692623138428,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.15582692623138428,
+    "overall_average": 0.031165385618805885
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1295.4429,
+    "retrieval_time": 1.4208,
+    "generation_time": 3.1945,
+    "evaluation_time": 11.1243,
+    "cleanup_time": 1.4969,
+    "total_time": 1312.6845
+  }
+}

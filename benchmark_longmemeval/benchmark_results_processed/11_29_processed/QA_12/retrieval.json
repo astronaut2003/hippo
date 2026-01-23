@@ -1,0 +1,242 @@
+{
+  "sample_idx": 12,
+  "question_id": "c960da58",
+  "question": "How many playlists do I have on Spotify?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T02:08:41.016332",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "f7028523-190e-4fb8-b2c1-34d7d3ae090f",
+      "memory": "Looking for workout playlists to help stay motivated during morning yoga sessions",
+      "hash": "ce85657b69355490c69674c6ba8d75b5",
+      "metadata": null,
+      "score": 0.35397340522772014,
+      "created_at": "2025-11-28T10:15:21.211827-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.999999852550012
+    },
+    {
+      "id": "b2657a69-b1e5-41a6-af2e-b143f2fb99e1",
+      "memory": "Has a new turntable",
+      "hash": "5614e68eb7c0e6a4a3f816db6e0fdb2e",
+      "metadata": null,
+      "score": 0.1554985663450713,
+      "created_at": "2025-11-28T10:09:41.495517-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.7916442852182134
+    },
+    {
+      "id": "c26ca21e-fbe9-4d37-b15c-3ba51bd658af",
+      "memory": "Interested in a 20-30 minute yoga flow to do 2-3 times a week",
+      "hash": "314d626eb861e51ade9c249042aae5ce",
+      "metadata": null,
+      "score": 0.1559426966282616,
+      "created_at": "2025-11-28T10:15:21.181744-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.4069662194877225
+    },
+    {
+      "id": "b3c35d66-8e91-402f-90b4-84e228feb37f",
+      "memory": "Writes about 1 hour every morning, Monday to Friday, and 2 hours on Saturday and Sunday",
+      "hash": "d438203f6c3e8fb1641c7d562758aaaa",
+      "metadata": null,
+      "score": 0.15923096089811783,
+      "created_at": "2025-11-28T10:11:01.504296-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.2972128819008501
+    },
+    {
+      "id": "aecabbcc-8339-4603-b892-efb15540ba40",
+      "memory": "Recently started collecting vinyl records",
+      "hash": "94d51335f58ab94fd41cc36193100ba6",
+      "metadata": null,
+      "score": 0.22998385588584708,
+      "created_at": "2025-11-28T10:09:41.442839-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.2804932511012612
+    },
+    {
+      "id": "eb4428be-1088-413e-a212-8611d6733418",
+      "memory": "Will start with Watchmen",
+      "hash": "15d39102602bfef62d8f50341bb94202",
+      "metadata": null,
+      "score": 0.12719101366667923,
+      "created_at": "2025-11-28T10:23:50.511975-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.27762461806247557
+    },
+    {
+      "id": "fff62238-4452-490a-a032-6150a4282f36",
+      "memory": "Plans to set reminders to update specific accounts",
+      "hash": "eb97e494ab8c9426e5886a5e042974fa",
+      "metadata": null,
+      "score": 0.13929557241513635,
+      "created_at": "2025-11-28T10:10:09.360619-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.20503695263987012
+    },
+    {
+      "id": "11d06850-c1bd-46c6-98a4-9c4363af11cc",
+      "memory": "Has access to HBO Max",
+      "hash": "0585f96f55cd1aee213b50e1e26cbece",
+      "metadata": null,
+      "score": 0.17247368573139155,
+      "created_at": "2025-11-28T10:23:50.448902-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.20109961317487024
+    },
+    {
+      "id": "15009e65-d53a-4d3c-b168-1151af6a431c",
+      "memory": "Interested in trying some unique and authentic Japanese flavors",
+      "hash": "f1e1f22f5cca00c62abbe8e409697aa9",
+      "metadata": null,
+      "score": 0.13562264390126008,
+      "created_at": "2025-11-28T10:25:27.224765-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.1892875947798705
+    },
+    {
+      "id": "5c63a5c7-ef7c-4296-9b90-db5bf611855c",
+      "memory": "Interested in checking out Watchmen and The Leftovers",
+      "hash": "3623aca029abe51b051627e8bf3ea680",
+      "metadata": null,
+      "score": 0.19208874269828913,
+      "created_at": "2025-11-28T10:23:50.497529-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.17857240666440646
+    },
+    {
+      "id": "094dae19-4821-42ca-b512-952fe75a672b",
+      "memory": "Has seen 32 species so far this year",
+      "hash": "6537dc213ae560fef3882b4d70641dfe",
+      "metadata": null,
+      "score": 0.15779172468706867,
+      "created_at": "2025-11-28T10:09:23.953185-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.1640886222038711
+    },
+    {
+      "id": "c34e8301-c2c6-4ed0-849a-42a4c51a2a70",
+      "memory": "Was listening to 'The Feathered Flock' podcast which mentioned a great spot nearby",
+      "hash": "82f57527c8c00a768ab02e80711cb656",
+      "metadata": null,
+      "score": 0.14833429918238727,
+      "created_at": "2025-11-28T10:09:23.824486-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.15327500060178206
+    },
+    {
+      "id": "9debb66c-fe5c-4dff-a273-de6fc86c3ae7",
+      "memory": "Has been using a spreadsheet to keep track of gift spending",
+      "hash": "88541f054a086998ba5abf70d53673c0",
+      "metadata": null,
+      "score": 0.140208747212093,
+      "created_at": "2025-11-28T10:10:09.345883-08:00",
+      "updated_at": "2025-11-28T10:14:43.707327-08:00",
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.13936775513433597
+    },
+    {
+      "id": "b1861561-3ded-4e8d-9dcd-ae6b52b90957",
+      "memory": "Has a busy schedule and is looking for shows that can fit into a lunch break at work",
+      "hash": "e2d5fa0ab772dd198111b60038292f58",
+      "metadata": null,
+      "score": 0.16239598391574295,
+      "created_at": "2025-11-28T10:23:50.480825-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.13662567943549675
+    },
+    {
+      "id": "8c6cfd7c-960e-40fd-8706-d77c420f00a4",
+      "memory": "The sanctuary is about an hour and a half from their place",
+      "hash": "417068892ee2476d88f3671868e4a61a",
+      "metadata": null,
+      "score": 0.12451225002584354,
+      "created_at": "2025-11-28T10:09:23.810973-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.12001854404919358
+    },
+    {
+      "id": "4e8f41de-7b2c-433e-a7cd-a1fff0f7b392",
+      "memory": "Not sure about committing to a group tour yet",
+      "hash": "c44396c9b746bb8e189242cab0930d0f",
+      "metadata": null,
+      "score": 0.20634873444790228,
+      "created_at": "2025-11-28T10:11:39.400353-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.09550860587956916
+    },
+    {
+      "id": "c69697e3-5583-4101-849e-9aeba15d6176",
+      "memory": "Particularly interested in trying out Fettuccine Alfredo and Spaghetti Carbonara",
+      "hash": "16d15a4b3fd8bbd2cb5a3cd0d1a1c92d",
+      "metadata": null,
+      "score": 0.1283716191905986,
+      "created_at": "2025-11-28T10:21:54.557235-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.08390751638448016
+    },
+    {
+      "id": "d5f95574-2fad-45a5-b21e-0e0e01ac0966",
+      "memory": "Has been buying gifts in bulk for upcoming events",
+      "hash": "6ac490373f1f3d2e970b034c1842a8a3",
+      "metadata": null,
+      "score": 0.14483623949517446,
+      "created_at": "2025-11-28T10:14:43.926753-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.06991589935706977
+    },
+    {
+      "id": "ff2e1cbe-3b2c-4c97-a0f1-5960a5360052",
+      "memory": "Considering selling the vintage vinyl record found last month, a 1967 pressing of The Beatles' Sgt. Pepper's Lonely Hearts Club Band",
+      "hash": "5ff8c90742fd7415e3c571da1cd8e644",
+      "metadata": null,
+      "score": 0.24743151421680187,
+      "created_at": "2025-11-28T10:27:30.296499-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.02480523862949941
+    },
+    {
+      "id": "32e8aa6d-4701-4edf-b744-5cedb9ebcae6",
+      "memory": "First vinyl record is a reissue of Fleetwood Mac's \"Rumours\"",
+      "hash": "1788b010b324b2dc4b9029e05759616c",
+      "metadata": null,
+      "score": 0.2087621206297215,
+      "created_at": "2025-11-28T10:09:41.480306-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_12",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2409,
+    "load_time": 1298.1168
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 183,
+  "question_id": "ef66a6e5",
+  "question": "How many sports have I played competitively in the past?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T22:38:01.195329",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "4fd1a512-e1b5-4f49-aad5-cb4515268abf",
+      "memory": "Used to play tennis competitively in high school",
+      "hash": "b9aa6637f52ef5cb14331cb2cfca8e12",
+      "metadata": null,
+      "score": 0.44118218356584415,
+      "created_at": "2025-12-08T06:55:38.036795-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.9999999982704496
+    },
+    {
+      "id": "2d3c5d18-4a41-4758-ae4c-19b0ce762a8d",
+      "memory": "Has been playing soccer and tennis lately",
+      "hash": "8108c055ce0962ff60f5c39e3b560281",
+      "metadata": null,
+      "score": 0.550571771000806,
+      "created_at": "2025-12-08T06:55:38.008631-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.6309917412957545
+    },
+    {
+      "id": "beef79f3-9cc4-42a6-b0b6-a6c09db7f774",
+      "memory": "Used to swim competitively in college and is looking to get back into swimming as a way to stay active and relieve stress",
+      "hash": "5a8794393781b858aa1ff764f298862d",
+      "metadata": null,
+      "score": 0.33435419904644387,
+      "created_at": "2025-12-08T06:54:47.474127-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.5704217832704136
+    },
+    {
+      "id": "f0ae642d-2aa9-40f8-a8f8-c20b4941c1f6",
+      "memory": "Thinking of getting a fitness tracker to track progress, runs, soccer games, and tennis matches",
+      "hash": "406f9d63dc1a61383bd25452ccc8e946",
+      "metadata": null,
+      "score": 0.25529727359803234,
+      "created_at": "2025-12-08T06:55:38.079004-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.30919876763954857
+    },
+    {
+      "id": "4be5bec9-cac6-451c-ab14-620e7954e81e",
+      "memory": "Has been on a roll lately",
+      "hash": "2fecc378d6a0a831dcdf56d3bdcb989e",
+      "metadata": null,
+      "score": 0.1940765991687151,
+      "created_at": "2025-12-08T07:06:59.725574-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.04055745044887517
+    },
+    {
+      "id": "a307faf5-6cc7-4588-943a-4a7fcfc3d405",
+      "memory": "Looking to improve overall fitness, agility, and speed",
+      "hash": "c843cef323da00e8f3562dff17f42692",
+      "metadata": null,
+      "score": 0.3378266817985826,
+      "created_at": "2025-12-08T06:55:37.968522-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.036886483922691844
+    },
+    {
+      "id": "b224e4c3-4749-4175-b416-04700b8c1a47",
+      "memory": "Has a tennis instructor named Alex",
+      "hash": "ad18540c1ca0d7c69779e7afbba8cc85",
+      "metadata": null,
+      "score": 0.212935172727837,
+      "created_at": "2025-12-08T06:55:38.183662-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.024642946257699836
+    },
+    {
+      "id": "edb91453-7aab-47ea-b237-7f8c2fc6cea8",
+      "memory": "Curious about specific tennis metrics the Garmin Forerunner 945 can track, such as serve speed or racket swing",
+      "hash": "dac643eab92780d6ecfdfdc7ed049b0d",
+      "metadata": null,
+      "score": 0.2872224254096378,
+      "created_at": "2025-12-08T06:55:38.142756-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.014107391086355758
+    },
+    {
+      "id": "e43dfdca-a1cb-4394-9124-5f515b357a2f",
+      "memory": "Hoping to apply some of the skills learned from the case study competition experience to the new presentation",
+      "hash": "7d28b16d4646e71e51166764599f8727",
+      "metadata": null,
+      "score": 0.1634904969185514,
+      "created_at": "2025-12-08T06:47:10.100801-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.006763643663401936
+    },
+    {
+      "id": "e0acb152-498c-4031-bf9a-40ae0bfcfa44",
+      "memory": "Wants to know if the Garmin Forerunner 945 can automatically detect tennis or requires manual input",
+      "hash": "f35baf1ef0f40acf17d1067b0d5f721c",
+      "metadata": null,
+      "score": 0.16543154161744045,
+      "created_at": "2025-12-08T06:55:38.121074-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.005806315764499706
+    },
+    {
+      "id": "d824a339-ae49-468b-a60e-b6db09d801e4",
+      "memory": "Believes it was a great learning experience",
+      "hash": "97ed7555934d91f2d74e9f001e08c177",
+      "metadata": null,
+      "score": 0.17886191700025417,
+      "created_at": "2025-12-08T06:47:10.196997-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.0029010136261013817
+    },
+    {
+      "id": "3829394a-1881-45c4-97b9-6982dca97880",
+      "memory": "Looking for a local pool that offers lap swimming hours",
+      "hash": "91227f32f6d901baf1d40367f50ecb8e",
+      "metadata": null,
+      "score": 0.19192323586930068,
+      "created_at": "2025-12-08T06:54:47.443918-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.0025366550236418663
+    },
+    {
+      "id": "2578e941-9814-44de-873c-867eb0d48c7c",
+      "memory": "Curious about integrating the Garmin Forerunner 945 with tennis lessons",
+      "hash": "1fc4dd954d3a458c225bc219a9cdb4e7",
+      "metadata": null,
+      "score": 0.18628779680968627,
+      "created_at": "2025-12-08T06:55:38.169107-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.0015892236915787362
+    },
+    {
+      "id": "847c30f7-e904-4acf-8fbd-17065b5f2f55",
+      "memory": "Wants to find pools with swim teams or masters swimming programs to join",
+      "hash": "4f9c89a1ad838c8cb169c58213800bec",
+      "metadata": null,
+      "score": 0.28035195566367643,
+      "created_at": "2025-12-08T06:54:47.530439-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.0015455138547060465
+    },
+    {
+      "id": "f7eef821-40ea-4721-888a-ba99258bab6b",
+      "memory": "Trying to fit swimming into a busy schedule and prefers morning lap swimming sessions",
+      "hash": "ed0c38d0ab17f2e65ca304558908eaa8",
+      "metadata": null,
+      "score": 0.20645215859737817,
+      "created_at": "2025-12-08T06:54:47.495576-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.001054974025048012
+    },
+    {
+      "id": "289f2dde-00ec-4348-a107-7956c23d9ecf",
+      "memory": "Comfortable swimming in a fast-paced environment and wants to ensure enough space to do workouts effectively",
+      "hash": "59be0f579bea15037260029516a56cc7",
+      "metadata": null,
+      "score": 0.20976046318760627,
+      "created_at": "2025-12-08T06:54:47.592570-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.0009494106454309501
+    },
+    {
+      "id": "b9d335a4-83c3-445e-9263-fde00a44de1c",
+      "memory": "Interested in clubs or groups that align with their interests, like hiking or photography",
+      "hash": "9c29ddd6acc5ed0d6da025af1171d3b8",
+      "metadata": null,
+      "score": 0.19012698375030057,
+      "created_at": "2025-12-08T06:39:17.109288-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.0008125081374900731
+    },
+    {
+      "id": "10ac47ad-e96c-4d01-9cd4-ecb65905207e",
+      "memory": "Thinking of incorporating strength training into routine",
+      "hash": "a975763937eacf210f6f679a791c7220",
+      "metadata": null,
+      "score": 0.19712089794496823,
+      "created_at": "2025-12-08T06:55:38.023491-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.0007536235647974308
+    },
+    {
+      "id": "a9a137a0-c1d4-4655-a1bf-7d1255648e7a",
+      "memory": "Got shoes cleaned and polished on March 10th",
+      "hash": "45d2ab544531b69ed86615d562f15f34",
+      "metadata": null,
+      "score": 0.16646670085379534,
+      "created_at": "2025-12-08T07:05:46.493625-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.0002230026394410432
+    },
+    {
+      "id": "46cc48e9-89e9-4a35-a1e0-d2156bef5d38",
+      "memory": "Used to having access to kickboards, pull buoys, and other equipment during workouts",
+      "hash": "b28ae269ca10d7aa8ed71bb866c1d608",
+      "metadata": null,
+      "score": 0.22635610429548234,
+      "created_at": "2025-12-08T06:54:47.545620-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_183",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4454,
+    "load_time": 1859.7358
+  }
+}

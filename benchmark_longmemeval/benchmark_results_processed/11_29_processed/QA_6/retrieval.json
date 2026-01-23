@@ -1,0 +1,242 @@
+{
+  "sample_idx": 6,
+  "question_id": "6ade9755",
+  "question": "Where do I take yoga classes?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-28T23:53:52.463346",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "f85545be-7c9a-4ce0-a0e9-670ddc14a354",
+      "memory": "Planning a self-care day with morning yoga practice at home and meeting a friend for brunch",
+      "hash": "8b6a241988c23ba3db033e848d50b897",
+      "metadata": null,
+      "score": 0.48909043456079554,
+      "created_at": "2025-11-28T08:13:43.071890-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.9999999982721446
+    },
+    {
+      "id": "99bea521-6ab5-4c16-82de-93449806ce26",
+      "memory": "Favors vinyasa flow classes in yoga practice",
+      "hash": "35447870a04323514d3d7d13d63f926a",
+      "metadata": null,
+      "score": 0.5433231247463922,
+      "created_at": "2025-11-28T08:13:43.105790-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.893691286938816
+    },
+    {
+      "id": "bc0c8a94-dcd8-49d5-a829-1496629e09cb",
+      "memory": "Uses Down Dog app for home yoga practice",
+      "hash": "8a62118174b9a04271fae245bdbf0908",
+      "metadata": null,
+      "score": 0.4118338486105749,
+      "created_at": "2025-11-28T08:13:43.089999-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.8570070524698763
+    },
+    {
+      "id": "c7497724-27b5-4165-89be-5b46e12a1312",
+      "memory": "Feels more energized and focused throughout the day from yoga practice",
+      "hash": "21743030dbc0b9b716ad75d602bdbe25",
+      "metadata": null,
+      "score": 0.4171569357924851,
+      "created_at": "2025-11-28T08:13:43.171013-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.6333723633962132
+    },
+    {
+      "id": "36d3d600-d684-4fd1-ac76-28697b3ac062",
+      "memory": "Might go for the Sumela Monastery since it sounds like a good balance of adventure and relaxation",
+      "hash": "d0d712f4e56d3244c454b6fa98191a76",
+      "metadata": null,
+      "score": 0.29183864047874974,
+      "created_at": "2025-11-28T07:56:26.749231-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.6185815267027333
+    },
+    {
+      "id": "baa0ff3a-1b4d-4ba9-891a-d93da2edf133",
+      "memory": "Has convinced best friend Sarah to start practicing yoga together",
+      "hash": "630953905a881eba6a81e7dee188d45b",
+      "metadata": null,
+      "score": 0.4764570607818928,
+      "created_at": "2025-11-28T08:13:43.185674-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.5538321819843881
+    },
+    {
+      "id": "4259cf48-7ced-4e20-98e3-77497f9bcc2f",
+      "memory": "Enjoys the challenging sequences and feeling of building internal heat in yoga",
+      "hash": "357d2b532f480c6797d4350330ddbceb",
+      "metadata": null,
+      "score": 0.5267743483437055,
+      "created_at": "2025-11-28T08:13:43.138391-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.5211638284548014
+    },
+    {
+      "id": "e5da4783-460f-4037-862d-95525022a87a",
+      "memory": "Wants yoga practice to help become more patient and present in interactions with others",
+      "hash": "6c649c4b33f2dd1954edc8cb1de89bbb",
+      "metadata": null,
+      "score": 0.5706020199381237,
+      "created_at": "2025-11-28T08:13:43.215834-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.5115857604444269
+    },
+    {
+      "id": "ae6f20ef-6321-451d-be7f-9cf1535b4b16",
+      "memory": "Has a Sunday morning yoga and brunch routine with Sarah",
+      "hash": "31dbeff2321eefc20a9082e060639a2f",
+      "metadata": null,
+      "score": 0.4982418843741536,
+      "created_at": "2025-11-28T08:13:43.201005-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.5000530586601982
+    },
+    {
+      "id": "b6935caa-2492-44be-8b86-9388d5e255ec",
+      "memory": "Has noticed improvements in flexibility, breath awareness, and body alignment from yoga practice",
+      "hash": "339dab9ab9cc48c1012a06c6aa3b0a42",
+      "metadata": null,
+      "score": 0.4373295679996409,
+      "created_at": "2025-11-28T08:13:43.155081-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.3690802372271411
+    },
+    {
+      "id": "08f95684-93e3-4e9b-91df-d43a1c4690df",
+      "memory": "Aims to do an exercise routine three times a week",
+      "hash": "e3be03192a1baec0dff2757dab5c98c1",
+      "metadata": null,
+      "score": 0.33267407068857846,
+      "created_at": "2025-11-28T07:59:31.023561-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.22967490620520986
+    },
+    {
+      "id": "85ec15b9-9b00-4e43-b153-9ba0d7b4e22d",
+      "memory": "Believes yoga can help cultivate greater sense of calm and compassion",
+      "hash": "154e8bef6abe9ff9f045760b552ef31c",
+      "metadata": null,
+      "score": 0.4768439898472792,
+      "created_at": "2025-11-28T08:13:43.247027-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.18264785449773369
+    },
+    {
+      "id": "316eb7af-4c80-48c0-8977-fc51d1fd18ff",
+      "memory": "Has an exercise bike",
+      "hash": "ddb3a902fb3b3006c25df8820e654026",
+      "metadata": null,
+      "score": 0.32922285876176294,
+      "created_at": "2025-11-28T07:59:31.040436-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.04335819982964207
+    },
+    {
+      "id": "ec522463-0e01-4ed1-9caa-84f86303d0e1",
+      "memory": "Wants to track daily routines, self-care activities, and work tasks",
+      "hash": "22adea35e818de9289f6b204aa505438",
+      "metadata": null,
+      "score": 0.2809316651718911,
+      "created_at": "2025-11-28T08:09:13.536757-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.013455532799833853
+    },
+    {
+      "id": "4a120f2e-556c-4b09-a75f-93277b9c22cb",
+      "memory": "Thinking of incorporating strength training exercises into the routine on the days not using the exercise bike",
+      "hash": "06cf2b5f9001ad0d6658632b78fe17ed",
+      "metadata": null,
+      "score": 0.34625384860046693,
+      "created_at": "2025-11-28T07:59:31.055897-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.0058082052993441305
+    },
+    {
+      "id": "ae518080-3cf8-461c-9834-96d854f42cd4",
+      "memory": "Looking for mid-range accommodations for Japan trip",
+      "hash": "2f48b73ef6fe703bed259fc2c528fab8",
+      "metadata": null,
+      "score": 0.3370057082179958,
+      "created_at": "2025-11-28T08:06:47.508592-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.0016336401310059496
+    },
+    {
+      "id": "e22a6608-3eb2-47f9-a32f-4d0009df0ddf",
+      "memory": "Wants to visit Tokyo, Kyoto, and Osaka in Japan",
+      "hash": "06ca7b76bfcf8c0cd3ca1a37d22bbd60",
+      "metadata": null,
+      "score": 0.31653401375843065,
+      "created_at": "2025-11-28T08:06:47.525422-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.0012282785491747376
+    },
+    {
+      "id": "53c55343-82f0-4116-ba05-dc58a6956ba7",
+      "memory": "For exams, needs to be in a quiet room",
+      "hash": "a97e7808dd89339fb4fa4ae44522f66d",
+      "metadata": null,
+      "score": 0.27337830111984074,
+      "created_at": "2025-11-28T08:10:21.410323-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.00036630845382552206
+    },
+    {
+      "id": "2e29b2da-381d-43c5-9306-77c37cf1c6cf",
+      "memory": "Open to guided tour or self-guided itinerary for Japan trip",
+      "hash": "3cea61d5c278a6bfd2a1c04e868aa0d5",
+      "metadata": null,
+      "score": 0.2842688070196304,
+      "created_at": "2025-11-28T08:06:47.554825-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.00031044765047561114
+    },
+    {
+      "id": "66cf4dc1-1934-409c-9878-c1192ee446b3",
+      "memory": "Wants to track self-care activities like taking long baths or doing face masks",
+      "hash": "4a394734d14f6685e19248f4e3c43520",
+      "metadata": null,
+      "score": 0.32526764140567854,
+      "created_at": "2025-11-28T08:09:13.503957-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_6",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3739,
+    "load_time": 1190.8049
+  }
+}

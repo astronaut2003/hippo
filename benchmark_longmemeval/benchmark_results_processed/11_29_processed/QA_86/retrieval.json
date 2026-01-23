@@ -1,0 +1,242 @@
+{
+  "sample_idx": 86,
+  "question_id": "gpt4_2f8be40d",
+  "question": "How many weddings have I attended in this year?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T12:22:40.176704",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "479ca5b8-7c26-4c9c-a798-e1e6b70baebb",
+      "memory": "Planning own wedding",
+      "hash": "99d3a19437087742ebf72e744b329818",
+      "metadata": null,
+      "score": 0.4886102419904616,
+      "created_at": "2025-11-30T20:43:59.111666-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.9999999976612541
+    },
+    {
+      "id": "fdcab867-50a5-459f-b794-e1551bde189f",
+      "memory": "Got back from a friend's wedding last weekend",
+      "hash": "d20629c11e63c493ac88148e18122a4d",
+      "metadata": null,
+      "score": 0.4104518991643484,
+      "created_at": "2025-11-30T20:43:59.126328-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.5431238148045898
+    },
+    {
+      "id": "317dd82f-206d-48f3-9176-9a9130a5c6ce",
+      "memory": "Getting married soon and looking for wedding venue ideas",
+      "hash": "a8c62533e12a8123eba3b2545c942e9d",
+      "metadata": null,
+      "score": 0.46504544054900954,
+      "created_at": "2025-11-30T20:25:33.863844-08:00",
+      "updated_at": "2025-11-30T20:27:20.302032-08:00",
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.3351809974413661
+    },
+    {
+      "id": "73557610-3f56-438b-a75f-9eb48ba2056f",
+      "memory": "Just got back from college roommate's wedding in the city which had a rooftop garden ceremony overlooking the skyline",
+      "hash": "2ec4d28cadab352e321464261567b20d",
+      "metadata": null,
+      "score": 0.44090300532569693,
+      "created_at": "2025-11-30T20:25:33.908738-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.25607444307754973
+    },
+    {
+      "id": "94f10e93-a880-4337-b992-bae173b9ef0f",
+      "memory": "Considering having a smaller, more casual celebration with friends who aren't invited to the wedding, like a post-wedding brunch",
+      "hash": "6f37a5f8d20301f1437bb37f9b636a4b",
+      "metadata": null,
+      "score": 0.4421160428388843,
+      "created_at": "2025-11-30T20:25:33.962522-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.20898954494863847
+    },
+    {
+      "id": "723856d4-1c0c-4981-9263-2fd051c01f32",
+      "memory": "Thinking about wedding ceremony music for an outdoor, intimate ceremony",
+      "hash": "7ffea43ab8271a5e55a7a7810f70a22e",
+      "metadata": null,
+      "score": 0.3488096744594753,
+      "created_at": "2025-11-30T20:25:34.010244-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.18729398013115214
+    },
+    {
+      "id": "cfba1965-98f1-4e20-9371-95e286f93304",
+      "memory": "Cousin's wedding was at a vineyard in August and was stunning",
+      "hash": "8084ab070636fa9f44babbfa93f00cbb",
+      "metadata": null,
+      "score": 0.4034824777517784,
+      "created_at": "2025-11-30T20:27:21.077277-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.13313513951363787
+    },
+    {
+      "id": "832625cf-bc6b-4790-a528-8abf7f5845fe",
+      "memory": "Cousin Emily's wedding in the city was lovely with an intimate, romantic atmosphere at a rooftop garden and trendy restaurant",
+      "hash": "eb15bef79e4aabe9f542d9a4a1ee43e0",
+      "metadata": null,
+      "score": 0.3467584240057206,
+      "created_at": "2025-11-30T20:27:21.212644-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.11281394831245789
+    },
+    {
+      "id": "abe71e74-e1e6-4c80-82b4-bd30a573ae4d",
+      "memory": "Planning to host a post-wedding celebration for friends who aren't invited to the wedding",
+      "hash": "3a6b40166742bd7d3a7b9f9a28a04554",
+      "metadata": null,
+      "score": 0.465346967596313,
+      "created_at": "2025-11-30T20:25:33.976834-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.08273184952114247
+    },
+    {
+      "id": "6996c64e-3987-4c44-8380-42c95fec73e6",
+      "memory": "Will probably plan a casual brunch or dinner at a local restaurant for the post-wedding celebration",
+      "hash": "0114074627f8c1543297a3991935cad7",
+      "metadata": null,
+      "score": 0.4136826106625754,
+      "created_at": "2025-11-30T20:25:33.992510-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.04271130315290487
+    },
+    {
+      "id": "137cfbce-1026-44b9-b2cc-954ba5fb0604",
+      "memory": "Thinking about decorations and overall aesthetic for the wedding",
+      "hash": "57939fa1313fa134ce655f1c034bcc56",
+      "metadata": null,
+      "score": 0.38392735148847956,
+      "created_at": "2025-11-30T20:25:34.112694-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.03267137229207822
+    },
+    {
+      "id": "447edd5e-6e7e-412f-82bd-9f9d531c4f3b",
+      "memory": "Wants the reception to feel more like a dinner party rather than a big, formal wedding reception",
+      "hash": "abf7e245d301320df529d7dd1062c178",
+      "metadata": null,
+      "score": 0.38332874539551826,
+      "created_at": "2025-11-30T20:27:21.195325-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.02519194274822607
+    },
+    {
+      "id": "fa433c2c-d658-43ba-ae25-4e8268538a02",
+      "memory": "Looking for outdoor wedding venues with a similar atmosphere to a vineyard",
+      "hash": "d27f3ee25cc8f66906b1a1d3170cc996",
+      "metadata": null,
+      "score": 0.4269882771638009,
+      "created_at": "2025-11-30T20:27:21.102162-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.02071954097052811
+    },
+    {
+      "id": "cbce5dbe-79ec-4f55-a083-6dd3e678b560",
+      "memory": "Wants to make the ceremony intimate and cozy like Jen's rustic barn wedding",
+      "hash": "fc019cfbfddf241bbaf52a6395625245",
+      "metadata": null,
+      "score": 0.3665235262726514,
+      "created_at": "2025-11-30T20:43:59.193831-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.013140635504431128
+    },
+    {
+      "id": "a3615376-04ab-491a-b4f3-20f5903f981a",
+      "memory": "Planning a small, intimate ceremony with around 50 guests",
+      "hash": "7ae481c8f66e84f30935aa18c8b1dcda",
+      "metadata": null,
+      "score": 0.5083160439367923,
+      "created_at": "2025-11-30T20:25:33.943897-08:00",
+      "updated_at": "2025-11-30T20:27:21.060934-08:00",
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.01160879551793454
+    },
+    {
+      "id": "cb24b72a-c5c2-487a-ab6e-94b01906a9d6",
+      "memory": "Will start searching for local musicians who specialize in acoustic and instrumental music for weddings",
+      "hash": "832d8237dcfc8e886a83d206499dee50",
+      "metadata": null,
+      "score": 0.37255943335010233,
+      "created_at": "2025-11-30T20:25:34.066093-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.009787003291710875
+    },
+    {
+      "id": "438f3d99-fb22-437d-b27f-d353d2bfb1f2",
+      "memory": "Likes the idea of an orchard wedding",
+      "hash": "e9acc4ddcd83ed649d1a934000fb3626",
+      "metadata": null,
+      "score": 0.4247655282187634,
+      "created_at": "2025-11-30T20:27:21.126323-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.004819675344817235
+    },
+    {
+      "id": "8ea5c090-a311-4a42-bf5d-698fcb2bdc7a",
+      "memory": "Has always dreamed of a small, outdoor ceremony at a beach or in a park",
+      "hash": "0b95b6cdce3adb5f46fa8623b6ad4aa2",
+      "metadata": null,
+      "score": 0.3584792705584995,
+      "created_at": "2025-11-30T20:25:33.893488-08:00",
+      "updated_at": "2025-11-30T20:43:58.307339-08:00",
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.003352963092167037
+    },
+    {
+      "id": "7fff3cca-f702-4be6-afc6-8974f7808f11",
+      "memory": "Considering incorporating music into the ceremony, maybe acoustic guitar or a string quartet",
+      "hash": "5d86233dec02a41e48923ea63c336874",
+      "metadata": null,
+      "score": 0.3568614662129155,
+      "created_at": "2025-11-30T20:43:59.340952-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 4.8622760200386754e-05
+    },
+    {
+      "id": "37ab40b0-e80f-48f2-baba-886355b43994",
+      "memory": "Will think about the length of songs and how they fit into the flow of the ceremony",
+      "hash": "d9087f54a958361d5fedd381974e908f",
+      "metadata": null,
+      "score": 0.38146959854544654,
+      "created_at": "2025-11-30T20:25:34.048744-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_86",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2776,
+    "load_time": 1412.0518
+  }
+}

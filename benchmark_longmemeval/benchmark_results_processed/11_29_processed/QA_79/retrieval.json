@@ -1,0 +1,242 @@
+{
+  "sample_idx": 79,
+  "question_id": "dd2973ad",
+  "question": "What time did I go to bed on the day before I had a doctor's appointment?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T09:15:13.642484",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "d7688030-8dce-41dc-9034-6143dab195b5",
+      "memory": "Had a doctor's appointment at 10 AM last Thursday",
+      "hash": "a163d5c98ab789fcc39a0c603a33f1f5",
+      "metadata": null,
+      "score": 0.6900511468329928,
+      "created_at": "2025-11-30T17:28:10.595810-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.9999999989010322
+    },
+    {
+      "id": "92cab4d0-c5c5-4feb-993d-4631dc57edfc",
+      "memory": "Feeling sluggish today because didn't get to bed until 2 AM last Wednesday",
+      "hash": "e676ea4c7ffa39ece2eeb83f673bf462",
+      "metadata": null,
+      "score": 0.432493442343151,
+      "created_at": "2025-11-30T17:43:31.265475-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.7659328221942292
+    },
+    {
+      "id": "b96474a2-c386-48e9-adcb-a798e8008e67",
+      "memory": "Was exhausted after doctor's appointment",
+      "hash": "29eb7e210001eca1431ad8b883f5d377",
+      "metadata": null,
+      "score": 0.5069188837584496,
+      "created_at": "2025-11-30T17:28:10.665841-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.5603079563586563
+    },
+    {
+      "id": "54f653e1-f7e7-4966-bd01-1f14c3a1672c",
+      "memory": "Has free time in the morning after breakfast, around 6:45 am, before taking care of daily responsibilities",
+      "hash": "b87cbf795a5b6897653bff4f85b891bd",
+      "metadata": null,
+      "score": 0.4238368829658873,
+      "created_at": "2025-11-30T17:21:52.634233-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.4826812319671551
+    },
+    {
+      "id": "2b03bfd4-999f-48be-a6f1-91e9c0b9b704",
+      "memory": "Wakes up at 6:30 am on weekdays",
+      "hash": "f9da2ffa96b171f979261e321742b6c0",
+      "metadata": null,
+      "score": 0.4321925456029731,
+      "created_at": "2025-11-30T17:21:52.598008-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.054974904075745235
+    },
+    {
+      "id": "dc5fe822-3cc1-485d-90b0-ab2cb536a7c8",
+      "memory": "Plans to set aside 10 minutes in the morning to practice mindfulness before starting the day",
+      "hash": "c9cf02d9d3fd3d59e45a6ee6a5c50c74",
+      "metadata": null,
+      "score": 0.3707785630964676,
+      "created_at": "2025-11-30T17:20:04.202057-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.02700487403955262
+    },
+    {
+      "id": "35caa19f-bea0-406f-bd20-c368bd4bb055",
+      "memory": "Thinking of trying to meal prep for the rest of the week",
+      "hash": "a0cd4c47187678ee3a09d7b8c4931e2e",
+      "metadata": null,
+      "score": 0.3326096546124457,
+      "created_at": "2025-11-30T17:43:31.330429-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.019708089285717295
+    },
+    {
+      "id": "d43d9bc6-c21f-426c-a22f-d207d9573b62",
+      "memory": "Has a busy Monday ahead",
+      "hash": "3d9ff990aeace5f5221f5e6ca5395461",
+      "metadata": null,
+      "score": 0.25735166779128443,
+      "created_at": "2025-11-30T17:43:31.314344-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.015278265362383327
+    },
+    {
+      "id": "97abe6d3-9d49-4aee-be45-614a7b14eafd",
+      "memory": "Prepared for comprehensive exam and passed on February 20th",
+      "hash": "166d7b605bb760f5f137157da0f26867",
+      "metadata": null,
+      "score": 0.1911106658398698,
+      "created_at": "2025-11-30T17:36:26.929391-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.010978924576829441
+    },
+    {
+      "id": "cb506dce-b135-4062-bcc6-4233383f8352",
+      "memory": "Was getting a slight misfire during daily commute",
+      "hash": "d4dd5141e4629a7b01af03ffeec05af0",
+      "metadata": null,
+      "score": 0.2367777744958585,
+      "created_at": "2025-11-30T17:16:48.236027-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.007094509688842905
+    },
+    {
+      "id": "cc64c8ef-fd25-4536-bdb8-34736ce64329",
+      "memory": "Attended a study group which started in the month when the year was about to end and continued until January",
+      "hash": "3823d0e1749976917345bb36c84cf22c",
+      "metadata": null,
+      "score": 0.2213178403540492,
+      "created_at": "2025-11-30T17:36:26.946027-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.005468343933183646
+    },
+    {
+      "id": "e41b6988-ab24-4850-acc4-f8e70cfc6623",
+      "memory": "Planning a game night with friends next Friday",
+      "hash": "9b73be508f3225405186e2daec6e977d",
+      "metadata": null,
+      "score": 0.24080985773429783,
+      "created_at": "2025-11-30T17:27:04.501751-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.0022370783742296256
+    },
+    {
+      "id": "1c17c72e-71b0-46e5-b974-9726aaba467e",
+      "memory": "Spent rest of the day researching healthy recipes and making a meal plan for the week",
+      "hash": "23a59eb38e99f6a7c9804df90838f43d",
+      "metadata": null,
+      "score": 0.2817946837648677,
+      "created_at": "2025-11-30T17:28:10.682808-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.002020025700862113
+    },
+    {
+      "id": "277e5df5-463b-4330-b723-fd7fd66da0b2",
+      "memory": "Has a yoga class on Tuesday evening",
+      "hash": "da81372639613c17d6628467cae0f360",
+      "metadata": null,
+      "score": 0.28024868217290994,
+      "created_at": "2025-11-30T17:28:10.647218-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.0014660225953958305
+    },
+    {
+      "id": "2d50a2c2-75a6-4eac-b036-84800a18db88",
+      "memory": "Planning a trip to Amsterdam next weekend",
+      "hash": "1114df4d5ed56ef06dd5a0061a2db975",
+      "metadata": null,
+      "score": 0.20445777954456915,
+      "created_at": "2025-11-30T17:18:37.579553-08:00",
+      "updated_at": "2025-11-30T17:23:09.204220-08:00",
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.0014228426333352726
+    },
+    {
+      "id": "9973892a-a598-4da0-aefe-fce6f1a6d4f3",
+      "memory": "Had issues with wet feet on last hike",
+      "hash": "5d5a556ca6912cca111ec687d75f2bbd",
+      "metadata": null,
+      "score": 0.16650536027897866,
+      "created_at": "2025-11-30T17:17:56.209225-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.0011771779948159828
+    },
+    {
+      "id": "de3676bd-c1c7-4403-a612-323a0f442b3d",
+      "memory": "Has a few meetings scheduled at work on Tuesday",
+      "hash": "ff6a76d3d9267b80982d98abb1d8df8c",
+      "metadata": null,
+      "score": 0.26853796407142205,
+      "created_at": "2025-11-30T17:28:10.698483-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.0007321728518326617
+    },
+    {
+      "id": "ed7b44a9-30f8-4797-a6cc-69569d2d4750",
+      "memory": "Purchased the case on February 10th for around $25",
+      "hash": "e0516d64fc0ec769904d83f6a5fb4427",
+      "metadata": null,
+      "score": 0.20729247356624836,
+      "created_at": "2025-11-30T17:39:47.661364-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.0002601278296949136
+    },
+    {
+      "id": "9cf5d2c7-4775-4972-a702-bfcad0b3c9a1",
+      "memory": "Planning to meet Sophia, a lady met at the workshop, for coffee soon",
+      "hash": "6578b219625f3833da16f8013c4b195f",
+      "metadata": null,
+      "score": 0.18614665586880041,
+      "created_at": "2025-11-30T17:26:19.430550-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.00024566463851928983
+    },
+    {
+      "id": "49123257-af2e-4b9b-873c-8fa8f81f8a51",
+      "memory": "Got a clear case with a built-in screen protector from Amazon recently",
+      "hash": "e18457d3b5822d3545286b9291926068",
+      "metadata": null,
+      "score": 0.17809530768432544,
+      "created_at": "2025-11-30T17:39:47.646470-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_79",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2835,
+    "load_time": 1772.0906
+  }
+}

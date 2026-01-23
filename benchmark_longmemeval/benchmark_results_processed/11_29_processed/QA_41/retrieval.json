@@ -1,0 +1,242 @@
+{
+  "sample_idx": 41,
+  "question_id": "e01b8e2f",
+  "question": "Where did I go on a week-long trip with my family?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T21:52:11.457760",
+  "load_result": {
+    "total_sessions": 53,
+    "added_sessions": 53,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "0f2712bd-662d-4e5a-847a-36e6085f5a8a",
+      "memory": "Loved Hawaii when went with family for a week last month",
+      "hash": "196ce1004bf34115cca6fa1b0637e2ae",
+      "metadata": null,
+      "score": 0.5572275034565881,
+      "created_at": "2025-11-29T05:57:26.193492-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.9999999988647652
+    },
+    {
+      "id": "23010d9f-2401-477a-8851-7f47cec2d532",
+      "memory": "Planning a new trip and torn between going solo or with family",
+      "hash": "0b1122ac82c381b8a975a4f49ee05de0",
+      "metadata": null,
+      "score": 0.5880623480204613,
+      "created_at": "2025-11-29T05:57:26.170932-08:00",
+      "updated_at": "2025-11-29T06:06:28.313146-08:00",
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.796041581294171
+    },
+    {
+      "id": "03693e89-b39f-49de-9949-8e7b88aab4bb",
+      "memory": "Took a weekend getaway to the mountains with friends about 3 months ago",
+      "hash": "215d09499fce092f39ae5fdea9980316",
+      "metadata": null,
+      "score": 0.6094323335046637,
+      "created_at": "2025-11-29T06:00:42.937555-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.5278787367561263
+    },
+    {
+      "id": "882a123b-4aaa-4ae7-8be3-510df7297f07",
+      "memory": "Planning a trip to Germany soon",
+      "hash": "de5d8db425db1ee6499d9d13913aa1bd",
+      "metadata": null,
+      "score": 0.34189559641672507,
+      "created_at": "2025-11-29T06:09:22.411006-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.4740129121590809
+    },
+    {
+      "id": "42c11a12-0dbe-4511-9e61-fa103f4dc5f7",
+      "memory": "Took a solo trip to the beach for a few days about a month after the mountain trip",
+      "hash": "a095693ce1fb1eaa2d50e1daff07655f",
+      "metadata": null,
+      "score": 0.527982135715278,
+      "created_at": "2025-11-29T06:00:43.056121-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.3974357026639634
+    },
+    {
+      "id": "7c1b0b87-46ac-4acb-a9d8-8d0fcaa47dae",
+      "memory": "Planning a trip to LA next month",
+      "hash": "5ee56afb9d63f01b3382ede4a5ea5022",
+      "metadata": null,
+      "score": 0.4186502834044016,
+      "created_at": "2025-11-29T06:06:17.588473-08:00",
+      "updated_at": "2025-11-29T06:07:23.348097-08:00",
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.390716217403943
+    },
+    {
+      "id": "1652d0ac-1328-44d4-badf-fa0d5553fb5d",
+      "memory": "Rented a cabin and spent two days hiking and exploring the area",
+      "hash": "ca1055357a63ba4693018ccd7df17b21",
+      "metadata": null,
+      "score": 0.5702428469089175,
+      "created_at": "2025-11-29T06:00:42.973909-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.38046806995510846
+    },
+    {
+      "id": "19ed53ad-d307-4e68-9c53-03529334e328",
+      "memory": "Is thinking of planning a weekend getaway to Boston soon",
+      "hash": "367c5d500f8094e6a215a180f9aa9683",
+      "metadata": null,
+      "score": 0.43882835088680616,
+      "created_at": "2025-11-29T05:54:33.916640-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.3793768728820849
+    },
+    {
+      "id": "57bce4ad-0870-4303-83c9-a61ca4f30dcc",
+      "memory": "Stayed in a cute little Airbnb apartment right on the beach in South Beach, Florida",
+      "hash": "5e19ddb874b156531b67077dafe5641b",
+      "metadata": null,
+      "score": 0.37879317124030487,
+      "created_at": "2025-11-29T06:00:43.074729-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.3378018746479799
+    },
+    {
+      "id": "f112b41a-232e-4a4b-ab8b-2962abb6e522",
+      "memory": "Considering taking a day trip to Hilo from Kailua-Kona",
+      "hash": "d94374e8e0f5260e288a37b00e972ba2",
+      "metadata": null,
+      "score": 0.3764268124188621,
+      "created_at": "2025-11-29T05:57:26.379313-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.29458315188156214
+    },
+    {
+      "id": "fe47907f-8ccd-458e-9308-1f3b7a92f8b6",
+      "memory": "Has taken five trips to New York City since January",
+      "hash": "ce5206764b0e14e0f70a94f340755d9d",
+      "metadata": null,
+      "score": 0.4060513145574636,
+      "created_at": "2025-11-29T05:54:33.880355-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.2611584614610126
+    },
+    {
+      "id": "550c7515-5085-4887-8d28-d8f28e43e72c",
+      "memory": "Planning to go on a solo hunting trip again next week",
+      "hash": "9977e3226466584b4b17a6d392928286",
+      "metadata": null,
+      "score": 0.4013521898630714,
+      "created_at": "2025-11-29T06:08:20.476868-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.21963483469343703
+    },
+    {
+      "id": "b7ec3456-dcc0-4192-bcaf-9a344b592e46",
+      "memory": "The mountain trip was in late spring, probably early May",
+      "hash": "3fc06bf94cf8331b65c16409b581a22e",
+      "metadata": null,
+      "score": 0.3622030179534842,
+      "created_at": "2025-11-29T06:00:43.014023-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.21751404300145774
+    },
+    {
+      "id": "4cbdccc6-674d-4cc8-af1a-d894d6fc2160",
+      "memory": "Thinking of going back to Hawaii",
+      "hash": "22a28aa8fd4b4cd7a0e9f5ad33b1fcc0",
+      "metadata": null,
+      "score": 0.48593933234270875,
+      "created_at": "2025-11-29T05:57:26.215546-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.19426469220837078
+    },
+    {
+      "id": "1b246751-9aec-48ba-8730-f8ae9e97d40d",
+      "memory": "The mountain trip was just a random weekend, no holidays",
+      "hash": "0e1ab0f511be94ed74f57e91265f6987",
+      "metadata": null,
+      "score": 0.48933339373172335,
+      "created_at": "2025-11-29T06:00:43.031312-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.10874229753982688
+    },
+    {
+      "id": "b2bcd167-b5c6-480e-8e02-427b1add9ec1",
+      "memory": "Wants to visit the Big Island",
+      "hash": "256d7d8a4067337920048d0825267eb9",
+      "metadata": null,
+      "score": 0.4295378228698206,
+      "created_at": "2025-11-29T05:57:26.242634-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.09037123317529133
+    },
+    {
+      "id": "0abdce81-db10-477c-9d0b-af4d91e160da",
+      "memory": "Met Sophia on a flight from Chicago to New York a few weeks ago",
+      "hash": "7a7a95ff46e7cb1d272ca982630d9a54",
+      "metadata": null,
+      "score": 0.36342782353616426,
+      "created_at": "2025-11-29T06:07:23.383594-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.07853306034566893
+    },
+    {
+      "id": "df4688a4-b35d-4be0-aac1-ccc068b9debd",
+      "memory": "Wants to explore the town and do some coffee farm tours",
+      "hash": "d5eb640ffe187691dd10b9c20b98e16b",
+      "metadata": null,
+      "score": 0.33660111385198577,
+      "created_at": "2025-11-29T05:57:26.296964-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.030726091527585347
+    },
+    {
+      "id": "cddb2df2-f7aa-44ba-a591-5e63331fff5c",
+      "memory": "Thinking of attending a local book reading event this weekend",
+      "hash": "4f5c73f521dc95f8a4144ba56297b67b",
+      "metadata": null,
+      "score": 0.35705988598259564,
+      "created_at": "2025-11-29T06:09:22.519312-08:00",
+      "updated_at": "2025-11-29T06:13:10.306216-08:00",
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.00019206107823631778
+    },
+    {
+      "id": "e1ec3b56-6ceb-4fd0-b27b-dbcd0f982743",
+      "memory": "Is considering booking a morning flight on a Saturday for a weekend getaway",
+      "hash": "2f0b19d7c15165f7ca5d1b2b1fdca971",
+      "metadata": null,
+      "score": 0.3591489200932707,
+      "created_at": "2025-11-29T05:54:33.931589-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_41",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0798,
+    "load_time": 1292.2003
+  }
+}

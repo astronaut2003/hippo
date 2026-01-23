@@ -1,0 +1,242 @@
+{
+  "sample_idx": 144,
+  "question_id": "1a1907b4",
+  "question": "I've been thinking about making a cocktail for an upcoming get-together, but I'm not sure which one to choose. Any suggestions?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T11:27:42.702740",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "7dce5587-8962-4b59-a3eb-c7e4ff116986",
+      "memory": "Was thinking of experimenting with some new cocktails this weekend",
+      "hash": "d1b849bcf9ff2671c87daf58bebc22a2",
+      "metadata": null,
+      "score": 0.6705668554590551,
+      "created_at": "2025-12-06T19:30:21.759745-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.9999999991888273
+    },
+    {
+      "id": "01525081-9e10-4413-9b13-af1f34a45335",
+      "memory": "Unsure which interdisciplinary program to choose",
+      "hash": "9d43353a31a42dc3a5fd1b945749257d",
+      "metadata": null,
+      "score": 0.2909780544054459,
+      "created_at": "2025-12-06T19:37:14.454302-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.36539620635992454
+    },
+    {
+      "id": "10f6a5a0-9efb-4d58-836a-66cd0b4e2394",
+      "memory": "Has already made a classic Pimm's Cup and classic cocktails recently from a mixology class attended",
+      "hash": "d9a4b68386e4528e5aef53d47e4e0b93",
+      "metadata": null,
+      "score": 0.5576991761682606,
+      "created_at": "2025-12-06T19:30:21.816481-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.3365557150255104
+    },
+    {
+      "id": "40b632b0-0eac-48f2-b546-0f53ec13cfca",
+      "memory": "Will try serving the Pimm's Cup with a Twist in a Collins glass, as the tall, slender shape will showcase the layers of color and the garnishes nicely, and it's a classic choice for serving refreshing summer drinks",
+      "hash": "ef3292a55f4b9882eab983751be5cd11",
+      "metadata": null,
+      "score": 0.38568805412024376,
+      "created_at": "2025-12-06T19:30:21.995227-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.3046481150311403
+    },
+    {
+      "id": "1553f8d9-d2bd-4203-8f72-5e510f837a95",
+      "memory": "Will try the Ruby Red Grapefruit for the simple syrup, liking the idea of a balanced flavor and a lovely pink hue",
+      "hash": "cd6a730c45567ec759a254484c4d66c6",
+      "metadata": null,
+      "score": 0.4510666123831524,
+      "created_at": "2025-12-06T19:30:21.947840-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.26419465564813255
+    },
+    {
+      "id": "8a4b179c-1733-4a81-8166-86d08780cfa4",
+      "memory": "Wants recommendations for a citrus-flavored simple syrup that would complement the Hendrick's gin and cucumber",
+      "hash": "d62d8da6e5efe2785463258f8f0f6fde",
+      "metadata": null,
+      "score": 0.4213189450546697,
+      "created_at": "2025-12-06T19:30:21.895058-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.2596074725417725
+    },
+    {
+      "id": "1bd51b48-fd21-42aa-8e68-d209a6766131",
+      "memory": "Will try the grapefruit simple syrup, as likes the idea of the bitterness balancing out the sweetness of the Pimm's",
+      "hash": "d858f475f007a5373a6232122138c548",
+      "metadata": null,
+      "score": 0.3513084694584707,
+      "created_at": "2025-12-06T19:30:21.910355-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.23955698700953582
+    },
+    {
+      "id": "c6327056-43cd-4705-ab67-3d828f1ec760",
+      "memory": "Wants recommendations for summer drinks that incorporate Hendrick's gin",
+      "hash": "b9445cad5406bc707bc11e2325cd769e",
+      "metadata": null,
+      "score": 0.4812493596980246,
+      "created_at": "2025-12-06T19:30:21.782665-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.22883171861093263
+    },
+    {
+      "id": "f7244277-2e12-4777-ab44-24cf59c5450b",
+      "memory": "Is excited to try out the Ruby Red Grapefruit simple syrup and experiment with different garnishes and elements to make the Pimm's Cup with a Twist visually appealing",
+      "hash": "735e71a59649400968b7aeba7d70a1fc",
+      "metadata": null,
+      "score": 0.3325153539881363,
+      "created_at": "2025-12-06T19:30:21.978190-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.21632965844230945
+    },
+    {
+      "id": "8ba5441a-d5e2-4134-9a83-d602ade1cd58",
+      "memory": "Has a few different fragrance combinations in mind",
+      "hash": "b6daed46bf8d54e513a0cbec78b5b264",
+      "metadata": null,
+      "score": 0.3920681798376332,
+      "created_at": "2025-12-06T19:29:26.647634-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.21040601353610325
+    },
+    {
+      "id": "ef55ca9c-f38e-4f08-854e-9cdff30669a4",
+      "memory": "Was thinking of using a flavored simple syrup to give the Pimm's Cup with a Twist a bit more depth of flavor",
+      "hash": "064f118db37631d5155760493f7f540f",
+      "metadata": null,
+      "score": 0.32779677460368517,
+      "created_at": "2025-12-06T19:30:21.879837-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.15024040016066126
+    },
+    {
+      "id": "0b0c77d9-39e6-469b-8af3-9b1b4673e4b3",
+      "memory": "Wants recommendations for a good grapefruit variety to use for the simple syrup",
+      "hash": "5a3fb33ef805d0d88b1be3b69a4e0647",
+      "metadata": null,
+      "score": 0.43288930283135707,
+      "created_at": "2025-12-06T19:30:21.927888-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.12799290634435243
+    },
+    {
+      "id": "0339e2e6-ff0a-4dd5-b6c2-500f96715823",
+      "memory": "Wants recommendations for a good simple syrup recipe to use in the Pimm's Cup with a Twist",
+      "hash": "8d8c769b95e17539a8f66be789022954",
+      "metadata": null,
+      "score": 0.3981724066418517,
+      "created_at": "2025-12-06T19:30:21.862610-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.11563249132249458
+    },
+    {
+      "id": "32a9f3a6-37e7-4cb9-b24e-742686305029",
+      "memory": "Plans to try the Bruschetta and Tomato and Mozzarella Salad recipes first",
+      "hash": "f54ea2cab73b25fd870282cf5eb435b6",
+      "metadata": null,
+      "score": 0.24607787211470633,
+      "created_at": "2025-12-06T19:34:40.931810-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.06769160449953501
+    },
+    {
+      "id": "32011e61-ded9-4b2f-957d-f7ee1fd8444d",
+      "memory": "Wants to know if there are vendors nearby that sell food and drinks or if should bring own",
+      "hash": "ded0e74d37ebfce0f45c49636f5c0c97",
+      "metadata": null,
+      "score": 0.2634710972758424,
+      "created_at": "2025-12-06T19:36:42.235769-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.053489338413047816
+    },
+    {
+      "id": "57f917be-d95a-4e27-9dbb-8ccf35e76603",
+      "memory": "Will keep alcohol restrictions in mind",
+      "hash": "2fb582e3ede0b820afefb76deb682633",
+      "metadata": null,
+      "score": 0.3033615134105594,
+      "created_at": "2025-12-06T19:36:42.218597-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.04461489477488218
+    },
+    {
+      "id": "4a9826d3-5f9d-41b1-9ff0-24495de97980",
+      "memory": "Wants to know the difference between cucumber juice and muddling cucumber slices in a drink",
+      "hash": "d04e581f95cb48ece9fe768e82804530",
+      "metadata": null,
+      "score": 0.2729256504440583,
+      "created_at": "2025-12-06T19:30:21.830946-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.0030327997453790233
+    },
+    {
+      "id": "8bf0dd4b-57c8-443f-a364-058186ccb9b8",
+      "memory": "Likes a mix of classic rock, pop, and country music",
+      "hash": "cc38c2908c2c5be558d66b51029cf12d",
+      "metadata": null,
+      "score": 0.2690164988483565,
+      "created_at": "2025-12-06T19:42:37.894268-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.0018769722533958587
+    },
+    {
+      "id": "4f4aad17-e62e-4300-9757-e2bb5b032ecd",
+      "memory": "Thinking of checking out The Lumineers' concert at Merriweather Post Pavilion",
+      "hash": "f4ec12efd255896cad84ca6f02e20d3d",
+      "metadata": null,
+      "score": 0.267059971244889,
+      "created_at": "2025-12-06T19:27:56.418979-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.0014983751216265254
+    },
+    {
+      "id": "3942c354-9a14-4bc2-a447-2cd308161c41",
+      "memory": "Excited to try out the pasta sauce recipe",
+      "hash": "2af3150de386e221f339e0ab4069b1d1",
+      "metadata": null,
+      "score": 0.2871644235386464,
+      "created_at": "2025-12-06T19:34:41.014923-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_144",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.464,
+    "load_time": 1619.9928
+  }
+}

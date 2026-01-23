@@ -1,0 +1,242 @@
+{
+  "sample_idx": 164,
+  "question_id": "cc06de0d",
+  "question": "For my daily commute, how much more expensive was the taxi ride compared to the train fare?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T13:43:38.728561",
+  "load_result": {
+    "total_sessions": 42,
+    "added_sessions": 42,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "afe34225-e03a-4a63-9991-fe69cf80ff92",
+      "memory": "Had a setback last Wednesday when missed train by 5 minutes and had to take a taxi costing $12",
+      "hash": "fbe4d64ad91b9d730517dc61880fd6ed",
+      "metadata": null,
+      "score": 0.5652490493124167,
+      "created_at": "2025-12-07T21:55:59.635221-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.9999999990073617
+    },
+    {
+      "id": "db0abacf-7db5-4aad-8521-c91f3b793b73",
+      "memory": "Daily train fare is actually $6",
+      "hash": "e81f2b6eb9d8700fccd9056beaa80194",
+      "metadata": null,
+      "score": 0.5744957124526138,
+      "created_at": "2025-12-07T22:06:27.030471-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.971968153560108
+    },
+    {
+      "id": "db7ed7c1-c31a-4eae-8f7b-180d5b58a24d",
+      "memory": "Trying to get a better sense of daily commute expenses",
+      "hash": "5c1621b5402cdcce44f90a69e1e5187d",
+      "metadata": null,
+      "score": 0.4912450285705769,
+      "created_at": "2025-12-07T21:55:59.619550-08:00",
+      "updated_at": "2025-12-07T22:06:26.980163-08:00",
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.859004616296515
+    },
+    {
+      "id": "3f09c963-dab8-4475-816b-65113f07d292",
+      "memory": "Has been tracking total commute expenses for the month, which is $240 so far",
+      "hash": "6bc3f59510436baa3e6cb271d71a8ca6",
+      "metadata": null,
+      "score": 0.45687745425954696,
+      "created_at": "2025-12-07T22:02:09.096685-08:00",
+      "updated_at": "2025-12-07T22:06:27.016936-08:00",
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.6471179295724001
+    },
+    {
+      "id": "5d7031ea-f33a-494a-bd90-2a33c5016f37",
+      "memory": "Wants to optimize daily commute",
+      "hash": "f2594fb9f1cc6507683077ea6401e812",
+      "metadata": null,
+      "score": 0.4503155811937564,
+      "created_at": "2025-12-07T22:02:09.081092-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.5648539194852
+    },
+    {
+      "id": "0474b277-f51d-417d-90e9-68f420bec2ef",
+      "memory": "Listens to audiobooks during daily commute, which takes about an hour each way",
+      "hash": "9d21f8d4933c14acfa62c479635be364",
+      "metadata": null,
+      "score": 0.28300327996172114,
+      "created_at": "2025-12-07T21:55:09.434577-08:00",
+      "updated_at": "2025-12-07T22:02:08.899126-08:00",
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.42536602349541874
+    },
+    {
+      "id": "266ce833-f01e-49f4-af16-226a8599c785",
+      "memory": "Hoping carpooling will make a significant difference in commute expenses",
+      "hash": "278660c28658c9062aeffaba18144bca",
+      "metadata": null,
+      "score": 0.5282368578941963,
+      "created_at": "2025-12-07T22:06:27.156034-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.4155370609761277
+    },
+    {
+      "id": "6111603b-bca6-4f44-88e5-638f04d3b395",
+      "memory": "Spent $120 on bus fare last month, which is $20 less than the month before",
+      "hash": "3a4037ea6a8400f160e451627cdcb26f",
+      "metadata": null,
+      "score": 0.4620203253584789,
+      "created_at": "2025-12-07T22:02:09.111651-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.3665568714438703
+    },
+    {
+      "id": "e61460d1-7b01-400e-8d8d-7c032217022a",
+      "memory": "Wants suggestions on how to incorporate self-improvement habits into daily commute",
+      "hash": "eee000d0fa3268110dd57f8fa2f0eef0",
+      "metadata": null,
+      "score": 0.3469208776845222,
+      "created_at": "2025-12-07T22:02:09.217505-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.2868856509514429
+    },
+    {
+      "id": "98fc3c4a-dca3-4187-b0fd-3f19ea3e729b",
+      "memory": "Curious about how much would be saved if cycling to the station instead of taking the train",
+      "hash": "c17efe27c38244ec18cafb72e5be95b6",
+      "metadata": null,
+      "score": 0.5317455713304529,
+      "created_at": "2025-12-07T22:06:27.065914-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.28656094876041477
+    },
+    {
+      "id": "a61098d3-8483-4ca2-9761-ca0d8bad2295",
+      "memory": "Wants to explore other options to optimize commute",
+      "hash": "83e96b02969ed09b35cb51018038bf53",
+      "metadata": null,
+      "score": 0.3972245058896325,
+      "created_at": "2025-12-07T22:02:09.158443-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.25891298318849437
+    },
+    {
+      "id": "abae14dd-0d1f-42f5-b2f4-c2d9043adafd",
+      "memory": "Wants tips on how to reduce commute time",
+      "hash": "25523cdc1756b7ee6f9ebd0d2cf68795",
+      "metadata": null,
+      "score": 0.3662323590129726,
+      "created_at": "2025-12-07T22:02:09.173589-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.18541441761326577
+    },
+    {
+      "id": "70a8322b-8ed9-48ef-a5aa-fb0495972b83",
+      "memory": "Looking forward to starting carpooling routine on Fridays and seeing how it can help reduce commute expenses",
+      "hash": "41de6ee49656880b9c6165df35c11b18",
+      "metadata": null,
+      "score": 0.37373379430074927,
+      "created_at": "2025-12-07T22:06:27.183864-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.13225631433531107
+    },
+    {
+      "id": "0f190fbf-d7a8-4b5b-bc88-44271ca89b45",
+      "memory": "Trying to make the most of commute time to finish the book as soon as possible",
+      "hash": "98d662da986727a324f95a384bd187fe",
+      "metadata": null,
+      "score": 0.318263197379347,
+      "created_at": "2025-12-07T21:55:59.735270-08:00",
+      "updated_at": "2025-12-07T22:02:08.872633-08:00",
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.09518090937624137
+    },
+    {
+      "id": "4aaa7040-1d29-47ff-aecb-91723605c8a0",
+      "memory": "Is trying to reduce spending on bus fare",
+      "hash": "8dd3094b7ff797c77f0084e384e2ff77",
+      "metadata": null,
+      "score": 0.42575276476787305,
+      "created_at": "2025-12-07T22:02:09.064894-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.06182859843202496
+    },
+    {
+      "id": "6e60556a-8790-4463-8ce8-2fa1d22fc214",
+      "memory": "Wants suggestions on where to buy Ticket to Ride and Carcassonne or recommendations for online retailers with good deals",
+      "hash": "04173c845fc96c3a16c54bb76c0b1f07",
+      "metadata": null,
+      "score": 0.3180132398145369,
+      "created_at": "2025-12-07T22:00:53.232628-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.012127579502221184
+    },
+    {
+      "id": "7711eeb5-2795-495b-8552-fa525db6dc1c",
+      "memory": "Thinking about how to optimize ride-sharing experience",
+      "hash": "3c759b1cb878d0ca91ab5f9b3005f70b",
+      "metadata": null,
+      "score": 0.4278896972381374,
+      "created_at": "2025-12-07T22:06:27.171193-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.004251421399147244
+    },
+    {
+      "id": "f079e72e-1c21-4f62-95db-96606eaae6e4",
+      "memory": "Wants to know more about the company's ride-sharing program just signed up for",
+      "hash": "587cdd062d0db29080a5069a3a7c5293",
+      "metadata": null,
+      "score": 0.30607052802523477,
+      "created_at": "2025-12-07T22:06:27.127542-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.0022672354154882318
+    },
+    {
+      "id": "babcda77-cab5-4d39-8358-c7c114b06be9",
+      "memory": "Was impressed by the efficiency of Chicago's airport",
+      "hash": "aa72a9d38f1e831bc4b8f939988d4e1f",
+      "metadata": null,
+      "score": 0.359758260491663,
+      "created_at": "2025-12-07T21:46:52.807572-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.001384954243365045
+    },
+    {
+      "id": "84857de4-1530-42ad-8c9e-c9b02d3d9100",
+      "memory": "Wants to weigh the pros and cons of cycling in the rain",
+      "hash": "0cc182d17a10b2f7c61f9072cb742d21",
+      "metadata": null,
+      "score": 0.2917208424546236,
+      "created_at": "2025-12-07T22:06:27.079638-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_164",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4462,
+    "load_time": 1676.2387
+  }
+}

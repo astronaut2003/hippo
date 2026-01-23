@@ -1,0 +1,242 @@
+{
+  "sample_idx": 135,
+  "question_id": "0edc2aef",
+  "question": "Can you suggest a hotel for my upcoming trip to Miami?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T07:33:48.863477",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "102860f5-d556-49c4-86d0-04bb11566342",
+      "memory": "Planning a trip to Seattle and needs help finding a hotel with a great view of the city",
+      "hash": "b82b8741cd8c0f492d1429827bb797cf",
+      "metadata": null,
+      "score": 0.49498793820801024,
+      "created_at": "2025-12-06T15:51:53.299117-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.9999999978917234
+    },
+    {
+      "id": "550e006d-c19b-4eed-bfef-4a3c7083e15b",
+      "memory": "Decided to stick with the Space Needle Romance Package at The Edgewater Hotel, as the hot tub on the balcony with a view of the Space Needle sounds amazing, and the complimentary room service breakfast and $100 credit towards a couples' massage are great perks",
+      "hash": "b960eba69c07fd14f604d21561f588c8",
+      "metadata": null,
+      "score": 0.3020789561264822,
+      "created_at": "2025-12-06T15:51:53.450764-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.9247469176463178
+    },
+    {
+      "id": "dc389e76-c4c5-498f-a611-cdcd84d84d94",
+      "memory": "Planning to visit the MoMA this weekend",
+      "hash": "b6c495e06def7f927571a3fc29ff072a",
+      "metadata": null,
+      "score": 0.30975158711526485,
+      "created_at": "2025-12-06T15:35:32.433649-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.887238701873632
+    },
+    {
+      "id": "bcb529cc-b17c-4c69-b182-10dfcacd1f15",
+      "memory": "Wants to know if they can get a room with a hot tub on the balcony at The Edgewater Hotel that faces the Space Needle",
+      "hash": "61f5ae89abbe6aa511c1960073a8aa80",
+      "metadata": null,
+      "score": 0.39538232765956616,
+      "created_at": "2025-12-06T15:51:53.362477-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.7328861454983631
+    },
+    {
+      "id": "57b3b917-1e26-4e96-96f9-e433d3e1b957",
+      "memory": "Wants to know more about the room service breakfast at The Edgewater Hotel and if they have options that cater to dietary restrictions",
+      "hash": "b77f97ef563d296c45503b8a9eb213e9",
+      "metadata": null,
+      "score": 0.2951026404932573,
+      "created_at": "2025-12-06T15:51:53.377946-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.6327557979163001
+    },
+    {
+      "id": "9630faa3-bc24-4e9c-b70f-7ba5b81a6f7e",
+      "memory": "Planning a trip to Las Vegas and trying to pack light",
+      "hash": "84fdfb59ed7a8226e34fd7a7afd838f5",
+      "metadata": null,
+      "score": 0.3787436697030885,
+      "created_at": "2025-12-06T15:53:25.573841-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.6102693459510176
+    },
+    {
+      "id": "e0942f4e-0b02-4365-93b5-e7ece70c4e4f",
+      "memory": "Wants to know if any hotels have a hot tub on the balcony with a view of the city skyline",
+      "hash": "4908d0cb1101c91eec4bba206b88f362",
+      "metadata": null,
+      "score": 0.4788513296787792,
+      "created_at": "2025-12-06T15:51:53.346571-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.5407085013442451
+    },
+    {
+      "id": "c17facc5-6950-4685-9883-8e2d6bab88e7",
+      "memory": "Trying to plan a trip to Arizona",
+      "hash": "a6568d1bf90280f06c687c3c85426300",
+      "metadata": null,
+      "score": 0.39224263093168543,
+      "created_at": "2025-12-06T15:45:08.132466-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.5210895801860054
+    },
+    {
+      "id": "6fe0330c-52f4-4556-a402-30ebca19c78e",
+      "memory": "Thinking of staying in Sedona for a few days, then heading to Monument Valley for a guided tour",
+      "hash": "e09cd13cac7d87d96551f19455b55e56",
+      "metadata": null,
+      "score": 0.2580993892027043,
+      "created_at": "2025-12-06T15:45:08.248733-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.46367924895261753
+    },
+    {
+      "id": "7ff3045d-7b9f-4e4b-b5c5-8e392afdc1a6",
+      "memory": "Likes hotels with unique features, such as a rooftop pool or a hot tub on the balcony",
+      "hash": "ba42c8ab649bfdf3763b2d945315489f",
+      "metadata": null,
+      "score": 0.47808234133611727,
+      "created_at": "2025-12-06T15:51:53.331195-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.4413954663922922
+    },
+    {
+      "id": "57e5e73f-c510-454e-bd86-51f2ef5d7016",
+      "memory": "Wants to know if The Edgewater Hotel has any special packages or promotions that include a room with a hot tub on the balcony and a complimentary room service breakfast",
+      "hash": "e03c93f76c167c6e7e5129f8ae7496fd",
+      "metadata": null,
+      "score": 0.4236300335620328,
+      "created_at": "2025-12-06T15:51:53.394571-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.41641606010948595
+    },
+    {
+      "id": "6db96570-4be0-40d3-96d0-0bdb182c0361",
+      "memory": "Wants to know if The Edgewater Hotel has any packages or promotions that include a room with a hot tub on the balcony that faces the Space Needle",
+      "hash": "099250306aaecf9e40cb9a3bb34a5202",
+      "metadata": null,
+      "score": 0.38796012008915626,
+      "created_at": "2025-12-06T15:51:53.409335-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.2544996925439529
+    },
+    {
+      "id": "04b7f4e4-b8ad-4c83-8df2-62ef205c595a",
+      "memory": "Thinking of packing a few snacks, like nuts, energy bars, and dried fruit, to avoid relying on airport or hotel food",
+      "hash": "fb6215f521ea56e725aaf27814cae69a",
+      "metadata": null,
+      "score": 0.27531319045825875,
+      "created_at": "2025-12-06T15:53:25.666375-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.23231865211252944
+    },
+    {
+      "id": "7ff111ba-b3bb-4ea7-97f6-b650afcdb6c7",
+      "memory": "Thinking of packing 3-4 tops and 2-3 bottoms for the Las Vegas trip",
+      "hash": "7b136978634eb16ebef0ddfb3bc2e8d3",
+      "metadata": null,
+      "score": 0.31958100778417875,
+      "created_at": "2025-12-06T15:53:25.641716-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.19312785805077223
+    },
+    {
+      "id": "27590727-60af-49dd-a288-7f65e374fca8",
+      "memory": "Wants to know if they can get a room with a hot tub on the balcony that faces the Space Needle and also includes a complimentary room service breakfast and a $100 credit towards a couples' massage at the hotel's spa",
+      "hash": "065614fe736ae649db4a8a084ce8fb65",
+      "metadata": null,
+      "score": 0.3512279270371308,
+      "created_at": "2025-12-06T15:51:53.424868-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.12136841230986624
+    },
+    {
+      "id": "4e6a9d5b-a769-4caf-a62a-2f1deb3ecedf",
+      "memory": "Thinking of hosting a family game night soon and wants to plan fun activities",
+      "hash": "daacf3271c3b94f501687d8a09336f03",
+      "metadata": null,
+      "score": 0.3325309732681784,
+      "created_at": "2025-12-06T15:37:14.658177-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.05413685843367792
+    },
+    {
+      "id": "9335837b-fdd0-42c5-be51-d1b25e47d328",
+      "memory": "Wants to know if they can also get a room with a fireplace",
+      "hash": "a0f2b1a11be5fc2647737328ac3a5d38",
+      "metadata": null,
+      "score": 0.3872535030089367,
+      "created_at": "2025-12-06T15:51:53.438049-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.04922735294732461
+    },
+    {
+      "id": "ffb92415-9eb7-4d56-be87-e0bea9a7392b",
+      "memory": "Looking to explore more of Arizona on own this time",
+      "hash": "320f41e45e1fca6c027e089c12211f40",
+      "metadata": null,
+      "score": 0.31529544080192096,
+      "created_at": "2025-12-06T15:45:08.179561-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.04532918387658098
+    },
+    {
+      "id": "12ac2a60-8646-46a8-a00b-5bca3ea810a1",
+      "memory": "Interested in trying out the Wilson NXT Tour",
+      "hash": "31db2edb02f3f5f73d4b9ad18f77e66f",
+      "metadata": null,
+      "score": 0.2721838842734563,
+      "created_at": "2025-12-06T15:50:20.148285-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.0011717830278674382
+    },
+    {
+      "id": "ba93bd81-0051-476d-abb6-aae8142d6692",
+      "memory": "Thinks family would enjoy Forbidden Island and Pandemic",
+      "hash": "531b714975f4c7c1cab189e0a782b495",
+      "metadata": null,
+      "score": 0.27623767351797673,
+      "created_at": "2025-12-06T15:37:14.860601-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_135",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4859,
+    "load_time": 1284.1712
+  }
+}

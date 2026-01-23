@@ -1,0 +1,242 @@
+{
+  "sample_idx": 166,
+  "question_id": "4f54b7c9",
+  "question": "How many antique items did I inherit or acquire from my family members?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T14:37:39.346728",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "ade61b5b-37c4-4733-8cae-1a22876c8cd3",
+      "memory": "Also inherited a few other family heirlooms including an antique music box from great-aunt and a set of depression-era glassware from mom",
+      "hash": "5a0639076f7db02e1950c64b4bc8270a",
+      "metadata": null,
+      "score": 0.7008442989409034,
+      "created_at": "2025-12-07T23:02:03.722159-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.9999999986938297
+    },
+    {
+      "id": "938e8097-aea6-4031-aad1-ffc474029f17",
+      "memory": "Will mention that the antique tea set came from cousin Rachel and the vintage typewriter belonged to dad, in case that adds any context or significance to the items",
+      "hash": "11d762e0d9892b095f7a6f2eef28b4ea",
+      "metadata": null,
+      "score": 0.49755968684164587,
+      "created_at": "2025-12-07T22:48:28.959634-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.6092110707016275
+    },
+    {
+      "id": "4c5f87fe-6f1b-4769-b751-49897a53d96b",
+      "memory": "Will let them know that the antique tea set came from cousin Rachel and the vintage typewriter belonged to dad, and share any relevant stories or documents that I have",
+      "hash": "5333c191be965a173e6d4375b6db1b67",
+      "metadata": null,
+      "score": 0.4720240755451055,
+      "created_at": "2025-12-07T22:48:28.986773-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.5048745044433204
+    },
+    {
+      "id": "20837aac-b86c-46e9-8f06-2cb0e1bae0e8",
+      "memory": "Also has an antique music box from great-aunt and a set of depression-era glassware from mom that they'd like to insure",
+      "hash": "0f16d799cac37a9c2ef5295f2687e8d9",
+      "metadata": null,
+      "score": 0.4833700299318743,
+      "created_at": "2025-12-07T23:02:03.793798-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.3589359745793328
+    },
+    {
+      "id": "cb52c28f-d2c6-4326-9f72-d49d948fa7e1",
+      "memory": "Will start with one appraisal report for each item and see how that goes",
+      "hash": "fe40dad0715c88889c1c910083095e50",
+      "metadata": null,
+      "score": 0.4565928566980696,
+      "created_at": "2025-12-07T23:02:03.874479-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.27859108851978703
+    },
+    {
+      "id": "eb478ce6-4043-4f98-a77a-e91511b109de",
+      "memory": "Inherited grandmother's vintage diamond necklace recently",
+      "hash": "84d7ae2f1be7d2609608daaa143642ae",
+      "metadata": null,
+      "score": 0.48774114427000237,
+      "created_at": "2025-12-07T23:02:03.698034-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.26876257401296644
+    },
+    {
+      "id": "779ea49c-b72b-48fa-b47a-cad7ec2d7c3e",
+      "memory": "Has an antique tea set from cousin Rachel",
+      "hash": "8102a96c56d04bc426aecd94dc1d6722",
+      "metadata": null,
+      "score": 0.4304985171200949,
+      "created_at": "2025-12-07T22:48:28.883077-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.25506615750174433
+    },
+    {
+      "id": "18e1eb8b-6206-4efc-a2ee-f409a42e9a63",
+      "memory": "Will make sure to mention the provenance of the items to the antique dealers reached out to",
+      "hash": "37532a6ffd7da2809ffc5410ae2a9d99",
+      "metadata": null,
+      "score": 0.5932934773761968,
+      "created_at": "2025-12-07T22:48:28.973954-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.24032326117541233
+    },
+    {
+      "id": "1a3bab25-d548-408f-8fd9-aaff2be87042",
+      "memory": "Was also thinking of reaching out to local antique dealers who specialize in tea sets and typewriters to see if they'd be interested in buying items or know someone who might be",
+      "hash": "4d0b5bdea1f79e5ee29d3c1bd78849ad",
+      "metadata": null,
+      "score": 0.5019430129125454,
+      "created_at": "2025-12-07T22:48:28.945893-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.1788112748048123
+    },
+    {
+      "id": "a9be9ebf-230d-4538-b87b-d400016988bd",
+      "memory": "Thinking of decluttering apartment and selling old family heirlooms to make extra cash",
+      "hash": "5ad4d2f15022dfccef0dc5badf88d417",
+      "metadata": null,
+      "score": 0.4230328082086523,
+      "created_at": "2025-12-07T22:48:28.845884-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.17036257899957152
+    },
+    {
+      "id": "f89ca399-267d-4a05-9330-2ad04f3f6164",
+      "memory": "Will focus on highlighting the item's features, condition, and provenance when reaching out to the antique dealers",
+      "hash": "5b45265d257c52fba2e242ba6aa25a55",
+      "metadata": null,
+      "score": 0.41544066890628467,
+      "created_at": "2025-12-07T22:48:29.000561-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.12059941814992539
+    },
+    {
+      "id": "fe822302-ed37-4737-95c2-8f7ebe8acae3",
+      "memory": "Has a vintage typewriter that belonged to dad",
+      "hash": "04e08f10151e607d5e0d07a86c528761",
+      "metadata": null,
+      "score": 0.4321788671536543,
+      "created_at": "2025-12-07T22:48:28.897583-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.0996025561531486
+    },
+    {
+      "id": "b0788fbe-8a6e-499e-87db-2b28f313046f",
+      "memory": "Will also ask friends and family if they know of any reputable appraisers they've worked with in the past",
+      "hash": "7f4eec03c2bb786dd430fb6af839eca5",
+      "metadata": null,
+      "score": 0.47122937763569317,
+      "created_at": "2025-12-07T23:02:03.858809-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.05570371820979257
+    },
+    {
+      "id": "f39255d8-1435-4371-9585-dd577794b6e7",
+      "memory": "Wants to know more about the appraisal process for grandmother's vintage diamond necklace",
+      "hash": "3c42536822a91f47c3f35d48ec3455e4",
+      "metadata": null,
+      "score": 0.45477498120248677,
+      "created_at": "2025-12-07T23:02:03.738719-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.0023860636660433037
+    },
+    {
+      "id": "467b8b9e-1fb5-4139-95a6-ded9957d0b26",
+      "memory": "Wants to find a good appraiser or someone to help determine their value",
+      "hash": "6ee3f05f145dd8592efc010f9fb45c4a",
+      "metadata": null,
+      "score": 0.40763818580211064,
+      "created_at": "2025-12-07T22:48:28.918029-08:00",
+      "updated_at": "2025-12-07T23:02:02.928302-08:00",
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.002184391148406963
+    },
+    {
+      "id": "47c26824-d019-4f13-a167-7249f0ebbfc3",
+      "memory": "Has souvenirs and mementos from the trip that need to be sorted and put away",
+      "hash": "9531ddeaaba1c3b3822c5c157449c18e",
+      "metadata": null,
+      "score": 0.39650603454899824,
+      "created_at": "2025-12-07T22:39:52.007394-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.0016772825509409077
+    },
+    {
+      "id": "329382fc-bd70-4a9f-99b8-7e2fd7859ca8",
+      "memory": "Trying to get grandmother's vintage diamond necklace insured",
+      "hash": "e13c20f301a42f0b35bd41af8b6f533a",
+      "metadata": null,
+      "score": 0.38673112335246956,
+      "created_at": "2025-12-07T23:02:03.680866-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.0010755037166597695
+    },
+    {
+      "id": "90d86f8c-e4b5-4ab7-96be-8298c8853aeb",
+      "memory": "Just got back from buying a silver necklace for sister's birthday today",
+      "hash": "b698a210632ca4b23c3acf4217dd15b3",
+      "metadata": null,
+      "score": 0.3839275871655684,
+      "created_at": "2025-12-07T22:44:56.416539-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.0007411683013812402
+    },
+    {
+      "id": "3f6df102-b3c8-4a06-850f-617d56dfa40b",
+      "memory": "Buying a silver necklace for sister's birthday today reminded of the importance of thoughtful gifts",
+      "hash": "2160bb89d32910d9c2509eff21088868",
+      "metadata": null,
+      "score": 0.36796179618987324,
+      "created_at": "2025-12-07T22:44:56.535506-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.0004962713466727498
+    },
+    {
+      "id": "af1cf539-9125-4915-be62-6ac1bb58168f",
+      "memory": "Will start by getting the necklace appraised and insured, and then move on to the music box and glassware",
+      "hash": "1aa688383952529f4ab116b4968aa76a",
+      "metadata": null,
+      "score": 0.35916698954756576,
+      "created_at": "2025-12-07T23:02:03.809865-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_166",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2401,
+    "load_time": 1609.6137
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_idx": 28,
+  "question_id": "a06e4cfe",
+  "question": "What is my preferred gin-to-vermouth ratio for a classic gin martini?",
+  "question_type": "single-session-user",
+  "gold_answer": "3:1",
+  "question_date": "2023/05/30 (Tue) 23:48",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-29T09:52:56.075926",
+  "predicted_answer": "Your preferred gin-to-vermouth ratio for a classic gin martini is 3:1.",
+  "prompt_length": 3176,
+  "gen_token_usage": {
+    "prompt_tokens": 828,
+    "answer_tokens": 19,
+    "total_tokens": 847,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 11,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.18181818181818182,
+      "rouge1_f": 0.25,
+      "rouge2_f": 0.14285714285714288,
+      "rougeL_f": 0.25,
+      "semantic_similarity": 0.2844579219818115,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.17045454545454547,
+      "avg_semantic": 0.2844579219818115,
+      "overall_average": 0.193255215883255
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.18181818181818182,
+    "rouge1_f": 0.25,
+    "rouge2_f": 0.14285714285714288,
+    "rougeL_f": 0.25,
+    "semantic_similarity": 0.2844579219818115,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.17045454545454547,
+    "avg_semantic": 0.2844579219818115,
+    "overall_average": 0.193255215883255
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1605.0782,
+    "retrieval_time": 1.2811,
+    "generation_time": 3.061,
+    "evaluation_time": 0.7953,
+    "cleanup_time": 1.6541,
+    "total_time": 1611.8876
+  }
+}

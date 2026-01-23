@@ -1,0 +1,242 @@
+{
+  "sample_idx": 129,
+  "question_id": "60bf93ed_abs",
+  "question": "How many days did it take for my iPad case to arrive after I bought it?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T05:22:52.030740",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "f87abd29-aab7-4513-8131-217a2e08b5c6",
+      "memory": "Likes the idea of a custom display case but is on a budget",
+      "hash": "9e932d6a11d3bc3f744cdaa20e3ab7c0",
+      "metadata": null,
+      "score": 0.24201303436535587,
+      "created_at": "2025-12-06T13:36:51.455405-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.9999999806987702
+    },
+    {
+      "id": "93634f39-b656-42df-9cb3-da8fb286d605",
+      "memory": "Considering finding a display case at a thrift store or antique shop",
+      "hash": "d2b15d78fbeff2fb56a2a18ae810ca7c",
+      "metadata": null,
+      "score": 0.22790513973868537,
+      "created_at": "2025-12-06T13:36:51.471141-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.7743511812386484
+    },
+    {
+      "id": "91922c0f-510f-415e-b144-c4d3e4fd0847",
+      "memory": "Started using a new laptop backpack that arrived on 1/20 and it's great for carrying work laptop",
+      "hash": "144eb5c57f2875eacf5f063846993c56",
+      "metadata": null,
+      "score": 0.20812821790328662,
+      "created_at": "2025-12-06T13:35:32.921848-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.2714511543151336
+    },
+    {
+      "id": "0993d587-044a-4f35-afbc-1d301f8a4951",
+      "memory": "Does yoga around 6:30 pm on weekdays right after getting back from work",
+      "hash": "07150aa1589588a1172d89fa4418f274",
+      "metadata": null,
+      "score": 0.2736517827716827,
+      "created_at": "2025-12-06T13:25:24.680117-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.08485667157561595
+    },
+    {
+      "id": "0ed1c2d8-c61c-4497-a528-87fcc06959b9",
+      "memory": "Thinking of getting a new laptop sleeve to better protect device",
+      "hash": "1fe7fc2708c9be8e9655c6839993492f",
+      "metadata": null,
+      "score": 0.23684522257731594,
+      "created_at": "2025-12-06T13:33:19.303160-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.08454191038604046
+    },
+    {
+      "id": "21835dd3-63d4-4c36-a3fb-4f5778e3623d",
+      "memory": "Has been taking piano lessons for three months",
+      "hash": "9679d124d21b496153d0f78d8853a9b5",
+      "metadata": null,
+      "score": 0.23434575780594494,
+      "created_at": "2025-12-06T13:38:09.679215-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.08361603390442365
+    },
+    {
+      "id": "015bee7e-b329-4092-bf2a-7220425e7814",
+      "memory": "Has been meaning to take the road bike to a new bike shop that just opened up near the apartment but hasn't had a chance yet",
+      "hash": "c0cf65f8fba64d5dccea329439890519",
+      "metadata": null,
+      "score": 0.1941290290977395,
+      "created_at": "2025-12-06T13:31:31.635029-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.07203245398630323
+    },
+    {
+      "id": "6d2bb199-5c95-4189-bd09-7c4ae040d01c",
+      "memory": "Installed a new graphics card in December and installed it on February 10th",
+      "hash": "0c9dcfb70afcb9f731703af954651093",
+      "metadata": null,
+      "score": 0.25883138971499675,
+      "created_at": "2025-12-06T13:35:33.010730-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.05452731414499938
+    },
+    {
+      "id": "3db1fdb4-9af1-4813-b4c8-0853afee03cb",
+      "memory": "Has been doing the same yoga routine for a while and thinks it's time to try something new",
+      "hash": "9c9c58c39766340679be2872705f4f50",
+      "metadata": null,
+      "score": 0.18256810575073867,
+      "created_at": "2025-12-06T13:25:24.746942-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.04964759535222372
+    },
+    {
+      "id": "cf4e52e6-ea9c-41b3-825e-ec4b80eecf68",
+      "memory": "New gardening tools arrived on the 25th",
+      "hash": "96817a10cd69feab246b75fc079d8fd2",
+      "metadata": null,
+      "score": 0.24639864865005875,
+      "created_at": "2025-12-06T13:41:22.723266-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.049170851796083055
+    },
+    {
+      "id": "13570193-da92-4a29-bea1-77c6fdf5eede",
+      "memory": "Recently bought a bag of compost from the local nursery on February 5th",
+      "hash": "45bc99495b4b9166f25722c3cd5fc8c9",
+      "metadata": null,
+      "score": 0.20918002575762112,
+      "created_at": "2025-12-06T13:41:22.798191-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.04588886816442746
+    },
+    {
+      "id": "c4ed6ffa-adcf-4244-a442-813b70aed0cd",
+      "memory": "Got a flat tire on bike on January 15th and had to fix it",
+      "hash": "df51fa27a38a9a840058555a6cd02805",
+      "metadata": null,
+      "score": 0.2091048864929736,
+      "created_at": "2025-12-06T13:37:35.075032-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.042941893518167996
+    },
+    {
+      "id": "e16175c7-fe49-46ff-8536-38db1caf396f",
+      "memory": "Interested in touchscreen-friendly material for laptop sleeve",
+      "hash": "70348b747dfc603b9c1d304ac8517a4f",
+      "metadata": null,
+      "score": 0.19745827731431803,
+      "created_at": "2025-12-06T13:33:19.355548-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.028453675254140377
+    },
+    {
+      "id": "5808f3c7-3fe9-488c-a8fa-2e6ee121c87a",
+      "memory": "Got a parking ticket for $50 on January 5th near work",
+      "hash": "5e0726d9607973a0aba099413cacfa29",
+      "metadata": null,
+      "score": 0.24392554194629476,
+      "created_at": "2025-12-06T13:37:34.991308-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.02813339193843198
+    },
+    {
+      "id": "8a126310-c03f-4d4a-841a-198a279f6d79",
+      "memory": "Planning to get a new yoga mat soon",
+      "hash": "f7153dd33696092daad7bce056a459f4",
+      "metadata": null,
+      "score": 0.21713236018690296,
+      "created_at": "2025-12-06T13:31:31.650484-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.02626691330551062
+    },
+    {
+      "id": "1bbcbc9b-f1ec-452b-800c-925c49188b7f",
+      "memory": "Has been trying to reduce screen time before bed but still checks phone for at least 10-15 minutes before falling asleep",
+      "hash": "0b4c4faa965e6ba6e68463278f9d43b5",
+      "metadata": null,
+      "score": 0.2813060456898486,
+      "created_at": "2025-12-06T13:25:24.840390-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.018186202064361945
+    },
+    {
+      "id": "f172d8a5-e44c-4a1f-89d3-4154934f888b",
+      "memory": "Took bike to the shop on January 25th and spent $40 to get the gears adjusted",
+      "hash": "016b8002477cac4c3141fda46701e047",
+      "metadata": null,
+      "score": 0.19207391571409183,
+      "created_at": "2025-12-06T13:37:35.023473-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.01671179438687673
+    },
+    {
+      "id": "bcd35b43-e6eb-4ac7-8708-9325ae276680",
+      "memory": "Will try digital reminders on phone's calendar app for yoga routine",
+      "hash": "63d27ab83ba3a595ef9024da19cbfa43",
+      "metadata": null,
+      "score": 0.1723061752719896,
+      "created_at": "2025-12-06T13:25:24.694482-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.016465139419607044
+    },
+    {
+      "id": "d7905173-3801-4cf8-8c55-6f5da408a60c",
+      "memory": "Has been using laptop's touchscreen more frequently since getting a new stylus pen, and it's been really handy for taking notes",
+      "hash": "dae19a8dd17d727034412c35411c4bd0",
+      "metadata": null,
+      "score": 0.1891564767493787,
+      "created_at": "2025-12-06T13:33:19.338907-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.011410553299289443
+    },
+    {
+      "id": "34cf23b5-a9f0-4b33-9294-2ad38b1e9981",
+      "memory": "Cleaned desktop computer on February 1st, removing dust and dirt from fans and vents",
+      "hash": "3efb191a610e5a28eddb9b78aac6d238",
+      "metadata": null,
+      "score": 0.1923308573807822,
+      "created_at": "2025-12-06T13:35:33.129201-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_129",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4184,
+    "load_time": 1194.8224
+  }
+}

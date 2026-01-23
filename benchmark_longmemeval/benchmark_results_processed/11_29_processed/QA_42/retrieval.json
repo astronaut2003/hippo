@@ -1,0 +1,242 @@
+{
+  "sample_idx": 42,
+  "question_id": "bc8a6e93",
+  "question": "What did I bake for my niece's birthday party?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T22:14:00.875713",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "57a0b08e-540b-4d3a-8982-0c53ddd2fcd7",
+      "memory": "Recently made a lemon blueberry cake for niece's birthday party and it was a huge hit",
+      "hash": "9012aa6cc95f68f91959f808e9a632fd",
+      "metadata": null,
+      "score": 0.5741115832149077,
+      "created_at": "2025-11-29T06:26:06.368292-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.9999999992832677
+    },
+    {
+      "id": "645658d4-f26f-44c6-86e5-2c2c270145bb",
+      "memory": "Wants to try jasmine rice with the shrimp stir-fry",
+      "hash": "0fd98dea8456bec3a24b77d1b5bec044",
+      "metadata": null,
+      "score": 0.34115664952813674,
+      "created_at": "2025-11-29T06:34:39.191894-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.3386285654129731
+    },
+    {
+      "id": "6889c49e-8f96-4fa4-8846-31f8155fd25a",
+      "memory": "Is thinking of making garlic bread to go along with the shrimp stir-fry and jasmine rice",
+      "hash": "f34b07597eeca78a5b959c0538528323",
+      "metadata": null,
+      "score": 0.3434233944792754,
+      "created_at": "2025-11-29T06:34:39.295325-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.3113576644255233
+    },
+    {
+      "id": "e3148163-74fd-4609-aab4-fbcef8dcfd14",
+      "memory": "Likes the one-pan wonders idea, especially the shrimp and vegetable stir-fry",
+      "hash": "7c5817f3c95693674d2de1ccbc8c2f94",
+      "metadata": null,
+      "score": 0.3296370191702279,
+      "created_at": "2025-11-29T06:34:39.100785-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.2990172966970281
+    },
+    {
+      "id": "74011464-1e53-4f4c-a62f-45c5d5fbac60",
+      "memory": "Interested in trying out the chicken fajita recipe",
+      "hash": "2358c9feac75a8c568217f0a00556767",
+      "metadata": null,
+      "score": 0.2958498357449863,
+      "created_at": "2025-11-29T06:31:37.206914-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.2842493750334966
+    },
+    {
+      "id": "62dca79a-4c59-4d0d-b71d-70adab945691",
+      "memory": "Thinking of making lemon-based desserts for an upcoming dinner party",
+      "hash": "2cb256c31ebfaef3823f3764c07a7875",
+      "metadata": null,
+      "score": 0.4217487804213098,
+      "created_at": "2025-11-29T06:26:06.348278-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.2692342892131556
+    },
+    {
+      "id": "9f14cca0-bab8-4831-b6eb-3ed92cb980a5",
+      "memory": "The combination of tangy lemon and sweet blueberries was perfect",
+      "hash": "1166179f9b46d593ffab047f08f93af3",
+      "metadata": null,
+      "score": 0.35650594505850675,
+      "created_at": "2025-11-29T06:26:06.386804-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.24943873691080518
+    },
+    {
+      "id": "0f66b151-1192-4fd7-ab69-43eeae9714ea",
+      "memory": "Is excited to try out the shrimp stir-fry recipe and serve it with jasmine rice",
+      "hash": "8418684d01596381658bcde2dc06d400",
+      "metadata": null,
+      "score": 0.345159536206183,
+      "created_at": "2025-11-29T06:34:39.278077-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.24649607537463047
+    },
+    {
+      "id": "3e0b4cbc-3188-4cac-b3ef-429c73a67bdd",
+      "memory": "Has been trying to cook more often at home and experiment with new recipes",
+      "hash": "b53d4c1599e229abcce4b5d86eee5c3a",
+      "metadata": null,
+      "score": 0.3038978098109364,
+      "created_at": "2025-11-29T06:34:39.311076-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.16098308711668247
+    },
+    {
+      "id": "d869f53e-2445-41e1-a15e-b50cb6ecff97",
+      "memory": "Making homemade pasta was a game-changer",
+      "hash": "def3dcfe65ed12252f41e0e8020eb5dc",
+      "metadata": null,
+      "score": 0.3170990404790376,
+      "created_at": "2025-11-29T06:34:39.238601-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.14564592233979096
+    },
+    {
+      "id": "8c159c14-a098-496f-ba2a-77bd8c6f9cf7",
+      "memory": "Has been stuck on Pizza Hut lately, especially their BBQ chicken pizza",
+      "hash": "da54b4e1b77bfb5096874abdc768decf",
+      "metadata": null,
+      "score": 0.31128749629797087,
+      "created_at": "2025-11-29T06:31:37.065847-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.09092448889251986
+    },
+    {
+      "id": "f7f590fa-5e96-43cc-a5fd-f8f545b1a06f",
+      "memory": "Looking for new recipe ideas for dinner that can be prepared quickly on a weeknight",
+      "hash": "7b1d28fdda4549211eff69c8aa365663",
+      "metadata": null,
+      "score": 0.3634510170071316,
+      "created_at": "2025-11-29T06:34:39.052057-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.07678589255856402
+    },
+    {
+      "id": "2d5b8940-7b14-4817-aa7d-df76f21db7ab",
+      "memory": "Recently learned how to make homemade pasta from scratch in cooking classes",
+      "hash": "938dea803af7cc0b4cd5bd0585600e2b",
+      "metadata": null,
+      "score": 0.29376942319845767,
+      "created_at": "2025-11-29T06:34:39.223193-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.07660010932344004
+    },
+    {
+      "id": "655ae9a8-ebb9-4613-b42d-8c2e9f9bc592",
+      "memory": "Wants to try unique Kit-Kat flavors and matcha-flavored snacks",
+      "hash": "3a2bf2cfb87a5f5820fee356d346e149",
+      "metadata": null,
+      "score": 0.3736125619814973,
+      "created_at": "2025-11-29T06:19:32.810187-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.031001329920535458
+    },
+    {
+      "id": "ca34cc63-e28c-4904-95dc-8dccd82cb218",
+      "memory": "Looking for a healthy smoothie recipe to make after Monday kickboxing class with friend Rachel",
+      "hash": "68592beccd9128c0dc35f4939c757d4c",
+      "metadata": null,
+      "score": 0.39660924327685254,
+      "created_at": "2025-11-29T06:29:30.329966-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.027899474434911226
+    },
+    {
+      "id": "a6a71d4c-84af-4ea6-97f6-bc6c0351649b",
+      "memory": "Thinking of a backyard BBQ party to break in the new place",
+      "hash": "6934f82735e048c66ddc8da51611c909",
+      "metadata": null,
+      "score": 0.31028403749203354,
+      "created_at": "2025-11-29T06:30:43.912107-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.007559764540646857
+    },
+    {
+      "id": "e27c2a39-4c27-4d46-a12e-4f770e0c09ac",
+      "memory": "Looking for some new vegan recipes to try",
+      "hash": "e1b7188d3ff3201e5eb4a3152ae5b812",
+      "metadata": null,
+      "score": 0.2892541792503951,
+      "created_at": "2025-11-29T06:27:37.844565-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.002173349427521112
+    },
+    {
+      "id": "80fe1a0d-359a-4fc9-9f4d-f424b5c183ea",
+      "memory": "Looking for decorating ideas for new home",
+      "hash": "e15e0f793f653fcce2c21547cab30fc8",
+      "metadata": null,
+      "score": 0.2995283132558698,
+      "created_at": "2025-11-29T06:30:43.873270-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.0012721845372066594
+    },
+    {
+      "id": "8fcee967-9c28-44a4-b7cd-4d7bc04f4ebc",
+      "memory": "Looking for outdoor furniture and decorations suitable for a family with a two-year-old",
+      "hash": "623069acc870d936d1a38bd9376653a2",
+      "metadata": null,
+      "score": 0.30894029477211493,
+      "created_at": "2025-11-29T06:30:43.929394-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.0007369811777435096
+    },
+    {
+      "id": "9b4b9311-a2df-43d3-9263-b4c97a60badb",
+      "memory": "Interested in kid-friendly outdoor toys suitable for a backyard BBQ party and for new home's backyard in general",
+      "hash": "475ea522bbe77c151c78e0c53f66e453",
+      "metadata": null,
+      "score": 0.2989448412462291,
+      "created_at": "2025-11-29T06:30:43.985814-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_42",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0498,
+    "load_time": 1302.6652
+  }
+}

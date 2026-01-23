@@ -1,0 +1,242 @@
+{
+  "sample_idx": 73,
+  "question_id": "b5ef892d",
+  "question": "How many days did I spend on camping trips in the United States this year?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T06:53:42.551079",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 52,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "aab6cbb9-44c8-42a2-8b57-0daee86e3ca6",
+      "memory": "Went on a 3-day solo camping trip to Big Sur in early April",
+      "hash": "e4b11326a5407d8f9ef34282611d4ad0",
+      "metadata": null,
+      "score": 0.5896361979507596,
+      "created_at": "2025-11-30T15:09:15.933208-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.9999999984547598
+    },
+    {
+      "id": "ce704795-7609-4817-a907-646876065e4c",
+      "memory": "Got back from an amazing 5-day camping trip to Yellowstone National Park last month",
+      "hash": "da25e1b80a6dc3176f80205203a3c866",
+      "metadata": null,
+      "score": 0.5673236108946926,
+      "created_at": "2025-11-30T15:04:29.471752-08:00",
+      "updated_at": "2025-11-30T15:09:15.138237-08:00",
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.8858881231019556
+    },
+    {
+      "id": "9b7e6db9-f52f-400a-aa65-ce40a41e60db",
+      "memory": "Had a 7-day family road trip in Utah in February",
+      "hash": "adf0f92867d216497a5fab16b885ba94",
+      "metadata": null,
+      "score": 0.4365876663994679,
+      "created_at": "2025-11-30T15:01:21.265481-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.511049912669867
+    },
+    {
+      "id": "c16c9d03-67b0-42d7-b4a9-9f12212d17fb",
+      "memory": "Did a lot of driving and hiking, but not camping for this time",
+      "hash": "303039930f071d2fe443f025126c03e7",
+      "metadata": null,
+      "score": 0.6450965707654337,
+      "created_at": "2025-11-30T15:01:21.282133-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.37100346325472316
+    },
+    {
+      "id": "6941d12c-48af-4d4a-a77f-841ae1f00ba0",
+      "memory": "Planning a 10-day trek in New Zealand in November",
+      "hash": "38bde288a5cbe2a1af52160fe189f8aa",
+      "metadata": null,
+      "score": 0.4061181976720478,
+      "created_at": "2025-11-30T15:09:15.964467-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.13172685179498558
+    },
+    {
+      "id": "d7d482d9-fe16-48f9-895b-dab9f976bbaf",
+      "memory": "Looking for new hiking boots for multi-day backpacking trips",
+      "hash": "dd797d484bad58e45953437e869b2f74",
+      "metadata": null,
+      "score": 0.31178917172136916,
+      "created_at": "2025-11-30T15:09:15.919101-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.0804924072324045
+    },
+    {
+      "id": "be6d6d2d-1bde-4688-9a2e-7ff1beceded3",
+      "memory": "Planning a trip to the Rocky Mountains in Colorado",
+      "hash": "ae72f01fd6f6d0910056b5b2f88c612a",
+      "metadata": null,
+      "score": 0.32130387658359305,
+      "created_at": "2025-11-30T15:04:29.404980-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.025961247232699332
+    },
+    {
+      "id": "c9e35795-5b59-458c-89c2-f000b8204154",
+      "memory": "Interested in day trips or shorter trips to national parks near Moab",
+      "hash": "81ce1eae52615c846cf381e3aca77d42",
+      "metadata": null,
+      "score": 0.4264409220950133,
+      "created_at": "2025-11-30T15:01:21.388998-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.01860077850362876
+    },
+    {
+      "id": "f2a5ee3f-e10b-45a0-82fb-99457555c301",
+      "memory": "Interested in visiting nearby national parks",
+      "hash": "964dd058d16fdf7c946cae6f694cf6f9",
+      "metadata": null,
+      "score": 0.3388787806889935,
+      "created_at": "2025-11-30T15:01:21.374070-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.004834180555157087
+    },
+    {
+      "id": "99d0d06c-ea42-433f-bd9e-c6b804077254",
+      "memory": "Interested in the best times to visit Moab",
+      "hash": "388198b14e20a80bf7961542eaafb3d6",
+      "metadata": null,
+      "score": 0.3611275332782271,
+      "created_at": "2025-11-30T15:01:21.341997-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.0037027076158052973
+    },
+    {
+      "id": "c306840b-0b9c-48ca-9e0b-24028cc3efb3",
+      "memory": "Thinking of doing the Maroon Bells Scenic Trail on the first day in Aspen",
+      "hash": "a7aad97c24c7e2abd64fd4a310c4efa1",
+      "metadata": null,
+      "score": 0.41799299378317556,
+      "created_at": "2025-11-30T15:04:29.524648-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.003050025452691325
+    },
+    {
+      "id": "0ce3a93f-6e78-47fe-a370-882f95131d2b",
+      "memory": "Caught a cold during a trip to the beach on August 15th",
+      "hash": "bf69b7fc8e26aeb20a67a124e51419a0",
+      "metadata": null,
+      "score": 0.3599988908529481,
+      "created_at": "2025-11-30T15:11:45.458214-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.0027697361155401
+    },
+    {
+      "id": "600ec33c-1a07-40f8-929d-537385db7967",
+      "memory": "Planning to explore the town of Aspen in the afternoon after the hike",
+      "hash": "c8582b668cda1df9e6acb9ecf6d2c236",
+      "metadata": null,
+      "score": 0.34594991157966,
+      "created_at": "2025-11-30T15:04:29.580836-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.002407806245906342
+    },
+    {
+      "id": "6f775567-0007-42a0-9dad-f339a18ca617",
+      "memory": "Thinking of visiting Canyonlands National Park's Island in the Sky District for a day trip",
+      "hash": "6a50439d85edbfed43878f22d5ae3a13",
+      "metadata": null,
+      "score": 0.38456124095198574,
+      "created_at": "2025-11-30T15:01:21.403981-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.002406037858921161
+    },
+    {
+      "id": "aa76c211-dba9-4d5a-b305-d9bd3866befe",
+      "memory": "Planning to explore the town in the afternoon after the hike",
+      "hash": "3b974efd5a4c0773c74d56262a7f1cb8",
+      "metadata": null,
+      "score": 0.36398283622833894,
+      "created_at": "2025-11-30T15:04:29.538909-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.0015849168354686767
+    },
+    {
+      "id": "2abbc7ce-7954-4011-ae67-1f8824553034",
+      "memory": "Wants to get an early start on the hike",
+      "hash": "5cac672eec017b29e2874d8f7db76af3",
+      "metadata": null,
+      "score": 0.3835839085240247,
+      "created_at": "2025-11-30T15:04:29.552445-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.0008791830627992678
+    },
+    {
+      "id": "d029c743-88cc-4e7b-af39-1d447cbfe72c",
+      "memory": "Thinking of grabbing lunch at one of the local eateries in Aspen after the hike",
+      "hash": "099fb3547123fddc7ee70b29f14ccfb9",
+      "metadata": null,
+      "score": 0.32005663389780287,
+      "created_at": "2025-11-30T15:04:29.623358-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.0006005147470511257
+    },
+    {
+      "id": "4e8bddaf-4320-4610-ad41-a4ed131ebc64",
+      "memory": "Particularly interested in the Maroon Bells Scenic Trail",
+      "hash": "7d5491dcfb39ec7e6a0c4f59033da0db",
+      "metadata": null,
+      "score": 0.33088708632610986,
+      "created_at": "2025-11-30T15:04:29.484656-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.000523147816449447
+    },
+    {
+      "id": "f561d049-de2e-4533-9da9-b9a798f9db00",
+      "memory": "Will be hiking on varying terrain including rocky trails",
+      "hash": "99de4701b73097b77122a351deae03fb",
+      "metadata": null,
+      "score": 0.3082680000195367,
+      "created_at": "2025-11-30T15:09:15.997754-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.00040039228656145
+    },
+    {
+      "id": "2b68e816-ca60-4106-b921-12dd74e0b594",
+      "memory": "Wants to know more about the trail conditions and difficulty level",
+      "hash": "38ff9d54e0621107b80cdbf12e31ee6a",
+      "metadata": null,
+      "score": 0.34457307396562403,
+      "created_at": "2025-11-30T15:04:29.497255-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_73",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3885,
+    "load_time": 1214.7097
+  }
+}

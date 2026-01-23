@@ -1,0 +1,77 @@
+{
+  "sample_idx": 170,
+  "question_id": "e6041065",
+  "question": "What percentage of packed shoes did I wear on my last trip?",
+  "question_type": "multi-session",
+  "gold_answer": "40%",
+  "question_date": "2023/05/30 (Tue) 23:35",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-08T16:44:53.637700",
+  "predicted_answer": "You packed 5 pairs of shoes on your last trip but only wore sneakers and sandals. Since you wore 2 pairs out of 5, you wore 40% of the packed shoes.",
+  "prompt_length": 3354,
+  "gen_token_usage": {
+    "prompt_tokens": 889,
+    "answer_tokens": 39,
+    "total_tokens": 928,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.68,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 31,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.06666666666666667,
+      "rouge1_f": 0.0625,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0625,
+      "semantic_similarity": 0.36087876558303833,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.04791666666666666,
+      "avg_semantic": 0.36087876558303833,
+      "overall_average": 0.11050908267498016
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.06666666666666667,
+    "rouge1_f": 0.0625,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0625,
+    "semantic_similarity": 0.36087876558303833,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.04791666666666666,
+    "avg_semantic": 0.36087876558303833,
+    "overall_average": 0.11050908267498016
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1908.149,
+    "retrieval_time": 0.4068,
+    "generation_time": 2.0841,
+    "evaluation_time": 0.786,
+    "cleanup_time": 1.514,
+    "total_time": 1912.942
+  }
+}

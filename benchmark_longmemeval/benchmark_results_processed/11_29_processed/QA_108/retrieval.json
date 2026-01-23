@@ -1,0 +1,242 @@
+{
+  "sample_idx": 108,
+  "question_id": "60472f9c",
+  "question": "How many projects have I been working on simultaneously, excluding my thesis?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T09:05:19.182637",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "0d48ba71-1a76-47c1-8523-242e272abfef",
+      "memory": "Juggling multiple projects at the moment",
+      "hash": "28ec4b6f3dda118fdfdd7519c35e3332",
+      "metadata": null,
+      "score": 0.6376734740724962,
+      "created_at": "2025-12-01T17:29:01.997201-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.9999999990121987
+    },
+    {
+      "id": "a66d28e8-c076-4360-ada3-67136095e369",
+      "memory": "Created separate boards for thesis, Data Mining project, and Database Systems project",
+      "hash": "8d28e8728d88d440e828688359081b95",
+      "metadata": null,
+      "score": 0.3831502525588568,
+      "created_at": "2025-12-01T17:18:23.536225-08:00",
+      "updated_at": "2025-12-01T17:29:01.908412-08:00",
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.5416874209539332
+    },
+    {
+      "id": "75b7c3a6-a317-495d-b707-ad48bf0d5e93",
+      "memory": "Thinking of creating a Trello board for thesis project, with separate lists for different stages of research, such as literature review, methodology, and results",
+      "hash": "055a44f884d56aa92c6334ba32d3dfea",
+      "metadata": null,
+      "score": 0.4344751915717079,
+      "created_at": "2025-12-01T17:18:23.508909-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.233888989070221
+    },
+    {
+      "id": "8bdfd3ae-d70e-454e-838b-c590fb6863c1",
+      "memory": "Using Trello to manage thesis project",
+      "hash": "56ac16ed52ec298458f7b83e6292ba4e",
+      "metadata": null,
+      "score": 0.5046765174551114,
+      "created_at": "2025-12-01T17:18:23.492870-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.21599276142937765
+    },
+    {
+      "id": "ff6e1bbb-e96a-40e1-9302-48d348ceeb01",
+      "memory": "Data Mining course has a group project that's keeping pretty busy",
+      "hash": "60f3099419db166e048f73f272fb59cb",
+      "metadata": null,
+      "score": 0.31168428471633713,
+      "created_at": "2025-12-01T17:22:42.454615-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.17230468717294378
+    },
+    {
+      "id": "00447e03-41a5-4dca-9b88-c879e94ce1a6",
+      "memory": "Working on a Master's thesis in AI and healthcare",
+      "hash": "57ac0c4d6759aec28183d38c8f3e9103",
+      "metadata": null,
+      "score": 0.37756800055442297,
+      "created_at": "2025-12-01T17:18:23.522831-08:00",
+      "updated_at": "2025-12-01T17:22:41.594301-08:00",
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.13032905429531244
+    },
+    {
+      "id": "5842fca2-1cd4-4af8-bdbd-571599e30a4d",
+      "memory": "Working on a group project for Database Systems course",
+      "hash": "0749780b40b55f9f7e39ff8b876dc823",
+      "metadata": null,
+      "score": 0.2756219101528709,
+      "created_at": "2025-12-01T17:29:01.933897-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.09292486177355905
+    },
+    {
+      "id": "38bf447e-003f-4176-9aba-40f470d6b226",
+      "memory": "Has been doing a lot of running lately",
+      "hash": "58a8993390ae187d98cd23e5c906979e",
+      "metadata": null,
+      "score": 0.19632953199538578,
+      "created_at": "2025-12-01T17:06:26.545687-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.07067471094834478
+    },
+    {
+      "id": "750e2d03-fe05-4369-9ded-8a3f151b91b5",
+      "memory": "Working on a Master's thesis in AI in medical diagnosis",
+      "hash": "44085e7f5ca6ca8819e3dbd449051ffd",
+      "metadata": null,
+      "score": 0.32567396458571257,
+      "created_at": "2025-12-01T17:18:23.444569-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.051645396889620665
+    },
+    {
+      "id": "257bee82-2721-43a7-827e-6c4e61312932",
+      "memory": "Coworker is a software engineer that works on frontend UI and backend services (full stack)",
+      "hash": "cd39a45a8ccd9664e35dd84607678986",
+      "metadata": null,
+      "score": 0.17419970933476758,
+      "created_at": "2025-12-01T17:25:36.018461-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.017265908284172224
+    },
+    {
+      "id": "e47c580e-ae61-4a22-b750-237d24abc60a",
+      "memory": "Working on a similar dataset in Data Mining course",
+      "hash": "28e4b3b2281b4193a42ba11e4feb918e",
+      "metadata": null,
+      "score": 0.19306342402309798,
+      "created_at": "2025-12-01T17:22:42.484850-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.013598921095742985
+    },
+    {
+      "id": "e36afe64-70a5-4f24-9657-9d13d00d405d",
+      "memory": "Knows 'Sword and Star' is now up to episode 35 or something",
+      "hash": "38cbf26d1f96cbcbd8de4666fdb768f0",
+      "metadata": null,
+      "score": 0.1896867312932243,
+      "created_at": "2025-12-01T17:32:12.536359-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.0027988967876334883
+    },
+    {
+      "id": "3cdd4183-3b8b-490f-a0d6-b3793df58d51",
+      "memory": "Particularly interested in exploring the UCI Machine Learning Repository",
+      "hash": "15801083331bb687199074a4c0109461",
+      "metadata": null,
+      "score": 0.19344131530998765,
+      "created_at": "2025-12-01T17:22:42.469740-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.0020661776191701828
+    },
+    {
+      "id": "93eab925-0f8b-44cc-bd19-a284bdf3c313",
+      "memory": "Will experiment with different techniques to find the best approach for the specific task",
+      "hash": "44c0b9d3520d95a7d7ffb67f31873db7",
+      "metadata": null,
+      "score": 0.25576271418027874,
+      "created_at": "2025-12-01T17:29:02.068845-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.00161673005517707
+    },
+    {
+      "id": "c8127e58-9eb4-44d6-86a0-45e7cb16a003",
+      "memory": "Struggling to find relevant datasets for thesis on AI's impact on healthcare outcomes",
+      "hash": "57ffbc17d1979b4d8a61217b00c7930d",
+      "metadata": null,
+      "score": 0.2537799436400666,
+      "created_at": "2025-12-01T17:22:42.405747-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.0014688296830393237
+    },
+    {
+      "id": "77daabe1-7f58-46b8-b47a-1c51ec01207e",
+      "memory": "Looking for help with finding research papers related to AI in medical diagnosis",
+      "hash": "e57af25b476508737cdf34b7e5446608",
+      "metadata": null,
+      "score": 0.160091858546602,
+      "created_at": "2025-12-01T17:18:23.428557-08:00",
+      "updated_at": "2025-12-01T17:29:01.069742-08:00",
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.001459315073111991
+    },
+    {
+      "id": "5f230e41-8bda-4f1f-94d2-d4ad6bd06a0e",
+      "memory": "Wondering if Eira and her friends have been able to work through their issues or if new conflicts have arisen",
+      "hash": "37dca0ce4f7ba082852c21607fc10bc7",
+      "metadata": null,
+      "score": 0.15753250757170056,
+      "created_at": "2025-12-01T17:32:12.617212-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.00036814946134669556
+    },
+    {
+      "id": "b0734273-4d17-4267-bb08-ca68053d2092",
+      "memory": "Heard that the book 'Dune' is also pretty complex and dense",
+      "hash": "e70402f9346d8e79c545f8d23bfd15f5",
+      "metadata": null,
+      "score": 0.16925163661650505,
+      "created_at": "2025-12-01T17:09:21.689554-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.00018181383326487267
+    },
+    {
+      "id": "15659fc2-95a3-44c0-b954-36888247671a",
+      "memory": "Excited to dive deeper into the world of 'Dune' and explore the complex themes and characters",
+      "hash": "c033b1bab40192b63604580f30c52d77",
+      "metadata": null,
+      "score": 0.1629314258287421,
+      "created_at": "2025-12-01T17:09:21.753527-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 9.95736900315909e-05
+    },
+    {
+      "id": "a39773b3-d002-48f2-af21-24b13f169865",
+      "memory": "Stopped listening to 'Sword and Star' around episode 20",
+      "hash": "ee0d178469add2f4333953cb49e7f454",
+      "metadata": null,
+      "score": 0.15954393259799532,
+      "created_at": "2025-12-01T17:32:12.522318-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_108",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3502,
+    "load_time": 1733.1911
+  }
+}

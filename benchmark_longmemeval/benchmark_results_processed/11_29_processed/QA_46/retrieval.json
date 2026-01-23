@@ -1,0 +1,243 @@
+{
+  "sample_idx": 46,
+  "question_id": "19b5f2b3",
+  "question": "How long was I in Japan for?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T12:13:23.664988",
+  "load_result": {
+    "total_sessions": 43,
+    "added_sessions": 43,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "fa1bcc4f-d82d-43c9-bad1-e8c9c3b84e3a",
+      "memory": "Spent two weeks traveling solo around Japan",
+      "hash": "891643435e5830d9db7c8d863695b80f",
+      "metadata": null,
+      "score": 0.7096083497296125,
+      "created_at": "2025-11-29T20:35:25.670023-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.9999999988639899
+    },
+    {
+      "id": "01d74afc-fb6e-4b6a-8ad6-bc33d269cb14",
+      "memory": "Stayed in small hostels and guesthouses during solo trip to Japan",
+      "hash": "8243de92698b73f35519c6cd6a7d5a58",
+      "metadata": null,
+      "score": 0.5126907859733075,
+      "created_at": "2025-11-29T20:35:25.670320-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.3213164969715099
+    },
+    {
+      "id": "d1ee737f-79b4-4930-b59a-9a2da8594dd0",
+      "memory": "Considering visiting other parts of Asia after Japan",
+      "hash": "ad9bc8cd3c091db2574f3ffa9aebb039",
+      "metadata": null,
+      "score": 0.5659953159163295,
+      "created_at": "2025-11-29T20:35:25.670883-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.26433225652900005
+    },
+    {
+      "id": "5f535d07-f609-42f0-8701-d590e8d57737",
+      "memory": "Planning a trip to Asia and considering visiting Japan",
+      "hash": "b6457b95a28bf2dfb6fd6024278eb413",
+      "metadata": null,
+      "score": 0.5606074119428925,
+      "created_at": "2025-11-29T20:35:25.669070-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.2622272423236289
+    },
+    {
+      "id": "45766b62-ff0e-4752-814c-1b2574a770f0",
+      "memory": "Visited an onsen in the mountains during trip to Japan",
+      "hash": "8d47b5bfa77b3e952bdb7506d7f4c346",
+      "metadata": null,
+      "score": 0.49601782589804166,
+      "created_at": "2025-11-29T20:35:25.670595-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.256726470771209
+    },
+    {
+      "id": "ff1e56fe-5cef-4ab3-b339-baf23ea82e59",
+      "memory": "Visited Fushimi Inari Shrine when in Japan a few months ago",
+      "hash": "3787707da1bc328ee30312d9cdb49629",
+      "metadata": null,
+      "score": 0.4814897152248369,
+      "created_at": "2025-11-29T20:35:25.669711-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.24828842978306997
+    },
+    {
+      "id": "d277e4f7-f4bb-443b-bc34-19b209566218",
+      "memory": "Forgot to shave legs before coming to the spa",
+      "hash": "3b5b8c3216fa8ecc4bc070e943b921b8",
+      "metadata": null,
+      "score": 0.18121263971223575,
+      "created_at": "2025-11-29T20:32:35.070017-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.0030489662780114114
+    },
+    {
+      "id": "e9bf6539-46db-4c8a-9916-4490acaf4d63",
+      "memory": "Waiting to hear back from the Australian embassy",
+      "hash": "58be0c3bf8020bea94940cb7b46c388b",
+      "metadata": null,
+      "score": 0.20230352625036263,
+      "created_at": "2025-11-29T20:38:58.925990-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.0026131210825297672
+    },
+    {
+      "id": "4ebca78c-2f01-4a32-82c9-eb951216214a",
+      "memory": "Started taking morning walks on the first day of spring",
+      "hash": "877a753cdd32791a685fc3d62df44559",
+      "metadata": null,
+      "score": 0.19773181827750042,
+      "created_at": "2025-11-29T20:37:10.751642-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.0025220085273719097
+    },
+    {
+      "id": "ed209d47-f225-4a54-8d37-f15c1c567bee",
+      "memory": "Decided to go for a spa day for pampering and relaxation",
+      "hash": "e91fe4c3b167f4ae8895f235882afa83",
+      "metadata": null,
+      "score": 0.20211403725162855,
+      "created_at": "2025-11-29T20:32:35.015139-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.002382252051564969
+    },
+    {
+      "id": "d754049e-2bda-4916-912e-caf4d4781004",
+      "memory": "Thinking of visiting South Korea",
+      "hash": "625cf297f5cca6767807b51ea686b9b6",
+      "metadata": null,
+      "score": 0.2980823785043648,
+      "created_at": "2025-11-29T20:35:25.671182-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.001971866369117923
+    },
+    {
+      "id": "9c01ca8e-4a0a-49f9-bd48-a1b13607d391",
+      "memory": "Went to haunted house called Cursed Mansion",
+      "hash": "02d59499a6c3640c5267a7a8a29001b6",
+      "metadata": null,
+      "score": 0.15954291511797364,
+      "created_at": "2025-11-29T20:13:45.283290-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.0019350313289827601
+    },
+    {
+      "id": "d6c595ca-1786-453c-a9e2-393cc0052f23",
+      "memory": "Went with friends to the theme park",
+      "hash": "99390f853e7d4d8c1745e8af5ae3fa71",
+      "metadata": null,
+      "score": 0.18688189400823219,
+      "created_at": "2025-11-29T20:13:45.321502-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.001867428196499403
+    },
+    {
+      "id": "e2f9871f-d44a-4f5b-ae0b-acea4826e4bd",
+      "memory": "Looking to explore local area for a staycation",
+      "hash": "0eebeb1208b53e5aa1c7b6a35de7e265",
+      "metadata": null,
+      "score": 0.15704677967026792,
+      "created_at": "2025-11-29T20:32:34.977087-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.0017913746724556262
+    },
+    {
+      "id": "bc72eb83-e366-4aa5-92fe-34d9e13e9baf",
+      "memory": "Heard great things about Seoul and the food there",
+      "hash": "aefe493d2a1cab0002d376faa23779b1",
+      "metadata": null,
+      "score": 0.2560627312404301,
+      "created_at": "2025-11-29T20:35:25.671464-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.0012503329358820915
+    },
+    {
+      "id": "97c8cbf0-88ef-43b2-82d3-daab4ab76c65",
+      "memory": "Arrived at the park around 7 pm when Scream Fest event started",
+      "hash": "77fe17d3180be216f0c8ec66742cacfd",
+      "metadata": null,
+      "score": 0.18843539608189513,
+      "created_at": "2025-11-29T20:13:45.338880-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.0009347433126064193
+    },
+    {
+      "id": "3066cca4-1a8c-42d6-b443-363af42f4b13",
+      "memory": "Just turned 37 last month",
+      "hash": "c569d71fc3d08ff74a7246e53d7026ed",
+      "metadata": null,
+      "score": 0.19164721350239883,
+      "created_at": "2025-11-29T20:16:54.432322-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.0009095004762784991
+    },
+    {
+      "id": "05ec141f-372f-4c5c-957e-3e865fff3400",
+      "memory": "Torn between visiting a local museum or having a spa day",
+      "hash": "b7dbc3a868a1323a3281def2afac30d7",
+      "metadata": null,
+      "score": 0.16510073898548822,
+      "created_at": "2025-11-29T20:32:34.994536-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.0006601055868927808
+    },
+    {
+      "id": "aaa793dc-789d-4b69-9a45-faf7fd2bac9f",
+      "memory": "Most productive during first 2 hours of morning session (8:30 AM - 10:30 AM)",
+      "hash": "5a341c73904980f8dfad0baf96196063",
+      "metadata": null,
+      "score": 0.1997435684706017,
+      "created_at": "2025-11-29T20:35:57.676383-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.0005719181672750681
+    },
+    {
+      "id": "757e3bbf-2160-470b-9b5c-6b04c1c87971",
+      "memory": "Pretty sure it was a theme park, not a haunted house or hayride",
+      "hash": "37cabba0e3c78b4b724f877f100b051b",
+      "metadata": null,
+      "score": 0.16399953765916342,
+      "created_at": "2025-11-29T20:13:45.422918-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_46",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "retrieval_time": 0.0518,
+    "load_time": 1536.5495
+  }
+}

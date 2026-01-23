@@ -1,0 +1,243 @@
+{
+  "sample_idx": 53,
+  "question_id": "311778f1",
+  "question": "How many hours did I spend watching documentaries on Netflix last month?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T14:50:57.952920",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 52,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "826b5727-4371-4c04-b1d6-16c2789bafc3",
+      "memory": "Spent 10 hours last month watching documentaries on Netflix",
+      "hash": "d097ddfa508051a8e85bb0ac92d5c552",
+      "metadata": null,
+      "score": 0.893424432471442,
+      "created_at": "2025-11-29T23:04:16.582179-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.9999999994496694
+    },
+    {
+      "id": "334f49df-f0d7-4cf5-90cc-776223475591",
+      "memory": "Watching a lot of documentaries on Netflix, especially on space exploration and artificial intelligence",
+      "hash": "6505fcccc772cefaaea5f42a608d0847",
+      "metadata": null,
+      "score": 0.5160139535230277,
+      "created_at": "2025-11-29T23:04:16.522842-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.4248529630089299
+    },
+    {
+      "id": "966b2b75-2a18-451f-97d7-fd991ee6188e",
+      "memory": "Consuming a lot of educational content lately",
+      "hash": "90819942f49f2b017fbd1f86f8dce231",
+      "metadata": null,
+      "score": 0.3017364080615866,
+      "created_at": "2025-11-29T23:04:16.467796-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.2090734023535279
+    },
+    {
+      "id": "f24b9c09-d748-47bb-9fa5-fdbe9502c6c3",
+      "memory": "Planning to reduce screen time by 30 minutes a day",
+      "hash": "f105e681f7dc8a38e683ede9d5eb5d86",
+      "metadata": null,
+      "score": 0.33346593171885175,
+      "created_at": "2025-11-29T23:04:16.793159-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.014677617607813739
+    },
+    {
+      "id": "330042fc-98ad-4416-a983-a79ea626404c",
+      "memory": "Has been enjoying 'The Hitchhiker's Guide to the Galaxy'",
+      "hash": "d7871909007aef23af871e5248236537",
+      "metadata": null,
+      "score": 0.3354098810539977,
+      "created_at": "2025-11-29T22:52:59.621004-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.0034332150561398826
+    },
+    {
+      "id": "37f62e57-14c3-4411-a02a-99cef89b914a",
+      "memory": "Watched the NBA playoffs that started a few weeks ago",
+      "hash": "c0ce39bebfef50cdd51d0053bdec297a",
+      "metadata": null,
+      "score": 0.24102807858279132,
+      "created_at": "2025-11-29T23:05:57.241525-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.0013930723417430392
+    },
+    {
+      "id": "9f8d20a4-562c-4851-821b-62d4ea65ec80",
+      "memory": "Learned a lot from the series 'Cosmos'",
+      "hash": "3bd07998cf0b0fc9c429249dbddf38be",
+      "metadata": null,
+      "score": 0.23054748408193826,
+      "created_at": "2025-11-29T23:04:16.542455-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.001260603721370081
+    },
+    {
+      "id": "9748a376-3838-4283-9452-f3dbf1e91b43",
+      "memory": "Favorite podcasts include 'The Daily Boost' and 'The Motivation Minute'",
+      "hash": "cf5d6e1bcb5841c0871cb28da6066712",
+      "metadata": null,
+      "score": 0.3278637497971366,
+      "created_at": "2025-11-29T22:51:40.190697-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.0011419907728586365
+    },
+    {
+      "id": "2633b2ea-0c90-402a-80b4-2b268adbff57",
+      "memory": "Considering mentioning experience watching Olivia in the card",
+      "hash": "0b4656b0edf65a2e96ff5c4e4fec0ad1",
+      "metadata": null,
+      "score": 0.2788343410900238,
+      "created_at": "2025-11-29T23:09:15.885390-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.0010074228082642368
+    },
+    {
+      "id": "93c72b20-f268-4ba1-bc35-718f2e2ac734",
+      "memory": "It's refreshing to see a movie that doesn't sugarcoat the realities of aging and death",
+      "hash": "06cf13fc5ccc1088c5e83d1023ad73ca",
+      "metadata": null,
+      "score": 0.21883711918874382,
+      "created_at": "2025-11-29T22:55:38.057028-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.0009259682524723068
+    },
+    {
+      "id": "f74c14db-79f1-474e-9b0e-46ee0e6890a7",
+      "memory": "Wants to allocate time for research on industry trends and best practices and can dedicate about 3 hours a week to research and professional development",
+      "hash": "c1468e9611d7bec13540b0a0ff47b426",
+      "metadata": null,
+      "score": 0.35136108653029635,
+      "created_at": "2025-11-29T22:59:49.392420-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.0007862568945353754
+    },
+    {
+      "id": "0b9c7296-858d-49d6-a40d-66fda1f1c6e0",
+      "memory": "Is in the mood for more humorous sci-fi",
+      "hash": "5fb0365c050bd521a5f6b1b5512d89de",
+      "metadata": null,
+      "score": 0.2558156564495094,
+      "created_at": "2025-11-29T22:52:59.660314-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.0006683262328958995
+    },
+    {
+      "id": "aa3632b3-8c9b-4af5-845b-22561adebde6",
+      "memory": "Usually more focused in the morning and prefers to do research in the morning",
+      "hash": "c2aac1067d40b495b10b8e425829e416",
+      "metadata": null,
+      "score": 0.2852150774960462,
+      "created_at": "2025-11-29T22:59:49.423524-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.0006374658728407096
+    },
+    {
+      "id": "db14e1cc-eecc-4e3c-90bb-15c38d777455",
+      "memory": "Has been cycling regularly to build up endurance",
+      "hash": "5e39535676cbf4e9bc5627fedc3229eb",
+      "metadata": null,
+      "score": 0.22194235428965886,
+      "created_at": "2025-11-29T22:51:39.781288-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.0005841950132216316
+    },
+    {
+      "id": "f68f8877-efdc-4b90-ace6-a2dfae6c6725",
+      "memory": "Watched friend's baby, Olivia, while they went out for a date night last weekend",
+      "hash": "51e8a0ffcc87ae18b0d2724e386a034e",
+      "metadata": null,
+      "score": 0.24699511077112085,
+      "created_at": "2025-11-29T23:09:15.878886-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.0005838801115884154
+    },
+    {
+      "id": "c8809498-9fa4-48ff-a760-fb752f6e42a0",
+      "memory": "Will listen to music and podcasts to keep mind occupied and energized",
+      "hash": "e5b7412bf3f959e46679f0cf6ccbb774",
+      "metadata": null,
+      "score": 0.35495078131584423,
+      "created_at": "2025-11-29T22:51:40.109186-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.00047277231866862436
+    },
+    {
+      "id": "2cc10dd7-a47a-49ca-b455-1a3dcefb6571",
+      "memory": "Has been listening to audiobooks at 1.5x speed",
+      "hash": "5aa9a2f40615991570c925b1a6574af1",
+      "metadata": null,
+      "score": 0.21301990651267852,
+      "created_at": "2025-11-29T22:52:59.723730-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.0004653721302880431
+    },
+    {
+      "id": "f42cdc8f-f013-4aab-a3eb-20f209b304e4",
+      "memory": "Enjoys listening to motivational podcasts that focus on self-improvement and personal growth",
+      "hash": "c6a750ec3c0dd6115480d36f86b8cb5f",
+      "metadata": null,
+      "score": 0.23674071904334232,
+      "created_at": "2025-11-29T22:51:40.169437-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.00023748831505056897
+    },
+    {
+      "id": "c8896234-de5d-4b57-bc73-53fbc563ad4c",
+      "memory": "Has a commute of about 45 minutes each way",
+      "hash": "25ed9a86ec381d805d638e87282013d1",
+      "metadata": null,
+      "score": 0.24536657404284984,
+      "created_at": "2025-11-29T22:52:59.744453-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.00011982007143877325
+    },
+    {
+      "id": "91a47e59-1b78-486a-82f0-f1dca63d3261",
+      "memory": "Is looking for audiobooks similar to 'The Hitchhiker's Guide to the Galaxy' in humor and satire for daily commute",
+      "hash": "b51e04ce5ba693d39aa163d796c3fc38",
+      "metadata": null,
+      "score": 0.2681790899680962,
+      "created_at": "2025-11-29T22:52:59.762698-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_53",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "retrieval_time": 0.0762,
+    "load_time": 1286.7709
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_idx": 116,
+  "question_id": "edced276",
+  "question": "How many days did I spend in total traveling in Hawaii and in New York City?",
+  "question_type": "multi-session",
+  "gold_answer": "15 days",
+  "question_date": "2023/05/30 (Tue) 14:53",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T00:17:42.893798",
+  "predicted_answer": "You spent a total of 5 days traveling in New York City and an unspecified number of days in Hawaii, as the memories do not provide the exact duration of your trip there. Therefore, I don't have enough information to answer this question.",
+  "prompt_length": 3134,
+  "gen_token_usage": {
+    "prompt_tokens": 846,
+    "answer_tokens": 48,
+    "total_tokens": 894,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.65,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 43,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.05,
+      "rouge1_f": 0.04347826086956522,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.04347826086956522,
+      "semantic_similarity": 0.28589415550231934,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.03423913043478261,
+      "avg_semantic": 0.28589415550231934,
+      "overall_average": 0.08457013219594955
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.05,
+    "rouge1_f": 0.04347826086956522,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.04347826086956522,
+    "semantic_similarity": 0.28589415550231934,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.03423913043478261,
+    "avg_semantic": 0.28589415550231934,
+    "overall_average": 0.08457013219594955
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1575.3839,
+    "retrieval_time": 1.2233,
+    "generation_time": 1.554,
+    "evaluation_time": 2.1172,
+    "cleanup_time": 1.5237,
+    "total_time": 1581.8065
+  }
+}

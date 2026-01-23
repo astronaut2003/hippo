@@ -1,0 +1,242 @@
+{
+  "sample_idx": 141,
+  "question_id": "54026fce",
+  "question": "I've been thinking about ways to stay connected with my colleagues. Any suggestions?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T10:02:18.282940",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "23456cb2-48a2-4ccb-ae93-b7c2bc1cbe50",
+      "memory": "Enjoys the flexibility of working from home but misses social interactions and watercooler conversations with colleagues",
+      "hash": "915420607efa62a024d1be9908a4d5c0",
+      "metadata": null,
+      "score": 0.5265883698497564,
+      "created_at": "2025-12-06T18:17:16.040660-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.9999999973717094
+    },
+    {
+      "id": "e6bec0d3-acc4-425f-b16c-b7092d1c90b7",
+      "memory": "Likes the idea of framing it as a collaborative suggestion",
+      "hash": "b5b0a861af8c0e2e47ecda401cb72128",
+      "metadata": null,
+      "score": 0.2591001577348874,
+      "created_at": "2025-12-06T18:17:16.121773-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.41638906701162687
+    },
+    {
+      "id": "177a2820-1beb-45b9-8253-ecb44d1df3e5",
+      "memory": "Wondering if I can suggest some relaxation techniques or apps that might help cope with it",
+      "hash": "a91f0d6f8f36bddb9db36f78fee88041",
+      "metadata": null,
+      "score": 0.27022228740691134,
+      "created_at": "2025-12-06T18:06:26.868615-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.37406224225385293
+    },
+    {
+      "id": "fa2c6c26-a211-4752-a52d-e22da6f2bd8d",
+      "memory": "Suggests establishing a regular schedule for virtual coffee breaks and communicating the importance of attending",
+      "hash": "38c9830a5c83a3624bdf174f32fdb287",
+      "metadata": null,
+      "score": 0.33382610128007806,
+      "created_at": "2025-12-06T18:17:16.187800-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.2155408065472381
+    },
+    {
+      "id": "6547800d-5f97-4399-a26d-441363332306",
+      "memory": "Suggests using a reliable and easy-to-use video conferencing platform",
+      "hash": "c78acf6842b9e72ec1229cc26a9c132c",
+      "metadata": null,
+      "score": 0.34260775497763085,
+      "created_at": "2025-12-06T18:17:16.207136-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.09477127106960573
+    },
+    {
+      "id": "0d8b2381-ddd0-49e3-88bb-399abbf81b91",
+      "memory": "Wants suggestions for a nice dinner spot or a casual outing",
+      "hash": "27969cd0cbe97115684b16b470ff1010",
+      "metadata": null,
+      "score": 0.29358375871186804,
+      "created_at": "2025-12-06T18:07:44.998297-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.08228146642654487
+    },
+    {
+      "id": "cb4b59bf-cfb5-4227-81a5-e617aaa07f84",
+      "memory": "Planning a farewell party for a colleague and needs gift ideas",
+      "hash": "5a70f9818ed375fbf600c8d77a879a98",
+      "metadata": null,
+      "score": 0.3308090600724952,
+      "created_at": "2025-12-06T18:15:51.141747-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.07689267054420394
+    },
+    {
+      "id": "56b80d98-00ed-4b15-81ac-cc0f28607985",
+      "memory": "Considering volunteering for a mentorship program to share knowledge and experience with those who could benefit from it",
+      "hash": "e25aa1bde587f68aa4d2af665fa98bef",
+      "metadata": null,
+      "score": 0.34059537601370293,
+      "created_at": "2025-12-06T18:20:35.132713-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.022498141346441975
+    },
+    {
+      "id": "035ed850-7d52-4ff3-b818-506e18ad55ac",
+      "memory": "Trying to get more organized with daily routines and finances",
+      "hash": "c07fbad27036994705980410e56698e9",
+      "metadata": null,
+      "score": 0.2834827110204897,
+      "created_at": "2025-12-06T18:13:22.806412-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.014727888201990212
+    },
+    {
+      "id": "5c44d253-4c82-493f-85ab-4df2c49bb8ff",
+      "memory": "Believes it's important to stay informed about what's going in their city",
+      "hash": "9d8e6eec1714b400de6922ad4b159071",
+      "metadata": null,
+      "score": 0.21817778315560296,
+      "created_at": "2025-12-06T18:19:31.134578-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.007713856145822676
+    },
+    {
+      "id": "d7364c82-4527-480a-bbcf-7c36d1cc6c17",
+      "memory": "Looking for tips on how to make meditation and journaling a consistent part of daily routine",
+      "hash": "84f1af2b21d3388e3c3de5322142c42a",
+      "metadata": null,
+      "score": 0.24712170534193528,
+      "created_at": "2025-12-06T18:30:23.837566-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.007034836282328488
+    },
+    {
+      "id": "b15a316c-dacd-414d-8aca-e7b04e882679",
+      "memory": "Looking for fun activities for a group of people in their 30s",
+      "hash": "d393d84c7d99efe1e45e46a6ea7be484",
+      "metadata": null,
+      "score": 0.26519951052047397,
+      "created_at": "2025-12-06T18:14:47.632959-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.0037866198146204117
+    },
+    {
+      "id": "cefb6e22-a6fa-4ae6-8037-4579924acc92",
+      "memory": "Trying to plan a trip with friends from high school",
+      "hash": "4d1ae5ffa2462950774ffecc9bb0d3d1",
+      "metadata": null,
+      "score": 0.23189054841708415,
+      "created_at": "2025-12-06T18:14:47.598497-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.002785761078949577
+    },
+    {
+      "id": "ea24bf16-1d51-4726-9910-28ded90bdf5c",
+      "memory": "Struggling to keep up with some of the data analysis tasks at work",
+      "hash": "a752b58c2570c2850f2ba27becc8d59e",
+      "metadata": null,
+      "score": 0.2307482188532913,
+      "created_at": "2025-12-06T18:20:35.211322-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.0019435658994219017
+    },
+    {
+      "id": "a72ca361-d9d3-455d-ad53-44d3454adec2",
+      "memory": "Will invite friends who are also up for the challenge",
+      "hash": "4323097303273884b7eeb7784e6ace1d",
+      "metadata": null,
+      "score": 0.21887658062105902,
+      "created_at": "2025-12-06T18:14:47.746447-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.0014532879913397197
+    },
+    {
+      "id": "2b0b7e44-8206-436a-bc2e-e6473bca64ec",
+      "memory": "Looking for advice on how to store jewelry to prevent tangling and scratching",
+      "hash": "3efa542919dbc98f20f11aa4014f9868",
+      "metadata": null,
+      "score": 0.2131683100073868,
+      "created_at": "2025-12-06T18:24:09.950098-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.001189851344410081
+    },
+    {
+      "id": "e0345dbb-ecab-44f7-af32-809f5c1bff6f",
+      "memory": "Thinks it's helpful to acknowledge potential challenges and come up with strategies to overcome them",
+      "hash": "60560904da7f6b83e5f4ab925efe5c56",
+      "metadata": null,
+      "score": 0.2648781379645606,
+      "created_at": "2025-12-06T18:17:16.170373-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.0006699963437135342
+    },
+    {
+      "id": "58e9963a-af54-4b6b-8996-60bddfc761f4",
+      "memory": "Interested in popular destinations for a group of friends in their 30s for a 4-day trip",
+      "hash": "f7f1e2ebde9095a5ab08d9d9b66a1e8f",
+      "metadata": null,
+      "score": 0.24298520547532085,
+      "created_at": "2025-12-06T18:14:47.647318-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 9.299238440618075e-05
+    },
+    {
+      "id": "4f6d4280-4542-4f65-8f15-30b1e0ff8340",
+      "memory": "Wants to ensure everyone in the team is comfortable with the idea of virtual coffee breaks and willing to participate",
+      "hash": "2b29ab661f234f772e3442c49f6a1a84",
+      "metadata": null,
+      "score": 0.2638519827283191,
+      "created_at": "2025-12-06T18:17:16.071468-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 7.168685159074851e-05
+    },
+    {
+      "id": "66fc4c0c-c76f-4621-b2f6-6d9fd7c78503",
+      "memory": "Interested in online mentorship programs that pair professionals with underprivileged students who are interested in pursuing higher education",
+      "hash": "5e7096393221921164ee162c8ec7ac0a",
+      "metadata": null,
+      "score": 0.23918209678906205,
+      "created_at": "2025-12-06T18:20:35.116646-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_141",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2883,
+    "load_time": 1846.3498
+  }
+}

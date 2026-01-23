@@ -1,0 +1,242 @@
+{
+  "sample_idx": 37,
+  "question_id": "86b68151",
+  "question": "Where did I buy my new bookshelf from?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T18:04:51.576850",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "11827fac-4f56-4922-a89b-f31ec2037d63",
+      "memory": "New bookshelf is from IKEA",
+      "hash": "f62678dcde3d3898df26d3408a007c33",
+      "metadata": null,
+      "score": 0.7836553342654865,
+      "created_at": "2025-11-29T02:19:22.185139-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.9999999992815904
+    },
+    {
+      "id": "392acd85-86ea-4d4d-9670-151cdd74fffa",
+      "memory": "Got a new bookshelf which helped declutter book collection",
+      "hash": "037760f18e8b3cf8b88d567936c999eb",
+      "metadata": null,
+      "score": 0.6491260696132795,
+      "created_at": "2025-11-29T02:19:22.146877-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.638217337192079
+    },
+    {
+      "id": "6fec996d-16bf-4f72-99a7-5928767cf237",
+      "memory": "Happy with the new bookshelf",
+      "hash": "43855bf346e1c5287aab387f5d4abb08",
+      "metadata": null,
+      "score": 0.6958635689392592,
+      "created_at": "2025-11-29T02:19:22.203284-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.6046419210857391
+    },
+    {
+      "id": "592af159-0fc7-46e7-80c6-f88558086fcb",
+      "memory": "Bookshelf is exactly what was needed to get books organized",
+      "hash": "61d5b09aadb2f71ff0b166b872b4b2bc",
+      "metadata": null,
+      "score": 0.619851934398693,
+      "created_at": "2025-11-29T02:19:22.222488-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.37863287100654097
+    },
+    {
+      "id": "27446e58-6870-4b9c-b594-86f2684889f7",
+      "memory": "Recently rearranged furniture in living room to create more space",
+      "hash": "ea0f7720b4a2b8136e25ceba6b3df489",
+      "metadata": null,
+      "score": 0.282838150585346,
+      "created_at": "2025-11-29T02:19:22.110690-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.2649453583137768
+    },
+    {
+      "id": "64105e32-84e4-49f3-874d-d335c58aa893",
+      "memory": "Happy to have books organized and within reach",
+      "hash": "4b99b43cfc43c6a31fa47d08f7d74ecc",
+      "metadata": null,
+      "score": 0.41105256916657484,
+      "created_at": "2025-11-29T02:19:22.238468-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.24817364801529168
+    },
+    {
+      "id": "93a9265f-b994-463e-b1ba-f20e37495bec",
+      "memory": "Recently organized kitchen utensil drawer",
+      "hash": "0d3fa40cb8f66ed4d0c1fd3825d0308f",
+      "metadata": null,
+      "score": 0.31773214401442884,
+      "created_at": "2025-11-29T02:08:15.518478-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.17533737821851944
+    },
+    {
+      "id": "9a49f65d-6f33-4df6-9990-48a0015c72f4",
+      "memory": "Ordered from Bella Vita last Wednesday",
+      "hash": "8d173e9d7803649ffee9a6dfef122f97",
+      "metadata": null,
+      "score": 0.2899772278121919,
+      "created_at": "2025-11-29T02:20:51.847207-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.17415402396192087
+    },
+    {
+      "id": "83e5d573-c739-46ff-ac05-fa88e45804ca",
+      "memory": "Organized closet last weekend",
+      "hash": "4436f03e7ef2748ea2ca3b1085222ce4",
+      "metadata": null,
+      "score": 0.2843550337090549,
+      "created_at": "2025-11-29T02:19:22.018900-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.10182238569461693
+    },
+    {
+      "id": "aaca6cae-9058-42a5-a921-a8fb22f21b9e",
+      "memory": "Recently splurged on a $500 designer handbag from Gucci because couldn't resist the sleek design and premium quality",
+      "hash": "ac4462c3ebb1934db14aa615e0254b81",
+      "metadata": null,
+      "score": 0.279457326817484,
+      "created_at": "2025-11-29T02:17:25.340071-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.08047254278512544
+    },
+    {
+      "id": "391f5698-e360-4443-9456-ac32b39a49e7",
+      "memory": "Spent $50 at Trader Joe's the week before",
+      "hash": "3446619c9a2b7f18dc14c0717c0988a0",
+      "metadata": null,
+      "score": 0.259240460135266,
+      "created_at": "2025-11-29T02:23:24.227381-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.06645953737426599
+    },
+    {
+      "id": "7b6db66d-5c62-4370-b86b-a6bc8190842c",
+      "memory": "Found it easier to find what needed after organizing kitchen utensil drawer",
+      "hash": "fc98100d61d2902866fbd6272ef6d33e",
+      "metadata": null,
+      "score": 0.26605699648403536,
+      "created_at": "2025-11-29T02:08:15.535656-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.0635874779464862
+    },
+    {
+      "id": "991437fe-be2c-4605-8e35-5f531c14236b",
+      "memory": "Spent around $120 at Walmart last Sunday",
+      "hash": "c6005eb26593cb6f4ff5ff673ec0384e",
+      "metadata": null,
+      "score": 0.3260673776744901,
+      "created_at": "2025-11-29T02:23:24.206307-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.05126050570495482
+    },
+    {
+      "id": "17bca215-e37a-4f78-901f-ef6b09888e41",
+      "memory": "Considering trying Closet or Stylebook apps",
+      "hash": "13a2d4a665dea5ecf3bdd742d2652437",
+      "metadata": null,
+      "score": 0.27619787193403567,
+      "created_at": "2025-11-29T02:19:21.986297-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.028076778856928473
+    },
+    {
+      "id": "6accea67-e252-4e73-9650-348572186ad8",
+      "memory": "Got rid of some old books and donated them to local library",
+      "hash": "086ff61bad583bb236a3c43d022d78d0",
+      "metadata": null,
+      "score": 0.5007073142932448,
+      "created_at": "2025-11-29T02:19:22.037125-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.003309514090145582
+    },
+    {
+      "id": "75d91233-a708-404f-b4dd-3531de962f6b",
+      "memory": "Interested in apps to help track books",
+      "hash": "033bdab835aa692e1119bf0f261acaa5",
+      "metadata": null,
+      "score": 0.3664071871137194,
+      "created_at": "2025-11-29T02:19:22.057136-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.0014639144511777384
+    },
+    {
+      "id": "c435933c-7ade-404a-8970-dfd030c38788",
+      "memory": "Vendor gave recommendations for local art classes",
+      "hash": "a5a8fc77ed29996b55046b3fc234c921",
+      "metadata": null,
+      "score": 0.2507472461702581,
+      "created_at": "2025-11-29T02:12:49.322118-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.0009436962442327967
+    },
+    {
+      "id": "65bd911a-3d05-4c31-9654-ec63ae7bc37d",
+      "memory": "Has a food for delivery business",
+      "hash": "27bf033f91bd143effeda07ad08bfe31",
+      "metadata": null,
+      "score": 0.2768326670364466,
+      "created_at": "2025-11-29T02:25:52.953993-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.0005569411042085381
+    },
+    {
+      "id": "9def2702-ebb7-4ad1-a97c-66ae28b7c2eb",
+      "memory": "Talked about craftsmanship behind vendor's jewelry pieces",
+      "hash": "fe121ac41802f72a237345be0dbc939a",
+      "metadata": null,
+      "score": 0.2875559565437902,
+      "created_at": "2025-11-29T02:12:49.305412-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.00038326098375477454
+    },
+    {
+      "id": "afeb5941-8481-4842-bf77-9681361af7dd",
+      "memory": "Considering getting a subscription to a monthly gift box service for best friend's birthday in May",
+      "hash": "214cbbbd144a2e02ddcb20f97462e6f7",
+      "metadata": null,
+      "score": 0.24218060335982977,
+      "created_at": "2025-11-29T02:10:40.693906-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_37",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0585,
+    "load_time": 1319.7664
+  }
+}

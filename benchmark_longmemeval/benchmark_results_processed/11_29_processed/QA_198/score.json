@@ -1,0 +1,77 @@
+{
+  "sample_idx": 198,
+  "question_id": "6c49646a",
+  "question": "What is the total distance I covered in my four road trips?",
+  "question_type": "multi-session",
+  "gold_answer": "3,000 miles",
+  "question_date": "2023/05/30 (Tue) 22:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-09T04:34:39.352239",
+  "predicted_answer": "You covered a total of 1,800 miles on three road trips, including a solo trip to Durango, a weekend trip to Breckenridge, and a family trip to Santa Fe. Additionally, you covered 1,200 miles during the Yellowstone trip. However, since the Yellowstone trip is not included in the three road trips mentioned, the total distance for your four road trips is 1,800 miles + 1,200 miles = 3,000 miles.",
+  "prompt_length": 3313,
+  "gen_token_usage": {
+    "prompt_tokens": 890,
+    "answer_tokens": 96,
+    "total_tokens": 986,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.68,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 69,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.06666666666666667,
+      "rouge1_f": 0.07999999999999999,
+      "rouge2_f": 0.05479452054794521,
+      "rougeL_f": 0.07999999999999999,
+      "semantic_similarity": 0.4534722566604614,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.056666666666666664,
+      "avg_semantic": 0.4534722566604614,
+      "overall_average": 0.13602778315544128
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.06666666666666667,
+    "rouge1_f": 0.07999999999999999,
+    "rouge2_f": 0.05479452054794521,
+    "rougeL_f": 0.07999999999999999,
+    "semantic_similarity": 0.4534722566604614,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.056666666666666664,
+    "avg_semantic": 0.4534722566604614,
+    "overall_average": 0.13602778315544128
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1296.9617,
+    "retrieval_time": 0.4022,
+    "generation_time": 2.347,
+    "evaluation_time": 2.3399,
+    "cleanup_time": 1.4856,
+    "total_time": 1303.5415
+  }
+}

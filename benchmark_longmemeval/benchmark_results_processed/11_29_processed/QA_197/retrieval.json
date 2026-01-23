@@ -1,0 +1,242 @@
+{
+  "sample_idx": 197,
+  "question_id": "1c549ce4",
+  "question": "What is the total cost of the car cover and detailing spray I purchased?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T04:12:52.778373",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "e4fd7adf-48ea-4764-abb8-5332dcd45803",
+      "memory": "Has had good experiences with detailing sprays in the past, like one from Amazon for $20 that removed tar and bug stains from the car's paint",
+      "hash": "f8c44bd904aa1c954e591046879217f3",
+      "metadata": null,
+      "score": 0.6351102682225178,
+      "created_at": "2025-12-08T12:29:29.692832-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.9999999990384447
+    },
+    {
+      "id": "6604f546-741a-47f8-afeb-eab66919ff7d",
+      "memory": "Thinking of getting a detailing kit for the car",
+      "hash": "3e30da11ec09e15fac5dd01fd5409f3c",
+      "metadata": null,
+      "score": 0.49640023915800396,
+      "created_at": "2025-12-08T12:23:16.265619-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.930910634259648
+    },
+    {
+      "id": "658c56f9-1d9c-47ae-bbc3-194a3d7ad12d",
+      "memory": "Is thinking of getting a detailing spray to keep car's exterior clean",
+      "hash": "b5d7b561b496d26101e47d288b175282",
+      "metadata": null,
+      "score": 0.5984337701245239,
+      "created_at": "2025-12-08T12:29:29.677302-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.7295178892248178
+    },
+    {
+      "id": "5597e90c-d135-4724-9d39-5ba60d3b7a28",
+      "memory": "Recently got a waterproof car cover to protect the car's paint",
+      "hash": "cc0d09a41e0e0649e2035d9d9aecd402",
+      "metadata": null,
+      "score": 0.4833071983465112,
+      "created_at": "2025-12-08T12:23:16.284511-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.5976831414521844
+    },
+    {
+      "id": "70eac4f9-f0b4-4fe3-84e7-a031a1584c64",
+      "memory": "Looking for a detailing kit that can help with general cleaning and maintenance and maybe some interior detailing",
+      "hash": "94e5060c406f17b99cb4dde5b8f387d0",
+      "metadata": null,
+      "score": 0.39672980591488327,
+      "created_at": "2025-12-08T12:23:16.300293-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.4715710435393404
+    },
+    {
+      "id": "25ce194e-f1f5-409c-91c1-29a58424b2f8",
+      "memory": "Car's paint is pretty sensitive and needs something gentle on it",
+      "hash": "f6786f37e300a54c38b89f38a191dde4",
+      "metadata": null,
+      "score": 0.2804758269403773,
+      "created_at": "2025-12-08T12:23:16.313881-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.4649811768521235
+    },
+    {
+      "id": "916d209e-aea0-405f-8a5d-ed1820638197",
+      "memory": "Will contact insurance provider to see if can claim the cost of the waterproof car cover",
+      "hash": "c2b4bb25cfb5566baf4d2e42871b9db5",
+      "metadata": null,
+      "score": 0.5530080237753578,
+      "created_at": "2025-12-08T12:23:16.394330-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.38890295984999007
+    },
+    {
+      "id": "ed757c61-d0ce-4f37-8cc9-d66bb10cd337",
+      "memory": "Thinks will end up getting a dash cam that costs around $150, which has good reviews and features like collision detection and parking mode",
+      "hash": "052b65b32f1956f977065562231e8d87",
+      "metadata": null,
+      "score": 0.2254907960489459,
+      "created_at": "2025-12-08T12:23:16.377491-08:00",
+      "updated_at": "2025-12-08T12:29:29.566716-08:00",
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.24437018431722732
+    },
+    {
+      "id": "1242a230-9652-4dff-9f36-714a35e90eb0",
+      "memory": "Will go with the Meguiar's Gold Class Car Care Kit",
+      "hash": "c6cf3c301235af4db11896175ffa9a17",
+      "metadata": null,
+      "score": 0.2825177737206245,
+      "created_at": "2025-12-08T12:23:16.328774-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.19351525805763528
+    },
+    {
+      "id": "d2775572-09e5-4145-bb6f-f3a2cd8f6a62",
+      "memory": "Has been keeping a log of all the work done on the car, including oil changes, tire rotations, and brake pad replacements",
+      "hash": "c196472170f38e9e3bfe167d0ce03c6c",
+      "metadata": null,
+      "score": 0.18739883123533352,
+      "created_at": "2025-12-08T12:29:29.648115-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.06146895596324287
+    },
+    {
+      "id": "2db6c232-5fe9-462a-854e-532359058c61",
+      "memory": "Wants recommendations for a good interior cleaning product",
+      "hash": "705b4f30f962b349ce7b67bf47838e32",
+      "metadata": null,
+      "score": 0.2552549746585774,
+      "created_at": "2025-12-08T12:29:29.598970-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.04664218003435992
+    },
+    {
+      "id": "f85b0b42-2fc9-4db7-91f7-4784a85d75c0",
+      "memory": "Scored a mint condition 1960s Canon QL17 at a thrift store for only $50",
+      "hash": "4bef27c1845e72dc65638dc3da3ba7c8",
+      "metadata": null,
+      "score": 0.2145987701786695,
+      "created_at": "2025-12-08T12:32:39.866155-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.03570362031566565
+    },
+    {
+      "id": "deab9935-f86f-46ac-8318-3d3b794e6576",
+      "memory": "Is planning to get car's oil changed soon, which is overdue by about 1000 miles",
+      "hash": "22119c82f7fefc34eb777608d22a18c2",
+      "metadata": null,
+      "score": 0.28806773015251314,
+      "created_at": "2025-12-08T12:29:29.617755-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.03481430353524987
+    },
+    {
+      "id": "4e8a567d-1bd9-4024-9b10-52e93c0d200c",
+      "memory": "Has been keeping track of fuel efficiency and noticed the car has been getting around 28 miles per gallon in the city, which is slightly lower than the 30 miles per gallon it was getting a few months ago",
+      "hash": "0f8b12b61f2ab765bc5f42afc51d3f30",
+      "metadata": null,
+      "score": 0.22491923592264643,
+      "created_at": "2025-12-08T12:23:16.409976-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.030272442242487083
+    },
+    {
+      "id": "a5bf0f11-994a-4864-bba4-29f6cebd63d9",
+      "memory": "Needs tips on how to clean car's interior, specifically the center console, which is getting dusty and dirty",
+      "hash": "c25449f858f05790d6fb0d0826f940ad",
+      "metadata": null,
+      "score": 0.21846218880115106,
+      "created_at": "2025-12-08T12:23:16.343989-08:00",
+      "updated_at": "2025-12-08T12:29:29.530636-08:00",
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.022718843372987275
+    },
+    {
+      "id": "a34a66f0-7545-4e4d-bffb-655b8da4e52a",
+      "memory": "Thinking of selling some vintage cameras, including the Canon QL17 scored at a thrift store for $50, and wants tips on pricing and selling them",
+      "hash": "0f4795a9ae26e1ca79e37e4905fecd45",
+      "metadata": null,
+      "score": 0.23822961929215444,
+      "created_at": "2025-12-08T12:32:39.936609-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.0028618980614555857
+    },
+    {
+      "id": "8d92ec69-7986-46a1-aa1d-b95d6a98cd31",
+      "memory": "Planning to buy new concert merchandise online",
+      "hash": "94d85c9d5c645acd405266b7552983f4",
+      "metadata": null,
+      "score": 0.1828465747787802,
+      "created_at": "2025-12-08T12:13:14.844052-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.0020099953093352875
+    },
+    {
+      "id": "f20f5543-5b8e-46b2-9048-0cb31fedfa46",
+      "memory": "Curious about the value of the Canon QL17 and tips on how to appraise it",
+      "hash": "2cf1f0e4112fbaaf57cdc4a1b1768fd4",
+      "metadata": null,
+      "score": 0.19984415115391385,
+      "created_at": "2025-12-08T12:32:39.885959-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.0016195322395260053
+    },
+    {
+      "id": "4a0886e7-dd80-4010-8a20-1f44a1ee394f",
+      "memory": "Curious about selling some duplicate or less-rare collectible items and wants tips on pricing and where to sell them",
+      "hash": "d755cf1a313285d1cbd8646572822a7a",
+      "metadata": null,
+      "score": 0.288407602247974,
+      "created_at": "2025-12-08T12:32:39.907073-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.0014308114791531771
+    },
+    {
+      "id": "e6a02357-3dde-4591-8ec6-8aed9de25531",
+      "memory": "Thinking of selling some vintage posters and prints and wants tips on storage, preservation, and where to sell them",
+      "hash": "e8390290f71dca78ec850e9206f1aa92",
+      "metadata": null,
+      "score": 0.1997493818691591,
+      "created_at": "2025-12-08T12:32:39.921539-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_197",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5312,
+    "load_time": 1301.3867
+  }
+}

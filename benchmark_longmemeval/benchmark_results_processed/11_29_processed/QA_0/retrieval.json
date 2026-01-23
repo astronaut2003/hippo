@@ -1,0 +1,242 @@
+{
+  "sample_idx": 0,
+  "question_id": "e47becba",
+  "question": "What degree did I graduate with?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T11:32:25.580896",
+  "load_result": {
+    "total_sessions": 53,
+    "added_sessions": 53,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "efa61410-c790-4728-994a-1f7f188b1b21",
+      "memory": "Working on a senior UX designer portfolio page for Grade A Steakhouse",
+      "hash": "069f00713932f6b01d24fe58cf181c50",
+      "metadata": null,
+      "score": 0.1939850042373686,
+      "created_at": "2025-11-28T19:49:03.974272-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.9999999971112646
+    },
+    {
+      "id": "2a3bbf68-40a1-4f5b-917f-ed24b97d45e4",
+      "memory": "Grade A Steakhouse is a virtual ghost kitchen that delivers steak dinners right to your door",
+      "hash": "b79c916f28f6edcca51641a30aa060ee",
+      "metadata": null,
+      "score": 0.11523003204891703,
+      "created_at": "2025-11-28T19:49:04.007208-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.6722976145900315
+    },
+    {
+      "id": "58c4ce17-0893-45cc-abb1-4ce473f1f652",
+      "memory": "Taking an online course on diversity and inclusion",
+      "hash": "c262df6c51dc0712945950814fe9690f",
+      "metadata": null,
+      "score": 0.17846175318839025,
+      "created_at": "2025-11-28T19:48:10.916182-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.02543252811824323
+    },
+    {
+      "id": "b0f3eaf5-9b66-4916-9eaa-203c064d8edf",
+      "memory": "Been thinking about starting own business",
+      "hash": "135fcbda4078465ef389b8b083480d13",
+      "metadata": null,
+      "score": 0.1418653949992315,
+      "created_at": "2025-11-28T19:33:32.704883-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.00833278462246935
+    },
+    {
+      "id": "63fafed8-0fa5-46f2-95d7-4ef0d279ecdc",
+      "memory": "Works as a sales manager",
+      "hash": "9e7a35936a5b61c9d15c2fd90eacbc39",
+      "metadata": null,
+      "score": 0.23379943562944666,
+      "created_at": "2025-11-28T19:40:03.970412-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.005187225234121578
+    },
+    {
+      "id": "34dc1744-f8e8-4ef7-bc5d-1712765069b6",
+      "memory": "Went to the Rock on the River concert series at the Riverfront Amphitheater",
+      "hash": "a5227fa1d9fda2e6e5172b7ead8f7074",
+      "metadata": null,
+      "score": 0.08367196910556209,
+      "created_at": "2025-11-28T19:37:14.262845-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.0031678741816965335
+    },
+    {
+      "id": "cbb77de6-07c1-40f3-b84e-ebdba15c219b",
+      "memory": "Converted the guest room into a home office",
+      "hash": "0790cdd477f866ef6ec809a3c6d76856",
+      "metadata": null,
+      "score": 0.08946331535516758,
+      "created_at": "2025-11-28T19:54:42.811119-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.002928747754206092
+    },
+    {
+      "id": "9b61611a-2d9f-44c8-9fdd-58982a5442f8",
+      "memory": "Attended a singer-songwriter night at the Coffee House on Main Street which was intimate and cool",
+      "hash": "210a89bc8e769754dc3d53457366e1c5",
+      "metadata": null,
+      "score": 0.08535342407782966,
+      "created_at": "2025-11-28T19:37:14.279489-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.0027516068637955457
+    },
+    {
+      "id": "ba917e31-8c15-4007-97c0-6b0ecf3e942c",
+      "memory": "Attended best friend Rachel's baby shower",
+      "hash": "c630b0e33e33712859e26ec454c906bb",
+      "metadata": null,
+      "score": 0.08986317715391667,
+      "created_at": "2025-11-28T19:52:06.850111-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.0021986958730428764
+    },
+    {
+      "id": "366a5161-ed50-441f-9fff-9e9ea12d0922",
+      "memory": "Feels much more confident in my ability to handle conflicts with my roommates now",
+      "hash": "5311da921bd2dcafc02a20f9111a7433",
+      "metadata": null,
+      "score": 0.16859169740333857,
+      "created_at": "2025-11-28T19:53:41.163467-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.0020201775262527768
+    },
+    {
+      "id": "3c160a18-ebc2-4f3a-899f-5f6271895d57",
+      "memory": "Still on a high from the Astros' World Series win",
+      "hash": "9b7b4e031e8587c2312c446563fe700b",
+      "metadata": null,
+      "score": 0.11051838095133235,
+      "created_at": "2025-11-28T19:38:25.511025-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.0017019851025759792
+    },
+    {
+      "id": "02a98088-7743-4384-8503-6c81496df0f5",
+      "memory": "Attended a networking event last week and made an effort to talk to women and non-binary attendees",
+      "hash": "29f0a110adef8ae5cf4395ac05924d97",
+      "metadata": null,
+      "score": 0.08467178324410202,
+      "created_at": "2025-11-28T19:48:10.931007-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.001420157527319387
+    },
+    {
+      "id": "bb2ab5c6-62d6-416a-b263-6c79f25e1f51",
+      "memory": "Interested in history, culture, and trying local food and drinks",
+      "hash": "52bb8adee0afc3240c811e00ec87a537",
+      "metadata": null,
+      "score": 0.10727174134079684,
+      "created_at": "2025-11-28T19:35:24.830456-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.0014080359111793186
+    },
+    {
+      "id": "e5bc95b4-bae0-4935-b635-4e2aea377457",
+      "memory": "Interested in dessert recipes that use the cacao and chili combination",
+      "hash": "142ec939f47692fe95376dd9f7b1c987",
+      "metadata": null,
+      "score": 0.09052195678057084,
+      "created_at": "2025-11-28T19:37:43.671820-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.0013118894558865025
+    },
+    {
+      "id": "39a5bceb-b88e-4a4a-9caa-58a46fac9d7b",
+      "memory": "The opening act was Whiskey Wanderers and they were great too",
+      "hash": "90f697ae5a9a23b5ebe5761f1a52f065",
+      "metadata": null,
+      "score": 0.11900820731616707,
+      "created_at": "2025-11-28T19:37:14.187785-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.0011253818620949943
+    },
+    {
+      "id": "9cc618d9-15e4-4a69-b99c-e4691057780c",
+      "memory": "Wants feedback on company's diversity and inclusion statement",
+      "hash": "740e5299dab8fdf0ca2b9deed3b42cf3",
+      "metadata": null,
+      "score": 0.09128051735563635,
+      "created_at": "2025-11-28T19:48:11.013715-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.0011157396674381216
+    },
+    {
+      "id": "920a9094-aed2-454a-9da4-44e6a3fd62c3",
+      "memory": "Is a beginner in cooking",
+      "hash": "2083c10b1444127bcf07cdf15d230074",
+      "metadata": null,
+      "score": 0.09055938202771155,
+      "created_at": "2025-11-28T19:57:49.967471-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.0009892891717951345
+    },
+    {
+      "id": "ca011c19-0a02-4dbc-b1c8-23baf45c7bcf",
+      "memory": "Got a t-shirt with The Electric Storm's album artwork from the merchandise booth",
+      "hash": "36c0811b8a531d5207fb2f43d164e466",
+      "metadata": null,
+      "score": 0.09806434602548006,
+      "created_at": "2025-11-28T19:37:14.154716-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.0008350140572851721
+    },
+    {
+      "id": "1e11db8a-035c-48f3-933e-b4af361cc459",
+      "memory": "Had amazing slow-cooked ribs at Alex's house a few weeks back",
+      "hash": "7bec21251ccb83d721ec159964d9451d",
+      "metadata": null,
+      "score": 0.09060161759180457,
+      "created_at": "2025-11-28T19:36:11.822972-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.0007443774275105691
+    },
+    {
+      "id": "e48200f2-0800-44af-a335-a0fe5cac055a",
+      "memory": "Wants to track diversity metrics, such as gender balance in hiring or promotion rates",
+      "hash": "f00ae38665506396b8562828fab0c672",
+      "metadata": null,
+      "score": 0.12501794025919466,
+      "created_at": "2025-11-28T19:48:10.980674-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_0",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.7063,
+    "load_time": 1524.4671
+  }
+}

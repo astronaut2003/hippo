@@ -1,0 +1,242 @@
+{
+  "sample_idx": 27,
+  "question_id": "853b0a1d",
+  "question": "How old was I when my grandma gave me the silver necklace?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T09:28:45.225533",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 52,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "2b502148-f801-48ff-9e2a-34b8f0d561fc",
+      "memory": "Has a silver necklace from grandma given on 18th birthday",
+      "hash": "3d61467df68e1d6fb4d91a64b920e803",
+      "metadata": null,
+      "score": 0.8284922940685587,
+      "created_at": "2025-11-28T17:38:02.850090-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.9999999993327491
+    },
+    {
+      "id": "a70e49de-99e1-43b0-9969-8c85b5f5fdcd",
+      "memory": "Lost the silver necklace about two months ago at friend's house during sleepover",
+      "hash": "a191d60bc9e5b4a78fa06e3945ad2443",
+      "metadata": null,
+      "score": 0.6308067403092974,
+      "created_at": "2025-11-28T17:38:02.871850-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.310011184423802
+    },
+    {
+      "id": "c1f512c8-3e86-4707-857f-47f3b7f0c73f",
+      "memory": "Has a gold chain with tiny diamond cross pendant borrowed from mom",
+      "hash": "aa30c7f904af385f23022f3a7b7620a6",
+      "metadata": null,
+      "score": 0.5342776399325224,
+      "created_at": "2025-11-28T17:38:02.950728-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.20912163520854155
+    },
+    {
+      "id": "21b344c1-661e-4d7c-960e-1eba0bc6f284",
+      "memory": "Has pearl earrings from parents given when graduated from high school",
+      "hash": "27849328e7e292c352ed2a91263baf45",
+      "metadata": null,
+      "score": 0.4758599176861532,
+      "created_at": "2025-11-28T17:38:02.903142-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.11772354307422803
+    },
+    {
+      "id": "d77a5563-8a70-4500-baad-e5a69d864c81",
+      "memory": "Hoping to find the lost necklace and plans to ask friend if she's seen it",
+      "hash": "f691b9cb82a1984677d4ac2ea44f7e60",
+      "metadata": null,
+      "score": 0.46395943975956405,
+      "created_at": "2025-11-28T17:38:02.888940-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.0999756376549813
+    },
+    {
+      "id": "e5b1a45c-f2f7-4b2f-b45d-9d8c7fa53ea5",
+      "memory": "Planning grandma's birthday party",
+      "hash": "ef4347ccdba965d7959c748f15c7ffa1",
+      "metadata": null,
+      "score": 0.4219121399146297,
+      "created_at": "2025-11-28T17:30:01.936987-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.08404728293581969
+    },
+    {
+      "id": "acfc75da-2bf5-46e2-978b-92f2391f8708",
+      "memory": "Trying to organize jewelry collection",
+      "hash": "edf8dc1b00a71718cd7c2cb391aeb2a3",
+      "metadata": null,
+      "score": 0.3248157676012751,
+      "created_at": "2025-11-28T17:38:02.807745-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.0704554415623154
+    },
+    {
+      "id": "a7a5ba74-a396-4d0e-a3f0-356f1757580d",
+      "memory": "Used a small silver clasp to fix the broken chain and needs to ask mom if she's seen the clasp",
+      "hash": "3170449d451fb98d96a2a62b236e0b67",
+      "metadata": null,
+      "score": 0.41258878876129124,
+      "created_at": "2025-11-28T17:38:02.966279-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.06695315326997138
+    },
+    {
+      "id": "4fb71b17-89d5-46fe-a569-bf3be8c8ad8c",
+      "memory": "Wants to capture outdoor photos for a family photo shoot with grandma",
+      "hash": "92468bb0cad355f0e2c4ace72e9704a8",
+      "metadata": null,
+      "score": 0.20896254502462153,
+      "created_at": "2025-11-28T17:30:01.955382-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.03652286365724473
+    },
+    {
+      "id": "62a58a43-5c3d-4d31-8e85-2cf6ee2569bb",
+      "memory": "Plans to bring grandma's favorite foods and drinks to the picnic",
+      "hash": "f9649cc3d7f9027ecf7fdcfcdd06269f",
+      "metadata": null,
+      "score": 0.34146670803507845,
+      "created_at": "2025-11-28T17:30:02.002382-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.008775765442006684
+    },
+    {
+      "id": "950f433c-2040-4280-ab1c-2357de079b73",
+      "memory": "Considering a park or garden for the photo shoot because grandma loves flowers and nature",
+      "hash": "51a9b90b5c4a981b846a5047dc9caed9",
+      "metadata": null,
+      "score": 0.347748381967909,
+      "created_at": "2025-11-28T17:30:01.972336-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.007917024562883486
+    },
+    {
+      "id": "314d0131-713a-4d17-89e9-e9b814685250",
+      "memory": "Wants to include story behind each piece in Acquisition Date column to track sentimental value",
+      "hash": "503f145812886785ce929ad9c53c1df6",
+      "metadata": null,
+      "score": 0.17920937910076462,
+      "created_at": "2025-11-28T17:38:02.832307-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.00771625928139896
+    },
+    {
+      "id": "0ba2a89f-e675-490a-8957-1bc612e03cb9",
+      "memory": "Associates pearl earrings with good luck and important milestones",
+      "hash": "a96e64aa650e167b5ef550757aadb3f1",
+      "metadata": null,
+      "score": 0.383780375975722,
+      "created_at": "2025-11-28T17:38:02.934527-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.0024173921642838946
+    },
+    {
+      "id": "d6fca175-6b74-4805-9f8d-7f3a20367811",
+      "memory": "Picked up favorite wool coat from the dry cleaner's yesterday",
+      "hash": "82497a0a6496319bec34ddc71a7abc37",
+      "metadata": null,
+      "score": 0.19309378130219026,
+      "created_at": "2025-11-28T17:30:54.768156-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.0008672678356109717
+    },
+    {
+      "id": "828b9c93-7d44-4196-bd9e-3cf52a92b85f",
+      "memory": "Had a good experience with charity runs in the past",
+      "hash": "558767959625173f9db03fd51a0b5a5c",
+      "metadata": null,
+      "score": 0.16261100737524634,
+      "created_at": "2025-11-28T17:49:43.779452-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.0007709259540998549
+    },
+    {
+      "id": "91c001fb-33d7-498d-a660-f85538ca7452",
+      "memory": "Thinking of propagating some more cuttings from peace lily or dracaena to give to family members as gifts",
+      "hash": "18527011a4f247c1057d7f3a3988e23e",
+      "metadata": null,
+      "score": 0.18564751914211494,
+      "created_at": "2025-11-28T17:32:38.335797-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.0007288638776937464
+    },
+    {
+      "id": "5dfd77e7-f830-4e4e-99ee-d1f7c168c559",
+      "memory": "Recently made a delicious quiche with fresh herbs from the garden",
+      "hash": "43cc9ce4216727d1b2f47079859e1812",
+      "metadata": null,
+      "score": 0.17852412902585524,
+      "created_at": "2025-11-28T17:43:14.102418-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.00040948481342406655
+    },
+    {
+      "id": "a7184de4-a22c-4bdc-9f1d-7b58ff82e9d9",
+      "memory": "Thinking of checking out the Bell Zephyr MIPS helmet",
+      "hash": "155db44ca57aecebdd301cc1fbe88d50",
+      "metadata": null,
+      "score": 0.1700127525396008,
+      "created_at": "2025-11-28T17:49:43.750837-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.00030563411948341746
+    },
+    {
+      "id": "8a84cb04-29cd-4f1a-bf55-bd8dde46489f",
+      "memory": "Wore pearl earrings on day of stats final three weeks ago and felt confident",
+      "hash": "b593946470981b91d99438df09cf3000",
+      "metadata": null,
+      "score": 0.29416594856581824,
+      "created_at": "2025-11-28T17:38:02.918007-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.00024270008988335504
+    },
+    {
+      "id": "e74b5084-8991-4340-b001-8e7dea7e49cd",
+      "memory": "Built a trellis for climbing roses a couple of weeks ago using old wooden stakes and twine",
+      "hash": "7edb948ba95b4fc9d64310ea5a811d97",
+      "metadata": null,
+      "score": 0.25002987581280905,
+      "created_at": "2025-11-28T17:45:04.699832-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_27",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2906,
+    "load_time": 1443.7687
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 1,
+  "question_id": "118b2229",
+  "question": "How long is my daily commute to work?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-28T21:16:36.880554",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "447e12a4-85ec-41cc-8f98-e58b548eb4a1",
+      "memory": "Daily commute takes 45 minutes each way",
+      "hash": "d02039fc712970b3547db15197ecdc3d",
+      "metadata": null,
+      "score": 0.7552397330063588,
+      "created_at": "2025-11-28T05:20:27.841835-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.9999999993185141
+    },
+    {
+      "id": "1a069b9f-b735-4b81-b31e-0e799b5de33b",
+      "memory": "Enjoys audiobooks a lot lately, especially during daily commute",
+      "hash": "0b4b1f75e541e1ad9f65c49d11d1f2a3",
+      "metadata": null,
+      "score": 0.4242431551184985,
+      "created_at": "2025-11-28T05:20:27.747473-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.2801736533440911
+    },
+    {
+      "id": "3e46ea25-ae1a-45e5-83bc-a34e592ec10e",
+      "memory": "Planning to rely on public transport and walk or bike whenever possible",
+      "hash": "db2c9f807c698cd590c9417117f61f27",
+      "metadata": null,
+      "score": 0.3962696622156362,
+      "created_at": "2025-11-28T05:33:28.623016-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.15289718205371017
+    },
+    {
+      "id": "469fe703-6a77-4e00-849e-6e4c6eb07450",
+      "memory": "Has only been doing shorter rides on the weekends",
+      "hash": "a9b324c0aecb8064beefe797c4010063",
+      "metadata": null,
+      "score": 0.4736418047027886,
+      "created_at": "2025-11-28T05:23:37.366163-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.12735322631658866
+    },
+    {
+      "id": "a8848427-9e8d-47b5-a2c8-83456934c7d4",
+      "memory": "Recently completed a 5K run in 32 minutes and 15 seconds",
+      "hash": "d8b72ee227b226de86c34d4d84b1d454",
+      "metadata": null,
+      "score": 0.23786274476336433,
+      "created_at": "2025-11-28T05:23:37.286307-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.08444183735899558
+    },
+    {
+      "id": "b86aab42-7984-43a9-b062-d63675089bc5",
+      "memory": "Moving to Melbourne soon",
+      "hash": "e6979241c51f2878bed1271a37513cd0",
+      "metadata": null,
+      "score": 0.25383222227068125,
+      "created_at": "2025-11-28T05:33:28.502572-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.002645676212415543
+    },
+    {
+      "id": "9e2f300c-0bb8-4536-9abb-c0064d30d473",
+      "memory": "Loves trying local street food",
+      "hash": "380cd58fff937433b0c2047e50547a93",
+      "metadata": null,
+      "score": 0.19629468832081126,
+      "created_at": "2025-11-28T05:17:36.867247-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.0020005700395640965
+    },
+    {
+      "id": "a1b8ea88-de3a-4246-b01a-bd51b863f7e1",
+      "memory": "Visited the Santa Cruz Wharf during the day trip",
+      "hash": "c59134dd4b5e625d976d3a64119b633b",
+      "metadata": null,
+      "score": 0.2644012944721491,
+      "created_at": "2025-11-28T05:32:18.269799-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.0013217982413311219
+    },
+    {
+      "id": "17a9190e-5741-4347-98a6-d95e0917b6a9",
+      "memory": "Planning a trip to the beach",
+      "hash": "caa1a72f263ab892e9773441ce6849f8",
+      "metadata": null,
+      "score": 0.18505928237808492,
+      "created_at": "2025-11-28T05:32:18.153238-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.001303990555318499
+    },
+    {
+      "id": "76f2556e-2010-48c9-90e1-f58f38d1f71c",
+      "memory": "Thinking of getting a bike rack for car",
+      "hash": "7a7e953e69a0a792b50f2ea4760337be",
+      "metadata": null,
+      "score": 0.19857615675151005,
+      "created_at": "2025-11-28T05:21:17.710001-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.0009045524595755018
+    },
+    {
+      "id": "a1ed7284-784a-43ab-88f5-679b6835eb23",
+      "memory": "Went on a day trip to Santa Cruz with family a week ago",
+      "hash": "00b323f9e7fa5f614b233de0ccc9f6a6",
+      "metadata": null,
+      "score": 0.2386313838795787,
+      "created_at": "2025-11-28T05:32:18.189731-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.000801475853677618
+    },
+    {
+      "id": "6c0d2271-6716-4af3-be44-d60d9fe687c0",
+      "memory": "Likes the idea of finding a workout buddy",
+      "hash": "611e0b4d2ba0b816ada9df0fb881cad8",
+      "metadata": null,
+      "score": 0.19717001312819726,
+      "created_at": "2025-11-28T05:24:38.770691-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.0007653405492140472
+    },
+    {
+      "id": "e16132fc-8646-476a-91e0-a54b689dc051",
+      "memory": "Going with the Telstra Medium Plan",
+      "hash": "a6a03def4a2c096e4aa9aec4fd45b076",
+      "metadata": null,
+      "score": 0.2767628712270742,
+      "created_at": "2025-11-28T05:33:28.669945-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.0007604661826047525
+    },
+    {
+      "id": "e68fa1c2-d370-43f2-ba82-d0fbb89b3694",
+      "memory": "Wants to know how often to reapply waterproofing spray",
+      "hash": "7c7c4f659620f6bf3bfddba2bc2616f0",
+      "metadata": null,
+      "score": 0.2302366143071648,
+      "created_at": "2025-11-28T05:17:02.249272-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.0006304830730235625
+    },
+    {
+      "id": "e5d2aff9-d3ee-4eaa-99af-4092a2db5d00",
+      "memory": "Looking for bike maintenance tips for hybrid bikes",
+      "hash": "32a4902840f9544d98775f4f51de2445",
+      "metadata": null,
+      "score": 0.217617876117314,
+      "created_at": "2025-11-28T05:21:17.693321-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.000616119939414841
+    },
+    {
+      "id": "4fda49d3-208d-4e38-9aae-91d10e220b7e",
+      "memory": "Considering signing up for a cycling event in two months",
+      "hash": "547905a03f98ed1717dd22d9f4ce5d9a",
+      "metadata": null,
+      "score": 0.3010347188316195,
+      "created_at": "2025-11-28T05:23:37.330303-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.000526561576913401
+    },
+    {
+      "id": "b221e4b8-26b6-468a-a15d-a7e4905dc6c1",
+      "memory": "Started training for 5K about six weeks ago",
+      "hash": "23460a9f5ba8cf36e4e6f2dd7789fe96",
+      "metadata": null,
+      "score": 0.209427155970742,
+      "created_at": "2025-11-28T05:23:37.315267-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.0004892564244635994
+    },
+    {
+      "id": "8d4d6a0e-3593-4136-a7a2-912bf64bd64e",
+      "memory": "Looking for tips on how to stay motivated to exercise regularly",
+      "hash": "2e9faf9dc48bad28c41bf65ef51873e2",
+      "metadata": null,
+      "score": 0.27106751246730293,
+      "created_at": "2025-11-28T05:24:38.708864-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.0004059372512220566
+    },
+    {
+      "id": "0950ce93-36d8-49f9-87de-8427fb089e44",
+      "memory": "Cycling event is a 20-mile ride along the coast",
+      "hash": "48f41a9781c3dd4bd6aeafe03e2105f4",
+      "metadata": null,
+      "score": 0.31212994102531405,
+      "created_at": "2025-11-28T05:23:37.345831-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.00019224501907058012
+    },
+    {
+      "id": "b6615e9b-220f-42d8-96bf-9d66b775e60b",
+      "memory": "Has been doing a lot of cardio with 5K run and recreational soccer league",
+      "hash": "35d7d9c9fc482b22ba65a184bec5301d",
+      "metadata": null,
+      "score": 0.1940512098550756,
+      "created_at": "2025-11-28T05:23:37.455763-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_1",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3446,
+    "load_time": 1367.77
+  }
+}

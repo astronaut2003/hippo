@@ -1,0 +1,77 @@
+{
+  "sample_idx": 81,
+  "question_id": "gpt4_a56e767c",
+  "question": "How many movie festivals that I attended?",
+  "question_type": "multi-session",
+  "gold_answer": "I attended four movie festivals.",
+  "question_date": "2023/05/30 (Tue) 20:53",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-01T10:13:09.116343",
+  "predicted_answer": "You attended at least two movie festivals: AFI Fest and the Austin Film Festival.",
+  "prompt_length": 3227,
+  "gen_token_usage": {
+    "prompt_tokens": 862,
+    "answer_tokens": 17,
+    "total_tokens": 879,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.66,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.35294117647058826,
+      "rouge1_f": 0.3157894736842105,
+      "rouge2_f": 0.11764705882352941,
+      "rougeL_f": 0.3157894736842105,
+      "semantic_similarity": 0.7741344571113586,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.2461300309597523,
+      "avg_semantic": 0.7741344571113586,
+      "overall_average": 0.35173091292381287
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.35294117647058826,
+    "rouge1_f": 0.3157894736842105,
+    "rouge2_f": 0.11764705882352941,
+    "rougeL_f": 0.3157894736842105,
+    "semantic_similarity": 0.7741344571113586,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.2461300309597523,
+    "avg_semantic": 0.7741344571113586,
+    "overall_average": 0.35173091292381287
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1602.2753,
+    "retrieval_time": 1.232,
+    "generation_time": 2.1262,
+    "evaluation_time": 1.1385,
+    "cleanup_time": 1.4869,
+    "total_time": 1608.2615
+  }
+}

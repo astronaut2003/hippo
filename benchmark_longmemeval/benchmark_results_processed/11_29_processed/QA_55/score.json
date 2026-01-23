@@ -1,0 +1,77 @@
+{
+  "sample_idx": 55,
+  "question_id": "4100d0a0",
+  "question": "What is my ethnicity?",
+  "question_type": "single-session-user",
+  "gold_answer": "A mix of Irish and Italian",
+  "question_date": "2023/05/30 (Tue) 18:19",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-01T00:33:10.554429",
+  "predicted_answer": "Your ethnicity is mixed, specifically Irish and Italian.",
+  "prompt_length": 3181,
+  "gen_token_usage": {
+    "prompt_tokens": 824,
+    "answer_tokens": 10,
+    "total_tokens": 834,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 6,
+      "response_length": 8,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.5454545454545454,
+      "rouge1_f": 0.5714285714285715,
+      "rouge2_f": 0.3333333333333333,
+      "rougeL_f": 0.5714285714285715,
+      "semantic_similarity": 0.6733188629150391,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.42207792207792216,
+      "avg_semantic": 0.6733188629150391,
+      "overall_average": 0.4723260998725891
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.5454545454545454,
+    "rouge1_f": 0.5714285714285715,
+    "rouge2_f": 0.3333333333333333,
+    "rougeL_f": 0.5714285714285715,
+    "semantic_similarity": 0.6733188629150391,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.42207792207792216,
+    "avg_semantic": 0.6733188629150391,
+    "overall_average": 0.4723260998725891
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1275.3601,
+    "retrieval_time": 1.3179,
+    "generation_time": 1.6415,
+    "evaluation_time": 10.9924,
+    "cleanup_time": 1.57,
+    "total_time": 1290.8832
+  }
+}

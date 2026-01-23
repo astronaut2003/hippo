@@ -1,0 +1,242 @@
+{
+  "sample_idx": 91,
+  "question_id": "d23cf73b",
+  "question": "How many different cuisines have I learned to cook or tried out in the past few months?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T02:10:56.337408",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "3ec4e6f6-9a5a-4df9-9425-265a800d139e",
+      "memory": "Trying to cook more at home",
+      "hash": "8f2c9725f5ba9b938e8f6dcd172d84ca",
+      "metadata": null,
+      "score": 0.5493930341525183,
+      "created_at": "2025-12-01T10:31:38.441997-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.99999999851364
+    },
+    {
+      "id": "e4e99352-645d-4bc7-9767-196562de52e4",
+      "memory": "Recently attended a class on vegan cuisine where they learned how to make a delicious vegan lasagna with a cashew-based ricotta cheese substitute",
+      "hash": "eb1ac8287f5c26a2efa3da14a8c2475f",
+      "metadata": null,
+      "score": 0.34696485318232667,
+      "created_at": "2025-12-01T10:32:37.842554-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.38548720312807183
+    },
+    {
+      "id": "a238a0bb-9373-4cd4-995e-d30c1ee25e55",
+      "memory": "Learned how to make a perfect chicken tikka masala in a class on Indian cuisine",
+      "hash": "4116166cee4899fd06c9642bba6fc9c6",
+      "metadata": null,
+      "score": 0.4873356023627927,
+      "created_at": "2025-12-01T10:27:25.760868-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.3017963873843102
+    },
+    {
+      "id": "f477bc55-a13c-4426-8274-b285259f14dd",
+      "memory": "Looking for recommendations on new kitchen utensils for general kitchen tasks like cooking and prep work",
+      "hash": "e00a2d17f14589451cd484497a7099df",
+      "metadata": null,
+      "score": 0.3724457562213095,
+      "created_at": "2025-12-01T10:24:47.596348-08:00",
+      "updated_at": "2025-12-01T10:34:18.757437-08:00",
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.14283189083499015
+    },
+    {
+      "id": "6aad38f1-e912-4b97-ae49-23b61be1150f",
+      "memory": "Recently attended a class on vegan cuisine that got them really inspired",
+      "hash": "15c7b962f09762f21fa391d45c16915a",
+      "metadata": null,
+      "score": 0.4425745562882382,
+      "created_at": "2025-12-01T10:32:37.689200-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.13892723608578594
+    },
+    {
+      "id": "cbeefb3f-e8ea-42b0-a5c3-27e71d198a76",
+      "memory": "Planning to make a few other Indian-inspired dishes for the dinner party, including naan bread and saag paneer",
+      "hash": "2d6d67688212a0caa2343bcc73e0dd7e",
+      "metadata": null,
+      "score": 0.41619041223712383,
+      "created_at": "2025-12-01T10:27:25.860024-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.11420314252025197
+    },
+    {
+      "id": "a68b13cb-3a9f-4d80-ba54-4a82483574d6",
+      "memory": "Looking for healthy meal prep ideas",
+      "hash": "d8426980edb9a38b5276de459afb118d",
+      "metadata": null,
+      "score": 0.35290683010675256,
+      "created_at": "2025-12-01T10:21:05.062981-08:00",
+      "updated_at": "2025-12-01T10:32:36.826552-08:00",
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.09916655040211925
+    },
+    {
+      "id": "2ed0cf2a-cfa3-4f91-aed5-fbd75b6b5b23",
+      "memory": "Will get a cookbook that focuses on cooking basics and meal planning, like 'The Kitchn Cookbook'",
+      "hash": "a3633d8816d14b99325bfe3c7a3e0012",
+      "metadata": null,
+      "score": 0.5140446509413141,
+      "created_at": "2025-12-01T10:14:43.634516-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.09666763373277629
+    },
+    {
+      "id": "31f91805-129d-4cc4-af60-35b517b7f9f0",
+      "memory": "Thinking of making a big batch of kimchi this weekend and experimenting with different flavor profiles",
+      "hash": "ce3e9bb44e624d733a915b79af4d0e1c",
+      "metadata": null,
+      "score": 0.340620816625135,
+      "created_at": "2025-12-01T10:31:38.553526-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.08029249319393873
+    },
+    {
+      "id": "4620c836-f80c-4a4f-b4e4-61ad745515b6",
+      "memory": "Thinking of doing a stir-fry with chicken and mixed veggies this week",
+      "hash": "ede495eb63dc8b2a61a8addf0d3a8669",
+      "metadata": null,
+      "score": 0.4192518082875168,
+      "created_at": "2025-12-01T10:31:38.487995-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.07760207182096639
+    },
+    {
+      "id": "0f34d867-ad77-46ac-9053-3ef715965ddd",
+      "memory": "Will adjust the recipe accordingly and experiment with different ratios and ingredients",
+      "hash": "b1cab19214a0aaea3b65f589cc5e884c",
+      "metadata": null,
+      "score": 0.36362853567390796,
+      "created_at": "2025-12-01T10:21:05.196934-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.046910005618715826
+    },
+    {
+      "id": "de6cbf09-2f18-4873-9b7c-88b36af4589a",
+      "memory": "Interested in trying Ethiopian-inspired dishes, especially misir wot, and wants a simple recipe for misir wot",
+      "hash": "801d014f9c4027e86d543b4268f4da6a",
+      "metadata": null,
+      "score": 0.3380173514878356,
+      "created_at": "2025-12-01T10:21:05.105096-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.034876677864606534
+    },
+    {
+      "id": "4e1fcba1-8529-4e68-8111-27ca80879c77",
+      "memory": "Wants recipe ideas for different types of cheese, like mozzarella or feta",
+      "hash": "f58b9a7d3836d96ead29f840effe9b1c",
+      "metadata": null,
+      "score": 0.3301648485613977,
+      "created_at": "2025-12-01T10:32:37.876866-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.00849481412220685
+    },
+    {
+      "id": "a1be4d81-248a-46f6-bc8e-e7a8d45c1c83",
+      "memory": "Tried a new Ethiopian restaurant in town last week and loved it",
+      "hash": "7a27f4b7f72bd0068138a97e102bafaf",
+      "metadata": null,
+      "score": 0.3492425409705221,
+      "created_at": "2025-12-01T10:21:05.081945-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.006894736332000755
+    },
+    {
+      "id": "7cb6d221-6847-4039-9e38-3b8781432d2b",
+      "memory": "Thinking of serving an Indian-inspired dish",
+      "hash": "a174de1eeaed4436ed33d3fa7fdd91cf",
+      "metadata": null,
+      "score": 0.43530416854947807,
+      "created_at": "2025-12-01T10:27:25.747376-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.005841956588214374
+    },
+    {
+      "id": "b8e29242-a673-4100-ad12-32cc2ba39926",
+      "memory": "Wants to know if Pok Pok has really spicy dishes",
+      "hash": "aa32782babe485e75dc84d04215caff0",
+      "metadata": null,
+      "score": 0.3811105434207211,
+      "created_at": "2025-12-01T10:12:17.241006-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.0030683277681432634
+    },
+    {
+      "id": "fb0c28c6-64da-4679-8db5-4bb881db61c9",
+      "memory": "Planning a dinner party for this weekend",
+      "hash": "cb70e02598b38ec49ea627f0ee849f4b",
+      "metadata": null,
+      "score": 0.3283587882428187,
+      "created_at": "2025-12-01T10:27:25.705762-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.0024553993162606306
+    },
+    {
+      "id": "3ded3784-37e2-4a3a-9832-63cad88ca88b",
+      "memory": "Loves spicy food",
+      "hash": "8dbe59a900230ec03510b973fb28ccad",
+      "metadata": null,
+      "score": 0.33640473983211594,
+      "created_at": "2025-12-01T10:12:17.227130-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.002398132180608322
+    },
+    {
+      "id": "7654d0f7-9ec4-49c2-a32e-dc996b7e1063",
+      "memory": "Wants tips on how to incorporate fermented foods into their diet",
+      "hash": "ae6b371dab647e800e2b9c6aa6a452fe",
+      "metadata": null,
+      "score": 0.3262818987850526,
+      "created_at": "2025-12-01T10:32:37.827989-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.0005270277484041696
+    },
+    {
+      "id": "3e845de5-e7f3-4077-8fa2-13d1589e7335",
+      "memory": "Interested in top-rated restaurants in Tokyo and what makes them stand out",
+      "hash": "f274002a5a7286bb2d5734e1c8494a0a",
+      "metadata": null,
+      "score": 0.32439904999706504,
+      "created_at": "2025-12-01T10:20:10.911404-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_91",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4179,
+    "load_time": 1405.4356
+  }
+}

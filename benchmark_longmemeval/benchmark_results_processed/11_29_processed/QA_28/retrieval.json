@@ -1,0 +1,242 @@
+{
+  "sample_idx": 28,
+  "question_id": "a06e4cfe",
+  "question": "What is my preferred gin-to-vermouth ratio for a classic gin martini?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T09:52:56.075930",
+  "load_result": {
+    "total_sessions": 53,
+    "added_sessions": 53,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "54e5ac9d-736b-48e1-9fae-ffd49fb12c0f",
+      "memory": "Settled on a 3:1 gin-to-vermouth ratio with a dash of citrus bitters for classic martini",
+      "hash": "62d6bd8abaddec4add5e0ac5fb440ada",
+      "metadata": null,
+      "score": 0.8120776276394023,
+      "created_at": "2025-11-28T17:57:19.011855-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.9999999993818753
+    },
+    {
+      "id": "277bd674-5518-4890-8e87-bc211d2dd2b7",
+      "memory": "Has been experimenting with different gin-to-vermouth ratios in classic martini recipe",
+      "hash": "b2df961e29e7e21470ed8127ff936d0b",
+      "metadata": null,
+      "score": 0.8677937152032856,
+      "created_at": "2025-11-28T17:57:18.996699-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.8409574613551687
+    },
+    {
+      "id": "fdede107-2ba6-41fb-b52d-69b266d358ca",
+      "memory": "Has been experimenting with different garnishes for cocktails",
+      "hash": "5c6abe14a1f282e1be3a7f873ba9bd4f",
+      "metadata": null,
+      "score": 0.31839543079116495,
+      "created_at": "2025-11-28T17:57:18.967466-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.07609419790514249
+    },
+    {
+      "id": "cf8ae001-d754-407c-b0b2-645efd765c30",
+      "memory": "Thinks aunt will appreciate the variety of options and simplicity of the recipes",
+      "hash": "0d147442f905287a6f9a5c686c2b0725",
+      "metadata": null,
+      "score": 0.17674623631037867,
+      "created_at": "2025-11-28T18:10:20.823784-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.01533680822712713
+    },
+    {
+      "id": "1443cc4c-d4e8-4eeb-8997-e126f05d4f8d",
+      "memory": "Has been meaning to try out a mezcal-based cocktail",
+      "hash": "43100b9517cb59996223ead18e9813f6",
+      "metadata": null,
+      "score": 0.29852532642192464,
+      "created_at": "2025-11-28T17:57:19.031048-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.0015629725577948684
+    },
+    {
+      "id": "274f6651-9eb9-463c-acf7-f923c2fd9244",
+      "memory": "Has heard that mezcal pairs well with citrus flavors",
+      "hash": "b7d2dff44e18bda0bb9eff80f0dacfcd",
+      "metadata": null,
+      "score": 0.26535888355829,
+      "created_at": "2025-11-28T17:57:19.044279-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.001064205460732849
+    },
+    {
+      "id": "16ff53bd-8909-4c38-a0e4-d184f7fc51a4",
+      "memory": "Thinks the smokiness of mezcal would pair well with the brightness of lime",
+      "hash": "2b5ddaa543d7c7348dae1267a8739be7",
+      "metadata": null,
+      "score": 0.21405528781189231,
+      "created_at": "2025-11-28T17:57:19.096729-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.0010427480415943814
+    },
+    {
+      "id": "50f84610-2106-4fbb-850b-27c63d4e7351",
+      "memory": "Wants to know if it's better to buy from an authorized dealer or from a third-party seller",
+      "hash": "94ad464a44c451f6f6ebc2119f7415db",
+      "metadata": null,
+      "score": 0.23031614734762776,
+      "created_at": "2025-11-28T17:54:57.330405-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.0009447748805830262
+    },
+    {
+      "id": "6db52c62-28ea-4a4d-8b20-2acba048e368",
+      "memory": "Looking for budget-friendly wineries in Napa Valley",
+      "hash": "34595da56a9ba2de355b4c956e49c613",
+      "metadata": null,
+      "score": 0.2179750956510903,
+      "created_at": "2025-11-28T18:11:01.967536-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.0007136949821687588
+    },
+    {
+      "id": "f18214c7-956d-4184-a9dd-3c1688a7c5a3",
+      "memory": "Decided to go with a 5-quart slow cooker with multiple heat settings and a timer for aunt",
+      "hash": "50682359020c86b9917d89ef2a8005da",
+      "metadata": null,
+      "score": 0.2103825132645124,
+      "created_at": "2025-11-28T18:10:20.837870-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.0005409745478948294
+    },
+    {
+      "id": "34e50a90-c1b8-4df8-b744-20c7e3053656",
+      "memory": "Thinking about buying a pair of high-quality sunglasses",
+      "hash": "e222e6889441eef253f060e7235487be",
+      "metadata": null,
+      "score": 0.24375187283866478,
+      "created_at": "2025-11-28T17:54:57.256640-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.0005206961078299039
+    },
+    {
+      "id": "78a5ad8e-e7fe-4a79-99d4-44d71ab6fc84",
+      "memory": "Considering investing in a high-end pair of sunglasses",
+      "hash": "79133ba89906fbf49bb82e7db130cffe",
+      "metadata": null,
+      "score": 0.2800446684966109,
+      "created_at": "2025-11-28T17:54:57.286102-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.0004979418117105398
+    },
+    {
+      "id": "f15e67ff-dd32-4f99-86f6-c7d9a76773f4",
+      "memory": "Thinking of lending hybrid bike to sister again",
+      "hash": "42388687113f2e2182acae6dc1113f76",
+      "metadata": null,
+      "score": 0.18136852980119064,
+      "created_at": "2025-11-28T17:59:24.356522-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.00043121159614805245
+    },
+    {
+      "id": "b0a5a8ea-d6e2-45d4-bfb9-154061c53fee",
+      "memory": "Looking at a few different brands of luxury sunglasses",
+      "hash": "502d9c1961967d0c4d06835d61231eb3",
+      "metadata": null,
+      "score": 0.26691947101848457,
+      "created_at": "2025-11-28T17:54:57.299139-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.00038599774867770985
+    },
+    {
+      "id": "68bde6a1-6f93-4185-a8de-daf0b7dc8e73",
+      "memory": "Heard that some designer brands offer really good quality and timeless designs for sunglasses",
+      "hash": "bc6be66bf3a332825fe48ca95c0e0268",
+      "metadata": null,
+      "score": 0.2066739989118736,
+      "created_at": "2025-11-28T17:54:57.271293-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.00029904804200397403
+    },
+    {
+      "id": "b779c67c-54f5-4199-a85a-a20552cd1ee4",
+      "memory": "Recently got a coffee maker for mom which cost around $80",
+      "hash": "f02048ad4b76c6f36da9932d79881df2",
+      "metadata": null,
+      "score": 0.19711013603348734,
+      "created_at": "2025-11-28T18:10:20.707870-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.00022147121896489856
+    },
+    {
+      "id": "4a4ab210-4683-473e-80d2-dbcacaf79f2d",
+      "memory": "Has been experimenting with different citrus flavors in cooking recently",
+      "hash": "6a0be82003708c691688aefb82fcc82c",
+      "metadata": null,
+      "score": 0.23403488210429285,
+      "created_at": "2025-11-28T17:57:19.079502-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.00013923742858533149
+    },
+    {
+      "id": "a2126ccb-eb40-4ab6-bd17-dd55fbe3c54d",
+      "memory": "Considering talking to the instructor or taking a placement test to determine which language class level is best",
+      "hash": "b602e62f077935830c791d5e9748f5d5",
+      "metadata": null,
+      "score": 0.24047762877827802,
+      "created_at": "2025-11-28T18:19:39.504329-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 8.966135854288281e-05
+    },
+    {
+      "id": "ba7c6469-20c2-4696-8161-bdace9f93ff9",
+      "memory": "Looking for advice on affordable fashion brands that offer high-quality clothing",
+      "hash": "f24f7125b8cfc155fb3070c5fb263be9",
+      "metadata": null,
+      "score": 0.1855304538018846,
+      "created_at": "2025-11-28T17:54:57.092161-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 2.8118650903981e-05
+    },
+    {
+      "id": "af2331c5-9e7e-4706-9380-55c03e8563c8",
+      "memory": "Curious about the quality and craftsmanship of luxury sunglasses",
+      "hash": "b85925d27af1429f542f9dbb58ebe79e",
+      "metadata": null,
+      "score": 0.218137705729322,
+      "created_at": "2025-11-28T17:54:57.314560-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_28",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2811,
+    "load_time": 1605.0782
+  }
+}

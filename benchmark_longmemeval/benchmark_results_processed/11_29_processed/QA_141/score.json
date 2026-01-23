@@ -1,0 +1,77 @@
+{
+  "sample_idx": 141,
+  "question_id": "54026fce",
+  "question": "I've been thinking about ways to stay connected with my colleagues. Any suggestions?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that acknowledge their desire for social interaction and collaboration while working remotely, utilizing their previous experiences with company initiatives and team collaborations. They might prefer suggestions of virtual team-building activities, regular check-ins, or joining interest-based groups within the company. The user may not prefer generic suggestions that do not take into account their specific work situation or previous attempts at staying connected with colleagues.",
+  "question_date": "2023/05/30 (Tue) 23:48",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T10:02:18.282938",
+  "predicted_answer": "You might consider establishing a regular schedule for virtual coffee breaks to stay connected with your colleagues. It's also important to communicate the significance of attending these breaks to ensure everyone feels comfortable participating.",
+  "prompt_length": 3457,
+  "gen_token_usage": {
+    "prompt_tokens": 864,
+    "answer_tokens": 36,
+    "total_tokens": 900,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.66,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 69,
+      "response_length": 34,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1875,
+      "rouge1_f": 0.18691588785046728,
+      "rouge2_f": 0.03809523809523809,
+      "rougeL_f": 0.11214953271028037,
+      "semantic_similarity": 0.3312855362892151,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.12164135514018692,
+      "avg_semantic": 0.3312855362892151,
+      "overall_average": 0.16357019543647766
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1875,
+    "rouge1_f": 0.18691588785046728,
+    "rouge2_f": 0.03809523809523809,
+    "rougeL_f": 0.11214953271028037,
+    "semantic_similarity": 0.3312855362892151,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.12164135514018692,
+    "avg_semantic": 0.3312855362892151,
+    "overall_average": 0.16357019543647766
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1846.3498,
+    "retrieval_time": 1.2883,
+    "generation_time": 1.7258,
+    "evaluation_time": 0.9309,
+    "cleanup_time": 1.6782,
+    "total_time": 1851.9965
+  }
+}

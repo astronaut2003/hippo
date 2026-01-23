@@ -1,0 +1,242 @@
+{
+  "sample_idx": 36,
+  "question_id": "3f1e9474",
+  "question": "Who did I have a conversation with about destiny?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T17:41:45.896189",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 52,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "15554b74-5a89-4db8-9a54-53510b7a5e79",
+      "memory": "Has been thinking about own beliefs on destiny",
+      "hash": "809ec07231fdcf723e83c61ebed034e9",
+      "metadata": null,
+      "score": 0.6915345367071324,
+      "created_at": "2025-11-29T01:43:40.815004-08:00",
+      "updated_at": "2025-11-29T02:02:08.899819-08:00",
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.9999999984973359
+    },
+    {
+      "id": "6f94eb6e-0332-46b1-a66f-b275a8ba75a7",
+      "memory": "Was talking to friend Sarah recently about how everything happens for a reason",
+      "hash": "4767612e922bc477f0cb368b2b34a1ef",
+      "metadata": null,
+      "score": 0.358650575297753,
+      "created_at": "2025-11-29T01:43:40.798871-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.9836331813035786
+    },
+    {
+      "id": "bc8954f8-4a03-45a4-b255-dd0905ac7df3",
+      "memory": "Wants to explore the concept of destiny more",
+      "hash": "a46602220d0ba9e48569e3b9a1c94ffd",
+      "metadata": null,
+      "score": 0.6983215133501517,
+      "created_at": "2025-11-29T01:43:40.982859-08:00",
+      "updated_at": "2025-11-29T02:02:08.923242-08:00",
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.9751453565992496
+    },
+    {
+      "id": "ce4e0cce-04e6-4094-85c2-64d05f706ab4",
+      "memory": "Conversation with old friend drove home importance of taking responsibility for choices and creating own meaning in life",
+      "hash": "6ded71ad2e17ee4cdebbd4fe8378a98d",
+      "metadata": null,
+      "score": 0.3265353520127263,
+      "created_at": "2025-11-29T02:02:09.167556-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.9390724956951989
+    },
+    {
+      "id": "90a3afed-e4b7-4912-8517-4ce9b951ceae",
+      "memory": "Conversation with old friend made realize need to take responsibility for choices and create own meaning in life",
+      "hash": "bf045d7109e42f19aa18ff50f6d97ba4",
+      "metadata": null,
+      "score": 0.33348600488258257,
+      "created_at": "2025-11-29T02:02:09.118507-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.933868080125341
+    },
+    {
+      "id": "1e0e9847-2ac1-4e2c-b5ef-d5a75f7af2d2",
+      "memory": "Did something similar for a mutual friend last week",
+      "hash": "ca303e4310234348e384ab6e3327cdaf",
+      "metadata": null,
+      "score": 0.2026070486636384,
+      "created_at": "2025-11-29T01:48:27.467414-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.449922349391909
+    },
+    {
+      "id": "7697413d-b975-4a19-a68e-d0bad36b6509",
+      "memory": "Friend had a near-death experience that changed his perspective on life and mortality",
+      "hash": "88af1b8c6d55f69a0faf8d92a2a86ba5",
+      "metadata": null,
+      "score": 0.20712503929570375,
+      "created_at": "2025-11-29T02:02:09.025977-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.44921599797676376
+    },
+    {
+      "id": "b2c730dd-bc81-443b-b749-dc03e54e0ff8",
+      "memory": "Recently came across an influencer who shared her struggles with a mental health condition that can cause feelings of sadness and hopelessness, and it really resonated with me",
+      "hash": "31a8a03fa4986c77466860e5ec0bfdac",
+      "metadata": null,
+      "score": 0.2382515442382026,
+      "created_at": "2025-11-29T01:54:40.610665-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.2347137395939057
+    },
+    {
+      "id": "c08f5d0e-9a46-4b49-b5e2-4166d9cd7480",
+      "memory": "Has been struggling with feelings of uncertainty about career path",
+      "hash": "7cc3dc9fdc3709b8ace8537ad804d41a",
+      "metadata": null,
+      "score": 0.2107109043578172,
+      "created_at": "2025-11-29T01:43:40.849944-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.048810330169228644
+    },
+    {
+      "id": "402ff318-8da8-4236-9b0a-19b295119004",
+      "memory": "Is starting to see how the perspective that everything happens for a reason can be empowering",
+      "hash": "dfd451aacb0a776a5549102a94ad87c3",
+      "metadata": null,
+      "score": 0.24174949851692157,
+      "created_at": "2025-11-29T01:43:41.003057-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.006448734770041717
+    },
+    {
+      "id": "ac90d561-4b29-4e4c-96e0-97ec3c166735",
+      "memory": "Has been wanting to explore spirituality and mysticism more",
+      "hash": "dda52eecd23270e8f59e65b8e6a373e7",
+      "metadata": null,
+      "score": 0.22686697273722295,
+      "created_at": "2025-11-29T01:43:40.930418-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.002219941118282583
+    },
+    {
+      "id": "e5b914bb-cff7-42a0-864e-7cb66567fe7a",
+      "memory": "Believes beliefs can be influenced by experiences and people we meet",
+      "hash": "5853b185b6bcc0e4c2f849cf1396c8a5",
+      "metadata": null,
+      "score": 0.23371992321875695,
+      "created_at": "2025-11-29T02:02:09.045160-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.002170644123596042
+    },
+    {
+      "id": "d06aaae7-73b5-4698-94a6-435ce221bc3a",
+      "memory": "Has doubts ingrained since childhood about spirituality",
+      "hash": "c059e5af9ed956d370c2e92470ebd371",
+      "metadata": null,
+      "score": 0.21289798037987429,
+      "created_at": "2025-11-29T01:43:40.947135-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.0019394928083943243
+    },
+    {
+      "id": "411c4022-e777-4978-9122-90dfa2673b8a",
+      "memory": "Interested in exploring the concept of existential authenticity further",
+      "hash": "3e74fd8631bccad5d768228dd08559e3",
+      "metadata": null,
+      "score": 0.2085817535650804,
+      "created_at": "2025-11-29T02:02:09.063571-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.0015881084160356068
+    },
+    {
+      "id": "138b1328-425e-4da7-95bb-b542af8972a8",
+      "memory": "Thinking about own values and beliefs lately",
+      "hash": "c285d0cd5b3a6f259acb77fa03e35f6b",
+      "metadata": null,
+      "score": 0.2417218428766228,
+      "created_at": "2025-11-29T02:02:09.082074-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.0015207549639929489
+    },
+    {
+      "id": "5707277d-b5dd-46ed-a502-d6c5046be56e",
+      "memory": "Noticed that social media can be a helpful tool for people to connect with others who share similar experiences and struggles",
+      "hash": "f6f0432e72997a6828644f4ea74d7320",
+      "metadata": null,
+      "score": 0.2576009453440184,
+      "created_at": "2025-11-29T01:54:40.694587-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.0012344311402030966
+    },
+    {
+      "id": "b1713895-6d7e-4f8e-a4b3-141375254e41",
+      "memory": "Currently documents everything on Notion",
+      "hash": "dc61efefd57b8358e327e57ad17e6b79",
+      "metadata": null,
+      "score": 0.20966782583788374,
+      "created_at": "2025-11-29T02:02:20.875387-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.0009595717337822075
+    },
+    {
+      "id": "2a10e625-5745-4be2-8dc0-fa11c36da43c",
+      "memory": "Will reach out to family members to contribute stories and photos to archive",
+      "hash": "c6a3db5a34f7ada467a6969fd1e48c68",
+      "metadata": null,
+      "score": 0.2341793933440076,
+      "created_at": "2025-11-29T01:53:56.379231-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.0006652228178340811
+    },
+    {
+      "id": "24614dee-e563-42b4-be87-04336b4c0aaf",
+      "memory": "Will involve family members and encourage them to contribute their own stories, photos, and documents",
+      "hash": "7c847af839aa367e65d383b9abd190a4",
+      "metadata": null,
+      "score": 0.20211118629388686,
+      "created_at": "2025-11-29T01:53:56.327150-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 1.4617132145427892e-05
+    },
+    {
+      "id": "bb38b121-b35d-4db6-8b99-8e5e263dca17",
+      "memory": "Is starting to get a better understanding of how personal beliefs and values can intersect with professional life",
+      "hash": "bb2921eba8088bc71f2e7e46e0c39308",
+      "metadata": null,
+      "score": 0.20044685685151947,
+      "created_at": "2025-11-29T01:43:40.966456-08:00",
+      "updated_at": "2025-11-29T02:02:08.859911-08:00",
+      "user_id": "benchmark_processed_36",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0835,
+    "load_time": 1381.4674
+  }
+}

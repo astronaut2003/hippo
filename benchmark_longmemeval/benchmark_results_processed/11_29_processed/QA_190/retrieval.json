@@ -1,0 +1,242 @@
+{
+  "sample_idx": 190,
+  "question_id": "720133ac",
+  "question": "What is the total cost of Lola's vet visit and flea medication?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T01:34:24.786826",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "7a75757c-a2f3-4568-810c-ddbfdca09871",
+      "memory": "Took Lola to the vet last week and got a discounted consultation fee of $50 as a regular customer",
+      "hash": "a619b5eac0460b91fdd7f6edeeab4a1f",
+      "metadata": null,
+      "score": 0.7932221310932169,
+      "created_at": "2025-12-08T09:44:16.286843-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.9999999990745506
+    },
+    {
+      "id": "343ff351-3396-4e4c-979f-ecdc1cb80c68",
+      "memory": "Got flea and tick prevention medication for $25 for a 3-month supply",
+      "hash": "0d0403bb9e191b8ba830b698a3fd95b8",
+      "metadata": null,
+      "score": 0.6684362792715601,
+      "created_at": "2025-12-08T09:56:49.295989-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.6925726580980883
+    },
+    {
+      "id": "8c7cd8d8-95a3-483c-a5b6-66000f24fc46",
+      "memory": "Got Lola a bag of cat food from Petco for $35 for a 20-pound bag",
+      "hash": "5f846d89b05f16eee4592b615e635bd2",
+      "metadata": null,
+      "score": 0.5508328136779843,
+      "created_at": "2025-12-08T09:56:49.415909-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.6057445823578591
+    },
+    {
+      "id": "e8b4926a-ac54-4fba-a5a9-15c16b292bbc",
+      "memory": "Also looking for a pet grooming kit around $80",
+      "hash": "cd8a3cf084f70cbd5e98a718b1994513",
+      "metadata": null,
+      "score": 0.457416371659752,
+      "created_at": "2025-12-08T09:44:16.320962-08:00",
+      "updated_at": "2025-12-08T09:56:49.225086-08:00",
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.36262748831797365
+    },
+    {
+      "id": "5afb4d4a-ed83-4b46-91cc-34649a0f72e2",
+      "memory": "Lola doesn't have any sensitivities or allergies",
+      "hash": "878d31bebec366445fc8402c34162840",
+      "metadata": null,
+      "score": 0.3982478394671055,
+      "created_at": "2025-12-08T09:56:49.356265-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.28863733616612675
+    },
+    {
+      "id": "e3295885-971d-4111-8679-69cae318c19b",
+      "memory": "Only Lola uses the litter box",
+      "hash": "59cc4705d17b2d7f10c6312a43e34414",
+      "metadata": null,
+      "score": 0.3966411997624709,
+      "created_at": "2025-12-08T09:56:49.385846-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.2721109018818637
+    },
+    {
+      "id": "b39e4515-b093-4539-8387-0dede6a19ef9",
+      "memory": "Lola seems to be doing fine with the cat food",
+      "hash": "88e774e085ef52a91e6c9a5eb63087b1",
+      "metadata": null,
+      "score": 0.4136425166129987,
+      "created_at": "2025-12-08T09:56:49.428621-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.2707243731259317
+    },
+    {
+      "id": "067641ff-1af5-4bdd-b1a1-660b2023f197",
+      "memory": "Friend Rachel borrowed the pet grooming kit and needs to groom Lola soon",
+      "hash": "00727ef8685632d6f25155eae8ab4cc0",
+      "metadata": null,
+      "score": 0.39630170030711065,
+      "created_at": "2025-12-08T09:44:16.337503-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.2005248899790038
+    },
+    {
+      "id": "c8bde806-feba-4ad6-9656-0975746f1ab1",
+      "memory": "Saw a nice dog bed at the pet store down the street for $40",
+      "hash": "07ef73d488e968226eb95059f6447955",
+      "metadata": null,
+      "score": 0.47295690816547775,
+      "created_at": "2025-12-08T09:56:49.458233-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.12690877403770046
+    },
+    {
+      "id": "c5e44829-080d-4b39-93d1-f00c2943a037",
+      "memory": "Will go to the pet store this weekend to check out their selection",
+      "hash": "a38a1cff9458781665866dfe1571de4b",
+      "metadata": null,
+      "score": 0.4173440793452494,
+      "created_at": "2025-12-08T09:56:49.473766-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.06192390992422157
+    },
+    {
+      "id": "269c9ad6-de69-4223-898e-460703182cda",
+      "memory": "Needs to check the prices of dog beds and pet grooming kits at Petco",
+      "hash": "58c72bc98fab1bb3ca67d53c87a95c73",
+      "metadata": null,
+      "score": 0.5344771271464155,
+      "created_at": "2025-12-08T09:44:16.353576-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.04964196583284714
+    },
+    {
+      "id": "77244421-1934-4d7c-83de-e958a9eaabff",
+      "memory": "Looking for a durable and comfortable dog bed, possibly orthopedic or memory foam, in the $40-$50 price range",
+      "hash": "4b309b94c74fcba51a8cc46538f791ea",
+      "metadata": null,
+      "score": 0.38377764956345567,
+      "created_at": "2025-12-08T09:44:16.304363-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.04600468874249271
+    },
+    {
+      "id": "e8e1f076-6916-48ed-bdae-90241ec7d1f9",
+      "memory": "Not too concerned about budget for cat litter",
+      "hash": "9e82288ae1385924f7fc2ee72ab3f74c",
+      "metadata": null,
+      "score": 0.40683780468688563,
+      "created_at": "2025-12-08T09:56:49.340169-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.01047213131803637
+    },
+    {
+      "id": "b7f6d766-f04c-43f9-b26f-81f069038876",
+      "memory": "Got a new cat litter from Petco last Saturday",
+      "hash": "1f02da54f4f44381b09e25f205d6905d",
+      "metadata": null,
+      "score": 0.3582806791590063,
+      "created_at": "2025-12-08T09:56:49.262240-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.006309720803251944
+    },
+    {
+      "id": "aed1da0c-41f4-4187-a027-d1aec0f45a8d",
+      "memory": "Thinking of getting a new dog bed for Max",
+      "hash": "7b41f0c43b61a5e1263b4b49d6d2c4b9",
+      "metadata": null,
+      "score": 0.3897647152990825,
+      "created_at": "2025-12-08T09:44:16.253771-08:00",
+      "updated_at": "2025-12-08T09:56:49.155998-08:00",
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.0012605849917871582
+    },
+    {
+      "id": "35e99573-cdcb-4e73-9f14-4d60ce5267d5",
+      "memory": "The cat food is the same brand and type she's been eating for a while",
+      "hash": "1db520f1aff3c7ac07b9383b3998a4f1",
+      "metadata": null,
+      "score": 0.29339913740238155,
+      "created_at": "2025-12-08T09:56:49.443217-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.0007902596104783459
+    },
+    {
+      "id": "609847cf-214d-4461-8101-5acd87f7ef89",
+      "memory": "Looking for advice on cat litter",
+      "hash": "bc027fb13bcc8ad01ad188a8659bd86d",
+      "metadata": null,
+      "score": 0.2871634615489358,
+      "created_at": "2025-12-08T09:56:49.245234-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.0007785213339322637
+    },
+    {
+      "id": "2e6d6bfe-a73c-4c2d-a2d9-74650dcae7e9",
+      "memory": "Wants cat litter that is easy to scoop and clean",
+      "hash": "91ad404573983497d1148ffe675f71f0",
+      "metadata": null,
+      "score": 0.29446916581794974,
+      "created_at": "2025-12-08T09:56:49.325039-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.00012638505273676473
+    },
+    {
+      "id": "98db13b1-0728-495d-b061-861ea84a3b98",
+      "memory": "Wants to know the general price range for music boxes from the Victorian era",
+      "hash": "4e31b89cd2e6074b1bed3024babd4df3",
+      "metadata": null,
+      "score": 0.3208839219532075,
+      "created_at": "2025-12-08T09:36:35.624918-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 3.7597788034819676e-05
+    },
+    {
+      "id": "5f211791-1956-4af1-837a-853fea44855d",
+      "memory": "Interested in Hadestown and The Inheritance",
+      "hash": "82e9113f63ca2ea8c74c1ad5e872d7fa",
+      "metadata": null,
+      "score": 0.27992198650891137,
+      "created_at": "2025-12-08T09:43:13.828553-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_190",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.7858,
+    "load_time": 1408.3959
+  }
+}

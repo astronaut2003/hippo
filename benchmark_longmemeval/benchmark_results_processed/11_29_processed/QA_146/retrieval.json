@@ -1,0 +1,242 @@
+{
+  "sample_idx": 146,
+  "question_id": "38146c39",
+  "question": "I've been feeling like my chocolate chip cookies need something extra. Any advice?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T12:19:32.261805",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "d987b026-1344-4ba3-9b05-ae2fee0427ba",
+      "memory": "Asked for recommendations for garnishes or glassware to complement the flavors and presentation",
+      "hash": "05cb08fca98542280274159a2c0ad857",
+      "metadata": null,
+      "score": 0.283605828692742,
+      "created_at": "2025-12-06T20:36:01.410650-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.9999999967597911
+    },
+    {
+      "id": "8f2e29a5-2e2e-41c0-aab5-c16001b6b961",
+      "memory": "Plans to try using both brown sugar and almond flour for a unique twist",
+      "hash": "7b77351b7eb9b5ca7f38786ae96d4401",
+      "metadata": null,
+      "score": 0.36578943775188694,
+      "created_at": "2025-12-06T20:48:21.058781-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.8458897108281274
+    },
+    {
+      "id": "fcf4a87b-f4d8-4ccd-8644-c9141a6a99af",
+      "memory": "Considering adding sliced almonds on top of the cherries before baking for extra crunch and texture",
+      "hash": "8c0acf26c3c107dd9a982d8be48e1122",
+      "metadata": null,
+      "score": 0.30824356671637015,
+      "created_at": "2025-12-06T20:48:21.074658-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.7453578115464076
+    },
+    {
+      "id": "dd97a73f-443a-44a1-9dee-218488d0bb9d",
+      "memory": "Thinking of packing some snacks for the trip",
+      "hash": "a86553ec00dc19601e6abdd821d1ffea",
+      "metadata": null,
+      "score": 0.33877609215846105,
+      "created_at": "2025-12-06T20:32:50.785989-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.5684576994235068
+    },
+    {
+      "id": "0f0e715e-c327-42af-b317-b500627b7e11",
+      "memory": "Has been enjoying playing around with spicy and fruity flavors lately",
+      "hash": "27337f558ef229175775289981531910",
+      "metadata": null,
+      "score": 0.2973519967226289,
+      "created_at": "2025-12-06T20:36:01.261826-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.5643330285715775
+    },
+    {
+      "id": "bef17cc4-6da9-4264-a7da-cdf001d25e3b",
+      "memory": "Thinks they'll try using muscovado sugar in the cream cheese frosting",
+      "hash": "23bb3dd062c2bfaa8983f242feb4ba2a",
+      "metadata": null,
+      "score": 0.3829058009846983,
+      "created_at": "2025-12-06T20:37:45.329740-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.45607216110372856
+    },
+    {
+      "id": "d201c6c8-58fc-4c63-9ffb-53b2be940654",
+      "memory": "Looking for healthy snack ideas for morning workout routine",
+      "hash": "77717ab36549aca0fcf050d388488b43",
+      "metadata": null,
+      "score": 0.3846857273736991,
+      "created_at": "2025-12-06T20:35:17.931517-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.41002652103435683
+    },
+    {
+      "id": "fb17f33b-93f9-4b38-97d2-67046b699d91",
+      "memory": "Has been experimenting with different types of sugar and found that turbinado sugar adds a richer flavor",
+      "hash": "028035e672a161374f4d493907080b3a",
+      "metadata": null,
+      "score": 0.287722891688699,
+      "created_at": "2025-12-06T20:37:45.236268-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.2376398148496698
+    },
+    {
+      "id": "0e64b605-17e4-431a-b6b1-111c78aabe7a",
+      "memory": "Looking for a new cherry recipe to try out",
+      "hash": "29d40d3cbb5d8b587eabfe49652fa3e5",
+      "metadata": null,
+      "score": 0.38429929734870844,
+      "created_at": "2025-12-06T20:48:20.993296-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.054273042034656105
+    },
+    {
+      "id": "e15978a8-fac9-4750-b321-db9dbc08b1b7",
+      "memory": "Thought about adding a splash of citrus-flavored soda water to cut the heat and add fizz",
+      "hash": "d0bb51695c51a938e672e09816f67ea6",
+      "metadata": null,
+      "score": 0.2803346993498355,
+      "created_at": "2025-12-06T20:36:01.352326-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.03660969842009763
+    },
+    {
+      "id": "8da6a8fe-442a-404b-a340-17cdaf2b10dc",
+      "memory": "Is considering using other types of sugar, like muscovado or demerara, in the cream cheese frosting",
+      "hash": "cd7f61edb77486bbd2edd8b129aa5cae",
+      "metadata": null,
+      "score": 0.288517853264877,
+      "created_at": "2025-12-06T20:37:45.314699-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.028796370394098943
+    },
+    {
+      "id": "f5151bf5-cc60-4292-bc13-97c0217afeb2",
+      "memory": "Thinking of making a batch of energy balls with almond butter instead of peanut butter",
+      "hash": "05ffde488df78268badfe142dd446b5f",
+      "metadata": null,
+      "score": 0.3456945884928538,
+      "created_at": "2025-12-06T20:35:17.974702-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.02016169271838285
+    },
+    {
+      "id": "412ba34b-f703-428b-8460-606c141f5746",
+      "memory": "Wants to discuss other ingredients that pair well with carrot cake",
+      "hash": "17e55a9bb2db1c2e037ac201ff1ed47c",
+      "metadata": null,
+      "score": 0.29571829954577133,
+      "created_at": "2025-12-06T20:37:45.357240-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.0065303168350180065
+    },
+    {
+      "id": "c62b6b08-2e02-4a67-9b76-5ab5d8c6b7d0",
+      "memory": "Wants to know what nuts would complement the flavor of carrot cake well",
+      "hash": "150311a538a1343e54834889c0b17e5a",
+      "metadata": null,
+      "score": 0.33439976347267353,
+      "created_at": "2025-12-06T20:37:45.373889-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.005657053437688669
+    },
+    {
+      "id": "e53919b3-4293-4a05-af13-f40c67f88413",
+      "memory": "Excited to try out the almond butter energy balls",
+      "hash": "f7522f26c4abbc95a574bc851d983add",
+      "metadata": null,
+      "score": 0.3769048654640331,
+      "created_at": "2025-12-06T20:35:17.986412-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.005330738452699362
+    },
+    {
+      "id": "25399b28-4c35-46f1-84eb-57526681d712",
+      "memory": "Would love to try Arbroath Smokies firsthand",
+      "hash": "657db0c3d3e53f582ad7aa47f8ff0448",
+      "metadata": null,
+      "score": 0.3171127944400854,
+      "created_at": "2025-12-06T20:24:42.751613-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.004726623115905712
+    },
+    {
+      "id": "34ae6312-72e0-4f44-ae6d-1936bec77723",
+      "memory": "Can't wait to try Arbroath Smokies",
+      "hash": "f5bc113f472f58e9423528ff78fdda38",
+      "metadata": null,
+      "score": 0.3542430391131516,
+      "created_at": "2025-12-06T20:24:42.787012-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.004175039547528902
+    },
+    {
+      "id": "85531ce2-2cee-4348-b602-52c48282c290",
+      "memory": "Wants to know if there are special cooking techniques or recipes for preparing Arbroath Smokies or if they should be eaten plain",
+      "hash": "811a01f82aec55d052ea7dc68abb586d",
+      "metadata": null,
+      "score": 0.30367014391145153,
+      "created_at": "2025-12-06T20:24:42.810299-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.0012969166590910222
+    },
+    {
+      "id": "69a59ea3-c863-4f1d-a648-ef97cd4e8589",
+      "memory": "Wondering about specific ingredients or cooking techniques that make Hwang's Kitchen's bulgogi and spicy pork tacos stand out",
+      "hash": "d2f90006704f35156bdc64d826e59e62",
+      "metadata": null,
+      "score": 0.2957222296676783,
+      "created_at": "2025-12-06T20:21:34.576669-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.001064849846849574
+    },
+    {
+      "id": "0a789af5-fdb2-4c7f-844a-1c575286a5f1",
+      "memory": "Likes the idea of a stronger, more intense flavor to balance out the spices in the carrot cake",
+      "hash": "386a2aec5c0f93c8a0c6c901a176e29e",
+      "metadata": null,
+      "score": 0.2929170126183019,
+      "created_at": "2025-12-06T20:37:45.344694-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_146",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4551,
+    "load_time": 1753.5455
+  }
+}

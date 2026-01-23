@@ -1,0 +1,242 @@
+{
+  "sample_idx": 92,
+  "question_id": "gpt4_7fce9456",
+  "question": "How many properties did I view before making an offer on the townhouse in the Brookside neighborhood?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T02:34:31.687164",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "067327a8-f463-4734-8e41-c1037d7bec7f",
+      "memory": "In the process of finalizing the purchase of a townhouse in Brookside",
+      "hash": "e7f56c344d357e6352ee6fa259ec4600",
+      "metadata": null,
+      "score": 0.7775141983352015,
+      "created_at": "2025-12-01T10:44:31.821777-08:00",
+      "updated_at": "2025-12-01T10:55:22.532656-08:00",
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.9999999993477945
+    },
+    {
+      "id": "f9cc7844-29a8-4bfc-8312-2af67792f792",
+      "memory": "In the process of buying a house",
+      "hash": "67c1ebdeaae0c09362801e3b6221a4a0",
+      "metadata": null,
+      "score": 0.39392713102922716,
+      "created_at": "2025-12-01T10:44:31.782643-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.3104072528162857
+    },
+    {
+      "id": "e40bd2dd-671a-4567-8595-3dc7ed62d4b9",
+      "memory": "Still looking for a condo and wants to evaluate a condo's neighborhood and community amenities",
+      "hash": "a2b3a47abddf3c24a0e0ef5332501e64",
+      "metadata": null,
+      "score": 0.506554031472888,
+      "created_at": "2025-12-01T10:52:30.312707-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.2712275689024976
+    },
+    {
+      "id": "ffba31e2-af54-4e8f-a772-eb225ca47109",
+      "memory": "Looking at options for a condo in the downtown area",
+      "hash": "1e0012a1bb4792352ca3259a1a6e839e",
+      "metadata": null,
+      "score": 0.46151037697966324,
+      "created_at": "2025-12-01T10:52:30.328660-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.2539804270660513
+    },
+    {
+      "id": "da387904-919a-456f-8786-0026ee186c41",
+      "memory": "Has been searching for a home for a while",
+      "hash": "68cde6a4b87f661286774665cc2d5375",
+      "metadata": null,
+      "score": 0.434214388077552,
+      "created_at": "2025-12-01T10:49:09.000147-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.20793380080475482
+    },
+    {
+      "id": "60fb0dc8-85fa-4d98-ac87-8964be2e6b11",
+      "memory": "Agreed on a purchase price of $340,000",
+      "hash": "104656f57f838d7eeb71e35caa3222e7",
+      "metadata": null,
+      "score": 0.30551354487850185,
+      "created_at": "2025-12-01T10:44:31.839317-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.07877193483095941
+    },
+    {
+      "id": "b69e0192-4f49-4fe4-b98c-90215250f3b1",
+      "memory": "Saw a property in Cedar Creek on February 1st that was out of budget",
+      "hash": "a7738449ff1fcc03c2147d8591d966b4",
+      "metadata": null,
+      "score": 0.48980447997488474,
+      "created_at": "2025-12-01T10:49:09.015630-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.06074282520218164
+    },
+    {
+      "id": "a5095c14-4815-4e84-a68e-17efd36653b7",
+      "memory": "Saw a beautiful 3-bedroom bungalow in the Oakwood neighborhood on January 22nd",
+      "hash": "8969ae304a81dc107143a6737d12ddcc",
+      "metadata": null,
+      "score": 0.5639799598270006,
+      "created_at": "2025-12-01T10:44:31.900823-08:00",
+      "updated_at": "2025-12-01T10:55:22.512401-08:00",
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.05174043032283895
+    },
+    {
+      "id": "9c299099-7a5f-4aea-baac-30ea99a7e659",
+      "memory": "Viewed a 1-bedroom condo on February 10th, but the noise from the highway was a deal-breaker",
+      "hash": "a434ddf971fce6ab81e44e7ef65d699b",
+      "metadata": null,
+      "score": 0.4013188330379163,
+      "created_at": "2025-12-01T10:52:30.344453-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.05011149661989837
+    },
+    {
+      "id": "6c2d562c-0708-42a2-921e-b5056d903967",
+      "memory": "Looking at a 30-year mortgage",
+      "hash": "9c39443ee5764a841a65647abb5c6867",
+      "metadata": null,
+      "score": 0.37290258136332366,
+      "created_at": "2025-12-01T10:44:31.869246-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.010922171836892086
+    },
+    {
+      "id": "28a1f4a2-53cc-48f9-9e78-ed7213d7a3ee",
+      "memory": "Considering a condo in a building with a community pool and modern appliances",
+      "hash": "267d77cded9ddf72e3f2124f7ea500fd",
+      "metadata": null,
+      "score": 0.39300808698763173,
+      "created_at": "2025-12-01T10:52:30.376342-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.010094052270625679
+    },
+    {
+      "id": "52a48cf5-671e-42c9-801a-600fe31e4206",
+      "memory": "Looking for a condo with modern appliances and a community pool",
+      "hash": "94c7512c0dc8798c1e3a437312034d33",
+      "metadata": null,
+      "score": 0.39758262801606264,
+      "created_at": "2025-12-01T10:52:30.361563-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.0058890783125784725
+    },
+    {
+      "id": "de56d32f-6fa0-412b-a077-a42944b34fc7",
+      "memory": "Curious about the room rates for the Renaissance Las Vegas Hotel and wants to see options for a 5-night stay from April 3rd to 8th",
+      "hash": "75cbf2ff5041dd342ddb818eb4f08407",
+      "metadata": null,
+      "score": 0.3356232742944904,
+      "created_at": "2025-12-01T10:58:26.556463-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.0037232414929177695
+    },
+    {
+      "id": "758c9e9c-fca3-4625-b70c-f4713ef45b4c",
+      "memory": "Has a rough idea of how much to spend but unsure where to allocate funds",
+      "hash": "d3e9fc181d7997df05167c38a6a9e6bc",
+      "metadata": null,
+      "score": 0.27477010837606985,
+      "created_at": "2025-12-01T10:55:22.602784-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.0024698040962375344
+    },
+    {
+      "id": "d0cfa71b-8ebf-4896-a7fe-7c7514b4e609",
+      "memory": "Wants to know more about the condo's gym and fitness center",
+      "hash": "c22f52b742d3848cb7b8bc740443f42a",
+      "metadata": null,
+      "score": 0.30448327315146095,
+      "created_at": "2025-12-01T10:52:30.409032-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.00101421944175605
+    },
+    {
+      "id": "8f527b55-50df-495d-9f16-cf1c3bb51d20",
+      "memory": "Wants recommendations for kitchen designers or contractors in the area for advice or quotes",
+      "hash": "aec9f5c5f860df52db2fde4a2f3d1390",
+      "metadata": null,
+      "score": 0.2883864615750973,
+      "created_at": "2025-12-01T10:55:22.576155-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.0009237818685735835
+    },
+    {
+      "id": "34cae8d5-ca98-48c1-9e55-3229eebeda29",
+      "memory": "Looking for advice on renovating a kitchen",
+      "hash": "9a5c90edace328991196a33a8a798767",
+      "metadata": null,
+      "score": 0.35668023505775215,
+      "created_at": "2025-12-01T10:55:22.548852-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.0005810645176551587
+    },
+    {
+      "id": "e72db022-a45e-4833-9ce1-3cc53155f635",
+      "memory": "The kitchen in the bungalow needed serious renovation work",
+      "hash": "19c79fc1ca10882f1af7a8495c10151c",
+      "metadata": null,
+      "score": 0.3470934300750927,
+      "created_at": "2025-12-01T10:55:22.563126-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.00032331121416950495
+    },
+    {
+      "id": "7984a4d0-837b-4a29-b412-26c8267a3884",
+      "memory": "Wants advice on how to prioritize renovation budget",
+      "hash": "b5e51b13d10c2361eeb1ec6cf04a8f85",
+      "metadata": null,
+      "score": 0.276183963633807,
+      "created_at": "2025-12-01T10:55:22.589239-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.0002920250385774963
+    },
+    {
+      "id": "c8c27c4d-5083-42db-bf1b-9fdd033f3a16",
+      "memory": "Looking to get advice on condo living and minimize noise pollution in a condo",
+      "hash": "305e5559c7e19cd23804cc54934d80ea",
+      "metadata": null,
+      "score": 0.29198170395938217,
+      "created_at": "2025-12-01T10:52:30.275135-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_92",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.332,
+    "load_time": 1434.976
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 59,
+  "question_id": "f4f1d8a4",
+  "question": "Who gave me a new stand mixer as a birthday gift?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T02:05:11.231255",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 52,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "e0061d81-afe5-4670-939b-845a3737400f",
+      "memory": "Got a new stand mixer as a birthday gift from sister last month",
+      "hash": "b7c8426193df741bb2259f3e4c86f9d4",
+      "metadata": null,
+      "score": 0.867341288057532,
+      "created_at": "2025-11-30T10:27:07.166154-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.9999999993179599
+    },
+    {
+      "id": "d42f0618-dccf-4493-8349-02cb31e05b13",
+      "memory": "Recently got a new coffee grinder and a milk frother",
+      "hash": "d029d103a8460846a51c2a2704956a63",
+      "metadata": null,
+      "score": 0.4029161558406362,
+      "created_at": "2025-11-30T10:27:07.299478-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.18385178916819223
+    },
+    {
+      "id": "db301aae-a2c7-4b24-86c7-b953c585eed6",
+      "memory": "Friends and I chipped in to get a gift card to Bed Bath & Beyond worth $50 for her",
+      "hash": "0952e229f1ff2e60b44f194449d091c7",
+      "metadata": null,
+      "score": 0.39867651897913636,
+      "created_at": "2025-11-30T10:25:03.717611-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.09660395338521237
+    },
+    {
+      "id": "a4d798ef-da8f-411e-bf3a-f49630fce297",
+      "memory": "Wants to include kitchen utensils in the welcome basket",
+      "hash": "fab4e02daf6e22a2c944d7193881f134",
+      "metadata": null,
+      "score": 0.3896446358193555,
+      "created_at": "2025-11-30T10:25:03.744983-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.08485979542169203
+    },
+    {
+      "id": "38c5cd2c-ad62-4e5f-938f-8578bf84bada",
+      "memory": "Looking for gift ideas for neighbor who is moving into a new place",
+      "hash": "631956054708bb818e7af87328d1c146",
+      "metadata": null,
+      "score": 0.3209170248839458,
+      "created_at": "2025-11-30T10:25:03.684784-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.08159515158627781
+    },
+    {
+      "id": "d0b7e9cd-3978-4b4d-98c1-878ea927e543",
+      "memory": "Will include a gift card to Bed Bath & Beyond to make it a more substantial gift",
+      "hash": "76284ed81bf344760e7330197e72bc8d",
+      "metadata": null,
+      "score": 0.34459206437280665,
+      "created_at": "2025-11-30T10:25:03.785328-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.05087201130488501
+    },
+    {
+      "id": "58089e5d-141b-4e3f-8d31-6aaa61ead01f",
+      "memory": "Has bought a portable microphone",
+      "hash": "3629f7b75d9e1d4e45a8ddacf65259ad",
+      "metadata": null,
+      "score": 0.3778236811063071,
+      "created_at": "2025-11-30T10:14:17.649690-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.04023224232906163
+    },
+    {
+      "id": "3584ce33-826a-460a-94dc-7dac079c5967",
+      "memory": "Recently acquired a 1960s Rolleiflex",
+      "hash": "442ed630f57184214662dba00d4d0750",
+      "metadata": null,
+      "score": 0.42929309042984415,
+      "created_at": "2025-11-30T10:11:05.028683-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.018330749756980316
+    },
+    {
+      "id": "f53fd54c-2a1d-4843-857b-d26fcb4c0654",
+      "memory": "Has been experimenting with different baking recipes",
+      "hash": "85d6a540be9cec1a4ebe0f5f9a15406a",
+      "metadata": null,
+      "score": 0.236544157846794,
+      "created_at": "2025-11-30T10:27:07.076758-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.013763396536702758
+    },
+    {
+      "id": "5cf6209a-0f66-4430-8bdf-70ca5f1bd6de",
+      "memory": "Is a DIY coffee enthusiast",
+      "hash": "b4906d02b9859e897e97212952435600",
+      "metadata": null,
+      "score": 0.2705709391557031,
+      "created_at": "2025-11-30T10:27:07.274495-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.0017839729527984241
+    },
+    {
+      "id": "0de0aa50-522c-4aaa-b607-0c9903c2aeba",
+      "memory": "Planning to check out The Dollop and The Happiness Lab with Dr. Laurie Santos",
+      "hash": "5da3ca76326c7a14883bbefb77d3b1af",
+      "metadata": null,
+      "score": 0.27297561185779085,
+      "created_at": "2025-11-30T10:13:38.380844-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.0013890233130495625
+    },
+    {
+      "id": "c5e34b2d-de60-4328-a213-9e6571014151",
+      "memory": "Replaced plastic toothbrush with a bamboo one",
+      "hash": "0a526167d4ab722a8554fb801995cbd4",
+      "metadata": null,
+      "score": 0.27374333394687106,
+      "created_at": "2025-11-30T10:12:27.690817-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.0009175164061754684
+    },
+    {
+      "id": "91a00ae1-2119-4e78-820a-025a3bee80d7",
+      "memory": "Likes the idea of a welcome basket",
+      "hash": "1c2c5e348afcb53bc0dfd7c35c21f937",
+      "metadata": null,
+      "score": 0.2756220492288111,
+      "created_at": "2025-11-30T10:25:03.731375-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.000887921200957133
+    },
+    {
+      "id": "f4bb88d1-0887-43fe-9489-0f4d4ece7e06",
+      "memory": "Made a caramel apple tart for family's Sunday dinner and it was a huge hit",
+      "hash": "1f99b41c8b7098905244f81703c936a1",
+      "metadata": null,
+      "score": 0.31654783320756363,
+      "created_at": "2025-11-30T10:27:07.153626-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.0007974444307182222
+    },
+    {
+      "id": "6ac499dc-19b4-4bc6-9552-ce960445fbe0",
+      "memory": "Ordered pizza and wings while cheering on the Kansas City Chiefs",
+      "hash": "e025d9b1c97cb7ea21e167ace240b50f",
+      "metadata": null,
+      "score": 0.2926273325771131,
+      "created_at": "2025-11-30T10:08:54.688256-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.0007517832569527905
+    },
+    {
+      "id": "be2b26e6-39fe-4cfd-a4b7-1c982a5abd50",
+      "memory": "Thinking of ordering food for a gathering soon",
+      "hash": "22275edfdb841c6b31c4220941bca8c0",
+      "metadata": null,
+      "score": 0.2892508025344298,
+      "created_at": "2025-11-30T10:08:54.630224-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.0006718436806597485
+    },
+    {
+      "id": "2f13faa9-41fc-4d0d-8b16-3f98ed1fb588",
+      "memory": "Got a lavender air freshener from the auto shop near office last week for $5.99",
+      "hash": "2bae7e4db8a8a1c36ab3caa6c301d7fa",
+      "metadata": null,
+      "score": 0.24723799195769994,
+      "created_at": "2025-11-30T10:09:25.842362-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.000621304176363822
+    },
+    {
+      "id": "b0bf42bf-4727-42b9-b174-7c50633b0fc7",
+      "memory": "Loves the sound of a hearty and comforting Italian-inspired dish",
+      "hash": "536baef19ccdba4cb7f9644ae76cd448",
+      "metadata": null,
+      "score": 0.23609060168026047,
+      "created_at": "2025-11-30T10:21:32.375809-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.0005211357894709948
+    },
+    {
+      "id": "6545a17e-13b7-43d0-9d3f-61d79a0b880a",
+      "memory": "Will go with the $30 option for the welcome basket",
+      "hash": "d3645115eb259414bb7635a734421c27",
+      "metadata": null,
+      "score": 0.2808792987087229,
+      "created_at": "2025-11-30T10:25:03.771888-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.0003525406863370933
+    },
+    {
+      "id": "e36e9781-9181-4385-8c04-ca754d7f5bf7",
+      "memory": "Made a big pot of chili last Sunday using leftover veggies and beans",
+      "hash": "a992479a61d1191caa8d163b7ef58e5a",
+      "metadata": null,
+      "score": 0.23345987364804638,
+      "created_at": "2025-11-30T10:21:32.291267-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_59",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3816,
+    "load_time": 1317.6773
+  }
+}

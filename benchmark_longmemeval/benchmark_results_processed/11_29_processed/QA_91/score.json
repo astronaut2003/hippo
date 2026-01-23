@@ -1,0 +1,77 @@
+{
+  "sample_idx": 91,
+  "question_id": "d23cf73b",
+  "question": "How many different cuisines have I learned to cook or tried out in the past few months?",
+  "question_type": "multi-session",
+  "gold_answer": 4,
+  "question_date": "2023/05/30 (Tue) 16:04",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-02T02:10:56.337400",
+  "predicted_answer": "You have learned to cook or tried out vegan cuisine and Indian cuisine in the past few months. Therefore, you have explored at least two different cuisines.",
+  "prompt_length": 3234,
+  "gen_token_usage": {
+    "prompt_tokens": 844,
+    "answer_tokens": 30,
+    "total_tokens": 874,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 27,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.09614098072052002,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.09614098072052002,
+      "overall_average": 0.019228195771574974
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.09614098072052002,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.09614098072052002,
+    "overall_average": 0.019228195771574974
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1405.4356,
+    "retrieval_time": 0.4179,
+    "generation_time": 3.2513,
+    "evaluation_time": 4.6234,
+    "cleanup_time": 1.6093,
+    "total_time": 1415.3408
+  }
+}

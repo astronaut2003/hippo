@@ -1,0 +1,242 @@
+{
+  "sample_idx": 38,
+  "question_id": "577d4d32",
+  "question": "What time do I stop checking work emails and messages?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T18:26:55.198383",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "f51176c8-c318-4f1e-afc7-d7d001f209c0",
+      "memory": "Stops work emails and messages by 7 pm to separate work and personal life",
+      "hash": "a2fd1570009a1198652a1fd8da4820e7",
+      "metadata": null,
+      "score": 0.7408516377643106,
+      "created_at": "2025-11-29T02:51:29.726100-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.9999999992745311
+    },
+    {
+      "id": "cb1275e6-e878-4a06-8a4c-bbd97e014094",
+      "memory": "Will limit screen time and take breaks from phone throughout the day",
+      "hash": "9cf20986984a7586aa2644ebe008b6af",
+      "metadata": null,
+      "score": 0.4213215409076638,
+      "created_at": "2025-11-29T02:32:03.578819-08:00",
+      "updated_at": "2025-11-29T02:48:19.606157-08:00",
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.38508580189641045
+    },
+    {
+      "id": "eef859de-ce74-4b1e-8853-b52e11219445",
+      "memory": "Will start going for walks in the morning instead of scrolling through phone in bed",
+      "hash": "25a7708f8239293bdf26a0fbfd853fe6",
+      "metadata": null,
+      "score": 0.35688091526060817,
+      "created_at": "2025-11-29T02:32:03.642733-08:00",
+      "updated_at": "2025-11-29T02:48:19.630261-08:00",
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.2918534545026135
+    },
+    {
+      "id": "35a9d7ae-bf1c-40bb-99c1-849485e9d76b",
+      "memory": "Trying to establish a better evening routine",
+      "hash": "6b751d7217c4ae6f72e7ff96f5ca4d53",
+      "metadata": null,
+      "score": 0.24102714846299603,
+      "created_at": "2025-11-29T02:48:19.687315-08:00",
+      "updated_at": "2025-11-29T02:51:29.658685-08:00",
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.20462078704958003
+    },
+    {
+      "id": "32df16b9-c79f-4e62-a76d-778446ef7532",
+      "memory": "Will try to set a regular bedtime and wake-up time",
+      "hash": "bf3476acb6ace6cfaf6b6ba0dbc4f3fe",
+      "metadata": null,
+      "score": 0.3399297200584255,
+      "created_at": "2025-11-29T02:48:19.723863-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.1303488894789597
+    },
+    {
+      "id": "5b571667-d893-4b5a-a4e9-1de7764f5e6e",
+      "memory": "Sometimes stays up late watching TV or scrolling through phone and sleeps in late the next day",
+      "hash": "20e98cc9690f40970adab035acdaf27d",
+      "metadata": null,
+      "score": 0.33169957382544224,
+      "created_at": "2025-11-29T02:48:19.706138-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.10826973797112943
+    },
+    {
+      "id": "9ea91278-d153-4980-8baf-9899b13fc07c",
+      "memory": "Will plan time carefully and leave buffer time for unexpected delays",
+      "hash": "9db6fc89d6e67e1ac72b7f473a43a2a1",
+      "metadata": null,
+      "score": 0.24686716891508964,
+      "created_at": "2025-11-29T02:44:53.422164-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.07111002376157456
+    },
+    {
+      "id": "163b640c-c708-4aa0-8bb8-e326bb841751",
+      "memory": "Will try using a habit tracker app and keeping a sleep diary to track progress",
+      "hash": "c0c3e80b0affdb48b1bff6e9245e0907",
+      "metadata": null,
+      "score": 0.3807776312519585,
+      "created_at": "2025-11-29T02:48:19.775995-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.03905084697900099
+    },
+    {
+      "id": "ed6aa532-cfe8-454e-832b-7740b0915a59",
+      "memory": "Usually practices for about 30 minutes, 2-3 times a week",
+      "hash": "a8548e592bcdc624da3578b09dc07f19",
+      "metadata": null,
+      "score": 0.23890522310394713,
+      "created_at": "2025-11-29T02:33:24.261671-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.031113264467366595
+    },
+    {
+      "id": "a22e1b81-0a9a-44a7-8ac8-a9fce7ba6386",
+      "memory": "On July 20th, spent about an hour going through Facebook friends list and unfriended around 30 people no longer kept in touch with",
+      "hash": "30a86067ef333e9cd503c23d982d3356",
+      "metadata": null,
+      "score": 0.21437498662792553,
+      "created_at": "2025-11-29T02:43:51.206537-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.003940424956136474
+    },
+    {
+      "id": "1ac0fb5c-d698-491a-a235-caf07654dcd6",
+      "memory": "Wants to adjust sleep schedule to get better rest",
+      "hash": "efdaf1a12ebe789134c0602a016ecf15",
+      "metadata": null,
+      "score": 0.25562143093854467,
+      "created_at": "2025-11-29T02:48:19.670983-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.002917162584726943
+    },
+    {
+      "id": "aaf22adc-7037-4bc5-b502-2a87aad1668c",
+      "memory": "Will try to add more physical activity into daily routine",
+      "hash": "ce9d134febf78ae7f49de395b2824c9e",
+      "metadata": null,
+      "score": 0.20008828348769003,
+      "created_at": "2025-11-29T02:32:03.626613-08:00",
+      "updated_at": "2025-11-29T02:48:19.566680-08:00",
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.0022619010621022185
+    },
+    {
+      "id": "310a66b9-1bbb-4881-be79-ed79f885b630",
+      "memory": "Needs to schedule a dental cleaning",
+      "hash": "9763f39429d2b40c0e57f49ad18baf9a",
+      "metadata": null,
+      "score": 0.21078456445941873,
+      "created_at": "2025-11-29T02:35:24.339305-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.0019161781364812971
+    },
+    {
+      "id": "dd9b6047-59fe-4f6d-9de1-10f254a1f911",
+      "memory": "Will set reminders and notifications to help stick to sleep schedule and wake-up routine",
+      "hash": "ee40aa8551c1775809ccbda2a151426e",
+      "metadata": null,
+      "score": 0.3621654990926064,
+      "created_at": "2025-11-29T02:48:19.794488-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.001185711326654263
+    },
+    {
+      "id": "5cd12eb5-67b2-4468-9351-8dc8e0ec8ece",
+      "memory": "Is excited to start implementing tips into daily routine to improve cognitive health",
+      "hash": "7f206e32e11533b96d895edbef77a3e0",
+      "metadata": null,
+      "score": 0.22712729187833375,
+      "created_at": "2025-11-29T02:32:03.693955-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.0011822520218151503
+    },
+    {
+      "id": "cf6260b2-92df-48be-a234-9d46129fc845",
+      "memory": "Will start the journal once finding the perfect one",
+      "hash": "f217a4d2258f247b3c7c0d85bf727436",
+      "metadata": null,
+      "score": 0.2357376954432326,
+      "created_at": "2025-11-29T02:33:24.381198-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.00089519890626558
+    },
+    {
+      "id": "de136783-45a5-4498-aea6-4d5dedffbc43",
+      "memory": "Has been applying active listening technique in daily interactions",
+      "hash": "75e06eb121f0ff3c4acf9e8471b6766b",
+      "metadata": null,
+      "score": 0.22914673334573737,
+      "created_at": "2025-11-29T02:27:26.270211-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.0008359064213231887
+    },
+    {
+      "id": "bd43bcfe-e6de-4b79-8870-8be9f115ce0f",
+      "memory": "Finds body scan meditation helpful for relaxing muscles and calming the mind before bed",
+      "hash": "03ebf49954359713198e3c75ef2f8583",
+      "metadata": null,
+      "score": 0.24541776754795588,
+      "created_at": "2025-11-29T02:51:29.825073-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.0002829019497426352
+    },
+    {
+      "id": "eb41db8e-3521-4f25-bdb1-f3bc89388968",
+      "memory": "Has been using Fitbit Charge 5 consistently since February 10th",
+      "hash": "af9ab5b86e4ca8476c897ac3d3527a55",
+      "metadata": null,
+      "score": 0.21856678379335365,
+      "created_at": "2025-11-29T02:48:19.654717-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.0002469251794158633
+    },
+    {
+      "id": "e72c8cee-9a25-4bf8-8c71-13184c069b1d",
+      "memory": "Sent 12 messages to a particular influencer on July 15th, asking about her workout routine and getting some valuable tips",
+      "hash": "1a140ef5c87186b45adac163fc1ae5a0",
+      "metadata": null,
+      "score": 0.2466005775257374,
+      "created_at": "2025-11-29T02:43:51.186075-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_38",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0628,
+    "load_time": 1659.052
+  }
+}

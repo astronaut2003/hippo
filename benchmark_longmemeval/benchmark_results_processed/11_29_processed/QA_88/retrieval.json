@@ -1,0 +1,242 @@
+{
+  "sample_idx": 88,
+  "question_id": "gpt4_15e38248",
+  "question": "How many pieces of furniture did I buy, assemble, sell, or fix in the past few months?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T01:02:07.128018",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "fa27f6f9-6b09-4ede-95a7-fa7f00c0a23e",
+      "memory": "Assembled an IKEA bookshelf for home office about two months ago",
+      "hash": "3fcb332cd307fb241b6223c9528b0fd4",
+      "metadata": null,
+      "score": 0.4651595190574519,
+      "created_at": "2025-12-01T09:21:36.504236-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.9999999974540122
+    },
+    {
+      "id": "2a24ad0d-9447-4b40-9195-6edc7be4e1c0",
+      "memory": "Got a new coffee table and rearranged the furniture",
+      "hash": "0596f9a497f2ebb1bfdf34a32085d9a6",
+      "metadata": null,
+      "score": 0.4922910677208552,
+      "created_at": "2025-12-01T09:04:29.493000-08:00",
+      "updated_at": "2025-12-01T09:17:58.854250-08:00",
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.8661725738732173
+    },
+    {
+      "id": "b1303e16-a1db-49ec-9227-65e87e8c18ff",
+      "memory": "Fixed the wobbly leg on the kitchen table last weekend",
+      "hash": "ef24ef5b0bb4335e099a4ded15cdfe4f",
+      "metadata": null,
+      "score": 0.3513739105462341,
+      "created_at": "2025-12-01T09:17:58.916718-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.29867868245351015
+    },
+    {
+      "id": "37c616c1-1040-4f76-9c1c-a1a2a1438f8f",
+      "memory": "Spent around $2,300 on 12 cameras in the past six months, which works out to around $192 per camera",
+      "hash": "ed59fc7e569d62041b538b6b9655df00",
+      "metadata": null,
+      "score": 0.3320586272155691,
+      "created_at": "2025-12-01T09:13:07.001419-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.19285023805210208
+    },
+    {
+      "id": "a27146c0-4361-42f2-913d-ad056c20cc05",
+      "memory": "Bought scratch guards from IKEA to protect furniture from Luna's scratching",
+      "hash": "833767360e26b9e72415598c349191af",
+      "metadata": null,
+      "score": 0.40125290560498983,
+      "created_at": "2025-12-01T09:09:16.460421-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.1340223954429208
+    },
+    {
+      "id": "1f04357c-96f4-4d98-b324-7261b6ae2a3d",
+      "memory": "Wants display cases or shelves that can hold a decent number of records and look good in home office",
+      "hash": "cd00b8391b734016ae1575f335c2dcd0",
+      "metadata": null,
+      "score": 0.3797545702330697,
+      "created_at": "2025-12-01T09:13:07.097070-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.008278170195915665
+    },
+    {
+      "id": "65e4842c-2add-4e30-82b5-a62aa9222059",
+      "memory": "Interested in exploring more options for bedside tables that would complement the new Casper mattress and modern aesthetic",
+      "hash": "ec56924a38c14c99bb1e46404fed12c6",
+      "metadata": null,
+      "score": 0.30351749092726366,
+      "created_at": "2025-12-01T09:04:29.629593-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.006913367161034398
+    },
+    {
+      "id": "95bba1cc-50bf-41db-9e3e-aeb7d820b23b",
+      "memory": "Thinking of getting new throw pillows for couch",
+      "hash": "edefa0ef9c6a39f74dd0458f8a507475",
+      "metadata": null,
+      "score": 0.3879139292162496,
+      "created_at": "2025-12-01T09:21:36.484134-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.005395354605603391
+    },
+    {
+      "id": "c0c5e7c5-b08f-4f83-8fd9-6e7d5ff453cc",
+      "memory": "Had a good experience with West Elm when bought coffee table",
+      "hash": "74c67bfb3bd7777033f609d063a7e733",
+      "metadata": null,
+      "score": 0.30762540853836007,
+      "created_at": "2025-12-01T09:21:36.522651-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.004189102786124626
+    },
+    {
+      "id": "ea3718ab-3672-48c2-b336-ce20ac8b7b01",
+      "memory": "Has a standard 3-seater couch",
+      "hash": "619c15666ec03082c9dd4ce0063902d6",
+      "metadata": null,
+      "score": 0.3965623863396939,
+      "created_at": "2025-12-01T09:21:36.540907-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.003685769448407339
+    },
+    {
+      "id": "89bd46d6-5207-40ca-b492-cab2442a187b",
+      "memory": "Looking for recommendations on throw pillows for the living room",
+      "hash": "309a95c487e0894b4da6ce7c85a0a133",
+      "metadata": null,
+      "score": 0.31024658883371514,
+      "created_at": "2025-12-01T09:04:29.456338-08:00",
+      "updated_at": "2025-12-01T09:17:58.822204-08:00",
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.002785451061405072
+    },
+    {
+      "id": "85092f11-9883-49cc-88b3-d321703f7692",
+      "memory": "Wants affordable and stylish throw pillows",
+      "hash": "a8dd9a4db9b62f6d0df54822ecabcabd",
+      "metadata": null,
+      "score": 0.2999034084149944,
+      "created_at": "2025-12-01T09:16:07.626080-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.002164357632615482
+    },
+    {
+      "id": "3a0286aa-7b85-40a2-8979-db1cd425bbce",
+      "memory": "Will probably start with two pillows",
+      "hash": "6327a957595dd3aa05248bc2142353e5",
+      "metadata": null,
+      "score": 0.3022946039163175,
+      "created_at": "2025-12-01T09:21:36.577406-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.0018147194240709123
+    },
+    {
+      "id": "473b7cb0-d307-43fb-8317-271c9dd8bbf7",
+      "memory": "Spent hours browsing West Elm's website to find the perfect wooden coffee table with metal legs",
+      "hash": "88dc9a5991c102730853632809d802fa",
+      "metadata": null,
+      "score": 0.3690520091876417,
+      "created_at": "2025-12-01T09:16:07.657792-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.0016452420146513917
+    },
+    {
+      "id": "935a5003-8408-4d0e-9e75-6762c055e8d9",
+      "memory": "Picked up new airbrush and paint supplies from the local hobby store on February 17th",
+      "hash": "e69868e651c5176498cd8362e5ead897",
+      "metadata": null,
+      "score": 0.3521500799259849,
+      "created_at": "2025-12-01T09:14:08.886760-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.0011916835607894084
+    },
+    {
+      "id": "a53f19bf-a34f-4202-b23a-d17621f8f1d2",
+      "memory": "Interested in bedside tables with metal or glass accents that would fit well with bedroom decor",
+      "hash": "d0fb5b4497f599624d2c8f4aace9d32f",
+      "metadata": null,
+      "score": 0.30092027948794625,
+      "created_at": "2025-12-01T09:04:29.644156-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.0011542916968200585
+    },
+    {
+      "id": "9f4ff395-5d9b-4aa5-a4bb-3bc7e4f81f66",
+      "memory": "Considering getting a few vinyl records and a vinyl cleaning kit as part of the gift",
+      "hash": "006be152ac6e7b5dd5d04eeb44d714d9",
+      "metadata": null,
+      "score": 0.31295301043556556,
+      "created_at": "2025-12-01T09:08:20.444452-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.0010285190634686091
+    },
+    {
+      "id": "7c9cdf6d-75e7-4534-9204-21f3bbac08b3",
+      "memory": "Thinking of getting pillows with a similar modern aesthetic to match the table",
+      "hash": "2d23997e17c503dad3887331eb5282f8",
+      "metadata": null,
+      "score": 0.3171765997789294,
+      "created_at": "2025-12-01T09:16:07.690536-08:00",
+      "updated_at": "2025-12-01T09:21:35.694419-08:00",
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.0002527592882603452
+    },
+    {
+      "id": "f6757d88-8d98-4576-82f9-9959e516d9a6",
+      "memory": "Interested in brands that offer a wide range of gray or beige throw pillows with wooden or metal accents",
+      "hash": "b47e8615b7798c2acce9b81cea3f130b",
+      "metadata": null,
+      "score": 0.3001902146606455,
+      "created_at": "2025-12-01T09:04:29.597005-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.000202255991470574
+    },
+    {
+      "id": "b0a6de11-b974-47bd-bd4a-bf900d6669b0",
+      "memory": "Thinking of getting a light gray or beige pillow to match the color scheme for a future sectional sofa",
+      "hash": "e3806e9a69a574eac3f7682fbaa183ce",
+      "metadata": null,
+      "score": 0.3001682098744176,
+      "created_at": "2025-12-01T09:04:29.582989-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_88",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5124,
+    "load_time": 1318.6847
+  }
+}

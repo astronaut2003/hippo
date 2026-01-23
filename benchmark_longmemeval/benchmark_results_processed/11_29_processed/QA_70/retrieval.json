@@ -1,0 +1,242 @@
+{
+  "sample_idx": 70,
+  "question_id": "0a995998",
+  "question": "How many items of clothing do I need to pick up or return from a store?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T05:52:33.544344",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "99816db1-e07e-4959-974f-5402585bdf5b",
+      "memory": "Has a bunch of clothes that haven't been worn in a while",
+      "hash": "1701d7a7b99a509a3a12a914929433ac",
+      "metadata": null,
+      "score": 0.4963449708006457,
+      "created_at": "2025-11-30T13:58:05.315834-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.9999999975904958
+    },
+    {
+      "id": "b50e7c53-8845-45e6-ab21-6d76194dfa10",
+      "memory": "Usually remembers pickups and returns in head but sometimes forgets",
+      "hash": "3bea16d26a41448bee913041ad3d9ef8",
+      "metadata": null,
+      "score": 0.29789559587539316,
+      "created_at": "2025-11-30T14:09:28.587916-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.6856182194516132
+    },
+    {
+      "id": "75a75792-8df7-44e2-8003-dd523dc127d0",
+      "memory": "Planning to do a load of laundry this weekend",
+      "hash": "a7b3cae3ed0f8b83b6262640ce247992",
+      "metadata": null,
+      "score": 0.41652671734368024,
+      "created_at": "2025-11-30T14:03:47.244704-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.6088868744768833
+    },
+    {
+      "id": "3e29cde9-2225-431f-94c9-b585c103153b",
+      "memory": "Needs to pick up dry cleaning for a navy blue blazer worn to a meeting a few weeks ago",
+      "hash": "b262609bfcf453c49520e591722ea506",
+      "metadata": null,
+      "score": 0.32835813006614006,
+      "created_at": "2025-11-30T13:58:05.265595-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.576301524887798
+    },
+    {
+      "id": "4ee3bc3e-3069-4593-893a-603bfd91b999",
+      "memory": "Has winter clothes to put away",
+      "hash": "0463b6085e28d0763aad10b90bbe04f2",
+      "metadata": null,
+      "score": 0.4659856741793605,
+      "created_at": "2025-11-30T14:03:47.106231-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.40652341110913337
+    },
+    {
+      "id": "d7aca0b5-538d-47e4-8874-cd64d91e44f9",
+      "memory": "Plans to use boxes at home to store winter clothes",
+      "hash": "485906169708c3a9f52b416215eb65d4",
+      "metadata": null,
+      "score": 0.450214827006422,
+      "created_at": "2025-11-30T14:09:28.571982-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.17628847388019747
+    },
+    {
+      "id": "255f0120-3b15-43da-95a4-0e28f9a052ce",
+      "memory": "Recently purchased a white button-down shirt from H&M",
+      "hash": "591ad45304bf5a2966ef84a5b30bcad2",
+      "metadata": null,
+      "score": 0.2943803712902349,
+      "created_at": "2025-11-30T13:58:05.372758-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.11455908321821195
+    },
+    {
+      "id": "3b2921e5-b9d0-498a-a172-b982e5b2fa4a",
+      "memory": "Has a thick grey scarf and gloves as winter clothes",
+      "hash": "f098ae1837b2f324bfdbbda8667825c9",
+      "metadata": null,
+      "score": 0.3091796326614199,
+      "created_at": "2025-11-30T14:09:28.542470-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.11286163757123951
+    },
+    {
+      "id": "fad5bfbf-5461-4516-ac61-8107eacb2ccc",
+      "memory": "Has winter clothes that haven't been touched since the holidays",
+      "hash": "381f430062cea3d6d65e94ffb3b10d9b",
+      "metadata": null,
+      "score": 0.3932731083584746,
+      "created_at": "2025-11-30T13:58:05.300115-08:00",
+      "updated_at": "2025-11-30T14:09:28.417263-08:00",
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.11182644159999126
+    },
+    {
+      "id": "52b9c018-ea91-4729-91a4-e32566c9daf2",
+      "memory": "Has a lot of short-sleeve shirts, some from last summer",
+      "hash": "2cde2ac3311ab6e4050ace9232b6cc20",
+      "metadata": null,
+      "score": 0.37396055661655125,
+      "created_at": "2025-11-30T13:58:05.344805-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.03894657713005429
+    },
+    {
+      "id": "9d0ad64b-4a12-434b-9a12-a56245b18c24",
+      "memory": "Picked up new hooks and a fishing net at Joe's Tackle Shop",
+      "hash": "a4981e9d6625f9514e00ac600588988c",
+      "metadata": null,
+      "score": 0.30837049141836237,
+      "created_at": "2025-11-30T13:56:18.747469-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.027831260921126356
+    },
+    {
+      "id": "ba0a9661-2ce3-41bd-9449-d31fa1e381d5",
+      "memory": "Has a yellow sundress as spring clothes",
+      "hash": "61c345677cd76872e9c8fe6646c81d77",
+      "metadata": null,
+      "score": 0.32913312639117875,
+      "created_at": "2025-11-30T14:09:28.557112-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.014531118231703785
+    },
+    {
+      "id": "e26ad3d7-2192-4b7a-91e5-10bea79e2289",
+      "memory": "Looking for organization tips for closet",
+      "hash": "7312f0fe55e7ba910cce65c38d37fddc",
+      "metadata": null,
+      "score": 0.37458243870581587,
+      "created_at": "2025-11-30T14:03:47.090459-08:00",
+      "updated_at": "2025-11-30T14:09:27.563160-08:00",
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.01106039682221798
+    },
+    {
+      "id": "44fd73e5-f4f5-48fd-b886-c5b27a8cce21",
+      "memory": "Recently purchased black jeans from Levi's",
+      "hash": "dfed6a0ddcc5504df93b5334862e27d1",
+      "metadata": null,
+      "score": 0.2991199741552295,
+      "created_at": "2025-11-30T13:58:05.359382-08:00",
+      "updated_at": "2025-11-30T14:09:28.353193-08:00",
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.0037430204607464455
+    },
+    {
+      "id": "b4a72d46-9f8d-473b-88c2-eb1a23ebf0d2",
+      "memory": "Looking for advice on storing comic book collection",
+      "hash": "2735d9c0572a70bfdadc4acb11942270",
+      "metadata": null,
+      "score": 0.33994685106337197,
+      "created_at": "2025-11-30T14:02:57.935332-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.003132013560069621
+    },
+    {
+      "id": "c9b7e9a3-0c00-41b7-a8bf-adef15b61ec9",
+      "memory": "Looking into starting an online business, specifically an e-commerce store focused on sustainable products",
+      "hash": "6000300f05fcdd8d06f89e3e912e699e",
+      "metadata": null,
+      "score": 0.3041661859076866,
+      "created_at": "2025-11-30T14:06:33.254092-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.0013327717276892003
+    },
+    {
+      "id": "bda6007b-5ec2-476c-81f2-14673e0f2fd1",
+      "memory": "Going to start using reusable shopping bags and water bottles from now on",
+      "hash": "341cf6eb4b7704290782a25e6d039cb8",
+      "metadata": null,
+      "score": 0.4571829802883713,
+      "created_at": "2025-11-30T14:10:20.298122-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.0013109418459425668
+    },
+    {
+      "id": "8c93fd08-29d1-49ce-9323-b0f493fae8ea",
+      "memory": "Has a good handle on deciding what to keep and what to let go of for books",
+      "hash": "b0194de2bbb4052ba92b813d6e228982",
+      "metadata": null,
+      "score": 0.2766666525521393,
+      "created_at": "2025-11-30T14:01:02.317675-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.001227069142389712
+    },
+    {
+      "id": "f34acffa-ca04-43cb-bcbb-abc680b2a4bd",
+      "memory": "Thinking of dedicating a specific day each week to doing laundry and cleaning gym gear",
+      "hash": "6c5fb5070fa63eeba8b4fa3018678e1b",
+      "metadata": null,
+      "score": 0.3292076931341986,
+      "created_at": "2025-11-30T14:09:28.633860-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.000583432313207393
+    },
+    {
+      "id": "5dd73d72-1cce-4959-9748-6883f11cf214",
+      "memory": "Trying to declutter apartment and found old family heirlooms considering selling",
+      "hash": "88af2fe6762d4ad527a6c4be2c975395",
+      "metadata": null,
+      "score": 0.28514392696490454,
+      "created_at": "2025-11-30T14:11:00.872923-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_70",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2981,
+    "load_time": 1301.1174
+  }
+}

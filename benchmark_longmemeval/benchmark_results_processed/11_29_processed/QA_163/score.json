@@ -1,0 +1,77 @@
+{
+  "sample_idx": 163,
+  "question_id": "2311e44b",
+  "question": "How many pages do I have left to read in 'The Nightingale'?",
+  "question_type": "multi-session",
+  "gold_answer": "190",
+  "question_date": "2023/05/30 (Tue) 22:55",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-08T12:30:24.428645",
+  "predicted_answer": "You have 190 pages left to read in 'The Nightingale'.",
+  "prompt_length": 3247,
+  "gen_token_usage": {
+    "prompt_tokens": 880,
+    "answer_tokens": 14,
+    "total_tokens": 894,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.67,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.19999999999999998,
+      "rouge1_f": 0.18181818181818182,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.18181818181818182,
+      "semantic_similarity": 0.20451974868774414,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.14090909090909093,
+      "avg_semantic": 0.20451974868774414,
+      "overall_average": 0.15363122522830963
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.19999999999999998,
+    "rouge1_f": 0.18181818181818182,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.18181818181818182,
+    "semantic_similarity": 0.20451974868774414,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.14090909090909093,
+    "avg_semantic": 0.20451974868774414,
+    "overall_average": 0.15363122522830963
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 4388.6693,
+    "retrieval_time": 1.3095,
+    "generation_time": 1.8965,
+    "evaluation_time": 0.7771,
+    "cleanup_time": 1.6232,
+    "total_time": 4394.2962
+  }
+}

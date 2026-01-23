@@ -1,0 +1,78 @@
+{
+  "sample_idx": 51,
+  "question_id": "86f00804",
+  "question": "What book am I currently reading?",
+  "question_type": "single-session-user",
+  "gold_answer": "The Seven Husbands of Evelyn Hugo",
+  "question_date": "2023/05/30 (Tue) 18:40",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-30T14:05:56.171914",
+  "predicted_answer": "You are currently reading \"The Seven Husbands of Evelyn Hugo.\"",
+  "prompt_length": 3025,
+  "gen_token_usage": {
+    "prompt_tokens": 810,
+    "answer_tokens": 13,
+    "total_tokens": 823,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 6,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.7142857142857143,
+      "rouge1_f": 0.7499999999999999,
+      "rouge2_f": 0.7142857142857143,
+      "rougeL_f": 0.7499999999999999,
+      "semantic_similarity": 0.8620030283927917,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.5535714285714285,
+      "avg_semantic": 0.8620030283927917,
+      "overall_average": 0.615257740020752
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.7142857142857143,
+    "rouge1_f": 0.7499999999999999,
+    "rouge2_f": 0.7142857142857143,
+    "rougeL_f": 0.7499999999999999,
+    "semantic_similarity": 0.8620030283927917,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.5535714285714285,
+    "avg_semantic": 0.8620030283927917,
+    "overall_average": 0.615257740020752
+  },
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "load_time": 1382.2856,
+    "retrieval_time": 0.0764,
+    "generation_time": 1.3912,
+    "evaluation_time": 2.0161,
+    "cleanup_time": 0.0,
+    "total_time": 1385.7758
+  }
+}

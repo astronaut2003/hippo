@@ -1,0 +1,242 @@
+{
+  "sample_idx": 16,
+  "question_id": "66f24dbb",
+  "question": "What did I buy for my sister's birthday gift?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T03:31:54.800901",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "2107499e-660a-4ceb-91aa-922927b2b5c5",
+      "memory": "For sister's birthday got her a yellow dress and a pair of earrings to match",
+      "hash": "291aefe568578e899c234a307b61d19b",
+      "metadata": null,
+      "score": 0.7084214327088953,
+      "created_at": "2025-11-28T11:37:18.279784-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.9999999992204381
+    },
+    {
+      "id": "7b50fecd-ce5d-473a-8c3b-f378b0221208",
+      "memory": "Bought gifts for sister's birthday, mom, neighbor Mrs. Johnson, coworkers, best friend's baby shower, and brother's new apartment",
+      "hash": "ec7e4bb6941eadb35490022eacda0324",
+      "metadata": null,
+      "score": 0.6272025502736286,
+      "created_at": "2025-11-28T11:37:18.244760-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.827032999359347
+    },
+    {
+      "id": "3fccec77-6a7e-44b2-a56e-62c6e0b971fc",
+      "memory": "Chipped in to get Rachel a beautiful journal and a set of nice pens for her going-away party",
+      "hash": "4ae11366d7dd780d0d65b0f907a30585",
+      "metadata": null,
+      "score": 0.39676108256198916,
+      "created_at": "2025-11-28T11:37:18.334980-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.4646875097498023
+    },
+    {
+      "id": "30064976-fed3-4022-9279-150a6551b2c7",
+      "memory": "Got mom a pair of silver hoop earrings with a small pearl in the center",
+      "hash": "ff9b42fc46538fb59a41baa1aa53e32a",
+      "metadata": null,
+      "score": 0.47400779379960983,
+      "created_at": "2025-11-28T11:37:18.292972-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.4340522466245838
+    },
+    {
+      "id": "e19b5985-9e35-40b1-8a4e-da2bdf04bc6b",
+      "memory": "Wondering if should include personal message or birthday card with gift",
+      "hash": "c2708e4b1ce536314ae8afc6f5cbbe08",
+      "metadata": null,
+      "score": 0.405249584733673,
+      "created_at": "2025-11-28T11:41:16.868122-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.33325649152379483
+    },
+    {
+      "id": "bc1691e2-5058-46f7-a880-f684374cd8d7",
+      "memory": "Got brother a customized phone case with his favorite game's logo for his birthday last month",
+      "hash": "0f2a98bbdbc29f05f9898fdf43ce3efd",
+      "metadata": null,
+      "score": 0.4857516284888187,
+      "created_at": "2025-11-28T11:41:16.781484-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.27498942098475576
+    },
+    {
+      "id": "5c4be70e-9457-4c72-97ed-356a852dba3d",
+      "memory": "Looking for gift ideas for brother",
+      "hash": "7a26222458a77a31097ef8965bd7a0da",
+      "metadata": null,
+      "score": 0.5615185122467181,
+      "created_at": "2025-11-28T11:41:16.737100-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.25062893360887983
+    },
+    {
+      "id": "1035cb45-c2fd-44b4-b698-2fa1b4b2bcb8",
+      "memory": "Considering $25 gift card",
+      "hash": "307382b2bd2f4d87189988695a83a295",
+      "metadata": null,
+      "score": 0.4043287368692079,
+      "created_at": "2025-11-28T11:41:16.854184-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.23194924417581123
+    },
+    {
+      "id": "967ca538-3a30-4219-8419-029585c83e4a",
+      "memory": "Thinking about buying a ukulele",
+      "hash": "13cd37ba94dba85d6927b13994209aeb",
+      "metadata": null,
+      "score": 0.20987431355910346,
+      "created_at": "2025-11-28T11:33:53.146125-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.12040713360970688
+    },
+    {
+      "id": "29f0e1e9-4b42-40d0-a37f-1b164edfb7a6",
+      "memory": "For coworkers got snacks and drinks like granola bars, nuts, and energy drinks for a team-building event",
+      "hash": "7864a5a29ea3484da19186f14fdd7a55",
+      "metadata": null,
+      "score": 0.29678100786490647,
+      "created_at": "2025-11-28T11:37:18.320324-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.10498296594386657
+    },
+    {
+      "id": "d0565146-cca7-4170-b23a-7c4d841f2ec0",
+      "memory": "Might also share a behind-the-scenes story on Instagram Stories, like a boomerang of decorating the cake or a sneak peek of the recipe book used",
+      "hash": "ccfb2d31daaa0250d89b49e42db3e067",
+      "metadata": null,
+      "score": 0.2273161127243255,
+      "created_at": "2025-11-28T11:33:08.859517-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.08194321399988205
+    },
+    {
+      "id": "49656a63-af83-4939-ae42-cf729593d095",
+      "memory": "Would love ideas for sweet and savory snack options",
+      "hash": "91f29ed95161a6e6139b291fd630be98",
+      "metadata": null,
+      "score": 0.277785424084494,
+      "created_at": "2025-11-28T11:45:33.320556-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.08181697652375756
+    },
+    {
+      "id": "ef70d243-df95-46fd-bd2b-6debd8dae8c1",
+      "memory": "Got Mrs. Johnson some groceries and flowers when she was recovering from surgery",
+      "hash": "09af2a64571b6b66b618610c073df436",
+      "metadata": null,
+      "score": 0.4051509852179883,
+      "created_at": "2025-11-28T11:37:18.305878-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.0616852215636421
+    },
+    {
+      "id": "633b4f85-214f-4371-a125-4160750adb29",
+      "memory": "Considering gift card to brother's favorite gaming platform's store",
+      "hash": "80ef40f96c659c3fe36532fa4834c504",
+      "metadata": null,
+      "score": 0.4384820724773723,
+      "created_at": "2025-11-28T11:41:16.841585-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.05743946418790958
+    },
+    {
+      "id": "69641b8d-ae20-41a0-81bd-6248b7a4ee5a",
+      "memory": "Sells handmade candles and soaps",
+      "hash": "d885e4fde404ee8468e52460fd829eca",
+      "metadata": null,
+      "score": 0.229910506716102,
+      "created_at": "2025-11-28T11:36:48.539425-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.042861712108451695
+    },
+    {
+      "id": "33ff709f-46e9-4082-b0ab-45c6fd8de656",
+      "memory": "Recently shared a recipe for vegan chocolate cake on Facebook and it got 23 likes",
+      "hash": "5bbf31acd56444d8876a83f7753e524d",
+      "metadata": null,
+      "score": 0.23461497417858446,
+      "created_at": "2025-11-28T11:33:08.812907-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.018725820383560493
+    },
+    {
+      "id": "4b85a16c-433b-4b47-a793-a5d262afa325",
+      "memory": "Looking for snack recommendations that are easy to pack and hold up well during the trip",
+      "hash": "c434034d573a7dbb2550169646589d7e",
+      "metadata": null,
+      "score": 0.21748443780678112,
+      "created_at": "2025-11-28T11:45:33.307630-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.013928424566812802
+    },
+    {
+      "id": "5a328acf-d23b-490a-ae93-f948b42f291e",
+      "memory": "Also sells jewelry at these events",
+      "hash": "0f11cd5ec41c43f763a59feaccd06777",
+      "metadata": null,
+      "score": 0.23792841485466054,
+      "created_at": "2025-11-28T11:36:48.553595-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.011454080821008641
+    },
+    {
+      "id": "d5ee86c4-a2db-4ea5-b1a7-33006cdd327b",
+      "memory": "Thinking of making a few other treats to take on a trip to visit family in the mountains",
+      "hash": "ca0417f42ac827e363aa23a3993560b7",
+      "metadata": null,
+      "score": 0.21835312986978708,
+      "created_at": "2025-11-28T11:45:33.293714-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.010094463056954002
+    },
+    {
+      "id": "c1a59f39-0069-4ce4-9162-b7e249b33fd6",
+      "memory": "Brother is really into gaming",
+      "hash": "f2f99a760bb96bb38bf1071831aa820e",
+      "metadata": null,
+      "score": 0.195905344015294,
+      "created_at": "2025-11-28T11:41:16.766980-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_16",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2899,
+    "load_time": 1404.9036
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 208,
+  "question_id": "bc149d6b",
+  "question": "What is the total weight of the new feed I purchased in the past two months?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2026-01-14T01:02:01.305493",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "7403135d-7823-4659-9db0-101377a37157",
+      "memory": "Bought 20 pounds of organic scratch grains for chickens recently",
+      "hash": "2e0d6314dc3695c781660f3d9ff3d44c",
+      "metadata": null,
+      "score": 0.3611004838565427,
+      "created_at": "2026-01-13T09:06:10.869046-08:00",
+      "updated_at": "2026-01-13T09:07:07.890830-08:00",
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.9999999981006275
+    },
+    {
+      "id": "827b804f-d7ab-4669-878d-f18bd3a3e630",
+      "memory": "Recently added two new hens to the flock",
+      "hash": "a191340eb18c37784ec8f513cdce9e72",
+      "metadata": null,
+      "score": 0.29757180450581294,
+      "created_at": "2026-01-13T09:06:10.940024-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.9004615205323829
+    },
+    {
+      "id": "1ca2a2a2-f851-4c7c-a23a-98e27b292d61",
+      "memory": "The measuring cup has been working out great for Max's new grain-free kibble",
+      "hash": "7ae19282e86974e772ec43ee07e4594e",
+      "metadata": null,
+      "score": 0.3818114607156283,
+      "created_at": "2026-01-13T09:14:40.024972-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.7233127135920223
+    },
+    {
+      "id": "8d264144-e00a-45e4-b74e-29da60287379",
+      "memory": "Will experiment with different meal ideas and portion sizes to find what works best",
+      "hash": "397dc633227115571cd16f782f9f30fb",
+      "metadata": null,
+      "score": 0.2604887511782678,
+      "created_at": "2026-01-13T09:16:35.438575-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.4719907668472769
+    },
+    {
+      "id": "ef0cdcc7-7ab6-4a39-b46e-ab1b684d9bda",
+      "memory": "Got synthetic blend oil last time around 2 months ago",
+      "hash": "78480665fb4dd823fd0473cb1cb46db1",
+      "metadata": null,
+      "score": 0.1982751039833551,
+      "created_at": "2026-01-13T09:07:48.918502-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.39084063306776146
+    },
+    {
+      "id": "0d09f433-9d3c-4646-9efe-3e207042b4db",
+      "memory": "Spent around $120 on the purchase",
+      "hash": "62f1508457de8ad73a265b8e33c17fab",
+      "metadata": null,
+      "score": 0.25214909024684573,
+      "created_at": "2026-01-13T09:06:10.910708-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.3559186204123872
+    },
+    {
+      "id": "61a75661-8bba-454b-be8e-aeade07b7da6",
+      "memory": "Got Max a new stainless steel food bowl from Amazon for $15",
+      "hash": "02b8607b665516d9f6514968f9afcf51",
+      "metadata": null,
+      "score": 0.3542866570839394,
+      "created_at": "2026-01-13T09:14:39.991138-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.23315468223547758
+    },
+    {
+      "id": "98716bec-6daf-4103-9edc-c83f3c5a8350",
+      "memory": "Planning to start tracking food intake more closely to see if can make any correlations between what eat and how feel during workouts",
+      "hash": "07c21d49cf894d3735fa83cfc8b1acdb",
+      "metadata": null,
+      "score": 0.3334691037275622,
+      "created_at": "2026-01-13T09:16:35.386440-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.19385328921178416
+    },
+    {
+      "id": "a1d09e49-bb30-4402-b5d4-dd45cd16b7c8",
+      "memory": "Got Max a measuring cup from the pet store down the street for $5",
+      "hash": "73f3eeab1adec9d258b7c58f3cdb88b3",
+      "metadata": null,
+      "score": 0.333444873600206,
+      "created_at": "2026-01-13T09:14:40.007812-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.16317643345395413
+    },
+    {
+      "id": "3e45a56a-6ad6-4999-99c9-58b45c1e2a38",
+      "memory": "Recently got Max a new dog bed from PetSmart",
+      "hash": "f663f406cb33dd1f87e56a0c2d83b21d",
+      "metadata": null,
+      "score": 0.23965624685558615,
+      "created_at": "2026-01-13T09:14:40.144077-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.04019567274733126
+    },
+    {
+      "id": "382a042b-9902-416f-970d-60cfb83c63d1",
+      "memory": "Got a 10% discount from the local farm supply store",
+      "hash": "029b8713cbe1610a93d4ea8fc0e7b493",
+      "metadata": null,
+      "score": 0.1997609911478343,
+      "created_at": "2026-01-13T09:06:10.925822-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.033840254804540774
+    },
+    {
+      "id": "8d797efa-63fe-47cf-8cd6-dd2b1447824d",
+      "memory": "Thinking of trying out new pasta recipes",
+      "hash": "cd1aefee8d3e9cec03c875db7d00a4e4",
+      "metadata": null,
+      "score": 0.21157582720970589,
+      "created_at": "2026-01-13T09:02:44.687035-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.004496033425240909
+    },
+    {
+      "id": "0c800fb2-b01a-4ff7-bca0-2f987c7015dc",
+      "memory": "Thinking of adding shrimp to Tom Yum Soup for extra protein",
+      "hash": "5d9bc3a4a1aefe0a50bab29f3e2ca6f1",
+      "metadata": null,
+      "score": 0.21937470617693167,
+      "created_at": "2026-01-13T09:03:10.264029-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.002554774401901526
+    },
+    {
+      "id": "978ea0f6-817b-47c5-99bf-c575e642c9dd",
+      "memory": "Interested in Creamy Zucchini Noodle Pesto Pasta",
+      "hash": "4e40686425da2f44bfbb2cb2657b5e9e",
+      "metadata": null,
+      "score": 0.2209815208353362,
+      "created_at": "2026-01-13T09:04:17.959033-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.002388127177727575
+    },
+    {
+      "id": "7ef7b986-e306-4aeb-8f3f-aa096fb38f36",
+      "memory": "Invested in a spiralizer and started making zucchini noodles with vegan pesto sauce",
+      "hash": "8975e9d8a8e18a9b483b882db9a403ad",
+      "metadata": null,
+      "score": 0.24448437301374415,
+      "created_at": "2026-01-13T09:04:17.927984-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.002356971392338532
+    },
+    {
+      "id": "114f30e8-8936-44e5-a147-17edd038fee6",
+      "memory": "Loving zucchini noodles with vegan pesto sauce",
+      "hash": "9746e41473e37d7c28341ef059175c2b",
+      "metadata": null,
+      "score": 0.19800908051970262,
+      "created_at": "2026-01-13T09:04:17.944319-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.0021957583167789493
+    },
+    {
+      "id": "42b669a6-5a4b-49b6-a215-10dc96a4cda1",
+      "memory": "Has been posting on Instagram more frequently than usual over the past month, averaging about 3-4 posts per week",
+      "hash": "09c445968af52413ed3438fbdf3d7945",
+      "metadata": null,
+      "score": 0.26428802617933445,
+      "created_at": "2026-01-13T09:20:16.239029-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.001784936681532731
+    },
+    {
+      "id": "093973ba-f56a-4ddb-9051-ea93572676a2",
+      "memory": "Used a recipe from a cooking blog",
+      "hash": "5f9ba7b2b029d6d5dcf093c2a41368ad",
+      "metadata": null,
+      "score": 0.24808173809022271,
+      "created_at": "2026-01-13T09:02:44.731118-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.0010569419054945693
+    },
+    {
+      "id": "429e0003-87a2-4c44-9e36-42401f9d8dd8",
+      "memory": "Decided to give repurposing the old plow a try and see how it works out",
+      "hash": "6edffc76d9fcf711398ce0ac24a96746",
+      "metadata": null,
+      "score": 0.2286098043431074,
+      "created_at": "2026-01-13T09:07:08.069388-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.0009770599208633601
+    },
+    {
+      "id": "fd6b9600-c2c9-4502-b771-cc974797480c",
+      "memory": "Made homemade pasta from scratch for the first time on a lazy Sunday, March 12th",
+      "hash": "8c85c56458bf99fb7bdb22a095516b17",
+      "metadata": null,
+      "score": 0.2072118498768309,
+      "created_at": "2026-01-13T09:02:44.702278-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_208",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2606,
+    "load_time": 1226.4677
+  }
+}

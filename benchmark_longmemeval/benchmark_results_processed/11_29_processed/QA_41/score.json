@@ -1,0 +1,77 @@
+{
+  "sample_idx": 41,
+  "question_id": "e01b8e2f",
+  "question": "Where did I go on a week-long trip with my family?",
+  "question_type": "single-session-user",
+  "gold_answer": "Hawaii",
+  "question_date": "2023/05/30 (Tue) 21:42",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-29T21:52:11.457759",
+  "predicted_answer": "You went to Hawaii on a week-long trip with your family.",
+  "prompt_length": 2868,
+  "gen_token_usage": {
+    "prompt_tokens": 794,
+    "answer_tokens": 13,
+    "total_tokens": 807,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.61,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 11,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.18181818181818182,
+      "rouge1_f": 0.15384615384615385,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.15384615384615385,
+      "semantic_similarity": 0.6270139813423157,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.12237762237762238,
+      "avg_semantic": 0.6270139813423157,
+      "overall_average": 0.2233048975467682
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.18181818181818182,
+    "rouge1_f": 0.15384615384615385,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.15384615384615385,
+    "semantic_similarity": 0.6270139813423157,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.12237762237762238,
+    "avg_semantic": 0.6270139813423157,
+    "overall_average": 0.2233048975467682
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1292.2003,
+    "retrieval_time": 0.0798,
+    "generation_time": 1.6495,
+    "evaluation_time": 13.7763,
+    "cleanup_time": 1.7109,
+    "total_time": 1309.4172
+  }
+}

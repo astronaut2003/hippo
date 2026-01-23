@@ -1,0 +1,242 @@
+{
+  "sample_idx": 211,
+  "question_id": "d6062bb9",
+  "question": "What is the total number of views on my most popular videos on YouTube and TikTok?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2026-01-14T02:05:21.989005",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "600d6383-de5f-42bc-8d94-77d7dc35648b",
+      "memory": "Has a tutorial on social media analytics on YouTube that has been doing well with 542 views",
+      "hash": "588ef9eeef598b48214884d09ec78814",
+      "metadata": null,
+      "score": 0.596495095659666,
+      "created_at": "2026-01-13T10:15:45.426921-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.999999998165312
+    },
+    {
+      "id": "7dcc3153-6543-4846-9a0d-6071627e426b",
+      "memory": "Plans to mention the popular TikTok video of Luna chasing a laser pointer to show influence",
+      "hash": "59bf2bebf483ee947255ccd9aea11f8e",
+      "metadata": null,
+      "score": 0.39428408564363554,
+      "created_at": "2026-01-13T10:12:59.311141-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.9017956663636464
+    },
+    {
+      "id": "4694c141-6ecd-429b-be64-dcabfa8de1e6",
+      "memory": "Has a video of Luna chasing a laser pointer that has 1,456 views",
+      "hash": "a55428b1e6cb3c8888e4c7d6d8d37b4b",
+      "metadata": null,
+      "score": 0.44254374567851884,
+      "created_at": "2026-01-13T10:12:59.208717-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.7130440170758299
+    },
+    {
+      "id": "20074f76-8f22-44b6-b0d0-61416c5dad59",
+      "memory": "Thinking of creating a Twitter thread that summarizes the key takeaways from the social media analytics tutorial on YouTube",
+      "hash": "bc99cdec2358757698468d6e7046a75e",
+      "metadata": null,
+      "score": 0.30740807714597473,
+      "created_at": "2026-01-13T10:15:45.474807-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.21965003439406583
+    },
+    {
+      "id": "2826673f-e1a4-410f-922e-e68653021ea6",
+      "memory": "Trying to be more mindful of social media usage since the break",
+      "hash": "8b3660163b3adcb9036253d6f1b3afa4",
+      "metadata": null,
+      "score": 0.2528983675658845,
+      "created_at": "2026-01-13T10:05:47.367691-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.2116759753836169
+    },
+    {
+      "id": "bae7a137-2e71-4cd3-8b47-ca154eef8291",
+      "memory": "Trying to find ways to optimize social media usage and reduce distractions",
+      "hash": "0e3937e0f431f7a4eafc32d396375ed9",
+      "metadata": null,
+      "score": 0.24889374443287227,
+      "created_at": "2026-01-13T10:21:47.466683-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.10241348505977033
+    },
+    {
+      "id": "a317dd4d-ed38-4703-b736-138fa4ff66a9",
+      "memory": "Thinking of creating more content around social media analytics",
+      "hash": "ad476c2e513eab9e880679874ae339fa",
+      "metadata": null,
+      "score": 0.2767028228147558,
+      "created_at": "2026-01-13T10:15:45.443275-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.10133112386613718
+    },
+    {
+      "id": "42e964c4-9ddf-4f76-9f3f-65b43ed30716",
+      "memory": "Being more careful with social media usage now, setting daily time limits and focusing on posting updates and engaging with others",
+      "hash": "317fc4613810bba4fd94ce52a9c7e2ac",
+      "metadata": null,
+      "score": 0.2670846383598965,
+      "created_at": "2026-01-13T10:05:47.463977-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.05822179382900149
+    },
+    {
+      "id": "783b277e-3735-488f-92b8-cf9ec433c444",
+      "memory": "Has been stuck at 187 followers on Twitter",
+      "hash": "6408a5c3bb960a78e5d6a4501bd3422b",
+      "metadata": null,
+      "score": 0.2669298675913437,
+      "created_at": "2026-01-13T10:12:59.237926-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.05620159623092709
+    },
+    {
+      "id": "7c756648-d8b3-4852-bbfd-3edf7d2ea980",
+      "memory": "Planning to share tips on how to choose the right social media analytics tools for specific needs and goals",
+      "hash": "76245f5764fa380b1464f86d06e2bc9b",
+      "metadata": null,
+      "score": 0.25142664808747833,
+      "created_at": "2026-01-13T10:15:45.539814-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.049175521854669
+    },
+    {
+      "id": "3f97956a-984d-4205-a6d6-9e41bda9ad79",
+      "memory": "Gained 7 new followers since joining the Twitter chat",
+      "hash": "3c16b9988e42c1c6b1d82fbd5a1aacd4",
+      "metadata": null,
+      "score": 0.27532880854735575,
+      "created_at": "2026-01-13T10:12:59.267507-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.03745396655498074
+    },
+    {
+      "id": "7e796e41-1fa2-4a0c-b073-df98e28d5b04",
+      "memory": "Tends to spend more time on social media when bored or procrastinating",
+      "hash": "6967a25c9b1a6e7d861a39982c905476",
+      "metadata": null,
+      "score": 0.2582180535905576,
+      "created_at": "2026-01-13T10:21:47.484583-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.03390103632576725
+    },
+    {
+      "id": "348a9431-7dcb-48c9-997a-1c980d71bd6b",
+      "memory": "Currently doing a weekly update on Instagram",
+      "hash": "18635fbe0df58098687e29f1880ca5d5",
+      "metadata": null,
+      "score": 0.332404642715144,
+      "created_at": "2026-01-13T10:05:47.494764-08:00",
+      "updated_at": "2026-01-13T10:12:58.382608-08:00",
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.017219446251246728
+    },
+    {
+      "id": "67561e36-8829-4cd0-981a-df80be928b58",
+      "memory": "Decided to start with posting 3-4 times a week on Instagram and see how that goes",
+      "hash": "1957bf58078bc82b63d24d45f5a828d7",
+      "metadata": null,
+      "score": 0.35238812961446286,
+      "created_at": "2026-01-13T10:05:47.543127-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.01359757804752767
+    },
+    {
+      "id": "e4da1010-1b3d-40b7-9a2a-1bdfc589637a",
+      "memory": "Planning to share tips on how to track engagement rates and use social media listening to stay on top of industry trends",
+      "hash": "7dfcb1652addef25bdc6cf0ede7e84bf",
+      "metadata": null,
+      "score": 0.27262860839241676,
+      "created_at": "2026-01-13T10:15:45.507265-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.009462349394064087
+    },
+    {
+      "id": "888d5680-7b90-4144-9fcf-64b78abdf4f3",
+      "memory": "Likes the idea of repurposing content from YouTube to Twitter",
+      "hash": "73cfb94577b5eb52170ede855d58bc18",
+      "metadata": null,
+      "score": 0.29143415599110317,
+      "created_at": "2026-01-13T10:15:45.459309-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.004988029891382747
+    },
+    {
+      "id": "80fc5c31-c81d-422d-b304-cc435b2e3d4d",
+      "memory": "Interested in fitness apps or YouTube channels that focus on yoga and strength training",
+      "hash": "3405e4123b4726a1e2dc307fe1c234c4",
+      "metadata": null,
+      "score": 0.34862759257607356,
+      "created_at": "2026-01-13T10:11:55.740156-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.0015484798841987272
+    },
+    {
+      "id": "be0633b2-d2e2-43e0-9180-93340c65078e",
+      "memory": "Wants to challenge self to post more frequently on Instagram",
+      "hash": "f1e32f6f1002c3b348063abc1312a823",
+      "metadata": null,
+      "score": 0.2565165984461175,
+      "created_at": "2026-01-13T10:05:47.511059-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.000691829317753872
+    },
+    {
+      "id": "8f272e76-937c-404e-ac13-adb5e55e542f",
+      "memory": "Thinking of starting a new habit of posting daily updates on Instagram",
+      "hash": "72a8e02f74180fba9ed31308720c9f03",
+      "metadata": null,
+      "score": 0.27247344746557123,
+      "created_at": "2026-01-13T10:05:47.479083-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.00010218217540927194
+    },
+    {
+      "id": "ae8d7246-43b0-40ef-a54b-a590c7e316bb",
+      "memory": "Started using hashtags to reach a wider audience on Instagram",
+      "hash": "6ecb527d7a28fa44606d8e4b8a1e95a2",
+      "metadata": null,
+      "score": 0.25079394268735444,
+      "created_at": "2026-01-13T10:21:47.595269-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_211",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.272,
+    "load_time": 1504.2222
+  }
+}

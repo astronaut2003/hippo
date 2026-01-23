@@ -1,0 +1,242 @@
+{
+  "sample_idx": 179,
+  "question_id": "681a1674",
+  "question": "How many Marvel movies did I re-watch?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T20:45:14.846577",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "9fc2112c-50fc-4b8d-b8ad-85654e2c5ac6",
+      "memory": "Doctor Strange was one of the four Marvel movies watched recently",
+      "hash": "0d80c835526205d1d8c5b9d91b84c736",
+      "metadata": null,
+      "score": 0.584316865659307,
+      "created_at": "2025-12-08T04:49:29.924676-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.9999999987810002
+    },
+    {
+      "id": "efa3da15-7908-4835-9c46-1e0533276113",
+      "memory": "Trying to find some new movies to watch",
+      "hash": "0c77fd1714e9b05eb59d4be7962a5184",
+      "metadata": null,
+      "score": 0.43019158203317254,
+      "created_at": "2025-12-08T05:01:38.802046-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.6076576801413132
+    },
+    {
+      "id": "f66bea1d-9d11-4c00-82f1-ee0e02753d7f",
+      "memory": "Re-watched Avengers: Endgame, which is a Marvel movie",
+      "hash": "e94e1482557d92297760ba64fd683da7",
+      "metadata": null,
+      "score": 0.570401660711991,
+      "created_at": "2025-12-08T04:49:30.165144-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.5758669971845993
+    },
+    {
+      "id": "7d614005-0249-4bb0-8af4-fbf26784d5da",
+      "memory": "Re-watched Avengers: Endgame yesterday",
+      "hash": "ebf42553b1ff3d3b7506aa1349d149a0",
+      "metadata": null,
+      "score": 0.5281331773394482,
+      "created_at": "2025-12-08T04:49:29.976096-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.49546738735747153
+    },
+    {
+      "id": "50122ebd-c1aa-465e-b15a-7ea6ba76f9ca",
+      "memory": "Re-watched Spider-Man: No Way Home",
+      "hash": "2676849498600def3022961a3e4f0f7a",
+      "metadata": null,
+      "score": 0.4995491923420279,
+      "created_at": "2025-12-08T05:01:38.821620-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.4616968018498107
+    },
+    {
+      "id": "ac5e2bd0-0d43-4381-be9b-1adf6c0dd961",
+      "memory": "Has been into Marvel movies lately",
+      "hash": "741a7a09f0e8407674503a9c800559d7",
+      "metadata": null,
+      "score": 0.6663944966374251,
+      "created_at": "2025-12-08T04:49:29.864746-08:00",
+      "updated_at": "2025-12-08T05:01:38.763688-08:00",
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.4551950697191027
+    },
+    {
+      "id": "433cae28-62d3-42be-94cd-baaf6dd197eb",
+      "memory": "Interested in watching more sci-fi and action movies with a similar sense of scale and grandeur as Avengers: Endgame",
+      "hash": "ab6e0bb80433873bbc0445f2f83b0df4",
+      "metadata": null,
+      "score": 0.4548350993467637,
+      "created_at": "2025-12-08T04:49:30.034425-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.3793253690458825
+    },
+    {
+      "id": "9e6ab386-bd02-4b80-a447-849662f3ec3b",
+      "memory": "Has already seen some of the recommended movies",
+      "hash": "8ee47d4603106bceed6322a5699337d6",
+      "metadata": null,
+      "score": 0.38765668533407627,
+      "created_at": "2025-12-08T04:49:30.082872-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.3559601125103937
+    },
+    {
+      "id": "a120793b-540f-4283-a1f9-3fea9cff6ce5",
+      "memory": "Been watching a lot of movies with complex villains lately, like the Joker in The Dark Knight",
+      "hash": "5de30f8b924bdf102fa5ef3022ab41f4",
+      "metadata": null,
+      "score": 0.2901837134949452,
+      "created_at": "2025-12-08T05:01:39.007165-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.35273700181665846
+    },
+    {
+      "id": "22733c7a-14a5-4279-ba38-5d2a6f421539",
+      "memory": "More interested in non-Marvel movies similar to Avengers: Endgame",
+      "hash": "724df2b1011922d56af3dd167401efce",
+      "metadata": null,
+      "score": 0.5036862142915227,
+      "created_at": "2025-12-08T04:49:29.938889-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.20093668396873868
+    },
+    {
+      "id": "00d0318c-7540-409e-a993-0c5765c3e273",
+      "memory": "Interested in exploring more options for movies with similar scale and grandeur",
+      "hash": "3af0ff38a37e0e981d70b85c6fd56db5",
+      "metadata": null,
+      "score": 0.3005026283969606,
+      "created_at": "2025-12-08T04:49:30.100629-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.12728084473812076
+    },
+    {
+      "id": "0088493f-029e-4b1b-8806-ded036f302e5",
+      "memory": "Exploring more sci-fi and action movies with a similar sense of grandeur and epic battles",
+      "hash": "4938f48bf59f9dbb197f90cf8ba63054",
+      "metadata": null,
+      "score": 0.36922813044343883,
+      "created_at": "2025-12-08T04:49:30.017821-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.11291478064113138
+    },
+    {
+      "id": "2133a912-1c16-4dc1-89a3-239bed2347b0",
+      "memory": "Has already seen The Dark Knight, it's one of my favorite movies",
+      "hash": "73a28a9af9464a2f059cefa11e0d502d",
+      "metadata": null,
+      "score": 0.327363324881545,
+      "created_at": "2025-12-08T05:01:38.841898-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.031162743104154362
+    },
+    {
+      "id": "d294d5a6-a9df-4884-bc4e-d6357f144efc",
+      "memory": "Wants recommendations for more movies that have a similar blend of sci-fi and action elements",
+      "hash": "3ded6a072713289aa8dcd6c48fdd6a83",
+      "metadata": null,
+      "score": 0.3287467231147201,
+      "created_at": "2025-12-08T04:49:30.131888-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.018071275423616306
+    },
+    {
+      "id": "3f8592cf-7c34-444b-8873-699f8c0ae5c0",
+      "memory": "Wants to explore more options for movies with similar scale and grandeur",
+      "hash": "60a3d59bfa508a40fd11c41690b52453",
+      "metadata": null,
+      "score": 0.2860824106710175,
+      "created_at": "2025-12-08T04:49:30.066873-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.013227948544539687
+    },
+    {
+      "id": "b7c5f3e2-81dc-465f-86f4-d65897bc8be9",
+      "memory": "Seen Tangled with my family and really enjoyed it",
+      "hash": "8338a69de8a5abbea0e5d6d1abffcf9a",
+      "metadata": null,
+      "score": 0.32258001660837315,
+      "created_at": "2025-12-08T05:01:38.942661-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.003980730617669379
+    },
+    {
+      "id": "aa74027e-fa37-4219-9a1d-28e02ffb6397",
+      "memory": "Wants recommendations for movies similar to Avengers: Endgame",
+      "hash": "4403342db69c3359c86e02d00f5e015a",
+      "metadata": null,
+      "score": 0.4330388427372063,
+      "created_at": "2025-12-08T04:49:29.894489-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.003972941675686322
+    },
+    {
+      "id": "ed553a2b-273a-4101-ac7a-7613eb2f3053",
+      "memory": "Wants recommendations for sci-fi or action movies with similar scale and scope to Avengers: Endgame",
+      "hash": "6d0d1d42d31eab97abae33dcbd2dcd6c",
+      "metadata": null,
+      "score": 0.3802295759148752,
+      "created_at": "2025-12-08T04:49:29.954115-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.0024034117396675644
+    },
+    {
+      "id": "b98b7ca3-755c-4c71-a98f-281f16e5a332",
+      "memory": "Been thinking about other movies that might have a similar sense of scale and action to Avengers: Endgame",
+      "hash": "80f30f90854b1d5dd31a60cac3187700",
+      "metadata": null,
+      "score": 0.3676972780775314,
+      "created_at": "2025-12-08T04:49:30.148802-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.0011185850710593646
+    },
+    {
+      "id": "a30c8864-5b28-4cb1-8e69-7945ed797bf8",
+      "memory": "Thinking about other movies that might have a similar sense of scale and action to Avengers: Endgame",
+      "hash": "6b739b5f38526552e497c0bababdf401",
+      "metadata": null,
+      "score": 0.39179001362780486,
+      "created_at": "2025-12-08T04:49:30.001810-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_179",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.6813,
+    "load_time": 1416.2654
+  }
+}

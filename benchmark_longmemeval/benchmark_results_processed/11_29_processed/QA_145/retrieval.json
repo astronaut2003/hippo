@@ -1,0 +1,242 @@
+{
+  "sample_idx": 145,
+  "question_id": "09d032c9",
+  "question": "I've been having trouble with the battery life on my phone lately. Any tips?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T11:54:47.540145",
+  "load_result": {
+    "total_sessions": 43,
+    "added_sessions": 43,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "413e32dc-dc2d-469e-ace4-a4391553cd10",
+      "memory": "Has been trying to prioritize Instagram streams more lately",
+      "hash": "d13cf83e971b1332047b36df4bf1fa3a",
+      "metadata": null,
+      "score": 0.18525169660079482,
+      "created_at": "2025-12-06T20:18:19.634418-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.9999998676558594
+    },
+    {
+      "id": "abc485f2-3541-423a-80fb-0ed9fb45ea2d",
+      "memory": "Sometimes forgets to drink enough water",
+      "hash": "ee00785356b4f78a7459cad43f36cbb9",
+      "metadata": null,
+      "score": 0.24258672154729866,
+      "created_at": "2025-12-06T20:08:38.214968-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.7852607157040123
+    },
+    {
+      "id": "99b41b58-68af-46a0-909e-644ca0bdb4d9",
+      "memory": "Can start by being more mindful of what is already at home before shopping and making a list of what needs to be used up",
+      "hash": "31f5ecb0aafae693aec7f90d48ffdcdf",
+      "metadata": null,
+      "score": 0.1809693112442885,
+      "created_at": "2025-12-06T20:12:37.648829-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.4476782484854834
+    },
+    {
+      "id": "04bf84aa-6820-4987-8832-5404d7ed3d56",
+      "memory": "Has a watch and wants to know if it should be fixed before getting it appraised",
+      "hash": "27d0c64ed57634b895110714ebe4fec8",
+      "metadata": null,
+      "score": 0.17696679760795825,
+      "created_at": "2025-12-06T20:01:05.972132-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.25322155904607424
+    },
+    {
+      "id": "385684cf-4d27-48c7-8fd4-63fc0750cbd8",
+      "memory": "Has been doing a lot of jogging and cycling lately",
+      "hash": "d78f7b034fd8633d30ce675eccaa6ea2",
+      "metadata": null,
+      "score": 0.3301775981690947,
+      "created_at": "2025-12-06T19:57:08.165179-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.22169349970813407
+    },
+    {
+      "id": "31d959bf-f74c-454d-854c-60863382339a",
+      "memory": "Has been watching a lot of Netflix lately",
+      "hash": "a8ec381cab53ddd8a6a534e8eea37a83",
+      "metadata": null,
+      "score": 0.27372652625020033,
+      "created_at": "2025-12-06T20:01:45.198031-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.2194721472487756
+    },
+    {
+      "id": "143b4101-fcf0-4c9f-b0b1-bf2a2fc56afe",
+      "memory": "Just got back from a week-long beach vacation where they didn't do much exercise",
+      "hash": "d3a2294c3ee7c04a799be637ccd36f6f",
+      "metadata": null,
+      "score": 0.20446715713605174,
+      "created_at": "2025-12-06T19:57:08.191066-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.1863033162079002
+    },
+    {
+      "id": "7cc1009d-dbac-4497-b15c-70cc8971aa92",
+      "memory": "Trying to establish a consistent daily routine to improve productivity",
+      "hash": "4c800efc551041a90bb77164087b3a99",
+      "metadata": null,
+      "score": 0.24380160340174867,
+      "created_at": "2025-12-06T20:15:29.242760-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.1843091475227943
+    },
+    {
+      "id": "7ed7a61f-e536-4035-a49f-5fb5f76e9f2e",
+      "memory": "Looking for workout playlist recommendations",
+      "hash": "a1c69caf7c4ed0f73f21e692c3d15c27",
+      "metadata": null,
+      "score": 0.16359356761431684,
+      "created_at": "2025-12-06T19:57:08.148605-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.17191501050523736
+    },
+    {
+      "id": "68f7f912-5e96-47ee-9ac9-38fb4fd464bb",
+      "memory": "Spends around 30-40 minutes commuting to work every day",
+      "hash": "5f58a91891c2d9d1e5ea912a6eb50f2b",
+      "metadata": null,
+      "score": 0.24687634488411778,
+      "created_at": "2025-12-06T20:15:29.362376-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.14880537213543413
+    },
+    {
+      "id": "a45dd33a-f611-4c64-aed8-a0d4bdb404e7",
+      "memory": "Looking for advice on the best way to organize tech accessories like a new portable power bank and wireless charging pad when traveling",
+      "hash": "4e7315ade33d13be55153792386d6c62",
+      "metadata": null,
+      "score": 0.23707316792153485,
+      "created_at": "2025-12-06T20:10:19.009224-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.14591508967410977
+    },
+    {
+      "id": "e70eded1-95ef-4aaf-ab3f-c784bdf8db58",
+      "memory": "Has been slacking off on exercise routine during week-long beach vacation",
+      "hash": "e2cb523b246a29879ee6d4c6c6d446dc",
+      "metadata": null,
+      "score": 0.267615043671358,
+      "created_at": "2025-12-06T19:57:08.297646-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.08242984609130792
+    },
+    {
+      "id": "d338d93b-c373-4fc2-815e-c2ce02c5d19f",
+      "memory": "Wants ideas that won't take too much time to prepare",
+      "hash": "9e17155c6d8753989330319c6e1436fe",
+      "metadata": null,
+      "score": 0.17429442989006005,
+      "created_at": "2025-12-06T19:57:08.231104-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.07812597570130088
+    },
+    {
+      "id": "f6949085-6700-43fa-ad38-d9a3f602f6fe",
+      "memory": "Wants to know more about the features and performance of the LG OLED C9 series, specifically its picture quality, viewing angles, and HDR support",
+      "hash": "6bdd312d5a574fea3ebef69b7b98d1f5",
+      "metadata": null,
+      "score": 0.182794092299659,
+      "created_at": "2025-12-06T20:10:19.075517-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.06537844170157327
+    },
+    {
+      "id": "8e341c94-4845-4ecd-8fe3-4ebee76f279a",
+      "memory": "Has been using a budgeting app to track expenses",
+      "hash": "0f041a90fb61c81388baaac348f5cd3f",
+      "metadata": null,
+      "score": 0.2181281355013232,
+      "created_at": "2025-12-06T19:58:55.116703-08:00",
+      "updated_at": "2025-12-06T20:12:37.461731-08:00",
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.06536582038078145
+    },
+    {
+      "id": "63fa9738-ba49-4db0-a117-80cf5e6c85f7",
+      "memory": "Has been doing pretty well with YouTube streams so far",
+      "hash": "af65b679d264535277991d36dd3a3bfa",
+      "metadata": null,
+      "score": 0.22593989191442712,
+      "created_at": "2025-12-06T20:18:19.572243-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.04982897448606395
+    },
+    {
+      "id": "7a30156b-c858-4d06-8bfd-ecac322aeb4b",
+      "memory": "Has been doing a lot of high-intensity jogging and cycling",
+      "hash": "e92163c6989ce9adae3d3815c4970232",
+      "metadata": null,
+      "score": 0.3029844378061443,
+      "created_at": "2025-12-06T19:57:08.349122-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.04469209692379748
+    },
+    {
+      "id": "39fb10d2-f493-4a2c-a35c-a515511b20d3",
+      "memory": "Wants to explore more ideas on how to make the most of daily commute",
+      "hash": "48c07a208adef2c23d074f5287d514c5",
+      "metadata": null,
+      "score": 0.21745526880869648,
+      "created_at": "2025-12-06T20:15:29.393445-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.03440572047847273
+    },
+    {
+      "id": "006dba33-6aa4-469d-9c06-946dbf698280",
+      "memory": "Wants to make the most of commute time",
+      "hash": "02417b47aa1e637d1aa15c5e94470004",
+      "metadata": null,
+      "score": 0.2456259245098586,
+      "created_at": "2025-12-06T20:15:29.378612-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.030619324240929873
+    },
+    {
+      "id": "7326e24f-e0e9-4fbe-8521-1192042d8567",
+      "memory": "Twitter follower count has been stagnant for a while",
+      "hash": "c4c40fbb0d6e09a261fb915985111135",
+      "metadata": null,
+      "score": 0.19449773736399945,
+      "created_at": "2025-12-06T20:05:45.282087-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_145",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4838,
+    "load_time": 1480.313
+  }
+}

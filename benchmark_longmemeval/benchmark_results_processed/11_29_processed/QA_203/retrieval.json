@@ -1,0 +1,242 @@
+{
+  "sample_idx": 203,
+  "question_id": "ba358f49",
+  "question": "How many years will I be when my friend Rachel gets married?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T06:34:08.745410",
+  "load_result": {
+    "total_sessions": 41,
+    "added_sessions": 41,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "d7ca6b87-17f6-4e3f-860c-86e85b637f84",
+      "memory": "Friend Rachel is getting married next year",
+      "hash": "aacd2ac2e2dd1ab6f2d2d1399552fb0b",
+      "metadata": null,
+      "score": 0.7720414805954883,
+      "created_at": "2025-12-08T14:36:34.065776-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.9999999990684698
+    },
+    {
+      "id": "1d3191ee-9216-4446-8ed2-1be831b1bcf0",
+      "memory": "Thinking about their own life goals",
+      "hash": "d222f711b1290e01574fc050c140d1db",
+      "metadata": null,
+      "score": 0.13765810486304303,
+      "created_at": "2025-12-08T14:36:34.086026-08:00",
+      "updated_at": "2025-12-08T14:43:18.445295-08:00",
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.08871263741198926
+    },
+    {
+      "id": "4cb9d065-219b-4715-9577-897138698f48",
+      "memory": "Planning to stay in the industry for a long time",
+      "hash": "22b22de60a4066bd11a85afaaa650e09",
+      "metadata": null,
+      "score": 0.1529039088440786,
+      "created_at": "2025-12-08T14:36:34.217206-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.00960183777514967
+    },
+    {
+      "id": "82406103-6109-47e4-9733-795ac68532fb",
+      "memory": "Has been working in the industry for five years",
+      "hash": "f80acb53fb95ced3fc13cbb395559018",
+      "metadata": null,
+      "score": 0.1443579964851661,
+      "created_at": "2025-12-08T14:36:34.121643-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.007165643393906279
+    },
+    {
+      "id": "015b8745-8296-43a8-9781-e12578ae706c",
+      "memory": "Wants to finish thesis by the end of the year",
+      "hash": "1e4a94aaebbbcee4af9a29baf4fd2938",
+      "metadata": null,
+      "score": 0.20957424847402767,
+      "created_at": "2025-12-08T14:41:20.016833-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.004796254911896927
+    },
+    {
+      "id": "6e496b46-8c91-4ddc-b5bc-2a4fedcc4214",
+      "memory": "Will ask the appraiser about the painter's mark and see what they can find out",
+      "hash": "521f758a9d7c18eb3592cd984f157dfc",
+      "metadata": null,
+      "score": 0.1234057894574661,
+      "created_at": "2025-12-08T14:46:40.673337-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0026014323766892834
+    },
+    {
+      "id": "527723e2-fbae-499b-b2da-44b470e8d2d3",
+      "memory": "Will ask about the mechanic's experience with Honda vehicles and oil changes",
+      "hash": "f53a9e62f70a9a76d1b89584444740d5",
+      "metadata": null,
+      "score": 0.133298759778779,
+      "created_at": "2025-12-08T14:51:48.808294-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0024469437347105698
+    },
+    {
+      "id": "925a7db4-1fc8-4dbf-b55b-1b7dc90e4150",
+      "memory": "Will double-check documents and arrive at the airport with plenty of time",
+      "hash": "c6126e1ae805fe87fe902ea33509ef91",
+      "metadata": null,
+      "score": 0.13278108193413785,
+      "created_at": "2025-12-08T14:53:04.755238-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0014149169642294237
+    },
+    {
+      "id": "a8634258-0c68-4276-b527-44cf80b93a12",
+      "memory": "Will also consider consulting with a Meissen expert or a specialized auction house to get a second opinion on the vase's value and authenticity",
+      "hash": "8c49b0884ff3f8fd26e78dbe33cdda7a",
+      "metadata": null,
+      "score": 0.16239662418337447,
+      "created_at": "2025-12-08T14:46:40.700073-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0012550980643331008
+    },
+    {
+      "id": "d0490a42-3adf-49b4-8c83-bc20068e2ad3",
+      "memory": "The episode was about dealing with a noisy neighbor",
+      "hash": "5cffb7799acb7964d8a988c3b6adc22a",
+      "metadata": null,
+      "score": 0.14836041384950055,
+      "created_at": "2025-12-08T14:43:18.708241-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0012533213116938976
+    },
+    {
+      "id": "238f3f0f-de69-4e13-884d-405f98cd6577",
+      "memory": "Made sure to create content that was authentic and aligned with the friend's brand values",
+      "hash": "637fc09ad2550783b7c081c3e01818a2",
+      "metadata": null,
+      "score": 0.1372861648546944,
+      "created_at": "2025-12-08T14:44:13.303681-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0010424207734204846
+    },
+    {
+      "id": "a133cc49-39c7-4d3c-a876-b3b90d41a8b7",
+      "memory": "Just finished listening to a true crime podcast that sister recommended on January 15th",
+      "hash": "47df0fa47aaf635e337addbbc8554226",
+      "metadata": null,
+      "score": 0.14287653803004985,
+      "created_at": "2025-12-08T14:43:18.480570-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0009136062070782566
+    },
+    {
+      "id": "880d461f-16c9-408d-86ac-b9fc8b97049b",
+      "memory": "Helped a friend launch her own social media campaign to promote her sustainable fashion brand a few weeks ago",
+      "hash": "97624c64dd28e87cbcdb7418c2175a52",
+      "metadata": null,
+      "score": 0.12704292653484453,
+      "created_at": "2025-12-08T14:44:13.213489-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0009015242891316752
+    },
+    {
+      "id": "2b12392c-a1a3-45c2-9081-5e51245706e6",
+      "memory": "Has 4,500 miles on the car since the last oil change and wants to get the oil change done as soon as possible",
+      "hash": "2fc48f54ccf51bfe54714760e0b6f676",
+      "metadata": null,
+      "score": 0.20107149627038973,
+      "created_at": "2025-12-08T14:51:48.789864-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0008740734608559867
+    },
+    {
+      "id": "99afe822-6ba7-42af-925a-14d02ef78720",
+      "memory": "Interested in the Canon 7, Canon 7s, and Canon QL17 models, such as their features, production years, and any notable differences between them",
+      "hash": "f01f1899d51e009cf93e887ae387c5c8",
+      "metadata": null,
+      "score": 0.15220859483066868,
+      "created_at": "2025-12-08T14:39:00.361045-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0006916898024417839
+    },
+    {
+      "id": "4678a2e4-7e0e-4837-b4ac-acb2b592b564",
+      "memory": "Had a vase appraised today",
+      "hash": "a7864e4d2b122c617ee83cd1e78fb862",
+      "metadata": null,
+      "score": 0.2205381664903741,
+      "created_at": "2025-12-08T14:46:40.506204-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0005333811422887838
+    },
+    {
+      "id": "1c75c406-8d2b-40e6-98de-80d3afd3d683",
+      "memory": "The campaign for the friend's sustainable fashion brand was a huge success, and her followers increased by over 50% in just one week",
+      "hash": "65b622007535253552b965f5b47ca5d8",
+      "metadata": null,
+      "score": 0.13476013895517253,
+      "created_at": "2025-12-08T14:44:13.321825-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0004908279165798685
+    },
+    {
+      "id": "a26756bd-32a1-4717-b055-3fac3ecc86e3",
+      "memory": "Will ask about career services and job placement rates for graduates",
+      "hash": "f58a9235477e1a98c3d7e9c0d68b9868",
+      "metadata": null,
+      "score": 0.144855525053373,
+      "created_at": "2025-12-08T14:36:34.186117-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0004011907459320699
+    },
+    {
+      "id": "2b847a74-bdd5-4fff-9454-5e5e2f024327",
+      "memory": "Will ask the appraiser about the additional marks or signatures on the vase",
+      "hash": "487f5e3e4fe7a1b652f19cdb3c066726",
+      "metadata": null,
+      "score": 0.21794006658962436,
+      "created_at": "2025-12-08T14:46:40.588929-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0001357439016351202
+    },
+    {
+      "id": "cfe933c2-ff8c-49d0-a778-502f903afd8f",
+      "memory": "Curious to know if the appraiser checked for any other marks or signatures on the vase that could provide more information about its history",
+      "hash": "a647d993c75e0ed0541e40c86cdecb99",
+      "metadata": null,
+      "score": 0.18270208261965146,
+      "created_at": "2025-12-08T14:46:40.573939-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_203",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.397,
+    "load_time": 1440.351
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 67,
+  "question_id": "19b5f2b3_abs",
+  "question": "How long was I in Korea for?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T04:51:50.802812",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "93108f92-6c0e-45e9-93d4-d69d2c8357d5",
+      "memory": "Spent two weeks traveling solo around Japan",
+      "hash": "891643435e5830d9db7c8d863695b80f",
+      "metadata": null,
+      "score": 0.5148995781864084,
+      "created_at": "2025-11-30T12:56:22.014097-08:00",
+      "updated_at": "2025-11-30T12:58:42.794587-08:00",
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.9999999966898189
+    },
+    {
+      "id": "8461a20e-61e4-4a02-ae8c-8a8b33b4216a",
+      "memory": "Thinking of visiting South Korea",
+      "hash": "625cf297f5cca6767807b51ea686b9b6",
+      "metadata": null,
+      "score": 0.602924802867032,
+      "created_at": "2025-11-30T12:58:42.847701-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.8050607190506535
+    },
+    {
+      "id": "88fded49-56c1-415b-89ab-0ec62f2ce04a",
+      "memory": "Moved to Tokyo 9 months ago",
+      "hash": "b0236c04d57874b0ea8b36bcf0807f0a",
+      "metadata": null,
+      "score": 0.3947087854443876,
+      "created_at": "2025-11-30T12:53:02.944400-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.5605338820298372
+    },
+    {
+      "id": "6c92fdc6-d8df-4ce1-882f-fd4bd6ab22ad",
+      "memory": "Spent three days exploring the city in Japan",
+      "hash": "b94d10c4ddaf6476a380ea91844d19e2",
+      "metadata": null,
+      "score": 0.4483560268956486,
+      "created_at": "2025-11-30T12:56:22.084424-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.446076526510324
+    },
+    {
+      "id": "f068df4f-ca01-4a44-92a5-8b2aa19d02f0",
+      "memory": "Thinking of visiting the Demilitarized Zone (DMZ) between North and South Korea",
+      "hash": "853dc0b657580b8f76d5100a8e119259",
+      "metadata": null,
+      "score": 0.44598316197478016,
+      "created_at": "2025-11-30T12:58:42.873137-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.0694958216992242
+    },
+    {
+      "id": "6aca84a5-db4d-4142-8e3d-708a6747e592",
+      "memory": "Stayed in small hostels and guesthouses during solo trip to Japan",
+      "hash": "8243de92698b73f35519c6cd6a7d5a58",
+      "metadata": null,
+      "score": 0.32381556826324875,
+      "created_at": "2025-11-30T12:58:42.820548-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.052142070016463135
+    },
+    {
+      "id": "7cf41308-fffc-4c5f-98a7-0bc447a685b7",
+      "memory": "Planning to travel to Seoul in July",
+      "hash": "67c491155315d40dcb0ce69240e7124c",
+      "metadata": null,
+      "score": 0.5446561216943683,
+      "created_at": "2025-11-30T12:52:09.773952-08:00",
+      "updated_at": "2025-11-30T12:56:21.967652-08:00",
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.01880273880754957
+    },
+    {
+      "id": "cfe84ed8-ad71-4fad-a42e-59c6c1ff3323",
+      "memory": "Took a trip with friends from language school to a city in Japan last month",
+      "hash": "9a2b84ce4fe1232a4b8e4cf49db1c4e1",
+      "metadata": null,
+      "score": 0.41768023974193613,
+      "created_at": "2025-11-30T12:56:22.070302-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.012786127563248047
+    },
+    {
+      "id": "3332081a-ae26-4130-9078-6988ff4b6982",
+      "memory": "Visited Fushimi Inari Shrine when in Japan a few months ago",
+      "hash": "3787707da1bc328ee30312d9cdb49629",
+      "metadata": null,
+      "score": 0.31401369362527487,
+      "created_at": "2025-11-30T12:58:42.807738-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.011652508224442928
+    },
+    {
+      "id": "f55af8cb-f6cb-4a0d-909f-670c71708435",
+      "memory": "Tried all sorts of delicious food in Japan",
+      "hash": "bbed3298e1e1b48cb06c2a9d5cdde1ce",
+      "metadata": null,
+      "score": 0.2736234856024554,
+      "created_at": "2025-11-30T12:56:22.096651-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.00851019496950944
+    },
+    {
+      "id": "01e2d337-e53a-41d6-8ee1-95b16ba8c73c",
+      "memory": "Planning a trip to Asia and considering visiting Japan",
+      "hash": "b6457b95a28bf2dfb6fd6024278eb413",
+      "metadata": null,
+      "score": 0.34313740930986003,
+      "created_at": "2025-11-30T12:53:02.895669-08:00",
+      "updated_at": "2025-11-30T12:58:42.749134-08:00",
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.005755541015064029
+    },
+    {
+      "id": "e357e58c-fe9e-4bec-9ee9-d217a2a97e2c",
+      "memory": "Visited an onsen in the mountains during trip to Japan",
+      "hash": "8d47b5bfa77b3e952bdb7506d7f4c346",
+      "metadata": null,
+      "score": 0.3473904782150248,
+      "created_at": "2025-11-30T12:58:42.833552-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.004427144975606513
+    },
+    {
+      "id": "c04afb2e-333e-4a76-90cc-6c5e74dc7b7e",
+      "memory": "Heard great things about Seoul and the food there",
+      "hash": "aefe493d2a1cab0002d376faa23779b1",
+      "metadata": null,
+      "score": 0.554595136777795,
+      "created_at": "2025-11-30T12:58:42.860648-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.004315708710889664
+    },
+    {
+      "id": "d0a192b2-4f65-4cf8-88c6-7e2b38f3f6ff",
+      "memory": "Thinking of staying in the Myeong-dong area in Seoul",
+      "hash": "539e03274cdbb608fbdc93553deef192",
+      "metadata": null,
+      "score": 0.5740773259286671,
+      "created_at": "2025-11-30T12:56:22.053779-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.004281299212719305
+    },
+    {
+      "id": "379effef-3ecc-433e-8022-5078fb1eafea",
+      "memory": "Still discovering new things about Tokyo",
+      "hash": "06ce0e67ee268b91f276fab4110ccded",
+      "metadata": null,
+      "score": 0.2796321222597618,
+      "created_at": "2025-11-30T12:53:02.957244-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.004257938635979796
+    },
+    {
+      "id": "218f1478-9814-4114-8ea7-312e4a564a13",
+      "memory": "Flying from Tokyo",
+      "hash": "286b5701f02cc96a555c7d0e970031c1",
+      "metadata": null,
+      "score": 0.3147190391484075,
+      "created_at": "2025-11-30T12:56:21.998264-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.003656245943202698
+    },
+    {
+      "id": "8695c263-edfe-458e-92e3-04a8e65427b9",
+      "memory": "Flexible with travel dates",
+      "hash": "de72679e4a6ce870877f09d71e7c6f61",
+      "metadata": null,
+      "score": 0.2289016857252712,
+      "created_at": "2025-11-30T12:56:21.984024-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.003113901742682733
+    },
+    {
+      "id": "b6477b38-13b7-43d9-b4d6-d32c750cff55",
+      "memory": "No specific flight times or layovers in mind",
+      "hash": "a52d828e80315e037d668575d88e95c9",
+      "metadata": null,
+      "score": 0.2563489360985576,
+      "created_at": "2025-11-30T12:56:22.041656-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.0014218383464155546
+    },
+    {
+      "id": "e0f6dfc1-07d7-41d0-86bc-4678106add39",
+      "memory": "Interested in visiting Masaya Volcano National Park if time permits",
+      "hash": "4f50e66651f320dc4bd9e6730a1bcaf4",
+      "metadata": null,
+      "score": 0.24168782546353437,
+      "created_at": "2025-11-30T12:52:09.891131-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.0007115505401466829
+    },
+    {
+      "id": "c6fec4be-1f25-454d-b3ae-7d5445fe5c66",
+      "memory": "Willing to wake up 15-30 minutes extra to account for potential delays",
+      "hash": "0f8a6467ce4ed3f3315ad5a8d02eaad4",
+      "metadata": null,
+      "score": 0.22049565978239666,
+      "created_at": "2025-11-30T13:00:18.096320-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_67",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1742,
+    "load_time": 1122.0386
+  }
+}

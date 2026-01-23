@@ -1,0 +1,77 @@
+{
+  "sample_idx": 195,
+  "question_id": "92a0aa75",
+  "question": "How long have I been working in my current role?",
+  "question_type": "multi-session",
+  "gold_answer": "1 year and 5 months",
+  "question_date": "2023/05/30 (Tue) 21:25",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-09T03:28:58.685408",
+  "predicted_answer": "You have been working in your current role for 3 years and 9 months.",
+  "prompt_length": 3069,
+  "gen_token_usage": {
+    "prompt_tokens": 803,
+    "answer_tokens": 17,
+    "total_tokens": 820,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.61,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.23529411764705882,
+      "rouge1_f": 0.3157894736842105,
+      "rouge2_f": 0.11764705882352941,
+      "rougeL_f": 0.3157894736842105,
+      "semantic_similarity": 0.42869770526885986,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.21671826625386995,
+      "avg_semantic": 0.42869770526885986,
+      "overall_average": 0.25911417603492737
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.23529411764705882,
+    "rouge1_f": 0.3157894736842105,
+    "rouge2_f": 0.11764705882352941,
+    "rougeL_f": 0.3157894736842105,
+    "semantic_similarity": 0.42869770526885986,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.21671826625386995,
+    "avg_semantic": 0.42869770526885986,
+    "overall_average": 0.25911417603492737
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1329.4573,
+    "retrieval_time": 0.4478,
+    "generation_time": 1.8776,
+    "evaluation_time": 2.2082,
+    "cleanup_time": 1.7194,
+    "total_time": 1335.7129
+  }
+}

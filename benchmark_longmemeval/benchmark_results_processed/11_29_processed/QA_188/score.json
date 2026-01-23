@@ -1,0 +1,77 @@
+{
+  "sample_idx": 188,
+  "question_id": "91b15a6e",
+  "question": "What is the minimum amount I could get if I sold the vintage diamond necklace and the antique vanity?",
+  "question_type": "multi-session",
+  "gold_answer": "$5,150",
+  "question_date": "2023/05/30 (Tue) 20:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-09T00:50:42.677187",
+  "predicted_answer": "The minimum amount you could get if you sold the vintage diamond necklace is $5,000, and for the antique vanity, you think you can sell it for at least $150. Therefore, the total minimum amount would be $5,150.",
+  "prompt_length": 3683,
+  "gen_token_usage": {
+    "prompt_tokens": 927,
+    "answer_tokens": 50,
+    "total_tokens": 977,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.71,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 38,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.05882352941176471,
+      "rouge1_f": 0.09523809523809523,
+      "rouge2_f": 0.05,
+      "rougeL_f": 0.09523809523809523,
+      "semantic_similarity": 0.22296130657196045,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.062324929971988796,
+      "avg_semantic": 0.22296130657196045,
+      "overall_average": 0.09445220232009888
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.05882352941176471,
+    "rouge1_f": 0.09523809523809523,
+    "rouge2_f": 0.05,
+    "rougeL_f": 0.09523809523809523,
+    "semantic_similarity": 0.22296130657196045,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.062324929971988796,
+    "avg_semantic": 0.22296130657196045,
+    "overall_average": 0.09445220232009888
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1265.664,
+    "retrieval_time": 0.5787,
+    "generation_time": 4.3989,
+    "evaluation_time": 7.4824,
+    "cleanup_time": 1.7527,
+    "total_time": 1279.8815
+  }
+}

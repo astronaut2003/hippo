@@ -1,0 +1,77 @@
+{
+  "sample_idx": 132,
+  "question_id": "8a2466db",
+  "question": "Can you recommend some resources where I can learn more about video editing?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that suggest resources specifically tailored to Adobe Premiere Pro, especially those that delve into its advanced settings. They might not prefer general video editing resources or resources related to other video editing software.",
+  "question_date": "2023/05/30 (Tue) 22:03",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T06:25:11.002491",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 3350,
+  "gen_token_usage": {
+    "prompt_tokens": 854,
+    "answer_tokens": 10,
+    "total_tokens": 864,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.65,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 38,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.043478260869565216,
+      "rouge1_f": 0.041666666666666664,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.041666666666666664,
+      "semantic_similarity": 0.029771924018859863,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.03170289855072463,
+      "avg_semantic": 0.029771924018859863,
+      "overall_average": 0.03131670504808426
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.043478260869565216,
+    "rouge1_f": 0.041666666666666664,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.041666666666666664,
+    "semantic_similarity": 0.029771924018859863,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.03170289855072463,
+    "avg_semantic": 0.029771924018859863,
+    "overall_average": 0.03131670504808426
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1383.9496,
+    "retrieval_time": 1.2132,
+    "generation_time": 1.6478,
+    "evaluation_time": 1.3934,
+    "cleanup_time": 1.6052,
+    "total_time": 1389.8124
+  }
+}

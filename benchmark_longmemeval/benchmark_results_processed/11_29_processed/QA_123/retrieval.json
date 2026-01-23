@@ -1,0 +1,242 @@
+{
+  "sample_idx": 123,
+  "question_id": "gpt4_372c3eed",
+  "question": "How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T03:05:46.120486",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "4117297b-8ea2-41c9-8d09-547e6625ac77",
+      "memory": "Took four years to complete the Bachelor's degree",
+      "hash": "096bbf67d328aa5e80bbee3c658ac46e",
+      "metadata": null,
+      "score": 0.714070914952212,
+      "created_at": "2025-12-06T11:07:36.122762-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.9999999991777684
+    },
+    {
+      "id": "676a7987-294c-4994-b939-edc3d247334b",
+      "memory": "Attended UCLA for undergrad",
+      "hash": "7023bc685cee7bd3426ecd6cb0a2bf64",
+      "metadata": null,
+      "score": 0.36329760327253124,
+      "created_at": "2025-12-06T11:18:39.115173-08:00",
+      "updated_at": "2025-12-06T11:27:06.782682-08:00",
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.20807640481849338
+    },
+    {
+      "id": "729f2586-412a-4302-98c3-1a65616212bd",
+      "memory": "Attended Arcadia High School from 2010 to 2014",
+      "hash": "fb6255550aa332fc0a43ba1be5b6426d",
+      "metadata": null,
+      "score": 0.3054466504507504,
+      "created_at": "2025-12-06T11:27:06.829215-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.17829103809913383
+    },
+    {
+      "id": "7a9cd1b4-48f8-439b-9c29-17cba8c77cfc",
+      "memory": "Had a strong academic background in computer science",
+      "hash": "44783e7ab903e7ccd10de821d2f09eee",
+      "metadata": null,
+      "score": 0.3062776772886738,
+      "created_at": "2025-12-06T11:07:36.214390-08:00",
+      "updated_at": "2025-12-06T11:18:39.028608-08:00",
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.07969681410714004
+    },
+    {
+      "id": "5e6a024e-6481-430c-be7e-ce490a18d451",
+      "memory": "Leaning towards staying in SoCal for graduate school",
+      "hash": "1e66249a85e2bb495cc075803d9ecb16",
+      "metadata": null,
+      "score": 0.24995958384668387,
+      "created_at": "2025-12-06T11:27:06.843033-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.07905585712297523
+    },
+    {
+      "id": "5faa45eb-b407-4560-85ac-fcebd58892d8",
+      "memory": "Had a GPA of 3.6 out of 4.0",
+      "hash": "10dbf924197d7c9894fc30e997c37a0f",
+      "metadata": null,
+      "score": 0.3197998613715614,
+      "created_at": "2025-12-06T11:07:36.241697-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.0680701962999364
+    },
+    {
+      "id": "bb41791d-d81b-4138-b008-b0554bf5a76a",
+      "memory": "Considering pursuing a Master's degree in Computer Science",
+      "hash": "0543db7da6f790f7252664a7c1003e48",
+      "metadata": null,
+      "score": 0.3676924641822392,
+      "created_at": "2025-12-06T11:27:06.798723-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.031172669259589968
+    },
+    {
+      "id": "3cbbb02e-50b4-4bb6-9b13-486ff796be0a",
+      "memory": "Earned an Associate's degree in Computer Science from Pasadena City College (PCC) in May 2016",
+      "hash": "2261f966d1f7820924ca7c06d6e42b32",
+      "metadata": null,
+      "score": 0.35976276681960484,
+      "created_at": "2025-12-06T11:18:39.101274-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.016794029637332796
+    },
+    {
+      "id": "7ee790e5-e1c2-4aae-bdf4-d3d6610d2a03",
+      "memory": "Graduated with a Bachelor's in Computer Science from UCLA in 2020",
+      "hash": "71149fa658c247a16be0af09d437a0af",
+      "metadata": null,
+      "score": 0.43927549531170773,
+      "created_at": "2025-12-06T11:07:36.109055-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.01370184738708145
+    },
+    {
+      "id": "0b8a7e58-e9ae-4cde-a609-174cf205c8ee",
+      "memory": "Graduated from UCLA in 2020 with a Bachelor's degree in Computer Science",
+      "hash": "e7fe05b8b4c249e4337b501ab7c4b885",
+      "metadata": null,
+      "score": 0.4092202147907029,
+      "created_at": "2025-12-06T11:07:36.228263-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.012834822506495428
+    },
+    {
+      "id": "54c60472-5ecc-4e91-81c9-7f177bbc5008",
+      "memory": "Was part of the Dean's list for three consecutive semesters",
+      "hash": "bef42fb1fb7ac8584f60ab174fd62eef",
+      "metadata": null,
+      "score": 0.3856823501819239,
+      "created_at": "2025-12-06T11:07:36.254371-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.007777582509342959
+    },
+    {
+      "id": "d11bb72e-7aa1-40dd-ae25-388f932c6b1d",
+      "memory": "Was part of the robotics team in high school and enjoyed it",
+      "hash": "b3fe2a9b91bc9acde1553fd35622fac4",
+      "metadata": null,
+      "score": 0.2763788579135835,
+      "created_at": "2025-12-06T11:07:36.161533-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.007728965757424416
+    },
+    {
+      "id": "d4ccf15a-663b-441a-b0bb-229131f9e992",
+      "memory": "Needs to finish a report due by end of day, estimated to take about 2 hours",
+      "hash": "151f3e1438f78375e8ffbe655738f877",
+      "metadata": null,
+      "score": 0.21390578381805456,
+      "created_at": "2025-12-06T11:21:40.138220-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.00737539650839101
+    },
+    {
+      "id": "8691575f-f81d-40c8-9509-87987edb4c72",
+      "memory": "Has a younger sister who's currently studying biology at Stanford",
+      "hash": "092caa5b259111f629235f6354c42c28",
+      "metadata": null,
+      "score": 0.1674234957187529,
+      "created_at": "2025-12-06T11:07:36.185581-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.003388666022838465
+    },
+    {
+      "id": "4cfac4fc-0702-469f-8d02-120359bc21dd",
+      "memory": "Took 7 days to complete the whole Yellowstone trip",
+      "hash": "792b884d1744bbb2ed87e050dc1e1dde",
+      "metadata": null,
+      "score": 0.17073470015676467,
+      "created_at": "2025-12-06T11:26:33.926738-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.0020893441207573966
+    },
+    {
+      "id": "25151941-3d41-4e13-abdd-ad603cf425a4",
+      "memory": "The week before that was a complete failure, only managed two half-hearted workouts because was getting over a cold and didn't have the energy",
+      "hash": "9fc55f063c5356b33cb01fba1d1897be",
+      "metadata": null,
+      "score": 0.12831096180522575,
+      "created_at": "2025-12-06T11:06:48.284455-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.001715936100376585
+    },
+    {
+      "id": "59e95fd8-317f-4bb5-821b-f06c890408f2",
+      "memory": "Usually starts workday at 9:00 am sharp",
+      "hash": "a8bf2ea48ca8f311e345af13ce6903af",
+      "metadata": null,
+      "score": 0.14732700938789936,
+      "created_at": "2025-12-06T11:21:40.104337-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.0014708135737679297
+    },
+    {
+      "id": "252b0721-4da0-47fa-860e-339b54127bbf",
+      "memory": "Road trip to Yellowstone was the longest one yet in terms of time, not distance",
+      "hash": "4aeb64d86ea42539fb161f6634b985fe",
+      "metadata": null,
+      "score": 0.12627973488414246,
+      "created_at": "2025-12-06T11:26:33.835699-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.001140298074837833
+    },
+    {
+      "id": "2c92c148-0fdb-40c1-8eaf-6a0a67310837",
+      "memory": "Has a specialization in Data Science from Johns Hopkins University",
+      "hash": "c02127a6e471ac6f9a21b577c81c8f66",
+      "metadata": null,
+      "score": 0.19744678447125025,
+      "created_at": "2025-12-06T11:18:39.086973-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.00013157888664405747
+    },
+    {
+      "id": "4783ca6f-8201-4eed-b896-fcba22345ce8",
+      "memory": "Has taken courses on Python programming, data structures, and algorithms",
+      "hash": "6e166c9bcece10265a040392deb50e32",
+      "metadata": null,
+      "score": 0.19388049156932852,
+      "created_at": "2025-12-06T11:18:39.072462-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_123",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2414,
+    "load_time": 1407.1853
+  }
+}

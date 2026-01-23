@@ -1,0 +1,77 @@
+{
+  "sample_idx": 143,
+  "question_id": "6b7dfb22",
+  "question": "I've been feeling a bit stuck with my paintings lately. Do you have any ideas on how I can find new inspiration?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that build upon their existing sources of inspiration, such as revisiting Instagram art accounts or exploring new techniques from online tutorials. They might also appreciate suggestions that revisit previous themes they found enjoyable, like painting flowers. The user would not prefer generic or vague suggestions for finding inspiration, and would likely appreciate responses that utilize their recent 30-day painting challenge experience.",
+  "question_date": "2023/05/30 (Tue) 13:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T10:59:47.859889",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 3114,
+  "gen_token_usage": {
+    "prompt_tokens": 808,
+    "answer_tokens": 10,
+    "total_tokens": 818,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 66,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.024293124675750732,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.024293124675750732,
+      "overall_average": 0.004858625121414661
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.024293124675750732,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.024293124675750732,
+    "overall_average": 0.004858625121414661
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1670.2998,
+    "retrieval_time": 0.5936,
+    "generation_time": 1.5647,
+    "evaluation_time": 0.7917,
+    "cleanup_time": 1.5705,
+    "total_time": 1674.8236
+  }
+}

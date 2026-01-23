@@ -1,0 +1,242 @@
+{
+  "sample_idx": 99,
+  "question_id": "gpt4_d12ceb0e",
+  "question": "What is the average age of me, my parents, and my grandparents?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T05:19:48.963033",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "23e54c58-6137-4836-9da2-7fc3fbdffb65",
+      "memory": "Parents are getting older, with mom aged 55 and dad aged 58",
+      "hash": "43785090afcb31a4e005ca400d565eca",
+      "metadata": null,
+      "score": 0.5265083747117002,
+      "created_at": "2025-12-01T13:26:01.090596-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.9999999991825466
+    },
+    {
+      "id": "03ac8a37-a1d8-4012-bc70-f9874f452bfc",
+      "memory": "Grandma is 75",
+      "hash": "28e7fcb0822b592ab48216f1cdf7b581",
+      "metadata": null,
+      "score": 0.4783088431102087,
+      "created_at": "2025-12-01T13:22:11.285227-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.47573577491425806
+    },
+    {
+      "id": "46a35a37-6e19-45cc-8f9c-e6e66dbb488e",
+      "memory": "Grandpa is 78",
+      "hash": "8be33726b90989bec7c6b1d341529789",
+      "metadata": null,
+      "score": 0.5028663126938757,
+      "created_at": "2025-12-01T13:22:11.303114-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.44696209853668717
+    },
+    {
+      "id": "38068674-c96b-4090-8b59-253e8f94bfab",
+      "memory": "Grandpa, who's 78, always said it's never too late to learn new things",
+      "hash": "bdc307d357bb14c35648fd6f11899dba",
+      "metadata": null,
+      "score": 0.3949064005180517,
+      "created_at": "2025-12-01T13:22:11.386344-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.442404297993252
+    },
+    {
+      "id": "7dd5491b-6a7c-498f-a50a-44335d3f1f21",
+      "memory": "Just turned 32 on February 12th",
+      "hash": "24feb230f467c7d594e78d6e65b3b94f",
+      "metadata": null,
+      "score": 0.3546962328761203,
+      "created_at": "2025-12-01T13:32:35.325000-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.3927321107897948
+    },
+    {
+      "id": "bffe49d9-774a-4c7f-a5e0-cd4daf703062",
+      "memory": "Trying to get healthier and looking for exercise recommendations suitable for their age",
+      "hash": "9cbe98a183c5985896e177bffd0846f7",
+      "metadata": null,
+      "score": 0.28220043839576825,
+      "created_at": "2025-12-01T13:26:01.071763-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.2918042058038363
+    },
+    {
+      "id": "7fada294-fed8-44a1-9d32-69ced7700a94",
+      "memory": "Seeing grandparents slow down has made them think about their own future and career goals",
+      "hash": "e8cfcf6c94410cc8fe5551976a345ef7",
+      "metadata": null,
+      "score": 0.383303089728776,
+      "created_at": "2025-12-01T13:22:11.319409-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.19700469084122502
+    },
+    {
+      "id": "a67771a5-863a-446d-9689-8637bba12b1e",
+      "memory": "Considers watching that episode with parents when visiting them",
+      "hash": "fe3c34e12bfe05bf3f26e5254c2e24ab",
+      "metadata": null,
+      "score": 0.2568848221041192,
+      "created_at": "2025-12-01T13:20:07.376903-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.12988825282058888
+    },
+    {
+      "id": "862cc4eb-0837-499d-8295-25ee11714e2c",
+      "memory": "Parents live in Springfield, Illinois",
+      "hash": "5de3a9e8285a57b07c72a8289d2f66cb",
+      "metadata": null,
+      "score": 0.2868150997566883,
+      "created_at": "2025-12-01T13:20:07.256129-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.08367870615690352
+    },
+    {
+      "id": "3e3b5535-0859-4c50-b6c1-1da516024cb6",
+      "memory": "In early thirties and looking to make a career change",
+      "hash": "0e93dd6e9eac4aacc9c16df1d5d4315b",
+      "metadata": null,
+      "score": 0.17053189325333581,
+      "created_at": "2025-12-01T13:22:11.336098-08:00",
+      "updated_at": "2025-12-01T13:32:35.279952-08:00",
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.07952671821306043
+    },
+    {
+      "id": "8e6749e7-d9ae-48a1-a65c-73b709e14065",
+      "memory": "Wants to set a good example for their parents",
+      "hash": "66e970bf17c22cbb6222ed4945a2fe63",
+      "metadata": null,
+      "score": 0.28419936571546717,
+      "created_at": "2025-12-01T13:26:01.106249-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.0412805470629151
+    },
+    {
+      "id": "5f032b39-3861-4fb5-91fa-5c3715f3d48a",
+      "memory": "Grandma's favorite TV show was a classic sitcom from the 80s with a main character named Alex, which is Family Ties",
+      "hash": "4bc3e893db27480fff40e54067715c15",
+      "metadata": null,
+      "score": 0.2343430789222643,
+      "created_at": "2025-12-01T13:20:07.332042-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.015906247960382765
+    },
+    {
+      "id": "51cede0e-9ea7-445c-b4a9-7f49ba7752e6",
+      "memory": "Grandma was a simple person with simple tastes, so nothing too fancy",
+      "hash": "f2887f2a09aea92fcf89cc271ea1e723",
+      "metadata": null,
+      "score": 0.27777396693964845,
+      "created_at": "2025-12-01T13:20:07.286166-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.01462164897544789
+    },
+    {
+      "id": "eb221c3f-156c-4ce4-b5df-3726f3995c23",
+      "memory": "Planning to visit on a Wednesday, which is a nostalgic day because that's when they got the call about grandma's passing",
+      "hash": "be942bc50f411bf5ae14d28b89da4ee8",
+      "metadata": null,
+      "score": 0.18725079452324,
+      "created_at": "2025-12-01T13:20:07.317501-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.010838248481584897
+    },
+    {
+      "id": "a31f8d25-9eb6-4d75-98fa-0451f11836a4",
+      "memory": "Thinking about getting more active on LinkedIn and thinking of reaching out to a few more old friends and acquaintances on Facebook, maybe even some people from old school or college",
+      "hash": "bb4683ac675fb057839d97822933e132",
+      "metadata": null,
+      "score": 0.19277294844829623,
+      "created_at": "2025-12-01T13:27:47.700144-08:00",
+      "updated_at": "2025-12-01T13:31:43.019765-08:00",
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.006148893090044503
+    },
+    {
+      "id": "b07772cb-ef59-4501-9454-8c6ecebaeca4",
+      "memory": "Grandma loved classic American comfort food, especially meatloaf and mashed potatoes",
+      "hash": "795db45135b170772c0825dd9f320641",
+      "metadata": null,
+      "score": 0.18404878980604966,
+      "created_at": "2025-12-01T13:20:07.271137-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.0017629519022525344
+    },
+    {
+      "id": "05475138-bc30-4fc1-aef5-185b1a309857",
+      "memory": "Has heard about 'Childhood's End' before but never got around to reading it",
+      "hash": "010169331c7aa3fe3634b09805109bb8",
+      "metadata": null,
+      "score": 0.12437518931651939,
+      "created_at": "2025-12-01T13:22:51.716814-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.0017574948122570592
+    },
+    {
+      "id": "8d09c4d2-ae9b-44d7-89b4-ea8608381ced",
+      "memory": "Grandma has always said it's good to have a niche",
+      "hash": "790dea5575e55b600cdf05c8d7862040",
+      "metadata": null,
+      "score": 0.20471295456549926,
+      "created_at": "2025-12-01T13:22:11.444641-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.0012037560945733345
+    },
+    {
+      "id": "56aee0da-9a7c-4cea-a3c2-1803fb04d71a",
+      "memory": "Does not have a strong background in math or statistics",
+      "hash": "427ee3bf34f518689d69d1c4a8cc51b3",
+      "metadata": null,
+      "score": 0.14870632846419146,
+      "created_at": "2025-12-01T13:22:11.368975-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.00023559037094751743
+    },
+    {
+      "id": "d105f395-f45b-4e66-90bf-1a0f276bf1da",
+      "memory": "Thinking of visiting an antique shop in the neighborhood",
+      "hash": "5d1639a6a4292752539db951aba34dce",
+      "metadata": null,
+      "score": 0.13113212660169465,
+      "created_at": "2025-12-01T13:42:02.832630-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_99",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3223,
+    "load_time": 1405.0826
+  }
+}

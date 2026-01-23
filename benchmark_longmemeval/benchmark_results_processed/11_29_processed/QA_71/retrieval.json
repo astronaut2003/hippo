@@ -1,0 +1,242 @@
+{
+  "sample_idx": 71,
+  "question_id": "6d550036",
+  "question": "How many projects have I led or am currently leading?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T06:14:21.775461",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "9b080426-9f78-4987-a395-b85bb54d8b16",
+      "memory": "Has a busy work schedule",
+      "hash": "82f328feaa07f01d0c903b58c3b1ff33",
+      "metadata": null,
+      "score": 0.24922277476576593,
+      "created_at": "2025-11-30T14:20:44.242342-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.9999999982918598
+    },
+    {
+      "id": "3e3f581e-d767-4cf1-b4a0-6c437ca99210",
+      "memory": "Leading a team of five engineers",
+      "hash": "bbef38bd2811d82df4429cd45c31775d",
+      "metadata": null,
+      "score": 0.39300387058532016,
+      "created_at": "2025-11-30T14:27:24.446020-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.3803564266068832
+    },
+    {
+      "id": "2b6209f2-de16-4bff-9a7c-32dede850c98",
+      "memory": "Has specific outline with five main sections",
+      "hash": "4406985fcfe0407ae7afc74f72266eaa",
+      "metadata": null,
+      "score": 0.26805018468202824,
+      "created_at": "2025-11-30T14:15:20.907875-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.24172691245138378
+    },
+    {
+      "id": "77006a04-27cd-4fc1-a602-7e4d9386d060",
+      "memory": "Led the data analysis team in Marketing Research class project",
+      "hash": "92c39111708abddf329e1cdca527b9f9",
+      "metadata": null,
+      "score": 0.30168163853394464,
+      "created_at": "2025-11-30T14:16:16.033643-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.22474758460966504
+    },
+    {
+      "id": "ca136759-618b-46b6-a0d1-5ed4c72b6a7f",
+      "memory": "Will then move on to discussing project plan and task assignments",
+      "hash": "b64f8d489ad0b42d8f3f523df84e4bbc",
+      "metadata": null,
+      "score": 0.4686451049354373,
+      "created_at": "2025-11-30T14:27:24.649222-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.15665238541668117
+    },
+    {
+      "id": "b9b044c5-d98b-4be5-93c8-5707c432d8b4",
+      "memory": "Working on a solo project for Data Mining class",
+      "hash": "c520cc56e1c249e5b564b1b3abb616e6",
+      "metadata": null,
+      "score": 0.27364955331945556,
+      "created_at": "2025-11-30T14:29:06.678885-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.034694479227882456
+    },
+    {
+      "id": "7dc2b113-4686-43b8-aa9d-f6c5856dacae",
+      "memory": "Excited to try out some new ideas",
+      "hash": "0a1441bb90b3c074429be658613d49bc",
+      "metadata": null,
+      "score": 0.28241250849580674,
+      "created_at": "2025-11-30T14:18:48.546054-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.009311254810035417
+    },
+    {
+      "id": "11ce08e7-3358-47c9-896d-ea1e27058415",
+      "memory": "Thinking of organizing a meeting with the team to discuss the project plan and assign tasks",
+      "hash": "345e6f5c10d9b30e1dcb933dac5d0709",
+      "metadata": null,
+      "score": 0.31974111258221416,
+      "created_at": "2025-11-30T14:27:24.554695-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.007749197699634088
+    },
+    {
+      "id": "fa301752-3256-42de-ba5a-343b2daa5012",
+      "memory": "Completed a high-priority project two months ahead of time",
+      "hash": "c34ac56012e9331f46595eb068c7fa32",
+      "metadata": null,
+      "score": 0.40032319156905155,
+      "created_at": "2025-11-30T14:27:24.493132-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.006797856212018719
+    },
+    {
+      "id": "2a2a4065-b7c8-4d13-88ae-039c8175c868",
+      "memory": "Had to create reports and presentations to communicate findings to stakeholders in Marketing Research class project",
+      "hash": "a4c2b188cd519850330cde431a7c7570",
+      "metadata": null,
+      "score": 0.2704517695004423,
+      "created_at": "2025-11-30T14:16:16.195605-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.005009203894550098
+    },
+    {
+      "id": "a9ec6317-c996-423d-84e0-8660a4cc10be",
+      "memory": "Will use a combination of methods to estimate task duration",
+      "hash": "d410d9dd8db8d439a4701235b945cbcd",
+      "metadata": null,
+      "score": 0.3074542628201346,
+      "created_at": "2025-11-30T14:27:24.521934-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.004552429659742994
+    },
+    {
+      "id": "27b26dda-646b-4622-94b9-5b1f221c8da7",
+      "memory": "Promoted to a senior software engineer position three months ago",
+      "hash": "9fb040ac3c5ad2f919de5e32ceecd81f",
+      "metadata": null,
+      "score": 0.28639998899650365,
+      "created_at": "2025-11-30T14:27:24.429405-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.004222066554112177
+    },
+    {
+      "id": "dfadfc73-acc2-4ccc-95e2-795d1b8d074d",
+      "memory": "Will focus on highlighting key findings and insights",
+      "hash": "6600ab1951f16edc455fb14768ad6527",
+      "metadata": null,
+      "score": 0.3133148226924427,
+      "created_at": "2025-11-30T14:29:06.860967-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.003692964302095959
+    },
+    {
+      "id": "65988f1a-2f93-4d31-bef2-8ad1f64c03f4",
+      "memory": "Will cover project's goals and objectives at the beginning of the meeting",
+      "hash": "ff764fb26c650f15c3c113654e6ce7b9",
+      "metadata": null,
+      "score": 0.42389909409085047,
+      "created_at": "2025-11-30T14:27:24.632799-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.0026637561653230315
+    },
+    {
+      "id": "7f749345-d76b-46e9-af92-950f0c93012e",
+      "memory": "Team has been delivering features ahead of schedule",
+      "hash": "5a3b34af2dff59cded9c615d2bfcb4ec",
+      "metadata": null,
+      "score": 0.31460710265249003,
+      "created_at": "2025-11-30T14:27:24.477036-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.0024171241426775405
+    },
+    {
+      "id": "b9a56ab9-27b2-4226-b906-c538312bdaae",
+      "memory": "Did a comprehensive market analysis for a new product launch in Marketing Research class project",
+      "hash": "a32230048a91e4d61232ab960e8142ae",
+      "metadata": null,
+      "score": 0.2519870136282463,
+      "created_at": "2025-11-30T14:16:16.052704-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.0019481323373959228
+    },
+    {
+      "id": "71ac1651-154e-4d8f-9fa9-25dea7fa575d",
+      "memory": "Interested in exploring more artistic endeavors",
+      "hash": "5171e07e828fc70154d57780c01db3e1",
+      "metadata": null,
+      "score": 0.32872524674192655,
+      "created_at": "2025-11-30T14:33:10.896747-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.0009612784449346385
+    },
+    {
+      "id": "2ccc373a-3dd0-4a32-916b-60f3d3865087",
+      "memory": "Planning a project in Nigeria that connects 100 rural villages to running water",
+      "hash": "ad6cda4b94cf8e63624b849534228793",
+      "metadata": null,
+      "score": 0.31010294893380674,
+      "created_at": "2025-11-30T14:15:32.880622-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.0008790134704062547
+    },
+    {
+      "id": "b711c3cb-7d69-4c7d-8889-02e3058dbac1",
+      "memory": "The completed project led to a significant increase in company revenue",
+      "hash": "683e34921e09555c0b0ec0a1ad830a5c",
+      "metadata": null,
+      "score": 0.4021689619987471,
+      "created_at": "2025-11-30T14:27:24.507864-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 6.874419653658997e-05
+    },
+    {
+      "id": "b11c6495-e106-49df-a537-378fe4c37caa",
+      "memory": "Excited to get new shade and see how it transforms hallway",
+      "hash": "79a41c2602f488ce5c7a4df9fbbc1847",
+      "metadata": null,
+      "score": 0.24961174385234902,
+      "created_at": "2025-11-30T14:19:59.785446-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_71",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1808,
+    "load_time": 1129.2769
+  }
+}

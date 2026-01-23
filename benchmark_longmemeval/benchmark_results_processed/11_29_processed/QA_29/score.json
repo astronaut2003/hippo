@@ -1,0 +1,77 @@
+{
+  "sample_idx": 29,
+  "question_id": "37d43f65",
+  "question": "How much RAM did I upgrade my laptop to?",
+  "question_type": "single-session-user",
+  "gold_answer": "16GB",
+  "question_date": "2023/05/30 (Tue) 17:03",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-29T10:19:47.969135",
+  "predicted_answer": "You upgraded your laptop's RAM to 16GB.",
+  "prompt_length": 2800,
+  "gen_token_usage": {
+    "prompt_tokens": 798,
+    "answer_tokens": 11,
+    "total_tokens": 809,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.61,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 7,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.25,
+      "rouge1_f": 0.2222222222222222,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.2222222222222222,
+      "semantic_similarity": 0.547576904296875,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1736111111111111,
+      "avg_semantic": 0.547576904296875,
+      "overall_average": 0.24840426445007324
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.25,
+    "rouge1_f": 0.2222222222222222,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.2222222222222222,
+    "semantic_similarity": 0.547576904296875,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1736111111111111,
+    "avg_semantic": 0.547576904296875,
+    "overall_average": 0.24840426445007324
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1534.4659,
+    "retrieval_time": 1.1964,
+    "generation_time": 1.5923,
+    "evaluation_time": 0.9149,
+    "cleanup_time": 1.6512,
+    "total_time": 1539.8424
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 74,
+  "question_id": "e831120c",
+  "question": "How many weeks did it take me to watch all the Marvel Cinematic Universe movies and the main Star Wars films?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T07:14:02.407783",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "8d595693-e920-41c5-8b27-cf3d1c88535b",
+      "memory": "Had a crazy movie binge watching all 22 Marvel Cinematic Universe movies in two weeks",
+      "hash": "9dc40dca51beecada3ee1f998918caa7",
+      "metadata": null,
+      "score": 0.6720072774494867,
+      "created_at": "2025-11-30T15:20:12.443170-08:00",
+      "updated_at": "2025-11-30T15:24:56.689543-08:00",
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.9999999992976525
+    },
+    {
+      "id": "833104c3-d8c1-4836-8873-0f30c67522c8",
+      "memory": "Finished a Star Wars marathon watching all the main films in a week and a half",
+      "hash": "a5d0b92895b29565c5f2a7b03da9ddc7",
+      "metadata": null,
+      "score": 0.6325406012226862,
+      "created_at": "2025-11-30T15:24:57.428664-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.9720025487507689
+    },
+    {
+      "id": "476e4b36-0448-442d-93a1-edda9e86108a",
+      "memory": "Watched Rogue One and Solo Star Wars movies",
+      "hash": "c5fe5904dd57de4040d7615e2c07e0c3",
+      "metadata": null,
+      "score": 0.4437297761282275,
+      "created_at": "2025-11-30T15:24:57.441622-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.3810670235688781
+    },
+    {
+      "id": "e8b1469a-374d-4531-a5c1-2495d2a32a13",
+      "memory": "Watched Captain Marvel, Us, Shazam!, and A Quiet Place",
+      "hash": "14563616942342aefbf6e1d6b6c755e1",
+      "metadata": null,
+      "score": 0.38793612995180615,
+      "created_at": "2025-11-30T15:24:57.458219-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.3108285311584531
+    },
+    {
+      "id": "a1d9a7a1-ce58-426c-b90b-c39810698680",
+      "memory": "Watched Spider-Man: Into the Spider-Verse, Crazy Rich Asians, 2001: A Space Odyssey, The Shawshank Redemption, and Jurassic Park",
+      "hash": "dd31353ee68fa73c33b08a35370023e9",
+      "metadata": null,
+      "score": 0.2986724917258938,
+      "created_at": "2025-11-30T15:24:57.475099-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.2979163225514992
+    },
+    {
+      "id": "b880c0d8-bd62-48e7-992c-b76260b4cc19",
+      "memory": "Trying to organize movie watching history",
+      "hash": "ca3aa885f21909e29009d50ad4fa8620",
+      "metadata": null,
+      "score": 0.3808184375387642,
+      "created_at": "2025-11-30T15:20:12.418924-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.2663054107815063
+    },
+    {
+      "id": "b7862ddc-f64a-4177-b3a9-ed1270f47bf4",
+      "memory": "Wants to add a column for month watched to track viewing habits",
+      "hash": "9bfdcceb28f6a73755a703a332852696",
+      "metadata": null,
+      "score": 0.28369116049108406,
+      "created_at": "2025-11-30T15:20:12.501173-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.10425328776790878
+    },
+    {
+      "id": "dd6dcd09-0188-4900-af1e-6b0ac36d48f0",
+      "memory": "Recently watched Toy Story 4, Midsommar, and The Lion King remake",
+      "hash": "dbbd6d7f691a6a94f79b46923e11f7fd",
+      "metadata": null,
+      "score": 0.2607315560966288,
+      "created_at": "2025-11-30T15:24:57.490048-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.060574999615014585
+    },
+    {
+      "id": "2ae2ea11-2c44-4d0b-bb71-f8e4654cfa35",
+      "memory": "Plans to start watching \"The Dawn Wall\" and \"What the Health\"",
+      "hash": "0ae36db063818bc83db2c943a8ebc497",
+      "metadata": null,
+      "score": 0.299011198559749,
+      "created_at": "2025-11-30T15:16:40.858622-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.03163535986019974
+    },
+    {
+      "id": "6c9d01a7-5634-4e2b-9961-da40aff8edfb",
+      "memory": "Has been watching more documentaries than fictional shows lately and is loving it",
+      "hash": "775a7b2b4b9d0291137945e93f37f344",
+      "metadata": null,
+      "score": 0.3929627826971833,
+      "created_at": "2025-11-30T15:16:40.793542-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.01975124368224631
+    },
+    {
+      "id": "6c18e9c4-53dc-4472-b014-3d3120f79f75",
+      "memory": "Watched Game of Thrones entire first season",
+      "hash": "628f53a0aa629fedd24237d26fd545a9",
+      "metadata": null,
+      "score": 0.2798679299590685,
+      "created_at": "2025-11-30T15:24:57.505755-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.004952245340943987
+    },
+    {
+      "id": "23b353dd-3fbb-4aff-a910-b28dbbabfd56",
+      "memory": "Has been recommending documentaries to friends and family, and 3 of them have already started watching them",
+      "hash": "aadc42a5118104f441d0d40db8d93afa",
+      "metadata": null,
+      "score": 0.39908802683275385,
+      "created_at": "2025-11-30T15:16:40.825920-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.0035475183606196842
+    },
+    {
+      "id": "925ce32b-1ef4-4ba3-aaf3-811625882131",
+      "memory": "Has work from 9 am to 5 pm, Monday to Friday",
+      "hash": "b25784748399603f7b19d4a6f6fa1363",
+      "metadata": null,
+      "score": 0.2417551368975912,
+      "created_at": "2025-11-30T15:35:07.002232-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.0013215364925519017
+    },
+    {
+      "id": "fdf27ac2-4a02-425f-9d38-b83d23d9f7d1",
+      "memory": "Dedicates 30 minutes every evening to reading",
+      "hash": "724c1847349ec7728f45e8884c63e9dd",
+      "metadata": null,
+      "score": 0.307844569420829,
+      "created_at": "2025-11-30T15:20:58.153336-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.000666260693938863
+    },
+    {
+      "id": "e886a892-da4a-43f1-90f4-e05710afbd0b",
+      "memory": "Wants to remember all the details of the Yosemite trip",
+      "hash": "81547993884d0ff6ce555e5064270c27",
+      "metadata": null,
+      "score": 0.2234241471410352,
+      "created_at": "2025-11-30T15:17:23.065786-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.0004951910435598687
+    },
+    {
+      "id": "02117fca-294e-4666-94dc-88bc40718cd2",
+      "memory": "Interested in watching documentaries about sports and fitness",
+      "hash": "0df16513dbebb852e26913285b359431",
+      "metadata": null,
+      "score": 0.27958947241077803,
+      "created_at": "2025-11-30T15:16:40.841645-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.00022619507021529508
+    },
+    {
+      "id": "64f228d0-9c3e-4bb7-9d2a-b338b2f48361",
+      "memory": "Workout sessions typically last an hour and a half",
+      "hash": "2bd244dcbbf24e18e23d8b3153a22c4d",
+      "metadata": null,
+      "score": 0.24876571066255554,
+      "created_at": "2025-11-30T15:20:58.070368-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.0002018139610774901
+    },
+    {
+      "id": "3f4a25db-4940-45ce-b1f3-8333e36fb61a",
+      "memory": "Wants to fit in 3 workout sessions per week",
+      "hash": "c16c29a30c4bfe98481722053dc8310e",
+      "metadata": null,
+      "score": 0.2866057789615677,
+      "created_at": "2025-11-30T15:20:58.105751-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.00018975736864670743
+    },
+    {
+      "id": "f341d2b3-34f6-43ab-8848-d9f68b5c2035",
+      "memory": "Prefers to do workouts on Monday, Wednesday, and Friday evenings",
+      "hash": "7cc5f59af1400b733bea0b21b32e5fc3",
+      "metadata": null,
+      "score": 0.24313826835343633,
+      "created_at": "2025-11-30T15:20:58.122216-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 6.811974723392215e-05
+    },
+    {
+      "id": "95a9c251-77cc-4a3c-bccd-00f9f245af77",
+      "memory": "Doesn't have patience to read through boring manuals",
+      "hash": "5e21159833d56e93a96468a5e61b4294",
+      "metadata": null,
+      "score": 0.25566200666719174,
+      "created_at": "2025-11-30T15:30:44.743148-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_74",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4111,
+    "load_time": 1266.6749
+  }
+}

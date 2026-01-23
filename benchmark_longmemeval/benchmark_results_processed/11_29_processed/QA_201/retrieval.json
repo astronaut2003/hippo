@@ -1,0 +1,242 @@
+{
+  "sample_idx": 201,
+  "question_id": "67e0d0f2",
+  "question": "What is the total number of online courses I've completed?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T05:46:23.078092",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 52,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "57d97819-b0d4-42bd-aa4d-b13e7dcc1d89",
+      "memory": "Has completed 12 courses on Coursera",
+      "hash": "fca75a4e4228047e0f3d89b6ca2b9e14",
+      "metadata": null,
+      "score": 0.663589501874339,
+      "created_at": "2025-12-08T14:07:35.397710-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.9999999988347449
+    },
+    {
+      "id": "2301d33a-db80-4908-9c15-b24b6dcd70b2",
+      "memory": "Has already taken some courses on Coursera",
+      "hash": "0cfae5b823dd364d4dd3e318fb8f7fb5",
+      "metadata": null,
+      "score": 0.5590651912115161,
+      "created_at": "2025-12-08T14:07:35.317847-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.3688103226369797
+    },
+    {
+      "id": "df0e47df-ba74-41f1-9725-493968693f7c",
+      "memory": "Has a solid foundation in data analysis from previous 8 edX courses",
+      "hash": "9eda7d314452fc65bc590e1e40f07faa",
+      "metadata": null,
+      "score": 0.37334360066281075,
+      "created_at": "2025-12-08T13:49:20.531359-08:00",
+      "updated_at": "2025-12-08T14:07:35.038361-08:00",
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.3557928614849164
+    },
+    {
+      "id": "9c37a5c2-b692-4983-b9eb-0bcfc235dd5f",
+      "memory": "Wants to explore online resources to help prepare for the program",
+      "hash": "b6c3baca8e0abec805dcf09a93066097",
+      "metadata": null,
+      "score": 0.41787817527167326,
+      "created_at": "2025-12-08T13:49:20.460826-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.3377524428113125
+    },
+    {
+      "id": "e9bccc8e-01f2-48d0-a06d-2fe601d2917d",
+      "memory": "Has already built a solid foundation in data analysis through online courses on edX",
+      "hash": "ac7062d5682d801c8cad3352e430c19f",
+      "metadata": null,
+      "score": 0.42541712353114897,
+      "created_at": "2025-12-08T13:49:20.477434-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.3281544822321546
+    },
+    {
+      "id": "68afac39-e56f-48ca-9661-663475c7c4a1",
+      "memory": "Wants to know more about the course, such as its duration and the topics covered",
+      "hash": "7eabd495f166acdc40bdb611c141d956",
+      "metadata": null,
+      "score": 0.5394654318216541,
+      "created_at": "2025-12-08T13:49:20.510096-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.1115252148112319
+    },
+    {
+      "id": "a22e672b-5db2-4c35-a704-f242f3410123",
+      "memory": "Has put in around 10-20 hours of playtime in Overwatch over the past month, usually playing with a group of friends online on weekends",
+      "hash": "0b565d925d260c5a1e929ddbdcf03bd3",
+      "metadata": null,
+      "score": 0.35040212303633494,
+      "created_at": "2025-12-08T14:10:34.866327-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.04625866058891874
+    },
+    {
+      "id": "5f81ce5a-9005-4598-838c-b8fec792fab5",
+      "memory": "Interested in DataCamp courses, especially ones on data visualization",
+      "hash": "67a9321b9b0b3c0a43b89ea0cdabc4e6",
+      "metadata": null,
+      "score": 0.332301084897172,
+      "created_at": "2025-12-08T14:07:35.333594-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.008899413876051619
+    },
+    {
+      "id": "49efb2a1-d2fb-4772-aa68-b3d609d4ec3e",
+      "memory": "Interested in learning more about the Coursera course \"Deep Learning Specialization\" by Andrew Ng",
+      "hash": "70a5f7ed283c808a9f2c5cd157e88223",
+      "metadata": null,
+      "score": 0.34029090796366535,
+      "created_at": "2025-12-08T14:01:11.070245-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.006520732332941534
+    },
+    {
+      "id": "ec460576-cee1-4ef6-ab80-dbcf1e5fa346",
+      "memory": "Interested in learning more about the Coursera course \"Data Science for Business\" by University of Colorado Boulder",
+      "hash": "b0e62f611c5505e14b15277e95c31fd8",
+      "metadata": null,
+      "score": 0.3835672057171228,
+      "created_at": "2025-12-08T14:01:11.037334-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.004494657962748446
+    },
+    {
+      "id": "a34dc0e0-08fe-4269-b2e5-72745868e696",
+      "memory": "Interested in learning more about the Coursera course \"Python for Data Science\" by University of Michigan",
+      "hash": "d03ebfce4170b6f699226ed196158006",
+      "metadata": null,
+      "score": 0.3422098949226019,
+      "created_at": "2025-12-08T14:01:11.053623-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.003495178317864909
+    },
+    {
+      "id": "435f82f1-54a2-495d-8834-dd926da19f08",
+      "memory": "Is particularly interested in exploring the machine learning course by Andrew Ng on Coursera",
+      "hash": "5ef07ad53423a3f737ed936f81119c77",
+      "metadata": null,
+      "score": 0.32775931072655234,
+      "created_at": "2025-12-08T13:49:20.491966-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.0024303557742498274
+    },
+    {
+      "id": "779abbd4-090d-4830-94a0-4a28925a0e49",
+      "memory": "Realized it's been three months since starting sculpting classes",
+      "hash": "7046b86284084dd8a1bd797645563d22",
+      "metadata": null,
+      "score": 0.3551547464369239,
+      "created_at": "2025-12-08T14:05:52.247946-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.002143980519094738
+    },
+    {
+      "id": "48d6ddcf-7f7c-447b-8766-e23b6af943fc",
+      "memory": "Is excited to dive into the course and start working on assignments and personal projects",
+      "hash": "00dd409bbd6d969c45700210d13dbf9a",
+      "metadata": null,
+      "score": 0.4444592078671533,
+      "created_at": "2025-12-08T13:49:20.685332-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.001968954897492384
+    },
+    {
+      "id": "5349e785-aebc-458c-9488-184e09be5bd6",
+      "memory": "Looking for recommendations on Coursera courses related to data science",
+      "hash": "128032262f188950aba7db167a4ff352",
+      "metadata": null,
+      "score": 0.37484301940316744,
+      "created_at": "2025-12-08T14:01:10.976676-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.001820599846800865
+    },
+    {
+      "id": "16481e11-9fbb-4020-8f2e-0c82716c8c64",
+      "memory": "Is excited to dive into the course and start working on the assignments",
+      "hash": "c71539b5298c0db7ba7d2a88d97a04c0",
+      "metadata": null,
+      "score": 0.40732363739959787,
+      "created_at": "2025-12-08T13:49:20.586640-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.0015808980907397368
+    },
+    {
+      "id": "f49b54fe-7ce3-4b29-9050-27bff25ccfbb",
+      "memory": "Has been taking English classes at the community center",
+      "hash": "915e4fdb3926f340faa7dc7027547704",
+      "metadata": null,
+      "score": 0.31154794278424414,
+      "created_at": "2025-12-08T13:47:35.680699-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.0011261648567100022
+    },
+    {
+      "id": "2ec36785-ce4b-4d96-b1c4-54c2b415a50d",
+      "memory": "Is confident about focusing on machine learning concepts in the course",
+      "hash": "fcf10d864d30f90f6db0a31d0031ce0b",
+      "metadata": null,
+      "score": 0.3122380219045836,
+      "created_at": "2025-12-08T13:49:20.551039-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.0008939086350281486
+    },
+    {
+      "id": "fa1be9d6-709f-4ffb-90a6-65178a4f1966",
+      "memory": "Has been taking sculpting classes for a few months",
+      "hash": "ef1924ebf2825a029db6833dde5c53b8",
+      "metadata": null,
+      "score": 0.37877361651093405,
+      "created_at": "2025-12-08T14:05:52.128851-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.0006835445069689386
+    },
+    {
+      "id": "659cc768-3216-4fac-a7f5-79dc2fa0748f",
+      "memory": "Is looking forward to diving into the course and starting to work on assignments",
+      "hash": "b3eef99ffebde3b417139c2f8b4ee1a1",
+      "metadata": null,
+      "score": 0.44827693540267965,
+      "created_at": "2025-12-08T13:49:20.634560-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_201",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3912,
+    "load_time": 1528.983
+  }
+}

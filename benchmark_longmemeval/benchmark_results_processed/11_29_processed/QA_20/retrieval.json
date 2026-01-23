@@ -1,0 +1,242 @@
+{
+  "sample_idx": 20,
+  "question_id": "c8c3f81d",
+  "question": "What brand are my favorite running shoes?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T06:10:56.691505",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 52,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "fe0ed4bf-5633-4e3e-8062-7511f88ec99d",
+      "memory": "Nike is favourite brand for running shoes",
+      "hash": "de30d464b265dbaf142ed985e36f4f1f",
+      "metadata": null,
+      "score": 0.8167267788867709,
+      "created_at": "2025-11-28T14:34:03.722352-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.9999999994077747
+    },
+    {
+      "id": "0f2834d4-83df-49dc-a096-681915075607",
+      "memory": "Looking for a new pair of running shoes",
+      "hash": "765f45603d3853a53663a56823a12f15",
+      "metadata": null,
+      "score": 0.7360350720822986,
+      "created_at": "2025-11-28T14:34:03.677676-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.5032790292300702
+    },
+    {
+      "id": "ba00f1c8-50e3-47e2-a0a5-a3edbcd5f316",
+      "memory": "Uses Nike running shoes for daily 5K runs",
+      "hash": "935fc0546365a0ded4d5647eafec2cd2",
+      "metadata": null,
+      "score": 0.5677886338461482,
+      "created_at": "2025-11-28T14:34:03.699911-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.4530249189441459
+    },
+    {
+      "id": "de3474b6-9415-4e1d-b936-f96bade46d35",
+      "memory": "Looking for a new pair of running shoes, specifically the same model as current ones",
+      "hash": "bae8131d677427135cf354abc1157b96",
+      "metadata": null,
+      "score": 0.7378263243970433,
+      "created_at": "2025-11-28T14:34:03.747654-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.33616204618418194
+    },
+    {
+      "id": "c49f7c01-ff2b-49b0-8c40-0f4fc2b39446",
+      "memory": "Threw away old Adidas Superstars because they were really worn out and had served their purpose",
+      "hash": "8cdf81b0236cffdd5fb524b0cf81e476",
+      "metadata": null,
+      "score": 0.34873271602807077,
+      "created_at": "2025-11-28T14:22:23.774572-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.3270330913041097
+    },
+    {
+      "id": "0ce6d500-a17a-4b85-af8c-ff07710d5c35",
+      "memory": "Hearing good things about Reebok's CrossFit shoes",
+      "hash": "56c99501a2b7b3d4a2de1ced49221b6a",
+      "metadata": null,
+      "score": 0.4525036061640538,
+      "created_at": "2025-11-28T14:33:23.027136-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.32513166929957155
+    },
+    {
+      "id": "5435c6a7-fa29-4967-9746-9c0914deb134",
+      "memory": "Has new Merrell boots",
+      "hash": "4fe732ce1c1fc4aae4398f2ce265416d",
+      "metadata": null,
+      "score": 0.4234539377705434,
+      "created_at": "2025-11-28T14:22:23.737399-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.2412626703559226
+    },
+    {
+      "id": "acb7ca4a-51ac-415a-8b27-4b992a8d57db",
+      "memory": "Had a good experience with Nike in the past",
+      "hash": "ccf111724c8e210e6e1a2c17bc0fb716",
+      "metadata": null,
+      "score": 0.5917334652758105,
+      "created_at": "2025-11-28T14:33:23.014952-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.22139259578830056
+    },
+    {
+      "id": "b337142a-2ee3-428b-be45-a2a1ec3c2eeb",
+      "memory": "Looking to get new athletic wear",
+      "hash": "f60a557fa328e57f8a3adf149fa45b7f",
+      "metadata": null,
+      "score": 0.5172309232963386,
+      "created_at": "2025-11-28T14:34:03.630355-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.20611420741882927
+    },
+    {
+      "id": "a91b6a2f-f13f-42a5-b689-6aedb5d7716c",
+      "memory": "Already bought a pair of shoes recently",
+      "hash": "b4dc0d0772289313853b8659d108e008",
+      "metadata": null,
+      "score": 0.4559491717324497,
+      "created_at": "2025-11-28T14:37:07.847668-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.1855450922716858
+    },
+    {
+      "id": "a37ecebc-c95b-4629-b584-016958e08fd7",
+      "memory": "Will also look into other wader brands",
+      "hash": "6894fd3dc58e85f7a01387ead1b345c0",
+      "metadata": null,
+      "score": 0.43129595115943786,
+      "created_at": "2025-11-28T14:12:01.251020-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.17820654992220405
+    },
+    {
+      "id": "3144e40c-b0b7-4abe-922d-ecbf9bca79e4",
+      "memory": "Shoe rack has been cluttered with shoes no longer worn",
+      "hash": "2adedb58e7d796abac972df7a1ee2c82",
+      "metadata": null,
+      "score": 0.3656464836580767,
+      "created_at": "2025-11-28T14:33:22.971611-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.1168290135996325
+    },
+    {
+      "id": "40ea16c5-00c6-4ca8-8236-bce7f49eae62",
+      "memory": "Planning to get a new pair of gym shoes soon",
+      "hash": "e7a368a0141f70035e22dd4af4c3a816",
+      "metadata": null,
+      "score": 0.5643713414856022,
+      "created_at": "2025-11-28T14:33:22.986287-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.11570677587521702
+    },
+    {
+      "id": "8ca4c71b-bf8a-488e-93aa-a3fb3d19c3d3",
+      "memory": "Needs to get new casual shoes",
+      "hash": "10a0ab21a3f5b941daf9eaf91a328af7",
+      "metadata": null,
+      "score": 0.5197440991182902,
+      "created_at": "2025-11-28T14:22:23.762035-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.10870863245704135
+    },
+    {
+      "id": "b6252d17-3a3a-4b22-bbfd-a815f1bd3fdd",
+      "memory": "Will try on the shoes with the outfit and see how it looks",
+      "hash": "e9ea1f388543222743553e3f501536e8",
+      "metadata": null,
+      "score": 0.3502513822140675,
+      "created_at": "2025-11-28T14:37:07.874766-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.1037472912057301
+    },
+    {
+      "id": "6a62e906-5a99-46a7-a031-66d6f99049fd",
+      "memory": "Bought current shoes at the outlet mall in April and they were on sale for 20% off",
+      "hash": "7346795c0cab0201c53b1bc2133909b5",
+      "metadata": null,
+      "score": 0.3929744929965941,
+      "created_at": "2025-11-28T14:34:03.773071-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.06975630888887689
+    },
+    {
+      "id": "172c9631-00a1-40f9-bba2-a370d18d01f8",
+      "memory": "Not sure if shoes will match outfit perfectly",
+      "hash": "d0c63ae89d13d2185b0155e16e4214fc",
+      "metadata": null,
+      "score": 0.48173983129438785,
+      "created_at": "2025-11-28T14:37:07.860992-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.0513450021654957
+    },
+    {
+      "id": "b727c844-9939-4196-b4c2-b0c1ee1bbec7",
+      "memory": "New black leather boots are comfortable",
+      "hash": "43fc880aa704cd4716af9d9d59ec30ff",
+      "metadata": null,
+      "score": 0.4155520922933247,
+      "created_at": "2025-11-28T14:33:22.917479-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.032050137970511296
+    },
+    {
+      "id": "75f89788-7424-48ae-8559-a12132411d42",
+      "memory": "Got a new pair of sandals excited to wear this summer",
+      "hash": "1746012cd3b83d086fd8144b68e7a7e2",
+      "metadata": null,
+      "score": 0.4235055809640178,
+      "created_at": "2025-11-28T14:33:23.001505-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.010767947212416269
+    },
+    {
+      "id": "cae2d1b6-c5d2-4814-9864-f98c747e0347",
+      "memory": "Has been using an old pair of waders that's not very comfortable",
+      "hash": "11e06b436684c3c2edf9ab72e76f897f",
+      "metadata": null,
+      "score": 0.3689148973144607,
+      "created_at": "2025-11-28T14:12:01.181504-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_20",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3224,
+    "load_time": 1660.3923
+  }
+}

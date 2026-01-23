@@ -1,0 +1,242 @@
+{
+  "sample_idx": 163,
+  "question_id": "2311e44b",
+  "question": "How many pages do I have left to read in 'The Nightingale'?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T12:30:24.428650",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "02f40258-9666-48b4-85c3-b6f6817b716d",
+      "memory": "'The Nightingale' is a long book with 440 pages",
+      "hash": "11bac490b75b2b6fa6dd3b33a3092dc5",
+      "metadata": null,
+      "score": 0.7982794190937232,
+      "created_at": "2025-12-07T21:34:26.730005-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.9999999993745615
+    },
+    {
+      "id": "12060c5d-45eb-498d-a6a1-27a5a7ea40d9",
+      "memory": "Currently on page 250 of 'The Nightingale' by Kristin Hannah and is really getting into it",
+      "hash": "afc8de7a05edb0f8ddd7f67140a732b4",
+      "metadata": null,
+      "score": 0.564297437023578,
+      "created_at": "2025-12-07T21:34:26.714381-08:00",
+      "updated_at": "2025-12-07T21:40:49.096042-08:00",
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.6885363749119535
+    },
+    {
+      "id": "92349c19-3a2d-43a5-ae88-9bbdd556db7f",
+      "memory": "Reading speed is slower than 99 pages per day",
+      "hash": "1a36a2ad04b96f33695238c821ce37a4",
+      "metadata": null,
+      "score": 0.3814808673841832,
+      "created_at": "2025-12-07T21:34:26.746382-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.3585070501806993
+    },
+    {
+      "id": "73171fd9-5dac-4c6d-b272-73f3c85ecda5",
+      "memory": "Thinks the adjusted goal of 46 days' worth of reading per day is too ambitious",
+      "hash": "58b26115de2288d6af831d9bec797729",
+      "metadata": null,
+      "score": 0.39693649985845547,
+      "created_at": "2025-12-07T21:34:26.791954-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.30851171903829394
+    },
+    {
+      "id": "6ee7a903-7e71-4b09-a1ce-3312eb8f8294",
+      "memory": "Trying to get back on track with reading goal",
+      "hash": "f2ef65b2442954171a7418e9d54a28c1",
+      "metadata": null,
+      "score": 0.3400248617083709,
+      "created_at": "2025-12-07T21:40:49.111622-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.27983277860036315
+    },
+    {
+      "id": "9e724238-91c2-4b3f-84e5-757ba37adac8",
+      "memory": "Goal is to read 50 books by the end of the year",
+      "hash": "87157e26b30f3337e555e857eb2ea95a",
+      "metadata": null,
+      "score": 0.4870966706937544,
+      "created_at": "2025-12-07T21:34:26.677872-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.22184622408104412
+    },
+    {
+      "id": "27cd5c54-b444-472f-bc4e-1d917d303339",
+      "memory": "Has already read 12 books so far this year",
+      "hash": "df4bfa7881e933e4f0a97b88c96231a2",
+      "metadata": null,
+      "score": 0.5216145035169039,
+      "created_at": "2025-12-07T21:34:26.695830-08:00",
+      "updated_at": "2025-12-07T21:40:49.042915-08:00",
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.1826374474636199
+    },
+    {
+      "id": "41fe6a68-4eb4-4fb1-9382-a0bc313eec28",
+      "memory": "Can try to increase the number of days dedicated to reading",
+      "hash": "cb25d73c0799afed64bb84cee8c4f2ac",
+      "metadata": null,
+      "score": 0.45936887970128243,
+      "created_at": "2025-12-07T21:34:26.807845-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.1551899379275866
+    },
+    {
+      "id": "97fe3790-d0da-4f75-b4d0-3d567fdaba60",
+      "memory": "Enjoys non-fiction books that are not too dense and easy to read",
+      "hash": "f11e296a7903524e958471d3607a680d",
+      "metadata": null,
+      "score": 0.3249836473993095,
+      "created_at": "2025-12-07T21:40:49.132623-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.10893226246419385
+    },
+    {
+      "id": "52151f60-440c-4ca4-9f87-9f4fd2544d47",
+      "memory": "Has been reading a mix of dense non-fiction and graphic novels",
+      "hash": "3f4341f8306fdbc45e8aa1cc2fda8554",
+      "metadata": null,
+      "score": 0.2815651692156012,
+      "created_at": "2025-12-07T21:34:26.760385-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.10623224635239252
+    },
+    {
+      "id": "7849c22b-cebe-442b-a7a3-d3f8cf792352",
+      "memory": "Has been reading graphic novels and manga, which are quicker to get through",
+      "hash": "78930a758d0619da11db22e44b460a9b",
+      "metadata": null,
+      "score": 0.3796043496936331,
+      "created_at": "2025-12-07T21:34:26.823800-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.06722871318915587
+    },
+    {
+      "id": "774f6e2f-4c0f-48fe-888f-513c071855de",
+      "memory": "Wants to know how these books can help with reading habits specifically",
+      "hash": "84d528f17372a55c624eb4f0c12386e4",
+      "metadata": null,
+      "score": 0.3742686370497911,
+      "created_at": "2025-12-07T21:40:49.259420-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.06100162321031788
+    },
+    {
+      "id": "90656758-c4bc-4faf-93cc-44b0102c0f25",
+      "memory": "Print stage has six rules",
+      "hash": "1c2c34bbe3bc044573a2ec51987b7a3b",
+      "metadata": null,
+      "score": 0.29037317210350666,
+      "created_at": "2025-12-07T21:30:47.216478-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.054269208458484534
+    },
+    {
+      "id": "46562539-306c-4040-9056-adc4f1d5867b",
+      "memory": "Wants content for introduction section with 450 characters and 1 paragraph, in Australian English",
+      "hash": "71d3e5293be5c1f835e0e4378dd27790",
+      "metadata": null,
+      "score": 0.2879595548745649,
+      "created_at": "2025-12-07T20:31:28.444929-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.04654254693598787
+    },
+    {
+      "id": "875fe735-0bdd-4d53-a3b0-f92099c12e16",
+      "memory": "Wants to increase reading speed and retain more information",
+      "hash": "02b24ca226d5aa0549c7493ff9b6ea90",
+      "metadata": null,
+      "score": 0.33630470971427173,
+      "created_at": "2025-12-07T21:40:49.275525-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.03739111052532547
+    },
+    {
+      "id": "ceda6d5c-4943-4092-a1b3-68922a01a6b0",
+      "memory": "Interested in non-fiction books like 'The Devil in the White City', 'Bad Blood: Secrets and Lies in a Silicon Valley Startup', 'The Immortal Life of Henrietta Lacks', 'Just Mercy: A Story of Justice and Redemption', 'The Power of Habit: Why We Do What We Do in Life and Business'",
+      "hash": "a90daa97718043a75f262dda85ca6006",
+      "metadata": null,
+      "score": 0.29193287805045964,
+      "created_at": "2025-12-07T21:40:49.161220-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.03538681067322879
+    },
+    {
+      "id": "19dbd335-be75-4847-9a49-3d8461e45859",
+      "memory": "Wants help creating a plan to increase reading speed and retention",
+      "hash": "671bbe71948734644edaa1c7a97a8559",
+      "metadata": null,
+      "score": 0.35689504906706065,
+      "created_at": "2025-12-07T21:40:49.308222-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.02861860804795385
+    },
+    {
+      "id": "a43e4f2d-3518-4fb6-b70f-645f071272f2",
+      "memory": "Has been reading National Geographic regularly",
+      "hash": "449a3493fd689c721ffce7681f634023",
+      "metadata": null,
+      "score": 0.3820160969644881,
+      "created_at": "2025-12-07T21:33:04.605430-08:00",
+      "updated_at": "2025-12-07T21:34:25.889155-08:00",
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.007765252779357854
+    },
+    {
+      "id": "9a846237-ff33-4e96-b0a7-3022c1366392",
+      "memory": "Specifically wants to know how to schedule reading sessions, eliminate distractions, and practice active reading",
+      "hash": "21321adaf750b3f78d48655c594c3558",
+      "metadata": null,
+      "score": 0.38845405683823264,
+      "created_at": "2025-12-07T21:40:49.323223-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.00286959098545877
+    },
+    {
+      "id": "117c4e58-0c76-4617-bdb7-1d960243052f",
+      "memory": "Wants to apply principles from 'Atomic Habits' and 'Deep Work' to improve reading habits",
+      "hash": "2b3ae9be9bcf3abda5c1d885b30ef303",
+      "metadata": null,
+      "score": 0.2850856175818073,
+      "created_at": "2025-12-07T21:40:49.290978-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_163",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3095,
+    "load_time": 4388.6693
+  }
+}

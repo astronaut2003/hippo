@@ -1,0 +1,242 @@
+{
+  "sample_idx": 121,
+  "question_id": "c2ac3c61",
+  "question": "How many online courses have I completed in total?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T02:19:26.494317",
+  "load_result": {
+    "total_sessions": 53,
+    "added_sessions": 53,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "a4885f3a-55f8-4eed-bf26-0bb83c348a45",
+      "memory": "Has completed three courses on Coursera",
+      "hash": "c638d39dbc050fe94c092968e4cd6824",
+      "metadata": null,
+      "score": 0.6495481861789798,
+      "created_at": "2025-12-06T10:26:49.162963-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.9999999986437743
+    },
+    {
+      "id": "e9f2b8bd-be0d-4239-b7c2-6f1655e792f3",
+      "memory": "Familiar with the online learning format from completing two courses on edX",
+      "hash": "b404f650941887196387b0e1124020cf",
+      "metadata": null,
+      "score": 0.6082551096917783,
+      "created_at": "2025-12-06T10:45:04.126733-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.8707517454393676
+    },
+    {
+      "id": "8feedbe4-4e30-4846-a64e-fd38d9cab5c8",
+      "memory": "Has already completed some courses on Coursera and has a good foundation to build upon",
+      "hash": "8a6a50a8f231d044e951a0723cc0ef7d",
+      "metadata": null,
+      "score": 0.5218430721681803,
+      "created_at": "2025-12-06T10:26:49.054939-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.5879645851999156
+    },
+    {
+      "id": "6419308a-7654-441a-b02b-05e85783ca23",
+      "memory": "Looking to explore more online courses to improve data science skills, specifically in natural language processing and deep learning",
+      "hash": "e89e138d04f61046023bd8ebdb65b504",
+      "metadata": null,
+      "score": 0.45863583992570955,
+      "created_at": "2025-12-06T10:26:49.012153-08:00",
+      "updated_at": "2025-12-06T10:45:04.056724-08:00",
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.5186283847567902
+    },
+    {
+      "id": "ff6c9678-9e31-442e-819c-a9e2e979e1e2",
+      "memory": "Interested in online courses or workshops on creative writing, specifically poetry, and wants to know about reputable online platforms or programs that offer such courses or workshops",
+      "hash": "6aa47a6f716776706a21270d6ed88f01",
+      "metadata": null,
+      "score": 0.4166519248919066,
+      "created_at": "2025-12-06T10:44:21.261265-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.1625157978230564
+    },
+    {
+      "id": "a4cf6879-30fd-447a-9ec8-47b6b54b83d0",
+      "memory": "Interested in online courses or tutorials that focus on deep learning for natural language processing, particularly in the area of text classification and sentiment analysis",
+      "hash": "1405d8646d060bcceba32d554e4ab0eb",
+      "metadata": null,
+      "score": 0.2653047950436025,
+      "created_at": "2025-12-06T10:26:49.080110-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.12487922074482326
+    },
+    {
+      "id": "faff40ca-5deb-43e6-b14b-ccf479782925",
+      "memory": "Interested in learning more about the Convolutional Neural Networks for Text Classification course on Stanford Online",
+      "hash": "0a2ab10107da00a8577bfa2d44f8a18d",
+      "metadata": null,
+      "score": 0.326277509467365,
+      "created_at": "2025-12-06T10:26:49.103496-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.018512658683671832
+    },
+    {
+      "id": "0c2ead2e-ed9c-4797-8c4a-0d4d0048486c",
+      "memory": "Has been trying to teach themselves through YouTube tutorials, but not making much progress",
+      "hash": "a124b9ed02205b7dfcea479e9c4c437b",
+      "metadata": null,
+      "score": 0.23135273428529057,
+      "created_at": "2025-12-06T10:20:19.461054-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.017239179396025234
+    },
+    {
+      "id": "5c7a7bd6-c5f3-4974-80cf-63e0e1024326",
+      "memory": "Confident about adapting to the course structure and assignments",
+      "hash": "dc367c102c3b0135a05810f0121345f7",
+      "metadata": null,
+      "score": 0.37065721133436175,
+      "created_at": "2025-12-06T10:45:04.140306-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.003951071021636022
+    },
+    {
+      "id": "b8a38334-a54c-4274-8f58-38cfdf311acd",
+      "memory": "Career counseling services helped update resume and practice interview skills",
+      "hash": "27265113174c36848cc401822cd0f586",
+      "metadata": null,
+      "score": 0.22653084924730785,
+      "created_at": "2025-12-06T10:26:08.895035-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.003029783903424899
+    },
+    {
+      "id": "0689c3c6-904b-4269-8c0f-93f3c174bf79",
+      "memory": "I appreciate the information you've provided. However, I still feel like international students are being unfairly burdened with higher costs, and the limited financial aid options are not enough to address this issue. What steps is Stanford University taking to address this fundamental inequality in the education system?",
+      "hash": "8ee6f1f0680afa216c368b9d2c30c68c",
+      "metadata": null,
+      "score": 0.22710228567559296,
+      "created_at": "2025-12-06T10:24:05.501088-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.0029435142827809544
+    },
+    {
+      "id": "892c8f69-a844-4be6-859c-83e508992dbb",
+      "memory": "Has been doing a lot of online shopping lately",
+      "hash": "3ad477287efa85cc097685759d250d89",
+      "metadata": null,
+      "score": 0.35425237584370506,
+      "created_at": "2025-12-06T10:35:32.924837-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.0027888239285228465
+    },
+    {
+      "id": "47904e8a-0550-4906-81d7-1b5ffd45aef7",
+      "memory": "Interested in taking the Convolutional Neural Networks for Text Classification course",
+      "hash": "1233bde27a978ba524e15ee99c8c2829",
+      "metadata": null,
+      "score": 0.309599189475487,
+      "created_at": "2025-12-06T10:26:49.143166-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.0026117577955969687
+    },
+    {
+      "id": "0659e62e-5710-402b-93b0-57c9cbb6faea",
+      "memory": "That's disappointing to hear that there are limited financial aid options for international graduate students at Stanford University. Do they have any other options to help offset the high cost of attendance?",
+      "hash": "d74908ea79afee20f8e925b53a625435",
+      "metadata": null,
+      "score": 0.22856624163681477,
+      "created_at": "2025-12-06T10:24:05.470979-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.002122982838455338
+    },
+    {
+      "id": "d1241373-cc8f-4c46-8af7-25df316d7502",
+      "memory": "Could you provide a breakdown of the cost of attendance for international students at Stanford University?",
+      "hash": "b5a5da13daa1f5276739e141ffcb3f15",
+      "metadata": null,
+      "score": 0.3596333178882758,
+      "created_at": "2025-12-06T10:24:05.410597-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.0018655967138954427
+    },
+    {
+      "id": "d3ed66e1-ed6a-48e8-ab17-c99af5502ecb",
+      "memory": "Interested in attending a seisiún while in Ireland",
+      "hash": "c29cc77b5c2051ce33e2234e2d4bc86e",
+      "metadata": null,
+      "score": 0.2856798491005411,
+      "created_at": "2025-12-06T10:22:28.105221-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.0011689727606896154
+    },
+    {
+      "id": "bc8e0072-6034-43ce-97d6-1491c654edcb",
+      "memory": "Started attending weekly English classes at the refugee center",
+      "hash": "a30a7390cbe4ceded4e0b59b2ec88993",
+      "metadata": null,
+      "score": 0.27156996720255444,
+      "created_at": "2025-12-06T10:26:08.771734-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.0011083124127405748
+    },
+    {
+      "id": "63b8e24b-1830-4d3f-8e54-770598819f45",
+      "memory": "Been job hunting ever since receiving work permit",
+      "hash": "b4e2bb19e8fd354049acb28f5877c892",
+      "metadata": null,
+      "score": 0.23111928378652422,
+      "created_at": "2025-12-06T10:26:08.848097-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.001078693607452024
+    },
+    {
+      "id": "0d8dc1e0-ca6c-4482-8a5e-b3d7e57e6449",
+      "memory": "Attending weekly English classes at the refugee center since October 12th",
+      "hash": "559f478848df6691d3ca72f3a874f8c5",
+      "metadata": null,
+      "score": 0.29882102178425624,
+      "created_at": "2025-12-06T10:26:08.802253-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 8.109603020052986e-05
+    },
+    {
+      "id": "7a0ff1b3-4e26-425a-83e1-f3e0b3df732d",
+      "memory": "Particularly interested in the statistic about digital lending platforms increasing loan origination by 30% and reducing loan processing time by 25%",
+      "hash": "502ed40495d7462907cb5e401a18ce45",
+      "metadata": null,
+      "score": 0.23758507816703067,
+      "created_at": "2025-12-06T10:32:36.187492-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_121",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2923,
+    "load_time": 1538.8401
+  }
+}

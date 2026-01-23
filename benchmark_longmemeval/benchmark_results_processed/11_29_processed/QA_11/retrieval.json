@@ -1,0 +1,242 @@
+{
+  "sample_idx": 11,
+  "question_id": "7527f7e2",
+  "question": "How much did I spend on a designer handbag?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T01:50:07.472067",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "0ea0f8de-caf6-4e32-b2db-9ff72eb209e1",
+      "memory": "Has been using credit card a lot lately, spent a lot on luxury items last month including a designer handbag for $800, has been frequenting high-end department stores like Saks and Neiman Marcus",
+      "hash": "a5ae2c904c32795442e348be616ba3b8",
+      "metadata": null,
+      "score": 0.6002033088912934,
+      "created_at": "2025-11-28T09:55:51.886624-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.999999999260641
+    },
+    {
+      "id": "cd4dff37-6a9c-4e2c-92d8-fe56da1dacbb",
+      "memory": "Found affordable alternatives to high-end brands like H&M and Uniqlo, found stylish pieces at affordable stores",
+      "hash": "d88320ceb6a526c11b69a08b20da2adb",
+      "metadata": null,
+      "score": 0.26781419891382485,
+      "created_at": "2025-11-28T09:55:51.932422-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.01784253672851165
+    },
+    {
+      "id": "e2ef71cd-ef9c-4230-a3c7-06a8abb8edf2",
+      "memory": "Will pack a small makeup bag with basics like mascara, eyeliner, and lip balm",
+      "hash": "ac29d4dbafbf92777adc5981139eb62b",
+      "metadata": null,
+      "score": 0.40421995729477783,
+      "created_at": "2025-11-28T09:53:18.640844-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.01765377941930733
+    },
+    {
+      "id": "bc6e3f33-5f6b-458a-9e5c-3189bb736fc6",
+      "memory": "Considering canceling monthly beauty box subscription costing $50 per month, wasn't using most products from beauty box and accumulating samples, started buying beauty products at discount stores for fraction of the cost",
+      "hash": "054c0035321f65d0ba4654e06c5954bc",
+      "metadata": null,
+      "score": 0.2671887293246702,
+      "created_at": "2025-11-28T09:55:51.954544-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.016978497854029117
+    },
+    {
+      "id": "e6a5aae2-c84f-4664-906e-4917eb93bf06",
+      "memory": "Trying to get a better handle on finances and track spending habits, wants to start tracking expenses, looking for recommendations for good budgeting apps",
+      "hash": "c339d120a8050ebca6df6cfd97de8f67",
+      "metadata": null,
+      "score": 0.23540970699028113,
+      "created_at": "2025-11-28T09:55:51.847171-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.009758054829322045
+    },
+    {
+      "id": "88c90e62-f954-4f05-b39b-29abbad89ed2",
+      "memory": "Considering buying a new pair of Dr. Martens",
+      "hash": "205bc479bdb064875ba357f242b7c9f4",
+      "metadata": null,
+      "score": 0.2279415619136121,
+      "created_at": "2025-11-28T10:01:50.762076-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.006892567982570316
+    },
+    {
+      "id": "d15aedc4-e814-423b-903d-11896559891f",
+      "memory": "Has a few pieces that are really valuable including engagement ring and mom's pearl necklace that she lent",
+      "hash": "df4851d6890ee79f9c93d0af12215b93",
+      "metadata": null,
+      "score": 0.3531270647070687,
+      "created_at": "2025-11-28T10:08:35.560246-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.003199002749828471
+    },
+    {
+      "id": "7a63d685-22f9-47d6-8b4a-28b4891f3d94",
+      "memory": "Planning to pack light for the trip",
+      "hash": "7eec6e4e4d3dd869b60d6eca11feb86e",
+      "metadata": null,
+      "score": 0.2340185798846586,
+      "created_at": "2025-11-28T09:53:18.612988-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.0028843837309006867
+    },
+    {
+      "id": "6e7658b1-9a5a-4273-ba47-181a42c00435",
+      "memory": "Got a beautiful oak dresser from Henry at 'The Vintage Vault'",
+      "hash": "7d40b905fc29707a5acaf3844bc6c52a",
+      "metadata": null,
+      "score": 0.26671898520234405,
+      "created_at": "2025-11-28T10:02:53.486944-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.0019817049589792406
+    },
+    {
+      "id": "954627df-3198-4f6f-a883-675b17eb1514",
+      "memory": "Has a few pieces that haven't been worn in a while like vintage pearl earrings found last weekend",
+      "hash": "100ae065b016fa0061f543e1e153e7d1",
+      "metadata": null,
+      "score": 0.2742911380767832,
+      "created_at": "2025-11-28T10:08:35.576237-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.0017186293068905895
+    },
+    {
+      "id": "6c5f146d-d11e-43e2-a309-606f48ae3d14",
+      "memory": "Decided to try Mint as a budgeting app, thinks it's a good idea to set boundaries around shopping habits",
+      "hash": "eee31665a423890ea4202cecf749e708",
+      "metadata": null,
+      "score": 0.311688733582692,
+      "created_at": "2025-11-28T09:55:51.909723-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.0013509156843651761
+    },
+    {
+      "id": "058be31f-77f3-4af3-9add-32f1c9bad2ad",
+      "memory": "Considering getting jewelry appraised and insured",
+      "hash": "814b26a86dad827e5533c40e8a51ff02",
+      "metadata": null,
+      "score": 0.31385425472495576,
+      "created_at": "2025-11-28T10:08:33.691969-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.0013378006826797058
+    },
+    {
+      "id": "28ff9282-c328-458d-8131-3d7b6255934f",
+      "memory": "Thinking of organizing jewelry collection, planning to organize jewelry box",
+      "hash": "0d9eb002c21335ab8af1776993b24090",
+      "metadata": null,
+      "score": 0.2564022553688522,
+      "created_at": "2025-11-28T10:08:33.634452-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.0010936924255017615
+    },
+    {
+      "id": "f9fc2f8a-f3d2-4193-952a-0b8eee68764d",
+      "memory": "Looking for recommendations on jewelry armoires to store valuables more securely",
+      "hash": "a9a088b5788a1885c5d2a5f830f540af",
+      "metadata": null,
+      "score": 0.29163401922380666,
+      "created_at": "2025-11-28T10:08:32.779829-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.0010543474204453508
+    },
+    {
+      "id": "c660082b-0d4d-436d-888b-59589a96dd3c",
+      "memory": "Wants to keep the design simple and understated to let the oak dresser from Henry at 'The Vintage Vault' be the focal point",
+      "hash": "cb5c8788f8cbdfe8496db5e664f8f002",
+      "metadata": null,
+      "score": 0.22572050776027677,
+      "created_at": "2025-11-28T10:02:53.673382-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.000923761489684648
+    },
+    {
+      "id": "da0eec06-0fa0-49e6-bfa8-0342d28d0617",
+      "memory": "Wants ideas for party favors that would fit well with the Vintage Garden Party theme",
+      "hash": "b8fc668a685e13a16baf179928863843",
+      "metadata": null,
+      "score": 0.2369194409499433,
+      "created_at": "2025-11-28T09:51:09.613576-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.00045853148365920663
+    },
+    {
+      "id": "3222eff3-ff5a-4ce9-88de-41de4ca929b6",
+      "memory": "Has an old pair of 1460 Dr. Martens boots",
+      "hash": "4fa4fea0d417be8521f0a0283d87e5af",
+      "metadata": null,
+      "score": 0.24016116141411975,
+      "created_at": "2025-11-28T10:01:50.778052-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.00043004513591227145
+    },
+    {
+      "id": "0e30ea7d-2668-4219-abc9-130c4e25babb",
+      "memory": "Hasn't worn gold band with small diamond in a while, thinks lost gold band with small diamond at the gym about a month ago",
+      "hash": "d6f202a648a0c1c92159cc21749d72e8",
+      "metadata": null,
+      "score": 0.25453390102016993,
+      "created_at": "2025-11-28T10:08:33.660041-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 9.667025435903004e-05
+    },
+    {
+      "id": "d836f727-30a0-4038-9076-5766a5c4691e",
+      "memory": "Likes the height, material, and color of the old 1460 Dr. Martens boots",
+      "hash": "346fc90194df34b4a697242419e50f12",
+      "metadata": null,
+      "score": 0.2546925014939523,
+      "created_at": "2025-11-28T10:01:50.792485-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 6.599807299784983e-05
+    },
+    {
+      "id": "217ee47b-3539-4e75-808a-f0d1820fa34a",
+      "memory": "Wants to add textiles like a throw blanket to add warmth and coziness to the room",
+      "hash": "84eb70ff8ddc0cd4e9123a4fe7574131",
+      "metadata": null,
+      "score": 0.2386124734116872,
+      "created_at": "2025-11-28T10:02:53.645723-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_11",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5113,
+    "load_time": 1108.1225
+  }
+}

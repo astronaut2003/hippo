@@ -1,0 +1,242 @@
+{
+  "sample_idx": 15,
+  "question_id": "94f70d80",
+  "question": "How long did it take me to assemble the IKEA bookshelf?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T03:12:35.301696",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "20430b08-ff3d-4018-98f3-3952f89dcf18",
+      "memory": "Assembled an IKEA bookshelf recently and it took 4 hours",
+      "hash": "b83f651ce8d58c00fe19d8efdbc8ce9c",
+      "metadata": null,
+      "score": 0.9212684547200164,
+      "created_at": "2025-11-28T11:30:46.684691-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.9999999993977128
+    },
+    {
+      "id": "923268ea-3cc8-47c4-b177-dc7bc4f128a5",
+      "memory": "Planning to head to West Elm, Crate and Barrel, and IKEA this weekend to check out their coffee tables with storage",
+      "hash": "be47fdb7415c093899868651233fc6c6",
+      "metadata": null,
+      "score": 0.3339736101668264,
+      "created_at": "2025-11-28T11:30:46.699524-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.03923261824341311
+    },
+    {
+      "id": "f64d6ecd-90d3-4c26-9133-38b87baefa23",
+      "memory": "Had competition to see who could pack most meals in an hour",
+      "hash": "6adb4a2c5c18dcbafe8e339618161206",
+      "metadata": null,
+      "score": 0.21641931309979284,
+      "created_at": "2025-11-28T11:17:36.545962-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.010198449715082325
+    },
+    {
+      "id": "ab592a02-c011-49db-9b1c-f761b3851dbc",
+      "memory": "Finished 5K charity run in 35 minutes",
+      "hash": "32af335a6f530bd0a88effc61a857ead",
+      "metadata": null,
+      "score": 0.22869078422820896,
+      "created_at": "2025-11-28T11:17:36.680336-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.003983825063578855
+    },
+    {
+      "id": "5ee07112-07be-4848-b10a-05566582bfee",
+      "memory": "Looking for coffee tables with storage space",
+      "hash": "10112afeff027e60122eeac2073bed05",
+      "metadata": null,
+      "score": 0.22395426384441752,
+      "created_at": "2025-11-28T11:30:46.652609-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.0019616423998867474
+    },
+    {
+      "id": "a4fd739a-e9de-4bac-8880-90704ed3ba91",
+      "memory": "Been busy organizing stamp collection and sorting through new additions",
+      "hash": "3ce31bb459c22d958c3820764952ff1d",
+      "metadata": null,
+      "score": 0.17905425362325902,
+      "created_at": "2025-11-28T11:15:36.173786-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.0008948930835744767
+    },
+    {
+      "id": "253a8edb-1049-4f9f-a17a-ef89edc3962f",
+      "memory": "Signed up for an online workshop a while back",
+      "hash": "d6e2274d002a12ca2494c6bf00379271",
+      "metadata": null,
+      "score": 0.2800870328648176,
+      "created_at": "2025-11-28T11:13:01.075824-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.0005624385798691447
+    },
+    {
+      "id": "92e1d3b7-a766-40db-981e-765cb8210206",
+      "memory": "Completed a half-marathon on April 10th",
+      "hash": "2dffe8fd9f3343d633d7d1af560ab304",
+      "metadata": null,
+      "score": 0.19319079090713437,
+      "created_at": "2025-11-28T11:22:52.846775-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.0005238398537996937
+    },
+    {
+      "id": "0d606a43-d054-4730-83b4-4fba8305ffd7",
+      "memory": "Planning on starting own business soon",
+      "hash": "dff81d41636d3f78e5ce2ff5b922255b",
+      "metadata": null,
+      "score": 0.2709842588361353,
+      "created_at": "2025-11-28T11:16:40.104777-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.0004892618283624771
+    },
+    {
+      "id": "4d30660f-bd6b-4f71-8819-d6ef142de1c1",
+      "memory": "Planning a get-together with friends this weekend",
+      "hash": "985104bdf2f70dde14aef3c76935dc62",
+      "metadata": null,
+      "score": 0.17260812078763083,
+      "created_at": "2025-11-28T11:23:32.818845-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.00044107085935612365
+    },
+    {
+      "id": "553ae3bb-7f7d-46e4-8286-2265437efb71",
+      "memory": "Will make a reservation to ensure getting a good table",
+      "hash": "71d94869d0e214c18cf01577cfb37ad0",
+      "metadata": null,
+      "score": 0.20573428315102943,
+      "created_at": "2025-11-28T11:23:32.901238-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.0003108575974521866
+    },
+    {
+      "id": "a59fe1c4-cc28-44d8-99de-37a41b86e590",
+      "memory": "Attended the workshop around February 10th and 11th",
+      "hash": "f95899956ac47a543c3cb8aa92134d41",
+      "metadata": null,
+      "score": 0.2694274563758259,
+      "created_at": "2025-11-28T11:13:00.957392-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.0002020689260600134
+    },
+    {
+      "id": "f108e465-87c4-4c35-bfad-58c2d00e71d9",
+      "memory": "Planning brunch for Sunday",
+      "hash": "11923f81475a4872c04e2c27303442d3",
+      "metadata": null,
+      "score": 0.18045975908480627,
+      "created_at": "2025-11-28T11:23:32.979652-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.0001863307550138384
+    },
+    {
+      "id": "c942affe-3407-4f9d-b1cb-a633190fc169",
+      "memory": "Usually works out in the evenings around 6:30 pm or 7:00 pm",
+      "hash": "1c14943657325f456bcaa1b5315ee5d2",
+      "metadata": null,
+      "score": 0.1794204758368393,
+      "created_at": "2025-11-28T11:31:18.781053-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.00010465309359901775
+    },
+    {
+      "id": "8eea0ffb-3f66-4594-84ef-357d3e609a07",
+      "memory": "Lent silver hoop earrings to roommate a few weeks ago and hasn't gotten them back yet",
+      "hash": "a73146ceace6b3c2dfcb594e573b8143",
+      "metadata": null,
+      "score": 0.1914331580192476,
+      "created_at": "2025-11-28T11:18:23.237060-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 8.782358952409338e-05
+    },
+    {
+      "id": "b46a0d1c-2ad4-42fd-aef8-02a71b3c9c77",
+      "memory": "Wants to adjust bedtime routine to start earlier and be in bed by 11:00 pm on most nights",
+      "hash": "9cbd420b555ce73265da64d382ffd870",
+      "metadata": null,
+      "score": 0.20253173839627778,
+      "created_at": "2025-11-28T11:31:18.823988-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 7.840366232857258e-05
+    },
+    {
+      "id": "5da1d6c4-b138-4822-90af-052b88b91fd0",
+      "memory": "Needs to leave the house by 8:15 am to make it to 9:00 am meetings on time",
+      "hash": "a9899fde69e30f32f3fb707590b81d88",
+      "metadata": null,
+      "score": 0.2162824881164579,
+      "created_at": "2025-11-28T11:31:18.749903-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 7.122383977101098e-05
+    },
+    {
+      "id": "40202af2-8178-4772-891f-acb5cac7ae1b",
+      "memory": "Has a lot of other responsibilities and tasks that take up time, so it's hard to prioritize content creation",
+      "hash": "81ab2b4b6504b9178a007645c77823df",
+      "metadata": null,
+      "score": 0.1881109605260728,
+      "created_at": "2025-11-28T11:13:01.003741-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 6.605436752956664e-05
+    },
+    {
+      "id": "7f673c5c-460e-40d9-b853-eb16da663623",
+      "memory": "Wants to ask a follow-up question to clarify what they mean by 'behind-the-scenes of my writing process'",
+      "hash": "b3a5b924a98ea01097b6e855c385e226",
+      "metadata": null,
+      "score": 0.17760116441147067,
+      "created_at": "2025-11-28T11:16:17.005074-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 1.7576205620910773e-05
+    },
+    {
+      "id": "c5414663-8f93-40ea-910f-8e79a53f866e",
+      "memory": "Lost a silver stud on 1st March during a brunch with friends",
+      "hash": "c3f1b4d5ad4cede49bf848c91a9c856a",
+      "metadata": null,
+      "score": 0.21496609437758862,
+      "created_at": "2025-11-28T11:18:23.148386-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_15",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2453,
+    "load_time": 1152.5577
+  }
+}

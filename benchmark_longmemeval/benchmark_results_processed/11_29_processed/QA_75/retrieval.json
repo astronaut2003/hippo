@@ -1,0 +1,242 @@
+{
+  "sample_idx": 75,
+  "question_id": "3a704032",
+  "question": "How many plants did I acquire in the last month?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T07:35:14.664681",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "7a7726ab-2aae-4603-b509-ab0671e3f3ca",
+      "memory": "Got the snake plant from sister last month",
+      "hash": "6fe28e62d431049f347d8745f252f417",
+      "metadata": null,
+      "score": 0.49558414443251486,
+      "created_at": "2025-11-30T15:43:02.123757-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.999999997775395
+    },
+    {
+      "id": "ddfb3cd5-bdfd-4c30-9513-d5e9e8046990",
+      "memory": "Got a peace lily and a succulent from the nursery two weeks ago",
+      "hash": "38a2a019afa8a6c1dfe1b2d79b2ffe17",
+      "metadata": null,
+      "score": 0.4759140415922045,
+      "created_at": "2025-11-30T15:35:42.411624-08:00",
+      "updated_at": "2025-11-30T15:41:27.490499-08:00",
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.2629137597369851
+    },
+    {
+      "id": "3b346dcb-7cd3-4904-b01d-0b3e425f0ed6",
+      "memory": "Uses a plant tracking app to keep track of watering schedule and fertilization reminders",
+      "hash": "0d1e04bfaba3d055e4cad1d965b1e1ec",
+      "metadata": null,
+      "score": 0.37077061005300477,
+      "created_at": "2025-11-30T15:35:42.493857-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.23993356953611367
+    },
+    {
+      "id": "8ca010f6-684a-4a8b-944c-1f7ea374e520",
+      "memory": "Recently stocked up on cumin, smoked paprika, and garam masala",
+      "hash": "6c37501ccee27fcfc75b0434e7793bdd",
+      "metadata": null,
+      "score": 0.34510393242960025,
+      "created_at": "2025-11-30T15:47:19.703038-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.07010381570381065
+    },
+    {
+      "id": "69fae26c-3fc3-4602-b1db-34eccc25543c",
+      "memory": "Attended a study group which started in the month when the year was about to end and continued until January",
+      "hash": "3823d0e1749976917345bb36c84cf22c",
+      "metadata": null,
+      "score": 0.3281619341255886,
+      "created_at": "2025-11-30T15:48:07.076747-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.05673190698900122
+    },
+    {
+      "id": "4d49eeb9-07d2-4bed-8cff-ffcf4afff09b",
+      "memory": "Recently bought a batch of 200 poop bags from Amazon for around $10",
+      "hash": "25f0656324aca37bc6548f47b92ae942",
+      "metadata": null,
+      "score": 0.2634789780814214,
+      "created_at": "2025-11-30T15:39:50.788779-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.028051327836088415
+    },
+    {
+      "id": "53028ea7-ac42-4b72-80b4-9d683c7138b4",
+      "memory": "Got the water and fertilizer mixture from the nursery where the peace lily and succulent were bought",
+      "hash": "9d629ef9d682134a1f99537157f8eac6",
+      "metadata": null,
+      "score": 0.4446178977042388,
+      "created_at": "2025-11-30T15:35:42.461398-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.019739736858600452
+    },
+    {
+      "id": "c28e1694-33ce-42c0-9e1c-fc5059a40f4b",
+      "memory": "Has a rose bush that was pruned about a month ago and is already producing new buds",
+      "hash": "0470b43c966def3316ad13efdd2936fb",
+      "metadata": null,
+      "score": 0.3504213734913769,
+      "created_at": "2025-11-30T15:35:42.525466-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.010780861401128935
+    },
+    {
+      "id": "16c47961-b86a-4614-9e74-9a64ba60c441",
+      "memory": "Is thinking of getting a humidifier for plants, especially the fern",
+      "hash": "72ddbe05f3600a0901325209c07af537",
+      "metadata": null,
+      "score": 0.32222936242972905,
+      "created_at": "2025-11-30T15:41:28.306383-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.007545924085236026
+    },
+    {
+      "id": "1a2519d5-a097-4b54-bd11-06b868d03748",
+      "memory": "Is thinking of repotting a spider plant because the potting mix is getting old",
+      "hash": "12bec059cc618750c621673103ffcfb5",
+      "metadata": null,
+      "score": 0.247766001159262,
+      "created_at": "2025-11-30T15:41:28.340879-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.005767854197742686
+    },
+    {
+      "id": "55d1949e-da6d-46de-9c45-9a5436062a75",
+      "memory": "Spent over 2 hours at the gallery opening",
+      "hash": "c150d5ac25550d574e36427cd52ff242",
+      "metadata": null,
+      "score": 0.2228251680762051,
+      "created_at": "2025-11-30T15:39:02.045268-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.00507686581645575
+    },
+    {
+      "id": "0060dd4a-5835-49bb-aa2d-1f749742287f",
+      "memory": "Uses a mixture of water and fertilizer when watering plants",
+      "hash": "801d738a13c21d9471a1347563e17270",
+      "metadata": null,
+      "score": 0.30223820503416243,
+      "created_at": "2025-11-30T15:35:42.443272-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.004457161468362677
+    },
+    {
+      "id": "55ede6b8-5b59-4803-a670-92082a81c36a",
+      "memory": "Has an orchid and is thinking of getting fertilizer for it",
+      "hash": "81de87a3c82804548ff0b04aa8172cb9",
+      "metadata": null,
+      "score": 0.3179618878017577,
+      "created_at": "2025-11-30T15:41:28.289261-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.0043258376095918405
+    },
+    {
+      "id": "ad5441dd-30aa-41c9-beef-f600d7203517",
+      "memory": "Has a snake plant and succulent and is looking for a good fertilizer for them",
+      "hash": "52b87d5dba69346d3163af5d004d1a22",
+      "metadata": null,
+      "score": 0.36596505190316486,
+      "created_at": "2025-11-30T15:41:28.255962-08:00",
+      "updated_at": "2025-11-30T15:43:01.285517-08:00",
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.0030626675690077396
+    },
+    {
+      "id": "b95f0713-e27e-419d-a355-9d079d93b48f",
+      "memory": "Completed master's program in six months, from November to May",
+      "hash": "c1c478c9553185b1745bef40d20edf85",
+      "metadata": null,
+      "score": 0.2531959420923621,
+      "created_at": "2025-11-30T15:48:07.040332-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.0020579021487513905
+    },
+    {
+      "id": "09fefe11-fb82-44f9-b227-28fab048ddcc",
+      "memory": "Has African violets that get crispy if the air is too dry",
+      "hash": "ef340ccea03149638aa3da153a0cff14",
+      "metadata": null,
+      "score": 0.25484549784649824,
+      "created_at": "2025-11-30T15:41:28.326076-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.0017999218381450307
+    },
+    {
+      "id": "6eda737f-e5ad-4e3f-b72b-7e0705bdd146",
+      "memory": "Has been misting a fern every other day",
+      "hash": "c54c757dd1ace8c3bff09824b7776411",
+      "metadata": null,
+      "score": 0.34477583873539,
+      "created_at": "2025-11-30T15:35:42.478627-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.0017804035909609968
+    },
+    {
+      "id": "6db8e660-85bc-4060-bf0a-471dd638e919",
+      "memory": "Has been using a general-purpose fertilizer for snake plant and succulent",
+      "hash": "3fafe810df9ec82038d8be7a36632f27",
+      "metadata": null,
+      "score": 0.2783952718653717,
+      "created_at": "2025-11-30T15:41:28.269546-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.001585857583702747
+    },
+    {
+      "id": "e921e124-6e63-44f3-b1a1-aaa3d45176c3",
+      "memory": "Has a fern with pests that are tiny, moving dots on the leaves and stems",
+      "hash": "de5a8c81f788bd848b8f5446d37fff82",
+      "metadata": null,
+      "score": 0.3125583565864602,
+      "created_at": "2025-11-30T15:43:02.137676-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.0008431034164059821
+    },
+    {
+      "id": "14fda02d-2e6e-4c65-bb3f-abbe98dfbe85",
+      "memory": "Has been keeping the peace lily in a spot with a consistent temperature between 65°F to 70°F (18°C to 21°C)",
+      "hash": "ad3a8be20309b4f61d770c983117bb5d",
+      "metadata": null,
+      "score": 0.24792358702669937,
+      "created_at": "2025-11-30T15:35:42.509847-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_75",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2384,
+    "load_time": 1328.7669
+  }
+}

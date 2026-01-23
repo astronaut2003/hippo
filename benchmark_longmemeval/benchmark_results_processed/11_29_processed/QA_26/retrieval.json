@@ -1,0 +1,242 @@
+{
+  "sample_idx": 26,
+  "question_id": "0862e8bf",
+  "question": "What is the name of my cat?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T09:03:36.847759",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "7a67b476-d682-4249-b4f3-1b2c66fadb95",
+      "memory": "Cat's name is Luna",
+      "hash": "f6f729b279c2f9c39afa115c578ca9d0",
+      "metadata": null,
+      "score": 0.7255650499668976,
+      "created_at": "2025-11-28T17:17:12.979600-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.9999999990388283
+    },
+    {
+      "id": "509f8dca-123b-45e4-bba0-334c2365f500",
+      "memory": "Has a cat with digestive health issues",
+      "hash": "1727a0f5ec28ed11dc4418bbcc050a85",
+      "metadata": null,
+      "score": 0.49012618415619813,
+      "created_at": "2025-11-28T17:17:12.821127-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.33732739448073945
+    },
+    {
+      "id": "435152c1-8679-4008-8ccf-d7dbfe70cf7d",
+      "memory": "Has a new litter box with low sides for cat",
+      "hash": "d1212dabd3801b1f2baf05684748415b",
+      "metadata": null,
+      "score": 0.43986196232577834,
+      "created_at": "2025-11-28T17:17:12.898440-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.23969515766629773
+    },
+    {
+      "id": "b408db2f-9515-4754-a8f2-ce979e917540",
+      "memory": "Has already started giving cat a probiotic supplement",
+      "hash": "40069280edb1a0fca8a5117aa0a08852",
+      "metadata": null,
+      "score": 0.366323042284335,
+      "created_at": "2025-11-28T17:17:12.863365-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.13189242735812726
+    },
+    {
+      "id": "f3473daa-cfcf-46e3-8a41-7ebac2046618",
+      "memory": "Thinking of getting cat microchipped",
+      "hash": "4b08676e095422866ec5aee8d15d5eac",
+      "metadata": null,
+      "score": 0.36547679903533714,
+      "created_at": "2025-11-28T17:17:12.947121-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.06421224277977593
+    },
+    {
+      "id": "30ea7021-0727-4aab-b5c1-11d9a4c8c154",
+      "memory": "Washed all of cat's blankets and beds on January 25th",
+      "hash": "8de017f50c062562100be105968cab01",
+      "metadata": null,
+      "score": 0.3408844081050466,
+      "created_at": "2025-11-28T17:17:12.930965-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.055680939125949555
+    },
+    {
+      "id": "37714f35-9eaf-445b-9d98-ac651f7c3605",
+      "memory": "Has been having issues with cat's litter box getting stinky",
+      "hash": "84f49ce87d3213bdfef9b4fac01089b8",
+      "metadata": null,
+      "score": 0.3336860319632864,
+      "created_at": "2025-11-28T17:17:12.915396-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.03874116220473435
+    },
+    {
+      "id": "7183c4de-b75b-4ab4-b305-0663577ddd46",
+      "memory": "Has issues with front door not closing properly and is worried about cat getting out",
+      "hash": "a2aeafaf011f6d28ed3d8864c4cada7f",
+      "metadata": null,
+      "score": 0.37594180448025855,
+      "created_at": "2025-11-28T17:17:12.964784-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.01785156337934514
+    },
+    {
+      "id": "6e709cee-61b8-4ff0-aaf3-cb0901fad7f6",
+      "memory": "Interested in the history of language",
+      "hash": "3498de73a56b581c09dfc59c0a8c74a4",
+      "metadata": null,
+      "score": 0.07973739148806461,
+      "created_at": "2025-11-28T17:05:43.513202-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.0012027294779453942
+    },
+    {
+      "id": "d19f17a2-83ef-4067-acea-24c4a7c2941a",
+      "memory": "Wants to know more about the hosts of Coffee Break German, their backgrounds and how they present the podcast",
+      "hash": "f7520802a2f5649c2bebc1212fa849a4",
+      "metadata": null,
+      "score": 0.13233831810843405,
+      "created_at": "2025-11-28T17:25:36.241711-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.001197412938830934
+    },
+    {
+      "id": "d630ccd2-f3d9-468c-8365-29b02a4ac94f",
+      "memory": "Heard The North Face boots tend to run a bit small",
+      "hash": "92e9863f482828f1dad6b9811f9375d7",
+      "metadata": null,
+      "score": 0.08700772333265205,
+      "created_at": "2025-11-28T17:28:39.568255-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.0010238004374035598
+    },
+    {
+      "id": "bc16538a-f894-4bb8-a157-e6cb2093e879",
+      "memory": "Interested in purchasing the Thermoball boots from Moosejaw",
+      "hash": "9c326c4a58e582258cd8f5b66bd4543b",
+      "metadata": null,
+      "score": 0.09002390174506672,
+      "created_at": "2025-11-28T17:28:39.583365-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.00037866591520405635
+    },
+    {
+      "id": "9f861680-c7da-4c55-9602-10662364bb74",
+      "memory": "Has a homemade bitters recipe that incorporates jalapeno and cilantro",
+      "hash": "0fe4eea4867e4845611da837459ac6e0",
+      "metadata": null,
+      "score": 0.1105324412138962,
+      "created_at": "2025-11-28T17:24:48.143731-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.0003211922940873913
+    },
+    {
+      "id": "fb50d125-dad9-4d6d-a3b3-88915cf1ed42",
+      "memory": "Looking for a place with a more convenient commute than Roppongi",
+      "hash": "54b25567e5db5ded88aaf7ba52b62d13",
+      "metadata": null,
+      "score": 0.09463887545779295,
+      "created_at": "2025-11-28T17:21:50.162455-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.0003178007087902356
+    },
+    {
+      "id": "5e0dbfcd-0b66-4f3a-97a5-0d8c18996c34",
+      "memory": "Interested in the deal from Moosejaw",
+      "hash": "8ce65745b60a52cf6a905ae96d882ffa",
+      "metadata": null,
+      "score": 0.12916908681656708,
+      "created_at": "2025-11-28T17:28:39.452724-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.00022631957023452315
+    },
+    {
+      "id": "b8d822d2-d2ac-4f3b-aea3-cdff73ac8661",
+      "memory": "Interested in the Thermoball boots from The North Face",
+      "hash": "701273ea7d0ce4bc6b7be656b07f18c8",
+      "metadata": null,
+      "score": 0.10924930754466652,
+      "created_at": "2025-11-28T17:28:39.467772-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.00021348654478582602
+    },
+    {
+      "id": "b09bdc24-a6e0-4cbb-aee5-bb87764504fa",
+      "memory": "Vet recommended probiotic during a follow-up appointment on January 15th",
+      "hash": "3eced4d1d41472a9e140e3ff246aef3c",
+      "metadata": null,
+      "score": 0.11368006491043067,
+      "created_at": "2025-11-28T17:17:12.879090-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.00021275322904590048
+    },
+    {
+      "id": "8e0d5a16-2616-42f5-8227-c3662b0a6e2c",
+      "memory": "Decided to go with adjustable sway bars",
+      "hash": "0fac0cabfbad5e420a61f12d4a617efb",
+      "metadata": null,
+      "score": 0.09593317215315528,
+      "created_at": "2025-11-28T17:27:06.686539-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.00019497032235270585
+    },
+    {
+      "id": "3f35596b-6ae7-49b4-9add-344c581957d1",
+      "memory": "Wants to know more about the 'Coffee Break German' podcast and how it can help improve German skills",
+      "hash": "ea2e4f52320d14ca3e4fe8258fa68748",
+      "metadata": null,
+      "score": 0.08476341680794766,
+      "created_at": "2025-11-28T17:25:36.223338-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.0001629794231984537
+    },
+    {
+      "id": "b3368902-57ff-46fc-b5af-98fb6ff4c45c",
+      "memory": "Interested in Shimokitazawa as a trendy area with a lot of character",
+      "hash": "d6da64e1b8624118e872c2b28b96ee66",
+      "metadata": null,
+      "score": 0.14488339894930946,
+      "created_at": "2025-11-28T17:21:50.193199-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_26",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3661,
+    "load_time": 1502.7782
+  }
+}

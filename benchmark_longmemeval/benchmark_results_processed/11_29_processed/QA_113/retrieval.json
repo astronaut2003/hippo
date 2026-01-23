@@ -1,0 +1,242 @@
+{
+  "sample_idx": 113,
+  "question_id": "gpt4_ab202e7f",
+  "question": "How many kitchen items did I replace or fix?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-06T22:58:25.555800",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "ad961d2c-fe82-4463-a06f-76e30b261aa0",
+      "memory": "Fixed the kitchen shelves last weekend",
+      "hash": "71ea5d1eed12911db1a0c3b2dd3bc786",
+      "metadata": null,
+      "score": 0.5515846004715783,
+      "created_at": "2025-12-06T06:59:19.969752-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.9999999973384167
+    },
+    {
+      "id": "bbfdbaeb-a2e9-4e98-8401-b2ac8d4818f0",
+      "memory": "Glad fixed kitchen shelves last weekend",
+      "hash": "9bd7256272e882e46d7262ddb70d5e0b",
+      "metadata": null,
+      "score": 0.5255649798732658,
+      "created_at": "2025-12-06T06:59:20.109028-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.5867717331266965
+    },
+    {
+      "id": "8ca20449-60c3-4755-86cc-fcfb307b3400",
+      "memory": "Has a new kitchen mat from IKEA in front of the sink that has a nice grip and is easy to clean",
+      "hash": "58d2e9af9fcdf6ce3ff743603ed5797a",
+      "metadata": null,
+      "score": 0.30245027138056013,
+      "created_at": "2025-12-06T07:02:23.869583-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.2085293940389451
+    },
+    {
+      "id": "81225bbb-43a1-4c05-b945-d5db2c4c427d",
+      "memory": "Decluttering kitchen countertops and got rid of old toaster",
+      "hash": "41447009b7ce1428fadc193cb919bf0e",
+      "metadata": null,
+      "score": 0.3746793373455719,
+      "created_at": "2025-12-06T07:12:23.925183-08:00",
+      "updated_at": "2025-12-06T07:21:35.128761-08:00",
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.2031588934783179
+    },
+    {
+      "id": "90cb6bb8-c39e-4cd0-a202-422e89597927",
+      "memory": "Has been experimenting with new recipes and cooking techniques in kitchen",
+      "hash": "a6cb65c1c7f0df88b199501a280222fc",
+      "metadata": null,
+      "score": 0.3235586677126497,
+      "created_at": "2025-12-06T07:00:44.267713-08:00",
+      "updated_at": "2025-12-06T07:21:35.114619-08:00",
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.11015567264388491
+    },
+    {
+      "id": "0eb18a1d-ea04-4625-ada4-e18491586e92",
+      "memory": "Just cleaned kitchen counters",
+      "hash": "c5e95cd0017e5002bda7974799eba63c",
+      "metadata": null,
+      "score": 0.5605323719560009,
+      "created_at": "2025-12-06T07:02:23.893671-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.08780913098793923
+    },
+    {
+      "id": "4f30f16e-906d-45b6-bc1d-a01ff2246caf",
+      "memory": "Recently bought a few new winter clothing items, including a coat and a pair of boots that were purchased for $80",
+      "hash": "583c4e5159cce89320cab5e26b7a1c24",
+      "metadata": null,
+      "score": 0.2633229224755614,
+      "created_at": "2025-12-06T07:13:18.351123-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.07884239014264587
+    },
+    {
+      "id": "ae30acb9-960d-41ce-8b99-a91d1f8e7031",
+      "memory": "Accessories are currently stored in a jumbled mess on a shelf",
+      "hash": "445ba46810b3eef7e4b504c7fa9ef836",
+      "metadata": null,
+      "score": 0.3409300811256759,
+      "created_at": "2025-12-06T07:00:44.367478-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.0328075700898775
+    },
+    {
+      "id": "c9477bac-9d37-4c8c-9cf8-440192365e18",
+      "memory": "Trying to reduce food waste by using up all produce bought",
+      "hash": "6807335b224ada313a1f9bce306dc53a",
+      "metadata": null,
+      "score": 0.26642477790079555,
+      "created_at": "2025-12-06T07:12:24.008983-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.030531998791738596
+    },
+    {
+      "id": "776aedb9-383d-4473-bb56-da3eae5fa7c0",
+      "memory": "Loving new faucet, it's been a game-changer for washing veggies",
+      "hash": "e60d0b837f963a5763e93b2550f4d94a",
+      "metadata": null,
+      "score": 0.29482828926409577,
+      "created_at": "2025-12-06T07:02:23.881816-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.011336228638726346
+    },
+    {
+      "id": "08dddcb0-6008-4e26-9781-ede76bdfa481",
+      "memory": "Donated old coffee maker to Goodwill",
+      "hash": "bca36a8bfab5e9327e5db91784022dd8",
+      "metadata": null,
+      "score": 0.27384039337169314,
+      "created_at": "2025-12-06T07:21:35.181344-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.008211093800724538
+    },
+    {
+      "id": "260c162d-c2b0-4d8b-9e1b-7bb8fda2372e",
+      "memory": "Likes the idea of focusing on components instead of entire meals for meal prep",
+      "hash": "c971e0fcc81511ab9c7b037c812cf6b4",
+      "metadata": null,
+      "score": 0.2893186870206227,
+      "created_at": "2025-12-06T07:01:48.798443-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.006784832214082875
+    },
+    {
+      "id": "f430ec76-ee08-45f8-8703-368ca9d6b6f9",
+      "memory": "Wants to find a new print or painting for bedroom",
+      "hash": "ec571151061fb8eecfad7df52b8d1de2",
+      "metadata": null,
+      "score": 0.2582103970231859,
+      "created_at": "2025-12-06T07:00:44.134719-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.005627882523406117
+    },
+    {
+      "id": "b6d3ba56-289d-46e2-80ad-2bc3768c70e4",
+      "memory": "Wants suggestions for recipes using common pantry staples like beans, rice, and pasta",
+      "hash": "df6b239fa9968a568841012e879edcbf",
+      "metadata": null,
+      "score": 0.26989944178822484,
+      "created_at": "2025-12-06T07:12:24.062457-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.003377440233467517
+    },
+    {
+      "id": "c1c80781-6c72-45af-b67d-ad81ec704005",
+      "memory": "Toaster oven has been a game-changer for cooking and reheating food",
+      "hash": "70a41b69eaf00bb6939274ce3d4a6cd2",
+      "metadata": null,
+      "score": 0.3025079425071837,
+      "created_at": "2025-12-06T07:02:23.905674-08:00",
+      "updated_at": "2025-12-06T07:21:35.147610-08:00",
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.003223874072243419
+    },
+    {
+      "id": "a2b6eb2c-7d8e-46db-b420-3e34ad3fc017",
+      "memory": "Pantry is organized and can see everything, no more expired cans hidden in back",
+      "hash": "296ec85d8696e7ec340d6bb9d2de5404",
+      "metadata": null,
+      "score": 0.3591120589026557,
+      "created_at": "2025-12-06T07:12:24.045661-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.002481172274323236
+    },
+    {
+      "id": "f919c83c-909b-4b24-a3e5-91b73b48974e",
+      "memory": "Has pasta, rice, and canned beans at home after trying out Shipt last month",
+      "hash": "9583a4b47c640949f1c38e8023d460c4",
+      "metadata": null,
+      "score": 0.2824447487086448,
+      "created_at": "2025-12-06T07:08:26.984599-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.0007911830157611792
+    },
+    {
+      "id": "28773e49-4c90-4af0-bcfe-e90d9d99fd4f",
+      "memory": "Has a lot of whole wheat flour left from recent bread-making adventure",
+      "hash": "ffbf2d29935f4d773ae653033e73fb95",
+      "metadata": null,
+      "score": 0.2616466057330006,
+      "created_at": "2025-12-06T07:09:20.023301-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.0006893978411316531
+    },
+    {
+      "id": "65bc3f43-10be-4c60-a951-9e130db6d7e4",
+      "memory": "All set with Plan to Eat and excited to start planning meals and making grocery lists",
+      "hash": "331120368afff575f8fc80e63b35cf60",
+      "metadata": null,
+      "score": 0.2867069687012782,
+      "created_at": "2025-12-06T07:08:27.092663-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.0003809963768551588
+    },
+    {
+      "id": "4e29a280-ed9f-42c7-8d32-c2c353cf1b8b",
+      "memory": "Interested in the Whole Wheat Cinnamon Swirl Bread",
+      "hash": "42916c9cb3c903fb0caee4f012743542",
+      "metadata": null,
+      "score": 0.25548839278302055,
+      "created_at": "2025-12-06T07:09:19.993283-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_113",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1709,
+    "load_time": 1481.4193
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 184,
+  "question_id": "5025383b",
+  "question": "What are the two hobbies that led me to join online communities?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T23:09:11.835139",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "95d86493-fa53-43fe-9973-f0cb73fca081",
+      "memory": "Has already joined a few online communities related to cooking and engaged in discussions about recipe techniques and shared thoughts on food-related posts",
+      "hash": "8cf8d99eaeb76df31281f77f5f336a47",
+      "metadata": null,
+      "score": 0.45178766964552847,
+      "created_at": "2025-12-08T07:37:15.000429-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.9999999986352985
+    },
+    {
+      "id": "4ee9054d-f668-4dcd-9a07-4abb182f7bb1",
+      "memory": "Appreciates tips on engaging with online communities and has been trying to engage more with online cooking communities",
+      "hash": "0fb98f54d1df64137a3bf861aef796ff",
+      "metadata": null,
+      "score": 0.5827756895470761,
+      "created_at": "2025-12-08T07:37:15.035358-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.6817399382332138
+    },
+    {
+      "id": "48c69450-4c4d-465e-a200-54d44e074f97",
+      "memory": "Interested in learning more about cooking techniques and wants recommendations for online communities or forums to engage with other food enthusiasts",
+      "hash": "4737be77b8a0c18fd9722cee4045888e",
+      "metadata": null,
+      "score": 0.4845825541503582,
+      "created_at": "2025-12-08T07:37:14.985388-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.5193981139141455
+    },
+    {
+      "id": "c3c1e3b7-ee26-4981-ab6f-136eb1d0c78c",
+      "memory": "The article in The New Yorker about the impact of social media on mental health got them thinking about their own social media use",
+      "hash": "55149440167a0b4a88d8a14241dad495",
+      "metadata": null,
+      "score": 0.2894115400350349,
+      "created_at": "2025-12-08T07:33:02.915327-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.010807756185634941
+    },
+    {
+      "id": "a8c8702c-b674-4829-a4f8-d7ca06985093",
+      "memory": "Interested in hiking and attending local cultural events",
+      "hash": "3ae8557574e5e826288ed1e9a29b7024",
+      "metadata": null,
+      "score": 0.2994209189661359,
+      "created_at": "2025-12-08T07:27:15.899490-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.007536744694900578
+    },
+    {
+      "id": "f8f94f6d-790a-4fd8-a764-9c6418dd4a79",
+      "memory": "Has always wondered what made someone want to become an EOD technician",
+      "hash": "26b73253dfd994fa9e4e7e94d5eb9477",
+      "metadata": null,
+      "score": 0.3084120180115114,
+      "created_at": "2025-12-08T07:21:41.096336-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.00429059148589662
+    },
+    {
+      "id": "c623efff-53e1-4eeb-b56c-b7643afd3748",
+      "memory": "Has met interesting people recently, like Rachel, the freelance writer, and Michael, the bartender who's also a musician",
+      "hash": "0bb060434eb1a3e9361d5a3109e3f184",
+      "metadata": null,
+      "score": 0.33183252977133004,
+      "created_at": "2025-12-08T07:15:36.495579-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.003584147751694331
+    },
+    {
+      "id": "1689102d-b573-4113-acd2-31d679102607",
+      "memory": "Is thinking about exploring own creativity",
+      "hash": "87a13768ce4b169acf1dc93a603d7055",
+      "metadata": null,
+      "score": 0.30748619980147357,
+      "created_at": "2025-12-08T07:15:36.283960-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.0032008616799873045
+    },
+    {
+      "id": "21881766-6410-41bb-a682-21d347102c2c",
+      "memory": "Wants advice on how to approach online discussions about food and cooking to contribute positively",
+      "hash": "68ed64bd0d3e904eccf1ba1fd787639e",
+      "metadata": null,
+      "score": 0.4416973828478073,
+      "created_at": "2025-12-08T07:37:15.017788-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.0027694208216821115
+    },
+    {
+      "id": "e873d0a9-c014-4b07-a6c8-0a42f8605137",
+      "memory": "Looking for recipe inspiration and popular cooking blogs or websites that focus on recipe techniques",
+      "hash": "26673ec24efa4602ebcaee9d2661a341",
+      "metadata": null,
+      "score": 0.31705393810487537,
+      "created_at": "2025-12-08T07:37:14.950543-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.002235162986586239
+    },
+    {
+      "id": "1e614394-78ff-45e2-80a2-be8e0da12423",
+      "memory": "Trying to cut back on screen time and focus on more meaningful activities",
+      "hash": "7153cb62e3c80b575d729b8b4638cd69",
+      "metadata": null,
+      "score": 0.315951194999576,
+      "created_at": "2025-12-08T07:33:02.941110-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.002009356081862405
+    },
+    {
+      "id": "314fa590-5166-487b-839e-f54ff240ad56",
+      "memory": "Realized the importance of considering everyone's interests when planning a trip",
+      "hash": "62b95e47c061d1659282332be36663d8",
+      "metadata": null,
+      "score": 0.3969135675459996,
+      "created_at": "2025-12-08T07:27:15.884550-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.0019674484027148117
+    },
+    {
+      "id": "8530e3bf-25af-4a5d-b877-27bc0b0451ee",
+      "memory": "Interested in shows that explore themes of identity and self-discovery",
+      "hash": "4e75f8fb4e5344c6ad85d7acf28edccc",
+      "metadata": null,
+      "score": 0.378147244565876,
+      "created_at": "2025-12-08T07:19:28.452477-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.0016714916872439193
+    },
+    {
+      "id": "49185c93-d577-40b1-a603-d0416c856406",
+      "memory": "Curious about how characters' identities affect their experiences and relationships with others",
+      "hash": "1f60d91ee24135081f09108e5250b73c",
+      "metadata": null,
+      "score": 0.2822109826574004,
+      "created_at": "2025-12-08T07:19:28.540792-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.0007638390339044275
+    },
+    {
+      "id": "09b3111a-f07c-43b9-ba40-f627a57a33cd",
+      "memory": "Thinking about how The OA's exploration of interdimensional travel and near-death experiences might relate to own life and experiences",
+      "hash": "a23c67df3d2c7b06d969e64f7b348101",
+      "metadata": null,
+      "score": 0.2956469961642054,
+      "created_at": "2025-12-08T07:19:28.644584-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.00046449846856447464
+    },
+    {
+      "id": "41900b94-85e5-4f7e-a862-0c7833eee5b1",
+      "memory": "Will start with the freewriting exercise to get creative juices flowing",
+      "hash": "a5509aac41f323015bbb3b1699749160",
+      "metadata": null,
+      "score": 0.26680117297551914,
+      "created_at": "2025-12-08T07:15:36.299702-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.0002955662712552317
+    },
+    {
+      "id": "b482d6e3-f503-4fcf-b3e4-af1947cfe04f",
+      "memory": "Looking for ways to cut back on social media use",
+      "hash": "e181976575e50c02f669696afe5f07dd",
+      "metadata": null,
+      "score": 0.39297671777184695,
+      "created_at": "2025-12-08T07:33:02.929212-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.00018441981786378834
+    },
+    {
+      "id": "43373619-789c-4da0-9137-15023d8e283f",
+      "memory": "Wants recommendations for popular cooking YouTube channels or food vloggers that focus on recipe techniques and cooking fundamentals",
+      "hash": "9b43a9a99fdb9d32ae96930fe42a121d",
+      "metadata": null,
+      "score": 0.27650752818525137,
+      "created_at": "2025-12-08T07:37:15.052492-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 9.279557525538538e-05
+    },
+    {
+      "id": "6a34de5c-0101-4f2e-a5b0-b139076181e1",
+      "memory": "Read an article in The New Yorker about the impact of social media on mental health",
+      "hash": "b8b1c0bc386fbb3e67ee40f88cbbe7bd",
+      "metadata": null,
+      "score": 0.2667830826265148,
+      "created_at": "2025-12-08T07:33:02.857315-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 4.815478659816633e-05
+    },
+    {
+      "id": "5dc89c40-bbab-4149-98ff-27b5e8aea8b9",
+      "memory": "Wants a recommendation based on fun, historic sites, and an alive crowd during May to August",
+      "hash": "2aeff13def32c41d7424be3734a7b66c",
+      "metadata": null,
+      "score": 0.3235951891145063,
+      "created_at": "2025-12-08T07:32:01.880212-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_184",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4389,
+    "load_time": 1683.2531
+  }
+}

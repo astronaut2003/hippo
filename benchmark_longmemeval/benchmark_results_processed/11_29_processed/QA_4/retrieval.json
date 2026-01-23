@@ -1,0 +1,242 @@
+{
+  "sample_idx": 4,
+  "question_id": "1e043500",
+  "question": "What is the name of the playlist I created on Spotify?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-28T23:09:55.542693",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "b9655161-a5ee-4196-8998-fbeeef980cb3",
+      "memory": "Has a playlist on Spotify called Summer Vibes with chill tracks for relaxing or working out",
+      "hash": "a31f109158f89c682b13fe3568bd305e",
+      "metadata": null,
+      "score": 0.6188350444121293,
+      "created_at": "2025-11-28T07:15:31.687887-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.9999999989943692
+    },
+    {
+      "id": "cc50fa5d-e24b-4481-b94f-0a80cd1f89ec",
+      "memory": "Concerned about keeping track of shows across different platforms",
+      "hash": "113f4813ab0021e05c3629fc0976bf93",
+      "metadata": null,
+      "score": 0.18302343396835147,
+      "created_at": "2025-11-28T07:24:13.086545-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.17010595275159157
+    },
+    {
+      "id": "c6ba14e6-2bda-4d02-a046-027dbece71ac",
+      "memory": "Looking for a good music streaming service to discover new music and artists, especially in the ambient and lo-fi genres",
+      "hash": "784d16a33db31f55e954caf46b6d1355",
+      "metadata": null,
+      "score": 0.36876247692486197,
+      "created_at": "2025-11-28T07:15:31.669910-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.1450537049492687
+    },
+    {
+      "id": "8ffe47fe-7cd0-4ac8-800f-d57d1cd021e6",
+      "memory": "Will recommend 'The Alice Network' to friends",
+      "hash": "21a8a634e6f70b02ff8abea18810ffec",
+      "metadata": null,
+      "score": 0.16970378821691595,
+      "created_at": "2025-11-28T07:29:18.495547-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.06574228627865573
+    },
+    {
+      "id": "cce29dd3-665d-4c54-87f8-e22830c12aa9",
+      "memory": "Interested in 'The Alice Network' and 'The Women in the Castle'",
+      "hash": "8bf7c68b68dab147a20fc1e055f15c2b",
+      "metadata": null,
+      "score": 0.15441184488304732,
+      "created_at": "2025-11-28T07:29:18.430292-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.025181047434812306
+    },
+    {
+      "id": "28948e98-f9d7-4fcb-9450-078baaf01529",
+      "memory": "Needs help organizing TV show watchlist",
+      "hash": "57f2a042641669e5bb00d5065d3b0f5b",
+      "metadata": null,
+      "score": 0.34469687018673056,
+      "created_at": "2025-11-28T07:24:13.035342-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.006684921506360951
+    },
+    {
+      "id": "0e93b71b-982c-4172-810f-2733302801c0",
+      "memory": "Has been really into podcasts",
+      "hash": "6081af48737e6fa4ab7fc0944ea35fcc",
+      "metadata": null,
+      "score": 0.23636594503904867,
+      "created_at": "2025-11-28T07:15:31.705322-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.001874164123684519
+    },
+    {
+      "id": "0cab8d90-6ca0-43b7-80d7-bf9d1e32f715",
+      "memory": "Has a design business called DesignSpark",
+      "hash": "77a4d988c40e04fdba653e711f4859cb",
+      "metadata": null,
+      "score": 0.1551214129143924,
+      "created_at": "2025-11-28T07:16:38.086677-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.0015747505327448471
+    },
+    {
+      "id": "f6e5a9b7-ea73-4dce-8a62-16465cc798ce",
+      "memory": "Loving earthy tones lately",
+      "hash": "4d35322548481b683958ed9e4489b9fc",
+      "metadata": null,
+      "score": 0.18075698137688304,
+      "created_at": "2025-11-28T07:31:02.812064-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.0015496235754014153
+    },
+    {
+      "id": "3fbe59bc-9d11-4391-8905-0ddef83d1d20",
+      "memory": "Has a vintage record player from the 1960s",
+      "hash": "b110121a49c93dc7354517d1ef94c6fa",
+      "metadata": null,
+      "score": 0.20813359383836466,
+      "created_at": "2025-11-28T07:19:24.103836-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.001287612707224867
+    },
+    {
+      "id": "e6bd8f4d-3af9-47db-b562-24dbf5aed8db",
+      "memory": "Attended a music festival last month with some friends",
+      "hash": "ce2590671873fe8c26146d56995e00da",
+      "metadata": null,
+      "score": 0.27861266294974846,
+      "created_at": "2025-11-28T07:15:31.770741-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.001013326073628627
+    },
+    {
+      "id": "92038649-3464-4c16-b90d-0fb2f94f844b",
+      "memory": "Excited to check out the festival",
+      "hash": "4569cfd700ab18de37b3e28bd5572758",
+      "metadata": null,
+      "score": 0.1658405953023358,
+      "created_at": "2025-11-28T07:27:21.490888-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.0006958824522287826
+    },
+    {
+      "id": "fbcda334-26c0-4d89-83fb-b395b03565d2",
+      "memory": "Looking for good music festivals or concerts coming up in their area",
+      "hash": "154eafbaafe0c5cddea19d6776d04622",
+      "metadata": null,
+      "score": 0.2247184172067519,
+      "created_at": "2025-11-28T07:15:31.754475-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.0006951152168900519
+    },
+    {
+      "id": "79c5325c-8d0c-44ad-9f3d-2fcd4ce7d22b",
+      "memory": "Wants to show some cool mods at the beginning of the video but doesn't know which ones to show",
+      "hash": "60e353c20a2f806d47beaf11056d2746",
+      "metadata": null,
+      "score": 0.19713163457943927,
+      "created_at": "2025-11-28T07:22:38.931310-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.0005190347066513467
+    },
+    {
+      "id": "1ef7b40f-52a6-43e9-b7bf-35de6ccab595",
+      "memory": "Likes the third option for the hook: \"Do you want to experience the game in the best way imaginable? Do you want tools that your favorite YouTubers are using? Or do you simply want to customize your Minecraft world to your heart's desire? Mods have got you covered! In this video, I'll show you how to find and install the best mods for Minecraft.\"",
+      "hash": "b79eae6a1026f11cafac6c04b7535498",
+      "metadata": null,
+      "score": 0.16418342708184963,
+      "created_at": "2025-11-28T07:22:38.947507-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.0002037009824330119
+    },
+    {
+      "id": "83e9b048-c9cb-42ff-bad8-a9c29c57a19c",
+      "memory": "Having trouble coming up with a good thumbnail for the video",
+      "hash": "0241dcfbd8f9b3dad5895af492bf9862",
+      "metadata": null,
+      "score": 0.1932532811977457,
+      "created_at": "2025-11-28T07:22:38.962308-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.00019411054069887762
+    },
+    {
+      "id": "89d10a30-fee8-48b8-be0b-a54c7dfd20c7",
+      "memory": "For the vintage record player, will start with a price around $200",
+      "hash": "386a346e7e3524d1d94bc7efa173cb9b",
+      "metadata": null,
+      "score": 0.17089031483592504,
+      "created_at": "2025-11-28T07:19:24.239379-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.000126210213221207
+    },
+    {
+      "id": "9e6d1fa1-509b-4e8b-a4de-3ea6d4fdcca0",
+      "memory": "Decided to make the template freely available for download to establish trust with the audience and demonstrate expertise",
+      "hash": "e1f1df211adc726cf34f03b60e900970",
+      "metadata": null,
+      "score": 0.24814069027981425,
+      "created_at": "2025-11-28T07:16:38.200429-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 7.212012184068971e-05
+    },
+    {
+      "id": "3a4ed95c-2719-4a12-9613-47151e8fb68c",
+      "memory": "Plans to offer the Brand Style Guide Template as a free resource on the website to attract potential clients and showcase expertise",
+      "hash": "03aa9ba328acf20b78f016c0af3c1d0b",
+      "metadata": null,
+      "score": 0.1782874543488665,
+      "created_at": "2025-11-28T07:16:38.184892-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 2.416791317001836e-05
+    },
+    {
+      "id": "79fe1907-15c1-44b6-82fb-4085bc69215d",
+      "memory": "Trying to get back into playing the guitar",
+      "hash": "aded6f6bc6fc39c02c77051f620cd125",
+      "metadata": null,
+      "score": 0.2120201167450998,
+      "created_at": "2025-11-28T07:15:31.636833-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_4",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.5304,
+    "load_time": 1306.4749
+  }
+}

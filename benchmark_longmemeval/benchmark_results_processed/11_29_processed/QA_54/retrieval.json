@@ -1,0 +1,243 @@
+{
+  "sample_idx": 54,
+  "question_id": "c19f7a0b",
+  "question": "What time do I usually get home from work on weeknights?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T15:12:27.658541",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "6d8cf3c5-c20a-4439-b399-c9d973e1b092",
+      "memory": "Usually gets home from work around 6:30 pm on weekdays",
+      "hash": "16f1381d972ebe37b59232ca2a38a05b",
+      "metadata": null,
+      "score": 0.8057090097078681,
+      "created_at": "2025-11-29T23:22:04.554598-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.9999999993781012
+    },
+    {
+      "id": "b0793076-f018-433d-b796-bc1158027067",
+      "memory": "Usually has about an hour to spare between getting home from work and starting dinner",
+      "hash": "4842e9e0d3741eb782d39ef0b94753e4",
+      "metadata": null,
+      "score": 0.6293587285749682,
+      "created_at": "2025-11-29T23:22:04.446187-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.6912569585598513
+    },
+    {
+      "id": "76c4dd22-de06-42d0-b2c9-92be556277da",
+      "memory": "Reserves Sundays for relaxation and errands",
+      "hash": "19382d7ebafb5b89780aedaf225b73ac",
+      "metadata": null,
+      "score": 0.2993536306045282,
+      "created_at": "2025-11-29T23:17:29.374504-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.10210072368581936
+    },
+    {
+      "id": "34af17df-94d7-4e6b-b99a-e6d6a45760dc",
+      "memory": "Spends about 5-6 hours each weekend on the blanket",
+      "hash": "2b18e1b87c61fc0786cdae0de0450398",
+      "metadata": null,
+      "score": 0.35084000158181033,
+      "created_at": "2025-11-29T23:15:53.548111-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.0941823348546217
+    },
+    {
+      "id": "c1e0859a-fc67-45d8-a475-8ad71a83b6f4",
+      "memory": "Waking up early is a struggle",
+      "hash": "acf50cb2f1f3fffcb7360fbc16e111c7",
+      "metadata": null,
+      "score": 0.39582775034388973,
+      "created_at": "2025-11-29T23:23:20.118553-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.021780655022865993
+    },
+    {
+      "id": "71f83a22-6b15-4ad4-9053-8e8aa5a24d11",
+      "memory": "Listens to a lot of music while driving to and from work",
+      "hash": "c515c78acd37c49bb3ebb461679522fc",
+      "metadata": null,
+      "score": 0.250776115947361,
+      "created_at": "2025-11-29T23:34:33.594720-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.010590313505825868
+    },
+    {
+      "id": "2671e47e-f478-4aee-8bc3-9e28f74ec829",
+      "memory": "Starts making dinner and doing some yoga before dedicating an hour to language learning on Tuesdays and Thursdays",
+      "hash": "297209e82ccd9289e714d1ec20f2943b",
+      "metadata": null,
+      "score": 0.302243294493595,
+      "created_at": "2025-11-29T23:22:04.573748-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.006532814609789392
+    },
+    {
+      "id": "6af43737-21ac-4369-b506-3d6f9a2b1875",
+      "memory": "Set a goal to limit social media use to 1 hour a day",
+      "hash": "f42d6e5ef910c2613500ac22e1bfdec1",
+      "metadata": null,
+      "score": 0.20219018726929874,
+      "created_at": "2025-11-29T23:18:03.488194-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.003342530261541281
+    },
+    {
+      "id": "469d7f18-0ad0-4e38-9de3-0010877b3aa7",
+      "memory": "Has been trying to dedicate an hour on Tuesdays and Thursdays to language learning",
+      "hash": "fa1c6d63467f694894a53d446588e6d1",
+      "metadata": null,
+      "score": 0.32194663224373754,
+      "created_at": "2025-11-29T23:22:04.500741-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.0032847634054651038
+    },
+    {
+      "id": "d17c99e4-6026-4f9f-8aff-33b99aff10fc",
+      "memory": "Looking for educational content to watch during morning routine",
+      "hash": "6cf169bf99f51a26ee242ea02375ee15",
+      "metadata": null,
+      "score": 0.27375261440555687,
+      "created_at": "2025-11-29T23:26:03.372542-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.001768353779021875
+    },
+    {
+      "id": "2d40a6f3-1918-45e2-be83-22b8ebeabb21",
+      "memory": "Planning a camping trip next weekend",
+      "hash": "da5e47ad433bc308002d2554e9770740",
+      "metadata": null,
+      "score": 0.30749667530017527,
+      "created_at": "2025-11-29T23:14:59.048897-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.0008094476917121865
+    },
+    {
+      "id": "06e72f3f-c6f0-4b12-b58d-56784f1a5bb4",
+      "memory": "Has tried waking up earlier before but always ends up hitting the snooze button",
+      "hash": "bddf5c0b3e2020a5020b277222343788",
+      "metadata": null,
+      "score": 0.26955797304422396,
+      "created_at": "2025-11-29T23:23:20.146513-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.0007299144740549443
+    },
+    {
+      "id": "d334d2c7-514d-4ae5-b0be-d7e8df3628ca",
+      "memory": "Going to start organizing craft room this weekend",
+      "hash": "f506d2a949e2fdf88a9c0a15a19283f7",
+      "metadata": null,
+      "score": 0.2802536704046029,
+      "created_at": "2025-11-29T23:15:53.628124-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.0006398835833735918
+    },
+    {
+      "id": "5b0ab1fd-21aa-4fd8-9293-3c57cccc3530",
+      "memory": "Drove from Portland to San Francisco in about 10 hours with a stop in Ashland for lunch",
+      "hash": "429cefdc81078b106e71de5634f33276",
+      "metadata": null,
+      "score": 0.2910078004316761,
+      "created_at": "2025-11-29T23:28:06.198812-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.0005792105918274628
+    },
+    {
+      "id": "bc3e5480-87f0-4524-b0f7-8c6f1cd7eedf",
+      "memory": "Has puppy training classes on Saturdays, usually in the morning",
+      "hash": "ecfaea8135fc089900210749a694dbd7",
+      "metadata": null,
+      "score": 0.3570737408868049,
+      "created_at": "2025-11-29T23:17:29.334611-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.0005506237082250835
+    },
+    {
+      "id": "1b89465e-b51d-4d7c-b1ca-d0acd6c64cac",
+      "memory": "Thinking of trying out new recipes for dinner this week",
+      "hash": "9b3a9bcd68ffa0293ab0bfaafb2105e6",
+      "metadata": null,
+      "score": 0.31531019647125724,
+      "created_at": "2025-11-29T23:22:04.390796-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.0005320600265496794
+    },
+    {
+      "id": "1330cdcb-ad07-49f8-ab54-2b7b28925029",
+      "memory": "Attended the evening service at the Baptist Church last Sunday",
+      "hash": "06d37c154f085b556d7f06f02799f7b1",
+      "metadata": null,
+      "score": 0.25090946980913864,
+      "created_at": "2025-11-29T23:36:45.270198-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.00038491467755071
+    },
+    {
+      "id": "6d399ae3-fa81-4fc7-8746-050a9d66b3d3",
+      "memory": "Attended a special mass at St. Mary's Church three Sundays ago",
+      "hash": "e2df31145194231b45c3d55bde54c4f0",
+      "metadata": null,
+      "score": 0.21599156957438687,
+      "created_at": "2025-11-29T23:36:45.272119-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.00015123766221175817
+    },
+    {
+      "id": "a3168850-1af4-4c39-a434-2be02cd0645b",
+      "memory": "Going to start the single crochet border this weekend",
+      "hash": "4984fdadab6824ba733d6a5727ed65fe",
+      "metadata": null,
+      "score": 0.2811860883415028,
+      "created_at": "2025-11-29T23:15:53.607415-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 3.196749016946575e-05
+    },
+    {
+      "id": "307aafd3-c64c-4970-bef6-5b5578c0e829",
+      "memory": "Likes the idea of categorizing tasks into must-do, should-do, and nice-to-do",
+      "hash": "300b8310f617c5c11b2e4e13f3647aba",
+      "metadata": null,
+      "score": 0.20878906107763215,
+      "created_at": "2025-11-29T23:22:04.482431-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_54",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "retrieval_time": 0.1054,
+    "load_time": 1580.6415
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_idx": 158,
+  "question_id": "1d4e3b97",
+  "question": "I noticed my bike seems to be performing even better during my Sunday group rides. Could there be a reason for this?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that reference specific details from their previous interactions, such as the replacement of the bike's chain and cassette, and the use of a new Garmin bike computer. They might prefer explanations that connect these details to the observed improvement in bike performance. The user may not prefer responses that fail to acknowledge these specific details or provide vague, general explanations for the improvement.",
+  "question_date": "2024/02/20 (Tue) 23:40",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T17:35:38.192687",
+  "predicted_answer": "Your bike's improved performance during your Sunday group rides could be due to the recent replacement of the chain and cassette on February 1st, which likely enhanced its overall functionality.",
+  "prompt_length": 3361,
+  "gen_token_usage": {
+    "prompt_tokens": 869,
+    "answer_tokens": 35,
+    "total_tokens": 904,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.66,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 68,
+      "response_length": 30,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.18823529411764706,
+      "rouge1_f": 0.24,
+      "rouge2_f": 0.12244897959183675,
+      "rougeL_f": 0.13999999999999999,
+      "semantic_similarity": 0.260173499584198,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.14205882352941177,
+      "avg_semantic": 0.260173499584198,
+      "overall_average": 0.16568174958229065
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.18823529411764706,
+    "rouge1_f": 0.24,
+    "rouge2_f": 0.12244897959183675,
+    "rougeL_f": 0.13999999999999999,
+    "semantic_similarity": 0.260173499584198,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.14205882352941177,
+    "avg_semantic": 0.260173499584198,
+    "overall_average": 0.16568174958229065
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1536.3577,
+    "retrieval_time": 1.2564,
+    "generation_time": 2.0378,
+    "evaluation_time": 0.8923,
+    "cleanup_time": 1.6696,
+    "total_time": 1542.2203
+  }
+}

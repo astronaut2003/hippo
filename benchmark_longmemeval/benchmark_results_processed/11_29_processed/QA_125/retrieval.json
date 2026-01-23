@@ -1,0 +1,242 @@
+{
+  "sample_idx": 125,
+  "question_id": "81507db6",
+  "question": "How many graduation ceremonies have I attended in the past three months?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T03:50:01.533045",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "e5f20416-3aa8-4289-9be3-b84d805d83ab",
+      "memory": "Feels guilty about missing nephew Jack's eighth grade graduation ceremony last month",
+      "hash": "07affcb1cd10baff2bb14448103906ab",
+      "metadata": null,
+      "score": 0.32778651862955854,
+      "created_at": "2025-12-06T11:53:19.164063-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.9999999969426387
+    },
+    {
+      "id": "44e7f3e3-4692-48f1-bfc7-d90dd224f864",
+      "memory": "Feels like just yesterday attending her preschool graduation ceremony",
+      "hash": "27afc82dfbe3d01b76322188cfbc4a1c",
+      "metadata": null,
+      "score": 0.4618056692176289,
+      "created_at": "2025-12-06T11:55:40.875210-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.46385978244189435
+    },
+    {
+      "id": "67c583a3-754d-4002-8641-2f0e1d8d8e41",
+      "memory": "Thinking about attending alma mater's annual alumni reunion in a few weeks",
+      "hash": "235d780598c22630a585193636281e1c",
+      "metadata": null,
+      "score": 0.4023994504145913,
+      "created_at": "2025-12-06T11:51:02.150452-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.34302943627571747
+    },
+    {
+      "id": "c6e15fca-5de9-44ce-9cab-f73d77b55a9c",
+      "memory": "Attended colleague Alex's graduation from a leadership development program at work a few weeks ago",
+      "hash": "5988ee7b0e5658099e1834cf1683b991",
+      "metadata": null,
+      "score": 0.3280072604694131,
+      "created_at": "2025-12-06T11:55:40.763558-08:00",
+      "updated_at": "2025-12-06T12:02:16.440742-08:00",
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.3280665090599575
+    },
+    {
+      "id": "0887cf10-6750-4c4d-a46d-a4ad035f3a13",
+      "memory": "Planning a charity event in a few months",
+      "hash": "1c6ff6e3691b5cc49fb444ef46c22cb3",
+      "metadata": null,
+      "score": 0.3195913498467494,
+      "created_at": "2025-12-06T11:50:29.530522-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.0551101538066719
+    },
+    {
+      "id": "75003351-aba0-4a55-81a4-0aff14d06c32",
+      "memory": "Will consider attending alma mater's annual alumni reunion in a few weeks to network with people in the industry and potentially learn more about job opportunities",
+      "hash": "e6176c24209a37108dfa3393cae38231",
+      "metadata": null,
+      "score": 0.3387642844235139,
+      "created_at": "2025-12-06T11:51:02.243402-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.03893370106240357
+    },
+    {
+      "id": "3fab1dd8-ef92-4f43-a688-8934813440f2",
+      "memory": "Attended a 3-day project management workshop last month",
+      "hash": "76e94f1a684762997cbd5200468a804e",
+      "metadata": null,
+      "score": 0.33165263024974556,
+      "created_at": "2025-12-06T11:51:47.918376-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.02132154440117819
+    },
+    {
+      "id": "ee719e30-dc64-4b43-a9f1-2b08ea269779",
+      "memory": "Considering reaching out to Dr. Smith, favorite professor from undergraduate days, who will be receiving a lifetime achievement award during the event",
+      "hash": "4e491d52a685de8d59ca5d4ba736f2c8",
+      "metadata": null,
+      "score": 0.32846110115626104,
+      "created_at": "2025-12-06T11:51:02.289354-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.015100549524615299
+    },
+    {
+      "id": "6bc08d11-cfff-4bf9-ade6-5e9f6b03cafc",
+      "memory": "Visited the Met in New York City during a 4-day trip last month from March 15th to 19th",
+      "hash": "a031f79339dc2c0b00c3682e6ca8ecd4",
+      "metadata": null,
+      "score": 0.2655922630748216,
+      "created_at": "2025-12-06T12:00:47.606851-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.01346803404308757
+    },
+    {
+      "id": "283d5d2e-c45a-4578-9b1e-d2f4d57e875e",
+      "memory": "Not sure if wants to have the event in Quarter 2",
+      "hash": "9c1b6007fa7b50c3f1c522849d96b4a5",
+      "metadata": null,
+      "score": 0.22743778603629172,
+      "created_at": "2025-12-06T11:50:29.608595-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.00275040516828917
+    },
+    {
+      "id": "c0f574ec-bcd0-4d30-b3ec-f5000bef2629",
+      "memory": "Visited the Washington Monument during a 4-day trip to New York City last month",
+      "hash": "43c17ae4dc21cbb88e94e5cf977769e5",
+      "metadata": null,
+      "score": 0.23170089158267143,
+      "created_at": "2025-12-06T12:00:47.669267-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.0023521168761357716
+    },
+    {
+      "id": "ea3a5f51-719f-42b2-8dc0-9d2ce948a516",
+      "memory": "Has done a few charity walks already",
+      "hash": "e840742134008052161d4af1f6e621fb",
+      "metadata": null,
+      "score": 0.2144240652755465,
+      "created_at": "2025-12-06T11:54:06.977249-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.0023401623959174046
+    },
+    {
+      "id": "711ca403-bd2d-4aeb-a088-6b9702eacca8",
+      "memory": "Will update LinkedIn profile, prepare an elevator pitch, and research attendees beforehand for the reunion",
+      "hash": "3d243ad1ceefa5c3a9aeca4d682be5ae",
+      "metadata": null,
+      "score": 0.21054573932712406,
+      "created_at": "2025-12-06T11:51:02.258082-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.001645344679810854
+    },
+    {
+      "id": "54fe67c7-3dfe-4b6b-9e9e-a5645e5cc63f",
+      "memory": "Planning to visit the Arc de Triomphe while in Paris",
+      "hash": "0b0eaa2e7583d94dc43cb9b41c8849fc",
+      "metadata": null,
+      "score": 0.2063348401354232,
+      "created_at": "2025-12-06T12:00:47.655172-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.0009936797215657257
+    },
+    {
+      "id": "95f9c573-ce32-4434-83fa-9cc2c390be38",
+      "memory": "Interested in the shoe calendar idea",
+      "hash": "01f2f0044c7605b31c3f17b5eb36c68b",
+      "metadata": null,
+      "score": 0.22894658479211066,
+      "created_at": "2025-12-06T11:52:24.653920-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 9.038753335838468e-05
+    },
+    {
+      "id": "67b5a443-c3cd-4fa4-aba3-60acd5f7f89d",
+      "memory": "Wants more information on the DMCA curriculum, program duration, and prerequisites",
+      "hash": "0525d79cc6a0043f1de1c44662d5267b",
+      "metadata": null,
+      "score": 0.28003318427900903,
+      "created_at": "2025-12-06T11:53:19.197568-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 8.688866109935043e-05
+    },
+    {
+      "id": "1b1d4821-d20b-4abf-8a7e-b3843c8031d1",
+      "memory": "Was thinking of ordering delivery from that new Korean place downtown again, but not sure when last ordered from them",
+      "hash": "fc0945baf8ffb01557758ff38c45ea08",
+      "metadata": null,
+      "score": 0.22332246850480114,
+      "created_at": "2025-12-06T12:09:02.302065-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 6.006397378008789e-05
+    },
+    {
+      "id": "dc475194-19ed-44af-8a9c-f732dc893d1d",
+      "memory": "Wore the new black leather boots with a grey sweater and dark jeans to brunch on January 22nd and got a lot of compliments",
+      "hash": "9245e22ebbdf203cd5749dde718b2371",
+      "metadata": null,
+      "score": 0.24143863018243622,
+      "created_at": "2025-12-06T12:00:03.874858-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 5.277465657376654e-05
+    },
+    {
+      "id": "ff52e2da-7ccc-4565-be42-6c34294b9f08",
+      "memory": "Wore a new pair of black and white sneakers to a birthday party on a Sunday",
+      "hash": "685c58b8fb55017bf3f1f38ffdf0f5b5",
+      "metadata": null,
+      "score": 0.2083707542064559,
+      "created_at": "2025-12-06T11:52:24.638479-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 4.8401066249973734e-05
+    },
+    {
+      "id": "0813ceab-1ea5-42ea-94b0-9e3ab104809b",
+      "memory": "Will bring business cards and follow up with people met afterwards at the reunion",
+      "hash": "8155434991bcff11f99523a27d10a150",
+      "metadata": null,
+      "score": 0.24730760082495462,
+      "created_at": "2025-12-06T11:51:02.273805-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_125",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2576,
+    "load_time": 1384.5405
+  }
+}

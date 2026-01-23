@@ -1,0 +1,77 @@
+{
+  "sample_idx": 11,
+  "question_id": "7527f7e2",
+  "question": "How much did I spend on a designer handbag?",
+  "question_type": "single-session-user",
+  "gold_answer": "$800",
+  "question_date": "2023/05/30 (Tue) 23:20",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-29T01:50:07.472059",
+  "predicted_answer": "You spent $800 on a designer handbag.",
+  "prompt_length": 3669,
+  "gen_token_usage": {
+    "prompt_tokens": 937,
+    "answer_tokens": 9,
+    "total_tokens": 946,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.71,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 7,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2857142857142857,
+      "rouge1_f": 0.25,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.25,
+      "semantic_similarity": 0.5481268167495728,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.19642857142857142,
+      "avg_semantic": 0.5481268167495728,
+      "overall_average": 0.266768217086792
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2857142857142857,
+    "rouge1_f": 0.25,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.25,
+    "semantic_similarity": 0.5481268167495728,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.19642857142857142,
+    "avg_semantic": 0.5481268167495728,
+    "overall_average": 0.266768217086792
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1108.1225,
+    "retrieval_time": 0.5113,
+    "generation_time": 2.4524,
+    "evaluation_time": 0.8882,
+    "cleanup_time": 1.5589,
+    "total_time": 1113.536
+  }
+}

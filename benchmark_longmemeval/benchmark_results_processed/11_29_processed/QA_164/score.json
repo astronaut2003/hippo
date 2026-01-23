@@ -1,0 +1,77 @@
+{
+  "sample_idx": 164,
+  "question_id": "cc06de0d",
+  "question": "For my daily commute, how much more expensive was the taxi ride compared to the train fare?",
+  "question_type": "multi-session",
+  "gold_answer": "$6",
+  "question_date": "2023/05/30 (Tue) 23:25",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-08T13:43:38.728558",
+  "predicted_answer": "The taxi ride cost $12, while the daily train fare is $6. Therefore, the taxi ride was $6 more expensive than the train fare.",
+  "prompt_length": 3140,
+  "gen_token_usage": {
+    "prompt_tokens": 839,
+    "answer_tokens": 31,
+    "total_tokens": 870,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 24,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.09523809523809523,
+      "rouge1_f": 0.07999999999999999,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.07999999999999999,
+      "semantic_similarity": 0.3050108551979065,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.0638095238095238,
+      "avg_semantic": 0.3050108551979065,
+      "overall_average": 0.11204979568719864
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.09523809523809523,
+    "rouge1_f": 0.07999999999999999,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.07999999999999999,
+    "semantic_similarity": 0.3050108551979065,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.0638095238095238,
+    "avg_semantic": 0.3050108551979065,
+    "overall_average": 0.11204979568719864
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1676.2387,
+    "retrieval_time": 0.4462,
+    "generation_time": 1.9884,
+    "evaluation_time": 1.8849,
+    "cleanup_time": 1.4374,
+    "total_time": 1681.9997
+  }
+}

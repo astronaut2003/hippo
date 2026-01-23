@@ -1,0 +1,242 @@
+{
+  "sample_idx": 186,
+  "question_id": "9ee3ecd6",
+  "question": "How many points do I need to earn to redeem a free skincare product at Sephora?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T00:02:53.066695",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "e9770e03-ad50-44d5-8fb3-e648e9d001b1",
+      "memory": "Needs a total of 300 points to redeem the free skincare product",
+      "hash": "57d39dff3474d69fd509d76b7bef369e",
+      "metadata": null,
+      "score": 0.8037018353643108,
+      "created_at": "2025-12-08T08:21:39.201102-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.9999999993752716
+    },
+    {
+      "id": "5b76776c-49eb-4892-98e9-f663fe9a076d",
+      "memory": "Is close to redeeming a free skincare product from Sephora",
+      "hash": "e7914f22a411919851cbeadca8f7d662",
+      "metadata": null,
+      "score": 0.7211817969077052,
+      "created_at": "2025-12-08T08:21:39.185277-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.8106362611040537
+    },
+    {
+      "id": "6c4cc899-4ec7-4e8f-bb68-f3b9f86db0ba",
+      "memory": "Earned 50 points at Sephora, bringing total to 200 points in their loyalty program",
+      "hash": "ad47411b18085bdccface74e3440360d",
+      "metadata": null,
+      "score": 0.7091822547683868,
+      "created_at": "2025-12-08T08:06:53.278969-08:00",
+      "updated_at": "2025-12-08T08:21:39.045855-08:00",
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.6297381775612477
+    },
+    {
+      "id": "ed3b1387-c61a-46d0-bccf-d2654f423625",
+      "memory": "Wants to know if points can be earned for purchasing at Sephora",
+      "hash": "c03f45ccf24ee10d2e7a6a94232b2d90",
+      "metadata": null,
+      "score": 0.7401521128741451,
+      "created_at": "2025-12-08T08:21:39.169620-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.6238641979774274
+    },
+    {
+      "id": "00c0a556-f4ba-41a5-8f91-746a70c4accc",
+      "memory": "Looking for advice on skincare products",
+      "hash": "8e862029538daddae5a7c9353f94d024",
+      "metadata": null,
+      "score": 0.4517784549097835,
+      "created_at": "2025-12-08T08:06:53.243916-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.1846449978830993
+    },
+    {
+      "id": "259756bf-965a-4ef0-8f74-3aed8e56da5c",
+      "memory": "Would like to bring more skincare products than makeup",
+      "hash": "594c1d063afbbfaac3bb4e4312cf3deb",
+      "metadata": null,
+      "score": 0.5070387561449261,
+      "created_at": "2025-12-08T08:16:59.824440-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.15688327162792884
+    },
+    {
+      "id": "3f06bc09-446e-46da-9c14-df14d26e157c",
+      "memory": "Wants to add a few more items to skincare list",
+      "hash": "7ef87244e18dd56a7aac860e770d385d",
+      "metadata": null,
+      "score": 0.4451168097786035,
+      "created_at": "2025-12-08T08:16:59.839159-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.11727407481637636
+    },
+    {
+      "id": "46c070ad-b3bd-4f6d-84e5-78d2142e8bea",
+      "memory": "Planning to buy a new moisturizer from Sephora soon",
+      "hash": "ebf72859eaccc9872c5418c20002940d",
+      "metadata": null,
+      "score": 0.4548855128185343,
+      "created_at": "2025-12-08T08:21:39.095737-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.10971228168932555
+    },
+    {
+      "id": "a7c7f1b6-702e-4946-b6d2-8a4c3455ab99",
+      "memory": "Recently bought an eyeshadow palette at Sephora",
+      "hash": "6283c2c8a1b1ec90bba61ffd4e76242d",
+      "metadata": null,
+      "score": 0.3945004257918772,
+      "created_at": "2025-12-08T08:06:53.261003-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.07995353568308462
+    },
+    {
+      "id": "a48bc76d-1a96-4144-a849-c7c4d88f30a6",
+      "memory": "Wants to know if Sephora has any current promotions or discounts on the La Roche-Posay moisturizer or other products",
+      "hash": "6a9d3887c81ee06323a84a3886e2c38e",
+      "metadata": null,
+      "score": 0.48968111884975624,
+      "created_at": "2025-12-08T08:21:39.216875-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.06357879591090428
+    },
+    {
+      "id": "b8ff4b94-e558-4f1d-96e0-faefdd5f285c",
+      "memory": "Wants travel-sized skincare products that won't take up too much space in luggage",
+      "hash": "8228806131ad63bba4ccb9c4ab24132d",
+      "metadata": null,
+      "score": 0.314303627592447,
+      "created_at": "2025-12-08T08:16:59.852780-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.053800673694685476
+    },
+    {
+      "id": "9b092135-ca83-4ef0-9377-ca612f964b22",
+      "memory": "Interested in exploring more of Laneige's skincare range",
+      "hash": "42984b15bfcc24c7b4d392e9d84cd0d7",
+      "metadata": null,
+      "score": 0.3634474116036761,
+      "created_at": "2025-12-08T08:06:53.346836-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.029319352806439478
+    },
+    {
+      "id": "93b65d98-494d-495f-852f-71e892083944",
+      "memory": "Wants to know how Laneige Time Freeze Essence works and how to incorporate it into skincare routine",
+      "hash": "4390c83a17fe2f6da885404aa442efb9",
+      "metadata": null,
+      "score": 0.32109923669365925,
+      "created_at": "2025-12-08T08:06:53.382784-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.026178719161106107
+    },
+    {
+      "id": "25344a4d-c488-4cb0-babd-fb6ddd2c6fbe",
+      "memory": "Going to get the Premium Gift Wrap with a satin ribbon and a personalized message",
+      "hash": "9674893d93ed55e6d066dc17233376d9",
+      "metadata": null,
+      "score": 0.3046312283903698,
+      "created_at": "2025-12-08T08:08:58.116640-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.002319579043778961
+    },
+    {
+      "id": "b6f68f85-44d7-4ce2-9725-70d89553a62f",
+      "memory": "Wants to buy a scalp massage brush",
+      "hash": "3b5f174549d79fea24b76587e9075f56",
+      "metadata": null,
+      "score": 0.3297669000891903,
+      "created_at": "2025-12-08T08:17:22.788818-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.0016313254513577614
+    },
+    {
+      "id": "96a0e141-ed5c-43c4-b8ba-328dcd6c9e43",
+      "memory": "Shared a booth with a friend at the seasonal artisan fair",
+      "hash": "c4664b15776d843f0fc514a39d31d3e8",
+      "metadata": null,
+      "score": 0.34000338146192977,
+      "created_at": "2025-12-08T08:12:05.181869-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.0009273430718521441
+    },
+    {
+      "id": "5aab1327-3a17-4da4-a04c-0974234a12e6",
+      "memory": "Wants to ensure offering the right products at the right prices to appeal to a broader audience",
+      "hash": "973818429fa4a1e7a504424dbfb757fc",
+      "metadata": null,
+      "score": 0.31819435205000474,
+      "created_at": "2025-12-08T08:12:05.213412-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.0008183139795624284
+    },
+    {
+      "id": "5f9a86ea-0d39-4cc7-b060-f29e3caa667c",
+      "memory": "Considering applying to the annual craft fair at the convention center",
+      "hash": "d2bb8f6851c2727d32995bf6ae670545",
+      "metadata": null,
+      "score": 0.35160160463008205,
+      "created_at": "2025-12-08T08:12:05.096369-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.0007071400526702922
+    },
+    {
+      "id": "9befe2a7-f923-4d6a-9a42-c17cdf74ccb1",
+      "memory": "Got great feedback from customers at the seasonal artisan fair",
+      "hash": "530cd82c0480d6728c2b381fe941e17e",
+      "metadata": null,
+      "score": 0.34338488743995144,
+      "created_at": "2025-12-08T08:12:05.165050-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.00029104213980068897
+    },
+    {
+      "id": "6abd5d29-0528-4a20-97c0-1035cf777953",
+      "memory": "Made around $150 in sales at the seasonal artisan fair",
+      "hash": "99dbdfcc76faa42ed4af041187e3b282",
+      "metadata": null,
+      "score": 0.33763820168405917,
+      "created_at": "2025-12-08T08:12:05.148841-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_186",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3712,
+    "load_time": 1237.3992
+  }
+}

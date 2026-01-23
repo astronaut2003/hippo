@@ -1,0 +1,242 @@
+{
+  "sample_idx": 167,
+  "question_id": "85fa3a3f",
+  "question": "What is the total cost of the new food bowl, measuring cup, dental chews, and flea and tick collar I got for Max?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T15:04:35.157695",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "4289d87f-ff81-4218-9223-28378ae26e5c",
+      "memory": "Got a flea and tick collar for Max recently for $20 (one-time expense)",
+      "hash": "dc8f28c5ee2c42f4d7df38a083c1b0c9",
+      "metadata": null,
+      "score": 0.68189241238068,
+      "created_at": "2025-12-07T23:09:33.012502-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.9999999992564966
+    },
+    {
+      "id": "8ebc9382-1197-4a42-8252-07b222e69432",
+      "memory": "Trying to keep track of expenses for Max's supplies",
+      "hash": "1e6e374b4d07796ca75f4c52904f7076",
+      "metadata": null,
+      "score": 0.4523178139270728,
+      "created_at": "2025-12-07T23:09:32.113524-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.936670376953898
+    },
+    {
+      "id": "8335354d-d2d7-4043-993f-1e4b80a1642b",
+      "memory": "Got Max a new stainless steel food bowl from Amazon for $15",
+      "hash": "02b8607b665516d9f6514968f9afcf51",
+      "metadata": null,
+      "score": 0.6581532282133342,
+      "created_at": "2025-12-07T23:26:20.714973-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.8446058835311999
+    },
+    {
+      "id": "6d47566a-2764-4226-a2f5-8898dbfc6e06",
+      "memory": "Uses a new dental chew to help with Max's teeth and buys a $10 pack every month",
+      "hash": "5cc5aca2bf3e5a400d4b56bbe83be518",
+      "metadata": null,
+      "score": 0.5194637448462109,
+      "created_at": "2025-12-07T23:09:32.939726-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.7460072294464636
+    },
+    {
+      "id": "736e5e5b-58b0-4ca8-b36a-c11e9544a6e4",
+      "memory": "Got Max a measuring cup from the pet store down the street for $5",
+      "hash": "73f3eeab1adec9d258b7c58f3cdb88b3",
+      "metadata": null,
+      "score": 0.578466381666114,
+      "created_at": "2025-12-07T23:26:20.732029-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.6933154746692259
+    },
+    {
+      "id": "7e110562-3ef5-4559-9cce-43c7bd8deeb3",
+      "memory": "Wondering if the dental chews are making a difference in Max's teeth",
+      "hash": "cb6f58a401ffa148520dc66143500057",
+      "metadata": null,
+      "score": 0.36813829972165146,
+      "created_at": "2025-12-07T23:09:33.028264-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.646577767552985
+    },
+    {
+      "id": "bf80f5ca-5a8c-4ad9-9c1a-7a0246a995df",
+      "memory": "Got a new dog bed for Max recently for around $40 (one-time expense)",
+      "hash": "635b26ee9245b098725edfa270ce317d",
+      "metadata": null,
+      "score": 0.5110675995311158,
+      "created_at": "2025-12-07T23:09:32.980614-08:00",
+      "updated_at": "2025-12-07T23:26:19.954097-08:00",
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.49636131646597365
+    },
+    {
+      "id": "908b12f8-2e14-4289-b3c4-dad9f44599cd",
+      "memory": "The measuring cup has been working out great for Max's new grain-free kibble",
+      "hash": "7ae19282e86974e772ec43ee07e4594e",
+      "metadata": null,
+      "score": 0.44676443727842197,
+      "created_at": "2025-12-07T23:26:20.748700-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.4462482178890836
+    },
+    {
+      "id": "b9ebf8c7-9c33-46ee-afc6-4bc726228942",
+      "memory": "Has a pretty good record of what has been spending on Max",
+      "hash": "d2c3c96e1ab493e50b4e93da84b1ac4f",
+      "metadata": null,
+      "score": 0.3376087090154599,
+      "created_at": "2025-12-07T23:09:32.137844-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.43951526782659056
+    },
+    {
+      "id": "7a52fdd1-7af5-4e5e-a7b0-1f4cdcde5ae7",
+      "memory": "Thinking of getting Max a durable squeaky ball or a rubber toy with holes",
+      "hash": "3bb780a1e97a514bb382450cbc911b54",
+      "metadata": null,
+      "score": 0.2835831140602536,
+      "created_at": "2025-12-07T23:26:20.847619-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.37247587909749336
+    },
+    {
+      "id": "239a8d0b-f0cc-4093-91a5-b29634c8f11b",
+      "memory": "Max is a golden retriever",
+      "hash": "c4187186a20a04e5fb404603ba021e21",
+      "metadata": null,
+      "score": 0.3383732847857634,
+      "created_at": "2025-12-07T23:26:20.766432-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.3679625704347674
+    },
+    {
+      "id": "dbee6ad9-9155-4a16-9d48-687ae5fbecb9",
+      "memory": "Recently got Max a new dog bed from PetSmart",
+      "hash": "f663f406cb33dd1f87e56a0c2d83b21d",
+      "metadata": null,
+      "score": 0.4113343404293649,
+      "created_at": "2025-12-07T23:26:20.896936-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.2863233173880642
+    },
+    {
+      "id": "5afc2538-92f6-4e21-b2bc-c66cd2c75da1",
+      "memory": "Decided to go with the Kong Classic Dog Toy with Holes for Max",
+      "hash": "aeca20d34e0d2a5a740bd7a9a117ba58",
+      "metadata": null,
+      "score": 0.35459650003452775,
+      "created_at": "2025-12-07T23:26:20.879463-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.20708380697916184
+    },
+    {
+      "id": "67ba917d-a5f6-4bb6-b62e-207f44aaa75a",
+      "memory": "The dog bed has a soft cushion that is comfortable for Max",
+      "hash": "c61ad56ba59a1887474e06105ad1990b",
+      "metadata": null,
+      "score": 0.27975051181007576,
+      "created_at": "2025-12-07T23:26:20.940317-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.17873629754864587
+    },
+    {
+      "id": "606742a7-8117-4ec5-adc7-355f2f57ec81",
+      "memory": "Buys grain-free kibble every month for about $50",
+      "hash": "9ac75659fd81192a5eba05bd3f55c4f6",
+      "metadata": null,
+      "score": 0.4822552348392559,
+      "created_at": "2025-12-07T23:09:32.884790-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.1463579947801361
+    },
+    {
+      "id": "8c06029c-fe90-4fdd-96e1-cb3dd079829d",
+      "memory": "Wondering if a rubber toy with holes would be suitable for Max's grain-free kibble as a treat",
+      "hash": "2f967c67d64e553e26c91b1644db93eb",
+      "metadata": null,
+      "score": 0.308185550919076,
+      "created_at": "2025-12-07T23:26:20.865336-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.14597935674426987
+    },
+    {
+      "id": "18d68c25-0535-48db-92bd-6ad246198151",
+      "memory": "Made around $250 in sales at the farmers' market",
+      "hash": "353f66d85dc39d3069d2de32c1eb363e",
+      "metadata": null,
+      "score": 0.32311654803104484,
+      "created_at": "2025-12-07T23:18:39.731595-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.07901920546930756
+    },
+    {
+      "id": "d5ed34b6-b1eb-425d-9433-513a9415bdcc",
+      "memory": "Wants help researching some good dog shampoos for Max, who has sensitive skin",
+      "hash": "2a4d8c6e2fe11af7fb19f729c3a63e19",
+      "metadata": null,
+      "score": 0.3001355888269825,
+      "created_at": "2025-12-07T23:09:33.068573-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.01818192903949873
+    },
+    {
+      "id": "3e29e9bb-12d9-46d8-8195-ad893e07c968",
+      "memory": "Wants recommendations for healthy snack subscription boxes to discover new savory snacks",
+      "hash": "0732a28a5582ac079804f2f1addc694e",
+      "metadata": null,
+      "score": 0.27998056751293204,
+      "created_at": "2025-12-07T23:25:20.121369-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.004737797056275085
+    },
+    {
+      "id": "f462d2da-cb94-469b-a725-542b50b77d57",
+      "memory": "Interested in the Ecobee SmartThermostat",
+      "hash": "36cff46d05af986e9739821400ce243c",
+      "metadata": null,
+      "score": 0.29238041425262884,
+      "created_at": "2025-12-07T23:27:24.246950-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_167",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3258,
+    "load_time": 2108.3655
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 130,
+  "question_id": "edced276_abs",
+  "question": "How many days did I spend in total traveling in Hawaii and in Seattle?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T05:42:51.684342",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "a086ad53-cbd4-4a3e-8fbe-828b514d534c",
+      "memory": "With family, had to plan everything out for a 10-day trip far in advance and it was hard to make changes on the fly",
+      "hash": "96e2bedda81f34c6b3a77b8345a5ae1b",
+      "metadata": null,
+      "score": 0.4182941315964206,
+      "created_at": "2025-12-06T13:45:39.853046-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.9999999981135211
+    },
+    {
+      "id": "409c4e14-9d70-421d-aa3e-ea39886f385f",
+      "memory": "Recently got back from a solo trip to New York City for five days",
+      "hash": "c2859ebf85a66f8f0247304c0ae68271",
+      "metadata": null,
+      "score": 0.41055314779784563,
+      "created_at": "2025-12-06T13:49:07.296701-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.8293351469271272
+    },
+    {
+      "id": "320f8f64-25c9-45be-a433-bf3cc400d878",
+      "memory": "Considering staying in Europe for around 7-10 days",
+      "hash": "6b02232ce15d06b16540aba77de1181c",
+      "metadata": null,
+      "score": 0.28260982118978173,
+      "created_at": "2025-12-06T13:49:07.362753-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.6641298035561453
+    },
+    {
+      "id": "9f7c0748-49c4-4e7b-88ad-7e6662216ffc",
+      "memory": "Planning a 240-mile road trip",
+      "hash": "c3ecbe5567819ad0b699662f0c98f0cc",
+      "metadata": null,
+      "score": 0.34562080942090634,
+      "created_at": "2025-12-06T13:55:25.849409-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.4154673573557871
+    },
+    {
+      "id": "b8e5c6c8-42c5-4ad9-af59-84f4c0616ed9",
+      "memory": "Thinking of planning a road trip for the weekend",
+      "hash": "3cf5252f5d730fb054f1ac5c648e12e0",
+      "metadata": null,
+      "score": 0.4146828173841441,
+      "created_at": "2025-12-06T13:55:25.791651-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.36840847253455344
+    },
+    {
+      "id": "41d605ae-0c2f-4654-b3cd-5736f6befafb",
+      "memory": "Just got back from an amazing island-hopping trip to Hawaii with family",
+      "hash": "2b19db175a6ac68c986ceba3610e9b40",
+      "metadata": null,
+      "score": 0.5373699816193185,
+      "created_at": "2025-12-06T13:45:39.649755-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.30874716686833853
+    },
+    {
+      "id": "8ce98422-27fc-4517-9a02-6cc6640537ef",
+      "memory": "Will be in Japan for two weeks",
+      "hash": "d5316519ab0d1a3c96104f31cf848a7b",
+      "metadata": null,
+      "score": 0.3015396481866324,
+      "created_at": "2025-12-06T13:58:57.981630-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.29249835755691117
+    },
+    {
+      "id": "5dc290c0-d4c3-4c99-b945-c39824bb90b7",
+      "memory": "Thinking of planning another trip soon",
+      "hash": "12aa9490d1530dcfb40c3b55be202f9b",
+      "metadata": null,
+      "score": 0.40074237179939864,
+      "created_at": "2025-12-06T13:49:07.278133-08:00",
+      "updated_at": "2025-12-06T13:58:57.083199-08:00",
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.2922137420766508
+    },
+    {
+      "id": "e7750efa-005a-455c-b373-b71a9fc60986",
+      "memory": "Trying to plan next trip and having a hard time deciding whether to go solo or with family",
+      "hash": "b3043773865a0d1b3300eba99ce4c95c",
+      "metadata": null,
+      "score": 0.30256341704406187,
+      "created_at": "2025-12-06T13:45:39.728481-08:00",
+      "updated_at": "2025-12-06T13:49:06.453473-08:00",
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.12012788243840047
+    },
+    {
+      "id": "b0030b63-a035-4edd-9b83-6b4b8420e86a",
+      "memory": "Planning a trip and needs help with research",
+      "hash": "da59e1434eb29a244ed0879ca0874c15",
+      "metadata": null,
+      "score": 0.3793945634342491,
+      "created_at": "2025-12-06T13:58:57.881967-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.05370668925303001
+    },
+    {
+      "id": "21965231-75be-4d10-891d-66c77f439cb4",
+      "memory": "Booked a trip to Japan for later this year",
+      "hash": "a8533a6170e90428192c481c66a9992d",
+      "metadata": null,
+      "score": 0.36641325170759337,
+      "created_at": "2025-12-06T13:58:57.916108-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.03491397166670888
+    },
+    {
+      "id": "aba2a9d9-9ba7-454a-8b40-d9cf9e742d5c",
+      "memory": "Going to LA for a business trip",
+      "hash": "2fd75aa56f4606d3e8a798959781dbea",
+      "metadata": null,
+      "score": 0.43973089187415504,
+      "created_at": "2025-12-06T13:46:13.063493-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.022785430199101744
+    },
+    {
+      "id": "23c662ae-e725-467e-9d3a-562eeb6567f8",
+      "memory": "Heading out to LA for a business trip today",
+      "hash": "deb59dfe6b183a76a1e3934c3756668b",
+      "metadata": null,
+      "score": 0.4560601213060326,
+      "created_at": "2025-12-06T13:46:12.983941-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.003708996675757454
+    },
+    {
+      "id": "bb08e208-9a7c-45f9-828e-aee27be24b3c",
+      "memory": "Spent about two and a half hours viewing the exhibit with Rachel",
+      "hash": "a792fe52d239a66854574e57185db4a2",
+      "metadata": null,
+      "score": 0.30688513629930825,
+      "created_at": "2025-12-06T13:56:21.749639-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.002515842525892134
+    },
+    {
+      "id": "47fe9e14-022c-461c-8c1e-e710b7a8540c",
+      "memory": "Flying from New York to Los Angeles today for a business trip",
+      "hash": "3073d681493d5f5f26e8843be3e13622",
+      "metadata": null,
+      "score": 0.4793689865007471,
+      "created_at": "2025-12-06T13:46:13.020755-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.0016882627476381426
+    },
+    {
+      "id": "13f37408-877e-4236-8ff1-410b3902bc7f",
+      "memory": "Wants to know the best time to visit Japan and any specific festivals or events to try to catch",
+      "hash": "c684da7579fb0bc22ff098b1ec552e26",
+      "metadata": null,
+      "score": 0.37771239910955373,
+      "created_at": "2025-12-06T13:45:39.912268-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.0015891330828951102
+    },
+    {
+      "id": "2b65c577-28ed-4d5b-9f48-c2197204f1e7",
+      "memory": "Can fit in extra singing and dancing practice on Tuesday and Thursday evenings for about an hour each",
+      "hash": "a7f244f04c9ab97658fcb5c80b31d353",
+      "metadata": null,
+      "score": 0.2820532890712474,
+      "created_at": "2025-12-06T13:43:59.723168-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.0005987359787020182
+    },
+    {
+      "id": "338e6126-0440-4b6e-b2a7-c1d4d3eac57e",
+      "memory": "Looking for tips on how to create a realistic Pacific Island scene for a diorama",
+      "hash": "37f9b5ddf1c11f7f11417cf7517afc2e",
+      "metadata": null,
+      "score": 0.32317851099355105,
+      "created_at": "2025-12-06T13:47:43.226760-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.00043825746517972243
+    },
+    {
+      "id": "bc181fa1-3e9b-4a6f-9443-4057c611ab63",
+      "memory": "Drove to the beach last weekend and GPS kept malfunctioning and losing signal",
+      "hash": "de7f83f3c5544dfd8b88ceddd46c0396",
+      "metadata": null,
+      "score": 0.27362577780626673,
+      "created_at": "2025-12-06T13:50:57.753434-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 9.58913090889951e-05
+    },
+    {
+      "id": "c243d791-137a-4f71-a008-bf8f8c73f346",
+      "memory": "Looking for recommendations for 1/48 scale figures suitable for a Pacific Island setting",
+      "hash": "2ea0f47942b421435899dbe7cdd60377",
+      "metadata": null,
+      "score": 0.28345688217790854,
+      "created_at": "2025-12-06T13:47:43.260118-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_130",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1097,
+    "load_time": 1226.2231
+  }
+}

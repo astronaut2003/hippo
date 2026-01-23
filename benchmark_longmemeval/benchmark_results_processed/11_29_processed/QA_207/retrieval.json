@@ -1,0 +1,242 @@
+{
+  "sample_idx": 207,
+  "question_id": "73d42213",
+  "question": "What time did I reach the clinic on Monday?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2026-01-14T00:43:07.395302",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "0952653b-9fb9-4970-b9cb-c387e9f92d27",
+      "memory": "Had a doctor's appointment last Monday",
+      "hash": "6be9730cb6e43450e290e3d5109bdf5d",
+      "metadata": null,
+      "score": 0.6239551763436556,
+      "created_at": "2026-01-13T08:44:45.832269-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.9999999990006739
+    },
+    {
+      "id": "167587b4-6ba3-4f44-9cfb-32637289f12f",
+      "memory": "Left home at 7 AM on Monday for the doctor's appointment",
+      "hash": "11ff42d9b0536175d34b924d90443c7e",
+      "metadata": null,
+      "score": 0.6572815280685252,
+      "created_at": "2026-01-13T08:44:45.938486-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.9222217028250014
+    },
+    {
+      "id": "da3b81ce-efa0-4f6b-a363-23f12147fd20",
+      "memory": "Comes from home and it took two hours to get to the clinic last time",
+      "hash": "ea0a15e9bde9313888d101b9dfac46c0",
+      "metadata": null,
+      "score": 0.6961131464284881,
+      "created_at": "2026-01-13T09:01:28.348092-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.9206623645644729
+    },
+    {
+      "id": "bf166f2d-39b1-4d32-8ee1-8597607f6c82",
+      "memory": "Got back to the office around 1:00 PM after the doctor's appointment",
+      "hash": "681f6e4191f4aeaa57fb4fa64cf8a3d4",
+      "metadata": null,
+      "score": 0.6378095905373746,
+      "created_at": "2026-01-13T08:44:45.857869-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.7798809891711774
+    },
+    {
+      "id": "90b7496e-f057-47a5-982e-dce95a29118e",
+      "memory": "Took a half-day off from work for the doctor's appointment",
+      "hash": "2bfa60ee8db7f9f5844b7c80fcabc383",
+      "metadata": null,
+      "score": 0.5930973045396615,
+      "created_at": "2026-01-13T08:44:45.843844-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.5245738993804753
+    },
+    {
+      "id": "64ecf644-41ec-4598-a789-77c41faffff5",
+      "memory": "Wants to ask about the wait time for new patients",
+      "hash": "9dd867db19c3f66c8caa3b5dbc69deed",
+      "metadata": null,
+      "score": 0.4640075517994838,
+      "created_at": "2026-01-13T09:01:28.476679-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.3043118752584722
+    },
+    {
+      "id": "7fc4914c-428f-487c-a740-5a3c714bed35",
+      "memory": "Still trying to get rhythm back after the doctor's appointment",
+      "hash": "a58ac687fe7558e14b16b983759d8e2c",
+      "metadata": null,
+      "score": 0.4108872122994838,
+      "created_at": "2026-01-13T08:44:45.951009-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.19358814906924318
+    },
+    {
+      "id": "ff174ad6-3542-4d14-869a-94cd28f4dafe",
+      "memory": "Has a lot of meetings and calls scheduled",
+      "hash": "fbd53c5789585c706d7d9a9aec10805f",
+      "metadata": null,
+      "score": 0.26339221024350334,
+      "created_at": "2026-01-13T08:44:46.023214-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.16959910676373732
+    },
+    {
+      "id": "69d71ea2-1693-45b2-b6b1-8b5467c457ee",
+      "memory": "Available anytime on weekdays",
+      "hash": "79e3ab52b7df1fea5d18061aef0dd8b5",
+      "metadata": null,
+      "score": 0.4130650049632122,
+      "created_at": "2026-01-13T09:01:28.411522-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.11105504759724166
+    },
+    {
+      "id": "e56dcecb-4593-4cf5-bd14-5329a1f1faa0",
+      "memory": "Was nervous on the first day but it turned out well",
+      "hash": "fd2b71d75459767277d2e179f2d4b294",
+      "metadata": null,
+      "score": 0.3092627363162925,
+      "created_at": "2026-01-13T08:44:01.011307-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.09330578856422624
+    },
+    {
+      "id": "aa5f1df1-3e80-4d04-9d6c-b165d75052c6",
+      "memory": "Needs to see a primary care doctor",
+      "hash": "85be10acdd6b2230613246886767fdb5",
+      "metadata": null,
+      "score": 0.2904641332744302,
+      "created_at": "2026-01-13T09:01:28.395689-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.07985374865598886
+    },
+    {
+      "id": "4395a49e-bf87-44ef-b5b0-0bc52a60a5fb",
+      "memory": "Wants to know if requesting a specific doctor would affect wait time or availability",
+      "hash": "535d165b5f4e5fa6bebbf5c38b939c3c",
+      "metadata": null,
+      "score": 0.45829012299756017,
+      "created_at": "2026-01-13T09:01:28.520188-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.023752023366421307
+    },
+    {
+      "id": "fff9c4c3-c0a3-405c-85e0-bc5289ca31ca",
+      "memory": "Wants to find nearby clinics with available slots",
+      "hash": "0790c58eaeada66090b2efe4c88fb5b5",
+      "metadata": null,
+      "score": 0.4611805956047298,
+      "created_at": "2026-01-13T09:01:28.331236-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.020315105794967078
+    },
+    {
+      "id": "dcf850ae-b3dd-4c3c-8344-2402f725327c",
+      "memory": "Will ask about the doctor's experience with their condition",
+      "hash": "2f8ccfc5cfee275e4e5d19f6b643813f",
+      "metadata": null,
+      "score": 0.37173613719191634,
+      "created_at": "2026-01-13T09:01:28.535252-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.012529600699793662
+    },
+    {
+      "id": "ce81f115-12ab-4fc7-b494-f3921113e7e2",
+      "memory": "Has been playing catch-up since returning from the doctor's appointment",
+      "hash": "c973d8d058ea502fe77c906a717e4f59",
+      "metadata": null,
+      "score": 0.3848551967519146,
+      "created_at": "2026-01-13T08:44:45.870669-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.007794082378855606
+    },
+    {
+      "id": "7a07135e-71a3-4016-bea0-4df0c83c2a40",
+      "memory": "Needs to reschedule a follow-up doctor's appointment",
+      "hash": "f1e14ed7fd7e5c7122dbc054f333f9a9",
+      "metadata": null,
+      "score": 0.5443055186615233,
+      "created_at": "2026-01-13T09:01:28.302026-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.005703703042353456
+    },
+    {
+      "id": "30f1b8f9-8a4f-496b-ac1c-4f4b2fc94222",
+      "memory": "Plans to contact Family Care Medical Center first",
+      "hash": "db8df894e8a06bc7de9fe4a0cfdb1c1b",
+      "metadata": null,
+      "score": 0.4316534676665232,
+      "created_at": "2026-01-13T09:01:28.459605-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.0009307305826698277
+    },
+    {
+      "id": "2f938ec5-f09a-4178-85f0-db575b74e568",
+      "memory": "First time in the choir was on October 15th",
+      "hash": "5fcb7814f6cde819d0377499398bd31f",
+      "metadata": null,
+      "score": 0.2514173616571622,
+      "created_at": "2026-01-13T08:44:00.980316-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.0005712470932339696
+    },
+    {
+      "id": "1d7018b5-5ac7-41da-a1ea-d8c2e7b4e208",
+      "memory": "Wants to know if it's possible to request a doctor with experience with their specific condition",
+      "hash": "31cdf1a3c3fdb46b807a19302997ad15",
+      "metadata": null,
+      "score": 0.2888860854847445,
+      "created_at": "2026-01-13T09:01:28.505518-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.000225677863993667
+    },
+    {
+      "id": "962a5423-fd40-4883-ba11-018f577490cb",
+      "memory": "Having trouble with sleep schedule and trying to establish a consistent bedtime routine",
+      "hash": "4717b85a6ff96801106e0284b095f52b",
+      "metadata": null,
+      "score": 0.29370420922745977,
+      "created_at": "2026-01-13T08:49:35.154311-08:00",
+      "updated_at": "2026-01-13T08:57:01.317715-08:00",
+      "user_id": "benchmark_processed_207",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2223,
+    "load_time": 1127.22
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 191,
+  "question_id": "77eafa52",
+  "question": "How much more did I have to pay for the trip after the initial quote?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T01:58:00.779645",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "48298754-bc54-430f-96eb-c73a94c5190b",
+      "memory": "Sakura Travel Agency initially quoted $2,500 for the entire trip",
+      "hash": "2c8a8fa3bbef0b09128f6313aece65d5",
+      "metadata": null,
+      "score": 0.6389175611609869,
+      "created_at": "2025-12-08T10:10:04.167463-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.9999999991733393
+    },
+    {
+      "id": "5b3dbe97-96ef-464f-a698-0eabd71d5353",
+      "memory": "Got a good deal with Sakura Travel Agency initially - $2,500 for the entire trip seemed reasonable",
+      "hash": "757a018d4cf138b267189427e7822113",
+      "metadata": null,
+      "score": 0.5368464199381863,
+      "created_at": "2025-12-08T10:10:04.213999-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.7863587087010353
+    },
+    {
+      "id": "c3858f52-dfde-48bf-a424-d56d6b1b8ff6",
+      "memory": "Got a quote from AXA Insurance for around $50 for the entire trip",
+      "hash": "046badeffb52de99bf8fbefec1cfddc4",
+      "metadata": null,
+      "score": 0.652060212833315,
+      "created_at": "2025-12-08T10:10:04.183280-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.7494979044876432
+    },
+    {
+      "id": "3f5689de-4736-4e4c-9ad9-09b07539fa0d",
+      "memory": "Corrected price for the entire trip was $2,800",
+      "hash": "ccf6350cd240c97f20f7f2af81a76ee4",
+      "metadata": null,
+      "score": 0.6614522222164593,
+      "created_at": "2025-12-08T09:58:19.189751-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.6967444993314845
+    },
+    {
+      "id": "9e36516d-0898-4439-94e3-fbdb04d042cc",
+      "memory": "Should review booking details to get clear breakdown of costs",
+      "hash": "97b03bc2c6a3d5c9aa28272e180936a7",
+      "metadata": null,
+      "score": 0.42390395865752334,
+      "created_at": "2025-12-08T09:58:19.293176-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.46099458633028456
+    },
+    {
+      "id": "0bd092a0-cfeb-465f-a228-a490ad1cacad",
+      "memory": "Registration cost $120 for the year",
+      "hash": "b680bf2d39deeb0c4e8bc3591699c8bf",
+      "metadata": null,
+      "score": 0.36999733012159075,
+      "created_at": "2025-12-08T10:08:38.428454-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.2321445621422343
+    },
+    {
+      "id": "292bada4-3bf3-4991-9f37-c7d1a68bf1a5",
+      "memory": "Unsure how much of $2,800 is attributed to hotel booking",
+      "hash": "b4081bbc2b5b081030645e3387196bdd",
+      "metadata": null,
+      "score": 0.4934999579279584,
+      "created_at": "2025-12-08T09:58:19.277989-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.22854417798282506
+    },
+    {
+      "id": "ee40c8b5-25b1-46aa-904e-e2b4d8da2f7d",
+      "memory": "Had to carry all gear on the 4-day Yosemite trip",
+      "hash": "9790e9d677c6ded28f1a6998dd583055",
+      "metadata": null,
+      "score": 0.3008511684663745,
+      "created_at": "2025-12-08T10:09:19.850359-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.08043175749140298
+    },
+    {
+      "id": "1efaf553-2b21-4c6e-854c-3c441639a0ca",
+      "memory": "Needs to pay the outstanding balance for hotel booking by March 1st",
+      "hash": "145cf48194ced5e60b17e4e3415851d8",
+      "metadata": null,
+      "score": 0.33461803196271983,
+      "created_at": "2025-12-08T09:58:19.249876-08:00",
+      "updated_at": "2025-12-08T10:10:04.122340-08:00",
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.07433564622313613
+    },
+    {
+      "id": "9bdd6d00-f66a-4631-b3a9-fd849ed6baa6",
+      "memory": "Planning a new hiking trip",
+      "hash": "83609911793da47c975cf82d4e7ca3ef",
+      "metadata": null,
+      "score": 0.3330928448662194,
+      "created_at": "2025-12-08T10:09:19.711909-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.06041887522950731
+    },
+    {
+      "id": "f86a7a34-652a-4747-8ea1-215ac31fcce8",
+      "memory": "Paid the deposit and secured the spot for the upcoming semester",
+      "hash": "efbb1b760129680704f1857f75a2a4bc",
+      "metadata": null,
+      "score": 0.32122142704747736,
+      "created_at": "2025-12-08T10:05:06.426053-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.05444235893309936
+    },
+    {
+      "id": "5450753b-a32c-45f9-be51-9dde133a9b82",
+      "memory": "Booked a trip with Sakura Travel Agency",
+      "hash": "1e41685c0298020ba82d78bff2e98032",
+      "metadata": null,
+      "score": 0.292151494137148,
+      "created_at": "2025-12-08T09:58:19.154767-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.04555354345710051
+    },
+    {
+      "id": "76772763-065b-4807-891e-7ee83c884494",
+      "memory": "Trying to finalize payment for flight tickets with Sakura Travel Agency",
+      "hash": "590c490bb3f3487c5276e1b7a61a79fe",
+      "metadata": null,
+      "score": 0.3480808518573226,
+      "created_at": "2025-12-08T10:10:04.150113-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.042284666783958015
+    },
+    {
+      "id": "390591fc-649d-4eef-9d85-1415b172b0b8",
+      "memory": "Planning a trip to Japan",
+      "hash": "b76a78ba54dd59bb1770d810918bf4fb",
+      "metadata": null,
+      "score": 0.2586890425694663,
+      "created_at": "2025-12-08T09:58:19.111559-08:00",
+      "updated_at": "2025-12-08T10:10:04.084603-08:00",
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.03900774878772415
+    },
+    {
+      "id": "3aeb7bd6-d86b-428a-bca6-49e906b0bef1",
+      "memory": "Planning a trip to New York City to visit wife's family",
+      "hash": "1eba1f11fea86a96fc73f228639da597",
+      "metadata": null,
+      "score": 0.22545282672450734,
+      "created_at": "2025-12-08T10:13:03.541315-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.03347697406738092
+    },
+    {
+      "id": "d8fd03d6-7e26-4588-aa8b-8b2d4251f58e",
+      "memory": "Been on a few camping trips recently, including a 4-day trip to Yosemite",
+      "hash": "127829b4de1a8a54f6e2a139f5cf0dd1",
+      "metadata": null,
+      "score": 0.23790143875395917,
+      "created_at": "2025-12-08T10:09:19.833623-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.030695385806275226
+    },
+    {
+      "id": "23e2fc13-7cb6-4652-8519-6df63c64f563",
+      "memory": "Increased car insurance deductible to $500 recently to lower premium",
+      "hash": "66e361b4d2c9f6183b963c4477f7de78",
+      "metadata": null,
+      "score": 0.22974188937580414,
+      "created_at": "2025-12-08T10:08:38.476737-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.014671866999208565
+    },
+    {
+      "id": "bd6a9b95-4014-4615-abbe-d2d212efb3f2",
+      "memory": "Booked hotel through Expedia",
+      "hash": "e3c1e8763978e7cfd81ee72d0cdb10fa",
+      "metadata": null,
+      "score": 0.30621012878137915,
+      "created_at": "2025-12-08T09:58:19.236310-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.007473779121420549
+    },
+    {
+      "id": "ff1ef7f3-82ac-40fe-b553-862179195396",
+      "memory": "Recently went on a trip to Yosemite and hiked to the top of Vernal Falls",
+      "hash": "13767f6c1edcc679a043cddc8ef6db56",
+      "metadata": null,
+      "score": 0.27097828413739095,
+      "created_at": "2025-12-08T10:09:19.737437-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.007105770335239062
+    },
+    {
+      "id": "618a063c-0a96-4d06-96d8-0c687ba45f73",
+      "memory": "Thinking of going back to Lake Tahoe",
+      "hash": "ce07e3071c9eefd396027e63f18d5fd5",
+      "metadata": null,
+      "score": 0.2403997693822021,
+      "created_at": "2025-12-08T10:02:50.792712-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_191",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4107,
+    "load_time": 1042.6708
+  }
+}

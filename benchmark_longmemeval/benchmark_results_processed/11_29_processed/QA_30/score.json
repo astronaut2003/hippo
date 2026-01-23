@@ -1,0 +1,77 @@
+{
+  "sample_idx": 30,
+  "question_id": "b86304ba",
+  "question": "How much is the painting of a sunset worth in terms of the amount I paid for it?",
+  "question_type": "single-session-user",
+  "gold_answer": "The painting is worth triple what I paid for it.",
+  "question_date": "2023/05/30 (Tue) 23:18",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-29T10:45:27.817026",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 3252,
+  "gen_token_usage": {
+    "prompt_tokens": 864,
+    "answer_tokens": 10,
+    "total_tokens": 874,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.66,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 10,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1111111111111111,
+      "rouge1_f": 0.10000000000000002,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.10000000000000002,
+      "semantic_similarity": 0.039446115493774414,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.07777777777777779,
+      "avg_semantic": 0.039446115493774414,
+      "overall_average": 0.07011144608259201
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1111111111111111,
+    "rouge1_f": 0.10000000000000002,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.10000000000000002,
+    "semantic_similarity": 0.039446115493774414,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.07777777777777779,
+    "avg_semantic": 0.039446115493774414,
+    "overall_average": 0.07011144608259201
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1217.907,
+    "retrieval_time": 1.3049,
+    "generation_time": 1.6194,
+    "evaluation_time": 0.8675,
+    "cleanup_time": 1.5941,
+    "total_time": 1223.2954
+  }
+}

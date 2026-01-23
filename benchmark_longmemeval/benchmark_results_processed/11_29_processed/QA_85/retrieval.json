@@ -1,0 +1,242 @@
+{
+  "sample_idx": 85,
+  "question_id": "28dc39ac",
+  "question": "How many hours have I spent playing games in total?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T11:51:52.604213",
+  "load_result": {
+    "total_sessions": 38,
+    "added_sessions": 38,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "2d138e98-2592-405c-8c63-b3846f5b9b93",
+      "memory": "Spent around 70 hours playing Assassin's Creed Odyssey",
+      "hash": "62fafdc2716c3f381262a0e96bf5e5fb",
+      "metadata": null,
+      "score": 0.6395814001270415,
+      "created_at": "2025-11-30T19:57:09.473801-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.9999999988805832
+    },
+    {
+      "id": "5701d761-4e1a-4848-8a88-df5c1cf95d25",
+      "memory": "Finished The Last of Us Part II on normal difficulty and it took 25 hours to complete",
+      "hash": "c5e50be39c089b042ef34d9f80612ceb",
+      "metadata": null,
+      "score": 0.3388414349404294,
+      "created_at": "2025-11-30T20:06:05.630051-08:00",
+      "updated_at": "2025-11-30T20:15:12.369666-08:00",
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.5680754292340331
+    },
+    {
+      "id": "3ef2ff6e-4a1c-40cd-8855-45d8f1990259",
+      "memory": "Completed Celeste in 10 hours",
+      "hash": "43dbfa8539bd61d735d34061ce75fca1",
+      "metadata": null,
+      "score": 0.30325341773361997,
+      "created_at": "2025-11-30T20:02:07.214463-08:00",
+      "updated_at": "2025-11-30T20:09:45.383326-08:00",
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.5306483081871519
+    },
+    {
+      "id": "b1d461bd-6d5a-4ed5-9e2a-2d014d25cfbc",
+      "memory": "Has been playing a lot of action-adventure games lately",
+      "hash": "c2c3950d3cff5fd5df2e284ffc10bc2c",
+      "metadata": null,
+      "score": 0.4545371817862,
+      "created_at": "2025-11-30T20:06:05.614428-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.3291679137852681
+    },
+    {
+      "id": "5d8c597f-3c63-4bef-acef-98f5c6fd56ee",
+      "memory": "Has been meaning to get into video games but hasn't had time lately",
+      "hash": "85f6e4cce9fc9cb0e7227902ca25e108",
+      "metadata": null,
+      "score": 0.5811005028793204,
+      "created_at": "2025-11-30T19:57:48.047192-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.17096016603608835
+    },
+    {
+      "id": "8850d43b-6acc-4390-a64f-f530df427d0c",
+      "memory": "Interested in gaming communities or forums to discuss games with other players",
+      "hash": "528e8e4345f9eeb9dac18e33a8255a93",
+      "metadata": null,
+      "score": 0.32094408720908235,
+      "created_at": "2025-11-30T20:15:12.477518-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.16491393935387297
+    },
+    {
+      "id": "352500ed-b1ed-4c5a-b30c-7a45000c986f",
+      "memory": "Interested in learning more about the gaming industry and staying up-to-date with the latest news and developments",
+      "hash": "73a73fdca3ed141e46ae4cb8035663c5",
+      "metadata": null,
+      "score": 0.3475799122737907,
+      "created_at": "2025-11-30T20:15:12.507802-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.07532172614350846
+    },
+    {
+      "id": "d81fc180-98b4-4d99-ac17-98c27ee4d48b",
+      "memory": "Interested in learning about the game's development process",
+      "hash": "21c1784df298871f58d9de4d4d2b3bb1",
+      "metadata": null,
+      "score": 0.30741362400925243,
+      "created_at": "2025-11-30T20:15:12.423825-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.02032119749652275
+    },
+    {
+      "id": "5a5a5554-8d95-49e8-ae43-3e21e06d6412",
+      "memory": "Curious about Horizon Zero Dawn and God of War's difficulty levels compared to Uncharted 4 and The Last of Us Part II",
+      "hash": "9460e7f698f904b5067a41c92c74d8ef",
+      "metadata": null,
+      "score": 0.26292748324955756,
+      "created_at": "2025-11-30T20:06:05.721805-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.017028205261202183
+    },
+    {
+      "id": "b3147a53-2d8a-4d55-9d8c-127b8371fcad",
+      "memory": "Has been a PlayStation fan for a while",
+      "hash": "e368b26f092e0b7359c4ab3911dd83af",
+      "metadata": null,
+      "score": 0.2997327800132183,
+      "created_at": "2025-11-30T20:02:07.306834-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.015176631075589787
+    },
+    {
+      "id": "6a1524b1-671d-4258-9bc5-e6c2dd8b9798",
+      "memory": "Plans to check out ResetEra and Reddit's r/Games",
+      "hash": "2bcdd61be5f3763c454210e550b055b7",
+      "metadata": null,
+      "score": 0.26007092019529515,
+      "created_at": "2025-11-30T20:15:12.493804-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.012963474684795822
+    },
+    {
+      "id": "bdc8f7e6-b361-4f4f-9ebc-d2a2abf5493e",
+      "memory": "Heard great things about Jim Sterling's in-depth analysis and critique of the gaming industry",
+      "hash": "19ac27565da7dcb20770d12680361a1a",
+      "metadata": null,
+      "score": 0.29319202681497125,
+      "created_at": "2025-11-30T20:15:12.535189-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.011565506283008788
+    },
+    {
+      "id": "28dc47ac-4044-42a9-89d9-4c16bb3c058b",
+      "memory": "Interested in exploring more indie games with strong storytelling and character development similar to What Remains of Edith Finch",
+      "hash": "a9e5019b75277fa268b05d9e7b5c728e",
+      "metadata": null,
+      "score": 0.2842785485957723,
+      "created_at": "2025-11-30T20:09:45.443315-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.007658027135073774
+    },
+    {
+      "id": "9bcfd417-daf2-441a-884c-da63aefe82ca",
+      "memory": "Looking for games similar to The Last of Us Part II",
+      "hash": "3e2fc9c35223f0f087ffda841c3b05e2",
+      "metadata": null,
+      "score": 0.2682278919611927,
+      "created_at": "2025-11-30T20:06:05.600941-08:00",
+      "updated_at": "2025-11-30T20:15:11.578652-08:00",
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.001810259655525218
+    },
+    {
+      "id": "80888bb4-f645-448f-ad8a-5b8d745142c7",
+      "memory": "Thinking about getting a new gaming keyboard",
+      "hash": "c8cc06809c866709b9a47cbe0002d1e1",
+      "metadata": null,
+      "score": 0.32766629702777955,
+      "created_at": "2025-11-30T20:15:12.566086-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.0012632424664639915
+    },
+    {
+      "id": "1cbdea40-b233-471c-a31e-45b93527f576",
+      "memory": "Considering getting a PS5",
+      "hash": "f22df8814e48adcf2d11cbdb00353e5c",
+      "metadata": null,
+      "score": 0.34656412224628724,
+      "created_at": "2025-11-30T20:02:07.292597-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.0006740567001820031
+    },
+    {
+      "id": "db893fd1-c7d6-41e7-aa70-ad1fe43722b3",
+      "memory": "Has started making lunch the night before, which saves about 30 minutes in the morning",
+      "hash": "ea673d17cb1750cbd7c9a08011c31f0e",
+      "metadata": null,
+      "score": 0.3205272830201118,
+      "created_at": "2025-11-30T19:57:48.163216-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.0004954540933710289
+    },
+    {
+      "id": "c1966637-896f-47e6-b088-9773d418e163",
+      "memory": "Enjoys watching movies and TV shows, especially sci-fi and fantasy genres",
+      "hash": "06dac68a5f69bd6b1d9b6107d04a6cce",
+      "metadata": null,
+      "score": 0.2596481863848771,
+      "created_at": "2025-11-30T19:57:48.031558-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.00016632567926568907
+    },
+    {
+      "id": "bfa72981-bc5f-4526-a7e4-114ab773f701",
+      "memory": "Drove around 200 miles each way on the road trip",
+      "hash": "deca4e1eaf4fca47042d70132fe9bfe8",
+      "metadata": null,
+      "score": 0.26506130461720784,
+      "created_at": "2025-11-30T19:59:53.210399-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.00016419056143172642
+    },
+    {
+      "id": "ee2c1f07-3107-49fb-827a-bf00ee2b2db3",
+      "memory": "Found Assassin's Creed Odyssey's combat to be engaging but not overly complex",
+      "hash": "6febbc4a75f539f54080bcb34eb36dae",
+      "metadata": null,
+      "score": 0.25930738984869284,
+      "created_at": "2025-11-30T19:57:09.488574-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_85",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2662,
+    "load_time": 1841.7392
+  }
+}

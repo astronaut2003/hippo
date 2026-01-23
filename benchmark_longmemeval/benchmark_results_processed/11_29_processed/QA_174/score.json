@@ -1,0 +1,77 @@
+{
+  "sample_idx": 174,
+  "question_id": "f35224e0",
+  "question": "What is the total number of episodes I've listened to from 'How I Built This' and 'My Favorite Murder'?",
+  "question_type": "multi-session",
+  "gold_answer": "27",
+  "question_date": "2023/05/30 (Tue) 23:58",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-08T18:34:03.177440",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 2872,
+  "gen_token_usage": {
+    "prompt_tokens": 792,
+    "answer_tokens": 10,
+    "total_tokens": 802,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.6,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.12164473533630371,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.12164473533630371,
+      "overall_average": 0.024328947067260742
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.12164473533630371,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.12164473533630371,
+    "overall_average": 0.024328947067260742
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1508.7595,
+    "retrieval_time": 0.4615,
+    "generation_time": 3.1583,
+    "evaluation_time": 1.2276,
+    "cleanup_time": 1.8471,
+    "total_time": 1515.4696
+  }
+}

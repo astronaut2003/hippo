@@ -1,0 +1,242 @@
+{
+  "sample_idx": 101,
+  "question_id": "b3c15d39",
+  "question": "How many days did it take for me to receive the new remote shutter release after I ordered it?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T06:06:56.796630",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "25dea522-3794-42d8-8a2e-bb21cb1101f5",
+      "memory": "Got a new remote shutter release that arrived on February 10th",
+      "hash": "fff5eaa23d8a1cd3e59609de16077934",
+      "metadata": null,
+      "score": 0.7994407724375497,
+      "created_at": "2025-12-01T14:07:25.238189-08:00",
+      "updated_at": "2025-12-01T14:21:47.484365-08:00",
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.9999999990095704
+    },
+    {
+      "id": "83fc3e68-8603-4fc7-b8f9-74c9391c3f84",
+      "memory": "New remote shutter release has been working great so far",
+      "hash": "d982d95d2ea401d08e0d5616e9ed4d0e",
+      "metadata": null,
+      "score": 0.6311818185644533,
+      "created_at": "2025-12-01T14:07:25.395670-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.7618748887186285
+    },
+    {
+      "id": "75ae8506-fc1a-417a-aab0-5aed033b87f0",
+      "memory": "Lost remote shutter release during a photo walk on February 5th",
+      "hash": "8e1d897ed464dc8a1b4c5fdfea758d59",
+      "metadata": null,
+      "score": 0.6224299547703193,
+      "created_at": "2025-12-01T14:07:25.223351-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.47454649346384103
+    },
+    {
+      "id": "4cf37cd7-5ac5-4bcd-8f6f-8b35509a89d1",
+      "memory": "Plans to order the new tripod next week",
+      "hash": "e902819be4edd8fd7e03ea32aa43de81",
+      "metadata": null,
+      "score": 0.39346558221750905,
+      "created_at": "2025-12-01T14:07:25.343483-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.1612237326008854
+    },
+    {
+      "id": "ba097ce6-72c4-4e79-ba02-c84f5adf9e90",
+      "memory": "Thinking about upgrading tripod bought in 2018",
+      "hash": "29e39a904d225cbee0b3d9e93069a20d",
+      "metadata": null,
+      "score": 0.2125800779043504,
+      "created_at": "2025-12-01T14:21:47.677531-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.008461254344241081
+    },
+    {
+      "id": "4d57c613-480f-476b-bf15-0eabae8fe0d7",
+      "memory": "Skin has been looking amazing since started using the La Mer moisturizer",
+      "hash": "ad96d64ab220d449cf69676d375706fe",
+      "metadata": null,
+      "score": 0.19858641449130343,
+      "created_at": "2025-12-01T14:15:00.592561-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.0026978158805560813
+    },
+    {
+      "id": "eea6f67e-6d7c-46ec-b361-a04dabc01ab6",
+      "memory": "Planning to buy some beauty products soon",
+      "hash": "03379196826b46a211da3a5b49dfc844",
+      "metadata": null,
+      "score": 0.19561175996075908,
+      "created_at": "2025-12-01T14:11:08.648338-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.0014231493548189369
+    },
+    {
+      "id": "4fec6597-352d-4f56-a67e-ab7be0eecca7",
+      "memory": "Used a 15% off coupon from Sephora's email last month to buy a new eyeshadow palette",
+      "hash": "e105533242fe731aee02f12f24d8d893",
+      "metadata": null,
+      "score": 0.21993366746492432,
+      "created_at": "2025-12-01T14:11:08.664515-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.0011633044039258
+    },
+    {
+      "id": "9a2bbc61-7b90-4539-be15-67280148cfce",
+      "memory": "Old tripod is still in great condition",
+      "hash": "7c4000a0c3a2e407886a0095eea28d4d",
+      "metadata": null,
+      "score": 0.24768657130479518,
+      "created_at": "2025-12-01T14:07:25.302938-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.0010817899754922203
+    },
+    {
+      "id": "49a25d27-bd3a-495f-bdc4-71698ec7e9b6",
+      "memory": "Started attending cooking classes three weeks ago",
+      "hash": "eb0973bb14be455a4dab3c091dc71377",
+      "metadata": null,
+      "score": 0.18882612530634368,
+      "created_at": "2025-12-01T14:10:25.117638-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.0009296234121011467
+    },
+    {
+      "id": "64521fbb-6297-40ef-908d-d335834b9397",
+      "memory": "Watched at least 20 videos from the 'Explained' channel in one week",
+      "hash": "a00a01cf61c3515e094acb21eb94a7b3",
+      "metadata": null,
+      "score": 0.1978582537108978,
+      "created_at": "2025-12-01T14:09:22.597724-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.0008865520571003213
+    },
+    {
+      "id": "5934f5aa-778c-4977-8e55-40982c3f7b5c",
+      "memory": "Has been experimenting with different camera settings and techniques",
+      "hash": "b7569aaf142470ccac80b4eadf59eb84",
+      "metadata": null,
+      "score": 0.29481225359529173,
+      "created_at": "2025-12-01T14:07:25.276910-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.000681679756668764
+    },
+    {
+      "id": "11fe2c6b-d707-4453-8c68-d3103be8e8ea",
+      "memory": "Noticed that the jeans have already started to fade a bit after just a few washes",
+      "hash": "4174e4247d352a3c8b86196b027725b1",
+      "metadata": null,
+      "score": 0.21743157845851557,
+      "created_at": "2025-12-01T14:15:00.560604-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.0006361525787950846
+    },
+    {
+      "id": "0517045a-d2f6-46e4-a053-c9746de2bdce",
+      "memory": "Decided to bring the 50mm prime lens on the hike",
+      "hash": "6ebb73a5f0c6122d257afae89db3bd54",
+      "metadata": null,
+      "score": 0.185135622060156,
+      "created_at": "2025-12-01T14:07:25.263167-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.000420323530161563
+    },
+    {
+      "id": "e7bc2a50-f90c-4996-906b-3fd29bfe3a80",
+      "memory": "Was looking for tripod during a photo walk on February 5th",
+      "hash": "932990b9ced9652ec875e5e91cc01e8f",
+      "metadata": null,
+      "score": 0.3174625883124349,
+      "created_at": "2025-12-01T14:07:25.208485-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.000324168619216738
+    },
+    {
+      "id": "45cedd7c-d17b-4b45-922a-7094b6d6f25d",
+      "memory": "Wants to act as a sales representative and send a follow-up email to a potential customer who has shown interest in their product",
+      "hash": "9eb6320fe6ece7a67e9613588493a8b7",
+      "metadata": null,
+      "score": 0.18802655205363938,
+      "created_at": "2025-12-01T14:25:05.551525-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.00030301076061984135
+    },
+    {
+      "id": "b58b7adb-c894-4cae-be11-370d88e4c496",
+      "memory": "Busy with photography lately",
+      "hash": "af382e21747cf9e251ea36d6626f60e4",
+      "metadata": null,
+      "score": 0.2854561272725964,
+      "created_at": "2025-12-01T14:18:12.251765-08:00",
+      "updated_at": "2025-12-01T14:21:47.446770-08:00",
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.00028667009304277383
+    },
+    {
+      "id": "28f6d0fc-3a14-4c87-9657-e301c78991aa",
+      "memory": "Will make sure to set reminders for upcoming events",
+      "hash": "03d0c50000b92b3abf80bae15e51d639",
+      "metadata": null,
+      "score": 0.1763640945819464,
+      "created_at": "2025-12-01T14:18:12.280760-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.0002697626971104323
+    },
+    {
+      "id": "973cbf8c-8595-472b-a174-df549d07d84f",
+      "memory": "Recently bought a high-end moisturizer from La Mer that cost around $1,500 for a small jar",
+      "hash": "3896046cc2d291404f81aeecf27b38a4",
+      "metadata": null,
+      "score": 0.18001882835806754,
+      "created_at": "2025-12-01T14:15:00.576645-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.00024539337783364957
+    },
+    {
+      "id": "cd9cdc29-6346-4cdc-a5c8-c0797f6658cc",
+      "memory": "Will highlight old tripod's excellent condition and that it's been well-maintained",
+      "hash": "73fa728f06f715f5728214be07410f12",
+      "metadata": null,
+      "score": 0.1811837663022992,
+      "created_at": "2025-12-01T14:07:25.368718-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_101",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3341,
+    "load_time": 1440.488
+  }
+}

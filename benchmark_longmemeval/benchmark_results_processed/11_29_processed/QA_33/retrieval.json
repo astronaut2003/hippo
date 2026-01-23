@@ -1,0 +1,242 @@
+{
+  "sample_idx": 33,
+  "question_id": "caf9ead2",
+  "question": "How long did it take to move to the new apartment?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T16:33:53.176169",
+  "load_result": {
+    "total_sessions": 43,
+    "added_sessions": 43,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "47d6c3e4-dc21-4cfc-afb9-349474237dc0",
+      "memory": "Took around 5 hours to move everything into the new apartment with friends",
+      "hash": "4ed5c4b5541048ce04a4605fcd28fe4b",
+      "metadata": null,
+      "score": 0.8661247712807019,
+      "created_at": "2025-11-29T00:42:45.534262-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.999999999321214
+    },
+    {
+      "id": "fb893a94-b545-48bf-86e0-c67852c4c339",
+      "memory": "Moved into new apartment a few weeks ago",
+      "hash": "d725de8784bc934f0546636b0c0c5be9",
+      "metadata": null,
+      "score": 0.7548095562383711,
+      "created_at": "2025-11-29T00:42:45.428332-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.7157778139529811
+    },
+    {
+      "id": "87cd7fb2-c0a2-4919-b845-abf276b9404c",
+      "memory": "New apartment is about 20 minutes away from old place",
+      "hash": "f85a3a9952aac6e3ab27bb88487cea9f",
+      "metadata": null,
+      "score": 0.6906011995549979,
+      "created_at": "2025-11-29T00:42:45.443421-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.6694806239982697
+    },
+    {
+      "id": "9b07a294-c75f-4b78-9e7c-c55e240ee524",
+      "memory": "Drove to parents' house last weekend and it took around 2 hours",
+      "hash": "bad16dce3008eff22684bf245e6c4855",
+      "metadata": null,
+      "score": 0.46715074314499155,
+      "created_at": "2025-11-29T00:42:45.488529-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.2809801856643585
+    },
+    {
+      "id": "f80f3a76-1fe2-4e0a-86c3-c7036f29a2aa",
+      "memory": "Found a few decent restaurants and coffee shops nearby when finalizing paperwork and picking up keys a week before the move",
+      "hash": "4bbfc5b81cf58e5b211834e4b8b9eea6",
+      "metadata": null,
+      "score": 0.3605352923363819,
+      "created_at": "2025-11-29T00:42:45.521074-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.22352115440118372
+    },
+    {
+      "id": "b89ef6fa-985b-4687-91b7-33249430e668",
+      "memory": "Has 5 days for the trip",
+      "hash": "8e60df39c91ce477f608b9facc095e2a",
+      "metadata": null,
+      "score": 0.24171630188739124,
+      "created_at": "2025-11-29T00:47:28.324339-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.17735601790941197
+    },
+    {
+      "id": "d8242253-7f24-4486-b4dc-f4360213d14d",
+      "memory": "Moved to be closer to work and save on commute time",
+      "hash": "4a0a010037ac99d7a480a9802fa839e1",
+      "metadata": null,
+      "score": 0.43347495771833056,
+      "created_at": "2025-11-29T00:42:45.551981-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.059572177973538386
+    },
+    {
+      "id": "e15b6ab5-bf74-48bb-9720-997ee52bb73d",
+      "memory": "Attended a trade show about three weeks ago in New York City",
+      "hash": "607b8f5d50294ced5fe8609333742dbc",
+      "metadata": null,
+      "score": 0.329839982977789,
+      "created_at": "2025-11-29T00:34:08.338356-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.02565281842887205
+    },
+    {
+      "id": "f7f3514d-b850-400d-9254-c80a1538f7f2",
+      "memory": "Wants to know how long to wait to hear back from the employer",
+      "hash": "fe364f8e7f34b771fe6dd7fb3c6919f6",
+      "metadata": null,
+      "score": 0.2922647971947572,
+      "created_at": "2025-11-29T00:38:04.351169-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.014266289199076685
+    },
+    {
+      "id": "5e8c7d65-fde0-4290-b6af-b34b1395fda5",
+      "memory": "Looking for recommendations on good coffee shops near new apartment",
+      "hash": "9a7151f9e8b73c8caeb0282ad4479b2c",
+      "metadata": null,
+      "score": 0.2469481030378895,
+      "created_at": "2025-11-29T00:42:45.408748-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.013985731726908694
+    },
+    {
+      "id": "dc2e7187-f9d1-4e17-ba22-37ff774645db",
+      "memory": "Started thinking about changing name three months ago",
+      "hash": "eefbde3ef34d6421c362f7678d7411a2",
+      "metadata": null,
+      "score": 0.2608009559117982,
+      "created_at": "2025-11-29T00:43:47.248549-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.008057644262382636
+    },
+    {
+      "id": "9b622630-97ef-4e42-8b7d-37e9f7f43137",
+      "memory": "Might have extra time to plan the trip due to job situation",
+      "hash": "aed693175aa2f2743aabb4bbf779ad6d",
+      "metadata": null,
+      "score": 0.2489800493062891,
+      "created_at": "2025-11-29T00:35:09.830662-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.004951962378503647
+    },
+    {
+      "id": "a921c1ca-af84-4908-9f26-074de40593e2",
+      "memory": "Was 20 minutes late to work because of train delay",
+      "hash": "0d67c1b3cbe843238602d498c6dd0720",
+      "metadata": null,
+      "score": 0.26365565971534205,
+      "created_at": "2025-11-29T00:48:31.891097-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.0010454552781525275
+    },
+    {
+      "id": "8c8110a7-5d07-40bd-a716-db8cca0a9ba2",
+      "memory": "Looking to buy a house in Arcadia or neighboring cities",
+      "hash": "212a8764b05a49f137305cd32f1f333c",
+      "metadata": null,
+      "score": 0.2578451370038649,
+      "created_at": "2025-11-29T00:36:57.394906-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.0009277687335282987
+    },
+    {
+      "id": "94736d9a-55ec-4f5c-9870-51fa7f2f30be",
+      "memory": "Planning a trip to New York City",
+      "hash": "68aa5cae2094e012cda2c4b45de67234",
+      "metadata": null,
+      "score": 0.26768514821452233,
+      "created_at": "2025-11-29T00:50:36.880774-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.000897149517022655
+    },
+    {
+      "id": "b7bb416a-2243-436c-9e02-8b77ee73d6ae",
+      "memory": "Wants to find the latest real estate data and compare housing prices in different neighborhoods",
+      "hash": "d6ed3e4dfe2f303ae686b2768a6573fc",
+      "metadata": null,
+      "score": 0.23906383814767185,
+      "created_at": "2025-11-29T00:36:57.431661-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.0006413851947947519
+    },
+    {
+      "id": "1ae69f6d-c9e9-4403-adaf-e7e03222e8fb",
+      "memory": "The inherited land is about an hour outside of the city",
+      "hash": "dcc582f0824b486bd2bea69594ced0f7",
+      "metadata": null,
+      "score": 0.2911046276656189,
+      "created_at": "2025-11-29T00:53:26.030053-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.0004597413860953096
+    },
+    {
+      "id": "9cac3f98-ca8e-44fb-8642-a1001acc8019",
+      "memory": "Spent three nights at a beachfront condo in La Jolla on a previous trip",
+      "hash": "31bd4ff9c36811f5427e557906487fa0",
+      "metadata": null,
+      "score": 0.3116942183959734,
+      "created_at": "2025-11-29T00:47:28.396362-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.0004477008485264941
+    },
+    {
+      "id": "5a2c0a7a-8192-4e5b-b98e-13bd4e9b1aa4",
+      "memory": "Has had great experiences with hotels and condos in the past",
+      "hash": "b3da0de70250a760bd409b58faab01ad",
+      "metadata": null,
+      "score": 0.2653824478636615,
+      "created_at": "2025-11-29T00:47:28.359370-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.00020566014976412258
+    },
+    {
+      "id": "3b58d3ad-7631-4849-9b03-1493d739d8ae",
+      "memory": "Wants to find up-and-coming neighborhoods in the San Gabriel Valley area that may offer more affordable housing options compared to Arcadia",
+      "hash": "b38c19a1e3b4082550f9191d2aaf5f8e",
+      "metadata": null,
+      "score": 0.25483760819105317,
+      "created_at": "2025-11-29T00:36:57.415265-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_33",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0654,
+    "load_time": 1388.0754
+  }
+}

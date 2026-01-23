@@ -1,0 +1,77 @@
+{
+  "sample_idx": 192,
+  "question_id": "8979f9ec",
+  "question": "What is the total number of lunch meals I got from the chicken fajitas and lentil soup?",
+  "question_type": "multi-session",
+  "gold_answer": "8 meals",
+  "question_date": "2023/05/30 (Tue) 21:03",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-09T02:15:33.301000",
+  "predicted_answer": "You got three meals from the chicken fajitas and five lunches from the lentil soup, totaling eight meals.",
+  "prompt_length": 3262,
+  "gen_token_usage": {
+    "prompt_tokens": 889,
+    "answer_tokens": 22,
+    "total_tokens": 911,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.68,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 18,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.11764705882352941,
+      "rouge1_f": 0.09999999999999999,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.09999999999999999,
+      "semantic_similarity": 0.6754803657531738,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.07941176470588235,
+      "avg_semantic": 0.6754803657531738,
+      "overall_average": 0.19862549006938934
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.11764705882352941,
+    "rouge1_f": 0.09999999999999999,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.09999999999999999,
+    "semantic_similarity": 0.6754803657531738,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.07941176470588235,
+    "avg_semantic": 0.6754803657531738,
+    "overall_average": 0.19862549006938934
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1509.5374,
+    "retrieval_time": 0.4798,
+    "generation_time": 2.7669,
+    "evaluation_time": 1.1258,
+    "cleanup_time": 1.4995,
+    "total_time": 1515.4148
+  }
+}

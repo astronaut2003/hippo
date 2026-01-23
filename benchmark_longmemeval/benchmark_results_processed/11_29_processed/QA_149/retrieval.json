@@ -1,0 +1,242 @@
+{
+  "sample_idx": 149,
+  "question_id": "95228167",
+  "question": "I'm getting excited about my visit to the music store this weekend. Any tips on what to look for in a new guitar?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T13:43:01.158819",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "ef5ded9b-95f9-494c-9c0b-e58d4cd0522d",
+      "memory": "Wants to know the best way to get a good sound out of open D tuning on an electric guitar like the Les Paul",
+      "hash": "2017eaaa111b9c9edaa2867ffc9a2801",
+      "metadata": null,
+      "score": 0.539944929025356,
+      "created_at": "2025-12-06T21:57:57.298122-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.9999999962369289
+    },
+    {
+      "id": "ec7785ab-5937-4ea3-8483-9f79236c675d",
+      "memory": "Planning to try out the outfit tomorrow for work",
+      "hash": "6d1aad9a01e7c513cc98cace23e5c8e5",
+      "metadata": null,
+      "score": 0.2874316894942792,
+      "created_at": "2025-12-06T22:05:39.011521-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.5481875026473583
+    },
+    {
+      "id": "5a3f4ea1-6bb4-40d0-8a5b-dc41aaecb749",
+      "memory": "Is thinking about trying out a Les Paul with a coil-tap or coil-splitting feature for more tonal options and flexibility, especially when playing in open D tuning",
+      "hash": "1b35d4cd406ce77960a42831859b7a5f",
+      "metadata": null,
+      "score": 0.38587372595799496,
+      "created_at": "2025-12-06T21:57:57.315609-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.44584261753137505
+    },
+    {
+      "id": "1b58b90f-a5be-4411-a4db-18acede5aaa5",
+      "memory": "Considering upgrading from a Fender Stratocaster to a Gibson Les Paul",
+      "hash": "f2557001bc31c7c4d274abb547a258cc",
+      "metadata": null,
+      "score": 0.49622649723981344,
+      "created_at": "2025-12-06T21:57:57.175961-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.3143395442667697
+    },
+    {
+      "id": "ce753bf4-5d32-4ced-bf7a-1a2a04e78989",
+      "memory": "Wants to know if the Les Paul is suitable for playing acoustic-like fingerpicking patterns, like the intro to 'Blackbird'",
+      "hash": "923e9967ba5122d79181091772b29ad4",
+      "metadata": null,
+      "score": 0.451248323653529,
+      "created_at": "2025-12-06T21:57:57.263320-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.2171384062828644
+    },
+    {
+      "id": "42f2eaf8-098b-4729-86fa-79fba04bdbf1",
+      "memory": "Wants to know the main differences between a Fender Stratocaster and a Gibson Les Paul",
+      "hash": "c61d3cccaaf2baf62aec8eba6b66fc1c",
+      "metadata": null,
+      "score": 0.4481402619442458,
+      "created_at": "2025-12-06T21:57:57.226864-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.0439341248449904
+    },
+    {
+      "id": "75ebf558-d80c-4479-a454-26dbcbdc3f94",
+      "memory": "Looking for advice on how to style new jeans from Levi's",
+      "hash": "75737fcaefe6eb9ea2e9da45835ec62a",
+      "metadata": null,
+      "score": 0.3577144212252689,
+      "created_at": "2025-12-06T22:05:38.856470-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.0175148663071977
+    },
+    {
+      "id": "9de7ddce-a187-42ab-ab79-e9f56b821b6c",
+      "memory": "Got new jeans from Levi's last weekend",
+      "hash": "22026ea7120526272207f3675694ebe3",
+      "metadata": null,
+      "score": 0.3210460742917304,
+      "created_at": "2025-12-06T22:05:38.878994-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.016468747358616996
+    },
+    {
+      "id": "e1af471e-5be5-4c8c-9a2f-8b08f1ba297e",
+      "memory": "Trying to get more organized with new business",
+      "hash": "604da2ca58ccd53cfc450b943bed29fd",
+      "metadata": null,
+      "score": 0.2507781636371027,
+      "created_at": "2025-12-06T22:07:22.174862-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.014354259247111844
+    },
+    {
+      "id": "989af87d-094d-4c2e-8e3d-57d5cfe1c919",
+      "memory": "Will check out Scarface and Casino next",
+      "hash": "bb0977133dd85b819b80cde479ffacee",
+      "metadata": null,
+      "score": 0.2857375896754988,
+      "created_at": "2025-12-06T21:58:20.935765-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.010747571276876481
+    },
+    {
+      "id": "616137ad-4f03-4f00-a1cf-fc820a1fac9b",
+      "memory": "Wants to know the most common types of music that people play on a Les Paul",
+      "hash": "319762c1f434707495623a5b93cf455a",
+      "metadata": null,
+      "score": 0.38239099594030845,
+      "created_at": "2025-12-06T21:57:57.244554-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.00782884557917258
+    },
+    {
+      "id": "4bd0d27b-e0da-432b-b3d0-dc0fedf35e90",
+      "memory": "Got a new pair of boots from Dr. Martens last week",
+      "hash": "43a6cdeabbd7875df0f05ebed5587992",
+      "metadata": null,
+      "score": 0.2558558788646767,
+      "created_at": "2025-12-06T22:05:38.922781-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.007089205389455657
+    },
+    {
+      "id": "77b62568-499f-4b68-9086-d410c207aefe",
+      "memory": "Got a new blouse from J.Crew last month",
+      "hash": "6ace89a6cfd1e0d6887f90acd99e2c47",
+      "metadata": null,
+      "score": 0.25901485575017735,
+      "created_at": "2025-12-06T22:05:38.984805-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.006689419280118125
+    },
+    {
+      "id": "e515e6a6-a5fe-4890-b2a0-4372a65dd739",
+      "memory": "Thinking of trying a new coffee shop that just opened up near their office",
+      "hash": "269a92eaadf09ac706ba8aa636def4b1",
+      "metadata": null,
+      "score": 0.3060971446535967,
+      "created_at": "2025-12-06T22:06:31.201537-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.004555193075243528
+    },
+    {
+      "id": "c5cf7b51-e9ad-4b15-aa83-b53b527c9ceb",
+      "memory": "Heard great things about a local studio that offers weekly classes",
+      "hash": "50e880a9cd4a28216c3600cd209f2ff5",
+      "metadata": null,
+      "score": 0.28387455029710407,
+      "created_at": "2025-12-06T21:44:10.824999-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.003608123467934959
+    },
+    {
+      "id": "3587a482-57f7-439f-b592-de11e584db8f",
+      "memory": "Got the yellow sundress from a local boutique in their neighborhood",
+      "hash": "9fd2d728f53914448ad500f2a4ac35f2",
+      "metadata": null,
+      "score": 0.2702822490597246,
+      "created_at": "2025-12-06T21:54:44.415225-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.003406436041141698
+    },
+    {
+      "id": "bf19e1db-7148-46b1-b5a7-fdfe5e40986e",
+      "memory": "Curious about advice on how to make a good impression as a volunteer backstage",
+      "hash": "83369e1a4878990069fafb172fe884b5",
+      "metadata": null,
+      "score": 0.2893700783504529,
+      "created_at": "2025-12-06T21:44:11.151159-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.002132431832750102
+    },
+    {
+      "id": "db30b79c-897a-4b89-9036-7b186a6c76ba",
+      "memory": "Wants to know if they should try the new coffee shop's coffee black or with a bit of cream and sugar",
+      "hash": "02674a422742ce0599f66caebc7ccd90",
+      "metadata": null,
+      "score": 0.2692415637776495,
+      "created_at": "2025-12-06T22:06:31.216247-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.0014520059231415202
+    },
+    {
+      "id": "75327d54-50ba-4272-b8f4-712193c5c640",
+      "memory": "Thinking of volunteering backstage at a local theater production soon",
+      "hash": "69222969f3e0405205af889b734973bb",
+      "metadata": null,
+      "score": 0.26275870267466717,
+      "created_at": "2025-12-06T21:44:11.083525-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.0010525786882288875
+    },
+    {
+      "id": "74ed9d38-4105-4511-a24e-1dabc992f068",
+      "memory": "Spent a whole evening experimenting with different techniques and textures",
+      "hash": "950e04faa9efe171567293a730defb2f",
+      "metadata": null,
+      "score": 0.29582180530520674,
+      "created_at": "2025-12-06T21:50:21.815723-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_149",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4128,
+    "load_time": 1572.8722
+  }
+}

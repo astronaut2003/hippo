@@ -1,0 +1,242 @@
+{
+  "sample_idx": 81,
+  "question_id": "gpt4_a56e767c",
+  "question": "How many movie festivals that I attended?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T10:13:09.116351",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "92a65a20-080c-495e-bb1b-35d0f99efb27",
+      "memory": "Attended some amazing festivals, like AFI Fest",
+      "hash": "d5c6d1852c000d36f0bdfd24afe8bdaf",
+      "metadata": null,
+      "score": 0.6417200174193614,
+      "created_at": "2025-11-30T18:30:33.474977-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.9999999987933358
+    },
+    {
+      "id": "d58873e0-68ee-4439-93b2-68695fb6bd5a",
+      "memory": "Attended AFI Fest in LA",
+      "hash": "32a6f297f192e0edb630167be01e8067",
+      "metadata": null,
+      "score": 0.4922410650188854,
+      "created_at": "2025-11-30T18:30:33.201701-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.5073695676315524
+    },
+    {
+      "id": "eff06f3a-a616-410f-9e30-221ec4d2cb3f",
+      "memory": "Recently participated in a 48-hour film challenge at the Austin Film Festival",
+      "hash": "18193d31c11bffa594bfd620e3f58cb3",
+      "metadata": null,
+      "score": 0.48565984088303327,
+      "created_at": "2025-11-30T18:15:42.747260-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.4328015194306163
+    },
+    {
+      "id": "2194be38-c431-4cc6-b0a5-21d02362eca6",
+      "memory": "Attended a screening of 'Joker' at AFI Fest",
+      "hash": "a09e374fdcf9f876175a6e34f51d44c2",
+      "metadata": null,
+      "score": 0.38298764897890514,
+      "created_at": "2025-11-30T18:30:33.229547-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.3808969163802972
+    },
+    {
+      "id": "b2b1a7e9-d15c-409a-be32-1bd00ec54ab9",
+      "memory": "Participated in the 48-hour film challenge at the Austin Film Festival",
+      "hash": "97f0533feaa8745cf120931d242fee7f",
+      "metadata": null,
+      "score": 0.49065323594311316,
+      "created_at": "2025-11-30T18:15:42.558468-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.3649743048566916
+    },
+    {
+      "id": "90511245-2056-481d-b9fe-bd544ee1edef",
+      "memory": "Attended a Q&A session with Todd Phillips and Joaquin Phoenix at AFI Fest",
+      "hash": "df9ba4d9b1b3dd818e1766c0d21e84b0",
+      "metadata": null,
+      "score": 0.43451496535475154,
+      "created_at": "2025-11-30T18:30:33.247549-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.3245095099440036
+    },
+    {
+      "id": "c6b2295b-5214-4e30-8e9f-f59aebd66644",
+      "memory": "Attending the Q&A session with Todd Phillips and Joaquin Phoenix at AFI Fest was amazing",
+      "hash": "bf485991d9018ae1a6a9decc4ec28974",
+      "metadata": null,
+      "score": 0.4445017194310715,
+      "created_at": "2025-11-30T18:30:33.357510-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.31926018227734687
+    },
+    {
+      "id": "42206448-8ecb-405b-9e23-919a103c31ec",
+      "memory": "Part of a team that wrote, shot, and edited a short film in just 48 hours at the Austin Film Festival",
+      "hash": "3ce7f535871844b25660f42b15f92e90",
+      "metadata": null,
+      "score": 0.3611491552727686,
+      "created_at": "2025-11-30T18:15:42.696071-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.3124713617677286
+    },
+    {
+      "id": "e2ea436f-9356-4f8b-b8f1-ab0d770526dd",
+      "memory": "Got to see 'Joker' and attend a Q&A session with Todd Phillips and Joaquin Phoenix at AFI Fest",
+      "hash": "67e2fcf36ded1e7e43eb0e6d74290183",
+      "metadata": null,
+      "score": 0.3901600912358188,
+      "created_at": "2025-11-30T18:30:33.493495-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.27315054191498084
+    },
+    {
+      "id": "34e0b9a0-f659-430a-bd52-ca6103f8af4f",
+      "memory": "Impressed by how quickly the team had to come up with a script, shoot, and edit the short film at the Austin Film Festival",
+      "hash": "a42f235addd0d2adbf04588fff0197b4",
+      "metadata": null,
+      "score": 0.37854485375233915,
+      "created_at": "2025-11-30T18:15:42.619313-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.25800843646159405
+    },
+    {
+      "id": "fa20fd16-6edf-42cf-a296-175815de010a",
+      "memory": "Interested in learning more about the film industry, especially independent films and documentaries",
+      "hash": "65ccc6e4ee66bc63de6a769ac1cdae9d",
+      "metadata": null,
+      "score": 0.4099373996263802,
+      "created_at": "2025-11-30T18:30:33.186374-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.2362401135324583
+    },
+    {
+      "id": "c040a536-96e5-459e-a5fb-6b8ccd772e53",
+      "memory": "Plans to start by attending some interdisciplinary events to make connections",
+      "hash": "6447360c8182c290991575e97ad5846d",
+      "metadata": null,
+      "score": 0.4242887473594675,
+      "created_at": "2025-11-30T18:34:53.712217-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.18772295861129437
+    },
+    {
+      "id": "ddeb198d-1e46-4738-9e6f-0834c9697264",
+      "memory": "Attended the Tech Expo at the Javits Center in New York City",
+      "hash": "abc7a2c808e9e746a248c3c2b6111001",
+      "metadata": null,
+      "score": 0.3208095939379834,
+      "created_at": "2025-11-30T18:21:37.546438-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.06817094795125508
+    },
+    {
+      "id": "7a205408-c457-430c-bfea-b265a521c094",
+      "memory": "Particularly interested in 'Moonlight' and 'The Florida Project'",
+      "hash": "078983c47236a77db44ebbd109e50d32",
+      "metadata": null,
+      "score": 0.309666519668847,
+      "created_at": "2025-11-30T18:30:33.292678-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.012894547169945213
+    },
+    {
+      "id": "ddeb6018-7bd5-4e16-892c-fb6565787992",
+      "memory": "Loved the Halloween Horror Nights event at Universal Studios Hollywood",
+      "hash": "ff1682f8b66c73f878c5b2ed6765765d",
+      "metadata": null,
+      "score": 0.5241200147627669,
+      "created_at": "2025-11-30T18:20:49.185698-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.0099795454353766
+    },
+    {
+      "id": "5198efd2-0715-4a22-ba61-682be77cb41f",
+      "memory": "Watched The Prom recently",
+      "hash": "a83d17ae77e22eb05d5277246d74ad60",
+      "metadata": null,
+      "score": 0.38697499586119644,
+      "created_at": "2025-11-30T18:19:49.686491-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.001538917460676091
+    },
+    {
+      "id": "827516d0-2be9-4219-bd87-b9555ff3391a",
+      "memory": "Loves musical theater suggestions",
+      "hash": "aa100b15045c4bfbee6e5788c410678f",
+      "metadata": null,
+      "score": 0.40451666706663436,
+      "created_at": "2025-11-30T18:19:49.653299-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.0011651491280449727
+    },
+    {
+      "id": "a18d8a6c-5993-4e1d-9dfc-6945b24861ea",
+      "memory": "Wants to know the best days to visit Halloween Horror Nights and if there are specific days or times that are less crowded",
+      "hash": "e1d60b81e0b01e089c7ede84963abdef",
+      "metadata": null,
+      "score": 0.4867426694568189,
+      "created_at": "2025-11-30T18:20:49.263834-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.00038930365433838444
+    },
+    {
+      "id": "4460ddce-6e71-4ad0-ae37-38fb2661b480",
+      "memory": "Wants to know if Halloween Horror Nights at Universal Studios Florida is similar to the one at Universal Studios Hollywood",
+      "hash": "78a973c922d91079afafb716462b6f49",
+      "metadata": null,
+      "score": 0.3826537472754835,
+      "created_at": "2025-11-30T18:20:49.201269-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 9.378731252905212e-05
+    },
+    {
+      "id": "f8882206-3bae-4962-9933-f089436584d0",
+      "memory": "Wants to know the must-see haunts and scare zones at Halloween Horror Nights this year",
+      "hash": "03a1eca4271d7b10d5fa603c70bc4c64",
+      "metadata": null,
+      "score": 0.325008482810048,
+      "created_at": "2025-11-30T18:20:49.216445-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_81",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.232,
+    "load_time": 1602.2753
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 94,
+  "question_id": "7024f17c",
+  "question": "How many hours of jogging and yoga did I do last week?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T03:21:18.738047",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "4a7a376f-a144-4d53-bd6d-2d56c677d56a",
+      "memory": "Used to practice yoga three times a week for 2 hours each",
+      "hash": "5bceac6a326dbf176badf4a2056542ab",
+      "metadata": null,
+      "score": 0.6758265402023438,
+      "created_at": "2025-12-01T11:32:01.210777-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.9999999989385638
+    },
+    {
+      "id": "7d9668bf-4eca-46e1-ac02-32a864356282",
+      "memory": "Hoping to get back into yoga this week, maybe by starting with just one or two sessions a week",
+      "hash": "a6c9a596e14f95027b4c6ccbe50a13f1",
+      "metadata": null,
+      "score": 0.6588690930880415,
+      "created_at": "2025-12-01T11:33:56.417330-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.6382996382794511
+    },
+    {
+      "id": "388b4069-42d3-4e13-9274-e0c185e8478e",
+      "memory": "Has been slacking off on yoga for this month and is trying to get back into it",
+      "hash": "ef5d87194974af1ad12c0a690c5a0b1a",
+      "metadata": null,
+      "score": 0.542983519425045,
+      "created_at": "2025-12-01T11:32:01.225421-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.5093333228387765
+    },
+    {
+      "id": "dfb9f83b-0d74-45bb-a35d-2e71ef68f57d",
+      "memory": "Hoping that tracking workouts will help stay motivated and see progress",
+      "hash": "f87cba05c270a5be4156e08c6d38a959",
+      "metadata": null,
+      "score": 0.3576163816172678,
+      "created_at": "2025-12-01T11:24:24.030010-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.4527756882719304
+    },
+    {
+      "id": "775790c0-e1f6-4a87-b8b1-43f347f69cf0",
+      "memory": "Looking to increase exercise frequency and make it a consistent part of the routine",
+      "hash": "3295cae3fbce7593bbc14241c0c78a47",
+      "metadata": null,
+      "score": 0.4170938535254751,
+      "created_at": "2025-12-01T11:24:23.997717-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.45011869699876045
+    },
+    {
+      "id": "38513609-364a-413f-85d7-9d63a3ce319a",
+      "memory": "Went for a 30-minute jog around the neighborhood on Saturday",
+      "hash": "5d0626248d3eaf6a07d2b401864470fe",
+      "metadata": null,
+      "score": 0.5831953162875552,
+      "created_at": "2025-12-01T11:24:23.937598-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.3341498548693863
+    },
+    {
+      "id": "53734990-26a4-4d46-ba93-218e225e4097",
+      "memory": "Thinking of trying to incorporate strength training into the routine",
+      "hash": "94904aa31e949df81831b82e484e1295",
+      "metadata": null,
+      "score": 0.33984047362519054,
+      "created_at": "2025-12-01T11:24:24.044529-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.27976383085508943
+    },
+    {
+      "id": "df5ec36a-4913-47e1-a168-c7670b667557",
+      "memory": "Looking for tips on how to make the most out of a yoga class, especially if new to yoga or haven't practiced in a while",
+      "hash": "05018e6e856410760d4a52f6a0c7d1f4",
+      "metadata": null,
+      "score": 0.46750940853868117,
+      "created_at": "2025-12-01T11:33:56.509143-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.19769065802703117
+    },
+    {
+      "id": "a6e7af80-05c7-46c5-a7a5-32cf0f595b66",
+      "memory": "Looking for tips on how to stay motivated and committed to yoga practice, especially since just getting back into it",
+      "hash": "05c949ffde929635701228e3a4ba7210",
+      "metadata": null,
+      "score": 0.45885621558162265,
+      "created_at": "2025-12-01T11:33:56.480536-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.16787785545887723
+    },
+    {
+      "id": "4ea2c1c6-a47e-4912-99a9-218ed3485606",
+      "memory": "Will try to schedule yoga practice for Monday, Wednesday, and Friday mornings at 7:00 am",
+      "hash": "2d3c124a2d297f34e98cd310b8ab4372",
+      "metadata": null,
+      "score": 0.609589281969153,
+      "created_at": "2025-12-01T11:32:01.272383-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.14431052102437292
+    },
+    {
+      "id": "2d6f4f88-71ff-4260-94e7-8650565accf5",
+      "memory": "Will definitely try to set realistic goals and find a yoga buddy to stay motivated",
+      "hash": "4c83a77aa64e5f667ee8ed780a35f3e8",
+      "metadata": null,
+      "score": 0.4796362631137635,
+      "created_at": "2025-12-01T11:33:56.495671-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.11449356817268498
+    },
+    {
+      "id": "ef72b722-b4fc-4864-9533-efce054a3c05",
+      "memory": "Will set reminders on phone and calendar for yoga practice",
+      "hash": "17626732d0b29896643c97a182d2f15f",
+      "metadata": null,
+      "score": 0.36062599600377443,
+      "created_at": "2025-12-01T11:32:01.289131-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.0970306934581026
+    },
+    {
+      "id": "267dbd61-237f-4acf-8d18-3643f4bf4b9e",
+      "memory": "Will definitely try to focus on breath and listen to body during yoga class",
+      "hash": "9c732e46f0f6273a7521e15ccc56d2bd",
+      "metadata": null,
+      "score": 0.4057533965154232,
+      "created_at": "2025-12-01T11:33:56.524992-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.07537137595852589
+    },
+    {
+      "id": "b407e55b-c72c-44ff-9c8f-935029924b50",
+      "memory": "Looking for suggestions for yoga studios or classes in the area that might be good for a beginner",
+      "hash": "ef9fd768e8920c8dd7662af1a9950f7f",
+      "metadata": null,
+      "score": 0.3846811957130247,
+      "created_at": "2025-12-01T11:33:56.449436-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.02868018006908744
+    },
+    {
+      "id": "30c7aefa-4a3f-462f-9699-b9ff40562715",
+      "memory": "Will make sure to wear comfortable clothing and bring a water bottle and towel to yoga class",
+      "hash": "b938e265ee776e5883ce6a45af43b1fb",
+      "metadata": null,
+      "score": 0.44399315300102427,
+      "created_at": "2025-12-01T11:33:56.559432-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.01004479964294125
+    },
+    {
+      "id": "261ea839-b41c-4c7e-82ea-9ee40e5c4fab",
+      "memory": "Will try out a few methods to find a yoga studio that suits them",
+      "hash": "514cbf83e83e8a46e06805d6d620f7ca",
+      "metadata": null,
+      "score": 0.40202595295977894,
+      "created_at": "2025-12-01T11:33:56.465546-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.00968838139115707
+    },
+    {
+      "id": "df4ac1f6-e0c8-429c-a4ff-d85b50241f1a",
+      "memory": "Already in the habit of checking phone after workouts to check the time and respond to urgent messages",
+      "hash": "fbd2419f7949e8d4c03eb9ca57c1d39a",
+      "metadata": null,
+      "score": 0.3475210896905051,
+      "created_at": "2025-12-01T11:24:23.983230-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.005658962211798608
+    },
+    {
+      "id": "77ee63ec-fa9f-4c3b-a311-1c30ca534087",
+      "memory": "Will invest in a good quality yoga mat",
+      "hash": "a32726a8f9570a0f34c10e301fedc181",
+      "metadata": null,
+      "score": 0.41614778460492285,
+      "created_at": "2025-12-01T11:32:01.337400-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.00012339501531522795
+    },
+    {
+      "id": "bbd73162-a377-420a-b0a8-d5f75a799b21",
+      "memory": "Will keep yoga space clean and organized",
+      "hash": "81e6e00b68d6540cbd5c0dc765c6dc9e",
+      "metadata": null,
+      "score": 0.46119705413791195,
+      "created_at": "2025-12-01T11:32:01.321365-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 7.470510361168025e-05
+    },
+    {
+      "id": "d2eb7514-dfd9-43aa-853c-9dda2b929f67",
+      "memory": "Looking for suggestions for what to wear to yoga class and what to bring",
+      "hash": "37c4862181d4f928c179f4596617a58e",
+      "metadata": null,
+      "score": 0.37648370365341755,
+      "created_at": "2025-12-01T11:33:56.544681-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_94",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3307,
+    "load_time": 1367.811
+  }
+}

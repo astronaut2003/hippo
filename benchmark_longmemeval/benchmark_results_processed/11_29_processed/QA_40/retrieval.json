@@ -1,0 +1,242 @@
+{
+  "sample_idx": 40,
+  "question_id": "15745da0",
+  "question": "How long have I been collecting vintage cameras?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T19:20:27.496344",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "fd8fbe71-d9b0-4747-a5f0-ab1ba3b0a15e",
+      "memory": "Has been collecting vintage cameras for three months",
+      "hash": "0b4da88108b16a50d97999399bb0c908",
+      "metadata": null,
+      "score": 0.8902505842572028,
+      "created_at": "2025-11-29T03:23:06.983270-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.9999999993471851
+    },
+    {
+      "id": "7255251f-d874-452d-adb5-670aaf01fcfe",
+      "memory": "Has a growing collection of vintage cameras",
+      "hash": "2e651f9a65071cf743d36494f744dfc1",
+      "metadata": null,
+      "score": 0.7790861779998373,
+      "created_at": "2025-11-29T03:23:06.926187-08:00",
+      "updated_at": "2025-11-29T03:41:08.928255-08:00",
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.8097847144254777
+    },
+    {
+      "id": "a6c17260-70a8-4122-b568-bd4c7715e31e",
+      "memory": "Recently organized collection and has 17 cameras",
+      "hash": "4af55f03a73a6f9fedf45aaf1d3a376b",
+      "metadata": null,
+      "score": 0.6354626807589899,
+      "created_at": "2025-11-29T03:23:06.947161-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.2153219020508846
+    },
+    {
+      "id": "cfab7b87-68da-4ea5-9209-c5973c59cbba",
+      "memory": "Has a vinyl record collection",
+      "hash": "64026076e61546c9ce5875ee51d2003b",
+      "metadata": null,
+      "score": 0.39975531566536726,
+      "created_at": "2025-11-29T03:23:07.033804-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.054500581727558534
+    },
+    {
+      "id": "2a88bfd3-5136-48fa-9aa2-dfb20f436633",
+      "memory": "Has a vintage timepiece that needs some TLC",
+      "hash": "0c8fd364d5f7703790ea1bba1d0bd13b",
+      "metadata": null,
+      "score": 0.31618322392276943,
+      "created_at": "2025-11-29T03:41:08.967265-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.014747753109633298
+    },
+    {
+      "id": "41f6dbe6-a61f-43be-a79a-b77830f5e4eb",
+      "memory": "Recently got a new Brownie Hawkeye camera",
+      "hash": "1858d1667a73e778b89c24e44ea6016d",
+      "metadata": null,
+      "score": 0.35702505726379796,
+      "created_at": "2025-11-29T03:23:06.965530-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.013220955616933719
+    },
+    {
+      "id": "d6a78739-6a7f-413b-a9b1-fe5664ab7234",
+      "memory": "It's a shame that traditional crafts and trades are declining",
+      "hash": "7a822cc0536302bb6e2a6897e29955e0",
+      "metadata": null,
+      "score": 0.26535549180316853,
+      "created_at": "2025-11-29T03:26:56.724985-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.0020418519559642833
+    },
+    {
+      "id": "c66b173a-ca0e-48ae-9c25-42f28d0c5f5f",
+      "memory": "Has seen skills improve over time",
+      "hash": "8ed61804472da25fbb4cdf554923460f",
+      "metadata": null,
+      "score": 0.22762108933791597,
+      "created_at": "2025-11-29T03:32:44.470150-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.0019040143418378411
+    },
+    {
+      "id": "d1fdd682-6d17-444a-989e-1928680f4f95",
+      "memory": "Concerned about how the decline of traditional crafts and trades could affect future generations",
+      "hash": "368643573537a5821a9af4a921be0fc4",
+      "metadata": null,
+      "score": 0.2702946483974181,
+      "created_at": "2025-11-29T03:26:56.773927-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.0017523556119317827
+    },
+    {
+      "id": "5a81d45e-4c9c-4dde-8c41-b4e9ecd6871b",
+      "memory": "It's frustrating to see how traditional crafts and trades are often undervalued and given less recognition compared to modern industries",
+      "hash": "d12e7a39fffa68b5d1b0c3e593ba079c",
+      "metadata": null,
+      "score": 0.2745845068594338,
+      "created_at": "2025-11-29T03:26:56.839206-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.0015696305001607314
+    },
+    {
+      "id": "347a2b3e-54d7-4279-9246-d85d90db54b3",
+      "memory": "Has a 1970s Sony Walkman from a garage sale",
+      "hash": "9c97debdd1c49a5536688635bb7cec27",
+      "metadata": null,
+      "score": 0.3492148212269671,
+      "created_at": "2025-11-29T03:41:09.021384-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.001330873837931777
+    },
+    {
+      "id": "750eb484-997b-4b5f-a7ee-ac2fd6947399",
+      "memory": "Has a 1960s Rolleiflex TLR recently acquired",
+      "hash": "84c1dd9345fcb6989510ca0344feb78e",
+      "metadata": null,
+      "score": 0.29108236481913374,
+      "created_at": "2025-11-29T03:41:09.058802-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.0012091608588815535
+    },
+    {
+      "id": "f1bf4307-eead-47de-8991-d85dba40bebd",
+      "memory": "Sales associate said the Adidas sneakers would stretch out over time",
+      "hash": "5e5f587d69e4b23906ca39d2d1cfd580",
+      "metadata": null,
+      "score": 0.26575985116114603,
+      "created_at": "2025-11-29T03:25:48.562218-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.0009539060179066607
+    },
+    {
+      "id": "b60cea43-50b5-411c-b1dc-87a27277b01b",
+      "memory": "Bought Adidas sneakers on January 10th",
+      "hash": "cf81fcf51142e181b5ada1ad81b7c2ea",
+      "metadata": null,
+      "score": 0.24077045855997756,
+      "created_at": "2025-11-29T03:25:48.530807-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.0008765824782747541
+    },
+    {
+      "id": "8d0c4d2c-dfcd-44a4-b9a0-28bf1f23c6f6",
+      "memory": "Has been thinking about smart lighting systems for a while",
+      "hash": "1bc479a603efb58b55e68ee3efb8001c",
+      "metadata": null,
+      "score": 0.2918600028786279,
+      "created_at": "2025-11-29T03:24:55.238356-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.0008399751986422572
+    },
+    {
+      "id": "2bb57a45-503c-489f-8898-050047c6f960",
+      "memory": "Has a collection of posters and art prints",
+      "hash": "e2503fc86a00c735ad3af7097200ca59",
+      "metadata": null,
+      "score": 0.3096400241780922,
+      "created_at": "2025-11-29T03:23:07.068250-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.0008015002006611636
+    },
+    {
+      "id": "bb18d7ad-cae9-4c8a-9d8d-e49a3d058dc5",
+      "memory": "It's sad to see so many traditional crafts and trades disappearing, especially since they hold so much cultural value",
+      "hash": "1ac464ef1f04a79ccc31c297b9866efb",
+      "metadata": null,
+      "score": 0.2915824357554962,
+      "created_at": "2025-11-29T03:26:56.806323-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.0006574368587060655
+    },
+    {
+      "id": "7b5bd8c0-67fd-4063-b183-e642c170e3e6",
+      "memory": "Has been wearing new Adidas sneakers almost daily since getting them",
+      "hash": "e888a652cfe936416d6fdb93e531696c",
+      "metadata": null,
+      "score": 0.28977141302153697,
+      "created_at": "2025-11-29T03:25:48.514159-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.0005814829791964633
+    },
+    {
+      "id": "c6cedbfd-c01d-46fe-8529-137333d7a935",
+      "memory": "Bought a beautiful leather-bound journal on January 18th",
+      "hash": "78885471c20384420914b6fd4c48c15b",
+      "metadata": null,
+      "score": 0.28584369325303416,
+      "created_at": "2025-11-29T03:36:08.514044-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 4.38291239137377e-05
+    },
+    {
+      "id": "835243b2-2b40-48ab-9fb5-efd8ab24c4c2",
+      "memory": "Wants to know how long a typical game of Mysterium lasts",
+      "hash": "d1d367c6a87de2c284c6d0214bc5af74",
+      "metadata": null,
+      "score": 0.24833238073912126,
+      "created_at": "2025-11-29T03:28:50.357464-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_40",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0573,
+    "load_time": 1597.0811
+  }
+}

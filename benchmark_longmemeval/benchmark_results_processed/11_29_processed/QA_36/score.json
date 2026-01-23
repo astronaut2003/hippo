@@ -1,0 +1,77 @@
+{
+  "sample_idx": 36,
+  "question_id": "3f1e9474",
+  "question": "Who did I have a conversation with about destiny?",
+  "question_type": "single-session-user",
+  "gold_answer": "Sarah",
+  "question_date": "2023/05/30 (Tue) 22:08",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-29T17:41:45.896187",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 3368,
+  "gen_token_usage": {
+    "prompt_tokens": 833,
+    "answer_tokens": 10,
+    "total_tokens": 843,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.11611402034759521,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.11611402034759521,
+      "overall_average": 0.023222804069519043
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.11611402034759521,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.11611402034759521,
+    "overall_average": 0.023222804069519043
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1381.4674,
+    "retrieval_time": 0.0835,
+    "generation_time": 1.5304,
+    "evaluation_time": 0.8685,
+    "cleanup_time": 1.7291,
+    "total_time": 1385.6794
+  }
+}

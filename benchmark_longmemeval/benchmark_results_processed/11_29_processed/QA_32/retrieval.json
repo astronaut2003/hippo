@@ -1,0 +1,242 @@
+{
+  "sample_idx": 32,
+  "question_id": "25e5aa4f",
+  "question": "Where did I complete my Bachelor's degree in Computer Science?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T16:06:34.187075",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "04b87db2-5d18-4d9c-9ef7-5a0f1860283f",
+      "memory": "Completed undergrad in CS from UCLA",
+      "hash": "e19bb80fa1b7ff92b4fae5e0f53f43f9",
+      "metadata": null,
+      "score": 0.6134981525451083,
+      "created_at": "2025-11-29T00:27:14.402156-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.9999999987231742
+    },
+    {
+      "id": "bceec15c-eb21-4150-ae57-365bdcaf83f4",
+      "memory": "Narrowed down options to Stanford, Berkeley, and Carnegie Mellon",
+      "hash": "5288307931cdb9266551a55a7a29ebc7",
+      "metadata": null,
+      "score": 0.468850373169369,
+      "created_at": "2025-11-29T00:27:14.331970-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.608140084079089
+    },
+    {
+      "id": "b7dc0d00-cc62-495c-ab1d-30204f55fb72",
+      "memory": "Considering pursuing a Master's degree in Data Science",
+      "hash": "3591c315c5a5b567a8d9f107820da21e",
+      "metadata": null,
+      "score": 0.507542649808723,
+      "created_at": "2025-11-29T00:27:14.297114-08:00",
+      "updated_at": "2025-11-29T00:33:41.683062-08:00",
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.18280701751339293
+    },
+    {
+      "id": "1d3b9a3c-7e78-4c83-9552-afaa29f79610",
+      "memory": "Leaning towards Stanford but concerned about the cost",
+      "hash": "c27810a47796a9ae8826a512718fdeeb",
+      "metadata": null,
+      "score": 0.20165814234762508,
+      "created_at": "2025-11-29T00:27:14.351167-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.10524069163831594
+    },
+    {
+      "id": "5f4435d2-d7c2-4551-8e77-dbbd7a0c680d",
+      "memory": "Interested in the Coursera - Data Science Specialization course",
+      "hash": "cf174812049f6de5eedd3a0b9add7168",
+      "metadata": null,
+      "score": 0.44414220867408033,
+      "created_at": "2025-11-29T00:33:41.806573-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.059879460350611945
+    },
+    {
+      "id": "672715e4-b913-4952-aefa-a7ecaf735aee",
+      "memory": "Learned all skills needed in the 3D motion design pipeline including idea generation, mood boards, references, blocking, lighting, materials, and compositing",
+      "hash": "b5b63c031fc130307a5845ba92a76728",
+      "metadata": null,
+      "score": 0.20430604323147314,
+      "created_at": "2025-11-29T00:29:37.545913-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.0534673003541038
+    },
+    {
+      "id": "eb0106af-a794-472b-8f9d-ed21529a4038",
+      "memory": "Confident about getting a good job after graduating",
+      "hash": "35c4d4a218a7bc77e7ea241909fc9a89",
+      "metadata": null,
+      "score": 0.28811496831263506,
+      "created_at": "2025-11-29T00:27:14.385534-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.015229838911549089
+    },
+    {
+      "id": "029679e9-93c8-4f93-97c4-8b8db1a9f887",
+      "memory": "Interested in learning more about the capstone project in the Advanced Data Science section",
+      "hash": "b09c37c0a696480b5ef0448b44ddc032",
+      "metadata": null,
+      "score": 0.21553694054210584,
+      "created_at": "2025-11-29T00:33:41.821174-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.008778347980559237
+    },
+    {
+      "id": "6f1713dc-26b0-4764-861e-eb612e505766",
+      "memory": "Has already started reaching out to professors from UCLA",
+      "hash": "6fa50513a5f82cc7a4c2132fabb4adf6",
+      "metadata": null,
+      "score": 0.2236017739418255,
+      "created_at": "2025-11-29T00:27:14.434401-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.008281536176579798
+    },
+    {
+      "id": "4ed2d842-fa22-4dd9-895e-833ad1038aed",
+      "memory": "Wants a 30 day study plan to learn tech sales and become a SDR or BDR",
+      "hash": "33b7ea7ac4733e164171f73b0ae3c118",
+      "metadata": null,
+      "score": 0.3423910385910185,
+      "created_at": "2025-11-29T00:15:53.658810-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.0034451706789191783
+    },
+    {
+      "id": "12e132eb-3eda-4d76-a6b9-99afb8608a26",
+      "memory": "Has been working in the tech industry for a while",
+      "hash": "0dd697463ded94d03e02c41e8e7c4061",
+      "metadata": null,
+      "score": 0.33268375356918156,
+      "created_at": "2025-11-29T00:27:14.368083-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.002059211866935363
+    },
+    {
+      "id": "b01b1e77-1cb8-489c-a68c-c1749e6de05e",
+      "memory": "Has training in quality assurance software testing",
+      "hash": "11c473bce91eece2577b3df3c5d5f22b",
+      "metadata": null,
+      "score": 0.25011790072426726,
+      "created_at": "2025-11-29T00:15:53.535887-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.0016978056330601244
+    },
+    {
+      "id": "b5aadc2b-e30c-4f9d-bf80-573b993e042b",
+      "memory": "Interested in TED Talks about AI and machine learning",
+      "hash": "3bbb7507177ac86f6b81f79e8002647e",
+      "metadata": null,
+      "score": 0.1963200968219689,
+      "created_at": "2025-11-29T00:33:41.753745-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.0016179260881065678
+    },
+    {
+      "id": "c3ef3b01-0915-4dc9-8de3-06d63b824541",
+      "memory": "Excited to dive into the capstone project and demonstrate skills in data science",
+      "hash": "066f2bc6a34ad7fdd16cfa7f54207a5e",
+      "metadata": null,
+      "score": 0.327107455493753,
+      "created_at": "2025-11-29T00:33:41.838011-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.0014489126606743472
+    },
+    {
+      "id": "507e4284-bcda-4c4a-ad17-9e9353822259",
+      "memory": "Earned 21 professional development units (PDUs) for attending the workshop",
+      "hash": "a45e47973bcdd60d38f118e1ff68a10d",
+      "metadata": null,
+      "score": 0.187614621136468,
+      "created_at": "2025-11-29T00:20:46.984473-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.0006878651668332958
+    },
+    {
+      "id": "6b89b7f1-301b-4109-a81e-38c083426236",
+      "memory": "Interested in learning about the AI-driven job market and what skills are in demand",
+      "hash": "7cf0c56395f448222376337c8245821d",
+      "metadata": null,
+      "score": 0.2347108418508977,
+      "created_at": "2025-11-29T00:33:41.790286-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.0005509983855409212
+    },
+    {
+      "id": "38069683-5c88-40f5-b229-9ac9c1467571",
+      "memory": "Has experience as a product manager",
+      "hash": "1c365157e6bc7fe4fda1f53392af0d17",
+      "metadata": null,
+      "score": 0.1969011558491554,
+      "created_at": "2025-11-29T00:29:37.563142-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.0005282278445251969
+    },
+    {
+      "id": "63aff000-1c0c-4a4d-aa28-ae9ab899b9c7",
+      "memory": "Thinking of transitioning to a SaaS SDR or Sales Development Rep position for tech companies",
+      "hash": "c84c9860d43f5fbb8abe1f4627055109",
+      "metadata": null,
+      "score": 0.19425996616787453,
+      "created_at": "2025-11-29T00:15:53.484611-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.00042265533617956625
+    },
+    {
+      "id": "c89a4e31-8159-4a40-a1fd-ff3ea90bedf4",
+      "memory": "Made it to the semi-finals in the doubles tournament",
+      "hash": "69c59c7e6e11d2a8b27626661e4c2753",
+      "metadata": null,
+      "score": 0.19985826389055783,
+      "created_at": "2025-11-29T00:22:32.551385-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.0002244176849838492
+    },
+    {
+      "id": "7d70ce7e-7137-47d5-8439-7a5d628bfaaf",
+      "memory": "Trying to help first-year college students develop a one-year SMART plan that gets them closer to their career goals",
+      "hash": "d033d100e3bb000ebc79ffc81f3dc555",
+      "metadata": null,
+      "score": 0.22531001623436722,
+      "created_at": "2025-11-29T00:14:02.877320-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_32",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.2357,
+    "load_time": 1627.6849
+  }
+}

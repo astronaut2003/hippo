@@ -1,0 +1,242 @@
+{
+  "sample_idx": 131,
+  "question_id": "gpt4_372c3eed_abs",
+  "question": "How many years in total did I spend in formal education from high school to the completion of my Master's degree?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T06:03:24.319780",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "9b44b022-8df4-4583-9a15-8361f9c0c729",
+      "memory": "Took four years to complete the Bachelor's degree",
+      "hash": "096bbf67d328aa5e80bbee3c658ac46e",
+      "metadata": null,
+      "score": 0.6294589886369772,
+      "created_at": "2025-12-06T14:03:52.824860-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.9999999987639062
+    },
+    {
+      "id": "30d04287-7536-4de7-9df3-444e1ef0bdbc",
+      "memory": "Attended Arcadia High School from 2010 to 2014",
+      "hash": "fb6255550aa332fc0a43ba1be5b6426d",
+      "metadata": null,
+      "score": 0.3150121014194476,
+      "created_at": "2025-12-06T14:04:21.218238-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.2785430874519436
+    },
+    {
+      "id": "fe1b11f3-0685-4ece-a5d8-1e59a15e1028",
+      "memory": "Had a GPA of 3.6 out of 4.0",
+      "hash": "10dbf924197d7c9894fc30e997c37a0f",
+      "metadata": null,
+      "score": 0.3229600890209827,
+      "created_at": "2025-12-06T14:03:52.967154-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.1279024284925803
+    },
+    {
+      "id": "89671b3c-5174-4077-9d27-4f22c2c8f8fd",
+      "memory": "Leaning towards staying in SoCal for graduate school",
+      "hash": "1e66249a85e2bb495cc075803d9ecb16",
+      "metadata": null,
+      "score": 0.2587204808599918,
+      "created_at": "2025-12-06T14:04:21.234060-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.12240836992421475
+    },
+    {
+      "id": "66516a99-789f-4abf-99b5-5eed633ce9e7",
+      "memory": "Considering pursuing a Master's degree in Computer Science",
+      "hash": "0543db7da6f790f7252664a7c1003e48",
+      "metadata": null,
+      "score": 0.44678677098114494,
+      "created_at": "2025-12-06T14:04:21.154337-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.10271305525851351
+    },
+    {
+      "id": "525563ac-3830-446d-bd2a-f7201d1769b0",
+      "memory": "Joined UCLA",
+      "hash": "7be50c4408046959931d5580dccf8bb5",
+      "metadata": null,
+      "score": 0.2727034087203033,
+      "created_at": "2025-12-06T14:04:21.202865-08:00",
+      "updated_at": "2025-12-06T14:12:17.785821-08:00",
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.06774952478852303
+    },
+    {
+      "id": "5aa95c0a-627f-4a6c-a741-2554d6888eff",
+      "memory": "The tool is for college CMRIT",
+      "hash": "f8e30b7826dd1c69babee0ea493f1485",
+      "metadata": null,
+      "score": 0.24866387373987767,
+      "created_at": "2025-12-06T14:23:57.005095-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.061385489130629585
+    },
+    {
+      "id": "c5dcfab9-52cb-4388-bfe1-2f184204e181",
+      "memory": "Earned an Associate's degree in Computer Science from Pasadena City College (PCC) in May 2016",
+      "hash": "2261f966d1f7820924ca7c06d6e42b32",
+      "metadata": null,
+      "score": 0.3430973874354828,
+      "created_at": "2025-12-06T14:12:17.814838-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.029405225626043276
+    },
+    {
+      "id": "b03936d6-c1af-41dc-bc1d-1e57920fd99a",
+      "memory": "Graduated with a Bachelor's in Computer Science from UCLA in 2020",
+      "hash": "71149fa658c247a16be0af09d437a0af",
+      "metadata": null,
+      "score": 0.42031298750763035,
+      "created_at": "2025-12-06T14:03:52.810014-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.02500182126259809
+    },
+    {
+      "id": "5c6f86ff-b18f-4b62-8129-4828c38b459f",
+      "memory": "Was part of the robotics team in high school and enjoyed it",
+      "hash": "b3fe2a9b91bc9acde1553fd35622fac4",
+      "metadata": null,
+      "score": 0.29317659341841174,
+      "created_at": "2025-12-06T14:03:52.874678-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.01556551691808184
+    },
+    {
+      "id": "42406d7e-7cd2-4183-8db7-447ec082068c",
+      "memory": "Received an A+ grade in Data Structures and Algorithms course",
+      "hash": "c8f1f5fcf2187562b6e104a14ea326d9",
+      "metadata": null,
+      "score": 0.22957413799972498,
+      "created_at": "2025-12-06T14:24:31.414568-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.014804110140133227
+    },
+    {
+      "id": "0085eac8-cdde-4653-bbc7-4c4cf92b7ccb",
+      "memory": "Was part of the Dean's list for three consecutive semesters",
+      "hash": "bef42fb1fb7ac8584f60ab174fd62eef",
+      "metadata": null,
+      "score": 0.40180003450056867,
+      "created_at": "2025-12-06T14:03:52.983615-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.01353733862196698
+    },
+    {
+      "id": "e6bfbebc-b1de-4ae3-9734-1c39cef9939b",
+      "memory": "Graduated from UCLA in 2020 with a Bachelor's degree in Computer Science",
+      "hash": "e7fe05b8b4c249e4337b501ab7c4b885",
+      "metadata": null,
+      "score": 0.39785194442155325,
+      "created_at": "2025-12-06T14:03:52.951057-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.012422400503707503
+    },
+    {
+      "id": "efc51aaa-50a0-468e-b243-d44fca9ab36f",
+      "memory": "Asked about the difference between 'mentorship' and 'mentoring'",
+      "hash": "44fa3ffd249ee8804e29d787575788bb",
+      "metadata": null,
+      "score": 0.1671172644643846,
+      "created_at": "2025-12-06T14:23:57.090867-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.006030190791017694
+    },
+    {
+      "id": "428428c0-7eac-4c62-915f-58a1614126aa",
+      "memory": "Has a specialization in Data Science from Johns Hopkins University",
+      "hash": "c02127a6e471ac6f9a21b577c81c8f66",
+      "metadata": null,
+      "score": 0.2139042961771401,
+      "created_at": "2025-12-06T14:12:17.798326-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.003909002749152495
+    },
+    {
+      "id": "3d503f41-4123-40fc-9203-232e079d94e8",
+      "memory": "Has taken courses on Python programming, data structures, and algorithms",
+      "hash": "6e166c9bcece10265a040392deb50e32",
+      "metadata": null,
+      "score": 0.19949005992680452,
+      "created_at": "2025-12-06T14:03:52.795637-08:00",
+      "updated_at": "2025-12-06T14:24:30.622838-08:00",
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.0021725850623305334
+    },
+    {
+      "id": "42267a73-242e-4f19-a558-d07ec1d9228e",
+      "memory": "Has been taking language exchange classes at a local school",
+      "hash": "af205724f76f662e87ab2b636cd8a0b9",
+      "metadata": null,
+      "score": 0.21909174897066794,
+      "created_at": "2025-12-06T14:05:16.568072-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.0005732653911076171
+    },
+    {
+      "id": "0f691b2b-fa83-4ad5-a25e-583a30ab4031",
+      "memory": "Wants to know how to get to Shibuya Gaigosai Japanese Language School from Shibuya Station",
+      "hash": "92212a7fc54a64b60020d3c888bf2063",
+      "metadata": null,
+      "score": 0.16362265332465992,
+      "created_at": "2025-12-06T14:17:18.508966-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.00050642568788779
+    },
+    {
+      "id": "c2c41975-c3a6-4715-9de0-6e894f407079",
+      "memory": "Looking for good language schools in Shibuya that offer Japanese classes for foreigners",
+      "hash": "bc7d85cec1b742335278f4e1cefb2daa",
+      "metadata": null,
+      "score": 0.1879741865464559,
+      "created_at": "2025-12-06T14:17:18.299003-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.0002877525847611954
+    },
+    {
+      "id": "32c6dc87-0188-4729-b20a-e23154a84a5c",
+      "memory": "Has been enjoying classes with Juan",
+      "hash": "52e03bb72d75cc352e7b45f82860093d",
+      "metadata": null,
+      "score": 0.16147489946930232,
+      "created_at": "2025-12-06T14:05:16.773563-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_131",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.372,
+    "load_time": 1300.9732
+  }
+}

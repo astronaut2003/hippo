@@ -1,0 +1,242 @@
+{
+  "sample_idx": 39,
+  "question_id": "ec81a493",
+  "question": "How many copies of my favorite artist's debut album were released worldwide?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T18:54:38.707728",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "95c4ea12-8e2a-4faf-92af-6a5ede0e1604",
+      "memory": "Has a signed poster from favorite artist's debut album",
+      "hash": "470f1b33f7ff1317a9a9cfe6dca266eb",
+      "metadata": null,
+      "score": 0.5051786398531368,
+      "created_at": "2025-11-29T03:13:08.339254-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.9999999988543895
+    },
+    {
+      "id": "5d4876e2-9831-478e-a669-eb939ba8cfcc",
+      "memory": "Signed poster is a limited edition of only 500 copies worldwide",
+      "hash": "1ae777824c26bc6c6034fd173dac60e9",
+      "metadata": null,
+      "score": 0.4211262628758894,
+      "created_at": "2025-11-29T03:13:08.430646-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.5766676395494926
+    },
+    {
+      "id": "ecce9e3c-595b-48b0-bada-17fc400c1384",
+      "memory": "Has a vinyl collection",
+      "hash": "21b05e95627e88fee60f7af0cfc9be61",
+      "metadata": null,
+      "score": 0.38352052952842297,
+      "created_at": "2025-11-29T03:13:08.270547-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.18639242964797742
+    },
+    {
+      "id": "d37da305-02c7-41dd-a8ad-84619ee63974",
+      "memory": "Remembers that their cat photo got 27 likes on Instagram which was a decent engagement for their account",
+      "hash": "449a51ae39129df4b667e76f00c93075",
+      "metadata": null,
+      "score": 0.24739642968994124,
+      "created_at": "2025-11-29T03:14:12.837193-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.08917086344000065
+    },
+    {
+      "id": "c6a249b3-eabb-4b8d-b42b-8a840c8a3102",
+      "memory": "Sold out of jam quickly and got great feedback",
+      "hash": "691f00f5ce34e46045c81f85b6e73dec",
+      "metadata": null,
+      "score": 0.2861640361369193,
+      "created_at": "2025-11-29T02:57:46.405309-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.057163507628815724
+    },
+    {
+      "id": "f8ba576f-3147-441d-819b-a2beb21f9296",
+      "memory": "Planning to check out Clif Shot Bloks and Gu Chomps",
+      "hash": "5940f210e07c264d83204fff8a9530b6",
+      "metadata": null,
+      "score": 0.14335950845396533,
+      "created_at": "2025-11-29T03:18:09.014131-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.020048968129760147
+    },
+    {
+      "id": "822ae793-1b99-4f83-a277-8013cf054110",
+      "memory": "Wants to organize vinyl collection",
+      "hash": "f41c030b133929f75d6d3414c3cf475d",
+      "metadata": null,
+      "score": 0.28344720838866116,
+      "created_at": "2025-11-29T03:13:08.305416-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.016067318313289048
+    },
+    {
+      "id": "678fe0a6-f7bc-4bc0-9aee-4673625dd7ac",
+      "memory": "Wants to protect albums from scratches and damage",
+      "hash": "c60586c4e14a6c78106006401939c7dc",
+      "metadata": null,
+      "score": 0.3119269437609962,
+      "created_at": "2025-11-29T03:13:08.323127-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.010689731176407145
+    },
+    {
+      "id": "ef2c3f80-04c9-48c2-8b96-9d82d07499fe",
+      "memory": "Planning to make around 30-40 jars for the next market",
+      "hash": "84f0579ecdcede2e1a73e8c0f2c7f762",
+      "metadata": null,
+      "score": 0.19002059258068799,
+      "created_at": "2025-11-29T02:57:46.470522-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.00883929755381986
+    },
+    {
+      "id": "2afe4da9-0b31-4bfc-a601-8ee9e726afbe",
+      "memory": "Two orders on Amazon",
+      "hash": "e7f4d642c1a1524c111ab5d98e08dacd",
+      "metadata": null,
+      "score": 0.2402320719372797,
+      "created_at": "2025-11-29T02:55:23.621629-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.00874249858176977
+    },
+    {
+      "id": "0d698823-bc3f-41df-a3b2-950196ebd258",
+      "memory": "Interested in personalized gifts like photo albums or customized phone cases",
+      "hash": "3a5b763b7ea27796bca438fc254aa70b",
+      "metadata": null,
+      "score": 0.25053123685141887,
+      "created_at": "2025-11-29T03:01:34.999197-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.005274997707135817
+    },
+    {
+      "id": "1a663fcb-0c5d-4a6e-9984-3eb4f6efd76c",
+      "memory": "Been listening to the Hamilton soundtrack non-stop since then",
+      "hash": "ab8501a873de7c30bdff23597eef09ba",
+      "metadata": null,
+      "score": 0.26754835399488075,
+      "created_at": "2025-11-29T03:06:02.161027-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.0031432352436580394
+    },
+    {
+      "id": "84ebb388-b025-43d2-b5ec-e79e8e8205a5",
+      "memory": "Will take more photos of jam and display at the next market",
+      "hash": "2a3233fd03469daa5445cb31579dfc31",
+      "metadata": null,
+      "score": 0.2131740971752221,
+      "created_at": "2025-11-29T02:57:46.534655-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.002785756421369228
+    },
+    {
+      "id": "98b0c381-c117-4ae1-af6f-db9a1165b1d1",
+      "memory": "Interested in contemporary works similar to Alison Bechdel's representation of queer love and relationships",
+      "hash": "1909ae1010873dc04ff23d39b274d7ff",
+      "metadata": null,
+      "score": 0.1496094786983143,
+      "created_at": "2025-11-29T03:06:43.922478-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.0015406987628107636
+    },
+    {
+      "id": "5b29748e-8c85-47cf-8c2c-0d439053aaea",
+      "memory": "Has a vintage camera",
+      "hash": "fbc844b1d175385ce8e06e15f1dec850",
+      "metadata": null,
+      "score": 0.15284727624720007,
+      "created_at": "2025-11-29T03:13:08.465297-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.0014421517280599973
+    },
+    {
+      "id": "b44eef55-74ec-4511-97d4-c46e7cfb3866",
+      "memory": "Got positive feedback on the flavor and texture of the jam",
+      "hash": "3a3f15209d7cf184d4e4558bb98fdb39",
+      "metadata": null,
+      "score": 0.1616824509178053,
+      "created_at": "2025-11-29T02:57:46.422262-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.0009301878645986982
+    },
+    {
+      "id": "7fae8a9c-6595-4c16-a2e8-95aebba5d8cd",
+      "memory": "Started learning some of the lyrics to impress my friends",
+      "hash": "f2f1628f01042128ab2e342e3135a7b5",
+      "metadata": null,
+      "score": 0.3181735929704247,
+      "created_at": "2025-11-29T03:06:02.179840-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.0006397909484484351
+    },
+    {
+      "id": "c3471f10-70c8-4b90-8591-9907f66571eb",
+      "memory": "Started working on the business since mid-January",
+      "hash": "c4fa352fc30fd8484f1e235aa18ba763",
+      "metadata": null,
+      "score": 0.16248621289643111,
+      "created_at": "2025-11-29T03:09:11.914491-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.00012804559282472095
+    },
+    {
+      "id": "03460e45-7ba7-4bf3-8a4f-92d3f9cd18e3",
+      "memory": "Planning a trip to NYC and looking for hotel recommendations",
+      "hash": "67b38db19437b88e1cb6983a48a8c447",
+      "metadata": null,
+      "score": 0.14063147111094312,
+      "created_at": "2025-11-29T03:17:00.810241-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.0001127500441937816
+    },
+    {
+      "id": "f4dbc525-b427-48d7-ad8a-b5e167583611",
+      "memory": "Vintage camera is a rare model from the 1950s",
+      "hash": "0b71dbb5fca7788235bd7d7c7536e921",
+      "metadata": null,
+      "score": 0.15077862900533434,
+      "created_at": "2025-11-29T03:13:08.484399-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_39",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0667,
+    "load_time": 1544.4907
+  }
+}

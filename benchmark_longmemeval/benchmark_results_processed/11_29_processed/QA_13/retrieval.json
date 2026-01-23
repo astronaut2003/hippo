@@ -1,0 +1,242 @@
+{
+  "sample_idx": 13,
+  "question_id": "3b6f954b",
+  "question": "Where did I attend for my study abroad program?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T02:30:25.647191",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "cbc0d87c-2e28-4f54-86c8-f07a8fb0f6de",
+      "memory": "Went to Great Ocean Road with friends during study abroad program at the University of Melbourne",
+      "hash": "325bbbc1c9cb3d0b3db489e06251a8e5",
+      "metadata": null,
+      "score": 0.6540789341364943,
+      "created_at": "2025-11-28T10:38:57.279120-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.9999999989827396
+    },
+    {
+      "id": "8a741f7a-2717-4b2b-ae38-b978bf984cdc",
+      "memory": "Attended a lecture series at the History Museum later in February",
+      "hash": "ba83f691d97962cdf54a9c213e359eed",
+      "metadata": null,
+      "score": 0.3347590719417158,
+      "created_at": "2025-11-28T10:40:45.099122-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.18003338895397597
+    },
+    {
+      "id": "46fd0c34-eefe-47e5-a003-90fc5e3b2df5",
+      "memory": "Interested in attending cultural events related to language and cultural exchange",
+      "hash": "163ba1a24110865f5d90042d5679dec7",
+      "metadata": null,
+      "score": 0.36891133482475275,
+      "created_at": "2025-11-28T10:44:48.194964-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.05322286853131964
+    },
+    {
+      "id": "6252aec4-0be3-451d-a987-a07bf5da41ce",
+      "memory": "Recently went to Kyoto with some friends from work about 2 months ago and had an amazing time trying all the local cuisine",
+      "hash": "3a8fc65ecd654c905992cd673bed0b5d",
+      "metadata": null,
+      "score": 0.2554593485038237,
+      "created_at": "2025-11-28T10:47:42.858904-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.007627007522962977
+    },
+    {
+      "id": "724ea362-c41c-4a41-b623-63e456b63d6b",
+      "memory": "Fell in love with kaiseki, the multi-course meal in Kyoto",
+      "hash": "42466ef18f146880f72ca34419d9af06",
+      "metadata": null,
+      "score": 0.21145617393952565,
+      "created_at": "2025-11-28T10:47:42.874592-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.007458592082989132
+    },
+    {
+      "id": "da5ca8d5-138f-42de-b256-ff46bd8cf0a4",
+      "memory": "Recently had an amazing experience at a kaiseki restaurant in Kyoto",
+      "hash": "c7237de3111a772a262911eb8ef55190",
+      "metadata": null,
+      "score": 0.2003584576997706,
+      "created_at": "2025-11-28T10:47:43.029089-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.0054393530463441985
+    },
+    {
+      "id": "57a8075d-77d9-47c7-adf1-5a86fc65e51d",
+      "memory": "Got back from an online yoga class",
+      "hash": "6a4fbfa721c9923c13e3860dafdb849a",
+      "metadata": null,
+      "score": 0.2359761292324735,
+      "created_at": "2025-11-28T10:37:37.340896-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.0022549818472074007
+    },
+    {
+      "id": "99320c54-3dc9-4cbb-a6bc-0c50ead0920f",
+      "memory": "Looking for new language learning resources, specifically podcasts in French to improve listening skills",
+      "hash": "592c4add33399de4e04792c459a7f448",
+      "metadata": null,
+      "score": 0.18428658006419196,
+      "created_at": "2025-11-28T10:44:48.104368-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.0011600874603728316
+    },
+    {
+      "id": "317b8e1b-d416-4565-97ee-36be446a94d3",
+      "memory": "Looking for websites or resources that focus specifically on connecting language learners with native French speakers in local area",
+      "hash": "a691473426d42307d794300c33f84b2e",
+      "metadata": null,
+      "score": 0.20692182338936904,
+      "created_at": "2025-11-28T10:44:48.243474-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.0011238044105167154
+    },
+    {
+      "id": "ac700c69-9374-4d8a-8b91-738eca7ff1ea",
+      "memory": "Interested in finding language exchange partners who are native French speakers",
+      "hash": "7a68f9bf47708e1e264f61424203f165",
+      "metadata": null,
+      "score": 0.20538234094631558,
+      "created_at": "2025-11-28T10:44:48.211019-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.00090688221939833
+    },
+    {
+      "id": "c1aa353b-80d0-4fb8-a95e-368c8d5ea705",
+      "memory": "Went on a 4-day road trip to the mountains with family",
+      "hash": "0b637bd8211dcfa40d83eecebbaaafb0",
+      "metadata": null,
+      "score": 0.19409779109325104,
+      "created_at": "2025-11-28T10:32:25.722391-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.0008802035062688327
+    },
+    {
+      "id": "5b296c9f-efbe-4d3d-988e-e670ead123c2",
+      "memory": "Drove around 200 miles each way",
+      "hash": "d78cef4bc7d6bf2ac2da72dd245bd6c8",
+      "metadata": null,
+      "score": 0.16253483388891726,
+      "created_at": "2025-11-28T10:32:25.737599-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.0008797184387573873
+    },
+    {
+      "id": "8db0a403-1c3c-4dac-b4a6-93bd521a814e",
+      "memory": "Had a movie marathon on June 4th",
+      "hash": "89158f2b9f6030259803e49ab42f79d7",
+      "metadata": null,
+      "score": 0.23212445700041892,
+      "created_at": "2025-11-28T10:40:24.244242-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.0007904660166514327
+    },
+    {
+      "id": "aa25c761-11d4-47d4-86d9-480f4d9802bc",
+      "memory": "Has been to the Great Ocean Road before",
+      "hash": "980897e3c4e2c7250a95b1a5cb7fc575",
+      "metadata": null,
+      "score": 0.19619762346790923,
+      "created_at": "2025-11-28T10:38:57.263317-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.0007475860486396589
+    },
+    {
+      "id": "01a41fb6-39d0-44bc-b86e-50c2ec46922e",
+      "memory": "Has been taking Japanese lessons and is getting better at navigating the city",
+      "hash": "0ab405a6631272fb6a89c41b3ca98e88",
+      "metadata": null,
+      "score": 0.20735204205980154,
+      "created_at": "2025-11-28T10:47:42.938225-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.0007322579152779841
+    },
+    {
+      "id": "f8ff1411-2cb8-43d9-8b7c-af7ac81449a5",
+      "memory": "Planning a trip to the Great Ocean Road soon",
+      "hash": "bee0e3b4562ed4cc4cd9d786f687400b",
+      "metadata": null,
+      "score": 0.1950860087091103,
+      "created_at": "2025-11-28T10:38:57.246596-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.000639998074601068
+    },
+    {
+      "id": "577920ce-2b1f-423f-9537-13598f040608",
+      "memory": "Just got back from a music festival in Brooklyn with a group of friends",
+      "hash": "f6930fed0765b6297ac4bd7653f4ff24",
+      "metadata": null,
+      "score": 0.18835721469625308,
+      "created_at": "2025-11-28T10:35:28.275024-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.0006367966290255283
+    },
+    {
+      "id": "6b07be0e-885f-4f43-85c9-74cb76a1313d",
+      "memory": "Has been using Google Calendar to keep track of classes and part-time job",
+      "hash": "827060cbd0646ba4e4faba055cf33d19",
+      "metadata": null,
+      "score": 0.20065259130707824,
+      "created_at": "2025-11-28T10:38:57.204253-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.0006251550087508386
+    },
+    {
+      "id": "b33becdc-eae6-4fef-ab4d-4ca04a9acb57",
+      "memory": "Looking for a language exchange partner who is a native French speaker and lives in local area",
+      "hash": "c2fb8ade03b5ee263046ff06d387f29e",
+      "metadata": null,
+      "score": 0.20222079189813413,
+      "created_at": "2025-11-28T10:44:48.256009-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.00043559062527797406
+    },
+    {
+      "id": "6edcdd90-ba9f-47fb-9a72-b880c3761e27",
+      "memory": "Wants to create a certification program for surf schools and tour operators that meet sustainability standards",
+      "hash": "f00a314a10f43bc0484622c6fab48a4e",
+      "metadata": null,
+      "score": 0.19158842390860548,
+      "created_at": "2025-11-28T10:32:57.517586-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_13",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2492,
+    "load_time": 1131.4871
+  }
+}

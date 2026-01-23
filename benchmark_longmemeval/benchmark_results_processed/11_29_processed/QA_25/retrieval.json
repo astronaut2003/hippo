@@ -1,0 +1,242 @@
+{
+  "sample_idx": 25,
+  "question_id": "95bcc1c8",
+  "question": "How many amateur comedians did I watch perform at the open mic night?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T08:33:29.482814",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "58df2d05-a010-4bae-88e9-4af4ee140d00",
+      "memory": "Went to an open mic night and saw 10 amateur comedians perform",
+      "hash": "953ed7c1cd1f5f4ed6be5901f0f3be41",
+      "metadata": null,
+      "score": 0.8666305693902232,
+      "created_at": "2025-11-28T16:38:34.824721-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.9999999993329861
+    },
+    {
+      "id": "8ff013f8-6a26-44f4-b27d-23e53982d769",
+      "memory": "Had a great time at the open mic night a few weeks ago",
+      "hash": "7433f13640690146395a698d9a91fa5b",
+      "metadata": null,
+      "score": 0.4883307522547802,
+      "created_at": "2025-11-28T16:38:35.126181-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.5468775435941191
+    },
+    {
+      "id": "0c5e4379-4ca8-4f4a-9a4e-403cc5f24d20",
+      "memory": "Found the open mic night inspiring",
+      "hash": "d307736683dfaab962a07293bebd5554",
+      "metadata": null,
+      "score": 0.39424638136138584,
+      "created_at": "2025-11-28T16:38:34.839362-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.5257219993359228
+    },
+    {
+      "id": "2f27a1a7-f577-4bdd-9266-91b06aafc034",
+      "memory": "Trying to come up with new comedy material",
+      "hash": "afa0a095d49bae037ab8478a97e33368",
+      "metadata": null,
+      "score": 0.3753158215127793,
+      "created_at": "2025-11-28T16:38:34.788158-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.14199100544466584
+    },
+    {
+      "id": "bca5e393-8c67-4c9a-aeb8-bdb01e066297",
+      "memory": "Taking a stand-up comedy class",
+      "hash": "4c79499d882522756133c63e1aedd82f",
+      "metadata": null,
+      "score": 0.4448702611748075,
+      "created_at": "2025-11-28T16:38:34.725685-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.1272993809412158
+    },
+    {
+      "id": "de982918-5d1b-4bf4-892d-bc4643fe5372",
+      "memory": "Is in their 30s",
+      "hash": "45f0dd15ae1cf114b80f77d28d842bef",
+      "metadata": null,
+      "score": 0.21633708881926436,
+      "created_at": "2025-11-28T16:47:58.201845-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.004918942061590091
+    },
+    {
+      "id": "11b35e1f-3c43-4d01-ad08-94ed0d4d997a",
+      "memory": "Thinks improv can help generate new comedy writing ideas and material",
+      "hash": "f664a8ef3fd4989f94c8330b2e42662e",
+      "metadata": null,
+      "score": 0.31130568029978134,
+      "created_at": "2025-11-28T16:38:35.035666-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.0025989708231221073
+    },
+    {
+      "id": "2f42fc6c-aae7-44a0-874f-177ff527e843",
+      "memory": "Gets nervous and freezes up during performances sometimes",
+      "hash": "89a14e6bc8b375c387780616cac02211",
+      "metadata": null,
+      "score": 0.22730501888769228,
+      "created_at": "2025-11-28T16:38:35.079564-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.0014600087704016106
+    },
+    {
+      "id": "258d2138-ea8d-4380-98e6-17d8d70adb9e",
+      "memory": "Planning to invite friends over for a TV night",
+      "hash": "c7ac83dff07b09de8aaa6b627dd91ebc",
+      "metadata": null,
+      "score": 0.27912211731101544,
+      "created_at": "2025-11-28T16:53:22.735392-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.0013186642475786594
+    },
+    {
+      "id": "051441f7-1823-4d74-86b8-2e9a93cbdcfd",
+      "memory": "Watched the Duke vs. North Carolina game with their roommate",
+      "hash": "cc0befe984ed9821c842eb08f23de95a",
+      "metadata": null,
+      "score": 0.264595412725808,
+      "created_at": "2025-11-28T16:52:13.732266-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.001189660335659242
+    },
+    {
+      "id": "3815a7f9-c762-4365-9479-26006404744c",
+      "memory": "They were both on the edge of their seats the whole time",
+      "hash": "7f35cecdd01027bf6160b7fb7305c8de",
+      "metadata": null,
+      "score": 0.32547657713350975,
+      "created_at": "2025-11-28T16:52:13.748126-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.0011436692960548344
+    },
+    {
+      "id": "33cc7e62-b8d2-49f1-8346-f3df3e6fa412",
+      "memory": "Recently took an improv class that was helpful",
+      "hash": "0fe1d8773d071dc96abcebfaeb24ef56",
+      "metadata": null,
+      "score": 0.23245466237277174,
+      "created_at": "2025-11-28T16:38:34.904769-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.0010350846423830171
+    },
+    {
+      "id": "1383b0bb-8955-4aa5-9d61-0969f06d1542",
+      "memory": "They were all able to cheer on their favorite team together",
+      "hash": "0ee8e91266b3746c24dfc93c70a385e0",
+      "metadata": null,
+      "score": 0.23614733765952545,
+      "created_at": "2025-11-28T16:52:13.683940-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.0010118028712969684
+    },
+    {
+      "id": "cbd5f192-7a5c-4e66-8efa-1607b6924fcd",
+      "memory": "Found improv class fun and felt more spontaneous and creative",
+      "hash": "f834ad535fadd64f64b5d300d3c68f1f",
+      "metadata": null,
+      "score": 0.262006644368626,
+      "created_at": "2025-11-28T16:38:34.939233-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.0009011190415436222
+    },
+    {
+      "id": "ec0bfeb7-106d-45a2-8813-4fbd05ae4761",
+      "memory": "Trying to figure out how to incorporate personal experiences into jokes",
+      "hash": "a938a01e3bfd937457c7ae63b0c8b9eb",
+      "metadata": null,
+      "score": 0.2977332842439365,
+      "created_at": "2025-11-28T16:38:34.870983-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.0008244673088696094
+    },
+    {
+      "id": "36b1b1af-63be-426a-b793-04c91d4afdc6",
+      "memory": "Thinking of having some fun games and activities to keep guests entertained during commercial breaks",
+      "hash": "c10485416c1d2ed884472359e6910ab4",
+      "metadata": null,
+      "score": 0.2613964312660429,
+      "created_at": "2025-11-28T16:52:13.700512-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.0006259997520705058
+    },
+    {
+      "id": "53d4a8fa-698c-4b6b-9014-6adf549f4a40",
+      "memory": "Especially likes the March Madness Trivia and Commercial Break Challenges",
+      "hash": "e5433af64f908bb92694fc6b3f1186e5",
+      "metadata": null,
+      "score": 0.2543633150071708,
+      "created_at": "2025-11-28T16:52:13.716540-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.0005340176728616905
+    },
+    {
+      "id": "c2fe6795-4724-47eb-baad-ec2278b14f1d",
+      "memory": "Been trying to incorporate more improv into daily life when talking to friends or family",
+      "hash": "4a381979b3966cef020b51c20c90aafb",
+      "metadata": null,
+      "score": 0.24334528242221481,
+      "created_at": "2025-11-28T16:38:34.956847-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.00010114212029185086
+    },
+    {
+      "id": "e2179e66-1973-4c50-8311-4e22df0affb6",
+      "memory": "Has taken 5 flights in the past 2 months, which is a personal record",
+      "hash": "4b103fb04185f819bb42eb66fa0fb634",
+      "metadata": null,
+      "score": 0.28524202043925706,
+      "created_at": "2025-11-28T16:56:41.684837-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 8.536649398217852e-05
+    },
+    {
+      "id": "e7bec7e7-14a7-4b2e-a763-cd532085e588",
+      "memory": "Wants to keep practicing improv in conversations and interactions",
+      "hash": "e83b0af40e9a4801aa5894bfe23ee13a",
+      "metadata": null,
+      "score": 0.22728173073877875,
+      "created_at": "2025-11-28T16:38:34.999780-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_25",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.315,
+    "load_time": 1801.1994
+  }
+}

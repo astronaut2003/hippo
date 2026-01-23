@@ -1,0 +1,242 @@
+{
+  "sample_idx": 29,
+  "question_id": "37d43f65",
+  "question": "How much RAM did I upgrade my laptop to?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T10:19:47.969139",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "d9bd7b76-9413-47b3-a0cc-95971fad6e16",
+      "memory": "Upgraded laptop's RAM to 16GB",
+      "hash": "2c171de005ae1833951086095262f32a",
+      "metadata": null,
+      "score": 0.7722845901244426,
+      "created_at": "2025-11-28T18:41:23.204500-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.9999999993623606
+    },
+    {
+      "id": "c6c7d956-e483-4ca3-8c5c-77a5916350b0",
+      "memory": "Before RAM upgrade, laptop battery life was around 6-7 hours",
+      "hash": "98c36d48ff1c81c89ccfc01f8b630a46",
+      "metadata": null,
+      "score": 0.6185423355377095,
+      "created_at": "2025-11-28T18:41:23.220446-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.6695598021618182
+    },
+    {
+      "id": "8abbf087-f2e0-413e-96a8-5d2b6ac486d1",
+      "memory": "After RAM upgrade, laptop battery life is around 4-5 hours",
+      "hash": "5dc129dd9a3024b1c08704fd15571139",
+      "metadata": null,
+      "score": 0.582198815298436,
+      "created_at": "2025-11-28T18:41:23.234672-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.6646821537665673
+    },
+    {
+      "id": "d2b04235-19d3-4457-9170-94bff323af23",
+      "memory": "Thinking of upgrading desktop computer's graphics card",
+      "hash": "cf4bf23ca174990903c4a1fc068340f8",
+      "metadata": null,
+      "score": 0.3702719386965884,
+      "created_at": "2025-11-28T18:41:23.291507-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.37959991355365574
+    },
+    {
+      "id": "a7172a27-e71f-44bc-9958-ab17d29780db",
+      "memory": "Laptop is a Dell Inspiron 15 5000 series from 2018",
+      "hash": "7f7c4ed46fb153b438926e780064a62f",
+      "metadata": null,
+      "score": 0.4078387263646164,
+      "created_at": "2025-11-28T18:41:23.168238-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.21572816711629153
+    },
+    {
+      "id": "e7b797ba-aff7-43b4-aceb-bce6a639e1b7",
+      "memory": "Uses laptop as primary work laptop",
+      "hash": "4005e91fffc0993c707ebeda0ffc521f",
+      "metadata": null,
+      "score": 0.1920560399443628,
+      "created_at": "2025-11-28T18:41:23.189230-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.20280539756340485
+    },
+    {
+      "id": "3793955b-68f1-4f1f-8ae0-9ed1434335df",
+      "memory": "Recently upgraded desktop monitor to a 24-inch 4K monitor from LG",
+      "hash": "e05a4d7e882fc6638eba89831341bae9",
+      "metadata": null,
+      "score": 0.2120770623070585,
+      "created_at": "2025-11-28T18:41:23.346055-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.09495175812764697
+    },
+    {
+      "id": "c649def0-504f-4e56-8820-879e70e46ad2",
+      "memory": "Has a 1TB Western Digital portable external hard drive",
+      "hash": "e8b0701e50897070d00e790642c8880e",
+      "metadata": null,
+      "score": 0.17013836317378242,
+      "created_at": "2025-11-28T18:41:23.247807-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.037295337744306115
+    },
+    {
+      "id": "0bff80ca-3bd6-4fc7-b5a2-406cf256d008",
+      "memory": "Bought the hard drive from Best Buy for around $50",
+      "hash": "1c226201d12d56264fbb283f0aaa6a89",
+      "metadata": null,
+      "score": 0.24563813608083157,
+      "created_at": "2025-11-28T18:41:23.262597-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.011999460485775836
+    },
+    {
+      "id": "9d32cbe0-93f2-4eba-8c0f-52c50011c2be",
+      "memory": "Researched NVIDIA GeForce RTX 3070 but it's out of budget at around $500",
+      "hash": "378849bad8e3024e92359799b66a2b7b",
+      "metadata": null,
+      "score": 0.23733545984105323,
+      "created_at": "2025-11-28T18:41:23.329723-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.0031092775651492413
+    },
+    {
+      "id": "1294f01e-3728-41c1-8577-7745e33918be",
+      "memory": "Wants the number of words in the article to be at least 2000 words",
+      "hash": "807d0190ba47f6d76804c8c00206c06e",
+      "metadata": null,
+      "score": 0.22142490904754603,
+      "created_at": "2025-11-28T18:34:31.847676-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.002722647404205413
+    },
+    {
+      "id": "b166f87c-c39d-4a9d-a0d1-785c05b58b41",
+      "memory": "Considering a power bank with around 20,000mAh capacity",
+      "hash": "45e5ee5ba94ddd043df4636205c83421",
+      "metadata": null,
+      "score": 0.21302411836851112,
+      "created_at": "2025-11-28T18:33:45.447404-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.0021700666755963276
+    },
+    {
+      "id": "2866a48a-1e77-46df-b2f1-07eaf1f1bf48",
+      "memory": "Looking for more budget-friendly options",
+      "hash": "f9f1344d41dbd1a2766a8bfe021d04f6",
+      "metadata": null,
+      "score": 0.15866941565020656,
+      "created_at": "2025-11-28T18:35:35.343604-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.0013224356889030245
+    },
+    {
+      "id": "fd5cf401-5fff-45e0-998f-fd213c82d8db",
+      "memory": "Wants to know if there are student discounts or deals on Myki cards or public transport fares",
+      "hash": "643c0b340496bf5ee60c80d5ec4ad393",
+      "metadata": null,
+      "score": 0.15218585492467632,
+      "created_at": "2025-11-28T18:30:21.856854-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.0009016302919651052
+    },
+    {
+      "id": "926b25f5-0290-4f4d-96c5-04d70b5d8ff0",
+      "memory": "Went to the mall with friends last Saturday",
+      "hash": "dd1683e242247cff66a8f01625d7df09",
+      "metadata": null,
+      "score": 0.18422030024054364,
+      "created_at": "2025-11-28T18:42:27.658829-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.0007758751531114034
+    },
+    {
+      "id": "24ab58a0-1687-4b74-8db5-d7c56c710eb3",
+      "memory": "Got a Kong toy for Max",
+      "hash": "6c2185184199346a5b113cb07db40e50",
+      "metadata": null,
+      "score": 0.1522212453446528,
+      "created_at": "2025-11-28T18:43:51.576113-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.0005117163894844784
+    },
+    {
+      "id": "8ba7b708-2130-484c-be14-40722870f0b3",
+      "memory": "Adopted Luna about 6 months ago",
+      "hash": "ca46e4c3642c2105d8360ce262f12863",
+      "metadata": null,
+      "score": 0.1520939845838478,
+      "created_at": "2025-11-28T18:43:51.679387-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.000468237219136124
+    },
+    {
+      "id": "a767e370-aad4-42e9-94e3-e1e3d2aa8e7b",
+      "memory": "Having issues with phone's battery life",
+      "hash": "700d0e2b474a63cf576ff26381eff822",
+      "metadata": null,
+      "score": 0.16109692873353587,
+      "created_at": "2025-11-28T18:33:45.323096-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.00034217803014012597
+    },
+    {
+      "id": "6bc858d9-4649-4900-bbdc-6ec4ee621ced",
+      "memory": "New monitor is a huge improvement over old 1080p monitor",
+      "hash": "2620dbd015d1d8121f5b99c2dfc38ca9",
+      "metadata": null,
+      "score": 0.19932333345663314,
+      "created_at": "2025-11-28T18:41:23.363114-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.00023417941959652123
+    },
+    {
+      "id": "58e4da59-1beb-475c-aa2e-5e4bdcc812ab",
+      "memory": "Has already tried adjusting screen brightness and closing unused apps to extend battery life",
+      "hash": "a3c3d8651a90d429bf46a92f0731fc81",
+      "metadata": null,
+      "score": 0.157693875555673,
+      "created_at": "2025-11-28T18:33:45.395786-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_29",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1964,
+    "load_time": 1534.4659
+  }
+}

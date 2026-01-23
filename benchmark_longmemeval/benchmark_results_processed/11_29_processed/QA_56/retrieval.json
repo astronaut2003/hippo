@@ -1,0 +1,242 @@
+{
+  "sample_idx": 56,
+  "question_id": "29f2956b",
+  "question": "How much time do I dedicate to practicing guitar every day?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T00:54:41.442413",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "89f4d3c8-e7db-4196-ad68-11ac40090128",
+      "memory": "Has been practicing guitar for 30 minutes daily and it's helping progress nicely",
+      "hash": "7a36296892025bb9b609decd727dba20",
+      "metadata": null,
+      "score": 0.6867555549374557,
+      "created_at": "2025-11-30T09:01:14.754066-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.9999999992444814
+    },
+    {
+      "id": "70a2b06f-82df-4bc5-a2a2-2ddd0c79f675",
+      "memory": "Looking to improve guitar playing and wants online resources for music theory and fingerpicking techniques",
+      "hash": "30098dccad29b736dcbbe96458b8ad33",
+      "metadata": null,
+      "score": 0.3790053323267172,
+      "created_at": "2025-11-30T09:01:14.738004-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.2288184221920944
+    },
+    {
+      "id": "77fadfeb-1923-4702-adcc-f749cb81ed5f",
+      "memory": "Thinking of upgrading guitar setup and wants online resources for learning about guitar amplifiers and effects pedals",
+      "hash": "a68e68fa379e5fea22675eab3c969dad",
+      "metadata": null,
+      "score": 0.28498225357710627,
+      "created_at": "2025-11-30T09:01:14.857449-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.10515832803988107
+    },
+    {
+      "id": "d982562c-a98c-424d-889c-5e1b46158a54",
+      "memory": "Excited to dive deeper into the world of guitar gear and effects pedals",
+      "hash": "d881655db9ba71c44495f6fa0de53d36",
+      "metadata": null,
+      "score": 0.3564125267534483,
+      "created_at": "2025-11-30T09:01:14.887078-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.03560262781269933
+    },
+    {
+      "id": "bbb9abca-8c6f-4d6d-b464-58090947bbae",
+      "memory": "Has been reading about the history of the electric guitar and is fascinated by the evolution of guitar gear",
+      "hash": "0e9678dfd1058ab2ec0380497ef5c955",
+      "metadata": null,
+      "score": 0.3411125285475428,
+      "created_at": "2025-11-30T09:01:14.872275-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.02466954986345332
+    },
+    {
+      "id": "0cc47eb3-7c51-4536-ad1d-4cbd349b451a",
+      "memory": "Thinking about trying to get a head start on morning by waking up 15 minutes earlier each day",
+      "hash": "2cd8eb4b1bc40ca6eaf4849b6b40f120",
+      "metadata": null,
+      "score": 0.22648313096802403,
+      "created_at": "2025-11-30T09:04:33.133354-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.019761881180010085
+    },
+    {
+      "id": "31e32392-d8c0-4acb-ad24-00aa265cfcd4",
+      "memory": "Uses Libro.fm for daily commute which is roughly an hour each way",
+      "hash": "0206c0b1d079619bf4871ea829eac7c1",
+      "metadata": null,
+      "score": 0.22453018921219733,
+      "created_at": "2025-11-30T09:00:27.598474-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.01734115467027417
+    },
+    {
+      "id": "9ed8d26f-5619-4928-b199-62ac9b1a79fb",
+      "memory": "Interested in self-help and personal development audiobooks focusing on productivity and time management",
+      "hash": "d0ff3e4aa09ef0defc14f40e2f0773ce",
+      "metadata": null,
+      "score": 0.28638858738714573,
+      "created_at": "2025-11-30T09:00:27.646473-08:00",
+      "updated_at": "2025-11-30T09:03:40.622347-08:00",
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.003262580500858767
+    },
+    {
+      "id": "41ba2300-ff81-4c94-b106-1192a9c09540",
+      "memory": "Wants productivity and time management audiobooks geared towards busy professionals or entrepreneurs",
+      "hash": "f3f3c6c6db150882dd91dd3ba3c2391f",
+      "metadata": null,
+      "score": 0.2606857711713165,
+      "created_at": "2025-11-30T09:03:40.654108-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.002421230872791193
+    },
+    {
+      "id": "bb4793c4-94ff-4fa1-8816-b0081113b198",
+      "memory": "Interested in learning more about jazz music, especially saxophone",
+      "hash": "65176afd5ba8ea17a847fae8bd6b496f",
+      "metadata": null,
+      "score": 0.2500728820479393,
+      "created_at": "2025-11-30T09:01:14.768562-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.0010753020338512011
+    },
+    {
+      "id": "2c24cf36-352f-4e3d-a1f3-a2aac0a0e954",
+      "memory": "Has been trying to get back into yoga lately",
+      "hash": "9f7736b62c30aca90260aa0d39546dc7",
+      "metadata": null,
+      "score": 0.23420099865308658,
+      "created_at": "2025-11-30T09:10:53.832977-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.0010022414427010324
+    },
+    {
+      "id": "73e7b9e8-bdd1-4a70-9647-bf268202140c",
+      "memory": "Interested in productivity and time management audiobooks focusing on habits and routines",
+      "hash": "2f3e7f88a3777d8d2cc2990c07ba9988",
+      "metadata": null,
+      "score": 0.3505277578511299,
+      "created_at": "2025-11-30T09:03:40.675261-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.0009739971116055037
+    },
+    {
+      "id": "146815a0-a376-47ff-8232-a4e9bea4541a",
+      "memory": "Wants to explore more audiobooks on habits and routines with a focus on morning routines",
+      "hash": "ffc6fc8875af431ccf469720220df10f",
+      "metadata": null,
+      "score": 0.3115737427964701,
+      "created_at": "2025-11-30T09:03:40.692422-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.0009139058561624656
+    },
+    {
+      "id": "87061424-6817-4f4e-bede-09c8dbbf9fa8",
+      "memory": "Signed up for a contemporary dance class on February 24th",
+      "hash": "d66ac60e9867497c8b15872db5e22d3f",
+      "metadata": null,
+      "score": 0.22487075311248425,
+      "created_at": "2025-11-30T09:16:22.617964-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.0004314465678572094
+    },
+    {
+      "id": "33851baa-7e89-4193-bfe5-e74e3ddb8027",
+      "memory": "Thinking of setting up a dance club at work",
+      "hash": "4804ed181b22f9021ee964ada86d950e",
+      "metadata": null,
+      "score": 0.2243764472573106,
+      "created_at": "2025-11-30T09:16:22.587912-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.00041285718667698895
+    },
+    {
+      "id": "0fcc0a13-dcd8-4d8e-a488-ac2ebe3ec0df",
+      "memory": "Is a newbie to adventure activities",
+      "hash": "5acd35e64247ec70ae2a14da8354f6d2",
+      "metadata": null,
+      "score": 0.24004482192652885,
+      "created_at": "2025-11-30T08:55:49.076424-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.0003653750076158832
+    },
+    {
+      "id": "ce858ec7-e9b4-429e-97d0-7bd3fabcc68b",
+      "memory": "Was thinking of planning the trip on a Wednesday",
+      "hash": "c83173c0c3e8d6b5ed94efda39dd6767",
+      "metadata": null,
+      "score": 0.23947357332851596,
+      "created_at": "2025-11-30T09:18:46.951373-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.00017623886188689614
+    },
+    {
+      "id": "5bf1e003-5869-4621-a1f4-e6ef39a4ea5c",
+      "memory": "Enjoys listening to true crime stories during daily commute",
+      "hash": "b1d3c0d1e384c6c1a234fbb1471c8f1c",
+      "metadata": null,
+      "score": 0.2423307700563,
+      "created_at": "2025-11-30T08:58:32.969504-08:00",
+      "updated_at": "2025-11-30T09:00:26.717885-08:00",
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.00011492272473818453
+    },
+    {
+      "id": "8df6d04a-c161-44c9-aecb-b02cf411405c",
+      "memory": "Wants to know how long the Ziptrek Ecotours zip line tour usually takes",
+      "hash": "81aa64abd992f37682da36589f4e98f4",
+      "metadata": null,
+      "score": 0.2743997506146619,
+      "created_at": "2025-11-30T08:55:49.136955-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 3.11264056971133e-05
+    },
+    {
+      "id": "901d1f86-522f-49bd-9768-35f0a38f89c3",
+      "memory": "Wonders if it's better to listen to non-fiction audiobooks at a faster speed",
+      "hash": "e6fdc1764e1b8f7b8c6ae67b24ebe866",
+      "metadata": null,
+      "score": 0.2296171670093885,
+      "created_at": "2025-11-30T09:00:27.677796-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_56",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3581,
+    "load_time": 1445.6661
+  }
+}

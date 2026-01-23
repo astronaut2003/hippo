@@ -1,0 +1,242 @@
+{
+  "sample_idx": 195,
+  "question_id": "92a0aa75",
+  "question": "How long have I been working in my current role?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T03:28:58.685411",
+  "load_result": {
+    "total_sessions": 42,
+    "added_sessions": 42,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "8df75bfd-ad28-4d5d-9b38-77d383ce52de",
+      "memory": "Has 3 years and 9 months of experience in the company",
+      "hash": "67d62c81beb32bd13eb97dd9de403d54",
+      "metadata": null,
+      "score": 0.571699592123981,
+      "created_at": "2025-12-08T11:46:33.586947-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.9999999980938717
+    },
+    {
+      "id": "fc90126b-2092-47e5-851a-c4c5b8d4bcc0",
+      "memory": "Has been working closely with the sales team on sales strategies and aligning efforts",
+      "hash": "6811bc885694802a772cbdaf6760b880",
+      "metadata": null,
+      "score": 0.13742028815189303,
+      "created_at": "2025-12-08T11:46:33.682821-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.010967304932778534
+    },
+    {
+      "id": "6f44c104-1395-4540-829d-df434578527b",
+      "memory": "Has been listening to podcasts for about three months",
+      "hash": "d72cc97a117d704504cc3a8220fbb072",
+      "metadata": null,
+      "score": 0.25802401415449927,
+      "created_at": "2025-12-08T11:47:36.503895-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.01044468009551575
+    },
+    {
+      "id": "f97b2e6c-21d4-4370-9158-b05441cb5952",
+      "memory": "Is a Senior Marketing Specialist in the company",
+      "hash": "0eb7286b4820b8f8b999009ff11a0c12",
+      "metadata": null,
+      "score": 0.23319345427260357,
+      "created_at": "2025-12-08T11:46:33.502216-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.005468746297117772
+    },
+    {
+      "id": "33441fe4-6a5f-4c88-a60b-6ed508ae7e1d",
+      "memory": "Excited to start search for an accountability partner or mentor",
+      "hash": "a1875235fe42a64a012e607f3112585e",
+      "metadata": null,
+      "score": 0.23202050716521835,
+      "created_at": "2025-12-08T11:44:46.161676-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.004047206739762999
+    },
+    {
+      "id": "38cbc315-b7e0-40cc-9bd6-05a54614c173",
+      "memory": "Recently organized craft room, which took three weeks",
+      "hash": "36f0f6efee1b374b3a7d32d5568d5d33",
+      "metadata": null,
+      "score": 0.21708920758294956,
+      "created_at": "2025-12-08T11:40:18.572408-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.003887238093922565
+    },
+    {
+      "id": "4b1a89e1-8aba-4fe9-85c9-5b6b78d5d977",
+      "memory": "Will start with a shorter hike and see how it goes",
+      "hash": "ca6d03ac2d5681acdead22cfdddd9963",
+      "metadata": null,
+      "score": 0.14992680334161412,
+      "created_at": "2025-12-08T11:29:53.280965-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.002809631125124727
+    },
+    {
+      "id": "09a87f9f-5080-4cc2-9098-c95ced0b0c1a",
+      "memory": "Wants suggestions for finding the right accountability partner or mentor",
+      "hash": "6ebf6f2743b65b3e54a7acfb09789666",
+      "metadata": null,
+      "score": 0.13236473054982065,
+      "created_at": "2025-12-08T11:44:46.129825-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.0027838180027277477
+    },
+    {
+      "id": "aafc9251-bf1d-41ca-84b0-2b21a4c2a5dc",
+      "memory": "Completed 'The Silent Patient' on March 4th",
+      "hash": "ca517dedc344a217a6c869ce6be8f6f7",
+      "metadata": null,
+      "score": 0.1796344753860154,
+      "created_at": "2025-12-08T11:34:41.788988-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.0027623676615809623
+    },
+    {
+      "id": "5565c761-4c96-441b-b425-50eabdc09a14",
+      "memory": "Plans to try reaching out to people in network and joining learning communities",
+      "hash": "0c369a19c10d4d8b2fb38c0636953390",
+      "metadata": null,
+      "score": 0.1480572335574591,
+      "created_at": "2025-12-08T11:44:46.146250-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.002156304632908224
+    },
+    {
+      "id": "ea393060-df26-4bbc-a585-a0bf3194d0b8",
+      "memory": "Loving spicy food lately",
+      "hash": "bcd8665d4e5ec02de444421c6c277b8e",
+      "metadata": null,
+      "score": 0.15488166057706212,
+      "created_at": "2025-12-08T11:48:12.315580-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.0020788652657172863
+    },
+    {
+      "id": "0e7d0d3d-2d8c-446d-8504-134655b5c368",
+      "memory": "Has been listening to a lot of music that helps with focus",
+      "hash": "811947dabe0851b4a89fa07f66a218bf",
+      "metadata": null,
+      "score": 0.17469928669379015,
+      "created_at": "2025-12-08T11:38:38.265831-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.0018939924102403293
+    },
+    {
+      "id": "68dbc68b-4292-4d72-86f1-95d75708dc37",
+      "memory": "Feeling a bit overwhelmed with daily commute and podcast routine",
+      "hash": "2d782628dfd90dc047f6a67a9f7c19ef",
+      "metadata": null,
+      "score": 0.1542953949603806,
+      "created_at": "2025-12-08T11:47:36.601097-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.0017789240547664712
+    },
+    {
+      "id": "1248698b-ac84-4872-966e-60cd8f097e44",
+      "memory": "Has built a strong understanding of the company's target audience",
+      "hash": "52392eda866bce046c5450821e2cbbba",
+      "metadata": null,
+      "score": 0.17356200600186458,
+      "created_at": "2025-12-08T11:46:33.606285-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.0015544226029335882
+    },
+    {
+      "id": "fae82025-7912-4da2-b3cd-9f68a46d6f61",
+      "memory": "Looking for methods for staying motivated and engaged when pursuing a lifelong learning plan",
+      "hash": "088215c10a5aba5b24ffa6afecaa4a71",
+      "metadata": null,
+      "score": 0.2406402944456114,
+      "created_at": "2025-12-08T11:44:46.073044-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.0014435352461578323
+    },
+    {
+      "id": "97047239-4055-4d4b-84ab-96aa59538e49",
+      "memory": "Been having Korean BBQ flavored potato chips with lunch almost every day for the past week",
+      "hash": "ec7ff903338586eac0b0e946412d1a43",
+      "metadata": null,
+      "score": 0.14578411353692503,
+      "created_at": "2025-12-08T11:48:12.339003-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.0013137425039645705
+    },
+    {
+      "id": "d95286f3-27b6-401a-9296-e80ca1eb353e",
+      "memory": "Considering doing a stir-fry with chicken and mixed veggies this week",
+      "hash": "7ceb854708df08f1081ab3676c471799",
+      "metadata": null,
+      "score": 0.1434937664202399,
+      "created_at": "2025-12-08T11:33:43.624188-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.0007358557708659999
+    },
+    {
+      "id": "c3886665-6001-4d81-8b1d-c8c38d8c3295",
+      "memory": "Noticed last year that days started getting shorter around late August",
+      "hash": "18718175bed02c4f322e0227999ff214",
+      "metadata": null,
+      "score": 0.1856380533872325,
+      "created_at": "2025-12-08T11:29:53.241692-08:00",
+      "updated_at": "2025-12-08T11:35:37.613669-08:00",
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.0006416924088826531
+    },
+    {
+      "id": "b8e03173-b595-47c7-86f6-fccf44bbe649",
+      "memory": "Wants to know if the bus ride would give enough time to listen to audiobook or get work done during the commute",
+      "hash": "482cefbe13072c66276e3c29bfff7d76",
+      "metadata": null,
+      "score": 0.17786119290192504,
+      "created_at": "2025-12-08T11:36:34.614310-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.0005907932942970602
+    },
+    {
+      "id": "1cb47123-8ca9-415a-8830-e4c6b561b837",
+      "memory": "Interested in The Happiness Lab, especially the part about actionable tips and strategies",
+      "hash": "6ba5095d6171a6ba77ede64c58433c93",
+      "metadata": null,
+      "score": 0.1597029085867158,
+      "created_at": "2025-12-08T11:47:36.557934-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_195",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4478,
+    "load_time": 1329.4573
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 160,
+  "question_id": "1c0ddc50",
+  "question": "Can you suggest some activities I can do during my commute to work?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T18:25:07.451971",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "f4d1b30a-31f4-49b7-ae37-6f911d0deb9c",
+      "memory": "Will likely be commuting on weekdays during rush hour",
+      "hash": "30da8c42f9d051996f96d6716158bcc9",
+      "metadata": null,
+      "score": 0.45296937152998323,
+      "created_at": "2025-12-07T02:31:15.594842-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.9999999989325843
+    },
+    {
+      "id": "55fbae45-d55f-4dcb-84e8-3f85ec7ce8b3",
+      "memory": "Wants suggestions for specific activities to step out of comfort zone",
+      "hash": "52e05c6264be7bcec7389ab1658cf668",
+      "metadata": null,
+      "score": 0.5439304500037045,
+      "created_at": "2025-12-07T02:43:54.473866-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.9315159493625984
+    },
+    {
+      "id": "bdaf2a03-2e77-4110-a59e-dc95e5071874",
+      "memory": "Has been thinking about morning routine and noticed wasting time checking email and social media during commute",
+      "hash": "c6b01b0800f312464dfe98cf95495328",
+      "metadata": null,
+      "score": 0.45898726257250344,
+      "created_at": "2025-12-07T02:31:15.638869-08:00",
+      "updated_at": "2025-12-07T02:47:57.730939-08:00",
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.866432977882028
+    },
+    {
+      "id": "a0f74f4b-40bc-4b37-8a80-bd3efb4e77e9",
+      "memory": "Has a commute of about 40 minutes each way",
+      "hash": "d7ca4afbbbcf82240262591d253cd948",
+      "metadata": null,
+      "score": 0.483413443959789,
+      "created_at": "2025-12-07T02:42:36.060984-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.7734082928709136
+    },
+    {
+      "id": "6c6f3c63-77d0-4611-b99c-b7a4f1163b30",
+      "memory": "Wants specific self-care activity suggestions for lunch breaks like meditation or deep breathing",
+      "hash": "2c321dadcbf284bcb4257260c14eac76",
+      "metadata": null,
+      "score": 0.4566862928879751,
+      "created_at": "2025-12-07T02:30:14.194743-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.5487505965472379
+    },
+    {
+      "id": "1f6a353e-7aa5-44ec-b5a8-80210e7574ec",
+      "memory": "Thinking of preparing sandwiches and energy balls for the road trip",
+      "hash": "cefaf54f603b962f7897bf7527578960",
+      "metadata": null,
+      "score": 0.3043530720193217,
+      "created_at": "2025-12-07T02:25:29.446584-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.5424472441168735
+    },
+    {
+      "id": "1c7fc7da-8691-4be0-a013-40afb0c52f1b",
+      "memory": "Thinking of buying a new bike to commute to work",
+      "hash": "0e57de6f84c4cb5a9b26efadf845a82e",
+      "metadata": null,
+      "score": 0.5035131742292018,
+      "created_at": "2025-12-07T02:31:15.466764-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.4171548173716157
+    },
+    {
+      "id": "1e152847-8005-424a-9f41-d55832c3b2ed",
+      "memory": "Considering getting a bike lock or a bike rack at the office",
+      "hash": "fccaac6629c46f8c3608c2ef53e66771",
+      "metadata": null,
+      "score": 0.33902417723439293,
+      "created_at": "2025-12-07T02:31:15.695048-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.37031068130123046
+    },
+    {
+      "id": "b346b5ca-4e5c-4248-8aa7-056308921925",
+      "memory": "Wants to leave around the same time to get to the office by 8:30 am",
+      "hash": "bc07e70e1cffe03a373b5f5a07907188",
+      "metadata": null,
+      "score": 0.3699485238034481,
+      "created_at": "2025-12-07T02:31:15.623079-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.3411195661774617
+    },
+    {
+      "id": "8d352e4b-21e7-423b-aa58-9cb15792777a",
+      "memory": "Noticed that the bus is always crowded on Mondays, which is the start of the workweek",
+      "hash": "ca02b31db0e196fe9db9844f090b40fe",
+      "metadata": null,
+      "score": 0.31224665219807046,
+      "created_at": "2025-12-07T02:31:15.497241-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.24837321874782575
+    },
+    {
+      "id": "b871e247-e259-414f-ad38-a705cd2b307f",
+      "memory": "Wants tips for making self-care a habit when feeling overwhelmed with work and deadlines",
+      "hash": "56d7e5d6fb4e544198c1eec33defd369",
+      "metadata": null,
+      "score": 0.36248971017744336,
+      "created_at": "2025-12-07T02:30:14.275205-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.21824068789633924
+    },
+    {
+      "id": "79a0c8be-8bcd-49f9-9785-114c1a9d1dba",
+      "memory": "Has been taking the 7:45 am bus",
+      "hash": "44dea566d13c95ea00db62ea41f1ffd7",
+      "metadata": null,
+      "score": 0.3180402093552994,
+      "created_at": "2025-12-07T02:31:15.609362-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.1419134329159657
+    },
+    {
+      "id": "8a7d5977-bcf9-4d10-b4df-a11b891d916e",
+      "memory": "Already started listening to podcasts during bus ride",
+      "hash": "126251f34adaa9adc70a100024ccaf3b",
+      "metadata": null,
+      "score": 0.47651353572283095,
+      "created_at": "2025-12-07T02:31:15.654206-08:00",
+      "updated_at": "2025-12-07T02:42:35.956188-08:00",
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.12702078173369377
+    },
+    {
+      "id": "793c575b-e695-4a94-b999-dba74c32f479",
+      "memory": "Hoping to avoid the chaos of crowded buses by taking a bike",
+      "hash": "72774c8d9265546d392d02a5fe451ade",
+      "metadata": null,
+      "score": 0.3834599692187317,
+      "created_at": "2025-12-07T02:31:15.513860-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.04376422651697214
+    },
+    {
+      "id": "94a1ecb7-e392-46ab-a7bb-0b822d2d946e",
+      "memory": "Listens to movie soundtracks to help focus while working on projects",
+      "hash": "fce7a799ff42d510f660a44fdc137116",
+      "metadata": null,
+      "score": 0.3057506061630444,
+      "created_at": "2025-12-07T02:26:13.080874-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.010570567600152559
+    },
+    {
+      "id": "e4f02e7a-7c53-4e81-a538-4c71f0cd3562",
+      "memory": "Has been spending more time indoors, catching up on reading list",
+      "hash": "2c6fc1f4a88fc45242f940b6f84aac75",
+      "metadata": null,
+      "score": 0.31590275591395167,
+      "created_at": "2025-12-07T02:47:57.881452-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.0017358370446629568
+    },
+    {
+      "id": "0b98b9fa-9a78-444d-a7b0-0dfd02f7401b",
+      "memory": "Volunteered at the Shurin Lab on Mondays and Tuesdays, biking to ponds at 8am to collect measurements and tend to the ponds",
+      "hash": "c2ca0d61bae445bbc1f0f77914bfcc58",
+      "metadata": null,
+      "score": 0.33018184564829545,
+      "created_at": "2025-12-07T02:31:57.570369-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.001337812012723468
+    },
+    {
+      "id": "f2e6cc22-dd36-449a-a907-7760b49768e8",
+      "memory": "Prefers to avoid busy roads and steep hills",
+      "hash": "208bfb8c1d42031c2a81fc5378cdcce9",
+      "metadata": null,
+      "score": 0.3348427526912287,
+      "created_at": "2025-12-07T02:31:15.562695-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.000915050386727382
+    },
+    {
+      "id": "ba7c0aae-5820-4241-9aad-beb250d758a7",
+      "memory": "Planning a road trip with friends to the beach for a week",
+      "hash": "00cd754150d58b162b6288ad69dcc99f",
+      "metadata": null,
+      "score": 0.3175647890239708,
+      "created_at": "2025-12-07T02:25:29.275828-08:00",
+      "updated_at": "2025-12-07T02:50:53.353143-08:00",
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.0005179415249381377
+    },
+    {
+      "id": "a5d6ac17-081d-4c02-ab8c-0798aa9b766c",
+      "memory": "Planning to add fun facts and anecdotes to make it more engaging",
+      "hash": "87838de2aaea1888189938d221540df3",
+      "metadata": null,
+      "score": 0.3643527113787502,
+      "created_at": "2025-12-07T02:27:22.460287-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_160",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 9.5557,
+    "load_time": 1618.9175
+  }
+}

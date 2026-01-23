@@ -1,0 +1,77 @@
+{
+  "sample_idx": 77,
+  "question_id": "aae3761f",
+  "question": "How many hours in total did I spend driving to my three road trip destinations combined?",
+  "question_type": "multi-session",
+  "gold_answer": "15 hours for getting to the three destinations (or 30 hours for the round trip)",
+  "question_date": "2023/05/30 (Tue) 19:37",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-01T08:22:24.840332",
+  "predicted_answer": "You spent a total of 10 hours driving to your three road trip destinations: 4 hours to Outer Banks, 6 hours to Washington D.C., and no specific driving time mentioned for Tybee Island.",
+  "prompt_length": 2859,
+  "gen_token_usage": {
+    "prompt_tokens": 799,
+    "answer_tokens": 42,
+    "total_tokens": 841,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.61,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 15,
+      "response_length": 33,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3181818181818182,
+      "rouge1_f": 0.28571428571428564,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.2448979591836735,
+      "semantic_similarity": 0.5590728521347046,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.21219851576994433,
+      "avg_semantic": 0.5590728521347046,
+      "overall_average": 0.2815733850002289
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3181818181818182,
+    "rouge1_f": 0.28571428571428564,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.2448979591836735,
+    "semantic_similarity": 0.5590728521347046,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.21219851576994433,
+    "avg_semantic": 0.5590728521347046,
+    "overall_average": 0.2815733850002289
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1547.8377,
+    "retrieval_time": 1.2558,
+    "generation_time": 2.2768,
+    "evaluation_time": 2.4547,
+    "cleanup_time": 1.6474,
+    "total_time": 1555.4766
+  }
+}

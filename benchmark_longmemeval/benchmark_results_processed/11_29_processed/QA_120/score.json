@@ -1,0 +1,77 @@
+{
+  "sample_idx": 120,
+  "question_id": "1a8a66a6",
+  "question": "How many magazine subscriptions do I currently have?",
+  "question_type": "multi-session",
+  "gold_answer": 2,
+  "question_date": "2023/04/01 (Sat) 23:49",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T01:55:48.583801",
+  "predicted_answer": "You currently have one magazine subscription, which is to The New Yorker. You canceled your Forbes magazine subscription in early March.",
+  "prompt_length": 3605,
+  "gen_token_usage": {
+    "prompt_tokens": 904,
+    "answer_tokens": 24,
+    "total_tokens": 928,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.69,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 21,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.11369341611862183,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.11369341611862183,
+      "overall_average": 0.022738683968782425
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.11369341611862183,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.11369341611862183,
+    "overall_average": 0.022738683968782425
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1411.3664,
+    "retrieval_time": 0.5808,
+    "generation_time": 2.5076,
+    "evaluation_time": 2.0924,
+    "cleanup_time": 1.3474,
+    "total_time": 1417.9002
+  }
+}

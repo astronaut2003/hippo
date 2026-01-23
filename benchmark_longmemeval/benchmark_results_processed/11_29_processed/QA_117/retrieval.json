@@ -1,0 +1,242 @@
+{
+  "sample_idx": 117,
+  "question_id": "10d9b85a",
+  "question": "How many days did I spend attending workshops, lectures, and conferences in April?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T00:44:04.707964",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "ca6b7533-4ba6-446f-8ac8-8c33bde3a37d",
+      "memory": "Feeling overwhelmed with work lately",
+      "hash": "7f0b9dd7e6ce9cdc0c6875e69bb7756c",
+      "metadata": null,
+      "score": 0.29777871532117967,
+      "created_at": "2025-12-06T08:49:44.260399-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.999999982220655
+    },
+    {
+      "id": "2a35ae8c-0f67-44bf-83e1-28bd7915853a",
+      "memory": "Trying to get back on track with daily fitness goals",
+      "hash": "526573dc9668940690828005a852f8f9",
+      "metadata": null,
+      "score": 0.28402516737905054,
+      "created_at": "2025-12-06T08:47:50.099789-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.5517216724679689
+    },
+    {
+      "id": "d508fec3-df45-407c-b943-e88f197b3038",
+      "memory": "Will try to aim for 6,000 steps per day for the next week",
+      "hash": "0074e02cf74dda413d7815b004a5a262",
+      "metadata": null,
+      "score": 0.2599607997104354,
+      "created_at": "2025-12-06T08:47:50.189070-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.26778822526677587
+    },
+    {
+      "id": "1eb04124-5b6e-46e5-bc00-fccbf34bc31e",
+      "memory": "Wants to know more about the assignments and projects involved in the course",
+      "hash": "0a082dcb377471a642544ccd8e9e676c",
+      "metadata": null,
+      "score": 0.2690564974976112,
+      "created_at": "2025-12-06T09:00:15.509743-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.1815345558901952
+    },
+    {
+      "id": "962a37ff-6895-4967-aa74-2aaf11b65f2e",
+      "memory": "Celebrated a big birthday last month",
+      "hash": "4cec90dcb66ec6dec92aec0cac55f1e7",
+      "metadata": null,
+      "score": 0.2965653461414274,
+      "created_at": "2025-12-06T08:56:45.010436-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.16324613289244017
+    },
+    {
+      "id": "02e0f2f0-86c0-49b7-89ac-0054bc79ac9f",
+      "memory": "Wants to know more about the course structure and the instructor",
+      "hash": "b15d4a680c179b7ab02a7f523506f894",
+      "metadata": null,
+      "score": 0.2667373665427793,
+      "created_at": "2025-12-06T09:00:15.388081-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.1265828128033935
+    },
+    {
+      "id": "de5a730b-2213-43ab-bdc4-6bf82abe8593",
+      "memory": "Might try to commit to meditating 3 times a week for now",
+      "hash": "cd8f249c14565bf75a4c2464c81b840c",
+      "metadata": null,
+      "score": 0.26314158218682615,
+      "created_at": "2025-12-06T08:49:44.399252-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.055448545232021626
+    },
+    {
+      "id": "1c8f4dee-c583-43c6-9ea6-78af01e0e9f6",
+      "memory": "Interested in learning more about meal planning strategies for busy days or special occasions",
+      "hash": "5fbf8d01455dace961c812565fad9c8d",
+      "metadata": null,
+      "score": 0.28980999940532925,
+      "created_at": "2025-12-06T09:02:46.568649-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.025767584303438097
+    },
+    {
+      "id": "8283cd77-3864-46fd-991e-4988a1a5449b",
+      "memory": "Is comfortable with tracking daily activity",
+      "hash": "1689f0d6025e7527815abc5232c1303c",
+      "metadata": null,
+      "score": 0.29857108763239515,
+      "created_at": "2025-12-06T08:44:44.483111-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.017547458706078888
+    },
+    {
+      "id": "ba2ac8ed-3c82-4ddc-a6d6-1463f3225389",
+      "memory": "Thinks 6,000 steps per day is a good starting point",
+      "hash": "bfc3297974b08cf71c53e5ad568a2837",
+      "metadata": null,
+      "score": 0.3180915857042531,
+      "created_at": "2025-12-06T08:47:50.173722-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.017030309715320935
+    },
+    {
+      "id": "66bc8882-e7df-4f6c-b95a-055ea0a3b505",
+      "memory": "Has been averaging around 7,000 steps per day",
+      "hash": "6d43722f992740ef5d40a0ab9e3e6479",
+      "metadata": null,
+      "score": 0.36177394543157043,
+      "created_at": "2025-12-06T08:44:44.414406-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.016721715891327666
+    },
+    {
+      "id": "5f3c2242-c25b-4ebb-960c-65e35c22382e",
+      "memory": "Trying to plan out meals for the week",
+      "hash": "775666d8f907aeba590282cff62b1ae7",
+      "metadata": null,
+      "score": 0.26038830228635595,
+      "created_at": "2025-12-06T09:05:21.297884-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.013879939797851173
+    },
+    {
+      "id": "08f68b1e-e01b-4600-bff6-716b737ac93f",
+      "memory": "Planning to go for a morning walk today",
+      "hash": "ac3ce8d3c3e0c3563ee755022eabea0e",
+      "metadata": null,
+      "score": 0.30727040687154533,
+      "created_at": "2025-12-06T08:55:45.482324-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.011136506791141766
+    },
+    {
+      "id": "6baec199-ba9e-40a3-aeba-a71efa270e3f",
+      "memory": "Averaged around 3-4 episodes of The Crown per day",
+      "hash": "d253e209cd3b3444bdc2ef32785dd083",
+      "metadata": null,
+      "score": 0.33171008261120444,
+      "created_at": "2025-12-06T08:59:22.936233-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.010795697128379968
+    },
+    {
+      "id": "24cf131d-54e5-4b86-80a7-9e17d31a892e",
+      "memory": "Thinks it would be helpful to check in periodically to discuss progress or challenges",
+      "hash": "68025b2c09a9894f32236879a67e2ad9",
+      "metadata": null,
+      "score": 0.3382818847359472,
+      "created_at": "2025-12-06T08:49:44.412193-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.008432071905046894
+    },
+    {
+      "id": "d51a84a9-ea9c-41a2-a1af-08431b44c4c7",
+      "memory": "Realized hadn't planned any more summer vacations or beach trips, and that really got me",
+      "hash": "6714a6eb1dc07be9b1213fabf09b7aad",
+      "metadata": null,
+      "score": 0.3174576720857777,
+      "created_at": "2025-12-06T08:48:53.661455-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.007877620364135909
+    },
+    {
+      "id": "40ae641d-26ec-4f21-8848-f6a4e020c631",
+      "memory": "Been feeling a bit down since late August, when summer was coming to an end",
+      "hash": "24191f684122b0ce003967e052c1c3c9",
+      "metadata": null,
+      "score": 0.26058209126427784,
+      "created_at": "2025-12-06T08:48:53.649622-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.00635160694878457
+    },
+    {
+      "id": "af09ee62-f45c-494e-b79f-fd6cabc40577",
+      "memory": "Has been thinking about increasing daily step count",
+      "hash": "f0837fb1a8408a0159812a7dd43ef2ff",
+      "metadata": null,
+      "score": 0.28431281950872594,
+      "created_at": "2025-12-06T08:44:44.374852-08:00",
+      "updated_at": "2025-12-06T08:47:49.387508-08:00",
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.004915458767892811
+    },
+    {
+      "id": "472b3852-2512-4892-aa7d-a416c5882549",
+      "memory": "Recently started waking up 15 minutes earlier on Tuesdays and Thursdays to meditate and practice some yoga poses",
+      "hash": "148d65fb76ea7eb0af687b3dffadac69",
+      "metadata": null,
+      "score": 0.36478558160223096,
+      "created_at": "2025-12-06T08:55:45.498770-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.0027163038793253822
+    },
+    {
+      "id": "280b4993-78af-4ea8-8584-f6f10fb0afcd",
+      "memory": "Wants to know how the registered dietitian will help with meal planning strategies for busy days or special occasions",
+      "hash": "408a0bf320598d6a9e95a0f481294c44",
+      "metadata": null,
+      "score": 0.2794329032776345,
+      "created_at": "2025-12-06T09:02:46.584036-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_117",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1446,
+    "load_time": 1509.2451
+  }
+}

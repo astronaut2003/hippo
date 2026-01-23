@@ -1,0 +1,242 @@
+{
+  "sample_idx": 122,
+  "question_id": "bf659f65",
+  "question": "How many music albums or EPs have I purchased or downloaded?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T02:45:10.550267",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 52,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "391ba163-eaf1-4724-b42e-f101e3269ee9",
+      "memory": "Looking for new music recommendations",
+      "hash": "e8f7193f8c88b5dcfc5f6c4dae65162a",
+      "metadata": null,
+      "score": 0.32616888939224553,
+      "created_at": "2025-12-06T10:45:59.805274-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.9999999962971344
+    },
+    {
+      "id": "4fce58de-c465-47cd-a524-d596df31cf2d",
+      "memory": "Bought The Whiskey Wanderers' EP 'Midnight Sky' at the festival merchandise booth",
+      "hash": "880f4db9fd70b7be52e47ee1d22a5790",
+      "metadata": null,
+      "score": 0.17748181782521763,
+      "created_at": "2025-12-06T10:45:59.920348-08:00",
+      "updated_at": "2025-12-06T11:05:26.021981-08:00",
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.7767519241693843
+    },
+    {
+      "id": "fb68d5dc-8beb-4c9d-a1b0-7b75040d15ba",
+      "memory": "Has been listening to a lot of Billie Eilish lately, especially her new album 'Happier Than Ever' which was downloaded on Spotify",
+      "hash": "dc3dc1e6c1ba71b26d85f9de605fa400",
+      "metadata": null,
+      "score": 0.32212314959706045,
+      "created_at": "2025-12-06T10:45:59.838999-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.6829655076985022
+    },
+    {
+      "id": "207e9b29-b419-4518-b6ce-016f26c5ed45",
+      "memory": "Wants to write good music reviews that are helpful and informative for readers",
+      "hash": "1cac9e3707064b352e38c16b22e02f19",
+      "metadata": null,
+      "score": 0.2793791032079545,
+      "created_at": "2025-12-06T11:05:26.115205-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.4257990319695252
+    },
+    {
+      "id": "f28ecbb5-c96d-4346-83d3-f98687b0dd0b",
+      "memory": "Has been listening to a lot of Billie Eilish's 'Happier Than Ever' album on Spotify and really loves the song 'NDA'",
+      "hash": "46a440fe75b045d2a2785d83501ba126",
+      "metadata": null,
+      "score": 0.2635373621301039,
+      "created_at": "2025-12-06T10:45:59.867494-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.22931877776344706
+    },
+    {
+      "id": "f25b328b-0cd5-41fb-b24c-34b84a7bec41",
+      "memory": "Thinking about incorporating personal music experiences and stories into blog posts to make them more relatable and engaging",
+      "hash": "56df1cd9728941127e5fab9f2b5b251e",
+      "metadata": null,
+      "score": 0.1853230345395519,
+      "created_at": "2025-12-06T11:05:26.128560-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.1810215135913222
+    },
+    {
+      "id": "0a631db2-ab08-4598-a6fb-c76cdb600b54",
+      "memory": "Specifically considering mentioning how they discovered The Whiskey Wanderers at a music festival and how their EP 'Midnight Sky' has been on repeat",
+      "hash": "d2a34693d9c13f187133e89397a746aa",
+      "metadata": null,
+      "score": 0.18854452971071337,
+      "created_at": "2025-12-06T11:05:26.141058-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.13628241531910326
+    },
+    {
+      "id": "0625e6eb-dc04-4a31-9dc1-934471261af2",
+      "memory": "Has been listening to a lot of music podcasts lately, like 'All Songs Considered' and 'Pitchfork'",
+      "hash": "3e6c03318411cff6c324859643737bcf",
+      "metadata": null,
+      "score": 0.38629520555820557,
+      "created_at": "2025-12-06T10:45:59.879519-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.11546311909095199
+    },
+    {
+      "id": "35db5524-595a-4644-99db-c7fb30535753",
+      "memory": "Thinking of attending more concerts in the future",
+      "hash": "257a1beef5e71189b1aa385d199303b1",
+      "metadata": null,
+      "score": 0.1954227211154472,
+      "created_at": "2025-12-06T10:49:36.257921-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.03533517231802145
+    },
+    {
+      "id": "2938ba92-0f05-48a8-a527-2b5178124c97",
+      "memory": "Considering creating a music blog or YouTube channel to share music discoveries and thoughts",
+      "hash": "5c913cae7d73f7399d55a15d0d6ce5dc",
+      "metadata": null,
+      "score": 0.2996184399559261,
+      "created_at": "2025-12-06T11:05:26.086317-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.02899785143277817
+    },
+    {
+      "id": "cea8efe1-f72b-4b2e-aded-7eb4815902db",
+      "memory": "Currently on a mission to read 50 books in a year",
+      "hash": "4dab56a75e0f469f4d3f46b6f267ad14",
+      "metadata": null,
+      "score": 0.2507337940864509,
+      "created_at": "2025-12-06T10:55:43.221835-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.011813350917978568
+    },
+    {
+      "id": "ea705725-1f23-4394-b127-fa6a6d18aca9",
+      "memory": "Has been really into indie and folk-rock lately",
+      "hash": "479019adecb405b675d67ff76ebcc8e3",
+      "metadata": null,
+      "score": 0.17019577791241985,
+      "created_at": "2025-12-06T10:49:36.286246-08:00",
+      "updated_at": "2025-12-06T11:05:25.970807-08:00",
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.004501030424791643
+    },
+    {
+      "id": "e050a192-608a-4901-9bb1-94052741394f",
+      "memory": "Looking for new dance workout playlists to try out at home",
+      "hash": "d869ec7aac52dc73da74176b32b2aeba",
+      "metadata": null,
+      "score": 0.18092624909578792,
+      "created_at": "2025-12-06T11:04:51.292770-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.004212874075613078
+    },
+    {
+      "id": "8bb60b41-3919-43ab-8d8b-d57acef01310",
+      "memory": "Interested in trying out Apple News",
+      "hash": "91d13cc05a848385ad545280aae8d403",
+      "metadata": null,
+      "score": 0.19805479270031626,
+      "created_at": "2025-12-06T11:03:15.667483-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.0036842343026715213
+    },
+    {
+      "id": "c283ef62-401f-45e9-972c-814878457858",
+      "memory": "After 3 years, acquired 14 doors and close to a million portfolio",
+      "hash": "4968336793d02248bf8e109e79c9ab15",
+      "metadata": null,
+      "score": 0.24636883215335414,
+      "created_at": "2025-12-06T10:53:27.973772-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.003606898223664039
+    },
+    {
+      "id": "ff28969c-7e41-424d-8b85-b853fafe6e17",
+      "memory": "Thinking of checking out some local music venues in Chicago",
+      "hash": "1dc6cec3a4a20028be9f7d44ea5fdc90",
+      "metadata": null,
+      "score": 0.2384425266914086,
+      "created_at": "2025-12-06T10:49:36.319895-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.001416768716794608
+    },
+    {
+      "id": "782425ef-56d8-4439-ae0f-a5e2b48a7f4d",
+      "memory": "Wants to discover more local indie bands like The Whiskey Wanderers in their area",
+      "hash": "9bea11e73999e5717dffc28db1d00d9c",
+      "metadata": null,
+      "score": 0.18712547247169675,
+      "created_at": "2025-12-06T11:05:26.067855-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.0012338459363111566
+    },
+    {
+      "id": "0c276b18-c2ac-4c78-b640-95f2dc155eec",
+      "memory": "Just got back from a music festival in Grant Park featuring Billie Eilish, Khalid, and The 1975",
+      "hash": "998a88d606db6c6767f30e5cb404fa0a",
+      "metadata": null,
+      "score": 0.2440133461964923,
+      "created_at": "2025-12-06T10:49:36.245831-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.0006038570552639031
+    },
+    {
+      "id": "fa8cf8f2-320c-4c5e-bc28-0163c405e971",
+      "memory": "Needs to update voice demo",
+      "hash": "5d2d48cf6199ddc3f4ad1d7d4bbb1c11",
+      "metadata": null,
+      "score": 0.18117760159280039,
+      "created_at": "2025-12-06T10:57:24.726607-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.0005791377606039773
+    },
+    {
+      "id": "52d9c27c-18c1-40b9-a86c-85754247997a",
+      "memory": "Has a few boxes of different sizes",
+      "hash": "2c8e27070a6202729f2587b534f18c4f",
+      "metadata": null,
+      "score": 0.22766602607105027,
+      "created_at": "2025-12-06T11:00:24.070231-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_122",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.0962,
+    "load_time": 1230.6365
+  }
+}

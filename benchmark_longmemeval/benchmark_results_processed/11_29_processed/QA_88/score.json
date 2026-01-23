@@ -1,0 +1,77 @@
+{
+  "sample_idx": 88,
+  "question_id": "gpt4_15e38248",
+  "question": "How many pieces of furniture did I buy, assemble, sell, or fix in the past few months?",
+  "question_type": "multi-session",
+  "gold_answer": "4",
+  "question_date": "2023/05/30 (Tue) 15:31",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-02T01:02:07.128017",
+  "predicted_answer": "Based on the memories, you bought and assembled one IKEA bookshelf, got a new coffee table, and fixed one wobbly leg on the kitchen table. Therefore, you have bought and assembled or fixed a total of three pieces of furniture in the past few months.",
+  "prompt_length": 3263,
+  "gen_token_usage": {
+    "prompt_tokens": 852,
+    "answer_tokens": 53,
+    "total_tokens": 905,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.65,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 45,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.14767241477966309,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.14767241477966309,
+      "overall_average": 0.029534483328461647
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.14767241477966309,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.14767241477966309,
+    "overall_average": 0.029534483328461647
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1318.6847,
+    "retrieval_time": 0.5124,
+    "generation_time": 3.1152,
+    "evaluation_time": 1.1174,
+    "cleanup_time": 1.6595,
+    "total_time": 1325.0939
+  }
+}

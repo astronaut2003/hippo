@@ -1,0 +1,77 @@
+{
+  "sample_idx": 153,
+  "question_id": "1da05512",
+  "question": "I'm trying to decide whether to buy a NAS device now or wait. What do you think?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that take into account their current home network storage capacity issues and recent reliance on external hard drives, highlighting the potential benefits of a NAS device in addressing these specific needs. They might not prefer responses that ignore their current storage challenges or fail to consider their recent tech upgrades and priorities. Preferred responses would utilize the user's previous mentions of storage capacity issues and tech investments to inform their decision.",
+  "question_date": "2023/05/30 (Tue) 15:33",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T15:22:05.453914",
+  "predicted_answer": "Based on your considerations about getting a NAS device for central backup and storage, as well as its convenience and storage capacity, it seems you are leaning towards purchasing one. If you feel that your current storage situation is inadequate and you need a solution soon, it might be worth buying a NAS device now. However, if you think you can wait for better options or deals, that could also be a valid choice. Ultimately, it depends on your immediate storage needs and preferences.",
+  "prompt_length": 3092,
+  "gen_token_usage": {
+    "prompt_tokens": 831,
+    "answer_tokens": 94,
+    "total_tokens": 925,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 76,
+      "response_length": 84,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.19310344827586204,
+      "rouge1_f": 0.2236024844720497,
+      "rouge2_f": 0.050314465408805034,
+      "rougeL_f": 0.13664596273291924,
+      "semantic_similarity": 0.6190953254699707,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.13833797387020774,
+      "avg_semantic": 0.6190953254699707,
+      "overall_average": 0.23448944091796875
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.19310344827586204,
+    "rouge1_f": 0.2236024844720497,
+    "rouge2_f": 0.050314465408805034,
+    "rougeL_f": 0.13664596273291924,
+    "semantic_similarity": 0.6190953254699707,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.13833797387020774,
+    "avg_semantic": 0.6190953254699707,
+    "overall_average": 0.23448944091796875
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1686.4718,
+    "retrieval_time": 0.455,
+    "generation_time": 2.1581,
+    "evaluation_time": 1.0644,
+    "cleanup_time": 1.6446,
+    "total_time": 1691.8014
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 83,
+  "question_id": "46a3abf7",
+  "question": "How many tanks do I currently have, including the one I set up for my friend's kid?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T11:04:32.431452",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "73388f9e-0f44-40ad-a42d-498b9b282afe",
+      "memory": "Has a small 1-gallon tank set up for a friend's kid with a few guppies and some plants",
+      "hash": "bb5045813e925a848f8b2613504ba6f6",
+      "metadata": null,
+      "score": 0.6574874416748608,
+      "created_at": "2025-11-30T19:07:28.157957-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.999999999119233
+    },
+    {
+      "id": "b07b426f-9125-45e7-b54b-2796320b2362",
+      "memory": "Has two young children",
+      "hash": "f59c5c4975a14c04e974253a542be947",
+      "metadata": null,
+      "score": 0.2862136329093464,
+      "created_at": "2025-11-30T19:18:24.445524-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.46557118897987365
+    },
+    {
+      "id": "2771b408-84a0-4d71-9587-b2179cfe95da",
+      "memory": "Is thinking of adding more plants to the tank",
+      "hash": "f403371076212395816251d55b42a3ba",
+      "metadata": null,
+      "score": 0.500525091812261,
+      "created_at": "2025-11-30T19:20:32.997012-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.4561311598598865
+    },
+    {
+      "id": "c5ab9e65-49f1-48c8-8474-e55d806101bc",
+      "memory": "Has a 5-gallon tank with a solitary betta fish named Finley, which was obtained from a cousin",
+      "hash": "d7a3bbc881fccbaf037ec2661bf9ff32",
+      "metadata": null,
+      "score": 0.40374699901568367,
+      "created_at": "2025-11-30T19:12:17.669898-08:00",
+      "updated_at": "2025-11-30T19:20:53.828311-08:00",
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.44034952201180744
+    },
+    {
+      "id": "df5c384d-d94f-4274-8ecf-82469f612c68",
+      "memory": "Has been learning about aquarium keeping for about 6 months",
+      "hash": "f6d6b00d544d53bb5bb2b91f7722806f",
+      "metadata": null,
+      "score": 0.357684404235221,
+      "created_at": "2025-11-30T19:12:17.733199-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.42075267975518155
+    },
+    {
+      "id": "e0d48fd9-8da6-4e40-ad8d-ab8d3c0b0874",
+      "memory": "Is considering setting up a separate quarantine tank for new fish before introducing them to the main tank",
+      "hash": "9f087099059bd3f0206b4b368921688e",
+      "metadata": null,
+      "score": 0.41105974335290885,
+      "created_at": "2025-11-30T19:12:17.779963-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.4109664171182743
+    },
+    {
+      "id": "27c2f47e-64fa-46e1-907e-53bd3e1fc58e",
+      "memory": "Thinking of buying the starter set and recruiting some friends to play with",
+      "hash": "4a253af45b5641129ed0de792c5324a2",
+      "metadata": null,
+      "score": 0.2674192283556316,
+      "created_at": "2025-11-30T19:06:14.975657-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.3723488645052058
+    },
+    {
+      "id": "cdc7708a-2426-496b-b463-d2fe28477c7b",
+      "memory": "Interested in adding more variety of live plants to the community tank",
+      "hash": "a85c5f700bbad27b3fa7e3d3e4099613",
+      "metadata": null,
+      "score": 0.42112507867863813,
+      "created_at": "2025-11-30T19:07:28.096894-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.26803707190721254
+    },
+    {
+      "id": "fa6700ba-85a0-46e6-b66f-77ee933dad81",
+      "memory": "Has experience with cycling a tank",
+      "hash": "e73f8aae68e005cbfd8d0c2e9ef8c67d",
+      "metadata": null,
+      "score": 0.47986082573482924,
+      "created_at": "2025-11-30T19:12:17.753034-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.23666127636868795
+    },
+    {
+      "id": "95a3eac1-97a8-4ba2-910a-2a94f960f065",
+      "memory": "Has a 20-gallon freshwater community tank named \"Amazonia\"",
+      "hash": "31e30f01a05eb572b9107718c1bd7eca",
+      "metadata": null,
+      "score": 0.37524663351381093,
+      "created_at": "2025-11-30T19:12:17.765749-08:00",
+      "updated_at": "2025-11-30T19:20:32.916780-08:00",
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.23123216347054792
+    },
+    {
+      "id": "1405f25f-a57b-43c0-94b3-bcca5b1dfffb",
+      "memory": "Is thinking of getting driftwood for the tank",
+      "hash": "fa361558acd71996ce92ffd25d52fb35",
+      "metadata": null,
+      "score": 0.3941453804010917,
+      "created_at": "2025-11-30T19:20:33.012401-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.22464650295123528
+    },
+    {
+      "id": "743dc909-b9ec-4e05-b3ae-a363e9c8311a",
+      "memory": "Wants to set up a trellis for java moss in the tank",
+      "hash": "c8a6b2f231a6c09ae22b6cd7d1db2383",
+      "metadata": null,
+      "score": 0.36659550883037084,
+      "created_at": "2025-11-30T19:20:33.028139-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.21299325041122663
+    },
+    {
+      "id": "aa7bccde-9894-4b49-a085-eb30e0e6076a",
+      "memory": "Has a community tank with an anacharis and a java moss",
+      "hash": "98db4cbc5149615621afef0068c7c141",
+      "metadata": null,
+      "score": 0.3428276337785705,
+      "created_at": "2025-11-30T19:07:28.070212-08:00",
+      "updated_at": "2025-11-30T19:12:16.926564-08:00",
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.20263547568088788
+    },
+    {
+      "id": "1c61f748-0da1-4091-b9d5-51fb83b37e29",
+      "memory": "Has neon tetras, harlequin rasboras, and platies in the tank",
+      "hash": "7e256f52b2f42acb5c94018f703bb10f",
+      "metadata": null,
+      "score": 0.4406858996875538,
+      "created_at": "2025-11-30T19:20:32.950294-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.09019038730175431
+    },
+    {
+      "id": "663a2941-2adf-49dd-9936-9e3ced14f2ae",
+      "memory": "Interested in Amazon Swords and Water Wisteria for the community tank",
+      "hash": "88368517bb9656a01ee3d9aedc996799",
+      "metadata": null,
+      "score": 0.2963404080915362,
+      "created_at": "2025-11-30T19:07:28.114038-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.06126451728191233
+    },
+    {
+      "id": "efe1fdc0-8d98-4a09-8ec2-652a24cfc79f",
+      "memory": "Has been noticing algae growth on the glass walls of the tank",
+      "hash": "d37f303d268b818f0440cc53c4ca4dc9",
+      "metadata": null,
+      "score": 0.2869494088025515,
+      "created_at": "2025-11-30T19:20:32.981442-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.026199344071460677
+    },
+    {
+      "id": "a767093b-55c5-441c-af57-5b250f2e5fca",
+      "memory": "Bought litter for $35",
+      "hash": "49f6d2669ce62823ec6fc4693b34450a",
+      "metadata": null,
+      "score": 0.18726201655548388,
+      "created_at": "2025-11-30T19:15:50.684512-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.012592669243850193
+    },
+    {
+      "id": "bbc68d1b-d4c6-4a74-b1c7-263d10422c40",
+      "memory": "Looking for tips on how to decorate a living room with a toddler in mind",
+      "hash": "910e3011708555824380e6e1409538c9",
+      "metadata": null,
+      "score": 0.1979314363504778,
+      "created_at": "2025-11-30T19:26:56.654381-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.002436822066804994
+    },
+    {
+      "id": "aef99df2-5ff5-46f0-af61-ed18944d6464",
+      "memory": "Bought a first aid kit for $40",
+      "hash": "639fa88c3e28debc36bb5ba694f1a819",
+      "metadata": null,
+      "score": 0.18771407133421847,
+      "created_at": "2025-11-30T19:15:50.697129-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.0011199251531043737
+    },
+    {
+      "id": "bf4f9cc9-9b5a-4145-abec-ae327d5cb53b",
+      "memory": "Leading a team of junior engineers on a new project",
+      "hash": "68554e534d501a865631de5d7ea412b3",
+      "metadata": null,
+      "score": 0.1922260159604121,
+      "created_at": "2025-11-30T19:23:46.005115-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_83",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.555,
+    "load_time": 1384.1657
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 103,
+  "question_id": "eeda8a6d",
+  "question": "How many fish are there in total in both of my aquariums?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T06:55:44.812529",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "f183f896-4672-4a71-8fc1-96435a53d034",
+      "memory": "Has a new 20-gallon tank with 10 neon tetras, 5 golden honey gouramis, and a small pleco catfish",
+      "hash": "2c4324211bfbbdff2dc1a95228b87d64",
+      "metadata": null,
+      "score": 0.611524372783931,
+      "created_at": "2025-12-01T14:59:55.684750-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.9999999985120009
+    },
+    {
+      "id": "61b174d6-4ccc-449c-ad24-f3046a46e2d2",
+      "memory": "Planning to add schooling fish like lemon tetras or zebra danios to 20-gallon tank",
+      "hash": "50df221686d01d54531e4971660d0512",
+      "metadata": null,
+      "score": 0.48954065006479053,
+      "created_at": "2025-12-01T14:59:55.753169-08:00",
+      "updated_at": "2025-12-01T15:13:50.781744-08:00",
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.6296903332049388
+    },
+    {
+      "id": "4568eb29-455e-43c6-9a52-88c56a353ac6",
+      "memory": "Upgraded old 10-gallon tank which has betta fish named Bubbles",
+      "hash": "d22024e41455c6b7d33d44dcd0e4e69b",
+      "metadata": null,
+      "score": 0.4578910230367489,
+      "created_at": "2025-12-01T15:13:50.819527-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.5229062871908146
+    },
+    {
+      "id": "59a29154-feb9-46b8-a3f2-fc5933082934",
+      "memory": "Already has some artificial coral and rocks in the tank",
+      "hash": "1652452cc98a769099e5eec17ca0c1d8",
+      "metadata": null,
+      "score": 0.36078863465200683,
+      "created_at": "2025-12-01T14:59:55.780269-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.4309662445910139
+    },
+    {
+      "id": "94adc78b-96f9-4074-a23a-54687f2a991b",
+      "memory": "Thinking of upgrading tank decorations and adding new artificial coral and rocks to create more hiding places for fish",
+      "hash": "45bd1f5a5b13e92aaae20a3a76d3fac5",
+      "metadata": null,
+      "score": 0.460524875294769,
+      "created_at": "2025-12-01T14:59:55.768141-08:00",
+      "updated_at": "2025-12-01T15:13:50.800631-08:00",
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.2796894964764923
+    },
+    {
+      "id": "7d9b9d0e-6c04-4463-8454-b732e8c3f207",
+      "memory": "Has some gouramis in 20-gallon tank and noticed aggression towards each other during feeding times",
+      "hash": "62a0ab1e1bd00560ca715552ca8cbf62",
+      "metadata": null,
+      "score": 0.4206196233749675,
+      "created_at": "2025-12-01T15:13:50.839918-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.2625642017263817
+    },
+    {
+      "id": "5f9529d9-d6bb-45bd-8ca2-05f095cabbaf",
+      "memory": "Thinking of adding live aquatic plants to freshwater tank",
+      "hash": "a631b0ca192908a86589a22455e9f13c",
+      "metadata": null,
+      "score": 0.4505157387264355,
+      "created_at": "2025-12-01T14:59:55.724794-08:00",
+      "updated_at": "2025-12-01T15:13:50.733368-08:00",
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.09942547658035739
+    },
+    {
+      "id": "d4cff18a-ab5c-46a9-b8a5-c625e78b3fc7",
+      "memory": "Recently got a new set from HomeEssentials on the 22nd, which cost $40. Set includes a silicone spatula, a whisk, and a set of measuring cups",
+      "hash": "a567959c2a0410d29e87d583c42a5f61",
+      "metadata": null,
+      "score": 0.1588859158581644,
+      "created_at": "2025-12-01T15:18:02.371771-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.06828363610309493
+    },
+    {
+      "id": "7a3999eb-1567-47fe-9535-6444832ddcac",
+      "memory": "Plans to place the treasure chest near the artificial coral and rocks to create a 'city' area for the fish to explore",
+      "hash": "509b262e9e9fb274145cffc7909c64f1",
+      "metadata": null,
+      "score": 0.33497301313815053,
+      "created_at": "2025-12-01T14:59:55.805795-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.05994463361141857
+    },
+    {
+      "id": "c8cf48b9-6185-421f-a5d6-46f403c55aaf",
+      "memory": "Considering adding schooling fish to distract gouramis and reduce aggression",
+      "hash": "0eba56b3972ed91151635ab19b1577ef",
+      "metadata": null,
+      "score": 0.3752798878467368,
+      "created_at": "2025-12-01T15:13:50.856083-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.04762571716082936
+    },
+    {
+      "id": "6187c82f-f8e1-480c-994e-d148b0805457",
+      "memory": "Considering adding a treasure chest decoration to the tank",
+      "hash": "30c125e7cb699d6d28e46d90c5017de2",
+      "metadata": null,
+      "score": 0.2820377085973932,
+      "created_at": "2025-12-01T14:59:55.792990-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.01740683754746083
+    },
+    {
+      "id": "32c1d7db-a30f-4794-8367-ff5c1162c103",
+      "memory": "Has a rare Pokémon card, the coveted 'First Edition' Charizard, purchased for $150",
+      "hash": "d4d2b2cfa803e2ae85053653c132fe37",
+      "metadata": null,
+      "score": 0.21070793726761697,
+      "created_at": "2025-12-01T15:08:17.151861-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.004790910474465411
+    },
+    {
+      "id": "e60693af-4ec6-4785-a0d4-02505eef8acd",
+      "memory": "Team works with data from water sensors and flood risk maps",
+      "hash": "490135443dec80a7cc606be601d63f7c",
+      "metadata": null,
+      "score": 0.1492415713496636,
+      "created_at": "2025-12-01T14:59:00.733142-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.001267510214683364
+    },
+    {
+      "id": "89236cd2-8b7f-4071-aa1c-1bfd0f0824ef",
+      "memory": "Particularly interested in Java Moss and Anacharis plants",
+      "hash": "2afdc9e4ed32097b55616edff3b1f781",
+      "metadata": null,
+      "score": 0.21912362246767536,
+      "created_at": "2025-12-01T14:59:55.739857-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.0011640602654554002
+    },
+    {
+      "id": "3e127084-4434-4c0b-bdb4-2b7da52ed443",
+      "memory": "Wants to make a list of jewelry and take photos of each piece",
+      "hash": "af603dea1b535375821834c3cf61007b",
+      "metadata": null,
+      "score": 0.17122953184819384,
+      "created_at": "2025-12-01T15:04:57.792486-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.0006170101224186372
+    },
+    {
+      "id": "d1eaf63e-f3c0-4ae6-a3ca-a4751a89ab90",
+      "memory": "Interested in the fixed puck lights option",
+      "hash": "91142615f1f04faf21700a50216b5d2a",
+      "metadata": null,
+      "score": 0.12543490054027912,
+      "created_at": "2025-12-01T15:11:03.133509-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.0005293118115504867
+    },
+    {
+      "id": "ad8d0723-801a-42bf-9fc5-0d8b1ededf70",
+      "memory": "Will go with the dry Riesling from the Finger Lakes region in New York and the Pinot Grigio from Italy for the wine and cheese night",
+      "hash": "380e96abc5d562adaafa78a83a8f7c32",
+      "metadata": null,
+      "score": 0.1572719805623633,
+      "created_at": "2025-12-01T15:04:03.749003-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.0005203716924814034
+    },
+    {
+      "id": "d8c6e8ec-8fff-490d-9bdd-651073947994",
+      "memory": "Wants to determine the frequency of distinct values in each feature set in categorical value",
+      "hash": "4dac24bcdeab2fee8bdd5c05f587166a",
+      "metadata": null,
+      "score": 0.25086453564593814,
+      "created_at": "2025-12-01T15:03:21.015534-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.00014446097162423472
+    },
+    {
+      "id": "3a4ae021-7be4-4aff-8c51-4363793c012a",
+      "memory": "Is working with a dataset from Bay clinic, a medical centre in Brazil",
+      "hash": "fea08f2d1c85d9fd55ae41b02c17918b",
+      "metadata": null,
+      "score": 0.12555338491300733,
+      "created_at": "2025-12-01T15:03:21.029014-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 4.399106208596539e-06
+    },
+    {
+      "id": "d3dfbdca-4118-4bac-86a9-e73d41219ed8",
+      "memory": "Considering getting the 'First Edition' Charizard Pokémon card graded and certified",
+      "hash": "054b7d32fb4ae58be03edba390e056ff",
+      "metadata": null,
+      "score": 0.17862675252277788,
+      "created_at": "2025-12-01T15:08:17.174671-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_103",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3966,
+    "load_time": 1543.5034
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "sample_idx": 51,
+  "question_id": "86f00804",
+  "question": "What book am I currently reading?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T14:05:56.171916",
+  "load_result": {
+    "total_sessions": 43,
+    "added_sessions": 43,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "48e01277-2836-435a-91c9-4ec4f2d4160b",
+      "memory": "Currently reading 'The Seven Husbands of Evelyn Hugo' and finds it hard to put down",
+      "hash": "702b85a4503944ccd45932b372e4604b",
+      "metadata": null,
+      "score": 0.3001200692440681,
+      "created_at": "2025-11-29T22:10:17.418715-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.9999999991476652
+    },
+    {
+      "id": "f98bee35-c8fe-4fe5-b38b-c7dcb1889e6d",
+      "memory": "Interested in book tracking apps or websites like Goodreads to stay organized and on top of reading goals",
+      "hash": "9582f7ec4c78b46740ca34e4c39bb053",
+      "metadata": null,
+      "score": 0.37477738812443956,
+      "created_at": "2025-11-29T22:10:17.495162-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.4173603556236627
+    },
+    {
+      "id": "7ac15b05-8a08-49d6-85ca-22f765f1704e",
+      "memory": "Interested in checking out book awards and lists to find new titles to read",
+      "hash": "3f09c7244d2e165ab0be762a066de0c4",
+      "metadata": null,
+      "score": 0.520751363150141,
+      "created_at": "2025-11-29T22:10:17.675571-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.3981917342391722
+    },
+    {
+      "id": "5b851b89-110e-4318-96e6-278239fdc39b",
+      "memory": "First book club book is 'The Last House Guest' by Megan Miranda",
+      "hash": "50a2add839752a1e10ddd3616916b505",
+      "metadata": null,
+      "score": 0.34078696823288546,
+      "created_at": "2025-11-29T22:10:17.591858-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.3454848533692175
+    },
+    {
+      "id": "fd720f56-1e3e-487c-bebf-1141b7a7de46",
+      "memory": "Already reads before bed every night as a habit loop",
+      "hash": "666288a4db6fe33910f1c486737b017a",
+      "metadata": null,
+      "score": 0.28810066173668103,
+      "created_at": "2025-11-29T22:10:17.438279-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.30534044252742387
+    },
+    {
+      "id": "6e6835b0-984f-4134-8a58-90bc40319336",
+      "memory": "Trying to figure out how to fit more reading time into daily routine",
+      "hash": "5aecac976e856fb198cc5670566cbcf7",
+      "metadata": null,
+      "score": 0.30269821803520175,
+      "created_at": "2025-11-29T22:10:17.381427-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.25480464253639823
+    },
+    {
+      "id": "685cc4bd-ce30-4afa-9d62-c09f83a54a94",
+      "memory": "Considering joining the Book of the Month Club",
+      "hash": "71f2a55a7d17f66d96ffc7c62a67c552",
+      "metadata": null,
+      "score": 0.34097342324754315,
+      "created_at": "2025-11-29T22:10:17.733023-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.24885157526332585
+    },
+    {
+      "id": "9f02c92d-4d72-4671-948b-6e51e432f552",
+      "memory": "Planning to check out Libib, StoryGraph, and BookNerd",
+      "hash": "e792f46c9747c4e0899b9643ea734114",
+      "metadata": null,
+      "score": 0.43727637015955173,
+      "created_at": "2025-11-29T22:10:17.518864-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.23549060234240535
+    },
+    {
+      "id": "473ef6f4-8592-4305-9628-67adcc9c15ba",
+      "memory": "Has already read 'The Last House Guest' and really enjoyed it",
+      "hash": "3278ed04ed37d92b8998edad51f80cd9",
+      "metadata": null,
+      "score": 0.37494232617784073,
+      "created_at": "2025-11-29T22:10:17.615788-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.2264734981636915
+    },
+    {
+      "id": "f0725ebc-115b-42c1-a693-606491f91ef8",
+      "memory": "Some nights stays up late reading 50-60 pages in one sitting",
+      "hash": "186abdc57b7203772a018447fecbef85",
+      "metadata": null,
+      "score": 0.25489664538679224,
+      "created_at": "2025-11-29T22:10:17.475710-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.19002190410507186
+    },
+    {
+      "id": "f68e8186-073f-4b45-b5a7-54b915d65531",
+      "memory": "Interested in the Indie Next List",
+      "hash": "772f3c8a4188a3fe66a47a32ed2e98ad",
+      "metadata": null,
+      "score": 0.2753128766366606,
+      "created_at": "2025-11-29T22:10:17.694977-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.1330477249336882
+    },
+    {
+      "id": "9c412887-2ba1-4c30-ab37-d0363865f743",
+      "memory": "The Saturday spent catching up on reading was really rejuvenating, especially after a busy week",
+      "hash": "9b507b38abd3072cc57b6532abead06e",
+      "metadata": null,
+      "score": 0.27445350674824265,
+      "created_at": "2025-11-29T22:24:02.290994-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.10824971302259738
+    },
+    {
+      "id": "a5be835f-6ae5-4d3c-96ec-0e01a34f9647",
+      "memory": "Started a book club with some friends",
+      "hash": "6bfa552e7ed5a466403ccf61278021a7",
+      "metadata": null,
+      "score": 0.35979201354259716,
+      "created_at": "2025-11-29T22:10:17.555049-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.09426349612029489
+    },
+    {
+      "id": "da7539c0-171a-4c14-b8c9-ff559b9af20e",
+      "memory": "Spent the first Saturday of the month relaxing at home and catching up on reading",
+      "hash": "90f5061227ab6e686ca2b04f32053183",
+      "metadata": null,
+      "score": 0.37701729295859676,
+      "created_at": "2025-11-29T22:24:02.252740-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.08086009244556766
+    },
+    {
+      "id": "7d80c963-e4ac-4c37-b295-800db97fcb3f",
+      "memory": "Planning a casual discussion for the book club meeting",
+      "hash": "82302e7b407ba5c2cf85f9bd564a7627",
+      "metadata": null,
+      "score": 0.28310569675730163,
+      "created_at": "2025-11-29T22:10:17.634776-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.06979566375319439
+    },
+    {
+      "id": "28c7053e-b4a5-4569-b582-9b3f2105207c",
+      "memory": "Likes the idea of a memory book or scrapbook",
+      "hash": "8313beb564aa88d595f20c31c62fae56",
+      "metadata": null,
+      "score": 0.3000640898844734,
+      "created_at": "2025-11-29T22:08:02.469769-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.06878415359922696
+    },
+    {
+      "id": "3b67ffa1-77ab-4aa4-ae0f-51a4ea65614b",
+      "memory": "Glad to have spent that Saturday catching up on reading as it helped clear the mind before the trip",
+      "hash": "f535e1360e0e09acef00614aa60201b7",
+      "metadata": null,
+      "score": 0.2834284449931258,
+      "created_at": "2025-11-29T22:24:02.368611-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.05991547577386771
+    },
+    {
+      "id": "445dbbce-d0d3-4c1f-a78c-f404b29c2a33",
+      "memory": "First book club meeting is scheduled for next weekend",
+      "hash": "677ea58ff7854e88ef696363f8e8ba55",
+      "metadata": null,
+      "score": 0.2581794444982821,
+      "created_at": "2025-11-29T22:10:17.574209-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.011908329240307193
+    },
+    {
+      "id": "07870320-787f-4ea7-9296-9a0cfbd03b64",
+      "memory": "Already picked out a journal with a great layout and nice heavyweight paper",
+      "hash": "9c306fce2e8f29f9d6d5f7b2a670c71e",
+      "metadata": null,
+      "score": 0.24764142438928205,
+      "created_at": "2025-11-29T22:12:40.120509-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.0013219374504960094
+    },
+    {
+      "id": "921f3ac1-7d4b-414b-b924-b81532571428",
+      "memory": "Trying to support more indie authors and bookstores lately",
+      "hash": "e9f00b1c7421fb6d9a10d2105f99a96e",
+      "metadata": null,
+      "score": 0.3577434924068149,
+      "created_at": "2025-11-29T22:10:17.710394-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_51",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "retrieval_time": 0.0764,
+    "load_time": 1382.2856
+  }
+}

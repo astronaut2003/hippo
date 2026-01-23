@@ -1,0 +1,77 @@
+{
+  "sample_idx": 210,
+  "question_id": "09ba9854",
+  "question": "How much will I save by taking the train from the airport to my hotel instead of a taxi?",
+  "question_type": "multi-session",
+  "gold_answer": "$50",
+  "question_date": "2023/05/30 (Tue) 11:49",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2026-01-14T01:43:44.067098",
+  "predicted_answer": "You will save around $50 by taking the train from the airport to your hotel instead of a taxi, as the train costs about $10 and the taxi costs around $60.",
+  "prompt_length": 3113,
+  "gen_token_usage": {
+    "prompt_tokens": 831,
+    "answer_tokens": 36,
+    "total_tokens": 867,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 31,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.07692307692307693,
+      "rouge1_f": 0.0625,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0625,
+      "semantic_similarity": 0.2410522699356079,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.05048076923076923,
+      "avg_semantic": 0.2410522699356079,
+      "overall_average": 0.08859506994485855
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.07692307692307693,
+    "rouge1_f": 0.0625,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0625,
+    "semantic_similarity": 0.2410522699356079,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.05048076923076923,
+    "avg_semantic": 0.2410522699356079,
+    "overall_average": 0.08859506994485855
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1291.6888,
+    "retrieval_time": 1.2556,
+    "generation_time": 2.2718,
+    "evaluation_time": 1.0734,
+    "cleanup_time": 1.6204,
+    "total_time": 1297.9161
+  }
+}

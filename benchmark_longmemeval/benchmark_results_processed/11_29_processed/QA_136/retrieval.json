@@ -1,0 +1,242 @@
+{
+  "sample_idx": 136,
+  "question_id": "35a27287",
+  "question": "Can you recommend some interesting cultural events happening around me this weekend?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T07:55:18.320200",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "9f4212ff-2d9a-4663-b7c4-c15411e8e05c",
+      "memory": "Interested in cultural events or festivals in their area that celebrate language diversity and cultural exchange",
+      "hash": "8163b26d488d5dad6bd48d1fdb10dcec",
+      "metadata": null,
+      "score": 0.6141946682437995,
+      "created_at": "2025-12-06T16:14:51.297243-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.9999999986210506
+    },
+    {
+      "id": "c88212fa-a8d2-4558-a1d4-74e07219199f",
+      "memory": "Wants to explore more language exchange opportunities and cultural events in their area",
+      "hash": "99a3f623734ae97d0c5a14cd85860a58",
+      "metadata": null,
+      "score": 0.5396789216264877,
+      "created_at": "2025-12-06T16:14:51.360276-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.9867956901981914
+    },
+    {
+      "id": "2fc56a33-fc15-45ca-b882-7197f32a5e20",
+      "memory": "Curious about recommendations for games or activities to keep guests engaged and entertained",
+      "hash": "c52f70f02a0e5ce0fd5de30395a3a29f",
+      "metadata": null,
+      "score": 0.44434350444597615,
+      "created_at": "2025-12-06T16:09:02.263971-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.5664338647616289
+    },
+    {
+      "id": "5a2698bb-199b-46b9-9eaf-86c88c447268",
+      "memory": "Curious about recommendations for decorations or table settings to complement the cultural theme",
+      "hash": "1273dddf55d91d81785a2f06c2e397ee",
+      "metadata": null,
+      "score": 0.39756623670494307,
+      "created_at": "2025-12-06T16:09:02.227041-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.5170156890095008
+    },
+    {
+      "id": "a87f5880-75a1-4ca3-ba9c-f2892afecd64",
+      "memory": "Looking for recipe ideas for a cultural dinner party",
+      "hash": "ea91eeb3e43596f9a4dcbb444f0877cf",
+      "metadata": null,
+      "score": 0.4957927594147656,
+      "created_at": "2025-12-06T16:09:02.059179-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.47721447878697854
+    },
+    {
+      "id": "d379d43e-01d1-42af-8c62-91b78fc05d2a",
+      "memory": "Volunteered at a cultural festival last month",
+      "hash": "bec57329070b1f381f7798314dd50d16",
+      "metadata": null,
+      "score": 0.5465281040117517,
+      "created_at": "2025-12-06T16:14:51.310069-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.3240062194334137
+    },
+    {
+      "id": "6ba09175-a0c9-41b1-8a2b-04e5464cf8f6",
+      "memory": "Interested in other fun activities in the Santa Teresa neighborhood",
+      "hash": "7bb1fad685d2c3da2f1bbd245f2668c6",
+      "metadata": null,
+      "score": 0.46317847435705245,
+      "created_at": "2025-12-06T16:13:28.201662-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.31313533594616055
+    },
+    {
+      "id": "6506ab46-ae03-4d91-9c2d-09e5c747ee52",
+      "memory": "Interested in attending language exchange events, especially those that focus on conversational practice",
+      "hash": "217cdce55186c9279adf6c841b841703",
+      "metadata": null,
+      "score": 0.4836836569266,
+      "created_at": "2025-12-06T16:14:51.346762-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.07100910435249463
+    },
+    {
+      "id": "7e4bf4f8-b14d-4152-b498-e5d0e174f774",
+      "memory": "Specifically interested in language exchange partners or events that focus on French and Spanish languages",
+      "hash": "38edffda4d89c3287334fc2c022ed752",
+      "metadata": null,
+      "score": 0.4251038917015211,
+      "created_at": "2025-12-06T16:14:51.371277-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.032511521682584574
+    },
+    {
+      "id": "2c81f5c4-3f9f-4734-8a09-29eec5c8c276",
+      "memory": "Interested in visiting Vietnam and trying all the local cuisine",
+      "hash": "a72f16037ec4670b0f583efb658c6d65",
+      "metadata": null,
+      "score": 0.32805457683363703,
+      "created_at": "2025-12-06T16:11:06.176859-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.003401556569743643
+    },
+    {
+      "id": "a3673d45-4ca0-4205-bb0f-2372a6243fe3",
+      "memory": "Been posting short videos showcasing hobbies and interests",
+      "hash": "05961a37e54d9daf52c3899b8e05cc66",
+      "metadata": null,
+      "score": 0.3253613459208948,
+      "created_at": "2025-12-06T15:59:29.736539-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.0031641866784428126
+    },
+    {
+      "id": "94fcb5e8-934e-47f1-9786-9bd23bd15cc1",
+      "memory": "Interested in exploring the nightlife scene in Belo Horizonte",
+      "hash": "042bdaee7e1fd51282bc47a8ff03ff63",
+      "metadata": null,
+      "score": 0.34926651284858085,
+      "created_at": "2025-12-06T16:13:28.155823-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.0027527016978997113
+    },
+    {
+      "id": "1f99ac27-7e54-405f-9432-516b11f528f9",
+      "memory": "Will try out some of those ideas for Instagram stories",
+      "hash": "fec5fa76f20447343ae2f84616582142",
+      "metadata": null,
+      "score": 0.30837762949068315,
+      "created_at": "2025-12-06T15:59:29.687620-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.0014749809976898128
+    },
+    {
+      "id": "715945d1-5397-42fa-af84-661f86a5293e",
+      "memory": "Excited to try all the local cuisine in Vietnam",
+      "hash": "fbd1d7607ff1cd5e8d02cbfe0c2987ce",
+      "metadata": null,
+      "score": 0.32063634202397107,
+      "created_at": "2025-12-06T16:11:06.205818-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.0014355289381938299
+    },
+    {
+      "id": "9b636d88-33c9-41fb-ad1a-8df676ce8f02",
+      "memory": "Wants to know good places to grab a drink or a bite to eat while at Waikiki Beach",
+      "hash": "5e66d77291d0b7fbae75a63ff2b04127",
+      "metadata": null,
+      "score": 0.35843597527711607,
+      "created_at": "2025-12-06T16:09:24.163740-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.0008832001052500697
+    },
+    {
+      "id": "42ed57d0-9c99-45c7-9ce5-9567e3b5903e",
+      "memory": "Interested in budget-friendly options in lively areas for nightlife",
+      "hash": "dde032f250d33d14007a4ef25a6911f4",
+      "metadata": null,
+      "score": 0.38102991595554553,
+      "created_at": "2025-12-06T16:13:28.169262-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.0007555069393480718
+    },
+    {
+      "id": "7520362b-2984-4328-a7c8-c5da979065e6",
+      "memory": "Will incorporate some decoration ideas into the dinner party",
+      "hash": "1dd6dcc7c33e6668a76abf7440cf1be9",
+      "metadata": null,
+      "score": 0.31127768981534054,
+      "created_at": "2025-12-06T16:09:02.246739-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.0006512219954136905
+    },
+    {
+      "id": "db081bf4-b769-4b7b-906c-83a8d201355d",
+      "memory": "Wants to know specific times of the day that are best for posting to maximize engagement",
+      "hash": "ad5ca5da43cbda8393efcdac43e4bf7a",
+      "metadata": null,
+      "score": 0.3476406559854572,
+      "created_at": "2025-12-06T15:59:28.751734-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.0005028822517087949
+    },
+    {
+      "id": "d0b366a3-b808-4530-999b-6a6cc77ae543",
+      "memory": "Wants to showcase a mix of cuisines at the party",
+      "hash": "7f99df4f4958cc6e13deff8a7e2dcd0a",
+      "metadata": null,
+      "score": 0.3636346456097914,
+      "created_at": "2025-12-06T16:09:02.115879-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.00019989043477964652
+    },
+    {
+      "id": "f5292e2a-c329-4268-b4a2-9d59f102cfd0",
+      "memory": "Interested in Nigerian or Mozambican dishes that are easy to make and impressive for guests",
+      "hash": "cfed09d0b7b8ce4cf433e783bec51d59",
+      "metadata": null,
+      "score": 0.3073956775766348,
+      "created_at": "2025-12-06T16:09:02.130024-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_136",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1791,
+    "load_time": 1542.196
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 100,
+  "question_id": "00ca467f",
+  "question": "How many doctor's appointments did I go to in March?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T05:43:20.652119",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "74f56dba-e9a7-41b7-ab98-3807e9838ab3",
+      "memory": "Had a follow-up appointment with orthopedic surgeon Dr. Thompson on March 20th",
+      "hash": "d99fd3e473a144a1f3941a07c56cd223",
+      "metadata": null,
+      "score": 0.5336758139644808,
+      "created_at": "2025-12-01T13:43:41.440310-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.9999999984050811
+    },
+    {
+      "id": "0f72bacc-656e-4dce-bd73-b00ee04ab16b",
+      "memory": "Had an appointment with primary care physician Dr. Smith on March 3rd for the cough",
+      "hash": "21aa0552c8152bde4599bad6633ff05c",
+      "metadata": null,
+      "score": 0.404286441448069,
+      "created_at": "2025-12-01T13:49:51.548684-08:00",
+      "updated_at": "2025-12-01T14:02:29.753612-08:00",
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.9602090857748607
+    },
+    {
+      "id": "bd00c757-d670-43d9-9793-2809131b7d80",
+      "memory": "The department is conducting a program",
+      "hash": "daf4616f6f35d3d05f3269da501cb20b",
+      "metadata": null,
+      "score": 0.22359319485538884,
+      "created_at": "2025-12-01T14:02:46.300645-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.06300058618176194
+    },
+    {
+      "id": "c24ac71c-91fa-4ad8-af1c-e1311a78321d",
+      "memory": "Noticed numbness in left hand around March 15th",
+      "hash": "6e209f79ce4bb1210100af4fbf499993",
+      "metadata": null,
+      "score": 0.2502997822456715,
+      "created_at": "2025-12-01T13:49:51.600780-08:00",
+      "updated_at": "2025-12-01T14:02:30.525333-08:00",
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.04101131360760633
+    },
+    {
+      "id": "95a7f8c0-08c9-4d30-8eb3-0490d75c3bdd",
+      "memory": "Is scheduled to start physical therapy sessions twice a week since March 25th",
+      "hash": "0757065333742d7ca4bad42d45bc78ca",
+      "metadata": null,
+      "score": 0.46884641899814405,
+      "created_at": "2025-12-01T13:49:51.664312-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.023267092554341284
+    },
+    {
+      "id": "537e2a10-9930-4f43-864e-571720e3a2db",
+      "memory": "Will schedule appointments with Dr. Smith and Dr. Johnson to discuss the numbness",
+      "hash": "7d1b262bc31f95363435c28eb41bd45f",
+      "metadata": null,
+      "score": 0.42224835117615317,
+      "created_at": "2025-12-01T14:02:30.639012-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.009715447377024072
+    },
+    {
+      "id": "bc759e0e-f791-4846-b8de-6c341eec5ba0",
+      "memory": "Got a Fitbit scale on February 5th, which has been really helpful for tracking progress",
+      "hash": "2e7bcf787320e2d6e0588a2d743286be",
+      "metadata": null,
+      "score": 0.3321988549367356,
+      "created_at": "2025-12-01T13:51:45.707819-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.004950354609584893
+    },
+    {
+      "id": "0d4582c1-f93a-488b-ac63-73265b16fa87",
+      "memory": "Is considering scheduling an appointment with gastroenterologist Dr. Patel to discuss further treatment options for heartburn and acid reflux",
+      "hash": "ae61fa70087f28c132316daae856cd8e",
+      "metadata": null,
+      "score": 0.40411815477551893,
+      "created_at": "2025-12-01T13:43:41.519828-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.004936665310904175
+    },
+    {
+      "id": "45412924-56b4-4870-a0ae-84ab2f5743f6",
+      "memory": "Wants to know how long it takes to hike the Shiretoko Peninsula and what the must-see sights are",
+      "hash": "2b46f0c6d540cc90aa1f677fdbbe54b5",
+      "metadata": null,
+      "score": 0.2171007071656731,
+      "created_at": "2025-12-01T13:52:10.524755-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.004933623244530682
+    },
+    {
+      "id": "50e89ea3-b679-49b1-ad01-986a9d3e4d03",
+      "memory": "Was diagnosed with bronchitis by Dr. Smith",
+      "hash": "99593022ba5df58647704064608cb145",
+      "metadata": null,
+      "score": 0.20982134063979868,
+      "created_at": "2025-12-01T14:02:30.543521-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.003468107769100508
+    },
+    {
+      "id": "5d7edac6-8659-40eb-aa9e-bff368392752",
+      "memory": "Antibiotic didn't fully clear up the cough",
+      "hash": "46ee896d171523a5f7ded9be95b92a39",
+      "metadata": null,
+      "score": 0.20567590475887074,
+      "created_at": "2025-12-01T13:49:51.586816-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.0032262634924078277
+    },
+    {
+      "id": "12ae20a7-1548-4228-a29a-1b4852085150",
+      "memory": "Orthopedic surgeon Dr. Thompson cleared them to start physical therapy",
+      "hash": "bf303169e3f8259d9b1588ba4814b14a",
+      "metadata": null,
+      "score": 0.2640314840571031,
+      "created_at": "2025-12-01T13:49:51.691785-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.003212878400364459
+    },
+    {
+      "id": "6069093d-fa35-4f7a-b3a7-f3b5668b267d",
+      "memory": "Experiencing heartburn and acid reflux symptoms that started around late January",
+      "hash": "e87ed685c1cbe544ffbd089aff40317f",
+      "metadata": null,
+      "score": 0.3106383874387378,
+      "created_at": "2025-12-01T13:43:41.505819-08:00",
+      "updated_at": "2025-12-01T13:49:51.529622-08:00",
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.002705461729265854
+    },
+    {
+      "id": "dcb97c4a-7135-4e05-aa18-170fdfbe5624",
+      "memory": "Needs to order about 5-6 bags of cat food to last a few months",
+      "hash": "8662be5a7c5e808faaecac59ecfe2859",
+      "metadata": null,
+      "score": 0.23166120790213227,
+      "created_at": "2025-12-01T14:00:14.043998-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.0023185108865575654
+    },
+    {
+      "id": "be974f25-7bee-43c7-a785-4e715d50cacf",
+      "memory": "Has an EMG test scheduled with neurologist Dr. Johnson on April 1st",
+      "hash": "df4d042f36edb62a6438b98d714cfa78",
+      "metadata": null,
+      "score": 0.32009705707720015,
+      "created_at": "2025-12-01T13:49:51.616936-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.00200867642641732
+    },
+    {
+      "id": "d7ca8d5b-d3ac-4b2e-a517-a7c7ba46c6ac",
+      "memory": "Wants to know the best time of the year to go on a hike on the Shiretoko Peninsula",
+      "hash": "3de4e1d5457b44c80c5ce53eed5425cb",
+      "metadata": null,
+      "score": 0.2848574929998362,
+      "created_at": "2025-12-01T13:52:10.576264-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.0015374603451632795
+    },
+    {
+      "id": "31e175ea-d009-42bb-bcaf-43b0869533bf",
+      "memory": "Plans to start with some relaxation exercises",
+      "hash": "dd6924954258e6dde9da797de6d4776f",
+      "metadata": null,
+      "score": 0.2450396260673901,
+      "created_at": "2025-12-01T13:43:41.584540-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.0011791049263658233
+    },
+    {
+      "id": "f3ac23af-0004-489b-bccd-272150a83d94",
+      "memory": "Planning a 4-day trip to Rome and wants to pack light",
+      "hash": "baf6d46b0058fb984bf18611ab937839",
+      "metadata": null,
+      "score": 0.2104029608993599,
+      "created_at": "2025-12-01T14:01:53.617949-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.001087538728523689
+    },
+    {
+      "id": "61c5534b-1a91-4d6c-af22-e219cc92b9ec",
+      "memory": "Has been dealing with a lingering cough for six weeks",
+      "hash": "2ea2deb7f4cc5c16e0a4895c0a1f0494",
+      "metadata": null,
+      "score": 0.24661809160701126,
+      "created_at": "2025-12-01T13:43:41.397343-08:00",
+      "updated_at": "2025-12-01T14:02:29.718147-08:00",
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.0010554449282833395
+    },
+    {
+      "id": "131184a5-f582-41b1-ba9f-beae732e2ff0",
+      "memory": "Started reading birth chart and exploring how it relates to life events and choices",
+      "hash": "d79ac3233de92f1dad43999b9345bcf6",
+      "metadata": null,
+      "score": 0.22083702554585868,
+      "created_at": "2025-12-01T13:44:35.513324-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_100",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2782,
+    "load_time": 1410.3207
+  }
+}

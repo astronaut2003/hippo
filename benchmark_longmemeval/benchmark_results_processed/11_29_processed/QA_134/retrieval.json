@@ -1,0 +1,242 @@
+{
+  "sample_idx": 134,
+  "question_id": "75832dbd",
+  "question": "Can you recommend some recent publications or conferences that I might find interesting?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T07:09:45.689577",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "5171e514-4fb2-46ee-9ed5-2e91fdc3134f",
+      "memory": "Looking for something a bit more contemporary",
+      "hash": "286f717944694e8ab611e7c9baa4625e",
+      "metadata": null,
+      "score": 0.4649252109523148,
+      "created_at": "2025-12-06T15:10:52.775023-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.999999998843039
+    },
+    {
+      "id": "43c0abb9-f13e-49e5-a584-a5a85a012f6c",
+      "memory": "Wants recommendations for resources or online courses to improve understanding of LGBTQ+ issues and allyship",
+      "hash": "62ca2bea681d2f9dcdbc49d43a8ddb89",
+      "metadata": null,
+      "score": 0.33677075638209414,
+      "created_at": "2025-12-06T15:22:39.301904-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.4286327554038925
+    },
+    {
+      "id": "4ebff7f0-43fe-4c02-a222-b3f73015316b",
+      "memory": "Trying to plan content for the next week",
+      "hash": "7dfcdf036dfeade7d73391e50c3aac61",
+      "metadata": null,
+      "score": 0.2870206848009694,
+      "created_at": "2025-12-06T15:14:26.298029-08:00",
+      "updated_at": "2025-12-06T15:26:46.423665-08:00",
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.2866676154118276
+    },
+    {
+      "id": "ae6e707c-d2a9-4c68-99ea-1b5e196bc025",
+      "memory": "Interested in learning more about intersectional feminism and how it relates to LGBTQ+ issues",
+      "hash": "0712fb91d9e2722f5bf3ba1ed83196e0",
+      "metadata": null,
+      "score": 0.26597513402099565,
+      "created_at": "2025-12-06T15:22:39.315233-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.2783959171433101
+    },
+    {
+      "id": "300065b5-5885-41c1-a2a4-8cdb2d03691c",
+      "memory": "Looking for resources on creating a more inclusive workplace environment",
+      "hash": "8d74b230c2a168a206d91de89576addf",
+      "metadata": null,
+      "score": 0.30926232466135584,
+      "created_at": "2025-12-06T15:22:39.142597-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.2504410901062862
+    },
+    {
+      "id": "b20692da-747f-489f-839f-57d4a22a78af",
+      "memory": "Thinking of trying to meet new people, maybe through some hobbies or clubs",
+      "hash": "fae70ff9386b6da9bb35431b8de05ad8",
+      "metadata": null,
+      "score": 0.3096702147160543,
+      "created_at": "2025-12-06T15:27:38.718288-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.16118634547595445
+    },
+    {
+      "id": "3acf5bfc-32eb-45fe-a186-36100db862d7",
+      "memory": "Wants to explore more research papers and articles on explainable AI in medical image analysis",
+      "hash": "effdd2784d8d18a0b11fe3edee801bcf",
+      "metadata": null,
+      "score": 0.2749500689185697,
+      "created_at": "2025-12-06T15:12:32.977416-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.06958761463795565
+    },
+    {
+      "id": "bd67da25-bd4c-4a6d-8aec-27ca4069b35c",
+      "memory": "Wants to explore more advanced topics in deep learning for medical image analysis",
+      "hash": "0b80fe40d7a50ad8ac7fc8734e1285db",
+      "metadata": null,
+      "score": 0.3424783466924929,
+      "created_at": "2025-12-06T15:12:32.942887-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.06446447551187777
+    },
+    {
+      "id": "5dcf775c-9710-4b0e-bc2f-f6ae818a51dc",
+      "memory": "Recently attended a social media workshop and learned some new strategies",
+      "hash": "a39beac7dfbf3bc428de4b423a87596a",
+      "metadata": null,
+      "score": 0.33623247980442994,
+      "created_at": "2025-12-06T15:30:47.025675-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.04233298231350264
+    },
+    {
+      "id": "c3fc8d0b-80c4-4eb3-820a-c61dd308b0ba",
+      "memory": "Likes the idea of joining a book club since loves reading",
+      "hash": "41abb84646407480ae6a26557c96b76c",
+      "metadata": null,
+      "score": 0.29234533092573434,
+      "created_at": "2025-12-06T15:27:38.731074-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.007913987701521847
+    },
+    {
+      "id": "82ee912e-2c31-4923-bc96-b5fc7bd89ba6",
+      "memory": "Thinking about creating my own online community, maybe a Facebook group or a forum, dedicated to hiking and outdoor activities",
+      "hash": "06d983af99f599ec72d92b048b5aebbe",
+      "metadata": null,
+      "score": 0.27834194494291076,
+      "created_at": "2025-12-06T15:30:47.168036-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.004357183926792205
+    },
+    {
+      "id": "ab18a64a-ac71-4e5c-8cc4-34ed9e14f15c",
+      "memory": "Previous experience with a book club wasn't that great",
+      "hash": "f92add734572c84ba542847728be5233",
+      "metadata": null,
+      "score": 0.26816730503261477,
+      "created_at": "2025-12-06T15:27:38.745990-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.0022568204618538304
+    },
+    {
+      "id": "07debc30-f6bf-4abb-9eba-a3693a2cbf9d",
+      "memory": "Has been researching different options online",
+      "hash": "472a9449bba2353e57a022054a7c98fc",
+      "metadata": null,
+      "score": 0.2688566662953391,
+      "created_at": "2025-12-06T15:16:16.777667-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.002247441868949872
+    },
+    {
+      "id": "38289342-e105-4a9f-833e-485460f40f43",
+      "memory": "Looking forward to creating a social media challenge or series of posts that showcases different hiking trails and outdoor activities",
+      "hash": "5a94c72246decc04b4faa05cb750dc42",
+      "metadata": null,
+      "score": 0.2606961537421177,
+      "created_at": "2025-12-06T15:30:47.197825-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.002111176430874704
+    },
+    {
+      "id": "5360be65-ec61-4780-95d2-dc50a79e59ce",
+      "memory": "Attended a photography workshop today and learned some new techniques",
+      "hash": "2ef9b46f6e2d8fe9b64bd70726b8b4c2",
+      "metadata": null,
+      "score": 0.2731847967163754,
+      "created_at": "2025-12-06T15:16:16.728409-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.002048174353837521
+    },
+    {
+      "id": "bfa545f2-e0b9-4bb1-b046-d152754cffdd",
+      "memory": "Planning to develop documents about the Fresh Earth ecosystem and token",
+      "hash": "e675bb7936e6df356fd33df361d339a8",
+      "metadata": null,
+      "score": 0.26351654898158416,
+      "created_at": "2025-12-06T15:17:13.457877-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.0019030820047939215
+    },
+    {
+      "id": "00d9abc3-c577-47d1-9244-0ab4837aaf69",
+      "memory": "Wants recommendations for popular brands and models for beginners",
+      "hash": "6c2e021d97ccdc8612dc56886d9191f4",
+      "metadata": null,
+      "score": 0.35365785157169194,
+      "created_at": "2025-12-06T15:11:40.525744-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.001792304272140101
+    },
+    {
+      "id": "91d90b93-d735-40d1-8a95-486c32f9c63e",
+      "memory": "Considering creating a social media challenge or a series of posts that showcase different hiking trails or outdoor activities to encourage engagement and attract new members to my community",
+      "hash": "c11a731723d977408b49028cefad59f5",
+      "metadata": null,
+      "score": 0.2916692422992605,
+      "created_at": "2025-12-06T15:30:47.181996-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.0016354059296762235
+    },
+    {
+      "id": "471d20f5-62e9-4fea-beca-757b36bd7f21",
+      "memory": "Looking for recommendations for must-have kitchen essentials",
+      "hash": "961b60ff2a3d2ee18246e45035f498f0",
+      "metadata": null,
+      "score": 0.2689464638115885,
+      "created_at": "2025-12-06T15:19:00.410122-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.0010672838724705242
+    },
+    {
+      "id": "0956b2ee-7305-40ee-8fa3-b9a9546c8967",
+      "memory": "Has a movie collection of over 50 DVDs and Blu-rays and is planning to organize it by categorizing by genre and then alphabetizing within each genre",
+      "hash": "55e1ea67346305589158b051472de3cd",
+      "metadata": null,
+      "score": 0.2766806686967972,
+      "created_at": "2025-12-06T15:18:07.113125-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_134",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2676,
+    "load_time": 1437.6555
+  }
+}

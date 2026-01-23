@@ -1,0 +1,242 @@
+{
+  "sample_idx": 147,
+  "question_id": "d24813b1",
+  "question": "I'm thinking of inviting my colleagues over for a small gathering. Any tips on what to bake?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T12:48:50.716332",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "406b1b86-f40b-4e00-a799-67579d73d7bb",
+      "memory": "Looking for recipe ideas for the party",
+      "hash": "0036d77d43e40612c04afe20cbd4621a",
+      "metadata": null,
+      "score": 0.6052673384844076,
+      "created_at": "2025-12-06T21:09:02.916208-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.9999999990871894
+    },
+    {
+      "id": "bd75b3d0-cdfe-46a9-89a3-0bdcc7fd175d",
+      "memory": "Thinking of making a batch of chocolate chip cookies to bring to the party too",
+      "hash": "2e6da22747ef649e4e9e03ff18992fb5",
+      "metadata": null,
+      "score": 0.49566172241269046,
+      "created_at": "2025-12-06T21:09:57.766306-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.8539389787237195
+    },
+    {
+      "id": "037b7999-32fd-473a-9ac9-301be88699fd",
+      "memory": "Thinking of making a cake for a friend's birthday",
+      "hash": "fb700b36a2810f7e9ee914360e99b99f",
+      "metadata": null,
+      "score": 0.4505395365392616,
+      "created_at": "2025-12-06T21:09:57.558343-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.6144707579964169
+    },
+    {
+      "id": "01196d4a-0732-4c75-9bf2-fa6da42b9117",
+      "memory": "Planning to make a vegan lasagna for a family gathering soon",
+      "hash": "ac72e7bbcebfc39d9fbe007844a26b8f",
+      "metadata": null,
+      "score": 0.36618040463870993,
+      "created_at": "2025-12-06T20:53:34.066588-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.5350451507955002
+    },
+    {
+      "id": "9942076f-7e50-447b-845e-028e79171f4d",
+      "memory": "Wants to try out new dishes",
+      "hash": "cce86fa2eff71c7f5126452b4837adf5",
+      "metadata": null,
+      "score": 0.4034045295851234,
+      "created_at": "2025-12-06T21:09:02.950466-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.4981913873527136
+    },
+    {
+      "id": "25a345f7-b92a-4342-9f57-7a200028c797",
+      "memory": "Was thinking of trying out a new recipe for dinner tonight, something with chicken and vegetables",
+      "hash": "616ccf1db88389710939952097060159",
+      "metadata": null,
+      "score": 0.43629222971940296,
+      "created_at": "2025-12-06T20:54:06.951732-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.4947477685766617
+    },
+    {
+      "id": "4e9e2471-3317-4239-9cae-5754e5b81e7b",
+      "memory": "Made a lemon poppyseed cake for a colleague's going-away party",
+      "hash": "aa9fe3b12fe1faf39ae65254414227b7",
+      "metadata": null,
+      "score": 0.38167631559451554,
+      "created_at": "2025-12-06T21:09:57.573964-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.4645955163939848
+    },
+    {
+      "id": "193f5b52-2088-4628-b7f0-15cbee9ab63c",
+      "memory": "Excited to try out breakfast recipes",
+      "hash": "0436abe27ba3ed94fdd060754b80b419",
+      "metadata": null,
+      "score": 0.39615824726459736,
+      "created_at": "2025-12-06T21:09:03.066515-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.44520463817576894
+    },
+    {
+      "id": "90b59125-cd19-490d-b71e-258ad3ca0ea8",
+      "memory": "Wants tips on how to make the perfect chewy cookie",
+      "hash": "54ab1d3d3be4811d745bca4049ca35dd",
+      "metadata": null,
+      "score": 0.39331535261533906,
+      "created_at": "2025-12-06T21:09:57.793657-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.42736938631702653
+    },
+    {
+      "id": "10369001-7a09-4910-8929-2bcfeb595200",
+      "memory": "Hosting a party this weekend",
+      "hash": "4149e9be0f11017bf71d01ff766b415b",
+      "metadata": null,
+      "score": 0.3862901345924693,
+      "created_at": "2025-12-06T21:09:02.869003-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.40084373705184606
+    },
+    {
+      "id": "38a3499a-a606-403c-a0a2-29ec897bc97a",
+      "memory": "Looking forward to experimenting with different recipes",
+      "hash": "22740c4a143fad268135fe3518614494",
+      "metadata": null,
+      "score": 0.42013677174781194,
+      "created_at": "2025-12-06T21:09:03.018571-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.3897392895852761
+    },
+    {
+      "id": "c2405302-709d-4f92-b37a-7ecc093b3416",
+      "memory": "Planning to serve the cake at a birthday party",
+      "hash": "be8752fb8b25b45f20315f091c40002d",
+      "metadata": null,
+      "score": 0.4493433924306893,
+      "created_at": "2025-12-06T21:09:57.749361-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.3361187989479528
+    },
+    {
+      "id": "4b1c2d4c-af4f-40a9-8ba6-54ba7570d2e0",
+      "memory": "Excited to try out the slow cooker and make delicious recipes",
+      "hash": "4d9309ced4a51d95573f2e8b0d371ee9",
+      "metadata": null,
+      "score": 0.37570388243960473,
+      "created_at": "2025-12-06T21:09:03.034685-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.3133746188170289
+    },
+    {
+      "id": "f2887b57-2b81-4d35-8797-6c64352025ce",
+      "memory": "Thinking about meal prep for the week",
+      "hash": "abf5c458bdabc9aa590187bc44d0d420",
+      "metadata": null,
+      "score": 0.3858343913574591,
+      "created_at": "2025-12-06T21:01:49.523506-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.28983900180601807
+    },
+    {
+      "id": "0be99f6a-46f4-4247-ade8-b55f6fb1ecb2",
+      "memory": "Looking for easy and healthy breakfast recipes to make using the slow cooker",
+      "hash": "a43715c5a77333db856ad504873a219f",
+      "metadata": null,
+      "score": 0.37124014707680286,
+      "created_at": "2025-12-06T21:09:03.050869-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.2848082872284698
+    },
+    {
+      "id": "d5c4f87b-08cd-428e-b0f4-586ee33500fa",
+      "memory": "Has been trying to bake more cookies on the weekends",
+      "hash": "b8710c4c41178936bf794e5fa4eff8c7",
+      "metadata": null,
+      "score": 0.4191192937258426,
+      "created_at": "2025-12-06T20:59:51.283131-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.22891890640535276
+    },
+    {
+      "id": "a2bb9603-1ead-4228-9133-4ac643d7f4c2",
+      "memory": "Would like to do meal prep on Sunday, like last week",
+      "hash": "74bd067ffc25bdec6cdd40100925cee7",
+      "metadata": null,
+      "score": 0.38803421182478937,
+      "created_at": "2025-12-06T21:01:49.538197-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.16390913285388278
+    },
+    {
+      "id": "9c948a6c-b19d-406d-a6c9-bd6a47b79874",
+      "memory": "Wants tips on how to reheat leftovers safely in the slow cooker",
+      "hash": "8dd52a61c32c7e880487a186c3269ce9",
+      "metadata": null,
+      "score": 0.35087686037616944,
+      "created_at": "2025-12-06T21:09:03.097883-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.10058478078790602
+    },
+    {
+      "id": "dcc20d83-ede7-435a-af4d-1da282144258",
+      "memory": "Thinks all the dishes sound amazing",
+      "hash": "22ea1417bffe7ee1df3d5a12d62ce76b",
+      "metadata": null,
+      "score": 0.3634935462665724,
+      "created_at": "2025-12-06T20:49:24.538407-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.020222359201568355
+    },
+    {
+      "id": "f0394724-a2cd-48b9-a23e-5e9697cd1043",
+      "memory": "Likes the Herby Delight and Indian-Style popcorn ideas",
+      "hash": "9fdeefdf49d4bea7e37a50928e1d2286",
+      "metadata": null,
+      "score": 0.3480548882382089,
+      "created_at": "2025-12-06T20:59:51.234022-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_147",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3912,
+    "load_time": 1655.6408
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "sample_idx": 50,
+  "question_id": "76d63226",
+  "question": "What size is my new Samsung TV?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T13:44:05.928438",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "1fdde0ee-246b-42d6-b346-fdaa17a7552a",
+      "memory": "Set up new Samsung 55-inch 4K smart TV on Saturday, March 12th",
+      "hash": "6c0663c18e7cff09e8a8097087ec0d18",
+      "metadata": null,
+      "score": 0.5060554659909886,
+      "created_at": "2025-11-29T21:47:06.262383-08:00",
+      "updated_at": "2025-11-29T22:04:42.445351-08:00",
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.9999999991416677
+    },
+    {
+      "id": "ca3a7113-56b9-4dbc-9229-5c67a6455df3",
+      "memory": "Has been spending a lot of time on new TV lately",
+      "hash": "2b07081e74886ea58e8073a07248fac7",
+      "metadata": null,
+      "score": 0.2841688216803781,
+      "created_at": "2025-11-29T22:04:42.455166-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.4058001327735841
+    },
+    {
+      "id": "17d8e716-5f35-4df7-b553-fd35540de1f1",
+      "memory": "Connected old soundbar to new TV",
+      "hash": "b91e201097e0e1a9ec7c298a22a8c34e",
+      "metadata": null,
+      "score": 0.3656649417239485,
+      "created_at": "2025-11-29T22:04:42.455817-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.14686403849420998
+    },
+    {
+      "id": "f26a36c7-5911-4e10-bb80-c9e230c4e669",
+      "memory": "Wants something easy to watch",
+      "hash": "2ef1852b979f2a8aa257197d092f66a7",
+      "metadata": null,
+      "score": 0.16915732887212886,
+      "created_at": "2025-11-29T22:04:42.455490-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.09691738930948954
+    },
+    {
+      "id": "1ebfcd5f-d98b-47b7-9f0d-f08012930e19",
+      "memory": "Decided to curb TV watching habit",
+      "hash": "e6b96c4b90ef6f44f4e4adfa40d7742a",
+      "metadata": null,
+      "score": 0.3416674642128775,
+      "created_at": "2025-11-29T22:04:42.456715-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.016374662311997436
+    },
+    {
+      "id": "1cdd8fea-78f3-4602-a261-897575575f93",
+      "memory": "Needs to be more mindful of screen time",
+      "hash": "900870e9d873d6da662ad82c28f0431a",
+      "metadata": null,
+      "score": 0.15310986736034873,
+      "created_at": "2025-11-29T22:04:42.456115-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.0139841940881559
+    },
+    {
+      "id": "81c2a36d-b5e2-40ee-a27f-e6161b09a4d6",
+      "memory": "Used cable ties and cable clips to hide cables behind TV",
+      "hash": "c1fd1fa02fb98cdf97e4a6f544e031d4",
+      "metadata": null,
+      "score": 0.301529628019721,
+      "created_at": "2025-11-29T21:47:06.286356-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.003504868607342503
+    },
+    {
+      "id": "e0f1f887-7a1a-48a6-b2d0-58cc9960f35a",
+      "memory": "Removed Facebook Watch app from TV which was never used",
+      "hash": "9f62c070155e1ffe0abd37645be83e72",
+      "metadata": null,
+      "score": 0.30569270251872993,
+      "created_at": "2025-11-29T22:04:42.457301-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.0024944265378599177
+    },
+    {
+      "id": "0a1b10cd-28e3-4548-bd7d-4bee19911902",
+      "memory": "Removed a few unused apps from TV",
+      "hash": "14ff25fb283eee8bad7adb59267447f4",
+      "metadata": null,
+      "score": 0.3432425294370966,
+      "created_at": "2025-11-29T22:04:42.457026-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.0019892873600587968
+    },
+    {
+      "id": "84a36b8d-e12b-4ca8-b0fe-ad9dfe81d82c",
+      "memory": "Considering upgrading old laptop",
+      "hash": "7e133993765b7ae512f3351d5f0a04fb",
+      "metadata": null,
+      "score": 0.1276522594304419,
+      "created_at": "2025-11-29T21:47:06.239325-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.0016034956010283834
+    },
+    {
+      "id": "e4894cf8-0e9d-4d25-a7b7-6eb2bdc83d85",
+      "memory": "Has a Honda Civic Si",
+      "hash": "7f6d723e5b50e5ce22f30472398bb35d",
+      "metadata": null,
+      "score": 0.18694898464441317,
+      "created_at": "2025-11-29T21:45:49.382539-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.001552416870361085
+    },
+    {
+      "id": "4226450a-b0d0-445a-9184-83e2044c95b8",
+      "memory": "Considering getting the stand as well for convenience and space-saving",
+      "hash": "b8440d782c36ba21fd4495926c487760",
+      "metadata": null,
+      "score": 0.17729204827561515,
+      "created_at": "2025-11-29T21:55:39.015031-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.0012020691664251268
+    },
+    {
+      "id": "cc8d2cd7-7461-4253-bf18-9fc7966ac358",
+      "memory": "Interested in the Bellroy Slim Sleeve Wallet",
+      "hash": "ba99eaf68910e702a6e0add7a57d6954",
+      "metadata": null,
+      "score": 0.1311830874307122,
+      "created_at": "2025-11-29T21:49:55.347758-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.0009091850344898798
+    },
+    {
+      "id": "2f178a94-fc29-4e50-a3aa-b3cccfa549d7",
+      "memory": "Wants recommendations for a small storage bag that can fit in gym bag",
+      "hash": "4d112dbc5270baa61d80fda93f55b638",
+      "metadata": null,
+      "score": 0.10995095862437299,
+      "created_at": "2025-11-29T21:49:55.561781-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.00045144102504831966
+    },
+    {
+      "id": "36b34eaf-4995-4d39-985d-0459cf9b4ceb",
+      "memory": "Happy with the quality and craftsmanship of the Chanel handbag",
+      "hash": "bc5196260063a2fac389a861eacb8ea1",
+      "metadata": null,
+      "score": 0.12341830086548891,
+      "created_at": "2025-11-29T21:53:40.371889-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.00041174040906492257
+    },
+    {
+      "id": "5c7681b6-f799-4b69-9606-81d2c34f9aa9",
+      "memory": "Watched Captain Marvel with sister a few months ago",
+      "hash": "79b0939fbe46c1b0f8f477b4c6233c48",
+      "metadata": null,
+      "score": 0.12855028522756445,
+      "created_at": "2025-11-29T22:05:21.930357-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.00038611918679110134
+    },
+    {
+      "id": "7345d424-7c2f-4b95-8cc6-ad395c4eb9c0",
+      "memory": "Big fan of sci-fi and fantasy shows",
+      "hash": "5f56aae787cbb6ed2b3aa6a24b4ebfcd",
+      "metadata": null,
+      "score": 0.12815776571733664,
+      "created_at": "2025-11-29T21:47:06.310407-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.000371139366739634
+    },
+    {
+      "id": "6c905ee5-35eb-44ce-b29a-0216c628cdbe",
+      "memory": "Watched When They See Us miniseries on Netflix recently",
+      "hash": "ffc79883e54e3f10985b6f8ddf49a851",
+      "metadata": null,
+      "score": 0.14807892743388912,
+      "created_at": "2025-11-29T22:05:21.930684-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.00036745580443189613
+    },
+    {
+      "id": "2a6a3105-c58c-4891-ac00-41814a76eefc",
+      "memory": "Looking to get a new wallet since current one is feeling a bit bulky",
+      "hash": "c5fa33761f67d14a72728e7ade6dabc8",
+      "metadata": null,
+      "score": 0.20017247008978728,
+      "created_at": "2025-11-29T21:49:55.243419-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.0003580422563121215
+    },
+    {
+      "id": "77083620-1af3-46f4-891b-3bc76a2fcb36",
+      "memory": "Interested in the standard Slim Sleeve Wallet without RFID-blocking material",
+      "hash": "c37d800da159b9c524adcc16eb7dd758",
+      "metadata": null,
+      "score": 0.17047217973686957,
+      "created_at": "2025-11-29T21:49:55.406563-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_50",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "retrieval_time": 0.0507,
+    "load_time": 1307.8325
+  }
+}

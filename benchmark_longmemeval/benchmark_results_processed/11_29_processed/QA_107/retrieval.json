@@ -1,0 +1,242 @@
+{
+  "sample_idx": 107,
+  "question_id": "129d1232",
+  "question": "How much money did I raise in total through all the charity events I participated in?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T08:39:04.802804",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "55fe7b1b-cf26-4871-857c-bc858e8134a3",
+      "memory": "Recently participated in a Bike-a-Thon for Cancer Research and their team raised $5,000",
+      "hash": "c9be920edbfc05b04fb7199ee50758d3",
+      "metadata": null,
+      "score": 0.4704480925799328,
+      "created_at": "2025-12-01T16:59:59.553965-08:00",
+      "updated_at": "2025-12-01T17:04:24.097304-08:00",
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.9999999987349473
+    },
+    {
+      "id": "506768cd-7dcb-4c33-b1f9-5505ca66accb",
+      "memory": "Saved around $25 on total bill of $125 with the coupon",
+      "hash": "abbb8a7f177cc03f70e6ec0e418ef359",
+      "metadata": null,
+      "score": 0.3770662492728023,
+      "created_at": "2025-12-01T17:01:19.609957-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.33638963846365916
+    },
+    {
+      "id": "df5315b5-f2bc-4b40-a6ca-8059e7fc9d5b",
+      "memory": "Thinking about organizing a charity event of their own, maybe a charity run or a fundraising dinner",
+      "hash": "ab350d5af7e3a1dbad3871fa33b55093",
+      "metadata": null,
+      "score": 0.5104785987742575,
+      "created_at": "2025-12-01T17:04:24.117215-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.3206820434299561
+    },
+    {
+      "id": "6d50353f-7c96-47f2-9e84-9c07e1019aac",
+      "memory": "Has earned 3,000 points on Fetch Rewards, equivalent to $30",
+      "hash": "0fb8f9564c726948c6aef327c5808b28",
+      "metadata": null,
+      "score": 0.4287031845557372,
+      "created_at": "2025-12-01T17:02:16.487192-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.10206045976114175
+    },
+    {
+      "id": "5b5da46f-a213-4d80-9040-3936cdf8022a",
+      "memory": "Will start by brainstorming some ideas and researching different charities to support",
+      "hash": "747b46687e188b201d4f0f490ae61644",
+      "metadata": null,
+      "score": 0.42879225967791634,
+      "created_at": "2025-12-01T17:04:24.137486-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.04366980939921424
+    },
+    {
+      "id": "02d589b6-dc1f-4b60-b69b-42c3671231ab",
+      "memory": "Used digital coupons at SaveMore and saved $20 last month",
+      "hash": "82777cde8c81c8e393dc6ef4ac26084d",
+      "metadata": null,
+      "score": 0.3007852721938752,
+      "created_at": "2025-12-01T17:02:16.367180-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.012115153907420765
+    },
+    {
+      "id": "7f9088af-424a-4015-8593-45f171ee5cfa",
+      "memory": "Redeemed 500 points at SaveMore for a $5 discount on last grocery bill, equivalent to a $5 gift card",
+      "hash": "3c8d87fc74e7452af63762dc66058e91",
+      "metadata": null,
+      "score": 0.3279538903476009,
+      "created_at": "2025-12-01T17:02:16.383401-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.00808103205563491
+    },
+    {
+      "id": "411d86cb-699f-4394-9e8f-4c1cab0b6217",
+      "memory": "Will start researching some charities that focus on education and children's welfare",
+      "hash": "3734d7603a4f930a0ef04f1d9deb8c3d",
+      "metadata": null,
+      "score": 0.3510701386819072,
+      "created_at": "2025-12-01T17:04:24.152396-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.0073960107064381855
+    },
+    {
+      "id": "6c23ff84-2e81-4720-9cfb-6fd23141a60d",
+      "memory": "Recently redeemed 500 points from SaveMore for a $5 discount on last grocery bill, equivalent to a $5 gift card",
+      "hash": "2453a6e0c350e73f90f3852d0d286d45",
+      "metadata": null,
+      "score": 0.3176317506990619,
+      "created_at": "2025-12-01T17:02:16.502423-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.004688981993286352
+    },
+    {
+      "id": "237a61da-209c-4f74-bae7-7b3b8b64c09d",
+      "memory": "Considering a spa day gift certificate",
+      "hash": "4fd440433d665da72293cab21652d3f8",
+      "metadata": null,
+      "score": 0.2184345451620459,
+      "created_at": "2025-12-01T16:52:17.393227-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.0035217432554423378
+    },
+    {
+      "id": "e8419ec9-9e13-48fb-b27f-f42cc07e6c44",
+      "memory": "Tried on some luxury watches at the mall a while back and was shocked by the prices",
+      "hash": "b25fccc748a788c46352528e6341aa55",
+      "metadata": null,
+      "score": 0.24329664159311615,
+      "created_at": "2025-12-01T16:56:25.415787-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.002882446297113094
+    },
+    {
+      "id": "036a2767-5e8c-4dd2-9f5f-4820e2eed181",
+      "memory": "Redeemed 500 points from Amazon Rewards Visa card, which gave a $5 credit towards last purchase",
+      "hash": "2bfbbbc5ed86e18ed2f270c03efc95ac",
+      "metadata": null,
+      "score": 0.21128783542950658,
+      "created_at": "2025-12-01T17:01:19.641080-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.0028440812409234926
+    },
+    {
+      "id": "126aafef-85ab-43cd-b558-3f7fa6a3a9bb",
+      "memory": "Budget for gift is around $100-$200",
+      "hash": "0e4854aad2b856600b6466323d1da3e5",
+      "metadata": null,
+      "score": 0.30763434707654413,
+      "created_at": "2025-12-01T16:52:17.377421-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.001987623587181409
+    },
+    {
+      "id": "29bfea8c-8758-4f40-80a2-3f771a2b8329",
+      "memory": "Will get priority boarding, extra baggage allowance, and access to airport lounges with MVP Gold status",
+      "hash": "ffea314738ed390db2527ddd1c62e58f",
+      "metadata": null,
+      "score": 0.20732782793652127,
+      "created_at": "2025-12-01T16:39:44.229325-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.0015109558607502257
+    },
+    {
+      "id": "b4ae91db-e88c-4338-813d-8d17947a9a69",
+      "memory": "Finds the price of the luxury wallet still a bit steep",
+      "hash": "57180879ba91f1a3d15d5de62c19c06a",
+      "metadata": null,
+      "score": 0.2312722265522864,
+      "created_at": "2025-12-01T16:56:25.499494-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.0012434862709000778
+    },
+    {
+      "id": "c9873e70-d44f-4007-bd4c-4b2a69d858fd",
+      "memory": "Will make sure to create a unique and engaging event concept that will attract attendees and sponsors",
+      "hash": "256a9fb4cd6e722357d7f497f8bf557d",
+      "metadata": null,
+      "score": 0.29619960804050127,
+      "created_at": "2025-12-01T17:04:24.167566-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.0010742215733088476
+    },
+    {
+      "id": "9f3cda84-cb70-48e8-a138-1e3bd1a3d158",
+      "memory": "Used a Cartwheel offer for 5% off on laundry detergent at Target last weekend",
+      "hash": "7bb9dc395e19952faa3192ea7b46802b",
+      "metadata": null,
+      "score": 0.2590444287883277,
+      "created_at": "2025-12-01T17:01:19.656744-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.0008708143886054878
+    },
+    {
+      "id": "4a7e3fd7-0e0d-4b96-bd80-9401313b7419",
+      "memory": "Usually buys a monthly pass for $100",
+      "hash": "4b385fe9874462f544f6b4b60a5df6ec",
+      "metadata": null,
+      "score": 0.23655531993578682,
+      "created_at": "2025-12-01T16:42:47.780119-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.0007816578586554385
+    },
+    {
+      "id": "6f17374c-123f-4200-82c5-47bf86a0d978",
+      "memory": "Used a 20% off coupon on last online shopping order on Amazon on March 15th",
+      "hash": "1fff515e84910a29c565a5a255dc77ec",
+      "metadata": null,
+      "score": 0.24808887955416295,
+      "created_at": "2025-12-01T17:01:19.592176-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.0005833177568450448
+    },
+    {
+      "id": "99953e61-6dd7-40a7-9ce7-2626c76e87f8",
+      "memory": "Heard some agencies have a stronger focus on supporting birth mothers",
+      "hash": "20ef8be8b90a6790d363fabbd8d45e98",
+      "metadata": null,
+      "score": 0.20677746746750542,
+      "created_at": "2025-12-01T16:45:26.803645-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_107",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4403,
+    "load_time": 1569.9702
+  }
+}

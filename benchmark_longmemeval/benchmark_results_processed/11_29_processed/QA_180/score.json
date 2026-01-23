@@ -1,0 +1,77 @@
+{
+  "sample_idx": 180,
+  "question_id": "e25c3b8d",
+  "question": "How much did I save on the designer handbag at TK Maxx?",
+  "question_type": "multi-session",
+  "gold_answer": "$300",
+  "question_date": "2023/05/30 (Tue) 15:02",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-08T21:08:57.240756",
+  "predicted_answer": "You saved $300 on the designer handbag at TK Maxx, as it was originally $500 and you bought it for $200.",
+  "prompt_length": 3175,
+  "gen_token_usage": {
+    "prompt_tokens": 866,
+    "answer_tokens": 27,
+    "total_tokens": 893,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.66,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 21,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1,
+      "rouge1_f": 0.0909090909090909,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0909090909090909,
+      "semantic_similarity": 0.49922293424606323,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.07045454545454545,
+      "avg_semantic": 0.49922293424606323,
+      "overall_average": 0.15620823204517365
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1,
+    "rouge1_f": 0.0909090909090909,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0909090909090909,
+    "semantic_similarity": 0.49922293424606323,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.07045454545454545,
+    "avg_semantic": 0.49922293424606323,
+    "overall_average": 0.15620823204517365
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1765.5514,
+    "retrieval_time": 0.4297,
+    "generation_time": 2.5027,
+    "evaluation_time": 1.9552,
+    "cleanup_time": 1.6673,
+    "total_time": 1772.1097
+  }
+}

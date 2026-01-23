@@ -1,0 +1,77 @@
+{
+  "sample_idx": 160,
+  "question_id": "1c0ddc50",
+  "question": "Can you suggest some activities I can do during my commute to work?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer suggestions related to listening to new podcasts or audiobooks, especially the genre beyond true crime or self-improvement, such as history. They may not be interested in activities that require visual attention, such as reading or watching videos, as they are commuting. The user would not prefer general podcast topics such as true crime or self-improvement, as the user wants to explore other topics.",
+  "question_date": "2023/05/30 (Tue) 13:09",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T18:25:07.451968",
+  "predicted_answer": "You can listen to podcasts during your bus ride, as you've already started doing that. Additionally, consider using the commute time for activities like meditation or deep breathing to enhance your self-care routine.",
+  "prompt_length": 3118,
+  "gen_token_usage": {
+    "prompt_tokens": 836,
+    "answer_tokens": 38,
+    "total_tokens": 874,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 67,
+      "response_length": 33,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1894736842105263,
+      "rouge1_f": 0.21153846153846154,
+      "rouge2_f": 0.019607843137254905,
+      "rougeL_f": 0.15384615384615385,
+      "semantic_similarity": 0.4946896433830261,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.13871457489878541,
+      "avg_semantic": 0.4946896433830261,
+      "overall_average": 0.209909588098526
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1894736842105263,
+    "rouge1_f": 0.21153846153846154,
+    "rouge2_f": 0.019607843137254905,
+    "rougeL_f": 0.15384615384615385,
+    "semantic_similarity": 0.4946896433830261,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.13871457489878541,
+    "avg_semantic": 0.4946896433830261,
+    "overall_average": 0.209909588098526
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1618.9175,
+    "retrieval_time": 9.5557,
+    "generation_time": 1.3939,
+    "evaluation_time": 1.1087,
+    "cleanup_time": 1.6514,
+    "total_time": 1632.6473
+  }
+}

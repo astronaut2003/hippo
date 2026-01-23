@@ -1,0 +1,242 @@
+{
+  "sample_idx": 196,
+  "question_id": "3fe836c9",
+  "question": "How much more was the pre-approval amount than the final sale price of the house?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T03:51:14.405016",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "87718532-580d-49dd-a271-6df2485da3a1",
+      "memory": "Recently got pre-approved for a mortgage",
+      "hash": "1cd0a28971af09c2d001a52ff0b28d93",
+      "metadata": null,
+      "score": 0.5459701217209231,
+      "created_at": "2025-12-08T12:11:26.268595-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.9999999989894955
+    },
+    {
+      "id": "9fb24a3d-e969-4d60-a040-739bb4406b1c",
+      "memory": "Final sale price was $325,000",
+      "hash": "730947a1bf4fca54fc9b6baeceb57573",
+      "metadata": null,
+      "score": 0.6186272159067672,
+      "created_at": "2025-12-08T11:57:23.773457-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.9369759132090371
+    },
+    {
+      "id": "b939fdf7-058b-43b2-86d0-7d44ec55f779",
+      "memory": "Just bought a house",
+      "hash": "6c0af1c13491b1108764765802c5164c",
+      "metadata": null,
+      "score": 0.4148354967099803,
+      "created_at": "2025-12-08T11:57:23.740644-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.6265117069241511
+    },
+    {
+      "id": "3e2dd432-922a-44ac-aea5-70a873561a69",
+      "memory": "Considering putting down a larger down payment to avoid PMI",
+      "hash": "6b2ef0f56b86cd85a6c6945f5633f84c",
+      "metadata": null,
+      "score": 0.26272127305874116,
+      "created_at": "2025-12-08T12:11:26.310150-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.39193730873871496
+    },
+    {
+      "id": "4bf851ab-526a-4772-97db-c86198272ac9",
+      "memory": "Lender said can borrow up to $350,000",
+      "hash": "444847a47df83a498e1e8dcb2d0cef29",
+      "metadata": null,
+      "score": 0.3080590885768225,
+      "created_at": "2025-12-08T12:11:26.293200-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.25500553663490433
+    },
+    {
+      "id": "fe1e7c11-3bc3-4855-88d3-d7e5d6e952c7",
+      "memory": "Wants to know how much to put down to avoid PMI on a $350,000 loan",
+      "hash": "e2699c7fc5ac30d6a5b3111fb85937cf",
+      "metadata": null,
+      "score": 0.3996452192852088,
+      "created_at": "2025-12-08T12:11:26.326863-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.17770510022798322
+    },
+    {
+      "id": "519342c7-acbe-4e3c-a75d-8a4eb705ad84",
+      "memory": "Is interested in homeowner's insurance premiums and factors affecting them",
+      "hash": "222776aa1139d8b3eb162fd09c6e8ca5",
+      "metadata": null,
+      "score": 0.2671468193149519,
+      "created_at": "2025-12-08T11:57:23.822612-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.10017000481071607
+    },
+    {
+      "id": "08f2a9ef-5b2f-47fb-8d45-adffbd0fa6d1",
+      "memory": "Wants to know how replacement cost value (RCV) and actual cash value (ACV) impact insurance policy and premium",
+      "hash": "8400667cf3884aaa191c84d24ab6e064",
+      "metadata": null,
+      "score": 0.20028071730994734,
+      "created_at": "2025-12-08T11:57:23.853068-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.09358432618688524
+    },
+    {
+      "id": "32dec367-8ce6-4d6d-8535-7eacaae7dc0e",
+      "memory": "Wants to budget for potential home repairs",
+      "hash": "044165c77ce5d4213573f783c701106e",
+      "metadata": null,
+      "score": 0.3210440555716801,
+      "created_at": "2025-12-08T11:57:23.806236-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.08667369060909677
+    },
+    {
+      "id": "83697744-f4bc-4b73-b9f3-6f91d2d05b7a",
+      "memory": "The house is in a subdivision with a community pool and playground",
+      "hash": "48cf079212a2554408b902f927736870",
+      "metadata": null,
+      "score": 0.18118791396205958,
+      "created_at": "2025-12-08T11:57:23.789391-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.07361855462076872
+    },
+    {
+      "id": "d3334b3b-a0ae-449c-bd25-d2a31575feb2",
+      "memory": "Budget is around $200 for a one-way ticket",
+      "hash": "d2edfd3ba795b96cc5df5fbc22614f82",
+      "metadata": null,
+      "score": 0.24179315221705544,
+      "created_at": "2025-12-08T12:09:34.195773-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.05528402456107007
+    },
+    {
+      "id": "bc4cae66-8adb-4f29-84cb-604242c93b68",
+      "memory": "Wants to understand how interest rates are determined and if there are ways to negotiate a better rate",
+      "hash": "00e8625730f48c8bc13dee1a476bbfc0",
+      "metadata": null,
+      "score": 0.24815957741175568,
+      "created_at": "2025-12-08T12:11:26.357990-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.020854681098532096
+    },
+    {
+      "id": "1fd6252d-2128-4be3-96d7-533393822217",
+      "memory": "Unsure about the interest rate",
+      "hash": "9afffc5c13dd72492e921146f3d13c88",
+      "metadata": null,
+      "score": 0.2985443453823805,
+      "created_at": "2025-12-08T12:11:26.342138-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.012315598721225151
+    },
+    {
+      "id": "e32bcde8-ecff-4659-9174-9137591cd732",
+      "memory": "Wants to understand the differences between a conventional loan and an FHA loan",
+      "hash": "18c0364e44eb826a89260a545cf60078",
+      "metadata": null,
+      "score": 0.2174728941031416,
+      "created_at": "2025-12-08T12:11:26.403688-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.007924246859439276
+    },
+    {
+      "id": "b93a6197-06d4-4bab-a3d4-f9a45eeb150e",
+      "memory": "Wants to understand deductibles and the trade-off between a higher deductible and a lower premium",
+      "hash": "6761c60d0a67670167c98d6a54ff2fee",
+      "metadata": null,
+      "score": 0.21368219527234059,
+      "created_at": "2025-12-08T11:57:23.837499-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.007387277657941056
+    },
+    {
+      "id": "c0c6a7b7-2a0c-4b98-96ee-f05c1fca2352",
+      "memory": "Wants to know more about the different types of loans available",
+      "hash": "d78ad9e12d50ab4d8e536ee60c86affb",
+      "metadata": null,
+      "score": 0.18279877162754024,
+      "created_at": "2025-12-08T12:11:26.388890-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.0021909538399249883
+    },
+    {
+      "id": "f7a3aacd-c1dd-4829-9e44-c99a7ec5142a",
+      "memory": "Wants to know more about inflation protection in RCV policies, including how it works and any limitations or exclusions",
+      "hash": "6565884c8916373f35f4c631c0958e7a",
+      "metadata": null,
+      "score": 0.1932302166962201,
+      "created_at": "2025-12-08T11:57:23.869497-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.002160597540845315
+    },
+    {
+      "id": "c390ef1c-7c51-4cdb-8fc1-992837ef17e8",
+      "memory": "Has been on a roll with sales lately and got great deals on clothes and accessories in the past 3 weeks",
+      "hash": "21b95131db917012962b7aa4332eb460",
+      "metadata": null,
+      "score": 0.19569575027907168,
+      "created_at": "2025-12-08T11:58:09.263127-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.0002496926060807409
+    },
+    {
+      "id": "7ac2feb4-14d5-44ff-aa89-40eab6ef11a1",
+      "memory": "Has around 20,000 miles accumulated on United account",
+      "hash": "3d93ede50b99a519cbe6d702cef5239b",
+      "metadata": null,
+      "score": 0.19801961320815797,
+      "created_at": "2025-12-08T12:09:34.305111-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.00021952904540792275
+    },
+    {
+      "id": "5ba155d0-cca6-43ce-ab6e-84414e355e2e",
+      "memory": "Wants to know if Graz has any sales or discounts for tourists to get the best deals possible",
+      "hash": "1d2615ef004b89ca556df3edcd979429",
+      "metadata": null,
+      "score": 0.20048979764300995,
+      "created_at": "2025-12-08T11:52:05.245293-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_196",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5714,
+    "load_time": 1292.7396
+  }
+}

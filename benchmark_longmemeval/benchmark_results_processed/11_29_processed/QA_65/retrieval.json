@@ -1,0 +1,242 @@
+{
+  "sample_idx": 65,
+  "question_id": "15745da0_abs",
+  "question": "How long have I been collecting vintage films?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T04:13:45.639217",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "ff18cc2e-b63c-4426-9861-c7a3d58c7e21",
+      "memory": "Has been collecting vintage cameras for three months",
+      "hash": "0b4da88108b16a50d97999399bb0c908",
+      "metadata": null,
+      "score": 0.6986751478872109,
+      "created_at": "2025-11-30T12:24:37.853379-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.999999998955935
+    },
+    {
+      "id": "65ce8b43-675e-47d8-b024-bc8b1d2e0df0",
+      "memory": "Has a growing collection of vintage cameras",
+      "hash": "2e651f9a65071cf743d36494f744dfc1",
+      "metadata": null,
+      "score": 0.6263407530970222,
+      "created_at": "2025-11-30T12:24:37.779481-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.5848560618005124
+    },
+    {
+      "id": "19968416-c778-4dce-be4c-88bcf705c42c",
+      "memory": "Has a vinyl record collection",
+      "hash": "64026076e61546c9ce5875ee51d2003b",
+      "metadata": null,
+      "score": 0.40783306912163453,
+      "created_at": "2025-11-30T12:24:37.892658-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.3593700693644701
+    },
+    {
+      "id": "57d3351e-a1fe-411b-a6ec-89c8361b0d00",
+      "memory": "Recently organized the vintage camera collection and has 17 cameras",
+      "hash": "b4fa71697c3681f8c61cf6670162ec74",
+      "metadata": null,
+      "score": 0.5858931703957152,
+      "created_at": "2025-11-30T12:24:37.821999-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.24645753068872375
+    },
+    {
+      "id": "50c679ea-0e30-4044-8af4-e758e6530859",
+      "memory": "Is a huge film buff",
+      "hash": "bccec235b1d3ed76d3c43a2fa47d7aec",
+      "metadata": null,
+      "score": 0.37490282483298687,
+      "created_at": "2025-11-30T12:19:52.262923-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.22035102907760956
+    },
+    {
+      "id": "840d0ec5-93dd-4a1f-82e7-26f5e19ac2fd",
+      "memory": "Has always been interested in documentaries",
+      "hash": "3d99e9f2433631b5e36a0a353da027a2",
+      "metadata": null,
+      "score": 0.4249592228671214,
+      "created_at": "2025-11-30T12:19:52.341341-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.02205679916472076
+    },
+    {
+      "id": "7aef6393-d7a2-480c-8ac0-dd349d33259d",
+      "memory": "Has a collection of posters and art prints",
+      "hash": "e2503fc86a00c735ad3af7097200ca59",
+      "metadata": null,
+      "score": 0.37223768301292615,
+      "created_at": "2025-11-30T12:24:37.920665-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.01613847049361582
+    },
+    {
+      "id": "081db10d-10a6-4ee2-8a50-8a9d7c9b68d8",
+      "memory": "Has a large collection of Funko POP! figures",
+      "hash": "53cd2fc9d2c0f009edccd8f6de3fd27b",
+      "metadata": null,
+      "score": 0.254979674294459,
+      "created_at": "2025-11-30T12:24:37.867236-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.00307332109830793
+    },
+    {
+      "id": "9810a376-2ad1-413d-af02-25e264f732f7",
+      "memory": "Looking to create a display case for grandmother's antique jewelry collection",
+      "hash": "10789caff73100ac18f1209a59e6a9fb",
+      "metadata": null,
+      "score": 0.3572049930874617,
+      "created_at": "2025-11-30T12:28:16.624850-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.00201320155791771
+    },
+    {
+      "id": "2c81af44-ed90-4781-8927-48e5250bbcba",
+      "memory": "Recently got a new Brownie Hawkeye camera",
+      "hash": "1858d1667a73e778b89c24e44ea6016d",
+      "metadata": null,
+      "score": 0.2309021515029234,
+      "created_at": "2025-11-30T12:24:37.841066-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.0017273366945326886
+    },
+    {
+      "id": "e5947d53-09e0-4e9f-a6e9-c502e358bdc3",
+      "memory": "Thinking about getting a new watch",
+      "hash": "4758b36bab51fb604f5b0792add6a8b3",
+      "metadata": null,
+      "score": 0.2325668699122581,
+      "created_at": "2025-11-30T12:22:57.289197-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.0016365290472296098
+    },
+    {
+      "id": "45752ea0-286f-48ce-bd82-70f005acc811",
+      "memory": "Considering personalized movie poster as a gift",
+      "hash": "73648359b3c620940f09516adfe4f077",
+      "metadata": null,
+      "score": 0.4118220726330135,
+      "created_at": "2025-11-30T12:15:13.733027-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.001552492145558778
+    },
+    {
+      "id": "4c93ab4c-be5a-451a-8413-8e9e880311bf",
+      "memory": "Has a grandmother",
+      "hash": "bcdcc9928d9ee8260a5667d543e3cecf",
+      "metadata": null,
+      "score": 0.24643361013554482,
+      "created_at": "2025-11-30T12:15:37.952314-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.001522422069368504
+    },
+    {
+      "id": "5cd545ed-aec7-48f9-8441-9b75d10fcadc",
+      "memory": "Thinking about getting the pearl necklace appraised to find out more about its history and value",
+      "hash": "1137a5710294349211cd8267751a4854",
+      "metadata": null,
+      "score": 0.31283019439359927,
+      "created_at": "2025-11-30T12:28:16.695231-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.001398955531368704
+    },
+    {
+      "id": "83faf95f-9f9c-49a3-8166-769a899592d4",
+      "memory": "Attended the Berlinale online program and watched some fantastic films, including the Golden Bear winner 'Alcarras'",
+      "hash": "224661e6f45739507377ed15f2f73064",
+      "metadata": null,
+      "score": 0.24096913944987552,
+      "created_at": "2025-11-30T12:19:52.404270-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.0013725695373606821
+    },
+    {
+      "id": "fbabcc7a-72b1-4d83-ba69-a776081a3db8",
+      "memory": "Has attended some great documentary screenings at film festivals in the past, like the Berlinale",
+      "hash": "4f99c5f263f0d19f6fe12b7e94aa69bb",
+      "metadata": null,
+      "score": 0.4284811177125697,
+      "created_at": "2025-11-30T12:19:52.358240-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.0012271976458447884
+    },
+    {
+      "id": "3a537ce1-a63d-4eb3-be8f-7c89e9fa087c",
+      "memory": "Thinking of attending a film festival or two while in Toronto",
+      "hash": "18ae8df4bf9c075f5543dba6c25346b9",
+      "metadata": null,
+      "score": 0.28043307579681487,
+      "created_at": "2025-11-30T12:19:52.308776-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.0011771140421239015
+    },
+    {
+      "id": "f9778f0c-d298-4075-b766-fe643897a3c2",
+      "memory": "Attended a panel discussion on 'The Future of Independent Film Distribution' at SXSW",
+      "hash": "5959f29306888616ce434d4f45689756",
+      "metadata": null,
+      "score": 0.30692361934871853,
+      "created_at": "2025-11-30T12:19:52.390196-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.0007045558249085372
+    },
+    {
+      "id": "4ac2805b-140d-4d33-8fe6-3c1c09ffb988",
+      "memory": "Has the entire set of Marvel Cinematic Universe Funko POP! figures",
+      "hash": "8c1d5bf0a15ea44374a4e1987ad2e536",
+      "metadata": null,
+      "score": 0.2358035986002551,
+      "created_at": "2025-11-30T12:24:37.880031-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.00047654100876374497
+    },
+    {
+      "id": "f0a0c2c0-d65c-4d36-bc21-e2a4ea28d2b2",
+      "memory": "Stood in line for 6 hours to get into the 'Dune' screening at the Toronto International Film Festival last year",
+      "hash": "ef68b7c68b2a6b29ea21f669f10900b8",
+      "metadata": null,
+      "score": 0.2621838270873508,
+      "created_at": "2025-11-30T12:19:52.280518-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_65",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2458,
+    "load_time": 971.4149
+  }
+}

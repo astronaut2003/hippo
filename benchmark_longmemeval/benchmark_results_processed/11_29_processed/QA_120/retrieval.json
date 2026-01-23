@@ -1,0 +1,242 @@
+{
+  "sample_idx": 120,
+  "question_id": "1a8a66a6",
+  "question": "How many magazine subscriptions do I currently have?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T01:55:48.583808",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 51,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "d220c932-60ff-46b1-81c5-c4d3203f9867",
+      "memory": "Loves subscription to The New Yorker magazine, subscribed to in early February. Weekly issues keep up-to-date on current events and culture. Loved the last issue on April 10th, which had a fantastic article on the intersection of technology and art.",
+      "hash": "f6c1726c4396549c0f5af0f094450efc",
+      "metadata": null,
+      "score": 0.3997100978057472,
+      "created_at": "2025-12-06T09:56:52.568400-08:00",
+      "updated_at": "2025-12-06T10:14:26.568656-08:00",
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.9999999977387798
+    },
+    {
+      "id": "889578f0-23fd-4b61-9503-34707be68c02",
+      "memory": "Canceled Forbes magazine subscription in early March because the articles weren't interesting",
+      "hash": "378da0baa37a0d3c3db3b3fe7f099be3",
+      "metadata": null,
+      "score": 0.3976077647634601,
+      "created_at": "2025-12-06T09:56:52.554554-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.3074325024052888
+    },
+    {
+      "id": "c2fb4a2d-2d53-4929-851b-0510087aa2b0",
+      "memory": "Thinks the \"Transformation Tuesday\" feature will resonate with the 25 new followers interested in fitness and wellness",
+      "hash": "0ec82dea4f0831ff3f9472c138272f40",
+      "metadata": null,
+      "score": 0.2373164629044433,
+      "created_at": "2025-12-06T10:18:20.711132-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.23714675118726186
+    },
+    {
+      "id": "a9e9715c-5603-4595-9832-07f9f9457771",
+      "memory": "Got a new book subscription box and is excited to start reading 'The Family Upstairs' by Lisa Jewell",
+      "hash": "4f19291c878f8d425e1458d1e8521d89",
+      "metadata": null,
+      "score": 0.3512089305265883,
+      "created_at": "2025-12-06T10:02:37.951434-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.20323910026752784
+    },
+    {
+      "id": "ae043667-ef16-490a-9574-349a1b477bb3",
+      "memory": "Has been reading a lot more frequently since February, particularly on weekends and days off from work",
+      "hash": "d2eab3f717f7b54e3d330393fe32fe97",
+      "metadata": null,
+      "score": 0.31604159033714807,
+      "created_at": "2025-12-06T10:17:23.992747-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.045754206140678114
+    },
+    {
+      "id": "40d20021-761b-4adf-a18a-a4bb990751b8",
+      "memory": "Listening to a lot of podcasts, especially The Daily from The New York Times",
+      "hash": "6661cc3dc0b2f84c93aeb865c6e1af3c",
+      "metadata": null,
+      "score": 0.3121484011691532,
+      "created_at": "2025-12-06T10:14:27.360258-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.027422074360711642
+    },
+    {
+      "id": "52077c44-2798-4f40-a25d-44d97f703dc3",
+      "memory": "Wants to explore more online news sources",
+      "hash": "85e5baebe264cf700ebc4dffac335f85",
+      "metadata": null,
+      "score": 0.2423968621298862,
+      "created_at": "2025-12-06T10:14:27.313482-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.01945780791090901
+    },
+    {
+      "id": "54d7605e-c26e-412a-baab-853368e3bc14",
+      "memory": "Has gained 25 new followers who are interested in fitness and wellness by using relevant hashtags",
+      "hash": "acb1fdeeb30c096949733001fe689676",
+      "metadata": null,
+      "score": 0.33203497600948206,
+      "created_at": "2025-12-06T10:18:20.616036-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.01190327032102799
+    },
+    {
+      "id": "51b6034f-012c-4a60-8152-04a7b2ac16e7",
+      "memory": "Wants to know more about how to use Instagram Insights to track account's engagement rate",
+      "hash": "5080f85e258aac556f6a88727f35cf54",
+      "metadata": null,
+      "score": 0.2401518148614468,
+      "created_at": "2025-12-06T09:56:13.802280-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.004215031734751496
+    },
+    {
+      "id": "41ce21fd-5878-495e-8294-9152d8d12557",
+      "memory": "Looking to create a social media content calendar for the next month",
+      "hash": "16c178f204092fcec3e0750fa2527a82",
+      "metadata": null,
+      "score": 0.22857428075544278,
+      "created_at": "2025-12-06T10:18:20.585297-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.0039088133236521855
+    },
+    {
+      "id": "ca103d9a-09df-45ca-b1a4-4eee2b9e707c",
+      "memory": "Trying to reduce grocery bills by meal planning and making a list every week",
+      "hash": "6564eb5ad3df50777b4db6ffcd3ecc0a",
+      "metadata": null,
+      "score": 0.24834024636610771,
+      "created_at": "2025-12-06T10:12:09.095076-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.003690147500515072
+    },
+    {
+      "id": "05cf60f5-b19c-4152-85e4-efb647490b99",
+      "memory": "Recently participated in the Instagram challenge #MarchMentalHealth and got a lot of engagement",
+      "hash": "c612a6135b1adbbadfe8093076c0e1a8",
+      "metadata": null,
+      "score": 0.2336411322865423,
+      "created_at": "2025-12-06T09:56:13.670611-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.0027934882375918796
+    },
+    {
+      "id": "32aafea8-208a-4229-954a-ab3479dfba07",
+      "memory": "Wants to understand which hashtags are driving the most engagement and growth on Instagram",
+      "hash": "d3ef20975fa766273f5b575fa87b652e",
+      "metadata": null,
+      "score": 0.2768316972629564,
+      "created_at": "2025-12-06T09:56:13.653868-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.002660649828269925
+    },
+    {
+      "id": "8d756493-1234-43b3-87d0-d88b4f4e67f4",
+      "memory": "Interested in exhibitions featuring emerging artists",
+      "hash": "ae7e53ae2c1d6d305149e2c86a400a96",
+      "metadata": null,
+      "score": 0.26324203560209786,
+      "created_at": "2025-12-06T10:16:33.570197-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.002250058381274793
+    },
+    {
+      "id": "5f4827c8-0fbf-4282-9bf3-1c54afc4e688",
+      "memory": "Has a goal to finish at least one book every two weeks",
+      "hash": "ed02e188af32676493ce22302084adf6",
+      "metadata": null,
+      "score": 0.35767518079165006,
+      "created_at": "2025-12-06T10:02:38.048979-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.002102124698166253
+    },
+    {
+      "id": "2720c70a-28be-4275-945d-bd3ceabcbb60",
+      "memory": "Plans to use a combination of internal company channels and social media to promote the dance club",
+      "hash": "4970e31480586f2e90a501f12407da13",
+      "metadata": null,
+      "score": 0.2341972372873268,
+      "created_at": "2025-12-06T09:58:22.009414-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.0018213526057357585
+    },
+    {
+      "id": "f8c8c6cc-aa60-413a-9704-3a15b8f2779f",
+      "memory": "Will start using a payment tracking tool like Wave or FreshBooks to stay organized",
+      "hash": "f7187becee759b294b4bed1b78f82891",
+      "metadata": null,
+      "score": 0.27255576421459116,
+      "created_at": "2025-12-06T10:09:02.697651-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.0016585392956090124
+    },
+    {
+      "id": "69a1431b-2f28-4056-aa1b-e744fc6ac37c",
+      "memory": "Make it into weekly target with KPI for the first 3 months of my opening the business",
+      "hash": "5e7a4dbfdbb21ae0c02006bd851035ae",
+      "metadata": null,
+      "score": 0.2810949502701156,
+      "created_at": "2025-12-06T09:59:09.476567-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.000858058491383209
+    },
+    {
+      "id": "1f09ffc7-dd85-45ec-8cab-198aff2dd027",
+      "memory": "Wondering if it's better to plan meals around what's on sale or plan meals first and then see what's on sale",
+      "hash": "3762cc655fea94cea94aa2728d9abc0e",
+      "metadata": null,
+      "score": 0.2625485191183631,
+      "created_at": "2025-12-06T10:12:09.120543-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.00037457843667570593
+    },
+    {
+      "id": "5ddfb403-3355-490d-86f3-29df38f9ba7b",
+      "memory": "Has been meal planning and making a list but hasn't been checking sales as much as should",
+      "hash": "9a213f72b335d6f9a981e5b14e13538e",
+      "metadata": null,
+      "score": 0.26885286822292953,
+      "created_at": "2025-12-06T10:12:09.165690-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_120",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5808,
+    "load_time": 1411.3664
+  }
+}

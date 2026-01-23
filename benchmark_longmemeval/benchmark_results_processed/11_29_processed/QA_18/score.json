@@ -1,0 +1,77 @@
+{
+  "sample_idx": 18,
+  "question_id": "af8d2e46",
+  "question": "How many shirts did I pack for my 5-day trip to Costa Rica?",
+  "question_type": "single-session-user",
+  "gold_answer": "7",
+  "question_date": "2023/05/30 (Tue) 14:18",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-29T04:39:30.076171",
+  "predicted_answer": "You packed 7 shirts for your 5-day trip to Costa Rica.",
+  "prompt_length": 2944,
+  "gen_token_usage": {
+    "prompt_tokens": 823,
+    "answer_tokens": 15,
+    "total_tokens": 838,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 11,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.16666666666666669,
+      "rouge1_f": 0.15384615384615385,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.15384615384615385,
+      "semantic_similarity": 0.3413269519805908,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1185897435897436,
+      "avg_semantic": 0.3413269519805908,
+      "overall_average": 0.16313718259334564
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.16666666666666669,
+    "rouge1_f": 0.15384615384615385,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.15384615384615385,
+    "semantic_similarity": 0.3413269519805908,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1185897435897436,
+    "avg_semantic": 0.3413269519805908,
+    "overall_average": 0.16313718259334564
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 2904.2991,
+    "retrieval_time": 0.9375,
+    "generation_time": 1.5197,
+    "evaluation_time": 2.6381,
+    "cleanup_time": 1.3316,
+    "total_time": 2910.7289
+  }
+}

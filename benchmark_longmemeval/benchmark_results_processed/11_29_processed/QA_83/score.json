@@ -1,0 +1,77 @@
+{
+  "sample_idx": 83,
+  "question_id": "46a3abf7",
+  "question": "How many tanks do I currently have, including the one I set up for my friend's kid?",
+  "question_type": "multi-session",
+  "gold_answer": 3,
+  "question_date": "2023/05/30 (Tue) 21:36",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-01T11:04:32.431450",
+  "predicted_answer": "You currently have three tanks: a 1-gallon tank set up for your friend's kid, a 5-gallon tank with a solitary betta fish named Finley, and a 20-gallon freshwater community tank named \"Amazonia.\"",
+  "prompt_length": 2936,
+  "gen_token_usage": {
+    "prompt_tokens": 822,
+    "answer_tokens": 49,
+    "total_tokens": 871,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 32,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.20177215337753296,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.20177215337753296,
+      "overall_average": 0.04035443067550659
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.20177215337753296,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.20177215337753296,
+    "overall_average": 0.04035443067550659
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1384.1657,
+    "retrieval_time": 0.555,
+    "generation_time": 1.8433,
+    "evaluation_time": 0.9875,
+    "cleanup_time": 2.2805,
+    "total_time": 1389.8364
+  }
+}

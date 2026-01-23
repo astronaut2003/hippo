@@ -1,0 +1,77 @@
+{
+  "sample_idx": 17,
+  "question_id": "ad7109d1",
+  "question": "What speed is my new internet plan?",
+  "question_type": "single-session-user",
+  "gold_answer": "500 Mbps",
+  "question_date": "2023/05/30 (Tue) 21:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-29T03:55:25.466103",
+  "predicted_answer": "Your new internet plan is 500 Mbps.",
+  "prompt_length": 2979,
+  "gen_token_usage": {
+    "prompt_tokens": 811,
+    "answer_tokens": 9,
+    "total_tokens": 820,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 7,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.4444444444444445,
+      "rouge1_f": 0.4444444444444445,
+      "rouge2_f": 0.2857142857142857,
+      "rougeL_f": 0.4444444444444445,
+      "semantic_similarity": 0.7283292412757874,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.33333333333333337,
+      "avg_semantic": 0.7283292412757874,
+      "overall_average": 0.41233253479003906
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.4444444444444445,
+    "rouge1_f": 0.4444444444444445,
+    "rouge2_f": 0.2857142857142857,
+    "rougeL_f": 0.4444444444444445,
+    "semantic_similarity": 0.7283292412757874,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.33333333333333337,
+    "avg_semantic": 0.7283292412757874,
+    "overall_average": 0.41233253479003906
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 2638.1329,
+    "retrieval_time": 1.244,
+    "generation_time": 2.7121,
+    "evaluation_time": 1.2852,
+    "cleanup_time": 1.2256,
+    "total_time": 2644.6043
+  }
+}

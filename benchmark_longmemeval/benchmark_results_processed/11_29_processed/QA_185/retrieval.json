@@ -1,0 +1,242 @@
+{
+  "sample_idx": 185,
+  "question_id": "a1cc6108",
+  "question": "How old was I when Alex was born?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T23:37:21.666599",
+  "load_result": {
+    "total_sessions": 43,
+    "added_sessions": 43,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "8bf28d39-2790-4e63-9585-b0c7a562a914",
+      "memory": "Intern Alex is young",
+      "hash": "e2d5691ae1f99d8e55615ef874b56870",
+      "metadata": null,
+      "score": 0.5839976842801781,
+      "created_at": "2025-12-08T07:41:23.993029-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.9999999983672448
+    },
+    {
+      "id": "1da79eb3-c71b-433d-b919-548eb6a1e41f",
+      "memory": "Wants to provide the right guidance for Alex",
+      "hash": "749e8dc3bd4bdfcbb1fb1ce1c68d85a9",
+      "metadata": null,
+      "score": 0.4627308236350855,
+      "created_at": "2025-12-08T07:41:24.009102-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.2030816424856369
+    },
+    {
+      "id": "6696002c-feb8-4102-9f1c-aba600e64a4b",
+      "memory": "Looking for advice on mentoring a new intern named Alex",
+      "hash": "5e43527741d7865760615302988a2be7",
+      "metadata": null,
+      "score": 0.3613399022837368,
+      "created_at": "2025-12-08T07:41:23.957646-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.1957887310296685
+    },
+    {
+      "id": "15a6cdbc-355f-447f-a65f-0b73fadee865",
+      "memory": "Wants to see Alex learn and grow",
+      "hash": "e66e44082e346d651deb0fe5d3fac4df",
+      "metadata": null,
+      "score": 0.5732555710703044,
+      "created_at": "2025-12-08T07:41:24.038628-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.19559284575740768
+    },
+    {
+      "id": "fba90528-3bdb-4a3b-9005-1f13461cc43a",
+      "memory": "Grandma turned 75 recently",
+      "hash": "1e4a3a4f381357fb918fbabbac096869",
+      "metadata": null,
+      "score": 0.3064583380398533,
+      "created_at": "2025-12-08T07:41:24.136277-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.08204712241960253
+    },
+    {
+      "id": "14f2cc29-b4cc-4150-b378-29910d8c5b43",
+      "memory": "Excited to take on a mentorship role with Alex",
+      "hash": "949074e0a22b9d8738174968c0754241",
+      "metadata": null,
+      "score": 0.4965053961871803,
+      "created_at": "2025-12-08T07:41:24.023620-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.06840382220479992
+    },
+    {
+      "id": "7e1fc19b-5f80-4e25-82df-d7c15e46fd92",
+      "memory": "Planning a birthday party for niece Emily, who is 5 years old",
+      "hash": "d7c665280dd094e84d11ced9def6dc7b",
+      "metadata": null,
+      "score": 0.21647170259268636,
+      "created_at": "2025-12-08T07:44:33.441386-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.02942109590826301
+    },
+    {
+      "id": "31bd1c0c-52d9-4913-b35b-b5954cb06075",
+      "memory": "Planning a birthday gift for sister's upcoming birthday on the 20th of this month",
+      "hash": "969b2185c5e459bf703459f50bad3f4a",
+      "metadata": null,
+      "score": 0.20370618668982785,
+      "created_at": "2025-12-08T07:58:29.005278-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.005690015595353947
+    },
+    {
+      "id": "a0d73b80-00d9-4fb5-9916-ac781e60f926",
+      "memory": "Has been taking jazz dance classes with Michael",
+      "hash": "fa616b049b0f2f95a1e1d179ee36d333",
+      "metadata": null,
+      "score": 0.2061964166231905,
+      "created_at": "2025-12-08T07:43:59.545298-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.002720127043819115
+    },
+    {
+      "id": "0dee7612-a8ba-4ef8-9d1a-f4d3ce04585e",
+      "memory": "Often drives with family around New York City",
+      "hash": "5786b7a628d52acd1d2368792858086b",
+      "metadata": null,
+      "score": 0.18045994307417929,
+      "created_at": "2025-12-08T07:59:16.110178-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.0017159425280718215
+    },
+    {
+      "id": "532d9779-1fac-462c-a4a9-26f898e89c0c",
+      "memory": "Is curious about the history and culture of Russia",
+      "hash": "472d76510c2f19c503e8f346660897aa",
+      "metadata": null,
+      "score": 0.24669046996688282,
+      "created_at": "2025-12-08T07:38:58.684640-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.001649609359563782
+    },
+    {
+      "id": "5f5628b4-7fdf-4be0-96a6-e8cc3e834ae9",
+      "memory": "Had no idea Russian literature was so rich and complex",
+      "hash": "1bbbea7f7c2b581bb79e955a112cd2bf",
+      "metadata": null,
+      "score": 0.22420947462777063,
+      "created_at": "2025-12-08T07:38:58.669288-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.001297545289149046
+    },
+    {
+      "id": "845eff65-e5fa-4d48-ac38-86ad0cd5ccca",
+      "memory": "Recently went to a Paul McCartney show with parents",
+      "hash": "1d8c7f83bfd18f6c1d2929b291d3114e",
+      "metadata": null,
+      "score": 0.26205847143958355,
+      "created_at": "2025-12-08T07:37:50.014606-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.0011843429100285186
+    },
+    {
+      "id": "22f75098-54a9-4ed2-a709-942152628fbd",
+      "memory": "Is curious about interesting cultural or historical aspects associated with the Cyrillic alphabet in Russia",
+      "hash": "993ad462a72c6a6c7277ce8777c7b620",
+      "metadata": null,
+      "score": 0.2172669772516798,
+      "created_at": "2025-12-08T07:38:58.607147-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.001157716215627404
+    },
+    {
+      "id": "41647fc1-e677-4042-904b-90fb471389bd",
+      "memory": "Wants to know about other alphabets or writing systems that influenced the Cyrillic alphabet",
+      "hash": "7dbd0a9b6e9abdd503b5a2e2e65b70f0",
+      "metadata": null,
+      "score": 0.20429213967306567,
+      "created_at": "2025-12-08T07:38:58.638303-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.0009551353418505039
+    },
+    {
+      "id": "f3a7a836-c64e-4efa-a062-f4b8d548ba82",
+      "memory": "Is really curious about the Soviet era in Russia",
+      "hash": "b78d5e75c0a5f513bc47424285674efd",
+      "metadata": null,
+      "score": 0.2411997769655984,
+      "created_at": "2025-12-08T07:38:58.720484-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.00030270347319161716
+    },
+    {
+      "id": "131232ac-468b-49b9-a0b1-3dda7953e67c",
+      "memory": "Wants to know more about how the Soviet era impacted the culture and daily life of Russians",
+      "hash": "c92d8aa1a0779200611344e23cfe89d4",
+      "metadata": null,
+      "score": 0.20257813333158306,
+      "created_at": "2025-12-08T07:38:58.736177-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.00021830775175650578
+    },
+    {
+      "id": "a32cc1e9-6b9f-4268-84c3-8e7a30f393f0",
+      "memory": "Is fascinated by how the Cyrillic alphabet evolved from the Slavonic alphabet created by Cyril and Methodius",
+      "hash": "b1a4fc449655b6723b1c75370ec8b527",
+      "metadata": null,
+      "score": 0.26737385501641825,
+      "created_at": "2025-12-08T07:38:58.620746-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 5.761331537083248e-05
+    },
+    {
+      "id": "ff340991-7d2c-4507-b68c-1936f2cd23d6",
+      "memory": "Thinks about ageism in the workplace and challenges faced by older workers",
+      "hash": "c0744772a6d5d7a9bc4072b2eea38ebc",
+      "metadata": null,
+      "score": 0.18578471691453363,
+      "created_at": "2025-12-08T07:41:24.170196-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 1.1678374737330909e-05
+    },
+    {
+      "id": "4a7b0fdd-fa7f-4c17-801b-1796683ea866",
+      "memory": "Wants to know about famous Russian authors who wrote in Cyrillic and their notable works to explore Russian literature more",
+      "hash": "cad9bd74ce74623edabc2929f2c2d9f2",
+      "metadata": null,
+      "score": 0.19310283586194638,
+      "created_at": "2025-12-08T07:38:58.654695-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_185",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.5084,
+    "load_time": 1520.7972
+  }
+}

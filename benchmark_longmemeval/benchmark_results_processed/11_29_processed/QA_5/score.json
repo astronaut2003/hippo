@@ -1,0 +1,77 @@
+{
+  "sample_idx": 5,
+  "question_id": "c5e8278d",
+  "question": "What was my last name before I changed it?",
+  "question_type": "single-session-user",
+  "gold_answer": "Johnson",
+  "question_date": "2023/05/30 (Tue) 22:36",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-28T23:31:59.729764",
+  "predicted_answer": "Your last name before you changed it was Johnson.",
+  "prompt_length": 3117,
+  "gen_token_usage": {
+    "prompt_tokens": 817,
+    "answer_tokens": 10,
+    "total_tokens": 827,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.19999999999999998,
+      "rouge1_f": 0.19999999999999998,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.19999999999999998,
+      "semantic_similarity": 0.6000337600708008,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.15,
+      "avg_semantic": 0.6000337600708008,
+      "overall_average": 0.24000675976276398
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.19999999999999998,
+    "rouge1_f": 0.19999999999999998,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.19999999999999998,
+    "semantic_similarity": 0.6000337600708008,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.15,
+    "avg_semantic": 0.6000337600708008,
+    "overall_average": 0.24000675976276398
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1306.0069,
+    "retrieval_time": 1.2201,
+    "generation_time": 2.8072,
+    "evaluation_time": 0.9685,
+    "cleanup_time": 1.7203,
+    "total_time": 1312.7253
+  }
+}

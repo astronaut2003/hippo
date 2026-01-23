@@ -1,0 +1,242 @@
+{
+  "sample_idx": 124,
+  "question_id": "gpt4_2f91af09",
+  "question": "How many total pieces of writing have I completed since I started writing again three weeks ago, including short stories, poems, and pieces for the writing challenge?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T03:29:19.791168",
+  "load_result": {
+    "total_sessions": 53,
+    "added_sessions": 53,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "5b6231be-3cd1-4c93-9317-2c6713a5a57f",
+      "memory": "Has written 17 poems in the past two weeks",
+      "hash": "2ffba692f73d06fafb572a75993dacce",
+      "metadata": null,
+      "score": 0.6094418024109797,
+      "created_at": "2025-12-06T11:32:03.495398-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.9999999984775426
+    },
+    {
+      "id": "168e526a-6054-43fe-a7fc-326c14bc8da2",
+      "memory": "Has written five short stories so far",
+      "hash": "9f56142a8d9247a1e08ec519d779464e",
+      "metadata": null,
+      "score": 0.5645970830605045,
+      "created_at": "2025-12-06T11:44:37.718227-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.8794413662673871
+    },
+    {
+      "id": "7a714ed0-ff0b-403a-90f9-cfbca76cabe6",
+      "memory": "Trying to organize writing projects and looking for tools or apps to help stay on top of writing schedule and deadlines",
+      "hash": "6e8bed5733ee2316748ee3bd35201479",
+      "metadata": null,
+      "score": 0.3788099569002307,
+      "created_at": "2025-12-06T11:32:03.466135-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.576005733659854
+    },
+    {
+      "id": "33de7661-6240-4c77-af6e-029cdd9851e4",
+      "memory": "Will try using writing prompts or exercises to get started with each Pomodoro session, and then transition into writing project",
+      "hash": "ce9e018e0521ccff757561216d19b3d0",
+      "metadata": null,
+      "score": 0.37298890279508773,
+      "created_at": "2025-12-06T11:32:03.660859-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.5571398103560637
+    },
+    {
+      "id": "a85381bb-97c7-4dbb-90fc-0cf4cd6cb735",
+      "memory": "Is looking for writing prompts to stay motivated",
+      "hash": "8fcb9359a0a5a608f90142f55b3bb449",
+      "metadata": null,
+      "score": 0.35709624162574494,
+      "created_at": "2025-12-06T11:44:37.739883-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.5456518617067762
+    },
+    {
+      "id": "8570dfdb-a6dd-443f-b3fc-625a9e5a0b69",
+      "memory": "Likes the idea of writing from a different perspective",
+      "hash": "b38227b4b373fac10aa2ca93588ea38a",
+      "metadata": null,
+      "score": 0.3238251284295749,
+      "created_at": "2025-12-06T11:44:37.754201-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.38366295802656236
+    },
+    {
+      "id": "1b400b3b-98fe-4692-80c6-f590e3affd5a",
+      "memory": "Wants to know if Pomodoro Timer is good for poetry writing sessions or better suited for longer writing projects like short stories",
+      "hash": "f51bb76081c82c1d7f0a48c99189f8e8",
+      "metadata": null,
+      "score": 0.4122406976212435,
+      "created_at": "2025-12-06T11:32:03.574533-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.3281653143369209
+    },
+    {
+      "id": "d167dd44-4540-466d-841a-7f132f8ef044",
+      "memory": "Wants to know if it's a good idea to set specific writing goals for each Pomodoro session, like a certain number of words or lines to write",
+      "hash": "2d16548490e2b4fb0489381895d95283",
+      "metadata": null,
+      "score": 0.38230297838299876,
+      "created_at": "2025-12-06T11:32:03.617550-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.31367782660690186
+    },
+    {
+      "id": "dd3fd282-e986-45a2-badb-52707b9e0103",
+      "memory": "Will start with setting specific tasks for each Pomodoro session, like writing a certain scene or developing a character, rather than focusing on word count or line count",
+      "hash": "2eb39771f30869bbad855d34882ec9e6",
+      "metadata": null,
+      "score": 0.3580884027278074,
+      "created_at": "2025-12-06T11:32:03.630955-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.2515288984752106
+    },
+    {
+      "id": "d6084d60-36a6-43a2-a5e6-f40fdc862926",
+      "memory": "Stops at 'The Daily Grind' on the way to work a few times a week",
+      "hash": "bc71694020d077003246e70ffcb64a62",
+      "metadata": null,
+      "score": 0.22820159429924575,
+      "created_at": "2025-12-06T11:34:28.742169-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.23823475077639011
+    },
+    {
+      "id": "1154a0a4-84a4-4167-9fef-fb69017ab97d",
+      "memory": "Wants to know if it's a good idea to use a writing prompt or exercise to get started with each Pomodoro session, or should just dive right into writing project",
+      "hash": "d7108ba477d360f195ef56e5af498c39",
+      "metadata": null,
+      "score": 0.3545511998396283,
+      "created_at": "2025-12-06T11:32:03.646870-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.21793490288954634
+    },
+    {
+      "id": "d580f467-a1c0-4019-8693-a50e2bbc415d",
+      "memory": "Is thinking of writing a story from the perspective of a book",
+      "hash": "dc2c1a2d5918a34624b9e847a6ce5b31",
+      "metadata": null,
+      "score": 0.30896268301431673,
+      "created_at": "2025-12-06T11:44:37.769215-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.10516637523759911
+    },
+    {
+      "id": "5d4c89df-45ae-4c99-9aed-52f6fcc2f761",
+      "memory": "Wants to know more about how Pomodoro Timers work and how they can help stay focused during writing sessions",
+      "hash": "acab84f5cb416a1564ba0d8e93daecde",
+      "metadata": null,
+      "score": 0.29207296691611473,
+      "created_at": "2025-12-06T11:32:03.527102-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.07763055130320161
+    },
+    {
+      "id": "762a143b-cee1-448c-98db-1ff80d882029",
+      "memory": "Curious about books that share similarities with Sarah Johnson's writing style",
+      "hash": "0f4a139f765302018f8ae19393654499",
+      "metadata": null,
+      "score": 0.252978178459196,
+      "created_at": "2025-12-06T11:39:34.045566-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.005895846045368203
+    },
+    {
+      "id": "77585f1d-7fd8-4e30-ae1e-3043639f44cc",
+      "memory": "Interested in exploring more books that feature authors who have a similar writing style to Sarah Johnson's",
+      "hash": "c9437444842d3767a36093cde860b8a8",
+      "metadata": null,
+      "score": 0.29091072558865577,
+      "created_at": "2025-12-06T11:39:34.015344-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.004173423270078154
+    },
+    {
+      "id": "e2ec8064-d845-416f-8a00-a77f852afa79",
+      "memory": "Looking to create a more structured workout plan to help reach goal of losing 10 pounds in the next two months",
+      "hash": "756d89b0d4fe91144dea255128459874",
+      "metadata": null,
+      "score": 0.25893516004466544,
+      "created_at": "2025-12-06T11:43:08.740707-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.0033266585709724
+    },
+    {
+      "id": "d6471a0a-9f75-4151-a1c9-0a2940c91b2a",
+      "memory": "Just got back from a book reading event at the local library where author Sarah Johnson read from her debut novel 'The Weight of Memory'",
+      "hash": "2dafb847443bd50fe6178324adba4b43",
+      "metadata": null,
+      "score": 0.22721546586476404,
+      "created_at": "2025-12-06T11:39:33.923003-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.0017852912791845599
+    },
+    {
+      "id": "9036b656-8fdf-4d18-a66d-7104de7c53a7",
+      "memory": "Interested in exploring more books that feature complex characters and explorations of memory and identity",
+      "hash": "262cf1715536aabcdae8b49413129c07",
+      "metadata": null,
+      "score": 0.21876022472493656,
+      "created_at": "2025-12-06T11:39:34.058816-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.0008522820273921085
+    },
+    {
+      "id": "4c2ef451-74a4-45f1-96df-dd5dbd29256a",
+      "memory": "Looking for inspiration for next painting project",
+      "hash": "9a11b1f584d781ddb0ac985d3e0ecd6e",
+      "metadata": null,
+      "score": 0.2424420880356036,
+      "created_at": "2025-12-06T11:42:11.699571-08:00",
+      "updated_at": "2025-12-06T11:48:03.347353-08:00",
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.00034976957478493855
+    },
+    {
+      "id": "dd7fe7f1-2db8-4c7d-bde6-954c92840568",
+      "memory": "Interested in exploring more books with similar themes of memory and identity",
+      "hash": "911aa4e3ecf8e1d8bc258e838c9cd80f",
+      "metadata": null,
+      "score": 0.21146876166358958,
+      "created_at": "2025-12-06T11:39:33.949659-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_124",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3015,
+    "load_time": 1236.536
+  }
+}

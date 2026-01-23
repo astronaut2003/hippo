@@ -1,0 +1,242 @@
+{
+  "sample_idx": 68,
+  "question_id": "29f2956b_abs",
+  "question": "How much time do I dedicate to practicing violin every day?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T05:10:38.501171",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "4acc6e2a-368e-4364-87c0-76eda40e0713",
+      "memory": "Has been practicing guitar for 30 minutes daily and it's helping progress nicely",
+      "hash": "7a36296892025bb9b609decd727dba20",
+      "metadata": null,
+      "score": 0.505679834301725,
+      "created_at": "2025-11-30T13:14:51.725221-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.9999999983389569
+    },
+    {
+      "id": "790e9946-c0c0-41f1-a728-acb30ee816b7",
+      "memory": "Plans to start with a few minutes of meditation in the morning and gradually work up the duration",
+      "hash": "b779cd83ddaf8e6ed2e784c0e967c7e7",
+      "metadata": null,
+      "score": 0.4043891505803279,
+      "created_at": "2025-11-30T13:24:26.013659-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.19410824653521022
+    },
+    {
+      "id": "e02d744f-845c-45c1-bcba-3de7aafe2cb1",
+      "memory": "Averages 55 pages a day to finish books quickly",
+      "hash": "2b61f35699df40ff2d11c748729fe7cc",
+      "metadata": null,
+      "score": 0.3219245871959882,
+      "created_at": "2025-11-30T13:12:38.116610-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.1796213885213579
+    },
+    {
+      "id": "0cdcc9fc-d354-43f8-b12d-71956a2a0c1e",
+      "memory": "Getting more into art lately",
+      "hash": "870f67058a3964600da8d2d2ff3183f3",
+      "metadata": null,
+      "score": 0.25504629303508797,
+      "created_at": "2025-11-30T13:15:29.670615-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.09393488343522566
+    },
+    {
+      "id": "a880d80b-cbf0-40ff-ac38-43e8a4b11c30",
+      "memory": "Interested in learning more about jazz music, especially saxophone",
+      "hash": "65176afd5ba8ea17a847fae8bd6b496f",
+      "metadata": null,
+      "score": 0.27741353735158736,
+      "created_at": "2025-11-30T13:14:51.738516-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.009039791796991823
+    },
+    {
+      "id": "cb2135ff-b84c-46ec-b329-793fee4ad718",
+      "memory": "Plans to start practicing gratitude and focusing on strengths more",
+      "hash": "76c66096f626b256545ba0a8bf2cc2d7",
+      "metadata": null,
+      "score": 0.22966320309913735,
+      "created_at": "2025-11-30T13:13:03.838283-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.007887838515743364
+    },
+    {
+      "id": "11fa853b-b2f4-4550-9656-405878089643",
+      "memory": "Goes to yoga studio near house consistently three times a week",
+      "hash": "bad23028de999a6bcd111912e087c124",
+      "metadata": null,
+      "score": 0.43391781227102644,
+      "created_at": "2025-11-30T13:16:39.213850-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.0068030508273509765
+    },
+    {
+      "id": "fd7a045c-846c-419a-9eb4-5c26eb88d277",
+      "memory": "Plans to start meditating in the morning",
+      "hash": "9869eb0e03a4f29bf6339c664e229491",
+      "metadata": null,
+      "score": 0.24696822789056455,
+      "created_at": "2025-11-30T13:24:25.983774-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.0036038142393292672
+    },
+    {
+      "id": "715f6742-0dc0-4279-98e5-d83f5c9ca706",
+      "memory": "Wants to practice saying \"no\" more often",
+      "hash": "303a500e49e266c6bdb7ebe85e2b01f1",
+      "metadata": null,
+      "score": 0.3104602525443849,
+      "created_at": "2025-11-30T13:13:03.793246-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.003342121882257973
+    },
+    {
+      "id": "82f3e4f4-802d-4665-8c6a-db9571901933",
+      "memory": "Is balancing coursework with full-time job",
+      "hash": "0e5737cc0d99c6eed271fdfd172b2e1a",
+      "metadata": null,
+      "score": 0.2403870083518739,
+      "created_at": "2025-11-30T13:11:05.545983-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.002917267825559903
+    },
+    {
+      "id": "60f1cab3-f4d9-4554-b101-062d9e4e87a5",
+      "memory": "Learned tips at a yoga workshop recently",
+      "hash": "baaf6c3b53fb09b680bc95a0eee7cdb7",
+      "metadata": null,
+      "score": 0.24408609070785983,
+      "created_at": "2025-11-30T13:16:39.276800-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.0027550565824358076
+    },
+    {
+      "id": "fd64d237-2945-4c62-996d-b3e07caad149",
+      "memory": "Thinking about taking a yoga teacher training course in the future",
+      "hash": "1e1710dd7ac8fb0ecf9c636f1833487e",
+      "metadata": null,
+      "score": 0.31451748826588,
+      "created_at": "2025-11-30T13:16:39.307435-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.0019498615152485255
+    },
+    {
+      "id": "32e78961-cc12-42d5-b5c8-91634f0230d5",
+      "memory": "Commute takes around an hour each way",
+      "hash": "72c983bcd481c439bd46fade1c6c7521",
+      "metadata": null,
+      "score": 0.29737205170432657,
+      "created_at": "2025-11-30T13:12:38.150058-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.0014922167092079868
+    },
+    {
+      "id": "d7b854ae-b8f5-4d34-bf7a-aba9886a225b",
+      "memory": "Reading during commute sets a positive tone for the day and helps tackle tasks more efficiently",
+      "hash": "0a3b3df280ab2a96288bb505b339b696",
+      "metadata": null,
+      "score": 0.22401148087291123,
+      "created_at": "2025-11-30T13:12:38.293590-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.0012707603440834895
+    },
+    {
+      "id": "30b81d72-c6e3-41c9-868f-f127f0d21200",
+      "memory": "Currently focusing on enjoying yoga practice and seeing how it continues to benefit physical and mental health",
+      "hash": "ec74b98d26db776611a6bb9f25c58c0c",
+      "metadata": null,
+      "score": 0.29200553508392474,
+      "created_at": "2025-11-30T13:16:39.321402-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.0012527016705325647
+    },
+    {
+      "id": "7bae26a1-35e2-46ae-a191-8b398145e8fb",
+      "memory": "Has been doing well in Master's program",
+      "hash": "ad0cfa096d623281b8f715fc188b75ff",
+      "metadata": null,
+      "score": 0.23180436814608957,
+      "created_at": "2025-11-30T13:11:05.316566-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.0010626103699965155
+    },
+    {
+      "id": "1ea0bd7a-c0f4-4b68-93f9-8aa5ffe99208",
+      "memory": "Thinking of buying a diatonic harmonica",
+      "hash": "67768d790ad111ddcf1002dd30891edb",
+      "metadata": null,
+      "score": 0.22623770670805607,
+      "created_at": "2025-11-30T13:14:51.801136-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.0009742179152472525
+    },
+    {
+      "id": "a5cbbe82-7ba6-446e-a90e-83487ec435d1",
+      "memory": "Thinking about trying out new yoga styles like Kundalini or Sivananda",
+      "hash": "543fb3bb6b868ee584ec0aaa9db202a2",
+      "metadata": null,
+      "score": 0.25309082793760695,
+      "created_at": "2025-11-30T13:16:39.337975-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.0009225764452682924
+    },
+    {
+      "id": "ed8e30ca-aff7-43d7-88e0-142adb0eb5a0",
+      "memory": "Has been thinking of trying meditation and hiking lately",
+      "hash": "4f92d6f344121963d2f7359bec91ef48",
+      "metadata": null,
+      "score": 0.2311950466865733,
+      "created_at": "2025-11-30T13:24:25.900727-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.0006459936029883408
+    },
+    {
+      "id": "7abaf14e-e9e1-4995-ba3c-530d60ebe7b7",
+      "memory": "Volunteers at the local children's museum every other Thursday for their 'Art After Hours' program",
+      "hash": "4fd5f41296d441c5fd89b4bdfc8bb136",
+      "metadata": null,
+      "score": 0.2930580914772499,
+      "created_at": "2025-11-30T13:15:29.650381-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_68",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3296,
+    "load_time": 1189.7697
+  }
+}

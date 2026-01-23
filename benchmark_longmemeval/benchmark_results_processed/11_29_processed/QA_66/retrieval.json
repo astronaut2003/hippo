@@ -1,0 +1,242 @@
+{
+  "sample_idx": 66,
+  "question_id": "bc8a6e93_abs",
+  "question": "What did I bake for my uncle's birthday party?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T04:30:04.476499",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "45183ba5-ce53-4d34-9702-1b79af0c0955",
+      "memory": "Recently made a lemon blueberry cake for niece's birthday party and it was a huge hit",
+      "hash": "9012aa6cc95f68f91959f808e9a632fd",
+      "metadata": null,
+      "score": 0.4802522060820072,
+      "created_at": "2025-11-30T12:35:55.529179-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.9999999986002547
+    },
+    {
+      "id": "de4adf93-bae8-44e7-bd58-31243225bdea",
+      "memory": "Made spicy tuna roll which was tricky because tuna was delicate and easy to break apart",
+      "hash": "b06b070721921eb3cf4b823c3c0fda62",
+      "metadata": null,
+      "score": 0.3154142009829639,
+      "created_at": "2025-11-30T12:35:04.674028-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.6993538133878503
+    },
+    {
+      "id": "44c82d5a-0108-4c07-bf8c-353cbfd16cf4",
+      "memory": "Thinking of making lemon-based desserts for an upcoming dinner party",
+      "hash": "2cb256c31ebfaef3823f3764c07a7875",
+      "metadata": null,
+      "score": 0.39445228833458007,
+      "created_at": "2025-11-30T12:35:55.495015-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.5475564558771034
+    },
+    {
+      "id": "873f45c3-9279-4598-87f7-cb3eced771f3",
+      "memory": "The combination of tangy lemon and sweet blueberries was perfect",
+      "hash": "1166179f9b46d593ffab047f08f93af3",
+      "metadata": null,
+      "score": 0.3151606409224944,
+      "created_at": "2025-11-30T12:35:55.542804-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.45628618936768434
+    },
+    {
+      "id": "d330ad3a-7617-4242-b9d2-c92bdccae7f4",
+      "memory": "Found making sushi harder than expected but fun",
+      "hash": "580a73bae917bc7757e1458c8496d82b",
+      "metadata": null,
+      "score": 0.28854298649110877,
+      "created_at": "2025-11-30T12:35:04.596134-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.29248006050481484
+    },
+    {
+      "id": "95ec3ca0-ab88-473e-bb40-d6b51028991a",
+      "memory": "Likes the citrus vinaigrette recipe and will try it out this weekend",
+      "hash": "d0f9705dc0a8e1a241297873dd489a83",
+      "metadata": null,
+      "score": 0.2900532970560188,
+      "created_at": "2025-11-30T12:38:55.005739-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.21494712893398607
+    },
+    {
+      "id": "2021918e-4743-4442-8f03-9d69abdb8cfa",
+      "memory": "Likes the mason jar salad idea",
+      "hash": "c5d487ccc8689b5277491db7c2034bc8",
+      "metadata": null,
+      "score": 0.31140980433973914,
+      "created_at": "2025-11-30T12:38:54.988504-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.21257367456937135
+    },
+    {
+      "id": "e949910e-bad1-4d7b-909e-55041509f72a",
+      "memory": "Learned how to make sushi in cooking class last week",
+      "hash": "249ffdeb587a88da0f7263250992c0b3",
+      "metadata": null,
+      "score": 0.33752282800001876,
+      "created_at": "2025-11-30T12:35:04.582556-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.12710568969169259
+    },
+    {
+      "id": "9a03880f-092b-43e3-a690-e8bde4aefcb0",
+      "memory": "Spent $70 on a birthday gift for sister",
+      "hash": "deeb83f5b95ecb788d664bde30fe686e",
+      "metadata": null,
+      "score": 0.36500700092665705,
+      "created_at": "2025-11-30T12:40:25.412614-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.01018850005201654
+    },
+    {
+      "id": "1ad8ef6a-4ffc-4615-a3ac-25ac3156ea87",
+      "memory": "Thinking of getting Luna a new food bowl with a cute design",
+      "hash": "7b656ffca812576f932e966aed64e18e",
+      "metadata": null,
+      "score": 0.31993226991061113,
+      "created_at": "2025-11-30T12:41:37.563032-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.009772811812904602
+    },
+    {
+      "id": "55272602-46a2-4d06-9e3c-a81449da2552",
+      "memory": "Spent $80 on a gift basket for aunt's anniversary",
+      "hash": "034ce37b388c23a959e960663c45bf31",
+      "metadata": null,
+      "score": 0.41391532428230404,
+      "created_at": "2025-11-30T12:40:25.464716-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.00892194577690605
+    },
+    {
+      "id": "8cfee244-179a-4c05-ae94-f7cfbf146dd7",
+      "memory": "Looking for new recipe ideas for Japanese-inspired dishes",
+      "hash": "f7c148aa0d63f932cf3ea3fdf707cea2",
+      "metadata": null,
+      "score": 0.3619057548935717,
+      "created_at": "2025-11-30T12:35:04.549942-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.0073574415500621505
+    },
+    {
+      "id": "70acee03-a958-454b-bccc-9a64795d9485",
+      "memory": "Spent $50 on a baby shower gift for best friend",
+      "hash": "b5accf55e2ee35bd9acda47979a15951",
+      "metadata": null,
+      "score": 0.3498691821719393,
+      "created_at": "2025-11-30T12:40:25.437913-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.0065217933879424565
+    },
+    {
+      "id": "09f4a26a-1c24-4a05-bbb8-50969302dd94",
+      "memory": "Wants to keep the gift simple and functional",
+      "hash": "c416f13cf60aaa555f69f55887de4662",
+      "metadata": null,
+      "score": 0.2882263633039922,
+      "created_at": "2025-11-30T12:33:36.160740-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.003979340529199374
+    },
+    {
+      "id": "db138bcd-43d3-42b5-8c52-97a40a5bcc47",
+      "memory": "Is thinking of trying to meal prep some smoothie packs on Sundays",
+      "hash": "a21181d21ee2dd63363b01cb23c6f7ad",
+      "metadata": null,
+      "score": 0.2794550920474743,
+      "created_at": "2025-11-30T12:38:55.058139-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.002750964428907773
+    },
+    {
+      "id": "6a573b4a-1016-4646-b452-a0b3c21a01ad",
+      "memory": "Spent $150 on clothes for younger brother",
+      "hash": "8e47b178adc53ae25a1afb4c87d69d3e",
+      "metadata": null,
+      "score": 0.3537840847914785,
+      "created_at": "2025-11-30T12:40:25.451949-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.002090722286760168
+    },
+    {
+      "id": "80416963-1e1a-4b62-b8c5-e438e0b01bb6",
+      "memory": "Attended the Halloween event at Universal Studios Hollywood on October 15th",
+      "hash": "56f2f5b14b7d51fc629d18b115eae34c",
+      "metadata": null,
+      "score": 0.27514157241686116,
+      "created_at": "2025-11-30T12:43:27.299752-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.0009455105323153025
+    },
+    {
+      "id": "c6c5646b-5a3c-4f36-a047-1935a4efee9f",
+      "memory": "Looking for gift ideas for neighbor who helps with yard work",
+      "hash": "42769f9bd9058b2ab1e2367661ed0e16",
+      "metadata": null,
+      "score": 0.2817486154819991,
+      "created_at": "2025-11-30T12:33:35.976552-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.0006199281253808082
+    },
+    {
+      "id": "880013a0-806a-4aea-822d-18bf490e801c",
+      "memory": "Wants to ride the Revenge of the Mummy roller coaster",
+      "hash": "c4483e7183a9cb0b6cb9757ca0df8295",
+      "metadata": null,
+      "score": 0.27579997084358365,
+      "created_at": "2025-11-30T12:43:27.356465-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.00012855098723981877
+    },
+    {
+      "id": "03db83c7-75ed-4987-b9c1-d7e9cc3aca4e",
+      "memory": "Likes the idea of a gift card to a local nursery or gardening store for neighbor",
+      "hash": "51650e2d95b213994eee3516eeb39eda",
+      "metadata": null,
+      "score": 0.3153237048594588,
+      "created_at": "2025-11-30T12:33:36.040781-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_66",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.237,
+    "load_time": 1300.5685
+  }
+}

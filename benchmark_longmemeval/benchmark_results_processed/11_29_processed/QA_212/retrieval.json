@@ -1,0 +1,242 @@
+{
+  "sample_idx": 212,
+  "question_id": "157a136e",
+  "question": "How many years older is my grandma than me?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2026-01-14T02:30:32.819572",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "8c05513d-a1bf-49e6-8f44-3e1442433a54",
+      "memory": "Has been thinking about grandma a lot lately, especially since her 75th birthday celebration",
+      "hash": "8fb665b26b7317c1f1916562e9dbf434",
+      "metadata": null,
+      "score": 0.6661119595206105,
+      "created_at": "2026-01-13T10:49:31.745817-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.9999999987035472
+    },
+    {
+      "id": "a4304f86-52a1-479d-9477-66d008314c2a",
+      "memory": "Finds it amazing how energetic and sharp grandma still is at her age",
+      "hash": "82490129dc595ec2c58380b09225b939",
+      "metadata": null,
+      "score": 0.5082054948007616,
+      "created_at": "2026-01-13T10:49:31.760107-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.8283304296189417
+    },
+    {
+      "id": "23ef9e27-c35b-45a8-bbaa-d8b41e6d4a56",
+      "memory": "Grandma's 75th birthday celebration at aunt's house was inspiring and wants to do something similar",
+      "hash": "cdb719b3f1ed4f79bea40dc304a01203",
+      "metadata": null,
+      "score": 0.4277933405746642,
+      "created_at": "2026-01-13T10:49:31.595107-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.7191502429216039
+    },
+    {
+      "id": "21362a88-81fc-428f-999e-320466de684f",
+      "memory": "Grandma's 75th birthday celebration was a big deal",
+      "hash": "e8d2728eb2f90bab9c70ca32e19e60e9",
+      "metadata": null,
+      "score": 0.47945454505947427,
+      "created_at": "2026-01-13T10:49:31.645762-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.6778251403977686
+    },
+    {
+      "id": "117cac54-974f-49f7-b5bd-0136cb73f522",
+      "memory": "Excited to plan something similar to grandma's celebration",
+      "hash": "c5d319e87f6b31eeb00eae75175c89de",
+      "metadata": null,
+      "score": 0.41319407184593704,
+      "created_at": "2026-01-13T10:49:31.662695-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.3214067486613943
+    },
+    {
+      "id": "0fc65f77-fd94-4ea2-bde7-6a648c82bc1d",
+      "memory": "Getting used to being in their 30s",
+      "hash": "f4e1c6a7205257cff75b1f6cd0bb8f94",
+      "metadata": null,
+      "score": 0.29860721815518176,
+      "created_at": "2026-01-13T10:53:58.791719-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.3040838824955384
+    },
+    {
+      "id": "e2a7c91d-3760-46c5-b1f5-93e4d54ea44b",
+      "memory": "Mom made an amazing chocolate mocha cake for birthday, which was just a week after grandma's celebration",
+      "hash": "5467bf9208083b9989d045a4208c09af",
+      "metadata": null,
+      "score": 0.37837906361107565,
+      "created_at": "2026-01-13T10:49:31.615995-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.22835735905364188
+    },
+    {
+      "id": "fc4f46e4-7431-40a3-bd9d-b1f81bea3151",
+      "memory": "Ran into an old acquaintance who is also into meditation",
+      "hash": "922fbf7c77b8b1fb9e3d88515421d876",
+      "metadata": null,
+      "score": 0.2679615111483415,
+      "created_at": "2026-01-13T10:33:32.121781-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.10789959182543292
+    },
+    {
+      "id": "79c178f7-61a3-4b04-844f-47d140050456",
+      "memory": "Looking for gift ideas for mom's birthday",
+      "hash": "8c74aca9acbc1714cfe836c9a8a62787",
+      "metadata": null,
+      "score": 0.3194167432819461,
+      "created_at": "2026-01-13T10:32:13.020722-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.10054576881880392
+    },
+    {
+      "id": "2d4a5c4b-a076-4182-b413-7af8da69504b",
+      "memory": "Grandma would definitely appreciate the fresh fruit kabobs and veggie sticks with hummus",
+      "hash": "d0d5e3900349559e6eb734e5c7d5f463",
+      "metadata": null,
+      "score": 0.37917933054333575,
+      "created_at": "2026-01-13T10:49:31.730696-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.07629044265123838
+    },
+    {
+      "id": "bdc931ea-de97-4962-9bcb-f0445ad0b21c",
+      "memory": "Recently attended cousin's wedding",
+      "hash": "b1b75b516d613a8ea798afe1f22fceec",
+      "metadata": null,
+      "score": 0.27681073051046945,
+      "created_at": "2026-01-13T10:46:05.733250-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.056135121943217944
+    },
+    {
+      "id": "e0692271-f9b6-42ee-89c3-39925f820a96",
+      "memory": "Inherited a lot of old tools from grandfather and has been using some of them to fix up own house, which has been a nice feeling",
+      "hash": "55e17e29440b319d90955402efe9d8ad",
+      "metadata": null,
+      "score": 0.31340687286560287,
+      "created_at": "2026-01-13T10:48:43.448651-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.03394593344443375
+    },
+    {
+      "id": "5a370b23-c1b9-4410-9aa0-11561b8effaa",
+      "memory": "Considering renovating an old farmhouse on a 5-acre property inherited from late grandfather in the countryside",
+      "hash": "3b1154f8ec8d3825adb3c54cbc56192c",
+      "metadata": null,
+      "score": 0.27810732575391156,
+      "created_at": "2026-01-13T10:48:43.385075-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.00966662123726893
+    },
+    {
+      "id": "9b1e1ef5-52f6-4e31-81c6-da063a4911a9",
+      "memory": "Thinking about using some of grandfather's old tools to fix up the farmhouse inherited from him",
+      "hash": "ea1340e491225abb17380198c84d49bb",
+      "metadata": null,
+      "score": 0.3007220439946728,
+      "created_at": "2026-01-13T10:48:43.465151-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.005968320121322084
+    },
+    {
+      "id": "a90bb0ef-6788-40be-9b09-a19a9b50945a",
+      "memory": "Got sister a silver necklace from a jewelry store for her birthday three weeks ago, costing around $50",
+      "hash": "de0bb780b456090c8e3752e2fa93fb26",
+      "metadata": null,
+      "score": 0.26140541482011387,
+      "created_at": "2026-01-13T10:32:13.071676-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.001963764262656585
+    },
+    {
+      "id": "52bbc860-5690-4cc3-a844-f34a99dc29fc",
+      "memory": "Had a vivid dream recently where they met a wise old man who told them the universe is full of mysteries beyond human comprehension",
+      "hash": "ee7c89da18167a8c836aa3217af8a16f",
+      "metadata": null,
+      "score": 0.18603498300118926,
+      "created_at": "2026-01-13T10:33:32.000609-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.0012983371228456084
+    },
+    {
+      "id": "4dc72e24-fe29-417d-90fe-04f9814d2d82",
+      "memory": "Interested in exploring music therapy programs that work with seniors",
+      "hash": "9b5a3d0d8b02f0d7847f87843b666ed9",
+      "metadata": null,
+      "score": 0.19036944078640766,
+      "created_at": "2026-01-13T10:34:11.585908-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.0007435672275777058
+    },
+    {
+      "id": "bb76e059-fa35-4bfc-ae1a-b24a1787c8d2",
+      "memory": "Friend Rachel inherited a 10-acre property with a small pond and a barn",
+      "hash": "8e3d9af4dc752f162dec614cacbe017d",
+      "metadata": null,
+      "score": 0.18249539003665627,
+      "created_at": "2026-01-13T10:52:17.403705-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.0005917380697018457
+    },
+    {
+      "id": "a6245078-f7f9-4d15-b1bd-e73a3c69a19a",
+      "memory": "Needs to get diapers for niece",
+      "hash": "18022cb7c18b733f6fd4befa6ede4ebd",
+      "metadata": null,
+      "score": 0.2504490221642667,
+      "created_at": "2026-01-13T10:38:32.931729-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 4.0306437677142016e-05
+    },
+    {
+      "id": "212be1d1-2709-45e0-8c4d-91e61257ad68",
+      "memory": "Looking for advice on how to properly display a growing collection of vintage action figures",
+      "hash": "432c67d3dda4ca64b359e817d74e8560",
+      "metadata": null,
+      "score": 0.19258731408999355,
+      "created_at": "2026-01-13T10:31:24.851316-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_212",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2633,
+    "load_time": 1473.3114
+  }
+}

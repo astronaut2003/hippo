@@ -1,0 +1,242 @@
+{
+  "sample_idx": 112,
+  "question_id": "5a7937c8",
+  "question": "How many days did I spend participating in faith-related activities in December?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-06T22:35:45.460004",
+  "load_result": {
+    "total_sessions": 42,
+    "added_sessions": 42,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "2d64d5c4-22ae-426b-a6ce-8b37e509c566",
+      "memory": "Helped out at the church's annual holiday food drive on December 10th, sorting donations and packing boxes for families in need",
+      "hash": "630c164081967d713513aece97148ce9",
+      "metadata": null,
+      "score": 0.5129059205785378,
+      "created_at": "2025-12-06T06:38:18.358114-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.9999999854027086
+    },
+    {
+      "id": "145ad9ac-24f6-491b-b712-ecb1001e5b7b",
+      "memory": "Just got back from a lovely midnight mass on Christmas Eve at St. Mary's Church on December 24th with family",
+      "hash": "28532012816da70c0536d1d71d3e943c",
+      "metadata": null,
+      "score": 0.5272258895227067,
+      "created_at": "2025-12-06T06:49:32.859534-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.07609391594197903
+    },
+    {
+      "id": "35699a44-87a8-4979-874c-1ba388e626f4",
+      "memory": "Got a new scarf from the Coach store at the outlet mall on December 12th",
+      "hash": "025d8c100bf25519575d588f7b551173",
+      "metadata": null,
+      "score": 0.23541184144290583,
+      "created_at": "2025-12-06T06:56:32.425314-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.054656872865735735
+    },
+    {
+      "id": "aa721dba-c88d-4f9d-b26d-1ce6a0481113",
+      "memory": "Got a new wallet from the Coach store at the outlet mall on December 12th",
+      "hash": "adfeab335516c485388fc06adcd43089",
+      "metadata": null,
+      "score": 0.252604347269476,
+      "created_at": "2025-12-06T06:56:32.399049-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.05005735404477932
+    },
+    {
+      "id": "750377f5-0e5f-4dca-9b9f-97e8b3fc0747",
+      "memory": "Bought winter sweaters on sale at Macy's on November 27th",
+      "hash": "f3b3d40b9a11e4e8de4f831fa938620a",
+      "metadata": null,
+      "score": 0.2782755079412701,
+      "created_at": "2025-12-06T06:56:32.368627-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.027054191515274523
+    },
+    {
+      "id": "cb200ed0-af71-4eff-bc81-9c554e5aeb1a",
+      "memory": "Might be interested in attending a Lessons and Carols service",
+      "hash": "ca30c0a55f9e5189cb16725cd6a42a3a",
+      "metadata": null,
+      "score": 0.2451766020075328,
+      "created_at": "2025-12-06T06:49:32.927107-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.02534468512540331
+    },
+    {
+      "id": "041bb918-d1e8-468d-b532-c996062a8628",
+      "memory": "Wondering if the cold could have triggered other health issues",
+      "hash": "b115f0a5a31d808b13e3d6d3eafb5a52",
+      "metadata": null,
+      "score": 0.2257476123369271,
+      "created_at": "2025-12-06T06:43:26.621233-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.02373819459290219
+    },
+    {
+      "id": "371df131-c40c-4f32-b0a0-397fc45183da",
+      "memory": "Goal is to increase energy levels and set a positive tone for the day",
+      "hash": "2b6b27fbef39b4999dc28ee9355cad8f",
+      "metadata": null,
+      "score": 0.2541191876752895,
+      "created_at": "2025-12-06T06:40:07.361577-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.022194348838531528
+    },
+    {
+      "id": "4658f9a4-036b-48ee-8768-6f5d9ad7daaa",
+      "memory": "Has been going to yoga classes on Tuesdays and Thursdays",
+      "hash": "3b29be0bcda51b1e463e907a247e8590",
+      "metadata": null,
+      "score": 0.2655333897604074,
+      "created_at": "2025-12-06T06:42:29.573909-08:00",
+      "updated_at": "2025-12-06T06:48:52.795932-08:00",
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.020888553241056613
+    },
+    {
+      "id": "339735a0-c3f9-43d9-8a06-095ddc66a5b7",
+      "memory": "Planning a family outing for next year's holiday season",
+      "hash": "cc1c04c0a1b605112bfed375032cd211",
+      "metadata": null,
+      "score": 0.4054284763495316,
+      "created_at": "2025-12-06T06:49:32.876038-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.020110365886058235
+    },
+    {
+      "id": "a192e527-5ed4-4ca9-8c8f-04ee08e00917",
+      "memory": "Excited to explore Down Dog's vinyasa and yin classes, as well as their meditation and music classes",
+      "hash": "e01e224ebf4b8c4f741466e7cdf531b3",
+      "metadata": null,
+      "score": 0.23596455669617256,
+      "created_at": "2025-12-06T06:40:07.451532-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.01902730727749162
+    },
+    {
+      "id": "6263d0d6-1aba-4122-90d8-546243331679",
+      "memory": "Woke up at 7:00 am from March 15th to April 1st for a few weeks",
+      "hash": "2685ef7fb5ef004f8ea5820432a73198",
+      "metadata": null,
+      "score": 0.2263684808208599,
+      "created_at": "2025-12-06T06:40:07.312647-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.018856078217268365
+    },
+    {
+      "id": "24b30f1c-c224-43c7-a637-5d3b738771f0",
+      "memory": "Planning a family outing for the upcoming holiday season",
+      "hash": "5eeeeeff14dbb1ae48eb30e5b3c7915b",
+      "metadata": null,
+      "score": 0.4092372588505544,
+      "created_at": "2025-12-06T06:49:32.847260-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.01827278572756475
+    },
+    {
+      "id": "0f841755-cb82-4a93-9521-3ffa226c5e9b",
+      "memory": "Recently attended a charity dinner at a local restaurant where a portion of the proceeds went to a local animal shelter",
+      "hash": "521a4d6ecf8aca707eb62f2aa2869aab",
+      "metadata": null,
+      "score": 0.26535601499772166,
+      "created_at": "2025-12-06T06:37:47.934588-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.01630156337572629
+    },
+    {
+      "id": "6ccda782-4f15-487a-84ba-28313b84ae1d",
+      "memory": "Is interested in exploring more yoga sequences and poses for anxiety and stress relief",
+      "hash": "f68dad55329cba6c6d4d4ea5586bc84f",
+      "metadata": null,
+      "score": 0.23358956791760727,
+      "created_at": "2025-12-06T06:51:07.605717-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.016145647483490476
+    },
+    {
+      "id": "2252edad-2f62-41c2-928b-f72dbfc29d4d",
+      "memory": "Really enjoyed the festive atmosphere at St. Mary's Church",
+      "hash": "f0ee186ef9f146452ea6a4a11cabfbdb",
+      "metadata": null,
+      "score": 0.37959710424968823,
+      "created_at": "2025-12-06T06:49:32.894131-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.015547041825799416
+    },
+    {
+      "id": "574d905c-65cd-46ea-9bfb-ed0105600bce",
+      "memory": "Thinking of volunteering at a local soup kitchen or food bank this year",
+      "hash": "587e49aba62f80259e0afd838013b221",
+      "metadata": null,
+      "score": 0.22280911515376012,
+      "created_at": "2025-12-06T06:49:32.941424-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.01550110232183708
+    },
+    {
+      "id": "2b3e88ef-885b-45e4-8bfe-faf078a7b01a",
+      "memory": "Wants to dedicate about 1.5 hours to the morning routine",
+      "hash": "c4ddf988a8a57370276d5e7a4313dc45",
+      "metadata": null,
+      "score": 0.2413064205398947,
+      "created_at": "2025-12-06T06:40:07.338000-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.006826888710039429
+    },
+    {
+      "id": "e7ef90f6-1cc2-4cfa-8a10-167863f197ca",
+      "memory": "Feeling run down lately, which started around the time of a business trip to Chicago about 3 months ago",
+      "hash": "fb6fa76c8ad2dbe9b717fa1a5b957900",
+      "metadata": null,
+      "score": 0.2269106439466399,
+      "created_at": "2025-12-06T06:43:26.593033-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.006066798735389851
+    },
+    {
+      "id": "f6ba2945-3c92-42a8-b4cd-42784d583d2d",
+      "memory": "Thinking of doing something more low-key and intimate, like the midnight mass at St. Mary's Church",
+      "hash": "4934c91db44af48da6f2a0640790e675",
+      "metadata": null,
+      "score": 0.2959385609987052,
+      "created_at": "2025-12-06T06:49:32.913553-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_112",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.476,
+    "load_time": 1354.4925
+  }
+}

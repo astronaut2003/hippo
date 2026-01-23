@@ -1,0 +1,242 @@
+{
+  "sample_idx": 176,
+  "question_id": "a4996e51",
+  "question": "How many hours do I work in a typical week during peak campaign seasons?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T19:26:08.566386",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "16b549c0-4f4f-4c56-b123-0ad2cb0a714c",
+      "memory": "During peak campaign seasons, increases work hours by 10 hours weekly to accommodate the additional workload",
+      "hash": "3366129ce562174c6218c08304165089",
+      "metadata": null,
+      "score": 0.8230102039149414,
+      "created_at": "2025-12-08T03:38:17.059226-08:00",
+      "updated_at": "2025-12-08T03:58:36.987868-08:00",
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.9999999993902144
+    },
+    {
+      "id": "d7c7e2ba-a222-4e48-a98a-0425ada30071",
+      "memory": "Some weeks can go up to 45 hours",
+      "hash": "e55ec28a5f3b02b9c0cb7c06b82d8b97",
+      "metadata": null,
+      "score": 0.4958841893709226,
+      "created_at": "2025-12-08T03:38:17.073646-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.5251636332203026
+    },
+    {
+      "id": "bbf79889-aa29-4fab-afeb-5d14094662a6",
+      "memory": "Has a few campaigns launching soon",
+      "hash": "7e2a1f002a0fefd9ae3970c2cce33c4d",
+      "metadata": null,
+      "score": 0.31607470261716397,
+      "created_at": "2025-12-08T03:38:16.997387-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.1486477161345377
+    },
+    {
+      "id": "e12bc1c0-2e4c-4ee8-b9ab-f38094739c8f",
+      "memory": "Planning to take 3 days off next week, from Wednesday to Friday",
+      "hash": "4d0605f169df27274bd81b82a4c056bd",
+      "metadata": null,
+      "score": 0.4138971995874815,
+      "created_at": "2025-12-08T03:38:17.044593-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.10951634017118626
+    },
+    {
+      "id": "688c2052-ddb9-4d7f-80d6-dbef2052a087",
+      "memory": "Trying to establish a running routine, going for runs three times a week",
+      "hash": "5256163e28ccdad4adeed57a1bd3b76b",
+      "metadata": null,
+      "score": 0.34388589690871063,
+      "created_at": "2025-12-08T03:50:13.746690-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.06141795813755211
+    },
+    {
+      "id": "c68c3f44-ab52-4e3c-94cd-cbcb97445dfb",
+      "memory": "Usually has a weekly call with design team on Fridays at 10 am",
+      "hash": "22bddaad5edbef96e59372ea6fa3fb84",
+      "metadata": null,
+      "score": 0.37524926672522946,
+      "created_at": "2025-12-08T03:38:17.030112-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.031153970997501394
+    },
+    {
+      "id": "ebdf1eeb-e90c-4215-991a-a907eb45a4cf",
+      "memory": "Trying to meal prep more on the weekends",
+      "hash": "88f32d08ebd351ae8abdb79a1afedc08",
+      "metadata": null,
+      "score": 0.32244648241709306,
+      "created_at": "2025-12-08T03:57:41.764979-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.015085179860848162
+    },
+    {
+      "id": "c5655448-3533-4ef1-8088-e837ac910b64",
+      "memory": "Hoping to work up to doing a 5K soon",
+      "hash": "d1f9c68936b516eff4c499f0cdd19a92",
+      "metadata": null,
+      "score": 0.2537156832227626,
+      "created_at": "2025-12-08T03:50:13.761203-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.005262500601952694
+    },
+    {
+      "id": "fade4d57-db07-4bbc-9c82-eb71e6638c34",
+      "memory": "Planning to start looking for a new job in the next few months",
+      "hash": "87cb423f3443ef8f77089b32d2f8d982",
+      "metadata": null,
+      "score": 0.25202806773972475,
+      "created_at": "2025-12-08T03:58:37.006627-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.002421170146438934
+    },
+    {
+      "id": "85e0cc6b-473e-4630-8610-e3d75c6a7f41",
+      "memory": "Trying to plan a summer vacation",
+      "hash": "f1c2f956d1b7ca2c374c097ff8ce08b0",
+      "metadata": null,
+      "score": 0.32749697778881026,
+      "created_at": "2025-12-08T03:27:04.174447-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.0018880172449028784
+    },
+    {
+      "id": "954c9674-b0f5-446d-87ca-5e5edff569de",
+      "memory": "Each day should include places for lunch and dinner (ranked at least 4 on Google, not vegetarian restaurants)",
+      "hash": "3f347161328e07dc9479822927caf65a",
+      "metadata": null,
+      "score": 0.23562428238390476,
+      "created_at": "2025-12-08T03:33:18.074983-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.0017969485882923348
+    },
+    {
+      "id": "768491eb-9266-43f0-a20a-3bbd854352fb",
+      "memory": "Will highlight ability to work effectively in a fast-paced environment and strong time management skills for a senior role",
+      "hash": "783585d542bee614d6d5d9f2aab0b35e",
+      "metadata": null,
+      "score": 0.2712982213387058,
+      "created_at": "2025-12-08T03:58:37.070314-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.0012304736304102756
+    },
+    {
+      "id": "24532864-5206-4a59-8aa3-bd4617e93fdd",
+      "memory": "Goes swimming twice a week",
+      "hash": "3ef02ce21880397ae38d79ef6265069b",
+      "metadata": null,
+      "score": 0.3330529907556393,
+      "created_at": "2025-12-08T03:56:52.982084-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.0009319126578441639
+    },
+    {
+      "id": "c4a0259c-0c84-4b9a-b566-cef7479add0c",
+      "memory": "Planning to participate in a sprint triathlon in the spring",
+      "hash": "557af1199f8904f1d25cd6e6481e15f9",
+      "metadata": null,
+      "score": 0.306220861498654,
+      "created_at": "2025-12-08T03:56:52.930472-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.00080246257507592
+    },
+    {
+      "id": "e8e7c7c8-89b1-4374-a95c-5a3a4f2b3faa",
+      "memory": "Flexible with flight schedule",
+      "hash": "a3ba8955f0867262913aa62a4122716b",
+      "metadata": null,
+      "score": 0.3148286916682279,
+      "created_at": "2025-12-08T03:40:29.580800-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.000741343061603582
+    },
+    {
+      "id": "257f0835-c14e-4b1e-b5cc-c4b617880b24",
+      "memory": "Wants to know the best time of the year to go to Cronulla",
+      "hash": "31783b68778b25287ba07286071bf5be",
+      "metadata": null,
+      "score": 0.3232601117265941,
+      "created_at": "2025-12-08T03:28:22.144267-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.000361425096318345
+    },
+    {
+      "id": "06978e1a-c8f1-4848-b9ee-76c6af87e9a9",
+      "memory": "Plans to set a specific time to check Twitter feed, maybe during lunch break or after waking up",
+      "hash": "56d2e490ed4bb7cde761252b7fde150d",
+      "metadata": null,
+      "score": 0.2309729659708405,
+      "created_at": "2025-12-08T03:32:35.225418-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.00034037346560760633
+    },
+    {
+      "id": "5fca7316-ddc4-4231-a74f-4a938778c9a8",
+      "memory": "Enjoys The Daily from The New York Times and Pod Save America",
+      "hash": "59b642e9269001152e27f9f1aebd8122",
+      "metadata": null,
+      "score": 0.2234089381640869,
+      "created_at": "2025-12-08T03:32:35.332102-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.00027884687640329273
+    },
+    {
+      "id": "47a5f8e4-6bdc-40d6-a717-83b0b4750d4c",
+      "memory": "Each place must be up to a 1-hour drive by car",
+      "hash": "b68747837f98f7892a9e808db613c263",
+      "metadata": null,
+      "score": 0.345056458188171,
+      "created_at": "2025-12-08T03:33:18.041253-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 5.733952453256447e-05
+    },
+    {
+      "id": "fae3315d-8768-43ae-b387-126c8602bed2",
+      "memory": "Tends to prefer morning departures since 70% of flights have been before 10am",
+      "hash": "f582e3ad9347e515f0e04eb21b8fc420",
+      "metadata": null,
+      "score": 0.2267039494086295,
+      "created_at": "2025-12-08T03:40:29.596368-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_176",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4928,
+    "load_time": 2144.6161
+  }
+}

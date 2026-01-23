@@ -1,0 +1,242 @@
+{
+  "sample_idx": 72,
+  "question_id": "gpt4_59c863d7",
+  "question": "How many model kits have I worked on or bought?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T06:33:22.869159",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "3734ae37-f2b0-4b53-bef6-4579fec89307",
+      "memory": "Got a 1/72 scale B-29 bomber model kit and a 1/24 scale '69 Camaro at a model show last weekend",
+      "hash": "8644d95ddb4c38b36034d60623c1a444",
+      "metadata": null,
+      "score": 0.42539500647837053,
+      "created_at": "2025-11-30T14:33:39.905873-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.9999999981847608
+    },
+    {
+      "id": "4ee7f99f-d441-49b3-a8d9-2bcc52798344",
+      "memory": "Recently finished a Tamiya 1/48 scale Spitfire Mk.V model kit",
+      "hash": "e50d027b83fea4d87da9fb9c5fc28ea2",
+      "metadata": null,
+      "score": 0.37744708543786853,
+      "created_at": "2025-11-30T14:53:14.985272-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.7732902009794942
+    },
+    {
+      "id": "bfdf8b49-8e51-41b4-a950-b679339e3020",
+      "memory": "Getting back into model building",
+      "hash": "07c5ff4bbbec6745132a0fc201865dbc",
+      "metadata": null,
+      "score": 0.40983544140639916,
+      "created_at": "2025-11-30T14:48:45.153937-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.6375282013910861
+    },
+    {
+      "id": "860167bf-8e19-41b5-926c-4405463547db",
+      "memory": "Looking for more advanced techniques to take models to the next level",
+      "hash": "00b0888eba1e2ceb7d58cbc5d12703a4",
+      "metadata": null,
+      "score": 0.30667786958980736,
+      "created_at": "2025-11-30T14:48:45.221292-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.5794752259750576
+    },
+    {
+      "id": "f682d24b-21e4-4019-ac4d-ab6f2eb51bff",
+      "memory": "Recently finished a simple Revell F-15 Eagle kit",
+      "hash": "1476cb7cb95f3db0ad67d25a42ef1b14",
+      "metadata": null,
+      "score": 0.32381971185489467,
+      "created_at": "2025-11-30T14:48:45.171028-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.38643528547530154
+    },
+    {
+      "id": "1a2c83c4-e802-4b09-8de5-195f8dfb990c",
+      "memory": "Picked up the Revell F-15 Eagle kit on a whim during a trip to the hobby store in late April",
+      "hash": "fc4bc06f13ce5f85c98c5d266ad0fc04",
+      "metadata": null,
+      "score": 0.3292979208982102,
+      "created_at": "2025-11-30T14:48:45.203256-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.28315367149978415
+    },
+    {
+      "id": "f389bee0-fae5-457c-bde8-05c4433f63a0",
+      "memory": "Looking for tips on photo-etching for a new 1/72 scale B-29 bomber model kit",
+      "hash": "44f0c5b8e4c50aa0ea25164f841dd703",
+      "metadata": null,
+      "score": 0.31000532837640216,
+      "created_at": "2025-11-30T14:33:39.871212-08:00",
+      "updated_at": "2025-11-30T14:48:44.316844-08:00",
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.22825588457656468
+    },
+    {
+      "id": "7e08f7b7-1c18-4f76-91d1-6c619eac7bfe",
+      "memory": "Planning to start working on the engine wiring and fuel lines for the '69 Camaro model",
+      "hash": "508717c80d0c6e37e6f682d9f418de9e",
+      "metadata": null,
+      "score": 0.2550161281122155,
+      "created_at": "2025-11-30T14:33:39.982028-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.19112191619897276
+    },
+    {
+      "id": "cb0e7863-7026-419f-960a-9f5882cd76ab",
+      "memory": "Feeling more confident in skills after starting with the Revell F-15 Eagle kit",
+      "hash": "44ec367d52aab9025332dfb6e442f751",
+      "metadata": null,
+      "score": 0.24219969454630666,
+      "created_at": "2025-11-30T14:48:45.297094-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.16232013136946538
+    },
+    {
+      "id": "4afdd5c9-9be1-415f-9cd5-d5846bdeb618",
+      "memory": "Thinking about trying out some wire details on the B-29 model",
+      "hash": "906a19a05f898451e79af735cd6feed5",
+      "metadata": null,
+      "score": 0.21749985475804506,
+      "created_at": "2025-11-30T14:33:39.952495-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.021170888924590223
+    },
+    {
+      "id": "0802c411-0dba-4e9b-ba4d-7168f927f521",
+      "memory": "Ordered a Dell XPS 15 laptop from the Dell website on March 10th for around $1,800",
+      "hash": "356b876a85ef3cb2b3009cb357435ece",
+      "metadata": null,
+      "score": 0.1792349727082289,
+      "created_at": "2025-11-30T14:36:18.832897-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.018734645774184166
+    },
+    {
+      "id": "e8449657-b72e-48a5-83da-48baf6f4da0c",
+      "memory": "Thinking about adding wire details to the 1/24 scale '69 Camaro model",
+      "hash": "863b630419814c20ee571f87aded93f3",
+      "metadata": null,
+      "score": 0.24433241700882216,
+      "created_at": "2025-11-30T14:33:39.968543-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.006522615605840928
+    },
+    {
+      "id": "e2ec2488-1166-43cb-a3b2-3185d9eeee7b",
+      "memory": "Considering the Logitech MX Master 3",
+      "hash": "29d63fbacf54fc9009ecda0454f3bca6",
+      "metadata": null,
+      "score": 0.18028449507638084,
+      "created_at": "2025-11-30T14:40:00.054173-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.005329509104554881
+    },
+    {
+      "id": "6eb4b79a-ccf4-4ea0-9aae-51e130ee7a89",
+      "memory": "Has been experimenting with Vallejo acrylics and AK Interactive weathering products on recent projects",
+      "hash": "80967f1824775b9e7405da4eabe76737",
+      "metadata": null,
+      "score": 0.1744437813215246,
+      "created_at": "2025-11-30T14:33:39.921596-08:00",
+      "updated_at": "2025-11-30T14:53:14.952425-08:00",
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.0036657037383534593
+    },
+    {
+      "id": "70f6ccd9-9b91-49be-b8f6-f8e89193698c",
+      "memory": "Looking for laptop accessories",
+      "hash": "f904dd30b404c9ed6db9ca258f63f12e",
+      "metadata": null,
+      "score": 0.20077784083970518,
+      "created_at": "2025-11-30T14:39:59.259679-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.0036539319388631153
+    },
+    {
+      "id": "9f2bd333-cd4b-4fa1-b3bb-390d5342976e",
+      "memory": "Interested in learning photo-etching and wire details",
+      "hash": "ac6eacb35a1a96e903305d946d49da6a",
+      "metadata": null,
+      "score": 0.2579730431936562,
+      "created_at": "2025-11-30T14:48:45.239667-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.0027705276329921496
+    },
+    {
+      "id": "8a242108-c980-4b7c-90f7-63e6d6a0d016",
+      "memory": "Looking for tips on weathering techniques for model tanks",
+      "hash": "e6e272043b87da4396d782bd3e0febcd",
+      "metadata": null,
+      "score": 0.21472226859028815,
+      "created_at": "2025-11-30T14:52:25.812779-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.0026441539031693386
+    },
+    {
+      "id": "37d4c732-56fe-4f3a-84ff-2f01ddfade64",
+      "memory": "Trying to get new apartment organized",
+      "hash": "07bb92a25965fa3e572c911a0e2e0712",
+      "metadata": null,
+      "score": 0.1713673007703606,
+      "created_at": "2025-11-30T14:42:21.535780-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.001979566576060062
+    },
+    {
+      "id": "193b908f-6108-4c44-8339-4665a700a0e5",
+      "memory": "Got a new Lenovo laptop from Best Buy the week before last weekend as a doorbuster deal for $200 off the original price",
+      "hash": "84363fe0f35af94cde54dbe8b74632de",
+      "metadata": null,
+      "score": 0.20633589947016878,
+      "created_at": "2025-11-30T14:40:00.024165-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.0012218435412183573
+    },
+    {
+      "id": "7a896858-9d58-422a-8578-fa7347927add",
+      "memory": "Wants to try out new techniques like photo-etching and wire details on the B-29",
+      "hash": "b7f460eb5b13dfb88bd1cb9d18d0eef0",
+      "metadata": null,
+      "score": 0.2535299393725661,
+      "created_at": "2025-11-30T14:48:45.268707-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_72",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2435,
+    "load_time": 1213.7185
+  }
+}

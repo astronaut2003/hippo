@@ -1,0 +1,242 @@
+{
+  "sample_idx": 165,
+  "question_id": "a11281a2",
+  "question": "What was the approximate increase in Instagram followers I experienced in two weeks?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T14:11:40.741627",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "8d56e275-e11c-4455-bc2a-88c0b84a487d",
+      "memory": "Has seen a good engagement rate on Instagram",
+      "hash": "77f85c52c6e51084ab544f13eb203251",
+      "metadata": null,
+      "score": 0.5504291270132968,
+      "created_at": "2025-12-07T22:31:20.150138-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.9999999985059187
+    },
+    {
+      "id": "e21266d6-c106-4250-a15e-840084869536",
+      "memory": "Grew followers on Instagram significantly since the start of the year",
+      "hash": "0037dda58a103f8ae12e7aadea0fde8a",
+      "metadata": null,
+      "score": 0.7882492068116104,
+      "created_at": "2025-12-07T22:23:03.416276-08:00",
+      "updated_at": "2025-12-07T22:31:20.005035-08:00",
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.9061693734387021
+    },
+    {
+      "id": "c454a9d0-5ce9-465b-b928-f91b9fdd22c6",
+      "memory": "Has been focusing on growing Instagram followers",
+      "hash": "a36024e104ec0221674c43d3eab60f9c",
+      "metadata": null,
+      "score": 0.7485519153295949,
+      "created_at": "2025-12-07T22:31:20.137143-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.8905767691485559
+    },
+    {
+      "id": "ab09823d-f2a8-45e4-989e-cd83c93e6c71",
+      "memory": "Started the year with 250 followers on Instagram",
+      "hash": "8a0f07da5c59abc6e29c8d7faa34bba2",
+      "metadata": null,
+      "score": 0.7171466645328834,
+      "created_at": "2025-12-07T22:31:20.119351-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.8021852175449112
+    },
+    {
+      "id": "c341fbcf-428a-4f11-9c05-d403361a7567",
+      "memory": "Has been analyzing social media performance lately",
+      "hash": "6a5528fe6bd739677d09061f3c787f0f",
+      "metadata": null,
+      "score": 0.43053430415934707,
+      "created_at": "2025-12-07T22:23:03.376253-08:00",
+      "updated_at": "2025-12-07T22:31:19.972869-08:00",
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.534094429981198
+    },
+    {
+      "id": "d131db83-dbe2-4f86-933d-ee93b9078937",
+      "memory": "Wants to understand what kind of content tends to perform well on Instagram",
+      "hash": "a524bc14ab5d7f92709739e937dd2546",
+      "metadata": null,
+      "score": 0.49858757873170534,
+      "created_at": "2025-12-07T22:23:03.400148-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.12417516213175618
+    },
+    {
+      "id": "034cf394-d29e-486d-bd91-bee7be9c6508",
+      "memory": "Thinking about experimenting with Instagram Live",
+      "hash": "e5cb92cfa71dae14efb04577d276e5b4",
+      "metadata": null,
+      "score": 0.4509718544674449,
+      "created_at": "2025-12-07T22:23:03.561041-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.11492392831764037
+    },
+    {
+      "id": "90f0c631-40d3-42dd-ab0b-ca1e04679733",
+      "memory": "Curious about Instagram Stories",
+      "hash": "6fece776371a7dd252b83c53ef9d7c56",
+      "metadata": null,
+      "score": 0.5580941905768857,
+      "created_at": "2025-12-07T22:23:03.431475-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.11034383591046093
+    },
+    {
+      "id": "4753769c-c185-4674-92e2-4895cd441499",
+      "memory": "Has been experimenting with Instagram stories and reels",
+      "hash": "f8e8618786f27930afc9f70bb201b7c0",
+      "metadata": null,
+      "score": 0.466306164069049,
+      "created_at": "2025-12-07T22:23:03.527663-08:00",
+      "updated_at": "2025-12-07T22:31:20.021799-08:00",
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.10948905821164717
+    },
+    {
+      "id": "b4459236-846c-4f0c-b6e6-8eded9235927",
+      "memory": "Has been experimenting with Instagram stories and reels",
+      "hash": "f8e8618786f27930afc9f70bb201b7c0",
+      "metadata": null,
+      "score": 0.466306164069049,
+      "created_at": "2025-12-07T22:23:03.464036-08:00",
+      "updated_at": "2025-12-07T22:31:20.054495-08:00",
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.10948905821164717
+    },
+    {
+      "id": "eefc7321-6227-4d82-99cb-8fa7db7122e8",
+      "memory": "Has been experimenting with Instagram stories and reels",
+      "hash": "f8e8618786f27930afc9f70bb201b7c0",
+      "metadata": null,
+      "score": 0.466306164069049,
+      "created_at": "2025-12-07T22:23:03.497797-08:00",
+      "updated_at": "2025-12-07T22:31:20.038216-08:00",
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.10948905821164717
+    },
+    {
+      "id": "1a19ad5a-a904-4e67-884f-b6d0d16fa952",
+      "memory": "Wants to increase Twitter followers",
+      "hash": "18a752d6873ab834fb758256cedc99a9",
+      "metadata": null,
+      "score": 0.5544324975196419,
+      "created_at": "2025-12-07T22:31:20.165633-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.022994075796210628
+    },
+    {
+      "id": "f4d8c35b-6f5e-42b3-86a9-ef25ea2fedf0",
+      "memory": "Has been using hashtags more frequently in Instagram stories",
+      "hash": "f3d3eb2604858c6637aa57b7013e24aa",
+      "metadata": null,
+      "score": 0.413232204568994,
+      "created_at": "2025-12-07T22:23:03.448028-08:00",
+      "updated_at": "2025-12-07T22:31:20.070445-08:00",
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.021163406705635678
+    },
+    {
+      "id": "a7665f82-00c6-4899-b6d1-a81907b30c3d",
+      "memory": "Wants to know more about Instagram Live, how it works, and best practices for hosting a successful one",
+      "hash": "baa2f5831b923408a0b704d6cf6ae4a4",
+      "metadata": null,
+      "score": 0.43463293530354763,
+      "created_at": "2025-12-07T22:23:03.543854-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.010120972616176017
+    },
+    {
+      "id": "840ba777-f914-4381-ad8d-60333d86f260",
+      "memory": "Has not seen much growth on Twitter from engaging with influencers and industry leaders",
+      "hash": "42120907c1e8dac04826c64ba2548acc",
+      "metadata": null,
+      "score": 0.47563923333421404,
+      "created_at": "2025-12-07T22:31:20.197382-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.003519421430355023
+    },
+    {
+      "id": "8d6773c0-fd9e-4257-8eaa-6475cd6c85ad",
+      "memory": "Likes the idea of using Instagram to showcase upcycled jewelry",
+      "hash": "621e6aa2a1bce5fc19c17bed9d3f3b7e",
+      "metadata": null,
+      "score": 0.3420811133773885,
+      "created_at": "2025-12-07T22:14:21.553774-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.0029840989075273377
+    },
+    {
+      "id": "366d8bb9-67b6-44f8-ac56-24d31eec2738",
+      "memory": "Wants to know more about Twitter chats and how they can help grow Twitter followers",
+      "hash": "2f521fcf34a5cfde7cdf405f354f3c70",
+      "metadata": null,
+      "score": 0.355448839370349,
+      "created_at": "2025-12-07T22:31:20.214394-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.0028752390705722272
+    },
+    {
+      "id": "0db198a5-e656-4de8-8f71-1af57417808c",
+      "memory": "Thinking of creating a series of Instagram posts showcasing upcycled jewelry pieces, each with a brief story behind its creation",
+      "hash": "93d4d1dc440e70c633d993998e9d741f",
+      "metadata": null,
+      "score": 0.333056031531627,
+      "created_at": "2025-12-07T22:14:21.578963-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.0008989485750651757
+    },
+    {
+      "id": "a87f898d-db2e-4639-99d8-cff64b04fa65",
+      "memory": "Thinks frequent flyer status might have helped with the upgrade",
+      "hash": "3961714056fdd0ea7bf7c47236f60f22",
+      "metadata": null,
+      "score": 0.34141823127922755,
+      "created_at": "2025-12-07T22:17:00.480863-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.0005001283085241348
+    },
+    {
+      "id": "8dfd8680-6627-4a38-a620-3fefc275acba",
+      "memory": "Has been trying to engage with influencers and industry leaders in their niche on Twitter",
+      "hash": "c8a0a4f9f9cfa0bd5ab10e77618bb1fa",
+      "metadata": null,
+      "score": 0.3810570953522015,
+      "created_at": "2025-12-07T22:31:20.181466-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_165",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2717,
+    "load_time": 1552.7528
+  }
+}

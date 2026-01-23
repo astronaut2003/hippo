@@ -1,0 +1,242 @@
+{
+  "sample_idx": 193,
+  "question_id": "0100672e",
+  "question": "How much did I spend on each coffee mug for my coworkers?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T02:40:48.726408",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "9598e784-2f1c-4627-840f-1892ec65db61",
+      "memory": "Already got coworkers 5 coffee mugs with funny quotes related to their profession during the holiday season",
+      "hash": "a555048a54ac47281a91f9ab05b2e8b6",
+      "metadata": null,
+      "score": 0.4770393486850886,
+      "created_at": "2025-12-08T11:03:58.627382-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.999999998350283
+    },
+    {
+      "id": "c1c6cf70-bd17-4494-8274-0d175adc5c68",
+      "memory": "Planning to get one customized desk accessory for each coworker",
+      "hash": "c03a49f3035b08b259f171f718d56a63",
+      "metadata": null,
+      "score": 0.3666397595028796,
+      "created_at": "2025-12-08T11:03:58.662363-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.5157722593541281
+    },
+    {
+      "id": "e7304bd0-9308-46a7-a477-db8ef8ae51de",
+      "memory": "Thinking of offering a free gift with purchase, like holiday-themed notecards or a small bag of artisanal coffee, to customers who spend over a certain amount",
+      "hash": "3326aadce53e8798d2e14ffee3c41c3d",
+      "metadata": null,
+      "score": 0.4622185842964852,
+      "created_at": "2025-12-08T10:42:53.858294-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.4988659697350404
+    },
+    {
+      "id": "3be30206-688d-4d91-9398-fee8c5d990b9",
+      "memory": "Looking for gift ideas for coworkers' birthdays",
+      "hash": "31e8f23d2479068b0b01418182e88347",
+      "metadata": null,
+      "score": 0.3912791634862661,
+      "created_at": "2025-12-08T11:03:58.551289-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.43881354142522494
+    },
+    {
+      "id": "51e2917c-ae1b-4516-b697-a353f60d2348",
+      "memory": "Wants something nice but not too expensive",
+      "hash": "2f9ede7135221f188a01383103f51c50",
+      "metadata": null,
+      "score": 0.2895885729820753,
+      "created_at": "2025-12-08T11:03:58.571519-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.26252419680999695
+    },
+    {
+      "id": "8374ada5-3dad-45d1-a3ae-4ae018010ce1",
+      "memory": "Wants to know production and shipping times for customized items to ensure they arrive on time for coworkers' birthdays",
+      "hash": "e9812835470ebbb2a3c0dc9c508ea624",
+      "metadata": null,
+      "score": 0.2556476310134393,
+      "created_at": "2025-12-08T11:03:58.689016-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.15462809220921253
+    },
+    {
+      "id": "9ff3e320-d30a-4125-92b4-a39aa49879b1",
+      "memory": "Considering a 10% discount for customers who buy 3 or more jars of different flavors",
+      "hash": "78307d726b31b672a6a6b35066fa167f",
+      "metadata": null,
+      "score": 0.3195276334568292,
+      "created_at": "2025-12-08T10:42:53.711225-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.07762658071653201
+    },
+    {
+      "id": "ca95a961-d1a3-401c-b0f5-57e0f4836e31",
+      "memory": "Usually meets Rachel for coffee on Wednesdays and Fridays",
+      "hash": "0125f213d3db3aa445df1e92b59e699f",
+      "metadata": null,
+      "score": 0.3339690660282402,
+      "created_at": "2025-12-08T10:43:41.062102-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.07142308726159495
+    },
+    {
+      "id": "d4547252-f3e1-41f4-99fa-dbfd73de169e",
+      "memory": "Needs help planning morning coffee routine with Rachel",
+      "hash": "5eaae765ceef454bdcd48ef515482666",
+      "metadata": null,
+      "score": 0.36753363505614334,
+      "created_at": "2025-12-08T10:43:41.043098-08:00",
+      "updated_at": "2025-12-08T10:56:31.552755-08:00",
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.047235441299926954
+    },
+    {
+      "id": "0cc32de0-fe4c-45a0-9daf-bf2864f1d1a1",
+      "memory": "Unsure how to price new flavors like spicy pepper jelly and cranberry orange marmalade",
+      "hash": "02c7cd6b51f8e2529148ccde6f1b0d5c",
+      "metadata": null,
+      "score": 0.2860902567051327,
+      "created_at": "2025-12-08T10:42:53.653538-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.025871069242617194
+    },
+    {
+      "id": "4abd4fc4-9b6c-4eac-8c79-89a80e63fed5",
+      "memory": "Overslept last Monday and had to grab coffee and a pastry on the go",
+      "hash": "bac093d8cc5274ab1e554cf4c9f3d98e",
+      "metadata": null,
+      "score": 0.34628208938957966,
+      "created_at": "2025-12-08T10:56:31.707607-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.019882644911517283
+    },
+    {
+      "id": "8ecb2a82-8d60-4fe4-a51c-d345f32d5147",
+      "memory": "Glad to have snagged the 1980s Russian Zenit SLR from Moscow for $100",
+      "hash": "8bec58a71eb058494140f35be5a7137f",
+      "metadata": null,
+      "score": 0.29894078753381376,
+      "created_at": "2025-12-08T10:52:14.006190-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.008466203139667089
+    },
+    {
+      "id": "4063dd7c-b0e7-4545-bdd6-7a7ed2eb9bb1",
+      "memory": "Thinking of offering a discount for customers who buy multiple jars of different flavors",
+      "hash": "f4d2b153dcfb36d597980083a0f227b0",
+      "metadata": null,
+      "score": 0.32692714276754203,
+      "created_at": "2025-12-08T10:42:53.690977-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.007093505183939829
+    },
+    {
+      "id": "74687276-bde9-463c-8b75-43f8c3ff5037",
+      "memory": "Thinking of packing a portable laundry detergent sheet for washing clothes in the hotel sink, like they did on a trip to Paris",
+      "hash": "4211a41cd149a6ed88ab753a47b295b2",
+      "metadata": null,
+      "score": 0.24543146784268133,
+      "created_at": "2025-12-08T10:58:50.187445-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.0038191682378543555
+    },
+    {
+      "id": "a82d4b3a-9c78-48b0-950f-379c38a9397c",
+      "memory": "Still deciding on design and material for desk accessories",
+      "hash": "8c6c891be22654d64b2cd82aa8356acf",
+      "metadata": null,
+      "score": 0.28606207032323205,
+      "created_at": "2025-12-08T11:03:58.705065-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.00291090631253476
+    },
+    {
+      "id": "d52b2e44-f772-4bfa-bc0a-33e05be92929",
+      "memory": "Really loved trying first-ever breakfast taco at Torchy's Tacos in Austin",
+      "hash": "a64e83a069650d44ba1d4a44fad44f58",
+      "metadata": null,
+      "score": 0.24410530618021908,
+      "created_at": "2025-12-08T10:50:37.973076-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.0024768348328956177
+    },
+    {
+      "id": "b2f1a2f1-bfdf-44a1-a744-3b7d5f147f6c",
+      "memory": "Has a 1980s Russian Zenit SLR picked up for $100 from a collector in Moscow",
+      "hash": "fbf422a8a9f06e9f50d8bde8988c392b",
+      "metadata": null,
+      "score": 0.2561650123145843,
+      "created_at": "2025-12-08T10:52:13.960979-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.0016635997918464246
+    },
+    {
+      "id": "fff476a7-75bb-4d7f-bcfd-41335f2d2dcf",
+      "memory": "Has a 1920s Kodak folding camera got on eBay for $150",
+      "hash": "dd88ba8bd1a8d48470b5f18bfa76f8b2",
+      "metadata": null,
+      "score": 0.23801564782465556,
+      "created_at": "2025-12-08T10:52:13.977192-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.0012830202669290329
+    },
+    {
+      "id": "fa281350-42dc-488f-936a-a926674e7722",
+      "memory": "Would love recommendations for traditional Polish beverages to serve with dinner and desserts, such as kawa or kompot",
+      "hash": "0ef3dc0ba1ca744c7340baf1bdf60b5e",
+      "metadata": null,
+      "score": 0.2370593874416072,
+      "created_at": "2025-12-08T10:52:54.508067-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.0007820838438877035
+    },
+    {
+      "id": "a53b3e93-1d7a-46e9-a8cb-3d8bca6128cf",
+      "memory": "Preparing for the upcoming holiday market and needs help with pricing strategies",
+      "hash": "4257ff962ccfd6a8b46ee9954f956877",
+      "metadata": null,
+      "score": 0.26332706133321615,
+      "created_at": "2025-12-08T10:42:53.603404-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_193",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5201,
+    "load_time": 1429.2317
+  }
+}

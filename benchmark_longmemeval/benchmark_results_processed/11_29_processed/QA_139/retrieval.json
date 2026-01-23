@@ -1,0 +1,242 @@
+{
+  "sample_idx": 139,
+  "question_id": "afdc33df",
+  "question": "My kitchen's becoming a bit of a mess again. Any tips for keeping it clean?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T09:07:37.743549",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "bd8a239d-6f5d-4e03-a064-cd5f681d7635",
+      "memory": "Needs help organizing kitchen utensils",
+      "hash": "4d5434a140db2db7c847882d08cc937e",
+      "metadata": null,
+      "score": 0.42063633375020715,
+      "created_at": "2025-12-06T17:11:13.833939-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.9999999984329573
+    },
+    {
+      "id": "0a1e5d6b-2925-4896-89c2-523abf027703",
+      "memory": "Recently bought a new utensil holder to keep countertops clutter-free",
+      "hash": "d36f90478b3da630e5d04b860e76b233",
+      "metadata": null,
+      "score": 0.26390272110789725,
+      "created_at": "2025-12-06T17:11:13.847923-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.6343206496529691
+    },
+    {
+      "id": "1fa147fb-6968-40a8-9481-381232e3dec8",
+      "memory": "Having issues with kitchen faucet, it's been leaking slightly",
+      "hash": "5ffc4385a77aa5d44a6b3e5fa42e4b15",
+      "metadata": null,
+      "score": 0.30601471604252034,
+      "created_at": "2025-12-06T17:11:13.877639-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.48567802749953926
+    },
+    {
+      "id": "a01be7ed-0efa-47f7-972c-beb41341251a",
+      "memory": "Having issues with garbage disposal",
+      "hash": "190fc967e3a5dc4faf32bad6d5b6177e",
+      "metadata": null,
+      "score": 0.3349064136648735,
+      "created_at": "2025-12-06T17:11:13.803263-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.4065425750029429
+    },
+    {
+      "id": "72ebff2e-39f7-409f-8a8b-8e1f11fd9813",
+      "memory": "Has had issues with fettuccine becoming mushy or sticky in the past",
+      "hash": "cead7f225545f5c3b44fa750866bd649",
+      "metadata": null,
+      "score": 0.273021360560401,
+      "created_at": "2025-12-06T17:10:30.229680-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.048317609667609736
+    },
+    {
+      "id": "0cee29a1-1982-41b1-951a-def71a8969b9",
+      "memory": "Having issues with slow cooker",
+      "hash": "b2ff79308d26196808837af79ba30289",
+      "metadata": null,
+      "score": 0.30795530279859096,
+      "created_at": "2025-12-06T17:11:13.893553-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.01657044408823796
+    },
+    {
+      "id": "2815ac71-59a8-4d0e-9169-d3ef3f7dcc37",
+      "memory": "Has some chicken, vegetables, and pasta at home",
+      "hash": "1d860438c5d1f55a3a6b8134a842dc20",
+      "metadata": null,
+      "score": 0.3004522146477196,
+      "created_at": "2025-12-06T17:10:30.085847-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.012029712006915608
+    },
+    {
+      "id": "f936321d-86e5-44f1-b285-33e517f72531",
+      "memory": "Wants to know how to store leftover sauce",
+      "hash": "4f489f46f535d4f626ac8c080ae9b3e9",
+      "metadata": null,
+      "score": 0.24901541998427792,
+      "created_at": "2025-12-06T17:10:30.173480-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.007640218105763685
+    },
+    {
+      "id": "f856f0b4-e300-44eb-9f7a-78c5b6f2172c",
+      "memory": "Wants tips on how to prepare cremini mushrooms for the sauce",
+      "hash": "b50ca852f96eb840b69a270a89213939",
+      "metadata": null,
+      "score": 0.2003533253516635,
+      "created_at": "2025-12-06T17:31:41.381963-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.004649826816030265
+    },
+    {
+      "id": "9afbf96b-c617-4486-94a4-0fef2c894780",
+      "memory": "Will keep tips on staying motivated and consistent in mind",
+      "hash": "5b4641e1be61e884020606a065efea05",
+      "metadata": null,
+      "score": 0.20698741038768717,
+      "created_at": "2025-12-06T17:12:00.733694-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.004492013062808952
+    },
+    {
+      "id": "2635fd92-6760-4e90-8c63-8d94ce17ff92",
+      "memory": "Wants some tips on how to cook the perfect fettuccine",
+      "hash": "12fd6bb924bb66a7b344926c641ec15d",
+      "metadata": null,
+      "score": 0.27375436382345075,
+      "created_at": "2025-12-06T17:10:30.214777-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.003731488261536919
+    },
+    {
+      "id": "787a5f7f-af72-4db8-9777-68d9c198738c",
+      "memory": "Noticed scratches on granite countertop near the sink",
+      "hash": "48e6e03f141bbab29c0f7fbcfb54eaea",
+      "metadata": null,
+      "score": 0.24654660559334574,
+      "created_at": "2025-12-06T17:11:13.862030-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.003690988709337131
+    },
+    {
+      "id": "92f2504c-52e2-462b-ad23-ca4f60435bfe",
+      "memory": "Noticed splurging on luxury items",
+      "hash": "06dcbd640ebbdccac5ba8864bf0d8326",
+      "metadata": null,
+      "score": 0.34355906512075457,
+      "created_at": "2025-12-06T17:16:25.155099-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.002260801570768974
+    },
+    {
+      "id": "4efaa5f0-967e-47f9-8d36-53f830df8150",
+      "memory": "Excited to see how the dish turns out",
+      "hash": "71ca14ad51d4b276483469b27f4e16b8",
+      "metadata": null,
+      "score": 0.1949246685155051,
+      "created_at": "2025-12-06T17:31:41.438458-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.0010262377304647372
+    },
+    {
+      "id": "db5e9b65-2151-426b-82a3-a61ae83123a7",
+      "memory": "Grandma is a big fan of comfort food",
+      "hash": "bfbe9bb9b5cc3862f3a34f7e1cc31314",
+      "metadata": null,
+      "score": 0.18494307379633546,
+      "created_at": "2025-12-06T17:10:30.041580-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.0009531592026946401
+    },
+    {
+      "id": "8aad076c-60de-4bb1-998c-3ad2810f2d9d",
+      "memory": "Loves the Mediterranean Delight and Spicy Kick veggie stick and dip ideas",
+      "hash": "dc1adc1af2fdaebab5bc65cf4827fdfe",
+      "metadata": null,
+      "score": 0.19273818049375302,
+      "created_at": "2025-12-06T17:27:54.935599-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.0009388124978563389
+    },
+    {
+      "id": "34793af1-9da8-434a-a7b9-5c62490034c1",
+      "memory": "Wants to make something special for dinner",
+      "hash": "fa4b21f328fe567431e67d3c64773fdb",
+      "metadata": null,
+      "score": 0.2181892712155772,
+      "created_at": "2025-12-06T17:10:30.026929-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.0006816179246613756
+    },
+    {
+      "id": "540f0615-8616-411a-9b93-37549fc6dbe4",
+      "memory": "Trying to get a better sense of spending habits",
+      "hash": "0d17e3e2148c70b9dd00d158a3066d44",
+      "metadata": null,
+      "score": 0.18743122619724062,
+      "created_at": "2025-12-06T17:16:25.117549-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.00036046095906231925
+    },
+    {
+      "id": "1ae09edd-5b64-4dfd-a0d3-b9bc37db23f8",
+      "memory": "Wants suggestions for a healthy snack that's easy to prepare and can be taken on-the-go",
+      "hash": "4316ff585d4ca5027a72e78a216c5b31",
+      "metadata": null,
+      "score": 0.18440682831946215,
+      "created_at": "2025-12-06T17:27:55.030077-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.00023253617425413297
+    },
+    {
+      "id": "cc1787e2-47f1-4e12-b6b5-1dafcf61f216",
+      "memory": "Wants healthy meal ideas that are easy to prepare and gentle on the stomach",
+      "hash": "c95b08a0beb12b19d5faceb71825a2a4",
+      "metadata": null,
+      "score": 0.22902286606655345,
+      "created_at": "2025-12-06T17:15:06.155489-08:00",
+      "updated_at": "2025-12-06T17:23:49.005388-08:00",
+      "user_id": "benchmark_processed_139",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2423,
+    "load_time": 1666.5694
+  }
+}

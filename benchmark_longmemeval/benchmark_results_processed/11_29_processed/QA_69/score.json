@@ -1,0 +1,77 @@
+{
+  "sample_idx": 69,
+  "question_id": "f4f1d8a4_abs",
+  "question": "What did my dad gave me as a birthday gift?",
+  "question_type": "single-session-user",
+  "gold_answer": "You did not mention this information. You mentioned receiving a birthday gift from your sister, but not your dad.",
+  "question_date": "2023/05/30 (Tue) 21:51",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-01T05:30:33.726326",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 2945,
+  "gen_token_usage": {
+    "prompt_tokens": 811,
+    "answer_tokens": 10,
+    "total_tokens": 821,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 19,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14814814814814814,
+      "rouge1_f": 0.13793103448275862,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06896551724137931,
+      "semantic_similarity": 0.09994769096374512,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.08876117496807151,
+      "avg_semantic": 0.09994769096374512,
+      "overall_average": 0.09099847823381424
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14814814814814814,
+    "rouge1_f": 0.13793103448275862,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06896551724137931,
+    "semantic_similarity": 0.09994769096374512,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.08876117496807151,
+    "avg_semantic": 0.09994769096374512,
+    "overall_average": 0.09099847823381424
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1313.2135,
+    "retrieval_time": 1.2729,
+    "generation_time": 1.6994,
+    "evaluation_time": 2.0796,
+    "cleanup_time": 1.5432,
+    "total_time": 1319.8105
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 43,
+  "question_id": "ccb36322",
+  "question": "What is the name of the music streaming service have I been using lately?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T22:35:47.506727",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "2e7ea12f-b188-4cad-ad7c-d5fed25b3f20",
+      "memory": "Been listening to Arctic Monkeys and The Neighbourhood songs a lot on Spotify lately",
+      "hash": "28ea5c5ac3bfc9d4f5230960b1edc5b7",
+      "metadata": null,
+      "score": 0.341748634785306,
+      "created_at": "2025-11-29T06:38:02.020425-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.9999999991836147
+    },
+    {
+      "id": "f324c444-f84f-4729-b0f5-400e4e06c78a",
+      "memory": "Has been watching more original content lately on Netflix",
+      "hash": "44adb2879c7fa67d6c4ee0a72e02b4b0",
+      "metadata": null,
+      "score": 0.26083756914585227,
+      "created_at": "2025-11-29T06:49:01.706707-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.8212831062017965
+    },
+    {
+      "id": "380e4705-ee13-4dc6-b1c8-5e0b58468a48",
+      "memory": "Has been using Netflix for about 6 months",
+      "hash": "1b58665c5a917964a9d9972ecfca1e17",
+      "metadata": null,
+      "score": 0.4358935669484871,
+      "created_at": "2025-11-29T06:49:01.673743-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.7044469968292205
+    },
+    {
+      "id": "552e96b2-e3da-4312-908a-39117b4be1f5",
+      "memory": "Interested in rock or pop shows",
+      "hash": "3124fc5d66f5f33e0181c918acba4a77",
+      "metadata": null,
+      "score": 0.27973804480406583,
+      "created_at": "2025-11-29T06:38:01.987251-08:00",
+      "updated_at": "2025-11-29T06:40:32.312067-08:00",
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.1080981507970251
+    },
+    {
+      "id": "a1dfdfb8-97fa-4024-b761-19a08e4f9555",
+      "memory": "Wants to look up more of the artist's work online",
+      "hash": "0040c710d539c839d02e862ab82e986f",
+      "metadata": null,
+      "score": 0.23825692556022032,
+      "created_at": "2025-11-29T06:43:31.611156-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.02795922517281879
+    },
+    {
+      "id": "e826dc48-8af2-490f-9884-06f87d39988a",
+      "memory": "Wants to know if Waterparks have been playing any new songs or focusing on older material",
+      "hash": "78c79f1f482374998d137b74a0f2cd7a",
+      "metadata": null,
+      "score": 0.3248351925764823,
+      "created_at": "2025-11-29T06:40:32.387590-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.019082798704326873
+    },
+    {
+      "id": "62311bbf-3dad-4546-b086-c7353bf74e4e",
+      "memory": "Looking for new yoga videos on YouTube to mix up home practice",
+      "hash": "1f44432773000ae511e46a083f50bc2f",
+      "metadata": null,
+      "score": 0.1807918808305296,
+      "created_at": "2025-11-29T06:47:35.786907-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.0025543958951385966
+    },
+    {
+      "id": "652323c3-5267-4521-963a-5ae3611c3358",
+      "memory": "Appreciates when bands play a good mix of old and new material",
+      "hash": "c60d2882a7c002596ed0bf7c80414874",
+      "metadata": null,
+      "score": 0.22775637322878922,
+      "created_at": "2025-11-29T06:38:02.056567-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.0011281415623931928
+    },
+    {
+      "id": "cb17d89d-b01f-4a1e-9cd8-f36809b55539",
+      "memory": "Looking for recommendations for music gear, like turntables or guitar equipment",
+      "hash": "f20dc5ad39c8e3b684cb4cdd95e7afb2",
+      "metadata": null,
+      "score": 0.23709138178120154,
+      "created_at": "2025-11-29T06:38:02.172955-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.0010495064362360414
+    },
+    {
+      "id": "311d34c9-3422-45d7-8c75-aba13b66a5e0",
+      "memory": "Looking for upcoming concerts in the Philly area",
+      "hash": "ceec21bd8201cd1c1d8a646365e4d7fc",
+      "metadata": null,
+      "score": 0.2755207508827159,
+      "created_at": "2025-11-29T06:38:01.934665-08:00",
+      "updated_at": "2025-11-29T06:40:32.235718-08:00",
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.0009138803077550931
+    },
+    {
+      "id": "0d6ae1f5-ac0f-49b4-b254-03d6790920b3",
+      "memory": "Just got back from seeing The 1975 live",
+      "hash": "85d9da303d119c02a41420e3b1b02745",
+      "metadata": null,
+      "score": 0.19124676529484858,
+      "created_at": "2025-11-29T06:38:01.968324-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.000815936754581136
+    },
+    {
+      "id": "f06734c9-4bb6-4493-8c4b-bc3843e4b36b",
+      "memory": "Had a great response to wireless charging pad at recent trade shows",
+      "hash": "60aa12cc4e54f075052d42dec42a5cde",
+      "metadata": null,
+      "score": 0.1816975934400963,
+      "created_at": "2025-11-29T06:50:03.710586-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.0007408051736488082
+    },
+    {
+      "id": "a5bfcc6a-b5c5-4dba-a4b7-1d7ba97a5d60",
+      "memory": "Had some great times at the local music venue downtown",
+      "hash": "2f4b0cfe23e92183ccc9139f5655271a",
+      "metadata": null,
+      "score": 0.2701914462252356,
+      "created_at": "2025-11-29T06:38:02.088294-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.0006057240410917213
+    },
+    {
+      "id": "c5f1221f-b506-46d4-8f3d-60f0e650ebb2",
+      "memory": "Is open to trying out new genres",
+      "hash": "c95f312c5fba31333df50ed2f413d239",
+      "metadata": null,
+      "score": 0.2709724050971999,
+      "created_at": "2025-11-29T06:49:01.725872-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.00048730421249268424
+    },
+    {
+      "id": "38402fb1-b126-49cf-b8e9-396ae69ab21c",
+      "memory": "Saw The 1975 at the local music venue downtown recently",
+      "hash": "ff965f6ccd334d5619df2f10605aa308",
+      "metadata": null,
+      "score": 0.2983136124122924,
+      "created_at": "2025-11-29T06:38:02.105295-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.00043303818978819456
+    },
+    {
+      "id": "16be078f-b813-46c9-862a-cd21bc1f46bc",
+      "memory": "Wants to know about Waterparks' setlist and what to expect from their live show",
+      "hash": "08dac9c3847ee5d2da9146ebb468ebdc",
+      "metadata": null,
+      "score": 0.2011826180598636,
+      "created_at": "2025-11-29T06:40:32.367740-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.00028557786410339763
+    },
+    {
+      "id": "8ce439f2-fd92-4b08-9ce3-3ef72f18edde",
+      "memory": "Thinking of buying a new gaming console to go along with new 4K TV",
+      "hash": "27fdfbb741a14ece553aa5fb606eb08d",
+      "metadata": null,
+      "score": 0.1826153469911515,
+      "created_at": "2025-11-29T06:45:08.500321-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.0002628437484223202
+    },
+    {
+      "id": "7a45eb3d-b00e-4c86-9a78-76f52edc3690",
+      "memory": "Prefers smaller venues in the Philly area for rock or pop shows",
+      "hash": "c177e360d512cff9256494c520b01e62",
+      "metadata": null,
+      "score": 0.22502699725394296,
+      "created_at": "2025-11-29T06:38:02.122535-08:00",
+      "updated_at": "2025-11-29T06:40:32.272308-08:00",
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 6.734592487716438e-05
+    },
+    {
+      "id": "215c6374-8581-4c64-9dd4-4d9b36740e33",
+      "memory": "Loves the energy of live shows, especially when the lead singer interacts with the crowd",
+      "hash": "d35b9ee6a62d726a5a4f7b0d551f7b0e",
+      "metadata": null,
+      "score": 0.25816481622508974,
+      "created_at": "2025-11-29T06:38:02.039414-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 5.979383850365577e-05
+    },
+    {
+      "id": "2b1ef5ca-cf9a-4834-af13-b801d7059461",
+      "memory": "Wants to write a song about the feeling of being on a morning commute, watching the city wake up",
+      "hash": "8497844b2664b59b9a5b98349fa35e00",
+      "metadata": null,
+      "score": 0.19083285882560785,
+      "created_at": "2025-11-29T06:36:04.302671-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_43",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0584,
+    "load_time": 1286.1831
+  }
+}

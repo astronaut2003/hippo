@@ -1,0 +1,242 @@
+{
+  "sample_idx": 7,
+  "question_id": "6f9b354f",
+  "question": "What color did I repaint my bedroom walls?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T00:13:49.105495",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "56ebf662-218b-443c-b031-79d4d49c17ab",
+      "memory": "Recently repainted bedroom walls a lighter shade of gray",
+      "hash": "4092bb9f2276f4a443e9a227e22511c5",
+      "metadata": null,
+      "score": 0.7799272937242578,
+      "created_at": "2025-11-28T08:30:30.647443-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.9999999993418861
+    },
+    {
+      "id": "de0cdb1f-b24a-47f7-b066-ee2424d8db14",
+      "memory": "Watercolor painting tutorial has gotten 2,500 views",
+      "hash": "ebb18025ca2d6df66fbe7893a6e3c1a8",
+      "metadata": null,
+      "score": 0.38058238339458705,
+      "created_at": "2025-11-28T08:34:42.206141-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.10390760405975326
+    },
+    {
+      "id": "b15e65b3-bc24-43a2-858a-2c02f5075378",
+      "memory": "Has a YouTube channel with watercolor painting tutorials",
+      "hash": "376d0a5e4b69ae2d8cc88ac3a09779eb",
+      "metadata": null,
+      "score": 0.3816047283946678,
+      "created_at": "2025-11-28T08:34:42.187575-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.03993064852910278
+    },
+    {
+      "id": "d09ef9fc-255b-4ebb-9811-9acca4562e92",
+      "memory": "Considering lavender and vanilla scents for the soaps and lotions",
+      "hash": "06ac12bf5b89afe4414571b6ca837a6f",
+      "metadata": null,
+      "score": 0.21173069952810164,
+      "created_at": "2025-11-28T08:20:37.220757-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.03118172699287954
+    },
+    {
+      "id": "dfb54f45-ec7e-4dc8-ba47-21e74e26c36d",
+      "memory": "Recently added a vase with fresh greenery to kitchen countertop",
+      "hash": "47564981bbfb714d1638e783bf475559",
+      "metadata": null,
+      "score": 0.2966987800781465,
+      "created_at": "2025-11-28T08:30:30.615462-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.011896780956793813
+    },
+    {
+      "id": "3a107a21-cbfa-4dbf-be77-0b6c5af78002",
+      "memory": "Decided to go with Illume's Wildflower Meadow candle",
+      "hash": "8634cbe5e22cf5323bf0bb526c068c23",
+      "metadata": null,
+      "score": 0.20180615737720703,
+      "created_at": "2025-11-28T08:25:42.319679-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.011736799027513893
+    },
+    {
+      "id": "901d024e-347e-430c-b6c0-42d33c603ebc",
+      "memory": "Considering a minimalist aesthetic with natural wood accents",
+      "hash": "e9b9897830995ff818811d6a3e496e6e",
+      "metadata": null,
+      "score": 0.19988357995661493,
+      "created_at": "2025-11-28T08:30:30.694504-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.006049501066105793
+    },
+    {
+      "id": "5c345187-1892-4f48-aa46-70fe74aeccc0",
+      "memory": "Brushes Max regularly with a new brush that cost $30 and it's doing a great job of reducing shedding",
+      "hash": "74f4053ed4f7cf77fdc61f7ce67d4f05",
+      "metadata": null,
+      "score": 0.19485207879476862,
+      "created_at": "2025-11-28T08:32:42.631664-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.0057406461920428324
+    },
+    {
+      "id": "98ab8581-79c3-4466-8c6c-2bf112b3b4a0",
+      "memory": "Thinking of creating a series of videos on different watercolor techniques",
+      "hash": "8c47c6176577e5547f47679324706ea7",
+      "metadata": null,
+      "score": 0.2333146794944927,
+      "created_at": "2025-11-28T08:34:42.240030-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.004061871517904227
+    },
+    {
+      "id": "5c141f37-d15b-42b1-be42-a227ea4d607e",
+      "memory": "Plans to ask Instagram audience for suggestions on watercolor techniques to cover",
+      "hash": "3d293ec444ab55308c5a15913c6497ec",
+      "metadata": null,
+      "score": 0.2616306469440385,
+      "created_at": "2025-11-28T08:34:42.317114-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.0038069297380944837
+    },
+    {
+      "id": "e523f026-09f6-42b1-9586-fd0ddcdd5e37",
+      "memory": "The view from the room was amazing, especially at night",
+      "hash": "abd58c484bfd4e963f7047960627bd47",
+      "metadata": null,
+      "score": 0.23373560968551355,
+      "created_at": "2025-11-28T08:15:08.893162-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.0026292518561767033
+    },
+    {
+      "id": "054ecaf5-9bcd-4a5c-abaa-a6acd27f475b",
+      "memory": "Considering a minimalist wooden desk lamp with a simple shade",
+      "hash": "98c1c5f2e87a0cdc4668c852b8dbc2aa",
+      "metadata": null,
+      "score": 0.22326601993028244,
+      "created_at": "2025-11-28T08:30:30.741798-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.002256881206346273
+    },
+    {
+      "id": "3152f8fc-3d91-47d1-9b16-51a5ad11b5ab",
+      "memory": "Had a small balcony in the room at the Hilton",
+      "hash": "2b6415cc863616140468b061e5a682cb",
+      "metadata": null,
+      "score": 0.27192428146841546,
+      "created_at": "2025-11-28T08:15:08.990590-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.001815095094066415
+    },
+    {
+      "id": "891ac1b4-ea96-4875-a5f4-45489fb4e8ff",
+      "memory": "Going to start with purging and decluttering the bathroom cabinets",
+      "hash": "c1ba7971455913f295a5d94b5678a6df",
+      "metadata": null,
+      "score": 0.1859631086739867,
+      "created_at": "2025-11-28T08:16:02.115883-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.0014865955186050175
+    },
+    {
+      "id": "d14544eb-fbda-4d28-a40b-a5882b661ad5",
+      "memory": "Reminds self that tidying up is worth it in the long run and helps feel more calm and relaxed before bed",
+      "hash": "dd4151bfb8fcab56d0f2e5f72f342e93",
+      "metadata": null,
+      "score": 0.18882922101724295,
+      "created_at": "2025-11-28T08:16:02.018441-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.0010918186119079998
+    },
+    {
+      "id": "06f4a376-bc3d-4f89-9e5a-d29836552278",
+      "memory": "Was on the 14th floor at the Hilton",
+      "hash": "24b32d84d64c7fc254781268dd9aa750",
+      "metadata": null,
+      "score": 0.21162821764909956,
+      "created_at": "2025-11-28T08:15:08.877925-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.0009527366365120394
+    },
+    {
+      "id": "78f44cde-b9fe-4473-87a0-38087906fba8",
+      "memory": "Feeling more optimistic about tackling bathroom cabinets after getting tips",
+      "hash": "3f06119af5032b6f43d06551cd00a4e1",
+      "metadata": null,
+      "score": 0.19203381887845908,
+      "created_at": "2025-11-28T08:16:02.067480-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.0009034052138309813
+    },
+    {
+      "id": "fb236fde-9066-49f0-8dfd-39f4311edc9c",
+      "memory": "Just checked out of the Hilton Hotel in downtown Chicago today",
+      "hash": "26b0d422b0d39db4f22fcd7a3492747c",
+      "metadata": null,
+      "score": 0.18824347957177945,
+      "created_at": "2025-11-28T08:15:08.830445-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.0008377555088381227
+    },
+    {
+      "id": "af78931e-726c-4834-bfca-1a0db47abd63",
+      "memory": "Wished had more time to enjoy the balcony",
+      "hash": "1426bad0baef0d9f5b699112af0951c1",
+      "metadata": null,
+      "score": 0.21241386381338867,
+      "created_at": "2025-11-28T08:15:09.006533-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.00045264404627963294
+    },
+    {
+      "id": "18143ffa-51cd-4934-888e-6bec7c29d691",
+      "memory": "Wants to incorporate greenery like a small herb garden or vase with fresh flowers",
+      "hash": "e72043517e258d57d11a16bad0d0e96c",
+      "metadata": null,
+      "score": 0.2258906663665924,
+      "created_at": "2025-11-28T08:30:30.710077-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_7",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.032,
+    "load_time": 1326.8211
+  }
+}

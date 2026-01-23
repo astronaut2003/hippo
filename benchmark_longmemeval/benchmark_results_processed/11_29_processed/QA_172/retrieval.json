@@ -1,0 +1,242 @@
+{
+  "sample_idx": 172,
+  "question_id": "d905b33f",
+  "question": "What percentage discount did I get on the book from my favorite author?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T17:41:34.421625",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "b4103415-ea33-45da-a702-7fa3b8b64f73",
+      "memory": "Bought a new release from favorite author, originally priced at $30",
+      "hash": "fdfa077e41e58cddfcedeee9032546bf",
+      "metadata": null,
+      "score": 0.6036092347656439,
+      "created_at": "2025-12-08T02:01:41.295342-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.9999999990469843
+    },
+    {
+      "id": "8be527fa-bc3f-4331-af9b-c13b8019f796",
+      "memory": "Couldn't resist a sale at favorite bookstore last week",
+      "hash": "d513f9dfc6d924688584fd9babc1ed05",
+      "metadata": null,
+      "score": 0.5366923419520899,
+      "created_at": "2025-12-08T02:01:41.276024-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.5395316539828945
+    },
+    {
+      "id": "1dc6538e-7a2d-4e09-a672-c1592cd2bf5b",
+      "memory": "Got a first edition of The Walking Dead at a garage sale for $200, which was thought to be a great deal",
+      "hash": "d072c4807997f9d9ea1cb00c3e97809d",
+      "metadata": null,
+      "score": 0.48094686355055744,
+      "created_at": "2025-12-08T01:47:26.890231-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.34485349249136626
+    },
+    {
+      "id": "6ac16104-80fe-42c8-885a-c9ab669eb108",
+      "memory": "Picked up a first edition of The Walking Dead at a garage sale for $200",
+      "hash": "e67fb812ded59c13787914b0654dc75d",
+      "metadata": null,
+      "score": 0.47062881138176393,
+      "created_at": "2025-12-08T01:47:26.829183-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.2142691881292649
+    },
+    {
+      "id": "f5fc8a78-8b86-424d-ba25-a1d90e1cb08a",
+      "memory": "Has experience with rare collectibles, like first edition of The Walking Dead comic book from a garage sale for $200",
+      "hash": "880af899aca2ee01836303d48168b60d",
+      "metadata": null,
+      "score": 0.45288575516504115,
+      "created_at": "2025-12-08T01:47:26.991213-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.07251009735263898
+    },
+    {
+      "id": "2d9842eb-2589-477f-afcc-9aceeaf0b142",
+      "memory": "Looking forward to reading the new book",
+      "hash": "d8d96ff0df5dc92ddcd0a4a462f7c673",
+      "metadata": null,
+      "score": 0.43811915060217066,
+      "created_at": "2025-12-08T02:01:41.311779-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.06778299174150434
+    },
+    {
+      "id": "97c52067-2526-4183-aeb8-316c5bdbfee3",
+      "memory": "Has a pair of black high-waisted jeans from Zara that were purchased with a 20% discount code",
+      "hash": "ac80d95432dca6fe594377a6c731c245",
+      "metadata": null,
+      "score": 0.3039061031550927,
+      "created_at": "2025-12-08T01:45:23.132737-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.04972963091065432
+    },
+    {
+      "id": "bbdd2ff5-f36c-4a1e-ba50-411465d60c5c",
+      "memory": "Went to FreshMarket on January 28th and spent around $40",
+      "hash": "68be2ad0b216bd18bda283f05bd68d17",
+      "metadata": null,
+      "score": 0.35971909031221444,
+      "created_at": "2025-12-08T01:46:33.733134-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.02470090138004152
+    },
+    {
+      "id": "16879971-b103-4a0c-8e04-3bc74428a6fd",
+      "memory": "Got sister's birthday present from that store",
+      "hash": "9705eb476e44ffeed3f6b3d15dc15f2c",
+      "metadata": null,
+      "score": 0.3361829053310263,
+      "created_at": "2025-12-08T02:01:41.380241-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.02454321304035725
+    },
+    {
+      "id": "4e72e45e-5d96-4534-9433-69b029dbaed3",
+      "memory": "Did an online grocery order from Instacart on February 28th and spent around $60",
+      "hash": "b75ecb15d76b10c777c32c05c05c7361",
+      "metadata": null,
+      "score": 0.32224713370077784,
+      "created_at": "2025-12-08T01:46:33.765275-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.0029806277233116185
+    },
+    {
+      "id": "bfde10bb-2e0c-4bdd-824c-56f4ae84ce2e",
+      "memory": "Thinking of getting a professional appraisal for vintage Star Wars action figure collection",
+      "hash": "ed3aeaf55a37b1c525f241077bb1a73b",
+      "metadata": null,
+      "score": 0.2797566671329249,
+      "created_at": "2025-12-08T01:47:26.940170-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.0010172942859285545
+    },
+    {
+      "id": "9a9a5a4e-792c-418f-9023-69c603d94145",
+      "memory": "Wants to know about reputable comic book appraisers or insurance companies that specialize in rare comics and graphic novels",
+      "hash": "eb7665c794fde62db7086cda8675b3f5",
+      "metadata": null,
+      "score": 0.33377388765498667,
+      "created_at": "2025-12-08T01:53:55.055023-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.0006946466744708248
+    },
+    {
+      "id": "1bfcc010-1ccd-46b7-bb0d-fc1b4d28fb2c",
+      "memory": "Glad to have spent a Saturday catching up on reading as it helped clear the mind before the trip",
+      "hash": "5b3e9d416b11b4bac9186a1ccb75adc2",
+      "metadata": null,
+      "score": 0.3080874535186102,
+      "created_at": "2025-12-08T02:05:58.779254-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.0003679091637129267
+    },
+    {
+      "id": "4f22a831-9059-43ec-8df9-15bbc1eeeb28",
+      "memory": "Wants to know about appraisers or insurance companies that specialize in comic book variants and rare covers",
+      "hash": "9ac0829800a04f3a863a2bb92766f60d",
+      "metadata": null,
+      "score": 0.3284658137787415,
+      "created_at": "2025-12-08T01:53:55.086300-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.00036018379836816414
+    },
+    {
+      "id": "e6061633-c989-48f6-9cdd-d63bdb4986a6",
+      "memory": "Funny mug for coworker cost $15 at the mall",
+      "hash": "1653972b3dc41dd30cdfc77479128d5e",
+      "metadata": null,
+      "score": 0.2804388264643725,
+      "created_at": "2025-12-08T01:49:52.285143-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.0002608446886996294
+    },
+    {
+      "id": "ea99fb74-6585-42d3-9f82-0c0a6a96b7c2",
+      "memory": "Hoping to score great deals on vintage toys and collectibles",
+      "hash": "cdc6b24ce704ee4de802b895ca643d0a",
+      "metadata": null,
+      "score": 0.29839840704986004,
+      "created_at": "2025-12-08T01:47:26.781494-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.00022803460764716726
+    },
+    {
+      "id": "b1add41d-8007-47d3-9edb-163106240c87",
+      "memory": "Recently bought an 18th-century armchair at a local antique shop in the village for $800",
+      "hash": "f571fa55cc3ea867ba0e52ab89cdada7",
+      "metadata": null,
+      "score": 0.3044320134083617,
+      "created_at": "2025-12-08T01:56:59.165690-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.00011424452045137076
+    },
+    {
+      "id": "ca34c9eb-4515-456e-9229-0af6a3e36ed2",
+      "memory": "Recently spent around $120 on a shopping trip to Costco",
+      "hash": "20661ae52c8a4ac25c032d9e4346fecd",
+      "metadata": null,
+      "score": 0.3264180735128651,
+      "created_at": "2025-12-08T01:46:33.709663-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 7.80716333076591e-05
+    },
+    {
+      "id": "49f0ce33-421b-42e4-b3ad-a9d29b5c9203",
+      "memory": "Stopped by Whole Foods on March 4th and spent around $25",
+      "hash": "f173207a5535b3f41e2986623be88081",
+      "metadata": null,
+      "score": 0.31324902463721194,
+      "created_at": "2025-12-08T01:46:33.781031-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 6.807410168502523e-05
+    },
+    {
+      "id": "a2e2481a-4db7-4bf4-92c2-cf24d5104bc0",
+      "memory": "Has been thinking about getting rare, limited edition figurines appraised and insured",
+      "hash": "2ffb4c0c820effd95f8ffd3a9e142154",
+      "metadata": null,
+      "score": 0.29027705739644494,
+      "created_at": "2025-12-08T01:53:55.102277-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_172",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.2974,
+    "load_time": 1669.0005
+  }
+}

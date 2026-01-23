@@ -1,0 +1,242 @@
+{
+  "sample_idx": 202,
+  "question_id": "bb7c3b45",
+  "question": "How much did I save on the Jimmy Choo heels?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T06:11:58.138144",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "68ff82a1-4311-49a0-be87-364e3eaca9fb",
+      "memory": "Has new Jimmy Choo heels bought at the outlet mall for $200",
+      "hash": "b0ae4815701d666c150b6a97f89d05d2",
+      "metadata": null,
+      "score": 0.691462880922135,
+      "created_at": "2025-12-08T14:18:11.217768-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.9999999989782817
+    },
+    {
+      "id": "13b3e00c-b523-4e26-9626-5424eef8f15a",
+      "memory": "Redeemed a $20 gift card from Trendy Wear, earned from purchases over the past few weeks",
+      "hash": "c240fa6d3fd6d0420ebd3d7ea16626c9",
+      "metadata": null,
+      "score": 0.3768465143962382,
+      "created_at": "2025-12-08T14:29:51.133404-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.14798863372913248
+    },
+    {
+      "id": "c3d5dacd-6ca5-4c2b-b958-8729877d3890",
+      "memory": "Thinking of spending around $50 for the gift",
+      "hash": "1bf411af62629e6d9075702c73a7c0ce",
+      "metadata": null,
+      "score": 0.3494657453223763,
+      "created_at": "2025-12-08T14:14:42.010632-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.13150815485845121
+    },
+    {
+      "id": "7113981e-33bf-4155-86f5-7c123f2d9c70",
+      "memory": "Thinking of buying a new top from Trendy Wear to go with distressed denim jeans and use the $20 gift card",
+      "hash": "ce7da0273c90f16a3e347cafd7eb58d4",
+      "metadata": null,
+      "score": 0.29005847704153426,
+      "created_at": "2025-12-08T14:29:51.187012-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.0911006441054231
+    },
+    {
+      "id": "306cef54-8325-4b86-9d62-dffd09a8b3d2",
+      "memory": "Will consider adding a $25 gift card to Bed Bath & Beyond or West Elm, as those are stores friend likes to shop at",
+      "hash": "9d29614736de2dc8da64f9a1323c2fc8",
+      "metadata": null,
+      "score": 0.27366642156945287,
+      "created_at": "2025-12-08T14:14:42.065950-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.07442830855704047
+    },
+    {
+      "id": "67a5aa5c-11aa-493b-b554-dd48f701968b",
+      "memory": "Earned over 10,000 points in the past three months with Walgreens Balance Rewards card, which translates to $10 in rewards",
+      "hash": "3af45bd4ded1919956ed767c4a789a4e",
+      "metadata": null,
+      "score": 0.3047590172415174,
+      "created_at": "2025-12-08T14:16:15.312572-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.0727837392293395
+    },
+    {
+      "id": "3ea506b8-1fdd-461d-9cf9-f3f75bad456a",
+      "memory": "Wants to maximize 5% discount and cashback rewards with Target RedCard",
+      "hash": "136188d3fd581d9de3edaeb38564b7a1",
+      "metadata": null,
+      "score": 0.28554793604027495,
+      "created_at": "2025-12-08T14:16:15.286108-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.04370824460632058
+    },
+    {
+      "id": "444c43a4-b06a-4a86-87d7-d468704ce9b2",
+      "memory": "Recently got a great customized picture frame from Things Remembered for brother's graduation gift, which cost around $30",
+      "hash": "52f601d4f1d508d4e563cd3de3107468",
+      "metadata": null,
+      "score": 0.24885775639338117,
+      "created_at": "2025-12-08T14:14:41.978664-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.013219305104309452
+    },
+    {
+      "id": "a0c87f08-1e2f-4909-97e9-a8a98ad1a280",
+      "memory": "Tried storing shoes in a high cabinet",
+      "hash": "154db34d09b158fb5cb9eec830922612",
+      "metadata": null,
+      "score": 0.32159139435024214,
+      "created_at": "2025-12-08T14:19:11.871786-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.00939834636414677
+    },
+    {
+      "id": "b3589313-97da-4042-91b6-c0d293ec0e31",
+      "memory": "Lost two pairs of shoes due to Whiskers chewing",
+      "hash": "2f36de82631008bff624a9528f8b742a",
+      "metadata": null,
+      "score": 0.3849924612224548,
+      "created_at": "2025-12-08T14:19:11.856039-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.006459207295491005
+    },
+    {
+      "id": "db72aa61-8106-41f5-89ca-1bfcfaff7496",
+      "memory": "Whiskers chews on shoes and shoelaces",
+      "hash": "7913c8d508f760be5b0befa841f783b7",
+      "metadata": null,
+      "score": 0.23508484013549513,
+      "created_at": "2025-12-08T14:19:11.840562-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.003732874211649727
+    },
+    {
+      "id": "617ca374-e49c-4dd3-bb0c-b4df92b1aa62",
+      "memory": "Decided to redeem cashback rewards now to get household essentials needed",
+      "hash": "b13429526a60b1ad0231d1f15ef3db32",
+      "metadata": null,
+      "score": 0.3377501312640649,
+      "created_at": "2025-12-08T14:16:15.404728-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.002514891239955089
+    },
+    {
+      "id": "5d139d8c-e383-4617-9482-0135fafd82b2",
+      "memory": "Has enough cashback rewards to cover the cost of household essentials",
+      "hash": "574fa14eb599013ef14401b5f675f5fd",
+      "metadata": null,
+      "score": 0.311372994423182,
+      "created_at": "2025-12-08T14:16:15.387797-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.002393482697336567
+    },
+    {
+      "id": "a69527aa-f876-48f3-bce9-80076bf3aff8",
+      "memory": "Has been doing great with Walgreens Balance Rewards card",
+      "hash": "c4f6c58c61472996940611bfc486aaca",
+      "metadata": null,
+      "score": 0.26134663116290163,
+      "created_at": "2025-12-08T14:16:15.300316-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.002363081842363069
+    },
+    {
+      "id": "868b7405-98b1-40a1-b399-25f8ba657586",
+      "memory": "Planning to use cashback rewards from Target RedCard to buy household essentials",
+      "hash": "de9a875528cca8175236541f9b213daf",
+      "metadata": null,
+      "score": 0.281793577084385,
+      "created_at": "2025-12-08T14:16:15.357176-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.002103505311435508
+    },
+    {
+      "id": "99e540b8-bcbc-436e-b1c5-5731d0f3b126",
+      "memory": "Participated in the Bike-a-Thon for Cancer Research in late April, cycled 20 miles, and team raised over $5,000",
+      "hash": "6776ffdff70dafcba8f23212b2ca7dae",
+      "metadata": null,
+      "score": 0.29502187737758956,
+      "created_at": "2025-12-08T14:20:46.218164-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.0015354380534371285
+    },
+    {
+      "id": "5fbc4598-3a90-41e1-b687-08f6a6d7a10c",
+      "memory": "Walked 5 kilometers at the Walk for Hunger event on March 14th, raising $250 for local food banks",
+      "hash": "b732db838ee7d716c31b29c447f13b37",
+      "metadata": null,
+      "score": 0.30461558717586584,
+      "created_at": "2025-12-08T14:20:46.264974-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.0008422595845862761
+    },
+    {
+      "id": "5059ffe8-b853-464d-a38c-c3ba6df12e31",
+      "memory": "Curious about the hotel's breakfast options, including the breakfast buffet and à la carte options",
+      "hash": "c0beecbcdc849d48afa655a1d9890503",
+      "metadata": null,
+      "score": 0.2461393014326846,
+      "created_at": "2025-12-08T14:14:06.535411-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.0006304279861491447
+    },
+    {
+      "id": "a866373f-48be-4855-964f-59b792acd60d",
+      "memory": "Wants to know the average cost per night for a deluxe room at the Park Hyatt Paris-Vendôme",
+      "hash": "a6e2262d14b75c557db5e082382b49ba",
+      "metadata": null,
+      "score": 0.2778966947962721,
+      "created_at": "2025-12-08T14:14:06.476361-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.00034590716396127723
+    },
+    {
+      "id": "f73723bd-b2fb-4603-9dd2-998cba3b322d",
+      "memory": "Needs shoe trees to prevent shoes from getting creased",
+      "hash": "62524b61eb52aebf33222d9466cb8a35",
+      "metadata": null,
+      "score": 0.24181655942656255,
+      "created_at": "2025-12-08T14:19:11.888173-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_202",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4675,
+    "load_time": 1324.2204
+  }
+}

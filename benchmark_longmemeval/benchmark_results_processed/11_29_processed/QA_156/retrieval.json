@@ -1,0 +1,242 @@
+{
+  "sample_idx": 156,
+  "question_id": "a89d7624",
+  "question": "I'm planning a trip to Denver soon. Any suggestions on what to do there?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T16:39:10.658666",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "dd4cbf67-a7a8-4acb-830e-c4595a094406",
+      "memory": "Thinking about exploring some trails or park routes soon",
+      "hash": "303713657d4981d58e4a8df7615a33e5",
+      "metadata": null,
+      "score": 0.41263723038376166,
+      "created_at": "2025-12-07T00:55:05.389644-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.9999999987983176
+    },
+    {
+      "id": "8e04d910-e9cb-40e6-a26e-081bda9407bd",
+      "memory": "Planning a trip to California in a few weeks",
+      "hash": "75985998804c4147604f08a6800db64c",
+      "metadata": null,
+      "score": 0.40246677703374056,
+      "created_at": "2025-12-07T00:59:55.415375-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.907873114923616
+    },
+    {
+      "id": "716aff49-2e20-4d07-8efc-848518c90e7c",
+      "memory": "Planning to go at the end of April",
+      "hash": "f63071b428f1f7968a94f76f447957cf",
+      "metadata": null,
+      "score": 0.37962207510754026,
+      "created_at": "2025-12-07T00:48:11.262064-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.7715845126592353
+    },
+    {
+      "id": "75de1398-a983-43c5-a540-90e35f43d6a9",
+      "memory": "Planning a family trip to Disneyland soon",
+      "hash": "64543e1e012ee6afd6ed0aa37c591005",
+      "metadata": null,
+      "score": 0.3724892511731993,
+      "created_at": "2025-12-07T00:58:45.181274-08:00",
+      "updated_at": "2025-12-07T00:59:54.660787-08:00",
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.6139820923992262
+    },
+    {
+      "id": "b7a7dd22-2335-4273-88ae-8f75d5ea03ac",
+      "memory": "Thinking of going back to Denver for another concert",
+      "hash": "b8527d8bfa2a678bc190a10704b052b8",
+      "metadata": null,
+      "score": 0.6691071866579639,
+      "created_at": "2025-12-07T00:56:45.837647-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.55725098326179
+    },
+    {
+      "id": "c10d1472-a5fb-4217-9695-cd10364a8a16",
+      "memory": "Planning a trip with friends and needs help finding good flight deals",
+      "hash": "8f32283b3f6819137ee5e918ae0cf749",
+      "metadata": null,
+      "score": 0.39882417304708145,
+      "created_at": "2025-12-07T00:48:11.193843-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.4670060255505541
+    },
+    {
+      "id": "3b7bff02-0319-486f-8feb-60855453fa47",
+      "memory": "Will definitely make sure to check out some of the local eateries and food trucks",
+      "hash": "e584cacb901382aeefb113d69e44bc02",
+      "metadata": null,
+      "score": 0.44595672484422655,
+      "created_at": "2025-12-07T00:48:11.326214-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.36237980100679834
+    },
+    {
+      "id": "4961091e-6118-408e-a413-6790a9d46b1f",
+      "memory": "Planning the trip with friends and they are all really excited",
+      "hash": "61ea2951a3b65663e1f11f8e48d33266",
+      "metadata": null,
+      "score": 0.4158256422338016,
+      "created_at": "2025-12-07T00:48:11.244163-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.34804202538878604
+    },
+    {
+      "id": "ed282d6f-c7c4-4c45-9e87-95454b8dc92f",
+      "memory": "Wants tips or recommendations for making the most of the Halloween Horror Nights event",
+      "hash": "a6bd19315964bbb98991efa71f5de205",
+      "metadata": null,
+      "score": 0.328663918566702,
+      "created_at": "2025-12-07T00:58:45.337878-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.2916173602766282
+    },
+    {
+      "id": "3c92ea98-3865-4aea-8086-07c58bf51f4f",
+      "memory": "Loves Denver's music scene",
+      "hash": "63719f51bd766ca5f2f0332e204848e2",
+      "metadata": null,
+      "score": 0.5584064945767632,
+      "created_at": "2025-12-07T00:56:45.822053-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.22472317370847855
+    },
+    {
+      "id": "4ff2c9a8-b3f1-46d7-8d6d-70b3e114b36f",
+      "memory": "Also thinking of packing a portable charger for the trip, since it was really useful on the last trip to Chicago",
+      "hash": "cc9bb2ce618f4512e6dd236f579c4061",
+      "metadata": null,
+      "score": 0.3968597682480979,
+      "created_at": "2025-12-07T00:59:55.562352-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.21086993262258164
+    },
+    {
+      "id": "bd7da187-6e86-4c5c-9cea-ac0f520733a1",
+      "memory": "Thinking of getting to Red Rocks a bit earlier to grab some dinner before the concert",
+      "hash": "6fe69643febb5dc920810a98a2283cf0",
+      "metadata": null,
+      "score": 0.356048240595628,
+      "created_at": "2025-12-07T00:56:45.870337-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.16162297962382277
+    },
+    {
+      "id": "7de0746c-abfd-4689-b618-a3540c9d8060",
+      "memory": "Wants to know if there are any good restaurants or food options within walking distance of the amphitheater",
+      "hash": "61c7d6afeb5ab9139ce004835f451f97",
+      "metadata": null,
+      "score": 0.3467867736853748,
+      "created_at": "2025-12-07T00:56:45.887358-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.09604212459258003
+    },
+    {
+      "id": "7e4d206b-2764-449a-9d8b-567dc701141b",
+      "memory": "Will make sure to book a hotel that fits their needs",
+      "hash": "483fd65dd32d337b3ef12261494e02b8",
+      "metadata": null,
+      "score": 0.3619090035707647,
+      "created_at": "2025-12-07T00:48:11.278650-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.042149232631674104
+    },
+    {
+      "id": "21bf6997-2930-43e7-9bb6-ba2600ce3fb0",
+      "memory": "Interested in wine tours in Marlborough",
+      "hash": "27c71272df83648bd7e4a3e4f19cf94d",
+      "metadata": null,
+      "score": 0.33493681367151484,
+      "created_at": "2025-12-07T00:46:51.754070-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.018016020732197612
+    },
+    {
+      "id": "f6396275-f0e3-42e1-a7b3-fe8a5120259b",
+      "memory": "Interested in the Marlborough Wine & Brew Tours",
+      "hash": "4210d0cf67b97cebbc0c4bdf30afbbbe",
+      "metadata": null,
+      "score": 0.32270071794705374,
+      "created_at": "2025-12-07T00:46:51.771295-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.01402754974799425
+    },
+    {
+      "id": "329f4d9e-e6b3-4319-8a24-e41ce972f0a3",
+      "memory": "Wants to know must-ride attractions at Disneyland suitable for all ages, especially for young kids in the group",
+      "hash": "0ecb35ee98b3a54738683916e3486336",
+      "metadata": null,
+      "score": 0.38039804437613245,
+      "created_at": "2025-12-07T00:58:45.230003-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.005710127151651197
+    },
+    {
+      "id": "617c37c6-1c8e-4e00-95ec-7e1c703891e5",
+      "memory": "Interested in must-visit wineries in the Marlborough region",
+      "hash": "869014e0620dae047497e3acbc2c93f0",
+      "metadata": null,
+      "score": 0.32126657163744826,
+      "created_at": "2025-12-07T00:46:51.714374-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.004579928581234465
+    },
+    {
+      "id": "0a75cf01-c88c-44f2-a48c-848a59bace62",
+      "memory": "Wants to know more about special events and activities Disneyland offers during the holiday season",
+      "hash": "1d3d0d1cc9fbbc6905c4b85c020ef5ae",
+      "metadata": null,
+      "score": 0.3289107613058252,
+      "created_at": "2025-12-07T00:58:45.275017-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.0013834675666265254
+    },
+    {
+      "id": "24de4279-fa24-4d17-90d7-5b223fe54343",
+      "memory": "Had a great time at the festival in Chicago last weekend",
+      "hash": "c1ddc87a4818e0e6b95510a60bee7da1",
+      "metadata": null,
+      "score": 0.35102887495309865,
+      "created_at": "2025-12-07T00:57:50.483620-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_156",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.065,
+    "load_time": 1590.9719
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "sample_idx": 52,
+  "question_id": "8e9d538c",
+  "question": "How many skeins of worsted weight yarn did I find in my stash?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T14:29:01.948937",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "b9a75fe1-0b56-4e28-82c7-90fb41155994",
+      "memory": "Has a stash of 17 skeins of worsted weight yarn",
+      "hash": "92535c455c56435bf7987c09f612e713",
+      "metadata": null,
+      "score": 0.8979757337772301,
+      "created_at": "2025-11-29T22:46:13.663875-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.9999999993723274
+    },
+    {
+      "id": "23ecfd1a-2371-4f90-b177-d2b8075d3371",
+      "memory": "Planning to make amigurumi toys using worsted weight yarn",
+      "hash": "e99b848b64de6ee68102190fc261cc6e",
+      "metadata": null,
+      "score": 0.5324881157652723,
+      "created_at": "2025-11-29T22:46:13.665377-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.3160974822298317
+    },
+    {
+      "id": "88cfccdd-deb1-4013-bdd5-848638b0d79e",
+      "memory": "Has around 30,000 points available",
+      "hash": "50048a470b7b19afc0140647e8f0177c",
+      "metadata": null,
+      "score": 0.1585562837737361,
+      "created_at": "2025-11-29T22:39:51.361662-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.07021007096129567
+    },
+    {
+      "id": "0ba6d819-b31d-4cb5-94b9-33281b83c1aa",
+      "memory": "Has been unpacking for weeks",
+      "hash": "c646a93bed72a0b0374158c812d0f944",
+      "metadata": null,
+      "score": 0.2605102799015294,
+      "created_at": "2025-11-29T22:31:43.692200-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.026595645322823862
+    },
+    {
+      "id": "7ab095a7-6726-4812-bbf7-91dfba8efcf3",
+      "memory": "Planning to make more fingerless gloves using same yarn and hook size but adjusting stitch count for different hand sizes",
+      "hash": "b8b3c2029ce62c1f807272eed840c02b",
+      "metadata": null,
+      "score": 0.31911642996044987,
+      "created_at": "2025-11-29T22:46:13.664963-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.025720618835534753
+    },
+    {
+      "id": "b46c0874-4e13-4241-b509-513277c050b9",
+      "memory": "Has a lot of items that can be donated or sold",
+      "hash": "a46e29ea697ea66fe7fc7e3471466c04",
+      "metadata": null,
+      "score": 0.22810557235846832,
+      "created_at": "2025-11-29T22:31:43.741246-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.02505581898823465
+    },
+    {
+      "id": "4cb63b60-033a-484a-861b-ab29a8180264",
+      "memory": "Interested in The Recycled Cashmere Crew",
+      "hash": "76a208fde10ccbdebebf2917685fdcb8",
+      "metadata": null,
+      "score": 0.3443161112959071,
+      "created_at": "2025-11-29T22:33:42.163079-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.003080969578654435
+    },
+    {
+      "id": "d6d7c840-7302-4735-8ad1-7f96fc4e4940",
+      "memory": "Has been eyeing Everlane's denim",
+      "hash": "a2023bef66d249bd7cad1f1f7ccf7505",
+      "metadata": null,
+      "score": 0.1573687270380385,
+      "created_at": "2025-11-29T22:33:42.063144-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.001215148289230329
+    },
+    {
+      "id": "8f5deeda-895b-4947-bd34-ad085a658bd3",
+      "memory": "Interested in Everlane's sweaters, particularly the ones made from recycled cashmere",
+      "hash": "aa306bc6bc88bcd49cbb401829b302a5",
+      "metadata": null,
+      "score": 0.4087849252874293,
+      "created_at": "2025-11-29T22:33:42.147662-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.0007597370486163219
+    },
+    {
+      "id": "b26b8d1b-c4e6-4f4e-8830-520a5feab51f",
+      "memory": "Recently got a pair of high-waisted jeans from Zara",
+      "hash": "95877ab73301867e4315b7014e77ec8f",
+      "metadata": null,
+      "score": 0.20255287197833616,
+      "created_at": "2025-11-29T22:33:42.086371-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.0006905993011256308
+    },
+    {
+      "id": "0fe2b067-09b3-4f2e-83c8-2f151298e6c2",
+      "memory": "Returned a black turtleneck sweater from Zara on January 15th",
+      "hash": "b7d78ed86cc782d486517d5689be297f",
+      "metadata": null,
+      "score": 0.2583377288722196,
+      "created_at": "2025-11-29T22:33:42.106710-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.0006490567931095792
+    },
+    {
+      "id": "cdbd368a-766e-4328-96f9-07f136b18cf3",
+      "memory": "Planning to make tote bags using sewing machine which was recently fixed",
+      "hash": "5de49b3f781501bf84351c5e65ecff84",
+      "metadata": null,
+      "score": 0.15503051338977095,
+      "created_at": "2025-11-29T22:46:13.666105-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.0006245143892384248
+    },
+    {
+      "id": "ebf3885e-cd12-4f89-9a5c-6551a1ffc32e",
+      "memory": "Is planning to sell old couch which is still in good condition",
+      "hash": "b88a187e27044364e77583eb8b46b930",
+      "metadata": null,
+      "score": 0.15873637444252114,
+      "created_at": "2025-11-29T22:31:43.840239-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.0005842887906983863
+    },
+    {
+      "id": "a9600441-bf6e-4127-ad92-9fa628edcf2a",
+      "memory": "Interested in the least expensive diet that meets daily nutritional requirements",
+      "hash": "d9d975a04f56728e67a9f1911f3e4061",
+      "metadata": null,
+      "score": 0.1585375165691859,
+      "created_at": "2025-11-29T22:38:44.046426-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.00041536522063887946
+    },
+    {
+      "id": "f486d2bd-0900-4df7-9fe5-5a3b1f55cb1d",
+      "memory": "Has had bibimbap at least 5 times in the past 2 weeks",
+      "hash": "1c28b288554cafe40d1f3df9fab075d9",
+      "metadata": null,
+      "score": 0.1639067874675234,
+      "created_at": "2025-11-29T22:50:52.213665-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.00039710806653960604
+    },
+    {
+      "id": "2cb46ac6-57f3-45c7-8dfa-3a623894e9f3",
+      "memory": "Thinking of trying to make a natural fertilizer for the garden using the compost that has been collecting",
+      "hash": "c71d02472bbebb2ee1755d185d583f9a",
+      "metadata": null,
+      "score": 0.2009689818696435,
+      "created_at": "2025-11-29T22:37:04.591687-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.0003256357977050734
+    },
+    {
+      "id": "6bacf674-64ff-4e48-ab98-d1d403528d1d",
+      "memory": "Visited a luxury department store downtown last week and tried on the Chanel bag but couldn't justify the price",
+      "hash": "e36dcd40e11f23474d66d53c9e8ac720",
+      "metadata": null,
+      "score": 0.15785316048052367,
+      "created_at": "2025-11-29T22:32:24.917741-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.00025919172868804554
+    },
+    {
+      "id": "04713e9d-a0e1-461e-b28c-e558093b4828",
+      "memory": "Attended a gardening workshop at a local community center about a month ago",
+      "hash": "a1307523e243f7ddf1dada676a6e9fa4",
+      "metadata": null,
+      "score": 0.21339924112334466,
+      "created_at": "2025-11-29T22:37:04.411064-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.0001774834816535924
+    },
+    {
+      "id": "e3ef407e-7808-4c86-9666-9dcc29eab337",
+      "memory": "Has had issues with cashmere sweaters being too tight or too loose in the past",
+      "hash": "ea89f2c7dfd68bcc5c309cefa7354008",
+      "metadata": null,
+      "score": 0.31336458446624427,
+      "created_at": "2025-11-29T22:33:42.178372-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 3.4060067811431386e-05
+    },
+    {
+      "id": "c3bf89b9-2ab3-47da-9eff-320ec82a4922",
+      "memory": "Has been eyeing a limited-edition Chanel bag but the $4,000 price tag is holding them back",
+      "hash": "b38afdf2b35b4f79eb1cc8a6fca2456c",
+      "metadata": null,
+      "score": 0.157885973866271,
+      "created_at": "2025-11-29T22:32:24.895134-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_52",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "retrieval_time": 0.0755,
+    "load_time": 1312.9404
+  }
+}

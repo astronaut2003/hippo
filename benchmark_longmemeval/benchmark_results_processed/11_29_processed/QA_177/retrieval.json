@@ -1,0 +1,242 @@
+{
+  "sample_idx": 177,
+  "question_id": "3c1045c8",
+  "question": "How much older am I than the average age of employees in my department?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T20:01:59.244847",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 52,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "cf4d6a05-9707-4fd4-9c22-043c9c15b486",
+      "memory": "Average age of employees in department is 29.5 years old",
+      "hash": "8b9a41356a382acd8184523947b0ce4e",
+      "metadata": null,
+      "score": 0.8151539316371068,
+      "created_at": "2025-12-08T04:11:28.040289-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.9999999993170975
+    },
+    {
+      "id": "5c9faa32-7024-49cb-a399-154ad2eccb1d",
+      "memory": "Currently 32 years old",
+      "hash": "b29d847b455a0f537e490b9117d639a1",
+      "metadata": null,
+      "score": 0.3172324633233079,
+      "created_at": "2025-12-08T04:12:19.368717-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.42757562307351155
+    },
+    {
+      "id": "4c32c02a-b9c0-484b-b054-a58c030b200a",
+      "memory": "Interested in finding programs that cater to working professionals in their 30s",
+      "hash": "4fe824986285d409dc6a629f8dd605f3",
+      "metadata": null,
+      "score": 0.33326709880474903,
+      "created_at": "2025-12-08T04:11:28.023977-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.15429267212639441
+    },
+    {
+      "id": "5b4608d2-cd03-4a27-8cff-33b51d5a64c3",
+      "memory": "Currently at 12 books out of goal of 25 for the year",
+      "hash": "d50bf1a0c1b9983df7648379ae1e7597",
+      "metadata": null,
+      "score": 0.14650953241460005,
+      "created_at": "2025-12-08T04:09:05.921234-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.05089589692392909
+    },
+    {
+      "id": "94e66074-1dce-4a94-980f-c7a1f76b35bd",
+      "memory": "Considering getting into a skincare routine and wants recommendations for anti-aging creams and moisturizers suitable for their age",
+      "hash": "c8b5cb2debd9dea073e15a58496d2c9b",
+      "metadata": null,
+      "score": 0.3133990031735512,
+      "created_at": "2025-12-08T04:12:19.336795-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.027986748399311315
+    },
+    {
+      "id": "aed5b467-65a3-4c36-aa5e-1196dfdcb03e",
+      "memory": "Has been working in the marketing industry for five years",
+      "hash": "a38a3913a044c0d198143eb3a55db41b",
+      "metadata": null,
+      "score": 0.14071444318233128,
+      "created_at": "2025-12-08T04:11:28.071874-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.0065092140662604435
+    },
+    {
+      "id": "9cd10f98-574b-482d-88a8-c7043698c0fa",
+      "memory": "Commented on a friend's post about her new job last week, on Wednesday",
+      "hash": "ae611d85a33c68b32dfefe4369d8171c",
+      "metadata": null,
+      "score": 0.12085295949074737,
+      "created_at": "2025-12-08T04:10:09.346873-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.004344143454648668
+    },
+    {
+      "id": "6fca643d-8076-4e6f-9857-4902042b054a",
+      "memory": "Feels need to upgrade skills to stay competitive",
+      "hash": "f5cbf2f9f815652ee75e69f64b89af66",
+      "metadata": null,
+      "score": 0.1196602736604654,
+      "created_at": "2025-12-08T04:11:28.085658-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.003221620380958962
+    },
+    {
+      "id": "1450661c-9640-4233-94be-0f6de47874cb",
+      "memory": "Career goal is to move into a leadership role",
+      "hash": "5a50111b5630cd28d83c5ad21c28f2a6",
+      "metadata": null,
+      "score": 0.15018473682449532,
+      "created_at": "2025-12-08T04:11:28.101514-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.0018798809771439634
+    },
+    {
+      "id": "d43b3b3c-61d6-4ea4-8525-1b60ba79ea3c",
+      "memory": "Needs help finding a gift for sister's 30th birthday party",
+      "hash": "4cc032b15c82b7077e35bd62be80fee8",
+      "metadata": null,
+      "score": 0.11560692472279158,
+      "created_at": "2025-12-08T04:05:58.735418-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.0011589940020527965
+    },
+    {
+      "id": "0e98dd44-6e24-4ab2-a327-4ae3235dfe40",
+      "memory": "Considering combining retinol with other anti-aging ingredients to enhance its effects",
+      "hash": "9ad761747d7a396bab4b380c6468c38e",
+      "metadata": null,
+      "score": 0.09432302859773808,
+      "created_at": "2025-12-08T04:12:19.449008-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.0009369772256424806
+    },
+    {
+      "id": "b48f18bf-0824-409e-87a0-efe42f2de733",
+      "memory": "Considering going back to school for a master's degree",
+      "hash": "d4534f02b2bd2b7a7284a8ed548c6a97",
+      "metadata": null,
+      "score": 0.10499457849655294,
+      "created_at": "2025-12-08T04:11:28.009212-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.0004662417431274427
+    },
+    {
+      "id": "bc96d214-cace-4a76-a937-4e2d0376fbcd",
+      "memory": "Worried about balancing school with current job",
+      "hash": "6ce3990c7b7c9ce0a82fde054da0e082",
+      "metadata": null,
+      "score": 0.17584285310622094,
+      "created_at": "2025-12-08T04:11:28.145421-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.00033299260128657836
+    },
+    {
+      "id": "142d6cca-5127-4b4d-a5b9-19b1ee7f362b",
+      "memory": "Interested in what makes an effective marketing leader and how to develop those skills",
+      "hash": "603c30bc13731adda356bddd41656a37",
+      "metadata": null,
+      "score": 0.0937846353396499,
+      "created_at": "2025-12-08T04:11:28.175900-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.00019785478636976826
+    },
+    {
+      "id": "c8e0e45b-0955-4aa1-ae1c-6fa891a73435",
+      "memory": "Thinking of incorporating more self-care into daily routine, especially on weekends",
+      "hash": "6b837ed9c6dc821c35d1a1cef47b363b",
+      "metadata": null,
+      "score": 0.1243451015367908,
+      "created_at": "2025-12-08T04:02:24.044320-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.00018841142099003936
+    },
+    {
+      "id": "3d129127-f5b5-4e49-ba01-289ede54a262",
+      "memory": "Is in a nostalgic mood for 80s and 90s pop culture",
+      "hash": "2829641cbe8fe3ebf002ecd3daa068f8",
+      "metadata": null,
+      "score": 0.11530686005960314,
+      "created_at": "2025-12-08T04:15:29.107686-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.00017382304964480298
+    },
+    {
+      "id": "46a27b68-2926-47dc-81a5-5041c92d6c6e",
+      "memory": "Open to full-time or part-time programs",
+      "hash": "66b7528ab3a9132560ad41b1ae204fed",
+      "metadata": null,
+      "score": 0.1562863601059664,
+      "created_at": "2025-12-08T04:11:28.116964-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.00015480606556976274
+    },
+    {
+      "id": "d846a68b-0827-46a7-b5bf-fcf7d82288b1",
+      "memory": "Tends to feel more energized on Mondays and Tuesdays",
+      "hash": "c15147eb2e9971776c38326367e1c518",
+      "metadata": null,
+      "score": 0.10731686049488609,
+      "created_at": "2025-12-08T04:02:24.003761-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 1.0876151851136043e-05
+    },
+    {
+      "id": "c56d0ae3-410b-493f-9e46-df2e24c86f18",
+      "memory": "Would like to explore the topic of customer-centricity further",
+      "hash": "0ac130860ee9ab50ce9f97f8dbec0e94",
+      "metadata": null,
+      "score": 0.11127514096170538,
+      "created_at": "2025-12-08T04:11:28.209325-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 5.405512596672405e-06
+    },
+    {
+      "id": "addce841-63e4-4a56-b4e1-47575c3036fb",
+      "memory": "Thinking of organizing closet and getting rid of some old clothes",
+      "hash": "03068350c0707753d5e40953e005d811",
+      "metadata": null,
+      "score": 0.1014198483001954,
+      "created_at": "2025-12-08T04:04:09.786333-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_177",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4142,
+    "load_time": 1126.0799
+  }
+}

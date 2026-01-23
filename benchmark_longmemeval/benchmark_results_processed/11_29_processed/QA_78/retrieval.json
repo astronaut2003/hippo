@@ -1,0 +1,242 @@
+{
+  "sample_idx": 78,
+  "question_id": "gpt4_f2262a51",
+  "question": "How many different doctors did I visit?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T08:48:20.321080",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "3f6b64f1-9021-438d-b9b8-83f16d309780",
+      "memory": "Had a follow-up appointment with dermatologist Dr. Lee for a biopsy on a suspicious mole on back",
+      "hash": "2da3f2f2916e79c3448a9a7b5d6a8c7d",
+      "metadata": null,
+      "score": 0.3979206832943374,
+      "created_at": "2025-11-30T16:49:53.579960-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.9999999965305089
+    },
+    {
+      "id": "513f0978-473a-4476-9685-463a3bb6e9ba",
+      "memory": "Will schedule a follow-up appointment with primary care physician to discuss fatigue and joint pain symptoms and rule out other underlying conditions",
+      "hash": "48bf055210bfe99c02e78ebc80a70248",
+      "metadata": null,
+      "score": 0.34004908050560373,
+      "created_at": "2025-11-30T16:56:23.953510-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.42328099603132774
+    },
+    {
+      "id": "e500ee2b-dfb0-4ae3-8904-334730e95307",
+      "memory": "Has 7 Amplified zombie types: Jugernaut, Hydra, Skullcrawler, Beserker, Lasher, Hoplite, and Fissionator",
+      "hash": "4901a3fe48bfa03c7737027259ef5bc7",
+      "metadata": null,
+      "score": 0.17189329431107941,
+      "created_at": "2025-11-30T16:57:59.269779-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.20365115491257677
+    },
+    {
+      "id": "9921d733-422b-4567-bf61-1c79dcd8ca7b",
+      "memory": "Will schedule a follow-up appointment with Dr. Patel to discuss how UTI and antibiotic use might be impacting chronic sinusitis",
+      "hash": "d4f3ac05c274494c6bed3bd884a1b476",
+      "metadata": null,
+      "score": 0.28619885732510425,
+      "created_at": "2025-11-30T16:56:23.941031-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.14171637484928448
+    },
+    {
+      "id": "e75d3b11-b076-4e79-a33d-c28841c10cd1",
+      "memory": "Planning to have around 8-10 guests",
+      "hash": "e91e385e429892d49ecbc5fadb2e0989",
+      "metadata": null,
+      "score": 0.22431945121603564,
+      "created_at": "2025-11-30T16:53:39.299975-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.07730994759887795
+    },
+    {
+      "id": "f199a48f-5662-43d6-8a6d-faabb767ec80",
+      "memory": "Wants to know if should talk to Dr. Smith about sinusitis diagnosis and treatment plan",
+      "hash": "1a05805938b6708b1ef2d5243826b836",
+      "metadata": null,
+      "score": 0.3281489097216162,
+      "created_at": "2025-11-30T16:52:14.980063-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.05947041215838909
+    },
+    {
+      "id": "d339b7d3-e0d5-44ba-bfff-1cd38e95b44e",
+      "memory": "Recently inherited a few rare items, including an antique emerald and diamond necklace that's been in the family for generations, which a gemologist valued at $12,000",
+      "hash": "a058166fdfd1762c000d8b14c846a90c",
+      "metadata": null,
+      "score": 0.16773460082236424,
+      "created_at": "2025-11-30T17:09:15.767479-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.019221275554731042
+    },
+    {
+      "id": "7424afb2-5935-4b4c-a879-b61a0404c798",
+      "memory": "Diagnosed with chronic sinusitis by an ENT specialist, Dr. Patel",
+      "hash": "53a953cb319a3300d0e52aab96fc4a30",
+      "metadata": null,
+      "score": 0.23769844177593125,
+      "created_at": "2025-11-30T16:52:14.932991-08:00",
+      "updated_at": "2025-11-30T16:56:23.842245-08:00",
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.009603358495154476
+    },
+    {
+      "id": "32f60164-c920-47ec-965d-9526f2ed2254",
+      "memory": "Was prescribed antibiotics for the UTI",
+      "hash": "8e68a5405d8bf8714cfd7af53f980604",
+      "metadata": null,
+      "score": 0.3119957906728827,
+      "created_at": "2025-11-30T16:56:23.923727-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.007426191361123451
+    },
+    {
+      "id": "c8b16a1f-8e0f-4d0d-a845-de1d4b6e59f7",
+      "memory": "Started taking English language classes today",
+      "hash": "b29eae90c3459f330353edced8ef7711",
+      "metadata": null,
+      "score": 0.19846345004356233,
+      "created_at": "2025-11-30T16:48:36.641636-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.004741790607568178
+    },
+    {
+      "id": "1af79933-5c71-4e18-9579-b877e91a98a0",
+      "memory": "Biopsy results were benign",
+      "hash": "e53d6d0a0e83a932a749ffda7a241478",
+      "metadata": null,
+      "score": 0.3792783864856326,
+      "created_at": "2025-11-30T16:49:53.594484-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.00462565296865558
+    },
+    {
+      "id": "2eded686-73f9-4d31-a88b-e9a6dde8d1c9",
+      "memory": "Wondering if fatigue could be caused by side effects of antibiotics or an underlying issue Dr. Smith didn't catch",
+      "hash": "a724f5234eb4e5710df190d76ed09185",
+      "metadata": null,
+      "score": 0.2528939042103084,
+      "created_at": "2025-11-30T16:52:14.892984-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.003654861422873358
+    },
+    {
+      "id": "cd3429cf-eba4-473e-a92c-6d8639cd65ec",
+      "memory": "Has been meaning to clean camera sensors for weeks and can see dust spots starting to appear in photos",
+      "hash": "00fe669c1e3fcb11f996d280aa57c65c",
+      "metadata": null,
+      "score": 0.16643815520757022,
+      "created_at": "2025-11-30T16:51:33.066916-08:00",
+      "updated_at": "2025-11-30T17:15:06.589573-08:00",
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.0036201193941388203
+    },
+    {
+      "id": "ae2d778c-093f-4778-8219-d46f91d6cdf8",
+      "memory": "Recently had a urinary tract infection",
+      "hash": "34b0a13f2dc256e99c16ea3195193728",
+      "metadata": null,
+      "score": 0.3113891223614667,
+      "created_at": "2025-11-30T16:52:14.859101-08:00",
+      "updated_at": "2025-11-30T16:56:23.908749-08:00",
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.002854802132586577
+    },
+    {
+      "id": "5f3d7dce-5449-4b2f-9986-445b1925e069",
+      "memory": "Still recovering from UTI and antibiotic treatment",
+      "hash": "b45790480db955973466bf0eaba1f03a",
+      "metadata": null,
+      "score": 0.2832250261732983,
+      "created_at": "2025-11-30T16:52:14.949285-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.002634438407470367
+    },
+    {
+      "id": "7ceabd96-50ff-49a3-ab88-d464210895e2",
+      "memory": "Feeling overwhelmed with information about nasal saline irrigation",
+      "hash": "8f1d18e6abf6f791b2972f85a7d7c227",
+      "metadata": null,
+      "score": 0.21550686488476958,
+      "created_at": "2025-11-30T16:52:14.963729-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.0022499599561414843
+    },
+    {
+      "id": "e5d7ca79-d09c-44c3-ac5a-67cd9b91b84c",
+      "memory": "Experiencing fatigue and joint pain",
+      "hash": "606ccfc64d1f2f4bb06fb2da40e14f71",
+      "metadata": null,
+      "score": 0.16767560380151542,
+      "created_at": "2025-11-30T16:49:53.609884-08:00",
+      "updated_at": "2025-11-30T16:56:23.888490-08:00",
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.0017198958605916816
+    },
+    {
+      "id": "cc844d92-96a3-49f9-bbbe-864f89924888",
+      "memory": "Interested in Pelican Cases and Stack-On Cabinets",
+      "hash": "31758cd8120684f74109ff24ea795b95",
+      "metadata": null,
+      "score": 0.18113751006114998,
+      "created_at": "2025-11-30T17:15:07.434362-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.0007878168611136579
+    },
+    {
+      "id": "4a2159c0-1cac-4cfe-8f8e-87da72ade2e0",
+      "memory": "Went on a winter hike on December 20th",
+      "hash": "17a42587ffa2907e5f2a2ea4e41ba7d9",
+      "metadata": null,
+      "score": 0.18332698573708217,
+      "created_at": "2025-11-30T16:51:32.896571-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.0006114597057278622
+    },
+    {
+      "id": "da07da02-88fd-45f8-83ad-1e91e39d0232",
+      "memory": "Has been thinking about getting a colonoscopy but has been putting it off",
+      "hash": "c6b3cdaa21cf895af32dadc06b962be0",
+      "metadata": null,
+      "score": 0.1700485466174358,
+      "created_at": "2025-11-30T16:49:53.625378-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_78",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3501,
+    "load_time": 1607.1922
+  }
+}

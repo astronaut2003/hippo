@@ -1,0 +1,77 @@
+{
+  "sample_idx": 176,
+  "question_id": "a4996e51",
+  "question": "How many hours do I work in a typical week during peak campaign seasons?",
+  "question_type": "multi-session",
+  "gold_answer": "50",
+  "question_date": "2023/05/30 (Tue) 15:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-08T19:26:08.566382",
+  "predicted_answer": "During peak campaign seasons, you increase your work hours by 10 hours weekly, which suggests you typically work 35 hours a week, bringing your total to 45 hours.",
+  "prompt_length": 2985,
+  "gen_token_usage": {
+    "prompt_tokens": 823,
+    "answer_tokens": 35,
+    "total_tokens": 858,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.11989825963973999,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.11989825963973999,
+      "overall_average": 0.023979652673006058
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.11989825963973999,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.11989825963973999,
+    "overall_average": 0.023979652673006058
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 2144.6161,
+    "retrieval_time": 0.4928,
+    "generation_time": 2.5852,
+    "evaluation_time": 1.4395,
+    "cleanup_time": 1.529,
+    "total_time": 2150.6674
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 137,
+  "question_id": "32260d93",
+  "question": "Can you recommend a show or movie for me to watch tonight?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T08:21:05.287207",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "a77c013e-96f6-4953-a1f2-a208f298f3e0",
+      "memory": "Craves something sweet around 3 pm",
+      "hash": "3222ea19e63afb99644d3bf89a277c17",
+      "metadata": null,
+      "score": 0.21141724566295955,
+      "created_at": "2025-12-06T16:24:36.788801-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.9999999969567928
+    },
+    {
+      "id": "ec294b0a-45af-4389-be2b-cb1e5c08c1bb",
+      "memory": "Is interested in stand-up comedy specials on Netflix with strong storytelling abilities like John Mulaney's 'Kid Gorgeous'",
+      "hash": "546d5150b674f3350cf4246f478aa8f2",
+      "metadata": null,
+      "score": 0.43156980620657026,
+      "created_at": "2025-12-06T16:41:10.267845-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.8535605094484284
+    },
+    {
+      "id": "161eedee-38cc-4e3b-9999-95c10c39f649",
+      "memory": "Considering buying a new board game and wants recommendations",
+      "hash": "79aa8fddfc64d931fe2aadfa89af323c",
+      "metadata": null,
+      "score": 0.24511805849127896,
+      "created_at": "2025-12-06T16:33:43.807075-08:00",
+      "updated_at": "2025-12-06T16:34:40.321455-08:00",
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.6519032214633441
+    },
+    {
+      "id": "1a40a5fb-10a1-456e-b619-5d60b6981355",
+      "memory": "Planning to organize a game night with friends soon",
+      "hash": "172cd37e50ca328704b4c25ed9213984",
+      "metadata": null,
+      "score": 0.30212941378868124,
+      "created_at": "2025-12-06T16:33:43.909944-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.18431821370945542
+    },
+    {
+      "id": "df42d8a9-c50b-4dba-8ae9-7f5d067d6308",
+      "memory": "Will try Z & Y Restaurant first",
+      "hash": "42c111cb536833f425d8b4f870d80dd7",
+      "metadata": null,
+      "score": 0.23201827743157233,
+      "created_at": "2025-12-06T16:32:25.477521-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.12044451656912694
+    },
+    {
+      "id": "a1509500-3e1e-49a6-9d28-32fa117b826e",
+      "memory": "Looking for recommendations on mindfulness apps to complement daily podcast routine",
+      "hash": "99c0b1254f2abf40360b456a435ed74e",
+      "metadata": null,
+      "score": 0.2098806386981475,
+      "created_at": "2025-12-06T16:22:27.725697-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.11307024403515777
+    },
+    {
+      "id": "5a48cc60-1c61-49b9-a06f-d44ae6c60576",
+      "memory": "Excited to introduce siblings to the 18xx series and see how they enjoy it",
+      "hash": "fd3c53329d02c728700190a316062aff",
+      "metadata": null,
+      "score": 0.3194028691312995,
+      "created_at": "2025-12-06T16:34:40.530362-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.08804084453598149
+    },
+    {
+      "id": "d66cc850-9648-47e5-8e2a-f72525ac5a39",
+      "memory": "Asked for a quest that involves combat",
+      "hash": "df196a79e3ce85abb05222f972be93f1",
+      "metadata": null,
+      "score": 0.21665997297322456,
+      "created_at": "2025-12-06T16:21:22.586293-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.08510814258172282
+    },
+    {
+      "id": "dc53d935-0dd1-4a8b-bed4-fcccc5cf402e",
+      "memory": "Intrigued by the 18xx series but concerned about complexity for siblings",
+      "hash": "c82b6549a521478ec2c34f0cbaf3a129",
+      "metadata": null,
+      "score": 0.2401335921990232,
+      "created_at": "2025-12-06T16:34:40.400963-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.01718931928221994
+    },
+    {
+      "id": "672ae3b0-4aa1-4ad4-b7b4-73ff3f80dbc9",
+      "memory": "Flying to Denver, Colorado for a family vacation today",
+      "hash": "edacc23efd14a3f84e48dd627f11950c",
+      "metadata": null,
+      "score": 0.2394650019665262,
+      "created_at": "2025-12-06T16:32:53.248681-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.016573756605823834
+    },
+    {
+      "id": "bf6b1c5b-88bb-4f1f-94e7-f910b5558023",
+      "memory": "Wants tips for teaching 1830 to siblings who are new to the 18xx series",
+      "hash": "82664bfedbef67788c7d002f376d2230",
+      "metadata": null,
+      "score": 0.2537569204127701,
+      "created_at": "2025-12-06T16:34:40.502163-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.009217477888892166
+    },
+    {
+      "id": "33b18cab-b835-4405-935e-17999e864b20",
+      "memory": "Is thinking of attending a comedy writing workshop at a local writing center on Friday",
+      "hash": "79b7e10be4ce20e0ff2940bed0f54864",
+      "metadata": null,
+      "score": 0.2694989493319648,
+      "created_at": "2025-12-06T16:41:10.350368-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.008002024570293918
+    },
+    {
+      "id": "6ea4c4d5-c086-4bca-b51a-459edb8b5cf5",
+      "memory": "Is going to attend the comedy writing workshop on Friday",
+      "hash": "77c6b61ab55dd7c988ddc35f20ded7d9",
+      "metadata": null,
+      "score": 0.23242596604178062,
+      "created_at": "2025-12-06T16:41:10.366715-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.0061904535066142925
+    },
+    {
+      "id": "1c20257d-3853-411e-8cf6-fb69cd565015",
+      "memory": "Looking for book recommendations on ancient civilizations",
+      "hash": "0eeab3ed10676038040728efe7bd29f0",
+      "metadata": null,
+      "score": 0.2965098909334408,
+      "created_at": "2025-12-06T16:36:33.135550-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.004181240678377502
+    },
+    {
+      "id": "e5ad2a70-ba14-4dca-9a06-7e5882431b05",
+      "memory": "Looking for recommendations on eco-friendly products",
+      "hash": "1ecdda6aa63d44275ec96cf004c7efe7",
+      "metadata": null,
+      "score": 0.20786952952009874,
+      "created_at": "2025-12-06T16:39:06.604419-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.0025571535793145112
+    },
+    {
+      "id": "4102015b-f1a7-4d40-bdfe-5e900ca5307d",
+      "memory": "Will definitely try the Chongqing Spicy Chicken at Z & Y Restaurant",
+      "hash": "3e52286c6122f7cb8abca4815ef90656",
+      "metadata": null,
+      "score": 0.2375978372343116,
+      "created_at": "2025-12-06T16:32:25.509638-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.0015222188768022485
+    },
+    {
+      "id": "eca31192-c739-4222-ad89-ead963fba152",
+      "memory": "Looking for inspiration for next art piece",
+      "hash": "c272878d2e639337626cbf0641ee2015",
+      "metadata": null,
+      "score": 0.2730023422016121,
+      "created_at": "2025-12-06T16:28:28.067478-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.0014656254199907255
+    },
+    {
+      "id": "cb7ad0c7-6859-4fe3-a2f0-dc1941090d24",
+      "memory": "Is looking for online resources or books on comedy writing and storytelling to improve craft",
+      "hash": "912b609d75a2ecb42792ee086e2aaaed",
+      "metadata": null,
+      "score": 0.20695516035398628,
+      "created_at": "2025-12-06T16:41:10.317661-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.001198910615837958
+    },
+    {
+      "id": "648a39b0-f3d5-441b-9eb8-cf58a7f2c66b",
+      "memory": "Wants suggestions for healthy drinks to pair with snacks",
+      "hash": "ea0c051ee1d81d01dcab9114df245b0a",
+      "metadata": null,
+      "score": 0.21897694515996735,
+      "created_at": "2025-12-06T16:24:36.829853-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.00066606145324331
+    },
+    {
+      "id": "a79875d1-b580-47e7-ae70-e41489b9c2cd",
+      "memory": "Hoping to find another game that gives a similar experience to Ticket to Ride",
+      "hash": "aaa8ee0eb7a7b946fbd0a06df1a9e4a6",
+      "metadata": null,
+      "score": 0.32575233159028066,
+      "created_at": "2025-12-06T16:34:40.382819-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_137",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2317,
+    "load_time": 1337.1049
+  }
+}

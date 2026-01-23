@@ -1,0 +1,77 @@
+{
+  "sample_idx": 197,
+  "question_id": "1c549ce4",
+  "question": "What is the total cost of the car cover and detailing spray I purchased?",
+  "question_type": "multi-session",
+  "gold_answer": "$140",
+  "question_date": "2023/05/30 (Tue) 23:21",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-09T04:12:52.778370",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 3668,
+  "gen_token_usage": {
+    "prompt_tokens": 953,
+    "answer_tokens": 10,
+    "total_tokens": 963,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.73,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.049522221088409424,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.049522221088409424,
+      "overall_average": 0.009904444217681885
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.049522221088409424,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.049522221088409424,
+    "overall_average": 0.009904444217681885
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1301.3867,
+    "retrieval_time": 0.5312,
+    "generation_time": 1.5299,
+    "evaluation_time": 1.699,
+    "cleanup_time": 1.4159,
+    "total_time": 1306.5658
+  }
+}

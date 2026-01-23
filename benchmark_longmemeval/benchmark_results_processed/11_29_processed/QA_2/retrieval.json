@@ -1,0 +1,242 @@
+{
+  "sample_idx": 2,
+  "question_id": "51a45a95",
+  "question": "Where did I redeem a $5 coupon on coffee creamer?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-28T21:39:28.988350",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "d10fcc2d-cc5a-4507-9522-5972e3e728ca",
+      "memory": "Had snacks on hand during a delayed flight to San Francisco two weeks ago which was a lifesaver when stuck in airport for hours",
+      "hash": "2b281e5409bb44e35f84b66e84b1c0d9",
+      "metadata": null,
+      "score": 0.21675988957426945,
+      "created_at": "2025-11-28T05:44:10.949505-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.9999997176694388
+    },
+    {
+      "id": "ca23d79f-c128-4b6e-8a5b-0098e88c22eb",
+      "memory": "Got the Furminator brush a month ago",
+      "hash": "0154b66cf861e4c3e4e8e562e56dfbe9",
+      "metadata": null,
+      "score": 0.24372045055456476,
+      "created_at": "2025-11-28T05:55:24.419073-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.7585350577863067
+    },
+    {
+      "id": "60e5001b-a284-4923-bb55-f647f771d41b",
+      "memory": "Got the cat tower from Petco for $120 on sale",
+      "hash": "3a474a1fd81e151bf0ebeceb4a435a4d",
+      "metadata": null,
+      "score": 0.3052529770765564,
+      "created_at": "2025-11-28T05:55:24.386914-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.5685512665134053
+    },
+    {
+      "id": "ff4bab45-9cea-42b7-8968-434ea39a9fb8",
+      "memory": "PetSmart usually costs around $30 for nail trim",
+      "hash": "2e43bbdb390dddcfb748a386f28e5146",
+      "metadata": null,
+      "score": 0.20872175660245235,
+      "created_at": "2025-11-28T05:55:24.511727-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.5023692711975334
+    },
+    {
+      "id": "de742551-a427-4807-b70d-78cc79c23c91",
+      "memory": "Got mom a beautiful vase from a local craft store for her anniversary which cost $80",
+      "hash": "8db77212660e94ddf55821cde246f4b2",
+      "metadata": null,
+      "score": 0.25014056707708654,
+      "created_at": "2025-11-28T05:46:19.566070-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.4963649648690389
+    },
+    {
+      "id": "e309952e-6e30-4686-aea8-540efcdc9bf1",
+      "memory": "Got 12 packets of 2kg Whiskas food from Petco in bulk about 10 days ago",
+      "hash": "7630242346a301eb7c09d4cf13ff08d8",
+      "metadata": null,
+      "score": 0.2914410457843283,
+      "created_at": "2025-11-28T05:55:24.450557-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.4789174738337724
+    },
+    {
+      "id": "8eff53f5-478f-4d2d-81aa-421194ec8c46",
+      "memory": "Interested in Avengers-themed snacks for movie marathon",
+      "hash": "ae049772470eb106bdfb3395a3bc5fdb",
+      "metadata": null,
+      "score": 0.20085891909835113,
+      "created_at": "2025-11-28T06:05:11.739322-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.39730737301912333
+    },
+    {
+      "id": "31e6902b-a821-4e1f-b045-48dabc9aae25",
+      "memory": "Wants to check out The Neighbourhood tickets",
+      "hash": "42da388b3a6aceddd4aded6297d6756f",
+      "metadata": null,
+      "score": 0.22566877357253606,
+      "created_at": "2025-11-28T06:01:31.975381-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.32665580438248876
+    },
+    {
+      "id": "479dfaaf-e06e-401a-8ef5-c63da68334e4",
+      "memory": "Doesn't have any fresh ginger",
+      "hash": "309a9b820952f02d5d257e938bc56298",
+      "metadata": null,
+      "score": 0.2321042343165562,
+      "created_at": "2025-11-28T06:03:26.530487-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.32458256856502654
+    },
+    {
+      "id": "f621fe27-b740-4c97-9df6-5a8b7519cad0",
+      "memory": "Attended a workshop on digital marketing at a co-working space downtown today",
+      "hash": "4795c48d1ac20c77d2d9132f5ef953ff",
+      "metadata": null,
+      "score": 0.20310277884605932,
+      "created_at": "2025-11-28T05:42:16.210382-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.2739363793098781
+    },
+    {
+      "id": "21112ba8-024d-46b8-b305-91eff9e5d821",
+      "memory": "Interested in drink recommendations to go with Avengers-themed snacks",
+      "hash": "ddec0890bd73593259239c0947a2f8de",
+      "metadata": null,
+      "score": 0.2628753051362057,
+      "created_at": "2025-11-28T06:05:11.754516-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.24725356508773444
+    },
+    {
+      "id": "ba090557-cd1c-4ed1-b787-10788ce60c7a",
+      "memory": "Added turmeric and cumin to grocery list but hasn't gone to the store yet",
+      "hash": "28a40f21b6bac6133ecba86b4883370f",
+      "metadata": null,
+      "score": 0.35707193396809067,
+      "created_at": "2025-11-28T06:03:26.487158-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.22541727615316484
+    },
+    {
+      "id": "807d96c2-cf62-40f4-834f-ce29af91fb5c",
+      "memory": "Will serve snacks and drinks inspired by different board games",
+      "hash": "52684d143239a054a33dc928b1301506",
+      "metadata": null,
+      "score": 0.19716039239811736,
+      "created_at": "2025-11-28T05:59:05.695010-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.17536343998871984
+    },
+    {
+      "id": "f5cdac30-513e-4bbf-923b-fd655a31c3dc",
+      "memory": "Had leftovers for lunch on Monday and Tuesday this week",
+      "hash": "507194481f170bb030809b55b25d28c9",
+      "metadata": null,
+      "score": 0.242630768723754,
+      "created_at": "2025-11-28T05:54:02.249971-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.15562731201209898
+    },
+    {
+      "id": "37a72be0-86d9-46ef-b2d3-6d15aaefad97",
+      "memory": "Rode 20 kilometers and raised $250 in the charity bike ride",
+      "hash": "3ebc36c55f2fa28219b3cfc712680b76",
+      "metadata": null,
+      "score": 0.23965093653226768,
+      "created_at": "2025-11-28T06:04:24.218205-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.13939145229872604
+    },
+    {
+      "id": "1319746e-3658-4c9d-ad2c-ea6abcb9f3cf",
+      "memory": "Has been doing a good job of packing snacks lately",
+      "hash": "9c392a155c8677a77b27aaf59891b3c0",
+      "metadata": null,
+      "score": 0.19267293704958366,
+      "created_at": "2025-11-28T05:44:10.934565-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.11798596561194079
+    },
+    {
+      "id": "e5f99b6d-20ff-4b25-bd72-247b571772a0",
+      "memory": "Thinks of trying out a new smoothie recipe at home after Tuesday yoga class",
+      "hash": "a42ca4e442eabce559024f0859774c80",
+      "metadata": null,
+      "score": 0.26847977721077665,
+      "created_at": "2025-11-28T05:50:43.050531-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.05977381188007954
+    },
+    {
+      "id": "96a9d806-34bd-4b31-81c4-813624e85bba",
+      "memory": "Plans to serve 'Settlers of Catan' resource-themed desserts",
+      "hash": "392a6da63a7abef2a734bfb40c6d392b",
+      "metadata": null,
+      "score": 0.22316521050533653,
+      "created_at": "2025-11-28T05:59:05.726871-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.05473881060909987
+    },
+    {
+      "id": "8ca11c83-5b62-4f47-a9d9-6ba4647c1644",
+      "memory": "On trip to Chicago last month, brought laptop, tablet, portable charger, and camera but could have left the tablet behind",
+      "hash": "cf02a6cee9bd1955b51fe60dc548657b",
+      "metadata": null,
+      "score": 0.19765161113267374,
+      "created_at": "2025-11-28T05:44:10.821517-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.04905760596644366
+    },
+    {
+      "id": "1e5d53b7-bfed-4896-9863-2ecad8d0ba03",
+      "memory": "Will have a 'game station' area where guests can play different games and win prizes",
+      "hash": "22eb9dd3fdc30bb2b042d16d148fe921",
+      "metadata": null,
+      "score": 0.19687434258788433,
+      "created_at": "2025-11-28T05:59:05.668278-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_2",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2192,
+    "load_time": 1589.0978
+  }
+}

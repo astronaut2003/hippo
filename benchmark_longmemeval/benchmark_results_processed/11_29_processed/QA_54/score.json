@@ -1,0 +1,78 @@
+{
+  "sample_idx": 54,
+  "question_id": "c19f7a0b",
+  "question": "What time do I usually get home from work on weeknights?",
+  "question_type": "single-session-user",
+  "gold_answer": "6:30 pm",
+  "question_date": "2023/05/30 (Tue) 22:19",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-30T15:12:27.658540",
+  "predicted_answer": "You usually get home from work around 6:30 pm on weekdays.",
+  "prompt_length": 3002,
+  "gen_token_usage": {
+    "prompt_tokens": 813,
+    "answer_tokens": 15,
+    "total_tokens": 828,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 11,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3076923076923077,
+      "rouge1_f": 0.4,
+      "rouge2_f": 0.3076923076923077,
+      "rougeL_f": 0.4,
+      "semantic_similarity": 0.6135378479957581,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.27692307692307694,
+      "avg_semantic": 0.6135378479957581,
+      "overall_average": 0.3442460596561432
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3076923076923077,
+    "rouge1_f": 0.4,
+    "rouge2_f": 0.3076923076923077,
+    "rougeL_f": 0.4,
+    "semantic_similarity": 0.6135378479957581,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.27692307692307694,
+    "avg_semantic": 0.6135378479957581,
+    "overall_average": 0.3442460596561432
+  },
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "load_time": 1580.6415,
+    "retrieval_time": 0.1054,
+    "generation_time": 1.7803,
+    "evaluation_time": 1.0004,
+    "cleanup_time": 0.0,
+    "total_time": 1583.534
+  }
+}

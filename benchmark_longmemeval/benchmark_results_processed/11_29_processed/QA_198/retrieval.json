@@ -1,0 +1,242 @@
+{
+  "sample_idx": 198,
+  "question_id": "6c49646a",
+  "question": "What is the total distance I covered in my four road trips?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T04:34:39.352246",
+  "load_result": {
+    "total_sessions": 43,
+    "added_sessions": 43,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "fcc68457-a1d4-45f5-9354-01a067c80de0",
+      "memory": "Has covered a total of 1,800 miles on recent three road trips, including a solo trip to Durango, a weekend trip to Breckenridge, and a family trip to Santa Fe",
+      "hash": "66b17febbf10a23307e241ca89d0de17",
+      "metadata": null,
+      "score": 0.6770509387677369,
+      "created_at": "2025-12-08T12:43:28.756550-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.9999999990913898
+    },
+    {
+      "id": "706a0280-a90d-4c4c-8bc5-83d8b69ff415",
+      "memory": "Covered 1,200 miles during the Yellowstone trip",
+      "hash": "7284449bf1dbf1f41e9d71fd633bac23",
+      "metadata": null,
+      "score": 0.5141519400811747,
+      "created_at": "2025-12-08T12:49:57.952731-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.5968262045734817
+    },
+    {
+      "id": "b9d9c61d-da0d-4611-a712-f092a7919f61",
+      "memory": "Drove around 300 miles on the first day of the Yellowstone trip to reach Jackson, Wyoming",
+      "hash": "b6714d4db0aefcf3e273904b8df72363",
+      "metadata": null,
+      "score": 0.4517972100982278,
+      "created_at": "2025-12-08T12:49:58.048789-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.39439794611466766
+    },
+    {
+      "id": "3a858f67-6454-4a28-bf6a-1d74766d54bd",
+      "memory": "Considering different distances for charity run, like 5K, 10K, or a full marathon",
+      "hash": "5d0961678c3f0db536d41bb92a35d8be",
+      "metadata": null,
+      "score": 0.38559303701244785,
+      "created_at": "2025-12-08T12:39:05.526190-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.23637843962065228
+    },
+    {
+      "id": "3371d198-9217-45ae-8d01-890f0129063a",
+      "memory": "Planning a road trip from Denver to Mount Rushmore",
+      "hash": "837c255e016da6a2bcd2137c8a15146d",
+      "metadata": null,
+      "score": 0.3331767474177048,
+      "created_at": "2025-12-08T12:43:28.603158-08:00",
+      "updated_at": "2025-12-08T12:49:57.896956-08:00",
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.07705737953771043
+    },
+    {
+      "id": "3b749352-e409-4ef6-ad4c-3a6461b5606f",
+      "memory": "Participated in a few charity runs before, including a 5K walk/run for cancer awareness about 3 months ago",
+      "hash": "815ad43955268ed587b85a878c171550",
+      "metadata": null,
+      "score": 0.23193129511265279,
+      "created_at": "2025-12-08T12:39:05.490177-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.02040953527298007
+    },
+    {
+      "id": "6d25e371-634e-4f3c-8360-c8ddff4e7cf0",
+      "memory": "Considering taking the scenic route and stopping at Loveland Pass and Copper Mountain",
+      "hash": "937bb9db3fba7e00b2d1aab73c448102",
+      "metadata": null,
+      "score": 0.4375932796361623,
+      "created_at": "2025-12-08T12:43:28.628130-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.011065696745559572
+    },
+    {
+      "id": "e06d9c34-74fa-4d50-824e-c447e5b73477",
+      "memory": "Recently returned from a 4-day family trip to Yellowstone National Park last month",
+      "hash": "16d8210a0ad981a9731c0905ae3d1bf1",
+      "metadata": null,
+      "score": 0.23190871778641223,
+      "created_at": "2025-12-08T12:49:57.937288-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.008086174082849487
+    },
+    {
+      "id": "9b4cf899-1d32-42ca-bc84-fe03554de1f3",
+      "memory": "Found the scenic views during the drive to Jackson, Wyoming worth the long drive",
+      "hash": "7b3d070d560fd0c647485e1ad7905f39",
+      "metadata": null,
+      "score": 0.3468566462391959,
+      "created_at": "2025-12-08T12:49:58.064793-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.002395489428838746
+    },
+    {
+      "id": "34857fe2-8331-4689-a929-4e35b37abf31",
+      "memory": "Is comfortable with the drive and exploring new scenic spots",
+      "hash": "7b0dc8756757a49dcd556257a8969e30",
+      "metadata": null,
+      "score": 0.3775305230300258,
+      "created_at": "2025-12-08T12:43:28.772368-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.0020161277822677193
+    },
+    {
+      "id": "be9d9956-ab9a-4b53-85ac-c1a75fb4abf5",
+      "memory": "Will definitely check the road conditions before leaving",
+      "hash": "41314e36891252856aca286534a33367",
+      "metadata": null,
+      "score": 0.49072897246649316,
+      "created_at": "2025-12-08T12:43:28.660298-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.0018194281619579363
+    },
+    {
+      "id": "fc40353c-eedc-43ac-bed3-3410621bfc18",
+      "memory": "Recently crossed the 1,000 follower mark, which was a milestone",
+      "hash": "bebb5e2d48d43c500157d909fd8e261c",
+      "metadata": null,
+      "score": 0.21856400252459363,
+      "created_at": "2025-12-08T12:54:22.606145-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.0017048744623766442
+    },
+    {
+      "id": "5c77a98e-10d9-4300-8a0c-c83ea0dcf687",
+      "memory": "Wants to know how long it takes to get to Maroon Lake from Aspen and if it is worth the detour",
+      "hash": "5a04397a8e5ee5826e5df588fc19f28b",
+      "metadata": null,
+      "score": 0.3995294165688934,
+      "created_at": "2025-12-08T12:43:28.693021-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.0008251852353348301
+    },
+    {
+      "id": "cc7e4a63-702e-4d48-bf91-60ef1eb563cb",
+      "memory": "Wants to know about the parking situation and if there are any shuttle buses available at Maroon Lake",
+      "hash": "36f811f32d53dd7fdba95935b3e5b812",
+      "metadata": null,
+      "score": 0.21783267535599815,
+      "created_at": "2025-12-08T12:43:28.724062-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.0007934706710029444
+    },
+    {
+      "id": "9ddc9be6-5272-4c66-b3ee-7861d1d07969",
+      "memory": "Planning a trip to visit parents soon",
+      "hash": "1911467dbfe6b8ae293c2f3ca3abb080",
+      "metadata": null,
+      "score": 0.2606319773062562,
+      "created_at": "2025-12-08T12:50:26.889533-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.0006675655836416603
+    },
+    {
+      "id": "db33d295-f13a-4303-8303-be8367db2662",
+      "memory": "Thinking of stopping by the Kennedy Space Center Visitor Complex while in the area",
+      "hash": "34cc5b424ad2997b3bad2ea6bbc801c5",
+      "metadata": null,
+      "score": 0.213458409964693,
+      "created_at": "2025-12-08T12:50:27.004339-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.0004083900046343646
+    },
+    {
+      "id": "c83439c4-09f8-4543-af54-a4a9df86072f",
+      "memory": "Thinking of stopping by grandma's place in Florida on the way",
+      "hash": "526828efc5903e64da8b3ea455515b64",
+      "metadata": null,
+      "score": 0.23941771622152114,
+      "created_at": "2025-12-08T12:50:26.925875-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.0002479974948575327
+    },
+    {
+      "id": "2ec08500-d6c3-4c28-b518-04d7e2012534",
+      "memory": "Thinking of stopping at Maroon Lake but unsure if there is enough time",
+      "hash": "a99f105887a3720ac89869fbdc6a3468",
+      "metadata": null,
+      "score": 0.310474199101356,
+      "created_at": "2025-12-08T12:43:28.677222-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.00022824088101143993
+    },
+    {
+      "id": "d0c99171-7340-402c-9a15-6a16ecfd2f1d",
+      "memory": "Wants to know about road conditions on CO-82 E, especially during this time of the year",
+      "hash": "c4f1721be5665d9ca9de80fbde068f8d",
+      "metadata": null,
+      "score": 0.43955399723298944,
+      "created_at": "2025-12-08T12:43:28.643891-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.0001264249982519707
+    },
+    {
+      "id": "964083ae-50f2-4e3e-a2cc-5a2e7031970a",
+      "memory": "Will set a goal to reduce overall screen time by a certain amount each day",
+      "hash": "1baf44e70f36c451a721ffdf39eb8ac1",
+      "metadata": null,
+      "score": 0.2132316681212203,
+      "created_at": "2025-12-08T12:35:19.336807-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_198",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4022,
+    "load_time": 1296.9617
+  }
+}

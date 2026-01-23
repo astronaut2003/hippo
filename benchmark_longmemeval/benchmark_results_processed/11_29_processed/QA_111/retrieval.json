@@ -1,0 +1,242 @@
+{
+  "sample_idx": 111,
+  "question_id": "d851d5ba",
+  "question": "How much money did I raise for charity in total?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-06T22:11:41.810528",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "3e6f6c7a-a8b4-4965-a2a9-ac3f54f50171",
+      "memory": "Has experience with fundraising in the past, like when helped raise over $1,000 for the local children's hospital at a charity bake sale",
+      "hash": "35a66eea15f9a3018fbec2554992182e",
+      "metadata": null,
+      "score": 0.6557930457518243,
+      "created_at": "2025-12-06T06:16:33.506827-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.999999998957441
+    },
+    {
+      "id": "be69eae4-33ca-4df6-88fc-b8299d053a92",
+      "memory": "Recently volunteered at a charity bake sale and raised $1,000 for the local children's hospital",
+      "hash": "a5e42efa238ebb81d1ddb93e44758933",
+      "metadata": null,
+      "score": 0.6431628291142039,
+      "created_at": "2025-12-06T06:16:33.464867-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.9799777061397611
+    },
+    {
+      "id": "e930cf75-09cf-4dd2-9a9e-365251d03a46",
+      "memory": "Managed to raise $500 for the American Cancer Society in the charity fitness challenge",
+      "hash": "35ec4f3a4070275bc7067cf175b5827d",
+      "metadata": null,
+      "score": 0.6063958895160014,
+      "created_at": "2025-12-06T06:27:21.855502-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.904372356822224
+    },
+    {
+      "id": "c231a0a3-fa97-440a-8d4c-df1430e5f1f3",
+      "memory": "Ran 5 kilometers in the 'Run for Hunger' charity event on March 12th and raised $250 for a local food bank",
+      "hash": "ec783a69048435bdb5ea05e0260dc17a",
+      "metadata": null,
+      "score": 0.5599336397848673,
+      "created_at": "2025-12-06T06:20:21.748160-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.8233238970143562
+    },
+    {
+      "id": "f553966c-0c7f-4f28-b9a9-13970d8717ad",
+      "memory": "Helped raise over $2,000 for a local animal shelter on January 20th",
+      "hash": "5ee3864b3828e68b15ae44cdbcaf57cb",
+      "metadata": null,
+      "score": 0.628915515365918,
+      "created_at": "2025-12-06T06:29:10.186175-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.7200057401163681
+    },
+    {
+      "id": "9425039c-1cba-4d3d-bee6-093d13ce3720",
+      "memory": "Thinking of raising money for a local food bank again for next charity run",
+      "hash": "84be3a373e2b48ec92c2b7ac784cdea9",
+      "metadata": null,
+      "score": 0.5083784233367564,
+      "created_at": "2025-12-06T06:20:21.809206-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.518280084818023
+    },
+    {
+      "id": "eb25219d-5a25-4b0a-9796-6bc14fce50fc",
+      "memory": "Planning to participate in another charity run soon",
+      "hash": "ec1bc94cd787e48d551e4247b89789ce",
+      "metadata": null,
+      "score": 0.43426496583268326,
+      "created_at": "2025-12-06T06:20:21.793836-08:00",
+      "updated_at": "2025-12-06T06:27:21.800557-08:00",
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.2812095200508708
+    },
+    {
+      "id": "27577cad-5719-4116-be24-defc7fbbb774",
+      "memory": "Has been getting more into charity events lately",
+      "hash": "80325a41b5af385c9499ff177587f28a",
+      "metadata": null,
+      "score": 0.5232395216844714,
+      "created_at": "2025-12-06T06:29:10.171020-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.22235231008561085
+    },
+    {
+      "id": "86661896-628a-47f3-8a31-a903bda1d8be",
+      "memory": "Trying to attend at least one charity event per month",
+      "hash": "1f688836affaeba64b8f181d6574a425",
+      "metadata": null,
+      "score": 0.512329071906195,
+      "created_at": "2025-12-06T06:20:21.732583-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.21733248165417937
+    },
+    {
+      "id": "78f3823f-0872-4574-9f9d-46c8655c7b1d",
+      "memory": "Recently completed a charity fitness challenge in February",
+      "hash": "df2ec9b96abeecccebfde18f209e747f",
+      "metadata": null,
+      "score": 0.3785426854593642,
+      "created_at": "2025-12-06T06:20:21.778473-08:00",
+      "updated_at": "2025-12-06T06:27:21.830142-08:00",
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.18838813182872113
+    },
+    {
+      "id": "084a469e-3256-40f3-b92d-027dd683db0a",
+      "memory": "Been thinking about sharing charity experiences on social media to inspire others to get involved",
+      "hash": "b3dc194afcc24d6961886ae1ab587ef1",
+      "metadata": null,
+      "score": 0.41951323210091773,
+      "created_at": "2025-12-06T06:27:21.903034-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.16087551883998868
+    },
+    {
+      "id": "7d103149-a09e-4164-acec-aa687b3ffd99",
+      "memory": "Thinking of doing another charity event, maybe a run or a cycling event, to stay motivated",
+      "hash": "7e54629252ab37a0f1596036b3452ce4",
+      "metadata": null,
+      "score": 0.33095031323370916,
+      "created_at": "2025-12-06T06:16:33.479856-08:00",
+      "updated_at": "2025-12-06T06:20:21.681925-08:00",
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.11409331884763427
+    },
+    {
+      "id": "177893e4-e7d3-4f90-b487-91d71b318d14",
+      "memory": "Thinking of volunteering at a local charity event soon",
+      "hash": "6298b1f2b80d087ae43ab999922c5294",
+      "metadata": null,
+      "score": 0.46976127990283073,
+      "created_at": "2025-12-06T06:27:21.872082-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.07190162508803198
+    },
+    {
+      "id": "87e6d9ec-508c-481e-a0c9-36e9ddbbdb23",
+      "memory": "Will use some fundraising ideas to reach the goal for the cycling event",
+      "hash": "0746cb3d453950884605c77c3ffcd82a",
+      "metadata": null,
+      "score": 0.37552190204837305,
+      "created_at": "2025-12-06T06:29:10.246630-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.05991053080194563
+    },
+    {
+      "id": "fe8e2ef5-3238-45b9-a3b1-6004602e87f8",
+      "memory": "Planning to participate in a charity cycling event next month",
+      "hash": "a3f29ef2ad6aaf233174b4596d66275b",
+      "metadata": null,
+      "score": 0.34775694840190025,
+      "created_at": "2025-12-06T06:16:33.492846-08:00",
+      "updated_at": "2025-12-06T06:29:10.136437-08:00",
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.04300142048170611
+    },
+    {
+      "id": "d3cefc7a-57c6-4d32-8a17-961028786840",
+      "memory": "Will go ahead and set up Facebook Fundraiser now",
+      "hash": "cb400c2f47e06c238ef5d8579ab1a411",
+      "metadata": null,
+      "score": 0.4093252828027246,
+      "created_at": "2025-12-06T06:20:21.839083-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.034907036619575185
+    },
+    {
+      "id": "f42d6593-a8fa-49e9-ac00-4dad79321eb6",
+      "memory": "Thinking of reaching out to employer to see if they would be willing to match fundraising goal or make a corporate donation",
+      "hash": "95b2eabe03733b415596002284d345e5",
+      "metadata": null,
+      "score": 0.45300555308703505,
+      "created_at": "2025-12-06T06:16:33.519717-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.03454711388700939
+    },
+    {
+      "id": "71eab43d-bc85-415f-8113-f2eb6d395ec5",
+      "memory": "Thinking of asking friends to join for the charity bike ride",
+      "hash": "4bc65eca6d5e6a835f68215129f7aa5f",
+      "metadata": null,
+      "score": 0.35530031437773535,
+      "created_at": "2025-12-06T06:27:21.887964-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.031215243530376142
+    },
+    {
+      "id": "157650f5-6d2b-4696-b3f3-6fed5082307d",
+      "memory": "Thinking of setting up a fundraising page on Facebook Fundraisers",
+      "hash": "5e15a08991d48b8b60421827a191e742",
+      "metadata": null,
+      "score": 0.414939081224108,
+      "created_at": "2025-12-06T06:20:21.825001-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.0092416624287267
+    },
+    {
+      "id": "d2613210-3eb6-4baa-bdbc-7bca8d7a4d0c",
+      "memory": "Interested in exploring volunteer opportunities related to fitness, especially charity runs",
+      "hash": "03953a3552664e0f297f0f403d22ffea",
+      "metadata": null,
+      "score": 0.32923593619755465,
+      "created_at": "2025-12-06T06:20:21.762728-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_111",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.6104,
+    "load_time": 1428.4839
+  }
+}

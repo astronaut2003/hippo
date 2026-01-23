@@ -1,0 +1,242 @@
+{
+  "sample_idx": 192,
+  "question_id": "8979f9ec",
+  "question": "What is the total number of lunch meals I got from the chicken fajitas and lentil soup?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T02:15:33.301004",
+  "load_result": {
+    "total_sessions": 43,
+    "added_sessions": 43,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "347249e5-bd49-4d6e-bbeb-4ba7147854d0",
+      "memory": "Got three meals from the chicken fajitas",
+      "hash": "ec1c2c323aa8d1f3022692d61b4df064",
+      "metadata": null,
+      "score": 0.7335347818247544,
+      "created_at": "2025-12-08T10:21:17.705200-08:00",
+      "updated_at": "2025-12-08T10:26:26.884443-08:00",
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.9999999992224102
+    },
+    {
+      "id": "5c0b251d-5178-40ee-9882-4448028c43d9",
+      "memory": "Made a big batch of lentil soup that lasted for 5 lunches",
+      "hash": "f37d102b2ed52d00bf20033313512f72",
+      "metadata": null,
+      "score": 0.6748245956315738,
+      "created_at": "2025-12-08T10:33:00.414824-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.8315017686590175
+    },
+    {
+      "id": "55b9d712-e664-4543-9134-4c22d8604e6d",
+      "memory": "Looking for something similar to lentil soup, specifically hearty soup recipes that would be good for meal prep",
+      "hash": "9548d08464390c442788a0d7e791cce9",
+      "metadata": null,
+      "score": 0.5349542502271688,
+      "created_at": "2025-12-08T10:33:00.430387-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.5016106653954395
+    },
+    {
+      "id": "1c119cd3-cd23-4c09-98bc-661914d8f350",
+      "memory": "Had the best lunch today - finished off the last of chicken fajitas with sautéed onions and bell peppers made last week",
+      "hash": "2d09bc9d54447e38bdd321f053472e76",
+      "metadata": null,
+      "score": 0.6389808713100643,
+      "created_at": "2025-12-08T10:21:17.688908-08:00",
+      "updated_at": "2025-12-08T10:26:26.860233-08:00",
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.4457404978672761
+    },
+    {
+      "id": "4a3051c8-c378-4038-868d-bbf644ecea43",
+      "memory": "Looking for new recipes to try out, particularly for lunch",
+      "hash": "c0f8b5584349f75699066985dcd00a8c",
+      "metadata": null,
+      "score": 0.5129630694214822,
+      "created_at": "2025-12-08T10:33:00.357196-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.382631112613777
+    },
+    {
+      "id": "5dcb5037-a1b2-4f56-866b-e5d75f92d92a",
+      "memory": "Has been really into soups lately",
+      "hash": "ac5cda6c95b1b02ef76fa101cc16a9c3",
+      "metadata": null,
+      "score": 0.42273321926220964,
+      "created_at": "2025-12-08T10:33:00.398159-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.24654367480778866
+    },
+    {
+      "id": "08d73cdd-f8a1-40aa-ab2b-5577e0eb41c9",
+      "memory": "Has been meal prepping a lot lately and it's been a huge time saver",
+      "hash": "a4c4c61309c2c153e57b307c00ef1c72",
+      "metadata": null,
+      "score": 0.3806923242465809,
+      "created_at": "2025-12-08T10:33:00.380280-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.23548330874833168
+    },
+    {
+      "id": "4fc9eca4-5a2a-4ef7-9ee6-11fb85726300",
+      "memory": "Has been trying to eat more fish, having salmon or tilapia for dinner at least twice a week",
+      "hash": "ae5ef218c53388e565888eeec9fe2fa3",
+      "metadata": null,
+      "score": 0.41176998550981614,
+      "created_at": "2025-12-08T10:21:17.641481-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.11408049919970266
+    },
+    {
+      "id": "a1887748-3b7c-4387-8942-022d15f6ced0",
+      "memory": "Intrigued by the Butternut Squash and Chickpea Curry Soup",
+      "hash": "69c30a15efdcb43dab935224ff889eac",
+      "metadata": null,
+      "score": 0.4428679774776346,
+      "created_at": "2025-12-08T10:33:00.443644-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.045613586338942844
+    },
+    {
+      "id": "b02f9559-3ce0-4ede-99f5-cbb0884408aa",
+      "memory": "Excited to try out the Butternut Squash and Chickpea Curry Soup",
+      "hash": "8162483246e419b51cd77c1b53c91956",
+      "metadata": null,
+      "score": 0.4325646889261686,
+      "created_at": "2025-12-08T10:33:00.485229-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.028817085452463878
+    },
+    {
+      "id": "1699a4b0-1c23-4772-a349-5fa9599b0a08",
+      "memory": "Loves the idea of cooking with more herbs and spices to add flavor without adding salt",
+      "hash": "9f58ecc0ff83e87b94196d591e4e8964",
+      "metadata": null,
+      "score": 0.3005004251015256,
+      "created_at": "2025-12-08T10:37:59.102175-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.025733944963032312
+    },
+    {
+      "id": "34743da8-1793-4ad5-bcd4-99f55bca8c08",
+      "memory": "Wants to create a recipe using kimchi, balsamic vinegar, sweet potatoes, lamb, salmon, and licorice",
+      "hash": "173158de32be9c8dfc1786583d16c411",
+      "metadata": null,
+      "score": 0.33213930849790185,
+      "created_at": "2025-12-08T10:23:45.928813-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.019314641198188313
+    },
+    {
+      "id": "fece09ab-a133-4976-81bc-631938abf7ad",
+      "memory": "Loves the idea of the creamy texture and the Indian spices in the Butternut Squash and Chickpea Curry Soup",
+      "hash": "3b5cdfef6d7a89e9b0eaff7ef875a154",
+      "metadata": null,
+      "score": 0.4214115724539881,
+      "created_at": "2025-12-08T10:33:00.471573-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.017305883511596957
+    },
+    {
+      "id": "5606ea10-7590-48eb-8b02-f2e8b4e19209",
+      "memory": "Has been looking for a recipe that incorporates gochujang",
+      "hash": "e8fab79db4204f290c2da299af81d1e7",
+      "metadata": null,
+      "score": 0.31462239024934063,
+      "created_at": "2025-12-08T10:26:27.050070-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.002757518258117971
+    },
+    {
+      "id": "bf521656-d607-43ee-8838-d05e5c663369",
+      "memory": "Had no idea that processed meats contained so much sodium and always thought they were just high in fat",
+      "hash": "0e19c556ae7c6a695248eaa234241968",
+      "metadata": null,
+      "score": 0.3311335452102451,
+      "created_at": "2025-12-08T10:37:59.062406-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.0019028618664328934
+    },
+    {
+      "id": "83fa74ab-6123-4f0d-8e7a-3e8bab0b677d",
+      "memory": "Has never had butternut squash in a soup before",
+      "hash": "9c6ec0070fac14c2ac042ceb48cd7e18",
+      "metadata": null,
+      "score": 0.4033606526795761,
+      "created_at": "2025-12-08T10:33:00.458758-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.0018682306703446563
+    },
+    {
+      "id": "7d318e18-a2c7-421d-88b7-fbc870bab2fc",
+      "memory": "Wants to try using roasted sweet potatoes and caramelized onions in a frittata",
+      "hash": "d8151c6fafbc11173a529b3aa106b16f",
+      "metadata": null,
+      "score": 0.3196625992214759,
+      "created_at": "2025-12-08T10:26:26.934126-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.0016852118439083204
+    },
+    {
+      "id": "39159487-49f8-44b0-90d0-6ce9eceb05a9",
+      "memory": "Grabbing a coffee and a granola bar to-go to eat during a meeting",
+      "hash": "cb65499475b094fa70b256fa8902a120",
+      "metadata": null,
+      "score": 0.29726694789799124,
+      "created_at": "2025-12-08T10:21:17.625319-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.0007334101270078455
+    },
+    {
+      "id": "99d0d4b3-46db-446a-821a-2b0cd9b06fee",
+      "memory": "Looking for good restaurants in the Latin Quarter",
+      "hash": "43075b8e461e700cf578e6bf9adc0063",
+      "metadata": null,
+      "score": 0.3196011613661408,
+      "created_at": "2025-12-08T10:36:33.436248-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.0005258454206888405
+    },
+    {
+      "id": "81193aaf-c1ed-40b0-8de5-7e33c8654526",
+      "memory": "Has been using curry powder from a local spice shop that sources spices from a small farm in India",
+      "hash": "2160274c8a9181e53799f9e360bb86a8",
+      "metadata": null,
+      "score": 0.3033099286977333,
+      "created_at": "2025-12-08T10:21:17.671933-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_192",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4798,
+    "load_time": 1509.5374
+  }
+}

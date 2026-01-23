@@ -1,0 +1,77 @@
+{
+  "sample_idx": 205,
+  "question_id": "60159905",
+  "question": "How many dinner parties have I attended in the past month?",
+  "question_type": "multi-session",
+  "gold_answer": "three",
+  "question_date": "2023/05/30 (Tue) 14:40",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2026-01-13T23:53:55.439379",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 2912,
+  "gen_token_usage": {
+    "prompt_tokens": 791,
+    "answer_tokens": 10,
+    "total_tokens": 801,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.6,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.1416410207748413,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.1416410207748413,
+      "overall_average": 0.02832820452749729
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.1416410207748413,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.1416410207748413,
+    "overall_average": 0.02832820452749729
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1651.9615,
+    "retrieval_time": 1.1905,
+    "generation_time": 3.1163,
+    "evaluation_time": 9.0251,
+    "cleanup_time": 1.5787,
+    "total_time": 1666.8741
+  }
+}

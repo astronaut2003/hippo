@@ -1,0 +1,77 @@
+{
+  "sample_idx": 112,
+  "question_id": "5a7937c8",
+  "question": "How many days did I spend participating in faith-related activities in December?",
+  "question_type": "multi-session",
+  "gold_answer": "3 days.",
+  "question_date": "2024/01/10 (Wed) 23:41",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-06T22:35:45.460002",
+  "predicted_answer": "You participated in faith-related activities on two days in December: December 10th for the holiday food drive and December 24th for midnight mass.",
+  "prompt_length": 3321,
+  "gen_token_usage": {
+    "prompt_tokens": 885,
+    "answer_tokens": 30,
+    "total_tokens": 915,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.68,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 23,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.08695652173913042,
+      "rouge1_f": 0.07692307692307693,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.07692307692307693,
+      "semantic_similarity": 0.24188482761383057,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.06020066889632107,
+      "avg_semantic": 0.24188482761383057,
+      "overall_average": 0.0965375006198883
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.08695652173913042,
+    "rouge1_f": 0.07692307692307693,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.07692307692307693,
+    "semantic_similarity": 0.24188482761383057,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.06020066889632107,
+    "avg_semantic": 0.24188482761383057,
+    "overall_average": 0.0965375006198883
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1354.4925,
+    "retrieval_time": 0.476,
+    "generation_time": 2.6833,
+    "evaluation_time": 1.0122,
+    "cleanup_time": 1.4213,
+    "total_time": 1360.088
+  }
+}

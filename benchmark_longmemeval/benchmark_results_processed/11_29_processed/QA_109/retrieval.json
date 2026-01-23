@@ -1,0 +1,242 @@
+{
+  "sample_idx": 109,
+  "question_id": "gpt4_194be4b3",
+  "question": "How many musical instruments do I currently own?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T09:34:20.447373",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "04d4825e-cb8c-43b8-9bd9-bffb13af1cb1",
+      "memory": "Thinking of selling old drum set, a 5-piece Pearl Export, which hasn't been played in years",
+      "hash": "9ab517d58e180cdd91b2d1cffa5598ff",
+      "metadata": null,
+      "score": 0.45337082961204667,
+      "created_at": "2025-12-01T17:36:46.886652-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.9999999974238412
+    },
+    {
+      "id": "e9ff6f9f-a0d2-4d35-9ae3-e21741fab3b9",
+      "memory": "Looking to find a piano technician to service Korg B1, which has been owned for about 3 years",
+      "hash": "df86223b47d2081d494c459ce81b6acc",
+      "metadata": null,
+      "score": 0.3548448488179129,
+      "created_at": "2025-12-01T17:36:46.917540-08:00",
+      "updated_at": "2025-12-01T17:57:41.340296-08:00",
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.8322561809261514
+    },
+    {
+      "id": "7b6a3044-461a-42cd-8c41-f9f1a4c86707",
+      "memory": "The black Fender Stratocaster is the go-to instrument for playing blues and rock music",
+      "hash": "da472953b480bb1d1e62d18cefd44ff6",
+      "metadata": null,
+      "score": 0.37228812178534887,
+      "created_at": "2025-12-01T17:34:46.497259-08:00",
+      "updated_at": "2025-12-01T17:39:49.640933-08:00",
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.7693717507207201
+    },
+    {
+      "id": "6a56f884-1f32-4cd1-95b3-52971274da71",
+      "memory": "Will start by checking out the Kala KA-15S and Fender CP-60S ukulele models",
+      "hash": "ced4d70c6f8c041b1f333590d6e219c6",
+      "metadata": null,
+      "score": 0.34857158869293475,
+      "created_at": "2025-12-01T17:38:53.027291-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.5920642845189494
+    },
+    {
+      "id": "38277870-46e9-416a-9255-08ce26c06a7b",
+      "memory": "Thinking about getting a new ukulele, has been listening to a lot of ukulele-based music lately and loves the portability and ease of playing it",
+      "hash": "c74f7477eca587f0c9b2a1140d920d5e",
+      "metadata": null,
+      "score": 0.3683159630685642,
+      "created_at": "2025-12-01T17:36:46.953377-08:00",
+      "updated_at": "2025-12-01T17:57:41.388257-08:00",
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.43790985729045134
+    },
+    {
+      "id": "6fc16f7c-4a03-47ea-a511-ac43f316f0d6",
+      "memory": "Has an acoustic guitar, a Yamaha FG800, for about 8 years",
+      "hash": "e344ccc9f694105e49f9d61941e9aaca",
+      "metadata": null,
+      "score": 0.4670895871283737,
+      "created_at": "2025-12-01T17:39:50.583194-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.42358661692392136
+    },
+    {
+      "id": "705986be-e8ac-4715-886b-f00db381cbef",
+      "memory": "Has been playing guitar for a while",
+      "hash": "3d68f0b6611f2205fdee0b68de10c254",
+      "metadata": null,
+      "score": 0.42951276610990546,
+      "created_at": "2025-12-01T17:38:53.012530-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.36475568831038324
+    },
+    {
+      "id": "dfaedad6-711e-432b-9df9-2305666dd132",
+      "memory": "Has had the black Fender Stratocaster electric guitar for about 5 years",
+      "hash": "255d331009254316411f851274f1c159",
+      "metadata": null,
+      "score": 0.3498370494203412,
+      "created_at": "2025-12-01T17:34:46.480823-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.3415820120782636
+    },
+    {
+      "id": "5c2dc4cb-3615-4220-975f-70957a99d782",
+      "memory": "Likes the idea of setting achievable goals and finding music niece loves for violin practice",
+      "hash": "43ac7c0e1c2612e813b182dc38157de3",
+      "metadata": null,
+      "score": 0.36011746415163076,
+      "created_at": "2025-12-01T17:38:52.979465-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.34037940038711156
+    },
+    {
+      "id": "ff716430-80ca-496d-a844-b08a80537204",
+      "memory": "Niece got a new student-level violin from a store in Pasadena about a month ago",
+      "hash": "b1d4306c7edba40a0ccd8b01d25b96fe",
+      "metadata": null,
+      "score": 0.33226711105694223,
+      "created_at": "2025-12-01T17:38:52.936680-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.29487203349428165
+    },
+    {
+      "id": "af0bbc87-5efd-4834-824a-c90ffdd6abe4",
+      "memory": "Has been playing the piano a lot lately, especially since started taking guitar lessons and experimenting with different sounds",
+      "hash": "3bac31ee87d90dfb08a2bea7d26f62da",
+      "metadata": null,
+      "score": 0.4201479573503758,
+      "created_at": "2025-12-01T17:57:41.416226-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.24113261145631765
+    },
+    {
+      "id": "1b4ead2d-8b66-49cd-a68f-136e9ef725ee",
+      "memory": "Has been playing the black Fender Stratocaster electric guitar a lot lately",
+      "hash": "6e61e467cc60b47ed87675d77e3134e9",
+      "metadata": null,
+      "score": 0.3370262324903941,
+      "created_at": "2025-12-01T17:34:46.447999-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.23341206551260915
+    },
+    {
+      "id": "ca46372c-8763-4abe-82a8-cf462f312e7d",
+      "memory": "Considering getting a professional to take a look at the piano for a routine maintenance check",
+      "hash": "ad3d44df0a937ea510b44270009ccc75",
+      "metadata": null,
+      "score": 0.3176862320692039,
+      "created_at": "2025-12-01T17:57:41.432085-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.13022650832184593
+    },
+    {
+      "id": "1a0c5eb7-8be2-4e70-9285-6f82c3e71bac",
+      "memory": "Has a black Fender Stratocaster electric guitar",
+      "hash": "77107081633be4993828a591f6c40d84",
+      "metadata": null,
+      "score": 0.3269803106409289,
+      "created_at": "2025-12-01T17:34:46.408149-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.08101401642099479
+    },
+    {
+      "id": "3370e5b6-acfc-43da-8ca7-42f402a7be60",
+      "memory": "The Yamaha FG800 has been a great companion for songwriting and camping trips",
+      "hash": "d4cfcbf761b280895443d4a5f821521a",
+      "metadata": null,
+      "score": 0.3151399499451176,
+      "created_at": "2025-12-01T17:39:50.598238-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.07548470513987775
+    },
+    {
+      "id": "ef9518e6-d3d3-4940-b985-5bac8c8f4ec5",
+      "memory": "Has a board game collection of 27 games",
+      "hash": "4189336b6b0b5210153700fc606ec156",
+      "metadata": null,
+      "score": 0.31210007158484204,
+      "created_at": "2025-12-01T17:40:52.866978-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.015816984816418536
+    },
+    {
+      "id": "e9a755dc-9c70-47b8-98b1-d74a084383cd",
+      "memory": "Will start crafting a description for the drum set listing",
+      "hash": "19efcda2c313a7e20e0dd96334e56ddd",
+      "metadata": null,
+      "score": 0.401782903284049,
+      "created_at": "2025-12-01T17:36:47.012502-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.005852628336388977
+    },
+    {
+      "id": "428483f2-ffcd-47ee-8061-f87889e3ec38",
+      "memory": "Heard that some pedals are designed specifically for acoustic guitars",
+      "hash": "489f683f8b9c33133b3ff29deb1f44c5",
+      "metadata": null,
+      "score": 0.3335847535755666,
+      "created_at": "2025-12-01T17:39:50.643104-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.0019153341663373548
+    },
+    {
+      "id": "9d842255-aa07-4486-843b-92766b0159b9",
+      "memory": "Thinking of trying out some acoustic-specific pedals",
+      "hash": "f4d995b3501f529de9a5199ca9a4b8f8",
+      "metadata": null,
+      "score": 0.3825376521474456,
+      "created_at": "2025-12-01T17:39:50.627830-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.0010864042693103878
+    },
+    {
+      "id": "90dcdcab-c3dd-469c-a3c0-fc0ea85fa4ea",
+      "memory": "Now has some tips on taking good photos of the drum set",
+      "hash": "30ff56fc32cd39866bd21bdedef5cd8d",
+      "metadata": null,
+      "score": 0.31220637649102745,
+      "created_at": "2025-12-01T17:36:46.969244-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_109",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2508,
+    "load_time": 1819.0664
+  }
+}

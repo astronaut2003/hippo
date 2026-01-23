@@ -1,0 +1,242 @@
+{
+  "sample_idx": 102,
+  "question_id": "gpt4_31ff4165",
+  "question": "How many health-related devices do I use in a day?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T06:31:02.487356",
+  "load_result": {
+    "total_sessions": 42,
+    "added_sessions": 42,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "a30f20e8-e118-405a-bc3a-28619ac803be",
+      "memory": "Thinks 6,000 steps per day is a good starting point",
+      "hash": "bfc3297974b08cf71c53e5ad568a2837",
+      "metadata": null,
+      "score": 0.3757777116222829,
+      "created_at": "2025-12-01T14:44:43.121358-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.9999999981665513
+    },
+    {
+      "id": "aeaf0c6e-af75-453a-a84b-119e7854c472",
+      "memory": "Goal is 10,000 steps per day",
+      "hash": "70fa6c80361c7c46945677821369f668",
+      "metadata": null,
+      "score": 0.2969358016994608,
+      "created_at": "2025-12-01T14:36:06.301039-08:00",
+      "updated_at": "2025-12-01T14:46:20.638583-08:00",
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.9676134292883155
+    },
+    {
+      "id": "0e8de685-b020-4649-b49d-300f09472174",
+      "memory": "Considering increasing the frequency of nebulizer treatments to 3 times a day",
+      "hash": "abf9082d7ad510c7aa188fde4f00df55",
+      "metadata": null,
+      "score": 0.39777261265106156,
+      "created_at": "2025-12-01T14:54:51.225753-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.9589823322285368
+    },
+    {
+      "id": "0e1183f3-b6d1-4af3-b90b-995474179b4b",
+      "memory": "Has been trying to do at least one guided breathing session per day with Fitbit",
+      "hash": "a63af6794bbea541a4bb32181ec48b18",
+      "metadata": null,
+      "score": 0.40798025553453954,
+      "created_at": "2025-12-01T14:44:43.074355-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.9367275216512152
+    },
+    {
+      "id": "dd9bf31c-0e4a-458b-92bd-3a154a6a8463",
+      "memory": "Testing blood sugar levels three times a day with Accu-Chek Aviva Nano system",
+      "hash": "86ecf3aa12b8210207e71ccb5cc8811d",
+      "metadata": null,
+      "score": 0.37333373894027305,
+      "created_at": "2025-12-01T14:46:20.683969-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.9195197937101156
+    },
+    {
+      "id": "8e6c9d90-50c4-41bd-937f-fd478168c307",
+      "memory": "Wants to stay organized and on top of health-related tasks like tracking blood sugar levels, taking medication, and scheduling doctor's appointments",
+      "hash": "e1588c2875ec89be621db267990986e6",
+      "metadata": null,
+      "score": 0.432238201033659,
+      "created_at": "2025-12-01T14:46:20.824986-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.8785070236083671
+    },
+    {
+      "id": "3c56bc6a-a3fa-4c2a-ac7a-07a935ba3889",
+      "memory": "Will try to aim for 6,000 steps per day for the next week",
+      "hash": "0074e02cf74dda413d7815b004a5a262",
+      "metadata": null,
+      "score": 0.30807443829433656,
+      "created_at": "2025-12-01T14:44:43.138632-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.8624250757314739
+    },
+    {
+      "id": "ff008ee2-9445-43d3-b2b2-43f8bc601583",
+      "memory": "Uses a planner for health-related tasks but is open to other ideas",
+      "hash": "e91865328f17a46d61c673a79fc073d4",
+      "metadata": null,
+      "score": 0.34243014411652356,
+      "created_at": "2025-12-01T14:46:20.809756-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.841482174422109
+    },
+    {
+      "id": "97d4af94-0aab-4e8a-b39b-4c6ba669ffec",
+      "memory": "Wants to get back into the habit of doing at least 10,000 steps a day",
+      "hash": "304cdcd488e0c8392d66d8edf5622ae7",
+      "metadata": null,
+      "score": 0.30506486930954624,
+      "created_at": "2025-12-01T14:46:20.751738-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.7696529126474583
+    },
+    {
+      "id": "58279d11-4355-40cb-ae5e-17f1e76cbfa2",
+      "memory": "Been doing inhalation treatments twice a day with a nebulizer machine",
+      "hash": "3a96ad660fdc1c72d6f9f26a740bd765",
+      "metadata": null,
+      "score": 0.31233660790978174,
+      "created_at": "2025-12-01T14:54:51.167973-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.7415855204634875
+    },
+    {
+      "id": "d40694e4-04d3-4f38-b79d-80eca6bc09f2",
+      "memory": "Wonders about other health metrics to track in addition to sleep and steps",
+      "hash": "d46ec2243558c90a74aa853f9c84e365",
+      "metadata": null,
+      "score": 0.5041708395404922,
+      "created_at": "2025-12-01T14:36:06.686898-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.7378663459887339
+    },
+    {
+      "id": "6f0cbe36-1010-4bb7-8745-d563ee051cf8",
+      "memory": "Uses Fitbit Versa 3 to track activity levels and sleep patterns",
+      "hash": "51ffc929444d4089e799b222bc0ffb0a",
+      "metadata": null,
+      "score": 0.3333420504478064,
+      "created_at": "2025-12-01T14:46:20.733500-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.28284050423864937
+    },
+    {
+      "id": "b873b7ca-c276-4ec6-96b3-79c3438a4fbf",
+      "memory": "Wants tips on how to increase daily step count",
+      "hash": "b5ddb48e941582906a8d77f46a3398cb",
+      "metadata": null,
+      "score": 0.34373493434062924,
+      "created_at": "2025-12-01T14:44:43.057409-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.22358532365639902
+    },
+    {
+      "id": "d1a3cf9e-1753-46f5-9682-36409b10e9e3",
+      "memory": "Wants to track sleep patterns to see if it's affecting energy levels and daily step count",
+      "hash": "82ce827abac77250d1c3b89da4bea090",
+      "metadata": null,
+      "score": 0.33460550043593906,
+      "created_at": "2025-12-01T14:36:06.428128-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.16927248978454024
+    },
+    {
+      "id": "2e11f9ff-be18-4880-a352-bd55a62b3f32",
+      "memory": "Will try to aim for 7-8 hours of sleep per night and establish a consistent sleep schedule",
+      "hash": "dc026ac9f4edc2e19a39d6a55cc6124d",
+      "metadata": null,
+      "score": 0.3185710471710932,
+      "created_at": "2025-12-01T14:36:06.525432-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.14450445411552496
+    },
+    {
+      "id": "fdeb9564-b321-4523-ad1f-980f2385ff3b",
+      "memory": "Trying to create a better morning skincare routine",
+      "hash": "46064893f2ccfa765af366d0b362a841",
+      "metadata": null,
+      "score": 0.2897928296889249,
+      "created_at": "2025-12-01T14:54:10.465631-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.14234836279429666
+    },
+    {
+      "id": "b007565f-2568-4358-870a-5076c2feaa5f",
+      "memory": "Wonders about specific sleep metrics to focus on when reviewing Fitbit data",
+      "hash": "35c3fa8fedc22795e2ba22e75a4d3042",
+      "metadata": null,
+      "score": 0.30637516976532636,
+      "created_at": "2025-12-01T14:36:06.660175-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.12130483456453882
+    },
+    {
+      "id": "e2eb99e5-630b-4ea9-b447-417de1de93b1",
+      "memory": "Has been averaging around 6 hours and 30 minutes of sleep per night",
+      "hash": "3cf66e40a281564747c58df34a9201a7",
+      "metadata": null,
+      "score": 0.33356362030086295,
+      "created_at": "2025-12-01T14:36:06.498468-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.04168419907535304
+    },
+    {
+      "id": "8017d88b-6e2f-49e5-8e97-680b4afd5736",
+      "memory": "Will keep an eye on sleep data and adjust habits accordingly",
+      "hash": "1c062b8bcebc1d8dc0f1d4c4d414d808",
+      "metadata": null,
+      "score": 0.36451928277075096,
+      "created_at": "2025-12-01T14:36:06.610786-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.01668466029148037
+    },
+    {
+      "id": "45ff325b-ebc1-4091-83f4-4bd372af031b",
+      "memory": "Feels pretty confident about tracking sleep patterns and making adjustments to habits",
+      "hash": "067e3b546fb9c885e891b749ed2a13b2",
+      "metadata": null,
+      "score": 0.3004515288944194,
+      "created_at": "2025-12-01T14:36:06.636282-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_102",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3443,
+    "load_time": 1476.9892
+  }
+}

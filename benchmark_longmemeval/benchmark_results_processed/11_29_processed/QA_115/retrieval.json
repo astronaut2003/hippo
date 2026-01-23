@@ -1,0 +1,242 @@
+{
+  "sample_idx": 115,
+  "question_id": "gpt4_731e37d7",
+  "question": "How much total money did I spend on attending workshops in the last four months?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-06T23:51:32.120692",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "057f4214-3a27-46b8-9fcd-3e4da481734b",
+      "memory": "Has been active in attending workshops lately - attended five in the last three months",
+      "hash": "e4ff4a3a10457a7a48840be19f2ab399",
+      "metadata": null,
+      "score": 0.6354913255240767,
+      "created_at": "2025-12-06T08:06:55.642553-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.9999999987865632
+    },
+    {
+      "id": "7584ac04-aeb6-4237-b621-a04d39898762",
+      "memory": "Attended five workshops in the last three months, finding them helpful for business",
+      "hash": "173628b3bbf2a37ecaaf383e6bc5cb9e",
+      "metadata": null,
+      "score": 0.6777455703732101,
+      "created_at": "2025-12-06T08:06:55.848027-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.7836264802082493
+    },
+    {
+      "id": "a77b9f20-0916-4c7a-810b-fd0fe532213c",
+      "memory": "Paid $500 to attend the digital marketing workshop",
+      "hash": "b2eec49e3debad6c29833168e9c5673d",
+      "metadata": null,
+      "score": 0.5581652934874337,
+      "created_at": "2025-12-06T08:04:36.905508-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.7476498519981107
+    },
+    {
+      "id": "bf173013-9a73-482f-ba8b-9c229c584278",
+      "memory": "Most recent workshop was a digital marketing workshop",
+      "hash": "4db85fb555700db4a719d3becbb71ae4",
+      "metadata": null,
+      "score": 0.3214756213927733,
+      "created_at": "2025-12-06T08:06:55.862618-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.4859401982722363
+    },
+    {
+      "id": "e54d052c-49d7-45e8-8d79-024e596aa701",
+      "memory": "Trying to attend at least one workshop a month to learn new skills and network with people in different industries",
+      "hash": "20e80c4d92f5ffa6e77cf21e7ee5afe8",
+      "metadata": null,
+      "score": 0.5712865966366151,
+      "created_at": "2025-12-06T08:06:55.886587-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.4376945142532241
+    },
+    {
+      "id": "b4630c13-788f-4b33-86e2-693703bb39a5",
+      "memory": "Attended a digital marketing workshop at the city convention center on March 15-16",
+      "hash": "f2ffd13fc5477e5ac5c81aeb6f368f35",
+      "metadata": null,
+      "score": 0.3425985880206876,
+      "created_at": "2025-12-06T08:04:36.873871-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.24333294652545637
+    },
+    {
+      "id": "2684cf07-1459-400a-826c-a83ed0642bcf",
+      "memory": "Set a daily budget of $20",
+      "hash": "884ce99a85a951eb4bec15ae406a94e3",
+      "metadata": null,
+      "score": 0.3961520190167719,
+      "created_at": "2025-12-06T08:06:55.702806-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.19475629662109661
+    },
+    {
+      "id": "f216e947-586b-4278-8582-45a74d3b7740",
+      "memory": "Wants to know about local meetups or workshops on data visualization to attend",
+      "hash": "e4f84332ead7830db3304c8967e91d01",
+      "metadata": null,
+      "score": 0.40896758946289236,
+      "created_at": "2025-12-06T07:58:05.989523-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.04400839490786286
+    },
+    {
+      "id": "597b6de4-596c-462e-8dce-b72c7492a02b",
+      "memory": "Learned a lot from the digital marketing workshop instructor",
+      "hash": "be6e0ec2f7f51c72b3a2d85b3d5f2088",
+      "metadata": null,
+      "score": 0.36624598524612045,
+      "created_at": "2025-12-06T08:04:36.977316-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.03979853199070913
+    },
+    {
+      "id": "9a31bb73-8e49-4e9a-957c-4f7d91786ea9",
+      "memory": "Trying to implement techniques learned from the digital marketing workshop",
+      "hash": "491fda35a30e420bbdb97ecbab55e513",
+      "metadata": null,
+      "score": 0.2342497064247938,
+      "created_at": "2025-12-06T08:06:55.874298-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.03961812086649344
+    },
+    {
+      "id": "9a329773-7411-43a1-bc1b-5c724a7e6611",
+      "memory": "Learned from workshop that it's important to have a clear target audience",
+      "hash": "76e8169ca455bcd0405b0da33a760729",
+      "metadata": null,
+      "score": 0.31002150096846326,
+      "created_at": "2025-12-06T08:06:55.752252-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.011818838054697146
+    },
+    {
+      "id": "8b02a79a-3915-4613-b8ce-82278cecb54f",
+      "memory": "Wants to know what kind of resources and information can be found there",
+      "hash": "ba2ed097ac9e43bce571d0e35740abf1",
+      "metadata": null,
+      "score": 0.2570726354429256,
+      "created_at": "2025-12-06T07:58:06.124961-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.0032092118644961986
+    },
+    {
+      "id": "3d441838-abc5-4168-a206-1846b5ee9412",
+      "memory": "Is really excited to try out yoga classes",
+      "hash": "f3bb2d5fe08e4baba8cf9240a9f5aef2",
+      "metadata": null,
+      "score": 0.2247988213095562,
+      "created_at": "2025-12-06T07:57:02.664902-08:00",
+      "updated_at": "2025-12-06T08:07:32.766591-08:00",
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.003046159090910624
+    },
+    {
+      "id": "17bd4ba6-4ee0-478a-9a7f-5f3619bf7a5b",
+      "memory": "The instructor at the digital marketing workshop was a well-known industry expert",
+      "hash": "892668b0cfac66960b4c492fcaf525e4",
+      "metadata": null,
+      "score": 0.30467726884892843,
+      "created_at": "2025-12-06T08:04:36.960747-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.0030340082454695418
+    },
+    {
+      "id": "92d9c98f-7a2c-43d2-afc0-a4af409f9d0e",
+      "memory": "Thinking of investing in a virtual reality gaming setup",
+      "hash": "8b9d165fc9bcf9142c5b31b53f62e57c",
+      "metadata": null,
+      "score": 0.3070527907069624,
+      "created_at": "2025-12-06T07:55:28.941417-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.0016709148316551496
+    },
+    {
+      "id": "c8f1cbf5-b327-4b90-90d1-1f8672350589",
+      "memory": "Wants to know what kind of equipment or software universities usually provide for extracurricular activities",
+      "hash": "131c513fdf1de50c303ca80775331446",
+      "metadata": null,
+      "score": 0.2877752397039333,
+      "created_at": "2025-12-06T07:52:54.160337-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.0013037278546593888
+    },
+    {
+      "id": "e07b8a96-f122-44b9-b5d6-711c940b9adc",
+      "memory": "Might start collecting watches more seriously one day",
+      "hash": "f323b3f848773c614ebe205aaa1db44f",
+      "metadata": null,
+      "score": 0.22660739602514296,
+      "created_at": "2025-12-06T07:52:22.811127-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.0005550043308136365
+    },
+    {
+      "id": "117e8684-0bb4-495f-bf73-629176a8f6f2",
+      "memory": "Looking to get an Indian Head penny graded and certified",
+      "hash": "330c694a62526564d23f1dc230d91a7a",
+      "metadata": null,
+      "score": 0.2368850128597753,
+      "created_at": "2025-12-06T07:52:22.677378-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.0005379931471961209
+    },
+    {
+      "id": "b7ce0920-8c96-4513-96ed-8953603a3339",
+      "memory": "Bought the black leather boots about 2 months prior to the last dinner party, on November 20th, during the Black Friday sale, and they were 15% off",
+      "hash": "1184876d4d73b69ccc284ea585cda384",
+      "metadata": null,
+      "score": 0.23794424146945903,
+      "created_at": "2025-12-06T08:16:28.644450-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.00018851168784308047
+    },
+    {
+      "id": "42dc5ebe-e89b-48ee-b2a2-73a064a2d96c",
+      "memory": "Wore black leather boots to a similar event at a friend's place on January 10th and got a lot of compliments",
+      "hash": "15116cec25422093a3440cfb44e7f1b8",
+      "metadata": null,
+      "score": 0.2188058495914923,
+      "created_at": "2025-12-06T08:16:28.605379-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_115",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1968,
+    "load_time": 1563.3871
+  }
+}

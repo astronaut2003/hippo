@@ -1,0 +1,242 @@
+{
+  "sample_idx": 132,
+  "question_id": "8a2466db",
+  "question": "Can you recommend some resources where I can learn more about video editing?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T06:25:11.002493",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "f5c153d5-69e2-497f-b40a-f9f4e5b64b81",
+      "memory": "Trying to learn more about advanced settings for video editing with Adobe Premiere Pro",
+      "hash": "c655bf6cde2a8460c11d05e9d7cc415c",
+      "metadata": null,
+      "score": 0.5778389777715652,
+      "created_at": "2025-12-06T14:30:06.126032-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.9999999988774552
+    },
+    {
+      "id": "87e95d59-31b7-48c1-abb6-1504931dc049",
+      "memory": "Wants to know best practices or general guidelines for color grading a video, such as whether to always start with a neutral grade",
+      "hash": "40d4111d0c3a8c4d34bcb9a569d89a1e",
+      "metadata": null,
+      "score": 0.3380078890079902,
+      "created_at": "2025-12-06T14:30:06.991833-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.24619331264672858
+    },
+    {
+      "id": "7d67656a-c9e2-4782-9585-a35759c1c7e6",
+      "memory": "Wants tips or resources for songwriting and lyric writing",
+      "hash": "dba9de48bb94e6f22be757144c9da07c",
+      "metadata": null,
+      "score": 0.35586372184509457,
+      "created_at": "2025-12-06T14:36:26.019884-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.2146151045512381
+    },
+    {
+      "id": "9f1eee46-e347-470f-bd58-52e5e4642d00",
+      "memory": "Wants tips on how to use the Curves panel to create a cinematic look for videos",
+      "hash": "a9cdfab51763053fa1d01dca738d718e",
+      "metadata": null,
+      "score": 0.4428823266752149,
+      "created_at": "2025-12-06T14:30:06.195004-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.0902541915526967
+    },
+    {
+      "id": "89fa7ab6-14ab-45f7-8d1a-5b6788a73b64",
+      "memory": "Wants tips on how to use the Creative panel and the Curves panel together to create a cohesive look for video",
+      "hash": "e9b45d32472d58b34648337705ee8850",
+      "metadata": null,
+      "score": 0.3873031095974852,
+      "created_at": "2025-12-06T14:30:06.929280-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.07168617436093626
+    },
+    {
+      "id": "cc7dab2b-89cd-49ec-ade6-479637ffb0d2",
+      "memory": "Wants to learn new chord progressions",
+      "hash": "2152a6cee82a622af46ddaae402fbb39",
+      "metadata": null,
+      "score": 0.2806087371899335,
+      "created_at": "2025-12-06T14:27:07.971082-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.05738105575129637
+    },
+    {
+      "id": "7d47574d-0fa3-41d9-a64a-66a75f68793c",
+      "memory": "Interested in learning how to work with available light to create flattering portraits",
+      "hash": "56bb34f334583cb69d6d1d8170b3cc56",
+      "metadata": null,
+      "score": 0.2828694630601707,
+      "created_at": "2025-12-06T14:29:19.254308-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.01704549223859825
+    },
+    {
+      "id": "db7460c3-6e14-4fe6-bfa1-d1123b7de4cd",
+      "memory": "Interested in learning more about the early photographic processes, like daguerreotypy and calotypy",
+      "hash": "89a865dcddacba1e0690b00c4112ec71",
+      "metadata": null,
+      "score": 0.3513845800714655,
+      "created_at": "2025-12-06T14:25:31.589227-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.016584409762626547
+    },
+    {
+      "id": "de75915d-3f29-4573-8a06-03b8fa5333da",
+      "memory": "Looking to learn more about photography, especially with antique cameras",
+      "hash": "0dadbdac121d98ef8135ed30933a8c39",
+      "metadata": null,
+      "score": 0.36377632842034885,
+      "created_at": "2025-12-06T14:25:31.453783-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.01502173948128014
+    },
+    {
+      "id": "a3da2330-58b3-4ecc-8ab9-674f6dda7561",
+      "memory": "Wants tips or resources for a beginner guitar player",
+      "hash": "62e92ebad4d54ad2f070240995609b92",
+      "metadata": null,
+      "score": 0.3645060635042228,
+      "created_at": "2025-12-06T14:36:25.890801-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.013232328386349322
+    },
+    {
+      "id": "8efd1e39-f38f-4ed6-99a5-c84f98dfbb55",
+      "memory": "Enjoys using Adobe Premiere Pro",
+      "hash": "958d3335dd20965587342589c5970f11",
+      "metadata": null,
+      "score": 0.424336640938614,
+      "created_at": "2025-12-06T14:30:06.142908-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.008728129618289539
+    },
+    {
+      "id": "71fcdb7b-48dd-43e3-a89e-64daf74c009d",
+      "memory": "Particularly interested in learning more about the pioneers of photography, like Daguerre and Talbot",
+      "hash": "6e89498c89737e850cb506c0ad0db37b",
+      "metadata": null,
+      "score": 0.34445750590372043,
+      "created_at": "2025-12-06T14:25:31.573796-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.0038511680962633127
+    },
+    {
+      "id": "289f5f46-6739-47c0-92f7-9b2047b5f553",
+      "memory": "Learned about portrait photography at the workshop",
+      "hash": "558136ce5a67326f1a88a88b8fd48ae2",
+      "metadata": null,
+      "score": 0.29428077081238274,
+      "created_at": "2025-12-06T14:29:19.206653-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.002712111317916683
+    },
+    {
+      "id": "d030f08b-b22e-40b2-abeb-cd3a312597a7",
+      "memory": "Wants to learn more about ISO settings and how they affect photos",
+      "hash": "5e4bcedd24a5d3b1949bfb9120f7d385",
+      "metadata": null,
+      "score": 0.32713596287877017,
+      "created_at": "2025-12-06T14:29:19.084891-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.0024800177939077084
+    },
+    {
+      "id": "26266cb5-2707-4508-9523-f2f4c7991b47",
+      "memory": "Recently attended a photography workshop in San Francisco",
+      "hash": "dfa85b29d54bfe455dfda137303e2a8b",
+      "metadata": null,
+      "score": 0.30864182178682753,
+      "created_at": "2025-12-06T14:29:19.165662-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.0017727106384061878
+    },
+    {
+      "id": "6daacdc4-f946-47f9-b40d-55b908fd6791",
+      "memory": "Would like to learn more about the artistic and aesthetic aspects of early photography",
+      "hash": "e91f674b7a4974859f2ff835bed81c5d",
+      "metadata": null,
+      "score": 0.35505364328005373,
+      "created_at": "2025-12-06T14:25:31.602763-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.0014391297247475319
+    },
+    {
+      "id": "d5560387-51ec-445e-9180-5b6822feffc2",
+      "memory": "Interested in learning more about the history of cameras, especially the ones in collection",
+      "hash": "75ae3d0d1f74deb3a5fada03ec52f4ec",
+      "metadata": null,
+      "score": 0.35567016521632133,
+      "created_at": "2025-12-06T14:25:31.517458-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.0011713871493109792
+    },
+    {
+      "id": "1aa7c261-3762-491c-8f68-4a6e8086f97b",
+      "memory": "Interested in learning more about the history of photography, especially the early days",
+      "hash": "18c4a895f847f47132c052dc0ceb3a44",
+      "metadata": null,
+      "score": 0.3174817826996582,
+      "created_at": "2025-12-06T14:25:31.559493-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.0008896204725620762
+    },
+    {
+      "id": "69df09af-f8d2-40fa-bb66-48f50a841448",
+      "memory": "Wants to know the difference between the Lumetri Color Panel and the Legacy Color Grading tools in Premiere Pro",
+      "hash": "e2f876da271f2e2bae2cb3eb962019b2",
+      "metadata": null,
+      "score": 0.26896031630006084,
+      "created_at": "2025-12-06T14:30:06.943104-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.00011561854517052254
+    },
+    {
+      "id": "ba112169-6653-44cd-a5aa-8f88efe017d7",
+      "memory": "Wants to learn more about different plant species and their specific care requirements",
+      "hash": "245e5942e1f8a55e75c90ea6383e5208",
+      "metadata": null,
+      "score": 0.31294323763003234,
+      "created_at": "2025-12-06T14:37:12.149905-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_132",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2132,
+    "load_time": 1383.9496
+  }
+}

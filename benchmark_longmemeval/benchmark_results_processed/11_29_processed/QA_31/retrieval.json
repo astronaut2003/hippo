@@ -1,0 +1,242 @@
+{
+  "sample_idx": 31,
+  "question_id": "d52b4f67",
+  "question": "Where did I attend my cousin's wedding?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T11:05:51.122503",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 52,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "028190b5-9b65-4345-b511-74a4046c276e",
+      "memory": "Attended cousin's wedding at the Grand Ballroom last weekend",
+      "hash": "3473f203a53d97eeed050d9dda9bad1e",
+      "metadata": null,
+      "score": 0.7729756600795008,
+      "created_at": "2025-11-28T19:25:18.975538-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.9999999993358498
+    },
+    {
+      "id": "9e437923-c2eb-4563-aac9-ff03454b5663",
+      "memory": "Went to a wedding expo with Emily a few weeks ago",
+      "hash": "4fa3f8c6e822e4e429bf62c32c817839",
+      "metadata": null,
+      "score": 0.6172739758051996,
+      "created_at": "2025-11-28T19:25:19.014594-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.2035812988039131
+    },
+    {
+      "id": "82428e78-56a3-4924-9dc2-59434674aedb",
+      "memory": "Had a great time trying out different products and talking to vendors at the wedding expo",
+      "hash": "c38cd878354cb691a4f77bd6666f56c2",
+      "metadata": null,
+      "score": 0.38883764025303513,
+      "created_at": "2025-11-28T19:25:19.033573-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.10033969585129525
+    },
+    {
+      "id": "96e8c542-408b-42a9-8602-b54fda8db792",
+      "memory": "Been to a lot of great concerts lately, like the Billie Eilish show in Philly",
+      "hash": "feb46ece5feb68410391c233be9b960c",
+      "metadata": null,
+      "score": 0.23270758020893595,
+      "created_at": "2025-11-28T19:28:40.069643-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.07842015044222826
+    },
+    {
+      "id": "bcfaa038-9a24-436b-8e11-fd3ef18dc1b9",
+      "memory": "Family loved their last trip to LA",
+      "hash": "49767adb27d1ee2488b97d8e7f1c511e",
+      "metadata": null,
+      "score": 0.34046164971023013,
+      "created_at": "2025-11-28T19:27:34.858338-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.07605288184802685
+    },
+    {
+      "id": "0ba5cc25-b38e-452a-a9ff-f2b12cab180a",
+      "memory": "Really enjoyed some smaller local music nights, like a jazz night at a local bar today",
+      "hash": "53f74be98816fdbcd4a62e8e0b1cdef7",
+      "metadata": null,
+      "score": 0.24082100120208683,
+      "created_at": "2025-11-28T19:28:40.099065-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.039341312158296345
+    },
+    {
+      "id": "dc01921a-926f-4404-839e-53dfb9481239",
+      "memory": "Had a great time at the jazz night at the local bar today",
+      "hash": "466135eda999de5615660816b1ff880a",
+      "metadata": null,
+      "score": 0.26887195709047235,
+      "created_at": "2025-11-28T19:28:40.147453-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.023740774603920965
+    },
+    {
+      "id": "31c5a73c-62a7-4d54-b9ae-daea9a202aac",
+      "memory": "Had an amazing time hiking to Vernal Falls and Mirror Lake in Yosemite",
+      "hash": "07bcc9baded765242a53de3ebff5ddfe",
+      "metadata": null,
+      "score": 0.23641277744196665,
+      "created_at": "2025-11-28T19:10:08.117976-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.016992143127170015
+    },
+    {
+      "id": "01aa01b6-2269-4fed-841c-00472ff7e24f",
+      "memory": "Planning a dinner party this weekend",
+      "hash": "0ca99882273f552c90fa505884d04e04",
+      "metadata": null,
+      "score": 0.2955489002818066,
+      "created_at": "2025-11-28T19:13:40.531559-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.005938408069205143
+    },
+    {
+      "id": "e372c938-82ac-4371-8b18-6f03806d8b62",
+      "memory": "Would love to check out some outdoor jazz events",
+      "hash": "6063f0e2f9e628ef13c0a7bc391a1229",
+      "metadata": null,
+      "score": 0.23910622072562082,
+      "created_at": "2025-11-28T19:28:40.163354-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.004685006645508773
+    },
+    {
+      "id": "e1d037fe-0796-4c60-b99a-02e4f845fbd6",
+      "memory": "Will consider partnering with influencers and ambassadors to promote the event and share their own experiences",
+      "hash": "16c76f3dca5e7952b341989d579f9e9b",
+      "metadata": null,
+      "score": 0.2593680585879008,
+      "created_at": "2025-11-28T19:18:36.411065-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.003318863065352777
+    },
+    {
+      "id": "51d7da41-d794-4b1a-b8cf-c859472a9b3c",
+      "memory": "Got back from a 5-day camping trip to Yosemite National Park with friends Rachel and Mike about three weeks ago",
+      "hash": "f0af8c99c82169c8dfee23eedf7031b3",
+      "metadata": null,
+      "score": 0.290143864884615,
+      "created_at": "2025-11-28T19:10:08.068554-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.0023982410180827408
+    },
+    {
+      "id": "288081cb-28d3-4b36-87d5-3834e24d1841",
+      "memory": "Excited to check out some outdoor jazz concerts this summer",
+      "hash": "084ab32fae905162de4a4e54e63c6d69",
+      "metadata": null,
+      "score": 0.2603350093771854,
+      "created_at": "2025-11-28T19:28:40.179049-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.0008999737646824865
+    },
+    {
+      "id": "eeab6fa3-47c1-46a3-9734-541d5fbd2c05",
+      "memory": "Planning to reach out to colleagues from work who participated in the Walk for Hunger event",
+      "hash": "acd28e0acd2fbcf1104edb771e0c6ab0",
+      "metadata": null,
+      "score": 0.23265804284778843,
+      "created_at": "2025-11-28T19:18:36.220330-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.0008724216084690385
+    },
+    {
+      "id": "444c7b91-abda-4d8f-9d72-41637a0b0741",
+      "memory": "Mom's birthday is on the 15th of next month",
+      "hash": "1895a4f68d97f8ca97143281967f035a",
+      "metadata": null,
+      "score": 0.3157580232504579,
+      "created_at": "2025-11-28T19:25:18.866917-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.0008326451622574401
+    },
+    {
+      "id": "7862a4a5-1b99-4135-b81a-1c437ad16f82",
+      "memory": "Budget for mom's gift is around $100",
+      "hash": "3b5574cf036d319d21cb8dda2f24110d",
+      "metadata": null,
+      "score": 0.24191098874699707,
+      "created_at": "2025-11-28T19:25:18.956785-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.0006298992955005508
+    },
+    {
+      "id": "e5c19429-432a-4e6b-8b95-2451b2ab8b1c",
+      "memory": "Met a tourist named Anna who was attending a conference for her work in sustainable energy",
+      "hash": "1754ab03d89e88aed44470eaf0165945",
+      "metadata": null,
+      "score": 0.23270140726509014,
+      "created_at": "2025-11-28T19:10:50.627190-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.0004887815850555808
+    },
+    {
+      "id": "4deb759c-de79-46b8-84b8-d7a967b8a9da",
+      "memory": "Decided to give the ceramic sculpture to sister as a gift",
+      "hash": "a8330af26f70f282ee7a122a8c252e4b",
+      "metadata": null,
+      "score": 0.2668248847380601,
+      "created_at": "2025-11-28T19:14:12.252270-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.00021636359913824855
+    },
+    {
+      "id": "7a441521-2884-4cba-a2ef-ce207b590c63",
+      "memory": "Thinking of giving the ceramic sculpture of a mini-garden to sister as a birthday gift",
+      "hash": "054372bdc1e99329d3e5c2a42d10c45a",
+      "metadata": null,
+      "score": 0.252139176968194,
+      "created_at": "2025-11-28T19:14:12.234983-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.0001330737475964462
+    },
+    {
+      "id": "8e89c804-07a0-4090-b322-ddee9cae8c63",
+      "memory": "Planning to participate in another charity event soon",
+      "hash": "7eb9ad924aa2674f8ed600586ac2119a",
+      "metadata": null,
+      "score": 0.24991878027287762,
+      "created_at": "2025-11-28T19:18:36.147211-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_31",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4319,
+    "load_time": 1369.1763
+  }
+}

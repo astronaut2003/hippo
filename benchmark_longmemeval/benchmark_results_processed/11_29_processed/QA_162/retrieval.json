@@ -1,0 +1,242 @@
+{
+  "sample_idx": 162,
+  "question_id": "d3ab962e",
+  "question": "What is the total distance of the hikes I did on two consecutive weekends?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T12:07:16.585721",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "327bf8d9-9d7d-436e-ae48-04037cae2edb",
+      "memory": "Got back from an amazing 5-mile hike at Red Rock Canyon two weekends ago",
+      "hash": "529f994f3a324847c4878842685df6c9",
+      "metadata": null,
+      "score": 0.5950642710925714,
+      "created_at": "2025-12-07T20:10:16.700822-08:00",
+      "updated_at": "2025-12-07T20:24:43.981803-08:00",
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.9999999988460674
+    },
+    {
+      "id": "a9fdf250-c5b6-4353-a630-19cfd7df6d62",
+      "memory": "Has been doing a lot of hiking lately and recently completed a week-long backpacking trip through the John Muir Trail in the Sierra Nevada mountains with brother",
+      "hash": "7e23d2924d53f0a0506846fc39a98640",
+      "metadata": null,
+      "score": 0.42668843988035227,
+      "created_at": "2025-12-07T20:10:16.685467-08:00",
+      "updated_at": "2025-12-07T20:20:26.242807-08:00",
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.2695319458688884
+    },
+    {
+      "id": "be39f2cb-f176-4758-92d4-fa09ee86f2ab",
+      "memory": "Wondering if that's a doable itinerary or should consider adding more time to the trip",
+      "hash": "d6b8de3895e40034b15742a4d1bd6503",
+      "metadata": null,
+      "score": 0.4302914854505028,
+      "created_at": "2025-12-07T20:10:16.908524-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.14737164817267875
+    },
+    {
+      "id": "ac3024c0-5a10-4740-b753-2d91830fc2fc",
+      "memory": "Considering adding them to road trip itinerary",
+      "hash": "26e29260a4fe3592586fcb8e692c58cd",
+      "metadata": null,
+      "score": 0.38539516584088535,
+      "created_at": "2025-12-07T20:10:16.878029-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.1435263656115195
+    },
+    {
+      "id": "bc018f89-a2a3-4653-b5db-75bcbc1e61ed",
+      "memory": "Asks if starting at a lower elevation and climbing gradually is possible and if breaking the route into shorter sections with more leisurely days is possible",
+      "hash": "1da342f75f5a4c1def4f73d3475a5356",
+      "metadata": null,
+      "score": 0.5036765846846543,
+      "created_at": "2025-12-07T20:20:26.520716-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.0571869955893866
+    },
+    {
+      "id": "d602d1e0-0141-4564-8a8e-a2e2bdda4ac4",
+      "memory": "Has been commuting by bike three times a week",
+      "hash": "9499fd1658b738616fcb9c8cd6832837",
+      "metadata": null,
+      "score": 0.40071030354406356,
+      "created_at": "2025-12-07T20:10:16.785202-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.055346559851511615
+    },
+    {
+      "id": "8aa98b0a-fc9f-4054-b717-a45d3c9f3c16",
+      "memory": "Thinking of driving up to Monument Valley and Four Corners too",
+      "hash": "591696695cfa98ba0f18c86fb1698b4e",
+      "metadata": null,
+      "score": 0.2792813645040273,
+      "created_at": "2025-12-07T20:10:16.893736-08:00",
+      "updated_at": "2025-12-07T20:24:43.965570-08:00",
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.03745172277091777
+    },
+    {
+      "id": "e233ede0-8d7c-4141-a8df-3f9d63c4c47d",
+      "memory": "Loved hiking the John Muir Trail with brother and wants to explore the area on two wheels",
+      "hash": "b8f676b3bb2f6e5fef225753ff6f1332",
+      "metadata": null,
+      "score": 0.3451875435006042,
+      "created_at": "2025-12-07T20:20:26.441771-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.013059896627141469
+    },
+    {
+      "id": "f7f4625d-8cb0-4ae9-9d86-ffe47e754e5a",
+      "memory": "Planning another outdoor adventure and needs guidance on the best routes for a multi-day bike trip in California",
+      "hash": "2b23a715d5add85c67cc537744f2e84f",
+      "metadata": null,
+      "score": 0.4368225916852413,
+      "created_at": "2025-12-07T20:20:26.400853-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.011177862903801478
+    },
+    {
+      "id": "dd9c2f0d-fac7-472c-9134-f0d49db97b16",
+      "memory": "Hasn't had a chance to research accommodations yet and would love recommendations on camping options or lodges along the route",
+      "hash": "f84d9e7a2e8495868c0c8abcf1df4245",
+      "metadata": null,
+      "score": 0.27685137209384086,
+      "created_at": "2025-12-07T20:20:26.649424-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.005074624083988831
+    },
+    {
+      "id": "3eb0440f-7b1f-4d5d-90e7-becd9e691b76",
+      "memory": "Still planning the road trip to the Grand Canyon in January",
+      "hash": "158e3297993b2639098a91404818de45",
+      "metadata": null,
+      "score": 0.3165927764490481,
+      "created_at": "2025-12-07T20:24:44.181351-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.0025019317448330422
+    },
+    {
+      "id": "550c7ea9-14f2-43d5-989a-274d0be79cb3",
+      "memory": "Planning a road trip to the Grand Canyon in January",
+      "hash": "da83e17a72d43938bd609ed3ef9a0dce",
+      "metadata": null,
+      "score": 0.29935345654699075,
+      "created_at": "2025-12-07T20:10:16.837543-08:00",
+      "updated_at": "2025-12-07T20:24:43.942884-08:00",
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.0016664505129538932
+    },
+    {
+      "id": "9ccd5d96-ab69-4dd7-abc0-8b373fc84946",
+      "memory": "Open to both camping and staying in lodges, depending on availability and convenience, and wants suggestions for each night of the trip",
+      "hash": "5a0b22f2a5b3f0755c3c575d5dbd795a",
+      "metadata": null,
+      "score": 0.28460729450076816,
+      "created_at": "2025-12-07T20:20:26.676667-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.0010716433398365588
+    },
+    {
+      "id": "1d02c9bf-7e97-450d-9a7e-9113739d1f3c",
+      "memory": "Interested in exploring California on two wheels and is really interested in the Sierra Nevada Mountain Routes for biking",
+      "hash": "924fc9df552f55f0f4227e28691ef31e",
+      "metadata": null,
+      "score": 0.27128559022018195,
+      "created_at": "2025-12-07T20:20:26.425359-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.0007904717714156914
+    },
+    {
+      "id": "a78cd61f-b7c9-4469-aeb5-895c63faa64a",
+      "memory": "Stopped by a coffee shop on the way to work last week",
+      "hash": "564a78290be69ef05cff930a0faf2df0",
+      "metadata": null,
+      "score": 0.2687629572053505,
+      "created_at": "2025-12-07T20:15:31.958341-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.0007859598206112861
+    },
+    {
+      "id": "b4d27969-4eef-445c-a08e-b0faadccd294",
+      "memory": "Is definitely going to suggest planning a walking group with colleagues",
+      "hash": "c909690a4829fea0df8cad7a9b52ac43",
+      "metadata": null,
+      "score": 0.26958029740540823,
+      "created_at": "2025-12-07T20:12:02.336565-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.0006410271569673399
+    },
+    {
+      "id": "1786f16b-c64f-42cc-a216-e14ef57c9fb8",
+      "memory": "Wants general tips on how to plan a road trip, especially for mapping out routes and booking accommodations",
+      "hash": "37e445e5458960dff083635b7239117d",
+      "metadata": null,
+      "score": 0.34818890697916627,
+      "created_at": "2025-12-07T20:10:16.818179-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.0005303192908885168
+    },
+    {
+      "id": "3a277949-be6f-4227-9823-009126adc900",
+      "memory": "Will definitely consider renting an e-bike for the trip and renting an e-bike will be a new experience",
+      "hash": "99535970837864174c6e88c4dbb28c39",
+      "metadata": null,
+      "score": 0.24202450139526005,
+      "created_at": "2025-12-07T20:20:26.603575-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.00046120941027469895
+    },
+    {
+      "id": "7701923a-85c5-47d1-9b91-29d204d51ce3",
+      "memory": "Thinks breaking the route into shorter sections will help make the ride more manageable",
+      "hash": "cf4fa9113fd70e36ac75e8348900418f",
+      "metadata": null,
+      "score": 0.2766801802035556,
+      "created_at": "2025-12-07T20:20:26.537816-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.00025960224262419824
+    },
+    {
+      "id": "903b4de9-7774-4b25-aab6-99210525fdbc",
+      "memory": "Concerned about the e-bike's battery life, wants to know how often the bike will need to be charged, and wants to know if there are charging stations along the route",
+      "hash": "c5e714586a3ec5ab9ca5227a3454c69f",
+      "metadata": null,
+      "score": 0.3449789706044076,
+      "created_at": "2025-12-07T20:20:26.628889-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_162",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5534,
+    "load_time": 1382.1767
+  }
+}

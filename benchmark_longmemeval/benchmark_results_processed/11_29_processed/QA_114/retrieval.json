@@ -1,0 +1,242 @@
+{
+  "sample_idx": 114,
+  "question_id": "gpt4_e05b82a6",
+  "question": "How many times did I ride rollercoasters across all the events I attended from July to October?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-06T23:23:13.776613",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "7865853c-ec41-49a1-8b89-5e89d42d6aa7",
+      "memory": "Rode the Revenge of the Mummy rollercoaster three times in a row at Universal Studios Hollywood on October 15th",
+      "hash": "ac341766e54d1f14119c9bac30f61f6f",
+      "metadata": null,
+      "score": 0.6160486419689539,
+      "created_at": "2025-12-06T07:23:38.859787-08:00",
+      "updated_at": "2025-12-06T07:33:30.649167-08:00",
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.999999998823753
+    },
+    {
+      "id": "2162c8f7-8f24-431f-a0fb-31cbd085df28",
+      "memory": "Rode the Mako, Kraken, and Manta rollercoasters all in one night at SeaWorld San Diego in July",
+      "hash": "be23cfbe9447c956cf80bc80ba3985db",
+      "metadata": null,
+      "score": 0.6061991526437076,
+      "created_at": "2025-12-06T07:49:37.527468-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.7725768901679217
+    },
+    {
+      "id": "dcb867a8-b46b-4ec6-b5a4-5c61e0e33aa0",
+      "memory": "Rode Space Mountain: Ghost Galaxy three times at Disneyland on September 24th during Mickey's Halloween Party",
+      "hash": "af46d56439b01acc0a9a6d561d63fb3c",
+      "metadata": null,
+      "score": 0.4189115799350625,
+      "created_at": "2025-12-06T07:45:48.184356-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.5367101524200253
+    },
+    {
+      "id": "e4339726-083d-4a32-acec-76934dd83c10",
+      "memory": "Rode the Xcelerator rollercoaster at Knott's Berry Farm on October 8th",
+      "hash": "01ba083bfc5014c2169ed11f8c461379",
+      "metadata": null,
+      "score": 0.5928659102401672,
+      "created_at": "2025-12-06T07:33:31.417785-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.4529727157701611
+    },
+    {
+      "id": "dd49a9aa-3b67-470c-a827-e4aa732529e8",
+      "memory": "Is a huge rollercoaster fan",
+      "hash": "03ae012e0de58abc7ecc9754bd69001c",
+      "metadata": null,
+      "score": 0.5237548900275262,
+      "created_at": "2025-12-06T07:49:37.513678-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.42741736502753785
+    },
+    {
+      "id": "e04dd243-9726-4596-8f39-59343f0fabc5",
+      "memory": "Wants tips on which rides to prioritize during Knott's Spooky Farm event",
+      "hash": "e771327bf72265611d16a53fa6dcb27f",
+      "metadata": null,
+      "score": 0.34439924448870063,
+      "created_at": "2025-12-06T07:33:31.397514-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.15607827643056205
+    },
+    {
+      "id": "b811254e-e837-4487-b6af-7386a1143102",
+      "memory": "Wants to know more about the \"Frightfully Fun Parade\" and \"Mickey's Trick & Treat\" stage show",
+      "hash": "abdd22a95bb8646030c522e532cfcce1",
+      "metadata": null,
+      "score": 0.2688503347244115,
+      "created_at": "2025-12-06T07:45:48.301642-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.1029414584382593
+    },
+    {
+      "id": "298033f1-477e-46f5-86e2-91314fd38902",
+      "memory": "Travel dates are June 15th to 25th",
+      "hash": "16553936dee411c05e3353655c42cec0",
+      "metadata": null,
+      "score": 0.3024805626254794,
+      "created_at": "2025-12-06T07:34:34.938143-08:00",
+      "updated_at": "2025-12-06T07:44:22.392410-08:00",
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.08164850178138888
+    },
+    {
+      "id": "a4325c4e-9ada-42cd-97b9-360ac38a9ef2",
+      "memory": "Xcelerator is still one of their favorite thrill rides",
+      "hash": "8e928b4a7ad32f5e6690401ac3689eda",
+      "metadata": null,
+      "score": 0.36766722793027373,
+      "created_at": "2025-12-06T07:33:31.434254-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.06117465168716515
+    },
+    {
+      "id": "128e36ae-dd7a-419a-82bd-1484a6b153e0",
+      "memory": "Celebrated birthday last month",
+      "hash": "7372ff84a68cbf16c52574ff1ea3eb33",
+      "metadata": null,
+      "score": 0.28281421366496173,
+      "created_at": "2025-12-06T07:28:46.282969-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.05410713732493678
+    },
+    {
+      "id": "614c58c0-53f2-4f90-a5f4-adce185f22c8",
+      "memory": "Interested in the Nighttime Zoo event at the San Diego Zoo",
+      "hash": "dd3484c631d43882fc54b1586ece74ce",
+      "metadata": null,
+      "score": 0.26404401048580944,
+      "created_at": "2025-12-06T07:49:37.553028-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.051462372133548005
+    },
+    {
+      "id": "71c6e09c-4266-4193-a34d-4056c7cfcf62",
+      "memory": "Won an award for 'Best Adult Costume' at the Mickey's Halloween Party event at Disneyland on September 24th",
+      "hash": "6db4250f1efbc4de351a53d27ed22676",
+      "metadata": null,
+      "score": 0.3115824989150707,
+      "created_at": "2025-12-06T07:33:31.570369-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.05047803084524006
+    },
+    {
+      "id": "351e4755-43a4-4114-ae53-b5468db4c343",
+      "memory": "Planning to attend Halloween Horror Nights with friends on October 15th",
+      "hash": "3055b5fcba8e85a870901c2820e95d03",
+      "metadata": null,
+      "score": 0.2485174379036438,
+      "created_at": "2025-12-06T07:33:31.487309-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.04915940613366628
+    },
+    {
+      "id": "cc8dbf0d-a693-4e4a-9c2c-e184748dd3e6",
+      "memory": "Planning a trip to Disneyland and wants information on their Halloween events",
+      "hash": "0b15ce13d463374f2ba292ce5019b51b",
+      "metadata": null,
+      "score": 0.3856339320545147,
+      "created_at": "2025-12-06T07:45:48.168089-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.04661245810505865
+    },
+    {
+      "id": "88b02ac6-6659-4fd4-8355-459afa4ee3fa",
+      "memory": "Planning a trip to London",
+      "hash": "21a9d2e655276cdd70ab2113f341ec44",
+      "metadata": null,
+      "score": 0.2524693866908154,
+      "created_at": "2025-12-06T07:33:31.380130-08:00",
+      "updated_at": "2025-12-06T07:34:34.877867-08:00",
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.007721834901795347
+    },
+    {
+      "id": "fc46c3da-7b7e-4c6f-ae42-228ed507af9e",
+      "memory": "Will definitely check out the Tiger Trail exhibit when visiting the San Diego Zoo",
+      "hash": "79fff45f2852a8f525a0a1895c3a6208",
+      "metadata": null,
+      "score": 0.29747564792843784,
+      "created_at": "2025-12-06T07:49:37.654042-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.006551169866492585
+    },
+    {
+      "id": "225b4171-231c-4509-8ceb-1a80eb335cec",
+      "memory": "Considering taking a day trip to Paris",
+      "hash": "3e1a888f4e03ef2a3f0b4bb9b51cc9af",
+      "metadata": null,
+      "score": 0.2863757065971112,
+      "created_at": "2025-12-06T07:34:34.950178-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.002213562010504926
+    },
+    {
+      "id": "8c85217a-0c0b-4f4e-9af3-e2478fb30769",
+      "memory": "Made four online purchases in total last month",
+      "hash": "621f2557fcea2c88612f69de90fce0f3",
+      "metadata": null,
+      "score": 0.2574150900325919,
+      "created_at": "2025-12-06T07:29:37.950983-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.0007062578633831153
+    },
+    {
+      "id": "e16a8e1e-ac14-40c7-beb0-36c9308b739f",
+      "memory": "Has been going to the gym regularly for three weeks now",
+      "hash": "255caebd294f0f4b16736012c48737bb",
+      "metadata": null,
+      "score": 0.2875751599341083,
+      "created_at": "2025-12-06T07:24:26.015348-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.0001182331302423449
+    },
+    {
+      "id": "d5252b8e-c608-479c-8473-5dabac858e93",
+      "memory": "Will book a guided tour that includes transportation from London to Stonehenge",
+      "hash": "56d9903491e28ef03a3c53f9b652db75",
+      "metadata": null,
+      "score": 0.2552167594803384,
+      "created_at": "2025-12-06T07:34:34.977764-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_114",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.1764,
+    "load_time": 1692.4201
+  }
+}

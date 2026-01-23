@@ -1,0 +1,242 @@
+{
+  "sample_idx": 55,
+  "question_id": "4100d0a0",
+  "question": "What is my ethnicity?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T00:33:10.554430",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "c7d4bd09-4202-439d-a8ca-398bce4c8f45",
+      "memory": "Considering getting a passport and unsure which nationality to apply for",
+      "hash": "ba29bc9cad227d9c750f650c1ee841a0",
+      "metadata": null,
+      "score": 0.47317613510146594,
+      "created_at": "2025-11-30T08:54:25.704812-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.9999999985743536
+    },
+    {
+      "id": "714bde8f-7d5c-46d9-aef7-df947783ff2b",
+      "memory": "Considering learning more about Irish heritage, especially the music and dance",
+      "hash": "1bf1f1e2185dcc353324e575a7df1de0",
+      "metadata": null,
+      "score": 0.2335050064807177,
+      "created_at": "2025-11-30T08:54:25.801493-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.8076983933757278
+    },
+    {
+      "id": "bf83b809-1eb1-40ef-b6bd-94060bb6b7c6",
+      "memory": "Has mixed ethnicity - Irish and Italian",
+      "hash": "d2c950da85adb2ddcd181fe2096d65c3",
+      "metadata": null,
+      "score": 0.5964465615518324,
+      "created_at": "2025-11-30T08:54:25.786359-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.720149250675408
+    },
+    {
+      "id": "a1330975-685d-4dcb-b09d-1045fef6b755",
+      "memory": "Has been thinking about family tree and cultural heritage",
+      "hash": "10a3bf0979a63d925784545aec9afe62",
+      "metadata": null,
+      "score": 0.2537043034387164,
+      "created_at": "2025-11-30T08:54:25.769065-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.6923006527641941
+    },
+    {
+      "id": "15fa1972-812d-41b8-966e-7e130ec60cd2",
+      "memory": "The genetic dynasty works like this: when brother day gets to a certain old age, he is succeeded by brother dawn, who is then renamed to brother day. The former brother day becomes brother dusk, and then the former brother dusk becomes brother darkness, and its vapourised. His ashes are used to bless the new infant Cleon I clone, and that new infant becomes brother dawn",
+      "hash": "d39f4c86b4921a0a953308ddd733d449",
+      "metadata": null,
+      "score": 0.15482879139504796,
+      "created_at": "2025-11-30T08:33:21.029608-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.1602409593679796
+    },
+    {
+      "id": "7dbaad11-8a35-481a-8932-34b3effaf807",
+      "memory": "Interested in learning about Irish history and culture in addition to music and dance",
+      "hash": "4c8a8f4f5c8a394fa59c31d24ce7acc8",
+      "metadata": null,
+      "score": 0.1710922314608226,
+      "created_at": "2025-11-30T08:54:25.866339-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.08111727210882254
+    },
+    {
+      "id": "53b91eed-3ad0-4947-b1c5-9edaca2fd9c6",
+      "memory": "Interested in learning traditional Irish music",
+      "hash": "0aa5cfea365d10f094f439b72ce46306",
+      "metadata": null,
+      "score": 0.1656269141254721,
+      "created_at": "2025-11-30T08:54:25.818049-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.04936512003960918
+    },
+    {
+      "id": "e6c874f0-239e-420d-b3d8-d9e5f7833c0d",
+      "memory": "BoardGameGeek has a diverse community and is very detailed",
+      "hash": "f7463814586b03f4a060cccdb4c7bedd",
+      "metadata": null,
+      "score": 0.15333206996636572,
+      "created_at": "2025-11-30T08:35:06.512777-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.04881842395555375
+    },
+    {
+      "id": "b5b9bdfa-ddac-4cc4-bc56-331f16e82b97",
+      "memory": "Wants to understand the cultural significance of Irish music and dance and how they've evolved over time",
+      "hash": "88e47b9f66f0202a1a6ca89933195138",
+      "metadata": null,
+      "score": 0.20245982139176327,
+      "created_at": "2025-11-30T08:54:25.880599-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.03116942652425896
+    },
+    {
+      "id": "80112fde-882c-4158-9ce5-a53aef26f5e3",
+      "memory": "Turned 32 last month",
+      "hash": "ef2b13929d847d89614f39a016bce86e",
+      "metadata": null,
+      "score": 0.1347906244856578,
+      "created_at": "2025-11-30T08:41:48.383703-08:00",
+      "updated_at": "2025-11-30T08:52:33.719449-08:00",
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.024649181783386882
+    },
+    {
+      "id": "85f26389-5ece-4cc3-8c2f-9af4dc1aba8c",
+      "memory": "Motivated to get more involved in initiatives that promote diversity and inclusion",
+      "hash": "fb8238c11486a8207d70889f5bcdd2df",
+      "metadata": null,
+      "score": 0.2407560620600344,
+      "created_at": "2025-11-30T08:49:06.796344-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.007677946097681837
+    },
+    {
+      "id": "00e9c921-43d8-468d-8b00-7fc139382d3c",
+      "memory": "Has a wife",
+      "hash": "b0dd1628ec50a880ccb0d237312c2313",
+      "metadata": null,
+      "score": 0.15394308957694686,
+      "created_at": "2025-11-30T08:46:19.346024-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.005908967547658137
+    },
+    {
+      "id": "75209080-9dac-47d1-99bd-9e9cccfdf32f",
+      "memory": "Favorite game is The Game of Thrones board game or Imperial Settlers",
+      "hash": "7d6ecd0a285753cc5548c961f2cb6f08",
+      "metadata": null,
+      "score": 0.14899106827858039,
+      "created_at": "2025-11-30T08:35:06.481076-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.004369625825779087
+    },
+    {
+      "id": "b875791d-dbf5-4371-abd9-102190ecfb95",
+      "memory": "Interested in benefits of Italian passport vs US passport",
+      "hash": "53a7387936398ee3b31ed7049aea0487",
+      "metadata": null,
+      "score": 0.1718372239593598,
+      "created_at": "2025-11-30T08:54:25.738271-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.0028933696505306556
+    },
+    {
+      "id": "645346bc-70ce-46c1-9dac-314d6f875973",
+      "memory": "Looking for resources on inclusive language and gender-neutral terminology",
+      "hash": "88b641d1c09aac7cf2a0b37932f99d04",
+      "metadata": null,
+      "score": 0.15456378507153884,
+      "created_at": "2025-11-30T08:49:06.676886-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.001910921029942595
+    },
+    {
+      "id": "94e322bd-2869-4ad7-9ada-74f046adad0b",
+      "memory": "Has dry skin",
+      "hash": "9752e556d4186f013dcf402b49617077",
+      "metadata": null,
+      "score": 0.16419019665132378,
+      "created_at": "2025-11-30T08:51:41.596308-08:00",
+      "updated_at": "2025-11-30T08:52:33.683379-08:00",
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.0014385951915917893
+    },
+    {
+      "id": "ba03dc9f-d896-4636-8b90-3a3e5a435f61",
+      "memory": "Has a black leather jacket",
+      "hash": "23353b961e9124e1b8b982f2ec28e70d",
+      "metadata": null,
+      "score": 0.20889341395700273,
+      "created_at": "2025-11-30T08:42:38.773064-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.0010296268203312182
+    },
+    {
+      "id": "580c1852-1256-4a73-9eac-e3dc6a7721f7",
+      "memory": "Has been having some skin issues lately",
+      "hash": "d0d93db812258f6563e9a97ef7d0960f",
+      "metadata": null,
+      "score": 0.13950714965494998,
+      "created_at": "2025-11-30T08:52:33.734061-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.0008225593903345926
+    },
+    {
+      "id": "36696e4e-3ca6-49eb-935d-31c0e21fab24",
+      "memory": "Finds the ability to live and work in any EU country with Italian citizenship appealing",
+      "hash": "d135cfbd3a147bf4b74f86105c82abf7",
+      "metadata": null,
+      "score": 0.25297596074221107,
+      "created_at": "2025-11-30T08:54:25.753549-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.000476812525934449
+    },
+    {
+      "id": "fe5ac907-6a99-4a97-bb5d-524fbdc9aeed",
+      "memory": "Likes to have a diverse board game collection depending on who they play with",
+      "hash": "a8da7c89fe966e433a3b50edc130d393",
+      "metadata": null,
+      "score": 0.1566322735122393,
+      "created_at": "2025-11-30T08:35:06.219659-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_55",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3179,
+    "load_time": 1275.3601
+  }
+}

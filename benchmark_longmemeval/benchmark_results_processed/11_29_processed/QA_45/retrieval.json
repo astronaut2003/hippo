@@ -1,0 +1,243 @@
+{
+  "sample_idx": 45,
+  "question_id": "b320f3f8",
+  "question": "What type of action figure did I buy from a thrift store?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T23:20:11.829072",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "f25dfab8-3322-413f-ae28-8f1b0b656123",
+      "memory": "Thinks can get at least $30 for the old helmet on Craigslist",
+      "hash": "27d695e4843e062f4195f97f8f37b45f",
+      "metadata": null,
+      "score": 0.2911779968125433,
+      "created_at": "2025-11-29T20:09:55.311953-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.9999999918544425
+    },
+    {
+      "id": "665b7594-0ff3-415a-964a-5a915bc1a189",
+      "memory": "Planning a trip to Target soon",
+      "hash": "8cabaeacf9b1638de3c9def76edb5797",
+      "metadata": null,
+      "score": 0.20314993082624958,
+      "created_at": "2025-11-29T20:03:26.484111-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.1288217636081202
+    },
+    {
+      "id": "5035ddf0-3b0c-4214-8cec-c2110ae9ed60",
+      "memory": "Has memorabilia like ticket stubs and brochures from Japan trip",
+      "hash": "3a513f5b65d57d800689fe177567b425",
+      "metadata": null,
+      "score": 0.3371441241143963,
+      "created_at": "2025-11-29T19:54:42.214264-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.04389892592056105
+    },
+    {
+      "id": "210a028b-befd-496d-8de0-210e8afaf5c6",
+      "memory": "Got a great coupon for $1 off a box of granola bars",
+      "hash": "3582ecc1fdba83f9d46e7fbde1d29f8f",
+      "metadata": null,
+      "score": 0.24941083239000225,
+      "created_at": "2025-11-29T20:13:19.063613-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.03217902899140559
+    },
+    {
+      "id": "5def8d9b-d008-4ab8-956c-84c6c68823f7",
+      "memory": "Thinking of getting a bike with a dropper post",
+      "hash": "4ce2859ef8d4f542337bad712cd70b7a",
+      "metadata": null,
+      "score": 0.2919725418103977,
+      "created_at": "2025-11-29T19:57:17.675428-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.01607553171948984
+    },
+    {
+      "id": "0391db71-06b1-43a1-9b19-847ed91017b5",
+      "memory": "Has physical coupons from the Sunday paper and digital ones on grocery store app",
+      "hash": "19dba5539ad0997e0a4aadf838543f58",
+      "metadata": null,
+      "score": 0.22719736364864235,
+      "created_at": "2025-11-29T20:13:19.061600-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.011611918823955453
+    },
+    {
+      "id": "7e00b546-17b0-4e02-963a-714315e196da",
+      "memory": "Took a lot of great photos in Kyoto, especially at Fushimi Inari Shrine",
+      "hash": "ea144791ee49aa3516fd41d203715ad3",
+      "metadata": null,
+      "score": 0.284364543259222,
+      "created_at": "2025-11-29T19:54:42.213179-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.01158628373423171
+    },
+    {
+      "id": "b8f9343f-6875-4d55-a858-8da12a7a4126",
+      "memory": "Recently got back from an amazing trip to Japan",
+      "hash": "ebf1d034d1c133692c7fcc35d8d32f04",
+      "metadata": null,
+      "score": 0.22364793268757205,
+      "created_at": "2025-11-29T19:54:42.212665-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.01044124972657113
+    },
+    {
+      "id": "4a59b10b-6dba-4101-b830-205989ecf909",
+      "memory": "Thinking of getting a new mountain bike for the trip",
+      "hash": "ad0f55003255ca802649e437cf310cfc",
+      "metadata": null,
+      "score": 0.1996493099420949,
+      "created_at": "2025-11-29T19:57:17.673781-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.009659767900447288
+    },
+    {
+      "id": "9bee8367-621f-4326-a61e-a4161da4bb86",
+      "memory": "Been on a musical theater kick lately",
+      "hash": "c633252ddcd401f02cdf352916188300",
+      "metadata": null,
+      "score": 0.20088530463689397,
+      "created_at": "2025-11-29T19:53:19.038083-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.009579755347673177
+    },
+    {
+      "id": "7c2574ca-f0ad-46c6-a5e8-4debdb3b846f",
+      "memory": "Recently redeemed 500 points from SaveMore for a $5 discount on last grocery bill",
+      "hash": "81ff07a907c104bf4c94a35938f35901",
+      "metadata": null,
+      "score": 0.22197106852902498,
+      "created_at": "2025-11-29T20:03:26.483795-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.008700394088058675
+    },
+    {
+      "id": "60b6fba9-1f8c-4a13-a60c-9250fa0cf8ce",
+      "memory": "Redeemed 500 points for a $5 discount on last grocery bill at SaveMore",
+      "hash": "32506b49860c44948cd7ab7ff6762f64",
+      "metadata": null,
+      "score": 0.2071338406269365,
+      "created_at": "2025-11-29T20:03:26.481939-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.0065750121036900555
+    },
+    {
+      "id": "9892115b-23f0-4ccc-b9a3-0a0cb7f5c3bc",
+      "memory": "Used digital coupons at SaveMore and saved $20 last month",
+      "hash": "82777cde8c81c8e393dc6ef4ac26084d",
+      "metadata": null,
+      "score": 0.23944869255552523,
+      "created_at": "2025-11-29T20:03:26.481622-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.0060825076526338775
+    },
+    {
+      "id": "76d8268d-c34f-48f6-bcc8-b245f279bd1a",
+      "memory": "Interested in utensil organizers for a small kitchen",
+      "hash": "f781c73c33b44e4d86d5f4b649718b00",
+      "metadata": null,
+      "score": 0.22075232011233525,
+      "created_at": "2025-11-29T20:07:25.273254-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.00591471433807846
+    },
+    {
+      "id": "980c63e3-857c-46f0-b3e4-ac59b8754ad9",
+      "memory": "Will invest in a binder with clear plastic sleeves to store physical coupons",
+      "hash": "fb863141cda889840dbba7f63572e762",
+      "metadata": null,
+      "score": 0.22349918811026898,
+      "created_at": "2025-11-29T20:13:19.062254-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.003360527216512663
+    },
+    {
+      "id": "979954ce-40de-4721-8d5b-a2d6206de946",
+      "memory": "Was in the eastern Sierra Nevada range, near the California-Nevada border",
+      "hash": "872f8199d7670f17a5a6a9541f8f6e82",
+      "metadata": null,
+      "score": 0.19606289670207105,
+      "created_at": "2025-11-29T19:53:48.472997-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.0024601917925787344
+    },
+    {
+      "id": "e8c7da4e-ebe9-4740-b1fb-2cfdd3513270",
+      "memory": "Wants to include daily entries, memorabilia, and photos in the journal",
+      "hash": "83f5715eea6ab0d722cc0653776d2fb8",
+      "metadata": null,
+      "score": 0.23877141810310648,
+      "created_at": "2025-11-29T19:54:42.213730-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.0015924828464750254
+    },
+    {
+      "id": "10989c30-4aa5-493a-b766-a6100fadf87d",
+      "memory": "Looking to organize bag and declutter belongings",
+      "hash": "6f0da8c81790f5fd910927bbce6f9752",
+      "metadata": null,
+      "score": 0.2825825117212385,
+      "created_at": "2025-11-29T20:08:43.943541-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.001294183620598728
+    },
+    {
+      "id": "7d01dac5-64fe-4ca3-92dd-68ad6194abc6",
+      "memory": "Open to outdoor activities and experiencing the best of what the eastern Sierra Nevada range has to offer",
+      "hash": "a287c8fe492aa54b263a5d74f4c8891b",
+      "metadata": null,
+      "score": 0.20925200582618508,
+      "created_at": "2025-11-29T19:53:48.473554-08:00",
+      "updated_at": "2025-11-29T19:57:17.653268-08:00",
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.00024547540462736974
+    },
+    {
+      "id": "46624791-9aff-4f8b-871c-efd6dd447f18",
+      "memory": "Will include Japanese-inspired designs in the journal",
+      "hash": "73ab9176bd92607f037384a82adfbe3a",
+      "metadata": null,
+      "score": 0.22936418699491926,
+      "created_at": "2025-11-29T19:54:42.215442-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_45",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "retrieval_time": 0.0687,
+    "load_time": 46388.5569
+  }
+}

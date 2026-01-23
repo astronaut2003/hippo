@@ -1,0 +1,242 @@
+{
+  "sample_idx": 8,
+  "question_id": "58ef2f1c",
+  "question": "When did I volunteer at the local animal shelter's fundraising dinner?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T00:49:32.415282",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 50,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "bc836315-5c6b-48dc-9483-9a36ff0aaf04",
+      "memory": "Really enjoyed the 'Love is in the Air' fundraising dinner volunteered at back in February",
+      "hash": "afb6a738857f6a6c85f9a2fa96e627a0",
+      "metadata": null,
+      "score": 0.5687173342605546,
+      "created_at": "2025-11-28T09:10:35.467951-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.9999999989808184
+    },
+    {
+      "id": "0014cf5c-9912-4fb7-ac82-04c3e0b8ea8e",
+      "memory": "Had a great experience with similar events in the past like the 'Love is in the Air' fundraising dinner volunteered at back on Valentine's Day",
+      "hash": "df9b2bfcc132d894b7e7f2cb6de5cfdd",
+      "metadata": null,
+      "score": 0.5538136424430393,
+      "created_at": "2025-11-28T09:10:35.508448-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.8264093498129212
+    },
+    {
+      "id": "202a2851-e064-4d51-973d-bd266de5fc66",
+      "memory": "Open to attending different types of charity events",
+      "hash": "e855c0dcccef8117576473069df1b673",
+      "metadata": null,
+      "score": 0.5013723647594108,
+      "created_at": "2025-11-28T09:10:35.453946-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.3033316287606499
+    },
+    {
+      "id": "d776b269-403e-43ed-bc47-5a1a455db3c1",
+      "memory": "Passionate about animal welfare and children's health",
+      "hash": "ddbfce6c559195970613f51fc855311d",
+      "metadata": null,
+      "score": 0.4308186791019364,
+      "created_at": "2025-11-28T09:10:35.419889-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.17831195566393498
+    },
+    {
+      "id": "f4c8e3c4-9031-4517-9f5b-34321a0b4523",
+      "memory": "Looking forward to a fun day out, getting some exercise, and supporting a great cause",
+      "hash": "eb1c27c692648ce55d756ad9e3d4fc0d",
+      "metadata": null,
+      "score": 0.31092071878160427,
+      "created_at": "2025-11-28T09:10:35.550860-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.15828359902651418
+    },
+    {
+      "id": "a51d3dd9-d0b8-4e82-8c16-3ab779c06172",
+      "memory": "Had a fulfilling experience serving breakfast to people in need during volunteer work",
+      "hash": "082a02c14ac5a02c5db283c119ea84d8",
+      "metadata": null,
+      "score": 0.4806338208852593,
+      "created_at": "2025-11-28T09:07:18.756082-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.13873607457527856
+    },
+    {
+      "id": "767d4271-069e-4344-9642-2aba1042c060",
+      "memory": "Is definitely going to look into volunteering with one of those organizations during the trip",
+      "hash": "643049ab6a6db9bb00c3f1ab934b0242",
+      "metadata": null,
+      "score": 0.43614643640097317,
+      "created_at": "2025-11-28T09:03:54.379887-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.137314378115337
+    },
+    {
+      "id": "7ab070b6-2d0c-4eac-84f8-e5a87e9bba04",
+      "memory": "Is especially interested in volunteering opportunities",
+      "hash": "45c5b4c83eb87d289e6bd450fd5012be",
+      "metadata": null,
+      "score": 0.39903564631147137,
+      "created_at": "2025-11-28T09:03:54.366964-08:00",
+      "updated_at": "2025-11-28T09:07:18.027765-08:00",
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.1154772876689976
+    },
+    {
+      "id": "df1b9926-33b4-4aa2-bca9-8cf0069316c8",
+      "memory": "Planning to start by volunteering with the Dayton Foodbank",
+      "hash": "9f48b42164553091534fce47db4d16dc",
+      "metadata": null,
+      "score": 0.5302495840158556,
+      "created_at": "2025-11-28T08:59:53.814653-08:00",
+      "updated_at": "2025-11-28T09:07:18.733131-08:00",
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.1003223746975007
+    },
+    {
+      "id": "8120b7b3-6357-4a6d-8401-496c75918e10",
+      "memory": "Planning to attend 'Strut Your Mutt' with a few friends who are also passionate about animal welfare",
+      "hash": "a6ff3fdf0d9d24cc0fd73bc9851b3725",
+      "metadata": null,
+      "score": 0.48697652262306945,
+      "created_at": "2025-11-28T09:10:35.536864-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.09560590373840701
+    },
+    {
+      "id": "b1954fb7-e3fb-4abf-9cc6-2556042ec2fa",
+      "memory": "Interested in helping out with food distribution",
+      "hash": "3e101492b0b735f6fe30fa2c28c5b7e6",
+      "metadata": null,
+      "score": 0.3674159711874443,
+      "created_at": "2025-11-28T09:07:18.772194-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.09293299386978102
+    },
+    {
+      "id": "db978df7-ffb0-45a3-9f5c-0f93854d3f70",
+      "memory": "Enjoys the energy and excitement of bidding on amazing prizes while supporting a good cause",
+      "hash": "01a9d67493cb39d8272b0a223c21fb06",
+      "metadata": null,
+      "score": 0.3452311327969432,
+      "created_at": "2025-11-28T09:10:35.522143-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.045039892040462944
+    },
+    {
+      "id": "37d58bc1-c83f-4964-95e2-d9a01203c7ee",
+      "memory": "Interested in joining a local group or club",
+      "hash": "616db019eeeb76dbf87b9acb3b0efbdd",
+      "metadata": null,
+      "score": 0.290836941328251,
+      "created_at": "2025-11-28T08:51:56.707489-08:00",
+      "updated_at": "2025-11-28T08:59:53.770047-08:00",
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.03397268443023639
+    },
+    {
+      "id": "12d24b42-cfad-4ca7-9195-bdf83626c69c",
+      "memory": "Volunteering at the Children's Museum for their annual \"Art Day\" event today",
+      "hash": "8ae57273a10c52c588de0fddc71348e6",
+      "metadata": null,
+      "score": 0.4586171592466562,
+      "created_at": "2025-11-28T08:57:57.183474-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.029171263535681644
+    },
+    {
+      "id": "f9071511-a9c8-469f-bcf8-461584db1e2e",
+      "memory": "Interested in learning more about the 'Strut Your Mutt' event in September",
+      "hash": "85db6c088794d9e2cb4b3a75e7c9139a",
+      "metadata": null,
+      "score": 0.37124682365052886,
+      "created_at": "2025-11-28T09:10:35.480667-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.0018043599564062894
+    },
+    {
+      "id": "fead91c7-df3d-4c03-b74d-03f6269d12b2",
+      "memory": "Had a great time at a workshop earlier this month",
+      "hash": "80a4d1cfe0ff5d48de37a0ec6eca6e52",
+      "metadata": null,
+      "score": 0.3115431099573858,
+      "created_at": "2025-11-28T08:57:57.168635-08:00",
+      "updated_at": "2025-11-28T09:02:39.207124-08:00",
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.000685139696870714
+    },
+    {
+      "id": "13b8c545-f9bc-4e20-b50b-92c04dbdad76",
+      "memory": "Spent around $700-800 on gifts in the past few weeks",
+      "hash": "f5c15eda9559880782854e9e7e3e59e6",
+      "metadata": null,
+      "score": 0.33931457677280535,
+      "created_at": "2025-11-28T09:06:15.967184-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.0003640989224681082
+    },
+    {
+      "id": "92dbf397-45d2-476e-9b51-6f4f1ff97d32",
+      "memory": "Looking forward to the silent auction and raffles at 'Strut Your Mutt'",
+      "hash": "67fe7eea5921d4f5af7d695e72fadaa3",
+      "metadata": null,
+      "score": 0.385485593296912,
+      "created_at": "2025-11-28T09:10:35.494401-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.0003362034631119024
+    },
+    {
+      "id": "9cc702e7-8acd-420a-a426-666c2d3e4b6b",
+      "memory": "Picked up essentials for neighbor Mrs. Johnson last week and spent around $50",
+      "hash": "f4c052ef0ae4886c077f8e0a117163ab",
+      "metadata": null,
+      "score": 0.29627094533403375,
+      "created_at": "2025-11-28T09:06:16.054139-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.00024347778985120422
+    },
+    {
+      "id": "76a3797a-1325-4f1e-b8d6-4bd64784c530",
+      "memory": "Gifts for colleagues were around $35",
+      "hash": "fa6aee4d2dbc3b385990c79146d48a70",
+      "metadata": null,
+      "score": 0.3543050127250477,
+      "created_at": "2025-11-28T09:06:16.113054-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_8",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2866,
+    "load_time": 1263.1843
+  }
+}

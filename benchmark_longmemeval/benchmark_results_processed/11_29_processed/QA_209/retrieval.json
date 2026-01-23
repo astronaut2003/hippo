@@ -1,0 +1,242 @@
+{
+  "sample_idx": 209,
+  "question_id": "099778bb",
+  "question": "What percentage of leadership positions do women hold in the my company?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2026-01-14T01:22:32.908549",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "c174eed3-ebd4-4fe9-81f4-1331aa51f1c1",
+      "memory": "Interested in data on average percentage of leadership positions held by women in companies of their size and industry",
+      "hash": "c0d6358c94c69b5b1c5b88db3d017c0d",
+      "metadata": null,
+      "score": 0.8650402521775757,
+      "created_at": "2026-01-13T09:43:34.263546-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.9999999993623861
+    },
+    {
+      "id": "b82f9742-ac52-40d3-8000-3e854cfaa12c",
+      "memory": "Learned that women occupy 20 of the leadership positions in the company",
+      "hash": "e3f3e8535592f2fc175fef52a660de03",
+      "metadata": null,
+      "score": 0.7551341061235395,
+      "created_at": "2026-01-13T09:25:56.635816-08:00",
+      "updated_at": "2026-01-13T09:43:33.371270-08:00",
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.8814574012242787
+    },
+    {
+      "id": "ba329d57-5e93-44d8-bab4-bc7ff8b906b4",
+      "memory": "Curious to see how company's gender ratio compares to industry benchmarks",
+      "hash": "23bfe9067943fc7170370a20f719d325",
+      "metadata": null,
+      "score": 0.5346094574305622,
+      "created_at": "2026-01-13T09:25:56.651686-08:00",
+      "updated_at": "2026-01-13T09:43:34.132268-08:00",
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.4605887120896796
+    },
+    {
+      "id": "24576c48-c26e-463f-ab3c-a51afaa747b9",
+      "memory": "Realized the company has a total of 100 leadership positions across the company",
+      "hash": "5f58ee349e3c375acf2f05af3f39dbe6",
+      "metadata": null,
+      "score": 0.5384950450076147,
+      "created_at": "2026-01-13T09:43:34.175654-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.36600550747539107
+    },
+    {
+      "id": "6e7f94af-93fa-431e-8375-c84a73045a71",
+      "memory": "Realized having 100 leadership positions is quite significant",
+      "hash": "d7ced3b7d81c132a0b78845952acd3d0",
+      "metadata": null,
+      "score": 0.452156714230098,
+      "created_at": "2026-01-13T09:43:34.295132-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.3091149245772197
+    },
+    {
+      "id": "4761a241-aa28-458e-b919-b24a586ff61b",
+      "memory": "Interested in learning more about representation of underrepresented groups in leadership positions, such as demographics",
+      "hash": "9b2fb1c13874497f565b62bfb0acc626",
+      "metadata": null,
+      "score": 0.47961005474645035,
+      "created_at": "2026-01-13T09:43:34.231128-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.28864952028117496
+    },
+    {
+      "id": "70fa47a9-418c-4640-be76-a12609803c42",
+      "memory": "Wants to know if diversity and inclusion report covers data on diversity of new hires like percentage of women or underrepresented groups in recent hiring cohorts",
+      "hash": "566f1169bb3199c22f6763178c6305d0",
+      "metadata": null,
+      "score": 0.4368252938058478,
+      "created_at": "2026-01-13T09:25:56.745859-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.2512306239555934
+    },
+    {
+      "id": "3d28bfae-a404-4cbc-a317-cbed60db4d42",
+      "memory": "Particularly interested in learning more about representation of underrepresented groups in leadership positions",
+      "hash": "094d4912335173abfd63c0a4ea857072",
+      "metadata": null,
+      "score": 0.4230477540020039,
+      "created_at": "2026-01-13T09:43:34.248438-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.23721900338981539
+    },
+    {
+      "id": "fa726861-3799-4686-80ae-505850b73cdb",
+      "memory": "Interested in resources that provide benchmarks for leadership positions in different industries to understand company's leadership structure in comparison",
+      "hash": "c04e7d9ca9bc04db05fe0d6a58491c5e",
+      "metadata": null,
+      "score": 0.43045754834478256,
+      "created_at": "2026-01-13T09:43:34.216013-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.22121888324420877
+    },
+    {
+      "id": "0557b1ba-e008-4ac1-a3ed-f834fecfa851",
+      "memory": "Wants to know if diversity and inclusion reports have data on demographics of company's workforce like gender ratio",
+      "hash": "b1401d375c13b12ba99afcfa29f287b0",
+      "metadata": null,
+      "score": 0.48804079157178454,
+      "created_at": "2026-01-13T09:25:56.606628-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.1935382321049391
+    },
+    {
+      "id": "8bdd2e8c-f4a7-406e-9651-22f1260fca30",
+      "memory": "Curious to learn more about how to create a more inclusive leadership team",
+      "hash": "3cd48f73d50a113a5aea018eeba31c8c",
+      "metadata": null,
+      "score": 0.35379664410378864,
+      "created_at": "2026-01-13T09:43:34.342158-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.10998999464812112
+    },
+    {
+      "id": "4e4cde70-09dc-472c-ad5c-b6d94a3d7465",
+      "memory": "Wants to know if diversity and inclusion report covers data on employee resource groups like women's networks or LGBTQ+ groups",
+      "hash": "2060f03d5edcabf7547840e01b1121de",
+      "metadata": null,
+      "score": 0.43082538025333544,
+      "created_at": "2026-01-13T09:25:56.667808-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.08445816231385986
+    },
+    {
+      "id": "e9e75533-dd77-4a24-98fd-59b7c25327e3",
+      "memory": "Interested in suggestions on how to increase diversity and inclusion in leadership team",
+      "hash": "a23e7b8ec54fda76de0f806aba5c01e2",
+      "metadata": null,
+      "score": 0.3749997591201648,
+      "created_at": "2026-01-13T09:43:34.357504-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.08049739878216515
+    },
+    {
+      "id": "a9173c03-9a68-4b3a-8ccd-8e7652e6b7b2",
+      "memory": "Looking for data on company's organizational structure, specifically number of departments and their main responsibilities",
+      "hash": "30973f50c1c787582e7483d959f91dae",
+      "metadata": null,
+      "score": 0.3567618356293386,
+      "created_at": "2026-01-13T09:43:34.154544-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.07849986927442487
+    },
+    {
+      "id": "1c4f1111-0544-4c1e-87de-139e97370f84",
+      "memory": "Interested in seeing how company's diversity and inclusion efforts are perceived by employees",
+      "hash": "30c1e653044113278f1832cad5fea1ac",
+      "metadata": null,
+      "score": 0.3749065872971987,
+      "created_at": "2026-01-13T09:25:56.699519-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.0676271063775905
+    },
+    {
+      "id": "ab8e494c-34fd-4bad-8a4c-20d183e34543",
+      "memory": "Curious to see if diversity and inclusion report discusses company's strategy for increasing diversity in hiring like blind hiring practices or diversity-focused recruitment initiatives",
+      "hash": "728361a309d53ffae0bd12ca8eb95267",
+      "metadata": null,
+      "score": 0.33477294036347127,
+      "created_at": "2026-01-13T09:25:56.730101-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.06513101539545257
+    },
+    {
+      "id": "c4426d0f-8967-430a-8e31-707fa0249aac",
+      "memory": "Wondering about best practices for structuring leadership teams of that size",
+      "hash": "d5830be4203c028c91a60cb59455644d",
+      "metadata": null,
+      "score": 0.35576190286325665,
+      "created_at": "2026-01-13T09:43:34.312076-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.05236403509540306
+    },
+    {
+      "id": "a20d2e2d-4552-4d33-a20c-f271922953fb",
+      "memory": "Will consider best practices when thinking about leadership team's structure",
+      "hash": "97cdb3710edfe4ea7c2a8a3357ef73ed",
+      "metadata": null,
+      "score": 0.3382909049846421,
+      "created_at": "2026-01-13T09:43:34.326609-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.03888268716500551
+    },
+    {
+      "id": "29444c50-e6ac-4fee-abd0-fa1a145a9c8e",
+      "memory": "Curious to know if diversity and inclusion report covers data on employee feedback and sentiment like results from employee engagement surveys or focus groups",
+      "hash": "28aa42df641f1ca5b3a12649a31e0dd9",
+      "metadata": null,
+      "score": 0.3393569822390637,
+      "created_at": "2026-01-13T09:25:56.683522-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.015605904504855318
+    },
+    {
+      "id": "e457a4fe-1c2c-461d-a4ab-7ff5c4d93c7b",
+      "memory": "Attended a workshop on gender equality",
+      "hash": "ae855d780c4e4ae900aa15ea03608deb",
+      "metadata": null,
+      "score": 0.36073268082674415,
+      "created_at": "2026-01-13T09:25:56.621212-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_209",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5639,
+    "load_time": 1266.0421
+  }
+}

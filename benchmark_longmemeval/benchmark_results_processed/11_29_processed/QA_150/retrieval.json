@@ -1,0 +1,242 @@
+{
+  "sample_idx": 150,
+  "question_id": "505af2f5",
+  "question": "I was thinking of trying a new coffee creamer recipe. Any recommendations?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T14:09:19.535340",
+  "load_result": {
+    "total_sessions": 53,
+    "added_sessions": 53,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "b5ee785e-491e-43d5-85a3-9c36aff0cfdb",
+      "memory": "Thinking of trying new coffee flavors",
+      "hash": "0038ec95904713b859bff3d69aeb468e",
+      "metadata": null,
+      "score": 0.6454445890605968,
+      "created_at": "2025-12-06T22:13:55.645462-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.999999999476311
+    },
+    {
+      "id": "0c93b74f-eced-46d4-962a-698edf734019",
+      "memory": "Wants tips to make homemade creamer even healthier",
+      "hash": "cebd94241739df11c540454d7a15fc71",
+      "metadata": null,
+      "score": 0.7095661175397192,
+      "created_at": "2025-12-06T22:13:01.425656-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.39274073117170344
+    },
+    {
+      "id": "28978939-3ee7-4653-b531-238ed09d2332",
+      "memory": "Wants recommendations for spring-themed coffee drinks or flavors perfect for the season",
+      "hash": "46d20e95c9931759cfc0584a68951145",
+      "metadata": null,
+      "score": 0.5808047381258328,
+      "created_at": "2025-12-06T22:13:55.661005-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.36173011672982197
+    },
+    {
+      "id": "c429381c-f77a-474e-bab8-b19b162a81a7",
+      "memory": "Started making own flavored creamer with almond milk, vanilla extract, and honey",
+      "hash": "e8c865b0bf5cba051660625f1dd3516b",
+      "metadata": null,
+      "score": 0.5677021327240193,
+      "created_at": "2025-12-06T22:13:01.409999-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.20103253877349803
+    },
+    {
+      "id": "695897be-821a-4164-9883-cda81655a893",
+      "memory": "Looking for healthy snack ideas",
+      "hash": "3c731e9f09a2ab55d3e5c12b360d1f8b",
+      "metadata": null,
+      "score": 0.3448250903152861,
+      "created_at": "2025-12-06T22:32:23.078902-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.16050891876367332
+    },
+    {
+      "id": "8d41a365-b1da-4f63-8f53-cb5b3567bae0",
+      "memory": "Wants recommendations on how to store coffee and tea supplies to keep them fresh",
+      "hash": "9a6a5ecbb483a099886c0d89bfd12534",
+      "metadata": null,
+      "score": 0.36161885278672035,
+      "created_at": "2025-12-06T22:13:55.631737-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.13557681361182813
+    },
+    {
+      "id": "82adb917-98b3-4a99-ba84-b70026fe8fa7",
+      "memory": "Wants suggestions for Halloween-themed desserts or snacks",
+      "hash": "65f9d21fd4291ce95f45ce51375d5e68",
+      "metadata": null,
+      "score": 0.344174775075907,
+      "created_at": "2025-12-06T22:10:10.860249-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.12439080928803879
+    },
+    {
+      "id": "7fbbe4da-10ac-4e02-b480-5b9f9f329f3c",
+      "memory": "Plans to try the Lemon Ginger flavor first",
+      "hash": "8fc4ff043f89846af19c62aced42b6bd",
+      "metadata": null,
+      "score": 0.3343317201488552,
+      "created_at": "2025-12-06T22:13:55.674619-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.11028474522211944
+    },
+    {
+      "id": "06f61eb9-ad8e-457d-a272-a62cf5df2080",
+      "memory": "Wants recommendations on how to reuse or repurpose old coffee grounds and coffee filters to reduce waste",
+      "hash": "80403c765f649123d4e48fb3fc12d88a",
+      "metadata": null,
+      "score": 0.41752425446800606,
+      "created_at": "2025-12-06T22:13:55.690077-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.09871517965423833
+    },
+    {
+      "id": "0b1610fc-0c2f-4f04-b9b7-eedadfcd9bdf",
+      "memory": "Thinking of restocking coffee supplies, buying a lot online and picking up in-store to earn more stars with the Starbucks Rewards program",
+      "hash": "576921eb4e48f0c246839e991ba098e6",
+      "metadata": null,
+      "score": 0.4287421897590036,
+      "created_at": "2025-12-06T22:13:55.614439-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.09209290487782705
+    },
+    {
+      "id": "32831578-7ccd-4786-b386-ba05ebff4caa",
+      "memory": "Wants suggestions for a good ratio of guava to oatmeal and other ingredients to enhance flavor and nutritional value",
+      "hash": "83cc4dba7ad7b36a506d9068e44d82e4",
+      "metadata": null,
+      "score": 0.4399585968820013,
+      "created_at": "2025-12-06T22:33:23.109226-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.08023412014789703
+    },
+    {
+      "id": "8b8cfebc-2390-488e-a007-92f6d6097f37",
+      "memory": "Thinking of making fruit kebabs with berries and citrus fruits",
+      "hash": "f2338b2b49dd63cb7f314b15d938d30d",
+      "metadata": null,
+      "score": 0.33858919721168296,
+      "created_at": "2025-12-06T22:32:23.126523-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.021680200007844357
+    },
+    {
+      "id": "56e02fe7-109c-4c93-80de-2558b1899bec",
+      "memory": "Wants tips on how to customize granola recipes to fit taste preferences",
+      "hash": "b3b9bfcb3e5379678f4871d0e9874b0f",
+      "metadata": null,
+      "score": 0.39721372106029523,
+      "created_at": "2025-12-06T22:13:01.499490-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.017499332504373556
+    },
+    {
+      "id": "8979783c-50f3-4d7f-9bfa-dca56703272b",
+      "memory": "Thinking of adding guava to morning oatmeal for a protein and fiber boost",
+      "hash": "5410c29ca5d1f17a6d35f121ed1df8f5",
+      "metadata": null,
+      "score": 0.35242221919939726,
+      "created_at": "2025-12-06T22:33:23.095564-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.01149075571850913
+    },
+    {
+      "id": "33d74dd2-8444-4092-bb33-fadddcdf35c5",
+      "memory": "Has a loyalty program at The Daily Grind, favorite coffee shop",
+      "hash": "eb8e118be11267e88a768e06ee40f692",
+      "metadata": null,
+      "score": 0.31983210263034556,
+      "created_at": "2025-12-06T22:22:40.226702-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.00861045050115737
+    },
+    {
+      "id": "a822189a-ba85-45dc-9e13-32f7b0f37dab",
+      "memory": "Wants suggestions on how to incorporate guavas and durian into daily routine, like in smoothies or salads",
+      "hash": "251f00c93ca6629638bde16fb725b45a",
+      "metadata": null,
+      "score": 0.35812838064087305,
+      "created_at": "2025-12-06T22:33:23.079913-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.0025045350610305894
+    },
+    {
+      "id": "1c1c229f-899d-4b63-ae3a-5e55d88216b4",
+      "memory": "Looking for healthy lunch ideas that are high in protein to support fitness goals",
+      "hash": "141eb2f1e17dcb5d8a67a78f87805fe4",
+      "metadata": null,
+      "score": 0.3309007671803755,
+      "created_at": "2025-12-06T22:20:53.733373-08:00",
+      "updated_at": "2025-12-06T22:33:22.991619-08:00",
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.001349656127647975
+    },
+    {
+      "id": "8426f535-53fb-4624-b3c3-e40aed41d3d8",
+      "memory": "Wants to know good options for nuts or seeds that pair well with guava and oatmeal",
+      "hash": "7df7fcc6c77bca9ad1d6358b6144d3a0",
+      "metadata": null,
+      "score": 0.32178069390845454,
+      "created_at": "2025-12-06T22:33:23.139711-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.0005326906548805987
+    },
+    {
+      "id": "abd0b470-c686-4af3-9972-9ad5d0795963",
+      "memory": "Has been doing well with the Starbucks Rewards program, earning 120 stars in the past month, equivalent to $10 in rewards redeemable for free drinks and other benefits",
+      "hash": "0ab89e403bab02dafe38233b46e1e290",
+      "metadata": null,
+      "score": 0.3331043438454142,
+      "created_at": "2025-12-06T22:13:55.566459-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.0002176010860036348
+    },
+    {
+      "id": "e8697cc2-9f2c-4608-a612-4f2882e01221",
+      "memory": "Recently made a big batch of granola at home using rolled oats, almonds, and honey",
+      "hash": "992e15ab92ea0c971566ec732cf96834",
+      "metadata": null,
+      "score": 0.3440452883229454,
+      "created_at": "2025-12-06T22:13:01.467282-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_150",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3907,
+    "load_time": 1443.6549
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 173,
+  "question_id": "7405e8b1",
+  "question": "Did I receive a higher percentage discount on my first order from HelloFresh, compared to my first UberEats order?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T18:09:28.381647",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "042a1bd3-68fd-4ac7-b005-ad5468e8b149",
+      "memory": "Recently tried HelloFresh and got a 40% discount on first order",
+      "hash": "a1945713185caf0c0bdb17bbab5365d9",
+      "metadata": null,
+      "score": 0.7327470300826033,
+      "created_at": "2025-12-08T02:13:50.186793-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.9999999991990216
+    },
+    {
+      "id": "922f0eba-606e-4c29-a5d1-2f89c03ffa7b",
+      "memory": "Got 20% off UberEats order last week",
+      "hash": "9dee0383e0363734fce89361f31238b2",
+      "metadata": null,
+      "score": 0.6910279181335652,
+      "created_at": "2025-12-08T02:24:17.184353-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.46134842438504864
+    },
+    {
+      "id": "0727e0ad-0b81-483b-a11c-7bd444d6c7e0",
+      "memory": "Using coupons for online food delivery services like Grubhub and UberEats",
+      "hash": "89750b8d310d17eb166f2f3f7bdf57c2",
+      "metadata": null,
+      "score": 0.43067872417065794,
+      "created_at": "2025-12-08T02:13:50.233103-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.2824010213310291
+    },
+    {
+      "id": "680b16b7-f282-488e-87ea-9279e31f0277",
+      "memory": "Using UberEats a lot lately",
+      "hash": "14f54f78df00d1832b5b0a1f863bba8d",
+      "metadata": null,
+      "score": 0.4290707372962878,
+      "created_at": "2025-12-08T02:13:50.247574-08:00",
+      "updated_at": "2025-12-08T02:24:17.137805-08:00",
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.2709580969659194
+    },
+    {
+      "id": "1a35fb2e-4321-4dbf-ac3f-f56006bf4155",
+      "memory": "Wants to know about weekly sales or promotions",
+      "hash": "fa7ec424d5ed0d56035688a9f9470f61",
+      "metadata": null,
+      "score": 0.2919274660180737,
+      "created_at": "2025-12-08T02:28:27.849642-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.09724295306000412
+    },
+    {
+      "id": "5a56ce4c-d1e5-4654-a2bd-06ea58730b0e",
+      "memory": "Wants recommendations for brands or items to earn more points or maximize savings",
+      "hash": "bdef46ac592cd7105f9fa343f84c328b",
+      "metadata": null,
+      "score": 0.2105775562135549,
+      "created_at": "2025-12-08T02:28:27.890729-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.04638967029858641
+    },
+    {
+      "id": "580c93b0-a066-4a03-8948-535e3c60286e",
+      "memory": "Thinking of trying out meal kit delivery services",
+      "hash": "8760904df9274e78bd37bd443e57abd4",
+      "metadata": null,
+      "score": 0.23378402055085556,
+      "created_at": "2025-12-08T02:13:50.152475-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.023521314248210634
+    },
+    {
+      "id": "cc2adfb8-5174-4676-867b-7b53cc816aeb",
+      "memory": "Trying to figure out how to earn points on purchases",
+      "hash": "9582e6036b04ffdd6c617bccff6538ec",
+      "metadata": null,
+      "score": 0.27911826777005067,
+      "created_at": "2025-12-08T02:28:27.779357-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.021889835400602204
+    },
+    {
+      "id": "8efcfec8-ef24-4976-862d-d25727a5b301",
+      "memory": "Thinking of ordering from the new Italian place downtown again",
+      "hash": "0a6f3c3e97eeaa93d08b1035e605ab05",
+      "metadata": null,
+      "score": 0.2546693382641295,
+      "created_at": "2025-12-08T02:24:17.199851-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.01853994901690429
+    },
+    {
+      "id": "d6f1d7d7-3668-41c1-ae02-1395bdbca172",
+      "memory": "Wants to know how to earn points on purchases and if specific items or categories give more points",
+      "hash": "c2009a965bef8ca1239f7c67e7262807",
+      "metadata": null,
+      "score": 0.2489728547702281,
+      "created_at": "2025-12-08T02:28:27.821970-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.014502577399173421
+    },
+    {
+      "id": "16c7138f-566f-478b-94ae-a9a357d02952",
+      "memory": "Has linked the loyalty card to the app",
+      "hash": "e6b296faf3d5e4ba2773da34781d74bc",
+      "metadata": null,
+      "score": 0.2637029731073888,
+      "created_at": "2025-12-08T02:28:27.809032-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.011131913683958066
+    },
+    {
+      "id": "9c6abd1d-58ac-4731-bab6-91858ca3afa9",
+      "memory": "Started using a ride-sharing program",
+      "hash": "551470fce0714302c7b8d7d00bbb87b8",
+      "metadata": null,
+      "score": 0.2648229945532168,
+      "created_at": "2025-12-08T02:11:04.091460-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.008815546768756361
+    },
+    {
+      "id": "d0329307-d2f9-4437-b286-27a47cef27c1",
+      "memory": "Signed up for the ride-sharing program last week",
+      "hash": "fed48fa6c8dcf5f5386fe818b4a6c68c",
+      "metadata": null,
+      "score": 0.30331997059107146,
+      "created_at": "2025-12-08T02:11:04.106453-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.002910965255391985
+    },
+    {
+      "id": "f0193bf4-d099-4871-908c-aaa82beaa436",
+      "memory": "Good fuel economy on the highway is a big priority",
+      "hash": "ddb4d85592997b4bb2459a07b40849ab",
+      "metadata": null,
+      "score": 0.23761164800597562,
+      "created_at": "2025-12-08T02:17:08.497465-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.002395122168122591
+    },
+    {
+      "id": "0837303b-0d5f-4ab7-bf0b-8802699e581a",
+      "memory": "Signed up for the Walgreens Balance Rewards loyalty program today",
+      "hash": "23da0667d7e064dc0f99831ede718371",
+      "metadata": null,
+      "score": 0.31108655997228934,
+      "created_at": "2025-12-08T02:28:27.734074-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.0011867522884373327
+    },
+    {
+      "id": "7d9fa4b6-e6d0-4ba6-b1e3-4cdf697c677f",
+      "memory": "Attended an Islamic prayer service downtown and an iftar dinner at Amir's house last month",
+      "hash": "f617ce7c4eeedb36619264344d8447a5",
+      "metadata": null,
+      "score": 0.22246459740775915,
+      "created_at": "2025-12-08T02:21:01.463329-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.0011659749569198925
+    },
+    {
+      "id": "23e2b31f-ccf1-4e6b-9742-5a5b155dfda9",
+      "memory": "Will take a closer look at Sun Basket's low-carb meal plan",
+      "hash": "e5d9686992fd5d313a15aa376911d9dc",
+      "metadata": null,
+      "score": 0.29303320874574207,
+      "created_at": "2025-12-08T02:13:50.291339-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.0011238855831474303
+    },
+    {
+      "id": "968f7a34-3e27-4cc3-8429-7589ff5f8bfc",
+      "memory": "Recently bought a beautiful, floor-length gown from ASOS for $80",
+      "hash": "655e4e5b2124f10b5a5c5b872d81a098",
+      "metadata": null,
+      "score": 0.26201825810788903,
+      "created_at": "2025-12-08T02:30:58.578975-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.0007077278548128146
+    },
+    {
+      "id": "fa740022-cb46-48ee-9d1f-7e709afea5e9",
+      "memory": "Has spent a total of $240 on commute so far this month",
+      "hash": "a67b0cd84719b8dff42d44a8357accba",
+      "metadata": null,
+      "score": 0.2105637806370515,
+      "created_at": "2025-12-08T02:11:04.062774-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.00032984013783936685
+    },
+    {
+      "id": "53e8c15b-a55b-4c60-a591-b39d371a5c95",
+      "memory": "Spent around $150 on new clothes, shoes, and stationery for niece during back-to-school shopping",
+      "hash": "e540dc2bab90c045dd4b6f9344ee3d8a",
+      "metadata": null,
+      "score": 0.22533782044770984,
+      "created_at": "2025-12-08T02:26:16.450812-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_173",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": -0.2194,
+    "load_time": 1469.8605
+  }
+}

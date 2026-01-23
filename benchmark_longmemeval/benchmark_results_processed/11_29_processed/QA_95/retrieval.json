@@ -1,0 +1,242 @@
+{
+  "sample_idx": 95,
+  "question_id": "gpt4_5501fe77",
+  "question": "Which social media platform did I gain the most followers on over the past month?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T03:44:13.977281",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "4cea9436-2a54-4fd2-9f45-5e94b9939ef8",
+      "memory": "Twitter follower count jumped from 420 to 540 over the past month",
+      "hash": "e5bb4e5dd9182ff468de49b6181065fe",
+      "metadata": null,
+      "score": 0.6074218703071195,
+      "created_at": "2025-12-01T12:04:35.360664-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.9999999990583516
+    },
+    {
+      "id": "04f7675a-bc52-4487-9b5a-8c2fd6c73c59",
+      "memory": "Has seen growth on TikTok, gaining around 200 followers over the past three weeks",
+      "hash": "6d8a235a0902829f180c277dd69235e7",
+      "metadata": null,
+      "score": 0.5266083722651578,
+      "created_at": "2025-12-01T12:05:55.292347-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.973226053346867
+    },
+    {
+      "id": "122a0f56-6b6e-4a8e-870a-68445f570029",
+      "memory": "Currently active on Instagram, Facebook, Twitter, and TikTok",
+      "hash": "231d9434d5a12dbf975a9da2479eb9c5",
+      "metadata": null,
+      "score": 0.5728227238020887,
+      "created_at": "2025-12-01T12:05:55.313246-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.6480784283006396
+    },
+    {
+      "id": "27584f05-9a1a-4be1-83d1-a828b3fe95c0",
+      "memory": "Noticed that Instagram stories get a lot of views but is unsure about the best posting times",
+      "hash": "518fae0573f7f12528433839f5e2cf67",
+      "metadata": null,
+      "score": 0.44143442202332284,
+      "created_at": "2025-12-01T12:05:55.345755-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.5612259897953833
+    },
+    {
+      "id": "d31ebfaa-6e8c-46dd-a5ee-cc28107d705d",
+      "memory": "Looking to drive engagement and increase follower count on all platforms",
+      "hash": "2c7251c673d1d61276b5b97e0e81c657",
+      "metadata": null,
+      "score": 0.5845997993075394,
+      "created_at": "2025-12-01T12:04:35.426067-08:00",
+      "updated_at": "2025-12-01T12:05:55.277130-08:00",
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.5433607975962764
+    },
+    {
+      "id": "0aa106f2-04d4-4191-bf65-8ee31fd7a9da",
+      "memory": "Plans to use Instagram's \"Question\" sticker to ask followers about their favorite TV shows or movies",
+      "hash": "c98cf1e372637d7a660bb3ce28d76336",
+      "metadata": null,
+      "score": 0.36173857794384345,
+      "created_at": "2025-12-01T12:05:55.389631-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.4382980555453356
+    },
+    {
+      "id": "b7696e21-ef57-4fd5-aace-e1ee27978262",
+      "memory": "Planning to share a series of posts on Instagram and Twitter",
+      "hash": "b16bc2ca6183b7addf6181d8513901bd",
+      "metadata": null,
+      "score": 0.41778141056175316,
+      "created_at": "2025-12-01T11:45:55.045929-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.4323394742109275
+    },
+    {
+      "id": "a5c4f520-2ec5-4908-88d3-47bd33c6eecc",
+      "memory": "Plans to experiment with different posting times and track performance using Instagram Insights and other tools",
+      "hash": "1b0b1b2bad074bd54188017b26ebdcfd",
+      "metadata": null,
+      "score": 0.45118973052135236,
+      "created_at": "2025-12-01T12:05:55.361103-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.3876703197852193
+    },
+    {
+      "id": "b050a2ee-23a3-4098-9a0c-8dc976ef9ea0",
+      "memory": "Shared a personal story on Instagram a few weeks ago",
+      "hash": "4089fadac0a273fe60f0d4b9fb89f59c",
+      "metadata": null,
+      "score": 0.44268204622067947,
+      "created_at": "2025-12-01T11:45:54.983547-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.3243276600637228
+    },
+    {
+      "id": "ce53706e-1665-4d7c-95db-ae73f5e59362",
+      "memory": "On Twitter, posts a mix of educational and personal content",
+      "hash": "b9c78d94b6b71af94db764bea20fac73",
+      "metadata": null,
+      "score": 0.36536756029200723,
+      "created_at": "2025-12-01T12:04:35.445716-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.3152205550845864
+    },
+    {
+      "id": "2b8b82ae-abc8-4a77-bead-43ea0cbf6bc7",
+      "memory": "Wants to focus on increasing engagement rate on Twitter",
+      "hash": "f67a161a559e2c0efbac3bd751f62bca",
+      "metadata": null,
+      "score": 0.4206954094811861,
+      "created_at": "2025-12-01T12:04:35.531191-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.2841194941097621
+    },
+    {
+      "id": "ee8678c1-1e0e-42ff-9728-634bd2160cfe",
+      "memory": "Trying to optimize social media strategy and analyze current performance",
+      "hash": "b48fa0f3582fdec4caa4ec367ebf431a",
+      "metadata": null,
+      "score": 0.47720752435182445,
+      "created_at": "2025-12-01T12:04:35.340159-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.272529392467289
+    },
+    {
+      "id": "2c9bee62-f19d-4dbd-b5fa-4ea303a63842",
+      "memory": "Looking to create a content calendar for social media platforms",
+      "hash": "951e7b717be108801fc62c295d23cede",
+      "metadata": null,
+      "score": 0.3955959894162019,
+      "created_at": "2025-12-01T11:45:55.060400-08:00",
+      "updated_at": "2025-12-01T12:05:55.209234-08:00",
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.26449762858094367
+    },
+    {
+      "id": "eb7c0221-c80a-4d3e-aa12-3b86d230efe7",
+      "memory": "Attended a workshop on social media marketing about two weeks ago",
+      "hash": "c8654ddfd2e4871e91568ab83f01041b",
+      "metadata": null,
+      "score": 0.4769141580109681,
+      "created_at": "2025-12-01T11:45:55.094992-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.15746659340112107
+    },
+    {
+      "id": "d7c83a17-26c7-47af-bd84-e378f5926bd6",
+      "memory": "Would like to share a personal story about their experience with social media marketing, which is related to the campaign",
+      "hash": "1c2be0b4972cf76cd059932238a7aaa4",
+      "metadata": null,
+      "score": 0.4658571961410668,
+      "created_at": "2025-12-01T11:45:55.078166-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.12586497279948838
+    },
+    {
+      "id": "7def6254-78c8-4fdb-afc8-77b51e5dd7c5",
+      "memory": "Attended a workshop on social media marketing today",
+      "hash": "819ee298ebbcd2653b501a3cd4620517",
+      "metadata": null,
+      "score": 0.42237072492851313,
+      "created_at": "2025-12-01T11:45:54.905083-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.06391007737524404
+    },
+    {
+      "id": "9f3b84b6-7483-4aa4-9035-21205ccebde4",
+      "memory": "Looking for tips on creating a social media campaign to raise awareness about a social issue",
+      "hash": "03d98ae41001676cc0a71562553a9b84",
+      "metadata": null,
+      "score": 0.3672229239113128,
+      "created_at": "2025-12-01T11:45:54.889510-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.009415891178774118
+    },
+    {
+      "id": "1a8e7ff4-3e20-4b03-b5f6-3e4736b62bb6",
+      "memory": "Met some really interesting people at the workshop, including a woman who works for a non-profit organization that uses social media to promote social change",
+      "hash": "989df8bb987901c1c7a79f0ad0fff49e",
+      "metadata": null,
+      "score": 0.41604266092831177,
+      "created_at": "2025-12-01T11:45:55.112166-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.005239352405253344
+    },
+    {
+      "id": "2faeef23-2789-4b40-bd38-e9074786ed10",
+      "memory": "Will engage with followers who answer questions",
+      "hash": "e69e117506b6e18509e2b66d4e269ce0",
+      "metadata": null,
+      "score": 0.3944083037056568,
+      "created_at": "2025-12-01T12:05:55.436413-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.0019822125300577114
+    },
+    {
+      "id": "c6db6909-844a-4bfd-ad09-f90dbbd91b4e",
+      "memory": "Has been following the non-profit organization's social media accounts since the workshop",
+      "hash": "a5cbd3f53e817118b8e10e16d860ac47",
+      "metadata": null,
+      "score": 0.4916239066467961,
+      "created_at": "2025-12-01T11:45:55.146855-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_95",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.288,
+    "load_time": 1473.3535
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 133,
+  "question_id": "06878be2",
+  "question": "Can you suggest some accessories that would complement my current photography setup?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T06:48:20.820545",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "46b38bef-9d05-4858-b807-945b46cd75f2",
+      "memory": "Thinking of getting a new tripod, specifically the Gitzo GT3543LS",
+      "hash": "23d1865a18d18d552058d99ab18a82a1",
+      "metadata": null,
+      "score": 0.38526914849382016,
+      "created_at": "2025-12-06T15:04:31.776149-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.9999999980890878
+    },
+    {
+      "id": "0d05cc84-65ef-40f5-87ae-f38376e72e25",
+      "memory": "As a Sony camera user, thinking about upgrading camera bag to something more comfortable and durable",
+      "hash": "66be90dd0340ad3e74f1e2f7dff80faf",
+      "metadata": null,
+      "score": 0.4627665089165445,
+      "created_at": "2025-12-06T15:04:31.806358-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.9697652162702927
+    },
+    {
+      "id": "9ed136cd-9379-41cc-8ce3-68c090d18592",
+      "memory": "Wants to know how to style the scene for candle photos with specific ideas for props and backdrops that would complement eco-friendly candles",
+      "hash": "bc3ea7696ea7103df6e38546f2d3e2aa",
+      "metadata": null,
+      "score": 0.3647851298227749,
+      "created_at": "2025-12-06T14:51:44.964439-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.8854852437088463
+    },
+    {
+      "id": "4444bd32-d942-4065-a5ca-b4b89b8529d0",
+      "memory": "Looking for camera bags specifically designed for Sony cameras",
+      "hash": "a966c21983eb07d75ea74be40adcced2",
+      "metadata": null,
+      "score": 0.42680092175656553,
+      "created_at": "2025-12-06T15:04:31.822464-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.7467866731269177
+    },
+    {
+      "id": "c619490c-2aca-4112-a73f-f64f44d31a2f",
+      "memory": "Interested in external battery packs that can charge Sony A7R IV and other devices on the go",
+      "hash": "125005899ec8c9723b694a8f4a1463ab",
+      "metadata": null,
+      "score": 0.2775223112885382,
+      "created_at": "2025-12-06T15:04:31.741019-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.5374936251712535
+    },
+    {
+      "id": "ad08cfe4-75a9-4883-b873-d33e8e0e31a6",
+      "memory": "Wants to style the scene for a summer-themed candle photo shoot",
+      "hash": "8181bc4ca34936c1e1e9254f44d715a2",
+      "metadata": null,
+      "score": 0.3418057604966841,
+      "created_at": "2025-12-06T14:51:44.994431-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.05977669176335272
+    },
+    {
+      "id": "6332c17c-6c4f-4bee-9c41-b693687b7d2c",
+      "memory": "Thinking of creating a seasonal line of candles, maybe with scents like lavender and lemon for the summer months",
+      "hash": "43391b76d7ae855ffdf57a7a4ad40a06",
+      "metadata": null,
+      "score": 0.2719241411882508,
+      "created_at": "2025-12-06T14:51:44.980076-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.01815936632831944
+    },
+    {
+      "id": "b51bad50-790a-4093-96ab-cb1b494088f3",
+      "memory": "Wants to use Google Photos to organize old family photos from past reunions and events",
+      "hash": "995136e8b4be47c73a56b8aa835b79a0",
+      "metadata": null,
+      "score": 0.31884694709056793,
+      "created_at": "2025-12-06T15:00:08.906264-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.016181710994488455
+    },
+    {
+      "id": "7d9a068d-8f60-4948-987b-ad2f282af8f4",
+      "memory": "Wants ideas for veggie sticks with dips that are easy to prepare and pair well together",
+      "hash": "89a4398489b87a6f6aa3dcb811614723",
+      "metadata": null,
+      "score": 0.2791026003687375,
+      "created_at": "2025-12-06T14:59:13.581460-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.007957638942781413
+    },
+    {
+      "id": "0c0d5b6d-dc79-451e-a525-016ac55857d7",
+      "memory": "Wants to organize family photos from a reunion",
+      "hash": "4866365e10f76cc5abe290e2a2e7fd5f",
+      "metadata": null,
+      "score": 0.397846083964132,
+      "created_at": "2025-12-06T15:00:08.872459-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.0036418599512788846
+    },
+    {
+      "id": "2bc423c0-4255-4681-b874-2eb22004a755",
+      "memory": "Interested in guides or outfitters that offer multi-day kayaking or canoeing trips in the park's lakes and rivers",
+      "hash": "43d673e98c524b767a7a04382737c5d4",
+      "metadata": null,
+      "score": 0.3243177590557669,
+      "created_at": "2025-12-06T15:07:36.128792-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.002777319138185058
+    },
+    {
+      "id": "cc70ca1c-aa08-423a-9529-30422ff4de19",
+      "memory": "Wants to know what gear and clothing to pack for a multi-day kayaking or canoeing trip in Grand Teton National Park",
+      "hash": "02875e5a308116cddce606806da6e0a6",
+      "metadata": null,
+      "score": 0.359606439564912,
+      "created_at": "2025-12-06T15:07:36.143922-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.0027211895912978533
+    },
+    {
+      "id": "f839edfb-a2e0-49de-b85c-06e43755690b",
+      "memory": "Likes the idea of creating a shared Google Photos album",
+      "hash": "b963005e734a8e0596c2565c01ccb565",
+      "metadata": null,
+      "score": 0.30945580069585915,
+      "created_at": "2025-12-06T15:00:08.891481-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.0021168857683174303
+    },
+    {
+      "id": "f751305a-00a3-4e0c-8e11-88161067f858",
+      "memory": "Interested in popular baby gifts that are practical and functional, like diapers or baby toys",
+      "hash": "cbac9df521593edae6691f7b3cd37e5f",
+      "metadata": null,
+      "score": 0.33195637172621206,
+      "created_at": "2025-12-06T15:09:41.679698-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.0016488965592059322
+    },
+    {
+      "id": "542fb5c3-670c-4fac-893c-ec33d8ae74a7",
+      "memory": "Wants to consider other gift options besides a personalized baby blanket",
+      "hash": "9e99620a8da6159761318068d1b7db4b",
+      "metadata": null,
+      "score": 0.34494264197047814,
+      "created_at": "2025-12-06T15:09:41.662576-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.0015825616401574177
+    },
+    {
+      "id": "cd2542a9-99b5-456e-a003-7d2fc3480ab9",
+      "memory": "Will go with the Alps 2 Ocean Cycle Trail, as up for a challenge and wants to see some stunning scenery",
+      "hash": "405fb5635b45a4fed8458ee47c572319",
+      "metadata": null,
+      "score": 0.291142023341749,
+      "created_at": "2025-12-06T14:52:10.061125-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.0010021310984829157
+    },
+    {
+      "id": "b8fb14b1-d5a7-40c4-843a-673ac772317c",
+      "memory": "Interested in recommendations for museums or art galleries in Paris",
+      "hash": "879794a156f2c9b6a75394260361f5a8",
+      "metadata": null,
+      "score": 0.31286985929067007,
+      "created_at": "2025-12-06T14:56:22.372603-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.0009117406593398848
+    },
+    {
+      "id": "1f46c08c-3508-4fba-b294-7eb3bcdcee62",
+      "memory": "Budget is around $500-700 per night",
+      "hash": "a59c4661085c9be64f03b9161a190358",
+      "metadata": null,
+      "score": 0.3212936592262159,
+      "created_at": "2025-12-06T14:49:50.647016-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.0007621226139035375
+    },
+    {
+      "id": "a68e6539-1633-4f40-a866-b219149f8698",
+      "memory": "Wants to take good product photos for the candle business to make them look appealing online and in applications like the Summer Solstice Fair",
+      "hash": "9626320dfa2f5317aa563bcda5d1bc03",
+      "metadata": null,
+      "score": 0.45302456645237654,
+      "created_at": "2025-12-06T14:51:44.949792-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.0006312751636924568
+    },
+    {
+      "id": "455986bc-f6cf-4d4b-865b-4a930a381734",
+      "memory": "Interested in good hiking trails in the area",
+      "hash": "e6007f02f08a7faead0b3fda270901c3",
+      "metadata": null,
+      "score": 0.28472773213123964,
+      "created_at": "2025-12-06T14:53:25.502679-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_133",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.3749,
+    "load_time": 1280.9365
+  }
+}

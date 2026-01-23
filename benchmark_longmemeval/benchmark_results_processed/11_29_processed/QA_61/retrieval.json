@@ -1,0 +1,242 @@
+{
+  "sample_idx": 61,
+  "question_id": "36580ce8",
+  "question": "What health issue did I initially think was just a cold?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T02:49:45.079009",
+  "load_result": {
+    "total_sessions": 55,
+    "added_sessions": 55,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "a7cfd778-8387-4c10-9b46-2dd55df4ce23",
+      "memory": "Recently had a bad case of bronchitis that was more serious than initially thought",
+      "hash": "a6cf86492faddf76d8d0dc9387bb187f",
+      "metadata": null,
+      "score": 0.5165443535007868,
+      "created_at": "2025-11-30T11:06:59.848696-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.999999999005129
+    },
+    {
+      "id": "3203ee89-cd79-46fb-ab71-d4c5ecde9bbf",
+      "memory": "Has been dealing with health issues and doesn't want to overexert",
+      "hash": "756d96250824f3022c589dfc6f1898aa",
+      "metadata": null,
+      "score": 0.263412931864503,
+      "created_at": "2025-11-30T11:06:59.818720-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.4898326764385037
+    },
+    {
+      "id": "a75c65c8-2c72-43ca-93e1-3ca6940cf215",
+      "memory": "Trying to get back on track with fitness routine after dealing with health issues",
+      "hash": "3e2db5150084dab70410ef56a2fdffb7",
+      "metadata": null,
+      "score": 0.19160291560174525,
+      "created_at": "2025-11-30T11:06:59.785941-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.4624151291349179
+    },
+    {
+      "id": "29bdb91b-fa33-4b0a-97c2-022221534e26",
+      "memory": "Wants to boost immune system",
+      "hash": "9c56d50cdd901bc023d6bbffea6c5ea0",
+      "metadata": null,
+      "score": 0.30425906767748057,
+      "created_at": "2025-11-30T11:06:59.832747-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.11939350562389311
+    },
+    {
+      "id": "e4ce28e1-05de-4e87-a358-1321a333e496",
+      "memory": "Wants specific foods or spices to help boost immune system",
+      "hash": "15c837b6bbe24e06fb7ae9fc7cd502cc",
+      "metadata": null,
+      "score": 0.33442949410255646,
+      "created_at": "2025-11-30T11:06:59.862084-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.11409379437699477
+    },
+    {
+      "id": "61b5a305-90fe-4622-bd7b-ae563071b1d2",
+      "memory": "Wishes there was a way to eliminate the risks of food allergies altogether",
+      "hash": "045a953d6869ca7c99531df75aaab663",
+      "metadata": null,
+      "score": 0.30324170424507946,
+      "created_at": "2025-11-30T10:52:14.229359-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.034708753753899896
+    },
+    {
+      "id": "5a6fd093-90cc-43f0-be88-b8cae83e7385",
+      "memory": "It can be really nerve-wracking trying to navigate food allergies while eating out or shopping for groceries",
+      "hash": "d773aa52630f15cbe3d5bcbd37610c16",
+      "metadata": null,
+      "score": 0.26089132323846503,
+      "created_at": "2025-11-30T10:52:14.179672-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.03382913717310584
+    },
+    {
+      "id": "9cc74037-fa55-408c-baae-75acfdd796e5",
+      "memory": "Believes cooking at home and cutting processed foods will help boost immune system in long run",
+      "hash": "c41d7ec72c5ad9ef76b89f17bdd95b1e",
+      "metadata": null,
+      "score": 0.36410792745638265,
+      "created_at": "2025-11-30T11:06:59.949955-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.025573872468294023
+    },
+    {
+      "id": "cd82773c-f550-4704-9c45-5e2c74f572aa",
+      "memory": "It's frustrating that we still have to take such precautions regarding food allergies",
+      "hash": "bc9f7fe0ce8b6d7fea49297ae0766254",
+      "metadata": null,
+      "score": 0.30630804567655756,
+      "created_at": "2025-11-30T10:52:14.212383-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.00561527642300891
+    },
+    {
+      "id": "4280921d-e8b0-4531-b7dc-18bf25a425af",
+      "memory": "Decided to go with Rooibos Chocolate Chai paired with chocolate-dipped shortbread cookies",
+      "hash": "d7df35130abcdcbf0e87f170a6c45cb6",
+      "metadata": null,
+      "score": 0.14867269646578837,
+      "created_at": "2025-11-30T10:59:41.620618-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.003797598237823645
+    },
+    {
+      "id": "cd5caa55-3d91-4367-b823-9a6ea2834728",
+      "memory": "Believes more regulations should be put in place to ensure food safety for people with allergies",
+      "hash": "c4b775bc1ea125e34d81e3b84df6a5b9",
+      "metadata": null,
+      "score": 0.1741705898721576,
+      "created_at": "2025-11-30T10:52:14.245625-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.0028380941410088116
+    },
+    {
+      "id": "336557b9-2afe-4b13-b52c-fb813d01ed46",
+      "memory": "Has been cooking at home more frequently over the past three weeks",
+      "hash": "943bae7676026a16934a08f72ff8b6b8",
+      "metadata": null,
+      "score": 0.16540773962891092,
+      "created_at": "2025-11-30T11:05:08.617013-08:00",
+      "updated_at": "2025-11-30T11:06:59.753820-08:00",
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.002537424855652715
+    },
+    {
+      "id": "2de451ea-da75-4a49-9fa2-afa3c58f02ab",
+      "memory": "Picked up a new chili garlic sauce at the Asian market",
+      "hash": "11f33f658a173052235b8e05a20652c6",
+      "metadata": null,
+      "score": 0.20901968023672352,
+      "created_at": "2025-11-30T11:05:08.668695-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.0018438645918619078
+    },
+    {
+      "id": "7f6c5757-329f-4a3e-92dc-5fb8d048ecd7",
+      "memory": "Drove for six hours to Washington D.C. recently",
+      "hash": "cc199f3c2c985462b131c851aafb8b7d",
+      "metadata": null,
+      "score": 0.16665827162449842,
+      "created_at": "2025-11-30T11:03:46.728051-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.001401162513770539
+    },
+    {
+      "id": "d5265f37-06a1-4223-9d4a-6abf47140c04",
+      "memory": "Thinks restaurants and grocery stores can still do more to accommodate those with allergies",
+      "hash": "af46d16cc9060233b1039035b48fd2ae",
+      "metadata": null,
+      "score": 0.23829842212064362,
+      "created_at": "2025-11-30T10:52:14.260987-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.0013333245399524231
+    },
+    {
+      "id": "8745f80b-5e99-4506-b729-27b4efbd81fd",
+      "memory": "Was surprised by the males' distinctive red and yellow patches on their wings",
+      "hash": "b5287e652f168f922998a3668cac78b1",
+      "metadata": null,
+      "score": 0.18614469629317748,
+      "created_at": "2025-11-30T10:51:16.159749-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.0011235486516840954
+    },
+    {
+      "id": "9330d6bd-92ee-4a92-aedb-1c647220a776",
+      "memory": "Has been on a plane every other week since January",
+      "hash": "d9fe2b427bd92fa58a6468540511c5a6",
+      "metadata": null,
+      "score": 0.19144175137362374,
+      "created_at": "2025-11-30T11:09:20.344425-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.0009971707759837732
+    },
+    {
+      "id": "755079da-982e-4c48-9ae0-fe4d08d5b895",
+      "memory": "Has been prioritizing self-care and making lifestyle changes to reduce stress levels",
+      "hash": "4a7ff3b18dc08865caac511d565a340c",
+      "metadata": null,
+      "score": 0.20098366639288812,
+      "created_at": "2025-11-30T11:06:59.892217-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.0006912831849493599
+    },
+    {
+      "id": "485c0209-3f65-4c26-a7b7-2faa90526fec",
+      "memory": "Wakes up between 8:30 am and 9:30 am on weekends",
+      "hash": "a1ec34653f8f9da91eb5cab67e3d517c",
+      "metadata": null,
+      "score": 0.15908037486956284,
+      "created_at": "2025-11-30T10:56:04.308141-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.00038046192309181074
+    },
+    {
+      "id": "bf6423c4-de6e-41ff-9274-a68329a0d461",
+      "memory": "Will make sure to not overcook the chicken and use a good melting cheese",
+      "hash": "749064ec9795ddd19097fd654711b085",
+      "metadata": null,
+      "score": 0.17250368754300305,
+      "created_at": "2025-11-30T11:05:08.765734-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_61",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.3907,
+    "load_time": 1216.7949
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sample_idx": 47,
+  "question_id": "4fd1909e",
+  "question": "Where did I attend the Imagine Dragons concert?",
+  "question_type": "single-session-user",
+  "gold_answer": "Xfinity Center",
+  "question_date": "2023/05/30 (Tue) 18:25",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-30T12:39:02.826818",
+  "predicted_answer": "You attended the Imagine Dragons concert at Xfinity Center.",
+  "prompt_length": 3087,
+  "gen_token_usage": {
+    "prompt_tokens": 821,
+    "answer_tokens": 11,
+    "total_tokens": 832,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.4,
+      "rouge1_f": 0.3636363636363636,
+      "rouge2_f": 0.2222222222222222,
+      "rougeL_f": 0.3636363636363636,
+      "semantic_similarity": 0.5430667996406555,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2818181818181818,
+      "avg_semantic": 0.5430667996406555,
+      "overall_average": 0.3340679109096527
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.4,
+    "rouge1_f": 0.3636363636363636,
+    "rouge2_f": 0.2222222222222222,
+    "rougeL_f": 0.3636363636363636,
+    "semantic_similarity": 0.5430667996406555,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2818181818181818,
+    "avg_semantic": 0.5430667996406555,
+    "overall_average": 0.3340679109096527
+  },
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "load_time": 1398.1383,
+    "retrieval_time": 0.0723,
+    "generation_time": 1.2287,
+    "evaluation_time": 0.7583,
+    "cleanup_time": 0.0,
+    "total_time": 1400.2283
+  }
+}

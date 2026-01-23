@@ -1,0 +1,77 @@
+{
+  "sample_idx": 61,
+  "question_id": "36580ce8",
+  "question": "What health issue did I initially think was just a cold?",
+  "question_type": "single-session-user",
+  "gold_answer": "bronchitis",
+  "question_date": "2023/05/30 (Tue) 22:09",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-01T02:49:45.078999",
+  "predicted_answer": "You initially thought your bronchitis was just a cold.",
+  "prompt_length": 3202,
+  "gen_token_usage": {
+    "prompt_tokens": 844,
+    "answer_tokens": 11,
+    "total_tokens": 855,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2222222222222222,
+      "rouge1_f": 0.19999999999999998,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.19999999999999998,
+      "semantic_similarity": 0.7181070446968079,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.15555555555555553,
+      "avg_semantic": 0.7181070446968079,
+      "overall_average": 0.268065869808197
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2222222222222222,
+    "rouge1_f": 0.19999999999999998,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.19999999999999998,
+    "semantic_similarity": 0.7181070446968079,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.15555555555555553,
+    "avg_semantic": 0.7181070446968079,
+    "overall_average": 0.268065869808197
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1216.7949,
+    "retrieval_time": 1.3907,
+    "generation_time": 2.0714,
+    "evaluation_time": 2.0893,
+    "cleanup_time": 1.6204,
+    "total_time": 1223.9692
+  }
+}

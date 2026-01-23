@@ -1,0 +1,242 @@
+{
+  "sample_idx": 57,
+  "question_id": "1faac195",
+  "question": "Where does my sister Emily live?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T01:18:53.226031",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 45,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "751d5a73-3dc8-468f-b146-c229ec09a42f",
+      "memory": "Thinking of visiting sister Emily in Denver soon",
+      "hash": "06c5506961279bd38b5a092cc3eb0e41",
+      "metadata": null,
+      "score": 0.647176082981526,
+      "created_at": "2025-11-30T09:19:50.676387-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.9999999991562802
+    },
+    {
+      "id": "771150c1-d177-4ac0-ab42-c630d85747c0",
+      "memory": "Has been living in Tokyo, Japan for about 6 months",
+      "hash": "e0ef34ebf6976ae34b2137ca6bc74ad4",
+      "metadata": null,
+      "score": 0.31854518156910844,
+      "created_at": "2025-11-30T09:33:22.113058-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.5770270003080286
+    },
+    {
+      "id": "acf8e534-8980-46d7-a611-030ff1b0e552",
+      "memory": "Is in the Midwest",
+      "hash": "7e2e12067ea8c8f69290bb07658da6df",
+      "metadata": null,
+      "score": 0.3308420717355132,
+      "created_at": "2025-11-30T09:40:55.044645-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.5231981252445805
+    },
+    {
+      "id": "1a365b8f-6436-41ba-937d-43936bce2f52",
+      "memory": "Lives near 33rd street and 3rd avenue",
+      "hash": "e845997c171be165c9253acd86516822",
+      "metadata": null,
+      "score": 0.4076420306277461,
+      "created_at": "2025-11-30T09:42:47.610958-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.44638375905557126
+    },
+    {
+      "id": "09c27284-dfc4-4aa2-ade6-8e7eab4a189b",
+      "memory": "Went to New York City on February 17th for a friend's birthday party",
+      "hash": "16a987b30d0a47f7423ea87642693cec",
+      "metadata": null,
+      "score": 0.2156774793455544,
+      "created_at": "2025-11-30T09:22:09.170059-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.2564128155483668
+    },
+    {
+      "id": "fbd060cd-4485-4ba4-83c6-f8d14a508f13",
+      "memory": "Spent 5 days at aunt's house in Miami",
+      "hash": "019e7c4de6e7cf17ac201dfdd594153c",
+      "metadata": null,
+      "score": 0.40089634512111655,
+      "created_at": "2025-11-30T09:22:09.120542-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.17625559821671632
+    },
+    {
+      "id": "68bcbc2d-d807-4810-a05d-bc2a9a71d16d",
+      "memory": "Thinks Hocking Hills State Park in Ohio might be a good option",
+      "hash": "779ec6e09d01e08a44f06b920cefc72d",
+      "metadata": null,
+      "score": 0.20984861535694457,
+      "created_at": "2025-11-30T09:40:55.057738-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.09985940021613657
+    },
+    {
+      "id": "0093b394-5386-43f9-a308-0c2563622ee4",
+      "memory": "Probably going with the Old Man's Cave Chalets for accommodation",
+      "hash": "21e20a1aaa7913f24ef330b62882b0ba",
+      "metadata": null,
+      "score": 0.23580751548898643,
+      "created_at": "2025-11-30T09:40:55.101966-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.09886664302759626
+    },
+    {
+      "id": "7938e161-4f75-4ec6-ac6a-807e5f3180b6",
+      "memory": "Stayed in New York City for 3 nights",
+      "hash": "aacd4e96e6459e45ff820f80d8c24cdf",
+      "metadata": null,
+      "score": 0.19891191461535582,
+      "created_at": "2025-11-30T09:22:09.186954-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.0706399282233886
+    },
+    {
+      "id": "3119fb4f-7e4a-4d1e-9a6a-8f5e2a302668",
+      "memory": "The \"Musical Storytime\" concert sounds perfect for Emma",
+      "hash": "56dfca115042c5b55a4cc5c77c35e13f",
+      "metadata": null,
+      "score": 0.2147263659435223,
+      "created_at": "2025-11-30T09:19:50.726551-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.024850310431900318
+    },
+    {
+      "id": "6ef99b18-2e99-4f9f-8dab-b7cf8d2a773d",
+      "memory": "Thinking of bringing niece Emma, who's taking piano lessons, to a concert or a show that might interest her",
+      "hash": "d37639373d3403038da0bece0d41cb8f",
+      "metadata": null,
+      "score": 0.36772016043397454,
+      "created_at": "2025-11-30T09:19:50.693886-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.01632996260796444
+    },
+    {
+      "id": "8b7f54a7-b8c2-47b9-8d0c-37c869eaf7b4",
+      "memory": "Wants to stay in a traditional Japanese-style room and enjoy a kaiseki dinner there",
+      "hash": "d1a00f59af474d3a6a6b9a9512fbe255",
+      "metadata": null,
+      "score": 0.19439596430423528,
+      "created_at": "2025-11-30T09:33:22.171695-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.01586464287856514
+    },
+    {
+      "id": "821f016c-253f-4729-a554-6c80cc76989e",
+      "memory": "Friend Emily recommended spinning",
+      "hash": "78ddd99ceca5fd09824c04db6f3cc314",
+      "metadata": null,
+      "score": 0.4180030083942857,
+      "created_at": "2025-11-30T09:42:07.595143-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.009071280590181252
+    },
+    {
+      "id": "0435eb4d-577d-4cc9-977b-34f2e3d235fb",
+      "memory": "Has an herb garden",
+      "hash": "ca4f6535633246889702afddd4ed140b",
+      "metadata": null,
+      "score": 0.21335053642949364,
+      "created_at": "2025-11-30T09:40:10.824883-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.004275984966235095
+    },
+    {
+      "id": "fc8a087a-80ec-489f-a222-3e1a0825866b",
+      "memory": "Has a cilantro plant named Charlie that is wilted",
+      "hash": "8d23d0877ea4a4f3d2257067e0db117c",
+      "metadata": null,
+      "score": 0.22331999126383018,
+      "created_at": "2025-11-30T09:40:10.747591-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.0010048266956144644
+    },
+    {
+      "id": "a147b157-ff8e-4be2-8b59-59d3d645ef6c",
+      "memory": "Asked where the assistant learned the name Yeshua",
+      "hash": "d9f88e496eff3b866e62d24e37ddccc5",
+      "metadata": null,
+      "score": 0.2196766460051958,
+      "created_at": "2025-11-30T09:25:59.325255-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.0007561948498866701
+    },
+    {
+      "id": "45639909-a94e-4f8f-b22c-b63ba03b9a41",
+      "memory": "Open to reading books from local authors from city or region",
+      "hash": "826f29abc857c91f2c12df6f4a8c0b23",
+      "metadata": null,
+      "score": 0.1988919097872454,
+      "created_at": "2025-11-30T09:32:07.205008-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.0006066938889280158
+    },
+    {
+      "id": "251aa8d4-a233-4640-bf42-98e77b5ce160",
+      "memory": "Interested in Ryokan Sanga",
+      "hash": "d20b963b072ff5a6da59aab865503f2d",
+      "metadata": null,
+      "score": 0.19661591321345395,
+      "created_at": "2025-11-30T09:33:22.186160-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.0005013673238608046
+    },
+    {
+      "id": "958ed721-0d86-410c-9bf9-69fab0b81d57",
+      "memory": "Interested in finding local music venues",
+      "hash": "6c3fc9a12c48185eb99c2b91bba44683",
+      "metadata": null,
+      "score": 0.23680843029497012,
+      "created_at": "2025-11-30T09:37:53.277001-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.00034631438964803445
+    },
+    {
+      "id": "f5e12503-af0b-40a3-b06b-faa4ece9629d",
+      "memory": "Wants to know if Maria is available on Tuesdays or Thursdays",
+      "hash": "b00c36d5928fa358b4aa47b42e097e50",
+      "metadata": null,
+      "score": 0.2790321509274892,
+      "created_at": "2025-11-30T09:42:07.769780-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_57",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2062,
+    "load_time": 1487.0212
+  }
+}

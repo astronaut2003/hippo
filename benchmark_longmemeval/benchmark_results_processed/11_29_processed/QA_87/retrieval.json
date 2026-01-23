@@ -1,0 +1,242 @@
+{
+  "sample_idx": 87,
+  "question_id": "2e6d26dc",
+  "question": "How many babies were born to friends and family members in the last few months?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T00:40:14.438404",
+  "load_result": {
+    "total_sessions": 54,
+    "added_sessions": 54,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "258e9b6f-e8a3-42cf-a3ce-b576272c6023",
+      "memory": "Wants to have the latest updates on friends' kids",
+      "hash": "6ed8aacbf8a5f7c9a71be45a98155699",
+      "metadata": null,
+      "score": 0.30331779032652806,
+      "created_at": "2025-12-01T08:40:57.041345-08:00",
+      "updated_at": "2025-12-01T08:55:48.351699-08:00",
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.9999999981559485
+    },
+    {
+      "id": "a94653e7-f836-4aba-be35-06367c312c34",
+      "memory": "Friends Mike and Emma welcomed their first baby, a girl named Charlotte, a few weeks after Rachel's baby shower",
+      "hash": "0ac32f335bd2317df63cab11401d8188",
+      "metadata": null,
+      "score": 0.3969035725736958,
+      "created_at": "2025-12-01T08:40:57.068830-08:00",
+      "updated_at": "2025-12-01T08:55:48.372633-08:00",
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.9887440975516546
+    },
+    {
+      "id": "481a89bb-0bd5-43eb-8600-751caa3f4ad7",
+      "memory": "Trying to get organized and keep track of all the birthdays and milestones in friends' and family's lives",
+      "hash": "b1ef1fa48c9432cb13a83c7018157e45",
+      "metadata": null,
+      "score": 0.32202698439692906,
+      "created_at": "2025-12-01T08:40:56.933051-08:00",
+      "updated_at": "2025-12-01T08:44:06.212010-08:00",
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.9343844849573003
+    },
+    {
+      "id": "584da7e1-3f7e-497a-b6eb-5d6ad31810ed",
+      "memory": "Should invite David and his wife, who just had their third child, a baby boy named Jasper, a few weeks ago",
+      "hash": "e4855eef6311f1fa59c48ed759ac482c",
+      "metadata": null,
+      "score": 0.3325996698543493,
+      "created_at": "2025-12-01T08:55:48.444353-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.8474362403832231
+    },
+    {
+      "id": "97f4adfb-29dc-4e31-991d-e35ed7a3628a",
+      "memory": "Will add cousin Rachel's son Max, who was born in March",
+      "hash": "29a5b4b388e50832d3b2e5ad6dd4ebc0",
+      "metadata": null,
+      "score": 0.37084465440352626,
+      "created_at": "2025-12-01T08:40:57.055737-08:00",
+      "updated_at": "2025-12-01T08:49:36.303798-08:00",
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.6872104192163633
+    },
+    {
+      "id": "fe183d96-2873-4d4f-a0a1-ab97b0658a03",
+      "memory": "Considering getting twin baby carriers and a diaper cake as gifts",
+      "hash": "acb2b55c76175b5da8bed152ca881491",
+      "metadata": null,
+      "score": 0.30520125586203417,
+      "created_at": "2025-12-01T08:46:04.530277-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.6544276350857258
+    },
+    {
+      "id": "125600ce-d870-44b2-9727-4dd46494485c",
+      "memory": "Planning a baby gift for aunt's twins, Ava and Lily, who were born in April",
+      "hash": "3bb4409a3211e2718df48cdd7339dcb9",
+      "metadata": null,
+      "score": 0.36638102178591503,
+      "created_at": "2025-12-01T08:40:57.082187-08:00",
+      "updated_at": "2025-12-01T08:46:04.494585-08:00",
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.5246283049389693
+    },
+    {
+      "id": "def031d0-7f4b-41f4-b9e7-282da0de0d56",
+      "memory": "Friend from college, David, had a baby boy named Jasper a few weeks ago",
+      "hash": "9a8adec41a0d95f6fcbc6ba117e58a43",
+      "metadata": null,
+      "score": 0.4178121659353616,
+      "created_at": "2025-12-01T08:40:56.973409-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.5073018082319378
+    },
+    {
+      "id": "ab542f86-7842-4ffe-910d-4b0325d4ab06",
+      "memory": "Attended Rachel's baby shower in February",
+      "hash": "f049c685b9fe8eac987f5eec033d51dd",
+      "metadata": null,
+      "score": 0.37153383117026906,
+      "created_at": "2025-12-01T08:49:36.361074-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.35631544875416604
+    },
+    {
+      "id": "bde801aa-dbc2-434c-b2e7-2e406198f50b",
+      "memory": "Wants to add a separate calendar for friends and family birthdays",
+      "hash": "774bfc639afb1752f94d32d25c01675d",
+      "metadata": null,
+      "score": 0.28459912628763095,
+      "created_at": "2025-12-01T08:40:57.012681-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.343364937528302
+    },
+    {
+      "id": "c64e2dff-0954-4c3d-a49b-9ae029d181e6",
+      "memory": "Will add friend Sarah's adopted daughter Aaliyah's birthday",
+      "hash": "3ce1fbceb14060796ed7ffb216d73be8",
+      "metadata": null,
+      "score": 0.3398048268798707,
+      "created_at": "2025-12-01T08:40:57.093532-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.22053644339418546
+    },
+    {
+      "id": "9b90cdf5-2be8-4ace-8422-88752322364b",
+      "memory": "Trying to plan a baby gift for a friend's upcoming baby shower",
+      "hash": "b116646c219d08a0ca92b383869fc58c",
+      "metadata": null,
+      "score": 0.340855915435163,
+      "created_at": "2025-12-01T08:49:36.324897-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.15059700000120924
+    },
+    {
+      "id": "6b9b0806-4d17-4547-a7fa-20e65ce75fd4",
+      "memory": "Thinking of inviting colleague Sarah, who recently adopted a child from Ethiopia, a girl named Aaliyah",
+      "hash": "5d3d33bc3994ff187a3904554cfd2d60",
+      "metadata": null,
+      "score": 0.2776636150002784,
+      "created_at": "2025-12-01T08:55:48.500757-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.1279464433152015
+    },
+    {
+      "id": "e6dce992-cea1-4289-be17-7ea6c2ad1b10",
+      "memory": "Has a rare genetic disorder in their family",
+      "hash": "b26fa0629761d2b248f4fa19279223d6",
+      "metadata": null,
+      "score": 0.35159312841329204,
+      "created_at": "2025-12-01T08:45:26.172591-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.0851441595739343
+    },
+    {
+      "id": "54cdd718-b81a-495a-9f7d-11e9307c625c",
+      "memory": "Wants to invite all the new parents",
+      "hash": "6bb01a0b18cd677b07950b8fd6d4d82d",
+      "metadata": null,
+      "score": 0.32331099632726434,
+      "created_at": "2025-12-01T08:55:48.400953-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.0588295086267794
+    },
+    {
+      "id": "f5031487-b23a-408c-a5c1-7dae5d087faf",
+      "memory": "Considering adding a little message or the twins' birthdate to the blanket",
+      "hash": "9b4fb52aea98f704406c27257a1ca4c8",
+      "metadata": null,
+      "score": 0.3916924332470982,
+      "created_at": "2025-12-01T08:46:04.585092-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.03418168203321956
+    },
+    {
+      "id": "2590edee-6fc4-4dd1-a2a0-abef0539878c",
+      "memory": "Will check out websites for baby stores or online marketplaces with wide variety of design options and fast shipping",
+      "hash": "0f479b990adea1d2f3fe95d94296edee",
+      "metadata": null,
+      "score": 0.2295726303620636,
+      "created_at": "2025-12-01T08:49:36.406200-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.024790978632368284
+    },
+    {
+      "id": "6565c0a3-9778-4c63-997d-86e748fa9fd4",
+      "memory": "Considering including a card with a heartfelt message for aunt and the twins",
+      "hash": "f43b4383b10b0b54fc2efb9cc6e2f794",
+      "metadata": null,
+      "score": 0.2760411786493664,
+      "created_at": "2025-12-01T08:46:04.628727-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.011712791263783218
+    },
+    {
+      "id": "4306f179-aee5-42a2-8b8b-b8f6b2972dd8",
+      "memory": "Thinks a custom design with the baby's name and initials would be a great idea",
+      "hash": "aa3cc3883871ca7f665e0da8c3839e7a",
+      "metadata": null,
+      "score": 0.23451198227261444,
+      "created_at": "2025-12-01T08:49:36.391446-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.0023530396551067452
+    },
+    {
+      "id": "da255ac6-18ea-4728-a2c8-ec96f8a69973",
+      "memory": "Will start by searching for neutral baby blankets on Etsy and Zazzle",
+      "hash": "172a3a56709a3d7b995a631d0cd57a29",
+      "metadata": null,
+      "score": 0.23589836769883493,
+      "created_at": "2025-12-01T08:49:36.449555-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_87",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.4208,
+    "load_time": 1295.4429
+  }
+}

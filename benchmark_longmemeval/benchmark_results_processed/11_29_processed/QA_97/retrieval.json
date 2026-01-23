@@ -1,0 +1,242 @@
+{
+  "sample_idx": 97,
+  "question_id": "2318644b",
+  "question": "How much more did I spend on accommodations per night in Hawaii compared to Tokyo?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T04:35:02.236421",
+  "load_result": {
+    "total_sessions": 41,
+    "added_sessions": 41,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "21b7e4ec-7d24-4559-9d40-e217c8065ed4",
+      "memory": "Stayed in a hostel in Tokyo that cost around $30 per night when went solo last January",
+      "hash": "cb25ee49c75a4aeabe4eb705ffcd4f95",
+      "metadata": null,
+      "score": 0.6146599911035978,
+      "created_at": "2025-12-01T12:43:19.261514-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.9999999987696236
+    },
+    {
+      "id": "26061956-1b29-4055-9a36-2bfc2bf279d5",
+      "memory": "Planning a trip to Japan and looking for affordable accommodation options",
+      "hash": "bd6663febc9c0787bf559023843c9865",
+      "metadata": null,
+      "score": 0.6126796390720755,
+      "created_at": "2025-12-01T12:40:46.068691-08:00",
+      "updated_at": "2025-12-01T12:43:19.223949-08:00",
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.412882272170657
+    },
+    {
+      "id": "72d3695b-d4b2-40d9-817e-befcf7eefb5b",
+      "memory": "Staying at a luxurious resort in Maui that costs over $300 per night",
+      "hash": "e7ff2ea32b5d6c0e160360a50b3c4f30",
+      "metadata": null,
+      "score": 0.5934632117486929,
+      "created_at": "2025-12-01T12:40:46.247462-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.39101959651864115
+    },
+    {
+      "id": "788d8054-f7eb-4ff9-a8c7-5b8715b11b5d",
+      "memory": "Booked a luxurious resort in Maui that costs over $300 per night",
+      "hash": "3ff21aaf187ec80bac5da9b18e05f9e9",
+      "metadata": null,
+      "score": 0.5806569926262172,
+      "created_at": "2025-12-01T12:40:46.100293-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.3572373346003582
+    },
+    {
+      "id": "7f6a9474-b1f4-4ce1-9355-b51daf6b1d41",
+      "memory": "Looking to spend around $50-75 per person for dinner",
+      "hash": "a8b9c81e5777e7d6b780cafd9994a9ae",
+      "metadata": null,
+      "score": 0.2778028156823594,
+      "created_at": "2025-12-01T12:41:35.789604-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.2335077733138357
+    },
+    {
+      "id": "a9cb48c4-3af3-41f0-95f1-e90d7fce9a3c",
+      "memory": "Planning to go on the trip during a weekday",
+      "hash": "1b9bf2188411089e213d7e3914ea7e0b",
+      "metadata": null,
+      "score": 0.34598871198516334,
+      "created_at": "2025-12-01T12:35:54.196775-08:00",
+      "updated_at": "2025-12-01T12:53:45.325540-08:00",
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.19315740967784698
+    },
+    {
+      "id": "5fd5feab-b726-4aad-b584-6640c603047c",
+      "memory": "Planning to visit some of the popular tourist spots in Tokyo, such as Shibuya Crossing and the Tokyo Tower",
+      "hash": "c18dc2c3da335983be88862ce2439a1b",
+      "metadata": null,
+      "score": 0.3877850806494247,
+      "created_at": "2025-12-01T12:43:19.276736-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.1824160711141371
+    },
+    {
+      "id": "d586ca6a-63d6-4d79-8a6f-35dde2d21591",
+      "memory": "Had some amazing street food in Tokyo before and looking forward to trying some more during this trip",
+      "hash": "8ef3db7385e9e35079cbc7fc0fdf4c17",
+      "metadata": null,
+      "score": 0.42880798918163177,
+      "created_at": "2025-12-01T12:43:19.308587-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.14980319789312901
+    },
+    {
+      "id": "7d3f3dc2-1222-4a5a-8593-7d253b98bb27",
+      "memory": "Trying to balance out the cost by looking for free or affordable activities and dining options",
+      "hash": "75648e42895b63dd573c7cdc839fba4a",
+      "metadata": null,
+      "score": 0.2653924386772726,
+      "created_at": "2025-12-01T12:40:46.262807-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.13960219998273546
+    },
+    {
+      "id": "e460b918-f9b9-4105-8857-b49c40bf2db1",
+      "memory": "Considering stopping by Mama's Fish House or The Fish Hopper for dinner",
+      "hash": "dbd95c1564a911c6d2a2094f4187f9ba",
+      "metadata": null,
+      "score": 0.2549281933859213,
+      "created_at": "2025-12-01T12:40:46.231810-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.003992184592352156
+    },
+    {
+      "id": "c21fa0f3-c99e-4056-8871-26c1c93d919d",
+      "memory": "Looking for affordable breakfast or brunch spots in Maui",
+      "hash": "48ea74604dc675bddf7660db0c75fce4",
+      "metadata": null,
+      "score": 0.415218547189558,
+      "created_at": "2025-12-01T12:40:46.276925-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.0017080866211348306
+    },
+    {
+      "id": "fe7440e6-97d8-4d4c-bba4-587f56cc7f5e",
+      "memory": "Considering trying Kihei Caffe or Cafe O'Lei at the Dunes for breakfast",
+      "hash": "5c0e8be57e42cb33627f984f157484db",
+      "metadata": null,
+      "score": 0.31342335734112187,
+      "created_at": "2025-12-01T12:40:46.292392-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.0016164457850349266
+    },
+    {
+      "id": "248a7792-5ce4-45e5-801f-422b351a4683",
+      "memory": "Planning to visit the Tsukiji Fish Market during the trip",
+      "hash": "cb6bab9a12129df8fca97aab43c43302",
+      "metadata": null,
+      "score": 0.28020336163563864,
+      "created_at": "2025-12-01T12:43:19.293376-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.001057096405152414
+    },
+    {
+      "id": "a20c03ec-cbd7-42c8-94c3-9f57380e48f7",
+      "memory": "Slept in until 9:00 AM last Saturday",
+      "hash": "6df33bfe0530ac3981f5352c41a1dbae",
+      "metadata": null,
+      "score": 0.30644183021015553,
+      "created_at": "2025-12-01T12:35:54.184004-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.000977424026520103
+    },
+    {
+      "id": "f448737d-fe22-46d4-99d2-e7188196d869",
+      "memory": "Planning to visit the Meiji Shrine",
+      "hash": "ee2877c218ebc969c3813a2ef67335d8",
+      "metadata": null,
+      "score": 0.40580914519321387,
+      "created_at": "2025-12-01T12:43:19.337261-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.0008306344158146229
+    },
+    {
+      "id": "03e3553e-b0a0-443f-83c6-d111727886e9",
+      "memory": "Plans to stop by the Haleakala Visitor Center after the hike",
+      "hash": "26f23f6c9b98268c7370c0cf4bc9b3d1",
+      "metadata": null,
+      "score": 0.2766696314739546,
+      "created_at": "2025-12-01T12:40:46.174892-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.00022470192206314491
+    },
+    {
+      "id": "02afecfe-85bf-4ad4-8722-b0f0e1367330",
+      "memory": "Thinking of visiting the Tsukiji Outer Market instead of the Toyosu Market",
+      "hash": "15a6985be83a6e57654a97a84075ec18",
+      "metadata": null,
+      "score": 0.2841607602058046,
+      "created_at": "2025-12-01T12:43:19.323129-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.00019302071111951613
+    },
+    {
+      "id": "8956374d-638c-4012-9ce4-e32ee5cbe93d",
+      "memory": "Interested in Haleakala National Park and the Waihee Ridge Trail",
+      "hash": "f71164315bdb09dfbd53213b105990dc",
+      "metadata": null,
+      "score": 0.26241663324799747,
+      "created_at": "2025-12-01T12:40:46.129328-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.00013505582887450644
+    },
+    {
+      "id": "057c786a-50bf-4f7d-b9c5-9e81d61fbb59",
+      "memory": "Looking for outdoor activities and hiking trails in Maui",
+      "hash": "eee820979dc012dd0c0f505d9f55af3b",
+      "metadata": null,
+      "score": 0.3261265132976161,
+      "created_at": "2025-12-01T12:40:46.085266-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 3.437998076475272e-05
+    },
+    {
+      "id": "4612b27b-81da-48aa-8b1a-6c8295be655f",
+      "memory": "Planning to visit the nearby Takeshita-dori Street after the Meiji Shrine",
+      "hash": "f814c6599538a301dd0a968c84a55c66",
+      "metadata": null,
+      "score": 0.35129404295125777,
+      "created_at": "2025-12-01T12:43:19.352297-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_97",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.346,
+    "load_time": 1284.1756
+  }
+}

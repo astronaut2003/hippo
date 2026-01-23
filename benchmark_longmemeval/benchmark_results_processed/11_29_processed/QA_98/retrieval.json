@@ -1,0 +1,242 @@
+{
+  "sample_idx": 98,
+  "question_id": "2ce6a0f2",
+  "question": "How many different art-related events did I attend in the past month?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T04:56:32.297967",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 47,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "2c185492-8e19-4aaf-86c0-eaddb6c024ed",
+      "memory": "Looking for information on local art events and exhibitions",
+      "hash": "5fb5be4ea1360fe4a403bcb58b322e78",
+      "metadata": null,
+      "score": 0.6044445212099314,
+      "created_at": "2025-12-01T13:14:04.756817-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.9999999979411283
+    },
+    {
+      "id": "de0246ec-004f-4ad2-9c6b-d06c7b531ee0",
+      "memory": "Looking for art inspiration",
+      "hash": "ea66e6271cf89b4b553bc4deb19db1ce",
+      "metadata": null,
+      "score": 0.39931925866477047,
+      "created_at": "2025-12-01T12:58:50.915570-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.7649390398163098
+    },
+    {
+      "id": "ab4f7d27-4771-4e87-9a6a-efc371cc807a",
+      "memory": "Thinking of visiting some local art studios and galleries this weekend",
+      "hash": "11e80a704c971e9ddc6aeb13034a69ff",
+      "metadata": null,
+      "score": 0.5279592095354835,
+      "created_at": "2025-12-01T13:14:04.809064-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.37445895868761553
+    },
+    {
+      "id": "c411f8fe-1a83-4f41-bcb4-60dfa93ee89e",
+      "memory": "Has been taking an online course on art history lately",
+      "hash": "f26a5ae2a282a334af2bbaecf225d0cd",
+      "metadata": null,
+      "score": 0.46404282748396,
+      "created_at": "2025-12-01T12:58:50.993273-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.37063191416896774
+    },
+    {
+      "id": "787c5a97-6d1b-42fd-b538-c84bf7a3e13d",
+      "memory": "Attended a lecture at the Art Gallery on 'The Evolution of Street Art' on March 3rd",
+      "hash": "6e835f7cefd734c4e0985b3ade369135",
+      "metadata": null,
+      "score": 0.44698332619364883,
+      "created_at": "2025-12-01T13:07:11.019471-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.23612320792451483
+    },
+    {
+      "id": "b4fc0818-085b-4f37-bebf-a90e8127029b",
+      "memory": "Volunteered at the Children's Museum for their 'Art Afternoon' event on February 17th",
+      "hash": "ea4bf8149bbe8a536b9bbc1ed046c107",
+      "metadata": null,
+      "score": 0.558014929449827,
+      "created_at": "2025-12-01T12:58:50.901569-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.22539055796125965
+    },
+    {
+      "id": "efc015bb-3f3a-44bb-b645-71047885af91",
+      "memory": "Recently went on a guided tour at the History Museum on February 24th",
+      "hash": "a1bdf06be5b6797f6ba32bd801006720",
+      "metadata": null,
+      "score": 0.4779222693117934,
+      "created_at": "2025-12-01T13:15:01.237751-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.16933655887306046
+    },
+    {
+      "id": "a8755427-fa2a-430d-9e78-897ba803c84f",
+      "memory": "Wants to get notified about upcoming events at a specific museum or gallery",
+      "hash": "9e6e9e512bed924d4b83d7e0fc50bb41",
+      "metadata": null,
+      "score": 0.4794195562049496,
+      "created_at": "2025-12-01T13:14:04.793750-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.08470038254970036
+    },
+    {
+      "id": "aa7ed2fc-a8db-459a-acb8-486d8062fa9b",
+      "memory": "Was drawn to the works of local artist Rachel Lee at the 'Women in Art' exhibition attended on February 10th",
+      "hash": "eb0629ce952828d96a47f26a390cdbcd",
+      "metadata": null,
+      "score": 0.3945412990926471,
+      "created_at": "2025-12-01T12:58:50.947287-08:00",
+      "updated_at": "2025-12-01T13:14:04.704685-08:00",
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.07056126830272343
+    },
+    {
+      "id": "0755870e-772a-4092-9c4e-4877b1111a0f",
+      "memory": "Interested in local artists or exhibitions that focus on mixed media or feminist art",
+      "hash": "99007c0b8433a92cb43ffcdd3fb6e703",
+      "metadata": null,
+      "score": 0.4419603803377964,
+      "created_at": "2025-12-01T12:58:50.932372-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.03131045098133153
+    },
+    {
+      "id": "821d01e7-7d7d-44e0-9410-69ec589170b5",
+      "memory": "Curator Sarah Johnson mentioned that the Modern Art Museum might host more events and exhibitions focused on local artists",
+      "hash": "4a69fb8cc6d995899986ab285511ae84",
+      "metadata": null,
+      "score": 0.45816249694852124,
+      "created_at": "2025-12-01T13:14:04.773466-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.028674657763008815
+    },
+    {
+      "id": "9ba415f4-cf3d-48fe-8343-498940488ce8",
+      "memory": "Interested in learning more about street art",
+      "hash": "a24d3953ab493a42de62358abe276943",
+      "metadata": null,
+      "score": 0.3959695981046002,
+      "created_at": "2025-12-01T13:07:11.004545-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.02689141327486766
+    },
+    {
+      "id": "5f68b7c6-2c25-41ec-9079-02cb5afee9d6",
+      "memory": "Particularly interested in stencil art after seeing some work at the lecture on March 3rd",
+      "hash": "681bc453aa0252d401dab1c6ed32a2d9",
+      "metadata": null,
+      "score": 0.4039704646936178,
+      "created_at": "2025-12-01T13:07:11.036927-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.020783771450586803
+    },
+    {
+      "id": "8e1c6eb0-2e8b-43d5-ad86-2fa8062c12f3",
+      "memory": "Wants to explore the significance of cultural festivals and events in promoting diversity and inclusivity",
+      "hash": "cee8aa19053a1d918d385da04d4820ef",
+      "metadata": null,
+      "score": 0.412542313879072,
+      "created_at": "2025-12-01T12:59:29.797041-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.01719195341253724
+    },
+    {
+      "id": "19ba14e5-d46c-4fdd-a98a-92a73825b90e",
+      "memory": "Interest sparked in ancient history and art",
+      "hash": "1d180fa5975b86f15982719a90b07146",
+      "metadata": null,
+      "score": 0.3914972445752915,
+      "created_at": "2025-12-01T13:15:01.253280-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.0038602275530560553
+    },
+    {
+      "id": "319c11c9-481f-4cff-9ba9-7074b977748f",
+      "memory": "Particularly interested in The Metropolitan Museum of Art",
+      "hash": "5bc1003852629e749070a73e1c4d508c",
+      "metadata": null,
+      "score": 0.43607394278990763,
+      "created_at": "2025-12-01T13:15:01.272235-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.003346381393018024
+    },
+    {
+      "id": "4f1b4073-fd10-4075-bfc6-d2e249099dea",
+      "memory": "Will check the city's social media accounts and events calendar for street performances",
+      "hash": "3b0999aa760f17d25358babfa6ea00f8",
+      "metadata": null,
+      "score": 0.42393313921812015,
+      "created_at": "2025-12-01T13:05:07.434956-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.0032599876939669223
+    },
+    {
+      "id": "aa33d8ee-4421-4e42-a36d-3d5a0f747d2b",
+      "memory": "Knows there's a lot of street art in the downtown area of Los Angeles",
+      "hash": "bb031a5cbeae0ae6cfbe228f1cdfd804",
+      "metadata": null,
+      "score": 0.39517274362553634,
+      "created_at": "2025-12-01T13:07:11.052893-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.0011979271770699387
+    },
+    {
+      "id": "87448678-3d6f-4057-9049-cea6dc3aefd2",
+      "memory": "Excited to explore the Greek and Roman Galleries",
+      "hash": "7e45e52412548880d605a20dc245dff1",
+      "metadata": null,
+      "score": 0.43134182625595907,
+      "created_at": "2025-12-01T13:15:01.363513-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.0010412404228818037
+    },
+    {
+      "id": "cb8af6f6-2a4b-4b4b-adce-ec1e1a69ba6d",
+      "memory": "Wants examples of festivals that celebrate diverse cultures and promote cross-cultural understanding",
+      "hash": "fbc32d8624063b17dc78990b02d80715",
+      "metadata": null,
+      "score": 0.40136062244525916,
+      "created_at": "2025-12-01T12:59:29.812299-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_98",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2329,
+    "load_time": 1390.5749
+  }
+}

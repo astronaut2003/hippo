@@ -1,0 +1,242 @@
+{
+  "sample_idx": 34,
+  "question_id": "8550ddae",
+  "question": "What type of cocktail recipe did I try last weekend?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-29T16:57:06.268125",
+  "load_result": {
+    "total_sessions": 42,
+    "added_sessions": 42,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "c72a97a0-dcec-4dcc-bc82-7a1975ddbaa2",
+      "memory": "Tried a lavender gin fizz recipe last weekend but it didn't turn out as expected",
+      "hash": "c17a694419a3db62f22e7b3ca6e40bf2",
+      "metadata": null,
+      "score": 0.5552847419064388,
+      "created_at": "2025-11-29T00:59:28.877655-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.999999999123652
+    },
+    {
+      "id": "a91d4307-4d47-4baa-98d6-8bd9ea440cb3",
+      "memory": "Excited to try out citrus-based cocktails, especially the Citrus Sunrise and Triple Citrus Collins",
+      "hash": "76e14695c0cd17c8ee6fddd899a6288b",
+      "metadata": null,
+      "score": 0.6249535264947582,
+      "created_at": "2025-11-29T01:12:40.897762-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.6424360667495707
+    },
+    {
+      "id": "6560e4a4-940d-46df-bfd6-db9a8a2bb062",
+      "memory": "Interested in the Lavender Dream cocktail",
+      "hash": "7db8012bf3aca0d106fb42bb9dac0468",
+      "metadata": null,
+      "score": 0.5178169606886792,
+      "created_at": "2025-11-29T00:59:28.845481-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.3949741857626068
+    },
+    {
+      "id": "b3aa558c-d5ff-4086-8141-031d750ed21f",
+      "memory": "Has been experimenting with lavender in cocktails lately",
+      "hash": "1513bd7e3784cfbb05ca5fabf8965b38",
+      "metadata": null,
+      "score": 0.5781211801844796,
+      "created_at": "2025-11-29T00:59:28.863695-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.322749629755873
+    },
+    {
+      "id": "b38b158d-00be-4a72-8d47-48dcca06a9b6",
+      "memory": "Wants to plan drinks for the dinner party",
+      "hash": "348ea85402deac0be3dd965fd5e62080",
+      "metadata": null,
+      "score": 0.552501934606046,
+      "created_at": "2025-11-29T01:14:34.309621-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.26794641845241873
+    },
+    {
+      "id": "2b4fd2c6-3389-492d-9f33-77a7d5cb4b95",
+      "memory": "Will look into making a lavender syrup or infusion to add to Bombay Sapphire and Fever-Tree elderflower tonic",
+      "hash": "ed9bc58b9db56391379fed3e128d1721",
+      "metadata": null,
+      "score": 0.4303587811510182,
+      "created_at": "2025-11-29T00:59:29.059155-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.240584991506367
+    },
+    {
+      "id": "79fa5382-39c0-463d-9387-814b3f179231",
+      "memory": "Wants to experiment with different gin brands for the summer dinner party",
+      "hash": "af4d8cfaf14c643487f89999c0a82a3d",
+      "metadata": null,
+      "score": 0.44817210796388984,
+      "created_at": "2025-11-29T00:59:28.910264-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.23895678236654652
+    },
+    {
+      "id": "25e87b52-8c18-49b1-a952-7af3322711a8",
+      "memory": "Will consider trying some herbal teas or blends",
+      "hash": "eb1b769022b087a4ca817bae4f35f030",
+      "metadata": null,
+      "score": 0.40258729340009825,
+      "created_at": "2025-11-29T01:03:46.105448-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.23883442849216518
+    },
+    {
+      "id": "ef65830f-affe-48f7-9ea5-596923350a82",
+      "memory": "Wants to experiment with lavender in cocktails more",
+      "hash": "258be79d235a47d3d315222e329669a7",
+      "metadata": null,
+      "score": 0.5762345307150685,
+      "created_at": "2025-11-29T00:59:29.026264-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.19828230948973127
+    },
+    {
+      "id": "89e5e878-a9dc-487d-b022-357ef429b47e",
+      "memory": "Thinks using lavender in a gin and tonic sounds fantastic",
+      "hash": "0eec6928414cb28f9d28c83581866a91",
+      "metadata": null,
+      "score": 0.4796087926937713,
+      "created_at": "2025-11-29T00:59:29.043117-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.19238525390479475
+    },
+    {
+      "id": "68e90c8c-8052-439f-bc38-91741e7c727e",
+      "memory": "Didn't have simple syrup and improvised with honey and water",
+      "hash": "03cc684f8e3ccdaf00163e9cf6a65532",
+      "metadata": null,
+      "score": 0.493715455334247,
+      "created_at": "2025-11-29T00:59:28.893727-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.1857239880552797
+    },
+    {
+      "id": "360b161d-97b2-4e9e-b8ab-dea9ab5f8c20",
+      "memory": "Wants signature cocktails that would complement the Italian-inspired menu",
+      "hash": "9ff24b287174f700fe6d661e0d6b9eed",
+      "metadata": null,
+      "score": 0.5725717554287568,
+      "created_at": "2025-11-29T01:12:40.836377-08:00",
+      "updated_at": "2025-11-29T01:14:34.167226-08:00",
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.17939585235828104
+    },
+    {
+      "id": "08ff8d4e-2d94-4916-8662-3ce92d2d89f9",
+      "memory": "Wants to try out new spices and flavor combinations",
+      "hash": "d82717fc7865bf784e32655cd2a8923a",
+      "metadata": null,
+      "score": 0.4750868578819355,
+      "created_at": "2025-11-29T00:58:28.026203-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.17295639469360757
+    },
+    {
+      "id": "d07f2e7e-30f0-4acb-ace4-7172f13d7a3b",
+      "memory": "Planning a dinner party for this weekend",
+      "hash": "cb70e02598b38ec49ea627f0ee849f4b",
+      "metadata": null,
+      "score": 0.4547899790381077,
+      "created_at": "2025-11-29T00:59:28.828749-08:00",
+      "updated_at": "2025-11-29T01:14:34.101402-08:00",
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.16399965649862958
+    },
+    {
+      "id": "457808dd-4855-4e82-a462-745d6fe77694",
+      "memory": "Wants to try some unique green tea flavors",
+      "hash": "c7d4068e2dfcab35faefc648029d9123",
+      "metadata": null,
+      "score": 0.44546763957188745,
+      "created_at": "2025-11-29T01:03:45.914683-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.0952284215912379
+    },
+    {
+      "id": "e1b92e19-1731-4606-9ff0-b829965eea4b",
+      "memory": "Looking for new vegan recipe ideas",
+      "hash": "cdd2f98a8863e2c9b1eeb16999847512",
+      "metadata": null,
+      "score": 0.39614153903810817,
+      "created_at": "2025-11-29T00:58:27.881375-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.03936969918361754
+    },
+    {
+      "id": "d57eb0a6-a8f9-4885-aedc-d5fdb02b9346",
+      "memory": "Wants healthy lunch ideas that can be prepped on weekends",
+      "hash": "7a4b36950323fa963c35f19a1b0b4b67",
+      "metadata": null,
+      "score": 0.4026361911531886,
+      "created_at": "2025-11-29T01:02:32.362745-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.03659241667025266
+    },
+    {
+      "id": "5642428d-f867-4086-ad00-6c5a2379deb3",
+      "memory": "Recently had a big breakfast at a café that included scrambled eggs, sausages, and hash browns",
+      "hash": "c1169508e9aba5ddcd9ea0b786f04c59",
+      "metadata": null,
+      "score": 0.41255737441715234,
+      "created_at": "2025-11-29T01:02:32.282990-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.03301264651903969
+    },
+    {
+      "id": "59e31931-2e96-43a9-bd52-2541ef3ff4b5",
+      "memory": "Has been experimenting with different tonic waters",
+      "hash": "645737a30bd7dab0c15cd026592eb696",
+      "metadata": null,
+      "score": 0.41469578232646664,
+      "created_at": "2025-11-29T00:59:28.991592-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.009139934706346787
+    },
+    {
+      "id": "0ecc92e1-26eb-415f-a12d-22789280701e",
+      "memory": "Wants dinner ideas that help use up ingredients already in pantry",
+      "hash": "ea99484d3acd61ce32f1a22cac958959",
+      "metadata": null,
+      "score": 0.4494602511267559,
+      "created_at": "2025-11-29T01:02:32.435107-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_34",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0712,
+    "load_time": 1449.6722
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "sample_idx": 138,
+  "question_id": "195a1a1b",
+  "question": "Can you suggest some activities that I can do in the evening?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T08:43:27.292533",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 46,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "c58982af-846f-418f-aebf-020a721841ee",
+      "memory": "Planning a summer vacation and thinking of doing outdoor activities",
+      "hash": "11fb189cabe4fbe4b15bc087c8396d14",
+      "metadata": null,
+      "score": 0.499746347134882,
+      "created_at": "2025-12-06T16:45:46.102989-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.9999999977334154
+    },
+    {
+      "id": "421d0cba-cd51-4157-be19-5cd007620179",
+      "memory": "Interested in trying out some recommended lunch places",
+      "hash": "79fb7c9d6ccb44be363438d425ee36d2",
+      "metadata": null,
+      "score": 0.23013487457399806,
+      "created_at": "2025-12-06T17:06:20.872876-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.7219168128466702
+    },
+    {
+      "id": "d614f54f-6c3a-4c46-8150-f52d82afa173",
+      "memory": "Was thinking about grocery shopping trip on Saturday",
+      "hash": "68026af3a9207fad804c7497898fbd2d",
+      "metadata": null,
+      "score": 0.24188915097307787,
+      "created_at": "2025-12-06T16:56:59.388073-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.54236941426551
+    },
+    {
+      "id": "4b350882-b44c-4934-bb35-f3023a5e66cf",
+      "memory": "Wants suggestions on creating a sense of movement or energy in a cityscape at sunset painting",
+      "hash": "6a13b542f03652662837f0d35686e166",
+      "metadata": null,
+      "score": 0.3860894106781099,
+      "created_at": "2025-12-06T17:03:43.874091-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.17089176955618582
+    },
+    {
+      "id": "73ef636f-fdb6-43f4-b830-e914ea6d6bdc",
+      "memory": "Wondering if there are any cycling events or festivals happening in the nearby mountains this summer that they could participate in or attend",
+      "hash": "425d0596fd793f9309ffabc3739bfd70",
+      "metadata": null,
+      "score": 0.2555992691007861,
+      "created_at": "2025-12-06T16:45:46.253949-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.16372633623328608
+    },
+    {
+      "id": "d6209b9b-d5c4-4fa5-b35e-d0fda89b8f09",
+      "memory": "Looking for suggestions for specific pieces that would work well for a 4-day trip to NYC in the spring",
+      "hash": "411db10dba350d2164b1e4f5ed2dc945",
+      "metadata": null,
+      "score": 0.3145978190954919,
+      "created_at": "2025-12-06T16:47:46.332447-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.15216424196170675
+    },
+    {
+      "id": "3ae43761-2927-4d6c-b7ba-b85d5d51a5ef",
+      "memory": "Excited to get into mountain biking and explore the trails in the nearby mountains",
+      "hash": "11ef6b07649f2b68b35c76d8ba11b7be",
+      "metadata": null,
+      "score": 0.2520872192323776,
+      "created_at": "2025-12-06T16:45:46.327063-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.11739603513027505
+    },
+    {
+      "id": "ea8403ca-d719-48c3-8600-230b425d47d3",
+      "memory": "Will try out WriteTrack",
+      "hash": "a38db129fa2029e17f4dc2ff3fbc8cd3",
+      "metadata": null,
+      "score": 0.23190845031722848,
+      "created_at": "2025-12-06T16:46:41.585061-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.1173158403804245
+    },
+    {
+      "id": "c1d34217-fc47-4cb1-bb88-4de613c116b7",
+      "memory": "Likes the idea of adding cultural activities to make the event more engaging",
+      "hash": "7ef0240a8553ee08136b09d8fa48db42",
+      "metadata": null,
+      "score": 0.3201882665863454,
+      "created_at": "2025-12-06T16:54:14.276640-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.05068545964745533
+    },
+    {
+      "id": "db2a535e-654a-44ef-9256-8538118be3b5",
+      "memory": "Finds journaling helpful for clearing mind, getting thoughts down, reflecting on progress and goals",
+      "hash": "1d46a71892bc553d765e8839d4b6f649",
+      "metadata": null,
+      "score": 0.24605023689993816,
+      "created_at": "2025-12-06T16:46:41.630354-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.021224372757615653
+    },
+    {
+      "id": "c40d1cde-1bab-4ccd-8840-d1f44bf02fa7",
+      "memory": "Will bring a picnic lunch and enjoy it at the lake",
+      "hash": "f1e7a1ba4c1ef496f2cf1ca74e6254d9",
+      "metadata": null,
+      "score": 0.38132143048508715,
+      "created_at": "2025-12-06T17:04:28.178037-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.008212936713130867
+    },
+    {
+      "id": "c4789ac6-7045-49a6-9c32-680bffee3e36",
+      "memory": "Planning to host a movie night at local community center",
+      "hash": "821ae959ba8b290dffc30b99219bf0ac",
+      "metadata": null,
+      "score": 0.2668347268442165,
+      "created_at": "2025-12-06T16:54:14.176347-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.004780342029500964
+    },
+    {
+      "id": "f04e523c-fbe8-4d19-8a39-13516f8596fa",
+      "memory": "Thinking of using a combination of fabric stamping and drybrushing to create a cityscape at sunset",
+      "hash": "7f16889258c576b89b255ee874a2509c",
+      "metadata": null,
+      "score": 0.23231093188026486,
+      "created_at": "2025-12-06T17:03:43.827305-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.0036100606934069907
+    },
+    {
+      "id": "c3481576-3eec-450d-b684-d57d53f0778f",
+      "memory": "Doing research online and found a pair of lamps that will work well",
+      "hash": "435935e3db4b062c04ecc3bc449b6dac",
+      "metadata": null,
+      "score": 0.2419394256026449,
+      "created_at": "2025-12-06T16:55:11.013802-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.0035612089050883282
+    },
+    {
+      "id": "da16de1d-c4ac-4c8c-827a-5b9ffe7211c1",
+      "memory": "Asking what kind of snacks to pack for the trip",
+      "hash": "30a8282dd5fc7e2e229d16dee4071794",
+      "metadata": null,
+      "score": 0.24935591528360698,
+      "created_at": "2025-12-06T16:47:46.527037-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.003132566886345375
+    },
+    {
+      "id": "70636be3-7762-441f-a8f2-0a15e01c3db8",
+      "memory": "Morning pages have influenced creative writing projects, sometimes developing themes into poems or short story scenes",
+      "hash": "66e395f4029688c2307d2f6cd125b62f",
+      "metadata": null,
+      "score": 0.24104228555749724,
+      "created_at": "2025-12-06T16:46:41.662284-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.0026306471851244282
+    },
+    {
+      "id": "6f7f76a5-d550-4125-ad3a-30db272fd4bc",
+      "memory": "Looking for warm and soft lighting for bedroom table lamps",
+      "hash": "eb4d9029c87f604548dbf9d506356bc9",
+      "metadata": null,
+      "score": 0.22754963296795888,
+      "created_at": "2025-12-06T16:55:10.998865-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.0018174594521385534
+    },
+    {
+      "id": "7ced7497-7f89-42a9-a730-608fa755b536",
+      "memory": "Morning pages have helped develop characters and story ideas",
+      "hash": "a366f89984087c03a988f9a0f37c7a2e",
+      "metadata": null,
+      "score": 0.31367445721008924,
+      "created_at": "2025-12-06T16:46:41.677079-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.00039902832405420665
+    },
+    {
+      "id": "ae40edac-9a03-4907-815f-1dd53a686ea4",
+      "memory": "Currently focusing on enjoying practice and seeing how it continues to benefit physical and mental health",
+      "hash": "52d6d3504cd81567d7f4e3fbbfab9501",
+      "metadata": null,
+      "score": 0.26745057834298624,
+      "created_at": "2025-12-06T17:01:16.030251-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.00017292668431384903
+    },
+    {
+      "id": "b176cea8-ab9c-4642-82e3-7952384fd662",
+      "memory": "Thinking of adding trees or foliage to the cityscape for contrast and visual interest",
+      "hash": "1846a1c1534973a44208bbc0969cd253",
+      "metadata": null,
+      "score": 0.2419706801096559,
+      "created_at": "2025-12-06T17:03:43.887487-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_138",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2569,
+    "load_time": 1445.1202
+  }
+}

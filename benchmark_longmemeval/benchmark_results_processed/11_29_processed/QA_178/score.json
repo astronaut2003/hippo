@@ -1,0 +1,77 @@
+{
+  "sample_idx": 178,
+  "question_id": "60036106",
+  "question": "What was the total number of people reached by my Facebook ad campaign and Instagram influencer collaboration?",
+  "question_type": "multi-session",
+  "gold_answer": "12,000",
+  "question_date": "2023/05/30 (Tue) 11:00",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-08T20:20:50.498827",
+  "predicted_answer": "The total number of people reached by your Facebook ad campaign was around 2,000, and the influencer collaboration reached 10,000 followers. Therefore, the total number of people reached is approximately 12,000.",
+  "prompt_length": 3411,
+  "gen_token_usage": {
+    "prompt_tokens": 878,
+    "answer_tokens": 44,
+    "total_tokens": 922,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.67,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 31,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.07142857142857142,
+      "rouge1_f": 0.1111111111111111,
+      "rouge2_f": 0.05882352941176471,
+      "rougeL_f": 0.1111111111111111,
+      "semantic_similarity": 0.27686363458633423,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.0734126984126984,
+      "avg_semantic": 0.27686363458633423,
+      "overall_average": 0.11410288512706757
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.07142857142857142,
+    "rouge1_f": 0.1111111111111111,
+    "rouge2_f": 0.05882352941176471,
+    "rougeL_f": 0.1111111111111111,
+    "semantic_similarity": 0.27686363458633423,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.0734126984126984,
+    "avg_semantic": 0.27686363458633423,
+    "overall_average": 0.11410288512706757
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1458.9953,
+    "retrieval_time": 0.4568,
+    "generation_time": 2.082,
+    "evaluation_time": 1.025,
+    "cleanup_time": 1.7678,
+    "total_time": 1464.3315
+  }
+}

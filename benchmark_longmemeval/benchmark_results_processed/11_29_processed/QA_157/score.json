@@ -1,0 +1,77 @@
+{
+  "sample_idx": 157,
+  "question_id": "b0479f84",
+  "question": "I've got some free time tonight, any documentary recommendations?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer documentary recommendations that are similar in style and theme to 'Our Planet', 'Free Solo', and 'Tiger King', which they have previously enjoyed. They might not prefer recommendations of documentaries that are vastly different in tone or subject matter from these titles. The preferred response utilizes the user's previously mentioned viewing history to suggest documentaries that cater to their tastes.",
+  "question_date": "2023/05/30 (Tue) 22:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T17:05:46.911058",
+  "predicted_answer": "Based on your recent interest in documentaries, I recommend checking out \"Our Planet,\" \"Free Solo,\" and \"Tiger King,\" as you've recently finished watching them. If you're looking for something new, consider exploring more nature and wildlife documentaries, as you've shown interest in that genre.",
+  "prompt_length": 2909,
+  "gen_token_usage": {
+    "prompt_tokens": 784,
+    "answer_tokens": 55,
+    "total_tokens": 839,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.6,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 63,
+      "response_length": 44,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.24000000000000002,
+      "rouge1_f": 0.25225225225225223,
+      "rouge2_f": 0.11009174311926605,
+      "rougeL_f": 0.21621621621621623,
+      "semantic_similarity": 0.6344395279884338,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.1771171171171171,
+      "avg_semantic": 0.6344395279884338,
+      "overall_average": 0.2685815989971161
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.24000000000000002,
+    "rouge1_f": 0.25225225225225223,
+    "rouge2_f": 0.11009174311926605,
+    "rougeL_f": 0.21621621621621623,
+    "semantic_similarity": 0.6344395279884338,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.1771171171171171,
+    "avg_semantic": 0.6344395279884338,
+    "overall_average": 0.2685815989971161
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1785.9956,
+    "retrieval_time": 0.9461,
+    "generation_time": 1.6364,
+    "evaluation_time": 0.9861,
+    "cleanup_time": 1.7042,
+    "total_time": 1791.2763
+  }
+}

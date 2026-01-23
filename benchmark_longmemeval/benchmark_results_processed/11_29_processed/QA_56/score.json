@@ -1,0 +1,77 @@
+{
+  "sample_idx": 56,
+  "question_id": "29f2956b",
+  "question": "How much time do I dedicate to practicing guitar every day?",
+  "question_type": "single-session-user",
+  "gold_answer": "30 minutes",
+  "question_date": "2023/05/30 (Tue) 20:45",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-01T00:54:41.442411",
+  "predicted_answer": "You dedicate 30 minutes daily to practicing guitar.",
+  "prompt_length": 3275,
+  "gen_token_usage": {
+    "prompt_tokens": 839,
+    "answer_tokens": 10,
+    "total_tokens": 849,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 8,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.4,
+      "rouge1_f": 0.4,
+      "rouge2_f": 0.25,
+      "rougeL_f": 0.4,
+      "semantic_similarity": 0.4035075902938843,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.30000000000000004,
+      "avg_semantic": 0.4035075902938843,
+      "overall_average": 0.320701539516449
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.4,
+    "rouge1_f": 0.4,
+    "rouge2_f": 0.25,
+    "rougeL_f": 0.4,
+    "semantic_similarity": 0.4035075902938843,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.30000000000000004,
+    "avg_semantic": 0.4035075902938843,
+    "overall_average": 0.320701539516449
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1445.6661,
+    "retrieval_time": 1.3581,
+    "generation_time": 1.6473,
+    "evaluation_time": 1.4762,
+    "cleanup_time": 1.6274,
+    "total_time": 1451.7778
+  }
+}

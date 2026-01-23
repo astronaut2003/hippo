@@ -1,0 +1,77 @@
+{
+  "sample_idx": 139,
+  "question_id": "afdc33df",
+  "question": "My kitchen's becoming a bit of a mess again. Any tips for keeping it clean?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that acknowledge and build upon their existing efforts to organize their kitchen, such as utilizing their new utensil holder to keep countertops clutter-free. They would also appreciate tips that address their concern for maintaining their granite surface, particularly around the sink area. Preferred responses would provide practical and actionable steps to maintain cleanliness, leveraging the user's current tools and setup. They might not prefer generic or vague suggestions that do not take into account their specific kitchen setup or concerns.",
+  "question_date": "2023/05/30 (Tue) 19:03",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T09:07:37.743546",
+  "predicted_answer": "To keep your kitchen clean, consider organizing your kitchen utensils, especially since you recently bought a new utensil holder to help keep your countertops clutter-free. Regularly decluttering and finding designated spots for items can also help maintain cleanliness.",
+  "prompt_length": 2820,
+  "gen_token_usage": {
+    "prompt_tokens": 781,
+    "answer_tokens": 46,
+    "total_tokens": 827,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.6,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 85,
+      "response_length": 38,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.26086956521739135,
+      "rouge1_f": 0.2698412698412699,
+      "rouge2_f": 0.11290322580645161,
+      "rougeL_f": 0.22222222222222224,
+      "semantic_similarity": 0.6122862100601196,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.18823326432022086,
+      "avg_semantic": 0.6122862100601196,
+      "overall_average": 0.2730438709259033
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.26086956521739135,
+    "rouge1_f": 0.2698412698412699,
+    "rouge2_f": 0.11290322580645161,
+    "rougeL_f": 0.22222222222222224,
+    "semantic_similarity": 0.6122862100601196,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.18823326432022086,
+    "avg_semantic": 0.6122862100601196,
+    "overall_average": 0.2730438709259033
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1666.5694,
+    "retrieval_time": 1.2423,
+    "generation_time": 1.4475,
+    "evaluation_time": 1.1243,
+    "cleanup_time": 1.401,
+    "total_time": 1671.8119
+  }
+}

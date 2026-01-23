@@ -1,0 +1,77 @@
+{
+  "sample_idx": 127,
+  "question_id": "80ec1f4f_abs",
+  "question": "How many different museums or galleries did I visit in December?",
+  "question_type": "multi-session",
+  "gold_answer": "0. You did not mention visitng any museum in December",
+  "question_date": "2023/03/03 (Fri) 23:44",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T04:37:42.921390",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 3321,
+  "gen_token_usage": {
+    "prompt_tokens": 842,
+    "answer_tokens": 10,
+    "total_tokens": 852,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 10,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.09052729606628418,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.09052729606628418,
+      "overall_average": 0.018105458468198776
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.09052729606628418,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.09052729606628418,
+    "overall_average": 0.018105458468198776
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1423.6265,
+    "retrieval_time": 1.2193,
+    "generation_time": 2.5919,
+    "evaluation_time": 1.4296,
+    "cleanup_time": 1.5894,
+    "total_time": 1430.4635
+  }
+}

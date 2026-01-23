@@ -1,0 +1,77 @@
+{
+  "sample_idx": 129,
+  "question_id": "60bf93ed_abs",
+  "question": "How many days did it take for my iPad case to arrive after I bought it?",
+  "question_type": "multi-session",
+  "gold_answer": "The information provided is not enough. You did not mention buying an iPad case.",
+  "question_date": "2023/01/24 (Tue) 23:58",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T05:22:52.030732",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 3245,
+  "gen_token_usage": {
+    "prompt_tokens": 878,
+    "answer_tokens": 10,
+    "total_tokens": 888,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.67,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 14,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1904761904761905,
+      "rouge1_f": 0.16666666666666666,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.08333333333333333,
+      "semantic_similarity": 0.07548487186431885,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.11011904761904762,
+      "avg_semantic": 0.07548487186431885,
+      "overall_average": 0.10319221019744873
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1904761904761905,
+    "rouge1_f": 0.16666666666666666,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.08333333333333333,
+    "semantic_similarity": 0.07548487186431885,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.11011904761904762,
+    "avg_semantic": 0.07548487186431885,
+    "overall_average": 0.10319221019744873
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1194.8224,
+    "retrieval_time": 0.4184,
+    "generation_time": 1.7438,
+    "evaluation_time": 1.1008,
+    "cleanup_time": 1.5581,
+    "total_time": 1199.6461
+  }
+}

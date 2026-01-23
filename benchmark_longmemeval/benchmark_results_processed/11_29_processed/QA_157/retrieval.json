@@ -1,0 +1,242 @@
+{
+  "sample_idx": 157,
+  "question_id": "b0479f84",
+  "question": "I've got some free time tonight, any documentary recommendations?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-07T17:05:46.911059",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "e51ab3ed-3303-4737-aed7-fbb6eaac3bf0",
+      "memory": "Will have to juggle viewing schedule",
+      "hash": "909058d2e66d21c8c6679f00bef3a356",
+      "metadata": null,
+      "score": 0.3985127977614177,
+      "created_at": "2025-12-07T01:23:31.946447-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.9999999985561863
+    },
+    {
+      "id": "1de4365c-d750-404c-bc95-c82e35fa0b66",
+      "memory": "Has been watching a lot of documentaries lately, especially on Netflix",
+      "hash": "4e6247f5a84feaa4312686fc65dd0296",
+      "metadata": null,
+      "score": 0.6455092757733752,
+      "created_at": "2025-12-07T01:30:20.127376-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.95466774002656
+    },
+    {
+      "id": "2bac81d1-4a87-4853-acbb-b884cb6f6eb3",
+      "memory": "Trying to find new TV shows to watch",
+      "hash": "6c2a2976d296dd6a465d7ac6cbf976aa",
+      "metadata": null,
+      "score": 0.407367584053076,
+      "created_at": "2025-12-07T01:23:31.687936-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.8010674210213267
+    },
+    {
+      "id": "265f132f-2006-4192-95d8-c4490c22fa43",
+      "memory": "Interested in 'The Last Romantics' and 'The Poppy War'",
+      "hash": "7cc2544cd077ff2c178e047485527ac5",
+      "metadata": null,
+      "score": 0.34924086592237646,
+      "created_at": "2025-12-07T01:11:52.441076-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.7861401438430934
+    },
+    {
+      "id": "ba228cdb-aede-4a33-9124-0e26d9e6bf9f",
+      "memory": "Is interested in nature and wildlife documentaries",
+      "hash": "e88fd81b746d0fa13d715413225bee30",
+      "metadata": null,
+      "score": 0.5349928242309061,
+      "created_at": "2025-12-07T01:30:20.175068-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.7265760945020567
+    },
+    {
+      "id": "27382adf-a897-4b63-a693-505a4e32e6fc",
+      "memory": "Recently finished watching 'Our Planet', 'Free Solo', and 'Tiger King'",
+      "hash": "c19fc2fe3f447b95d07535d1cd8055e9",
+      "metadata": null,
+      "score": 0.4216850427172786,
+      "created_at": "2025-12-07T01:30:20.142694-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.5322192554742394
+    },
+    {
+      "id": "570ec081-59c0-446c-80f0-7b4bebc2290a",
+      "memory": "Has been really into Netflix lately",
+      "hash": "bfbf915375a1892756de592f65fa052c",
+      "metadata": null,
+      "score": 0.35939530468424746,
+      "created_at": "2025-12-07T01:23:31.711386-08:00",
+      "updated_at": "2025-12-07T01:30:19.369434-08:00",
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.3580040513693385
+    },
+    {
+      "id": "2175adb8-0605-4f56-a763-c23bfac69e4e",
+      "memory": "Has been really into TV shows lately",
+      "hash": "6ff6cc29bda4924520f4ca4942100115",
+      "metadata": null,
+      "score": 0.378686506852685,
+      "created_at": "2025-12-07T01:23:31.843534-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.2789042154550231
+    },
+    {
+      "id": "f97f60e6-3ccd-4bcc-a613-0285b387e846",
+      "memory": "Wants recommendations for books that explore different cultures, identities, and experiences",
+      "hash": "f68cdbce0c784a06d3e9772bc8777dc5",
+      "metadata": null,
+      "score": 0.3442882162646949,
+      "created_at": "2025-12-07T01:11:52.582245-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.24439096267545593
+    },
+    {
+      "id": "ecf4af18-4879-4118-9b41-9951646349c9",
+      "memory": "Has a pretty packed schedule with other shows",
+      "hash": "26ff21a7e055e161007b01ad361863a8",
+      "metadata": null,
+      "score": 0.3978229321295374,
+      "created_at": "2025-12-07T01:23:31.789103-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.22845178106052094
+    },
+    {
+      "id": "f0a9f189-e734-4b60-a4fd-cb77de6fd545",
+      "memory": "Looking for new podcasts to listen to",
+      "hash": "33ea8c04ed143270f33d46b6404f7d31",
+      "metadata": null,
+      "score": 0.38788503474846775,
+      "created_at": "2025-12-07T01:10:45.387979-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.19604990977944128
+    },
+    {
+      "id": "a96de7c8-25bb-4377-bffe-a685867113e1",
+      "memory": "Already watching 'The Expanse'",
+      "hash": "63787106f9ae2dd79d8459df1a1f233c",
+      "metadata": null,
+      "score": 0.4058969666737966,
+      "created_at": "2025-12-07T01:23:31.917836-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.14892853976549278
+    },
+    {
+      "id": "658138fb-1ac5-4ffa-9317-e5c506917e2c",
+      "memory": "Especially interested in podcasts similar to 'My Brother, My Brother and Me'",
+      "hash": "b4c346a4a630163f20b887a66636f5bd",
+      "metadata": null,
+      "score": 0.3563590690712686,
+      "created_at": "2025-12-07T01:10:45.654439-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.09835369646580247
+    },
+    {
+      "id": "b8aa4944-40fd-40d6-9fe6-5ab5b3604c83",
+      "memory": "Intrigued by the idea of a sweeping family drama that spans decades",
+      "hash": "a04d9a70bf8f9f442c793bde1282d296",
+      "metadata": null,
+      "score": 0.35009214074056927,
+      "created_at": "2025-12-07T01:11:52.394130-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.03849684337124196
+    },
+    {
+      "id": "39978e3b-6a8d-49a4-8a97-3422642ec85a",
+      "memory": "Has been listening to comedy podcasts like 'My Brother, My Brother and Me' and 'improv4humans'",
+      "hash": "cbb3da4d0d71db2207e0ddda2a027921",
+      "metadata": null,
+      "score": 0.3357430348474039,
+      "created_at": "2025-12-07T01:10:45.597529-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.028200588361955478
+    },
+    {
+      "id": "dbada09b-f2c7-4177-8c76-c6b97a0aa92b",
+      "memory": "Has been listening to educational podcasts like 'Stuff You Should Know' and 'Radiolab'",
+      "hash": "bd74d4e460c65592154a31f9107e123a",
+      "metadata": null,
+      "score": 0.35791832557309683,
+      "created_at": "2025-12-07T01:10:45.534681-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.0277343605183479
+    },
+    {
+      "id": "7cbf50cb-fe3a-41f6-b160-854e89575010",
+      "memory": "Would like to explore more comedy podcasts",
+      "hash": "9bf4c61f74c534c3150cce4b20461340",
+      "metadata": null,
+      "score": 0.4853651379504827,
+      "created_at": "2025-12-07T01:10:45.638794-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.019839468058534603
+    },
+    {
+      "id": "02a789d3-e7c6-4ce9-baed-b5f47d4aa3bc",
+      "memory": "Comedy podcasts are great for when need a break from more serious topics",
+      "hash": "cecc8cbb36cad707b85248e351e512bc",
+      "metadata": null,
+      "score": 0.4028554699960374,
+      "created_at": "2025-12-07T01:10:45.625553-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.009074506735119302
+    },
+    {
+      "id": "31b241f2-8d23-4a98-a111-54965c86e55c",
+      "memory": "Thinking of focusing on short stories for the workshop",
+      "hash": "1d84e22bc500394009f0d651856f506f",
+      "metadata": null,
+      "score": 0.3760125091098063,
+      "created_at": "2025-12-07T01:35:19.814711-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.0002128730792136204
+    },
+    {
+      "id": "8eefa049-9a67-4cc7-99cc-957030d3f741",
+      "memory": "Loves how engaging and informative educational podcasts are",
+      "hash": "b2e952d2d6c962fec9df8ca7ae37c6e3",
+      "metadata": null,
+      "score": 0.34952248733493574,
+      "created_at": "2025-12-07T01:10:45.550401-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_157",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.9461,
+    "load_time": 1785.9956
+  }
+}

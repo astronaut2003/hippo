@@ -1,0 +1,242 @@
+{
+  "sample_idx": 80,
+  "question_id": "c4a1ceb8",
+  "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-01T09:44:51.380012",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "2432d523-7fd1-47d2-a12f-18af38f5c52e",
+      "memory": "Interested in trying out new mixers and flavor combinations in cocktails",
+      "hash": "99edb1a342b2a22974bca1f367e7f050",
+      "metadata": null,
+      "score": 0.5634299074447477,
+      "created_at": "2025-11-30T18:13:01.760212-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.9999999963629086
+    },
+    {
+      "id": "00a91689-6ed7-4281-b220-677ad6954c54",
+      "memory": "Has been experimenting with different recipes and ingredients",
+      "hash": "1dac53c66cd49b06cb9a53c2b20e7a2b",
+      "metadata": null,
+      "score": 0.3962026595524447,
+      "created_at": "2025-11-30T17:57:30.225994-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.901709565930603
+    },
+    {
+      "id": "f9c11f98-1233-46b1-af24-902e80383dd2",
+      "memory": "Recently made a Cucumber Gimlet by infusing gin with sliced cucumbers and mixing it with lime juice and simple syrup",
+      "hash": "eea7595a07f98697bf2c85bd2092a533",
+      "metadata": null,
+      "score": 0.39635731539356944,
+      "created_at": "2025-11-30T17:53:53.512809-08:00",
+      "updated_at": "2025-11-30T18:13:01.654274-08:00",
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.7946276202824778
+    },
+    {
+      "id": "d1e5ac6a-9c8f-41e4-b1a7-5ede1641276e",
+      "memory": "Thinking of serving small bites along with the cocktails",
+      "hash": "e773308727f230d7a1f147be615ac57d",
+      "metadata": null,
+      "score": 0.40962016366953913,
+      "created_at": "2025-11-30T17:53:53.525830-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.7913071288770868
+    },
+    {
+      "id": "f115e6ff-6af4-42ef-91c5-29c385311458",
+      "memory": "Planning a dinner party next weekend and wants to serve refreshing cocktails",
+      "hash": "4c6c2e970d86de1dd3aab04fe0206121",
+      "metadata": null,
+      "score": 0.39294260845321843,
+      "created_at": "2025-11-30T17:53:53.481658-08:00",
+      "updated_at": "2025-11-30T18:13:00.862035-08:00",
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.6381264399665902
+    },
+    {
+      "id": "3d65ac29-c58a-4e8a-ab79-af4f8205fcf6",
+      "memory": "Wants suggestions for fruits or herbs that pair well with Rioja wine and citrus slices in Sangria",
+      "hash": "89c637260bf61a5a0b1fc0fdd650601c",
+      "metadata": null,
+      "score": 0.5235640928299146,
+      "created_at": "2025-11-30T18:00:24.663748-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.39372051329446695
+    },
+    {
+      "id": "36f7d3c2-3c8b-438f-bdd0-8e354b80b4c1",
+      "memory": "Served Sangria in a large pitcher with slices of orange and lemon for a dinner party two weeks ago",
+      "hash": "4b8eddd80e3f36c06017071750ebe8da",
+      "metadata": null,
+      "score": 0.46345615928268846,
+      "created_at": "2025-11-30T18:00:24.692877-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.39199592504965297
+    },
+    {
+      "id": "a3ca2f30-943c-465a-b1ab-ac0d93707120",
+      "memory": "Planning to serve Sangria made with Rioja wine and slices of orange and lemon",
+      "hash": "39b450089e4ce904adc92e933bc5e5a6",
+      "metadata": null,
+      "score": 0.49589177612647306,
+      "created_at": "2025-11-30T18:00:24.563369-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.32588404973795004
+    },
+    {
+      "id": "e91b5667-45f5-429e-b345-bf1ed12e8e0d",
+      "memory": "Recently learned how to make a classic Daiquiri the right way using fresh lime juice and simple syrup in a mixology class",
+      "hash": "dd413e3919cbb8602f89ce794207eca2",
+      "metadata": null,
+      "score": 0.4230183488389204,
+      "created_at": "2025-11-30T17:53:53.497586-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.3255396176930787
+    },
+    {
+      "id": "1292975e-11e5-4636-80bb-800d8cb14f29",
+      "memory": "Likes the sound of the Orange You Glad It's a Whiskey Sour recipe",
+      "hash": "806cb093e109bab19be19a6be6358f2f",
+      "metadata": null,
+      "score": 0.4431500367231639,
+      "created_at": "2025-11-30T17:46:30.227338-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.27813980232565955
+    },
+    {
+      "id": "53bb5e91-8b59-4504-b106-c7b5a3a93aa3",
+      "memory": "Thinking of serving the Sangria in a large pitcher with slices of orange and lemon",
+      "hash": "2aac26e97cdd18450aee55eb3030e0c8",
+      "metadata": null,
+      "score": 0.48461530517293805,
+      "created_at": "2025-11-30T18:00:24.677506-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.24945204690252426
+    },
+    {
+      "id": "d1e02fe9-39fb-42a5-a724-d19c6246f933",
+      "memory": "Interested in recommendations for a good gin to use in the Cucumber Gimlet recipe",
+      "hash": "00ab4f2f8ca49d19c12f4e9abb22bd73",
+      "metadata": null,
+      "score": 0.3654996614965701,
+      "created_at": "2025-11-30T17:46:30.246316-08:00",
+      "updated_at": "2025-11-30T18:13:01.685284-08:00",
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.24811004530976777
+    },
+    {
+      "id": "157e25bd-85a0-416d-beae-df3984f84fa4",
+      "memory": "Thinking of making a few cocktails to serve alongside the Paella and tapas",
+      "hash": "81475c1e4e9425a15d8336757172e50f",
+      "metadata": null,
+      "score": 0.40686137572254627,
+      "created_at": "2025-11-30T18:00:24.612928-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.24673856061145835
+    },
+    {
+      "id": "2a23232d-d612-465b-b88d-6c968bf947ec",
+      "memory": "Recently made own orange bitters using orange peels and vodka",
+      "hash": "b74365b59afc8ea35effb817579411b4",
+      "metadata": null,
+      "score": 0.5384226875214664,
+      "created_at": "2025-11-30T17:46:30.213099-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.14487547150626778
+    },
+    {
+      "id": "bb86a9df-6942-4d57-972c-62fa6b5eca92",
+      "memory": "Wants suggestions for refreshing summer drinks that pair well with the Spanish-inspired menu",
+      "hash": "bf5e3e50ac0875d0705655745e503d3b",
+      "metadata": null,
+      "score": 0.36686110655312776,
+      "created_at": "2025-11-30T18:00:24.631950-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.05133424908844182
+    },
+    {
+      "id": "36acbe77-22ae-4052-8db9-0d9d111b14a7",
+      "memory": "Learned how to make flavored simple syrups in mixology class",
+      "hash": "85c4085af595a75e6f990c07115b308b",
+      "metadata": null,
+      "score": 0.3808597250889292,
+      "created_at": "2025-11-30T17:53:53.573312-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.0036926722554886356
+    },
+    {
+      "id": "1f1fbbc3-b576-418c-9c1e-9d52078104d6",
+      "memory": "Interested in a coffee blend with mild flavor and fruity notes",
+      "hash": "c824a21d1d3e610a48e77242cc84257e",
+      "metadata": null,
+      "score": 0.41840864859917704,
+      "created_at": "2025-11-30T17:47:32.934486-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.0034411987081253764
+    },
+    {
+      "id": "be3aa42a-846c-41d7-af20-35b24ad78766",
+      "memory": "Has been experimenting with bitters lately",
+      "hash": "f7ea435633e2b4ba18f96ad973e3ca8c",
+      "metadata": null,
+      "score": 0.3399088057657006,
+      "created_at": "2025-11-30T17:46:30.194609-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.0027325635946589774
+    },
+    {
+      "id": "317c21c9-858b-407a-b064-e668f969e2ae",
+      "memory": "Excited to try out different coffee blends to see which ones are liked best",
+      "hash": "1650e57f1bb635f7e54e708fb78b32c5",
+      "metadata": null,
+      "score": 0.33752044419159716,
+      "created_at": "2025-11-30T17:47:32.986398-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.001889693635910397
+    },
+    {
+      "id": "b7e0e82c-6b8c-4423-b87b-5ab30fab65bb",
+      "memory": "Wants recommendations for a specific roaster or coffee shop to find coffee blends",
+      "hash": "dd6f6dda233b799b10c1dfb4665870ab",
+      "metadata": null,
+      "score": 0.2806030797167855,
+      "created_at": "2025-11-30T17:47:32.969123-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_80",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5318,
+    "load_time": 1690.4051
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "sample_idx": 48,
+  "question_id": "545bd2b5",
+  "question": "How much screen time have I been averaging on Instagram per day?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T13:02:23.056427",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "4b8981bc-eae2-46fd-b9db-dbbe18753d41",
+      "memory": "Has been averaging around 2 hours of screen time on Instagram per day for the past two weeks",
+      "hash": "2c6fa81af32f277a4f8db2faaf38785d",
+      "metadata": null,
+      "score": 0.8152964519865022,
+      "created_at": "2025-11-29T21:18:15.204328-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.9999999994442701
+    },
+    {
+      "id": "6463374f-ecd5-4b21-b116-85d7af0e4332",
+      "memory": "Considers 2 hours of screen time per day way too much",
+      "hash": "294b83edd62f8e62de0bcf0e0a5ba213",
+      "metadata": null,
+      "score": 0.5667188598636141,
+      "created_at": "2025-11-29T21:18:15.226382-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.47578079984850247
+    },
+    {
+      "id": "c72cd6fc-b18a-4a38-8233-34d9862fff1b",
+      "memory": "Wants to set time limits for social media apps like Instagram",
+      "hash": "32b5c19c9716b14fb15d20d2d0f37020",
+      "metadata": null,
+      "score": 0.49571972772657813,
+      "created_at": "2025-11-29T21:18:15.182937-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.25104307046361296
+    },
+    {
+      "id": "40391181-ba22-4327-9869-4d5ac7586932",
+      "memory": "Has been spending a lot of time on messaging apps, especially WhatsApp",
+      "hash": "83e5ef2efe3f34872a72fbb303b4c129",
+      "metadata": null,
+      "score": 0.3272785579464286,
+      "created_at": "2025-11-29T21:07:59.589531-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.1876782190307715
+    },
+    {
+      "id": "d1d7328c-4fd9-4a06-bb72-cc80563c3d65",
+      "memory": "Trying to figure out ways to increase online presence, especially on Instagram",
+      "hash": "df800e5f3a8d87478297cdae81016cf4",
+      "metadata": null,
+      "score": 0.45190472435086504,
+      "created_at": "2025-11-29T21:07:59.382610-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.16613877034559243
+    },
+    {
+      "id": "54abcfd9-ae4e-4e44-aee8-cd28de921e99",
+      "memory": "Wants to manage time on messaging apps",
+      "hash": "5ad5e3d70fd5fb340e5f8e0b969c7bf0",
+      "metadata": null,
+      "score": 0.3356835362615615,
+      "created_at": "2025-11-29T21:07:59.513769-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.10643010168291779
+    },
+    {
+      "id": "de6ca00d-f546-4a64-9f77-95c31de04939",
+      "memory": "Wants to increase followers on Instagram",
+      "hash": "652e609bef1a7e2d71d656a597f50486",
+      "metadata": null,
+      "score": 0.3650871280202034,
+      "created_at": "2025-11-29T21:07:59.631238-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.09138397932706498
+    },
+    {
+      "id": "7f95ca72-99f8-41d2-afb1-76b92e60586f",
+      "memory": "Has been posting regularly and engaging with followers",
+      "hash": "b7c72d4c0d4aba2c3e286d141f44802a",
+      "metadata": null,
+      "score": 0.31223524494739985,
+      "created_at": "2025-11-29T21:07:59.422772-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.06358386783891674
+    },
+    {
+      "id": "c60b68fc-d90c-4c2a-bae4-7e2b1ccc57f5",
+      "memory": "Wants to try out Instagram Live to share behind-the-scenes content or sneak peeks of upcoming posts",
+      "hash": "b36168054334a14221e305a23b005578",
+      "metadata": null,
+      "score": 0.3617990528163352,
+      "created_at": "2025-11-29T21:07:59.549349-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.0588402878245515
+    },
+    {
+      "id": "123694d2-4e52-4792-b775-a6a5545f20eb",
+      "memory": "Spends a lot of time on WhatsApp, especially on Friday evenings when catching up with friends about weekend plans",
+      "hash": "1e8efb88647beda8a6bb05e18d264660",
+      "metadata": null,
+      "score": 0.3496169825864538,
+      "created_at": "2025-11-29T21:07:59.487038-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.024765044936009166
+    },
+    {
+      "id": "655c1931-97e3-4d23-825b-eed7a4ac5450",
+      "memory": "Will be kind to self if missing a day or two",
+      "hash": "d363db405cff9bc5d0a13f08d3e27614",
+      "metadata": null,
+      "score": 0.29195812184619024,
+      "created_at": "2025-11-29T21:10:04.459268-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.023149702881376542
+    },
+    {
+      "id": "b322e5d5-c6b6-4401-ac7c-3dea9f97a300",
+      "memory": "Likes the idea of designating specific check-in times for social media",
+      "hash": "31bacc58aa7270772d14426a1726720a",
+      "metadata": null,
+      "score": 0.26732107589079057,
+      "created_at": "2025-11-29T21:18:15.161396-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.015136855831279541
+    },
+    {
+      "id": "7a340228-e2e4-4887-bbf3-969755331507",
+      "memory": "Recent posts got 127 likes",
+      "hash": "7b2f433605f46700748e8815c7faf2ba",
+      "metadata": null,
+      "score": 0.25659906151246586,
+      "created_at": "2025-11-29T21:07:59.443369-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.013222761089158349
+    },
+    {
+      "id": "0d1bdc79-86aa-45bf-9fc4-14af7c320698",
+      "memory": "Has been practicing guitar for about 30 minutes every day",
+      "hash": "7c6ebdeb24deae20d66788e0b947dc37",
+      "metadata": null,
+      "score": 0.29987684904448475,
+      "created_at": "2025-11-29T21:12:46.838592-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.005340184414411163
+    },
+    {
+      "id": "9b245dca-ca77-4ece-afe0-47123ac99eb0",
+      "memory": "Wants to track progress on days without jogging (Mondays, Wednesdays, Fridays)",
+      "hash": "440a1cf035bd347f76cde04f1eba1357",
+      "metadata": null,
+      "score": 0.28260251847902507,
+      "created_at": "2025-11-29T21:03:35.075690-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.0028327181822913852
+    },
+    {
+      "id": "92de3be4-2e13-46cb-b6b5-6c7625e2f658",
+      "memory": "Will commit to doing Headspace meditation 3-4 times a week to start",
+      "hash": "060ab5b4e947e2c37ccd8bc15e1c32f7",
+      "metadata": null,
+      "score": 0.27922538525852864,
+      "created_at": "2025-11-29T21:10:04.417901-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.001701941645080792
+    },
+    {
+      "id": "4ac4cc78-1f4e-48bf-9cde-eac52d475a59",
+      "memory": "Has had the Samsung Galaxy S21 for about 6 months",
+      "hash": "b8d28cb02018ca45268129aa9d700bcf",
+      "metadata": null,
+      "score": 0.3261789030829451,
+      "created_at": "2025-11-29T21:19:06.833247-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.0006114439871484164
+    },
+    {
+      "id": "ed241087-2257-4302-9f17-0d7c1e88074b",
+      "memory": "Having issues with Samsung Galaxy S21's battery life",
+      "hash": "5b5d0c57bb83287f52342ec75c3c68e5",
+      "metadata": null,
+      "score": 0.2854698685648311,
+      "created_at": "2025-11-29T21:19:06.792787-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.0004404707443174559
+    },
+    {
+      "id": "ceae9b9b-cc06-4b1b-918d-c280d1ae73ee",
+      "memory": "Looking forward to tracking progress and adjusting plan as needed",
+      "hash": "333cedde6b8f048affa909c4c48a9ea3",
+      "metadata": null,
+      "score": 0.25084269171062984,
+      "created_at": "2025-11-29T21:10:04.437469-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 2.284236443277867e-05
+    },
+    {
+      "id": "d8693d33-6cdd-4652-ac3a-c0596b35e8b1",
+      "memory": "Thinking of asking friends to make video calls more engaging",
+      "hash": "04b97e44e7c75989f59b9a2169ff48eb",
+      "metadata": null,
+      "score": 0.27496858787783707,
+      "created_at": "2025-11-29T21:13:48.831646-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_48",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "retrieval_time": 0.1805,
+    "load_time": 1333.184
+  }
+}

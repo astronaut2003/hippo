@@ -1,0 +1,242 @@
+{
+  "sample_idx": 106,
+  "question_id": "9d25d4e0",
+  "question": "How many pieces of jewelry did I acquire in the last two months?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-02T08:08:22.377427",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 44,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "d9bf9bcf-6570-4943-b90b-6d6bfbb4eb19",
+      "memory": "Has been accumulating quite a few jewelry pieces over the years",
+      "hash": "feed876866ef215880333b4af6146487",
+      "metadata": null,
+      "score": 0.7603196264445691,
+      "created_at": "2025-12-01T16:13:08.932286-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.9999999987815451
+    },
+    {
+      "id": "51b849b5-b903-4c58-9001-c46a8c383018",
+      "memory": "Wants to make a list of jewelry and take photos of each piece",
+      "hash": "af603dea1b535375821834c3cf61007b",
+      "metadata": null,
+      "score": 0.49163642551443104,
+      "created_at": "2025-12-01T16:13:08.776849-08:00",
+      "updated_at": "2025-12-01T16:32:06.538705-08:00",
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.6062068124689916
+    },
+    {
+      "id": "a953b0c6-23ee-4b57-abff-24d48a16acf0",
+      "memory": "Should organize jewelry collection and take inventory of everything",
+      "hash": "f2aac1c14a7b68914e2a0a3cc4e53b6d",
+      "metadata": null,
+      "score": 0.5357143006162128,
+      "created_at": "2025-12-01T16:13:08.950005-08:00",
+      "updated_at": "2025-12-01T16:32:06.482381-08:00",
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.5352265940164368
+    },
+    {
+      "id": "74493c70-9a05-40e3-94fa-3489de433956",
+      "memory": "Thinking of using a spreadsheet to document jewelry",
+      "hash": "356648baf5d8ec29e46a451c43ec34f0",
+      "metadata": null,
+      "score": 0.4391187093710336,
+      "created_at": "2025-12-01T16:32:06.596896-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.4997584177108367
+    },
+    {
+      "id": "13e23494-8be5-4ce6-b4f7-473bf79dedb3",
+      "memory": "Got a new silver necklace with a small pendant on the 15th of last month",
+      "hash": "4b57547c3c162b9b27d2d7b7f15beaff",
+      "metadata": null,
+      "score": 0.5773438430786655,
+      "created_at": "2025-12-01T16:29:45.997321-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.49692119833221526
+    },
+    {
+      "id": "a4eb23bd-81c9-4d06-87b9-96fdb41aa0f4",
+      "memory": "Wants to take photos of each piece of jewelry to keep a record",
+      "hash": "f914dc817accac32b3fc80f27bcaab79",
+      "metadata": null,
+      "score": 0.4685277358447656,
+      "created_at": "2025-12-01T16:13:08.792768-08:00",
+      "updated_at": "2025-12-01T16:32:06.559746-08:00",
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.4354545222119688
+    },
+    {
+      "id": "4b4ad64a-2ced-40cb-a2c6-1f2f8c814d33",
+      "memory": "Believes it's good to know the value of jewelry",
+      "hash": "1b6440ebf5c5d1cfe3e605ab942bd2f5",
+      "metadata": null,
+      "score": 0.5724727537742681,
+      "created_at": "2025-12-01T16:13:08.917292-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.2696486139466102
+    },
+    {
+      "id": "e85756ad-b5bd-498a-9339-052850010e6f",
+      "memory": "Thinking of cleaning jewelry collection and wants guidance or recommendations for jewelry cleaning solution",
+      "hash": "fc9e3364fe8ae7b2d6841456889f622b",
+      "metadata": null,
+      "score": 0.4537978996468401,
+      "created_at": "2025-12-01T16:13:08.709321-08:00",
+      "updated_at": "2025-12-01T16:32:05.486945-08:00",
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.15108813413485533
+    },
+    {
+      "id": "6b960503-aaa0-4be8-a51d-aa05d1780df9",
+      "memory": "Got a new pair of emerald earrings last weekend at a flea market",
+      "hash": "b9ac6a0feb238c247654954b113a4627",
+      "metadata": null,
+      "score": 0.5537902650440909,
+      "created_at": "2025-12-01T16:13:08.731071-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.14076600781032308
+    },
+    {
+      "id": "939347ba-0280-475a-84d8-8abe45205de8",
+      "memory": "Estate included amazing antique pieces",
+      "hash": "f64a0c823136645beef230601c85449d",
+      "metadata": null,
+      "score": 0.4271039331722002,
+      "created_at": "2025-12-01T16:19:37.254794-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.011205485598641141
+    },
+    {
+      "id": "a4c0f68b-dd2d-4440-817c-5048347b3a35",
+      "memory": "Thinking of getting a jewelry cleaning kit that includes a solution and a soft cloth",
+      "hash": "728444eece81d3ed9b6025eede6e4410",
+      "metadata": null,
+      "score": 0.4454700202124072,
+      "created_at": "2025-12-01T16:13:08.828171-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.008211453099734268
+    },
+    {
+      "id": "761262a0-8115-42a3-bffe-5b19933b25d3",
+      "memory": "Loving the new emerald earrings",
+      "hash": "4f19615c8ba584258103746c8c363930",
+      "metadata": null,
+      "score": 0.4385598271712723,
+      "created_at": "2025-12-01T16:13:08.744541-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.005193948018168883
+    },
+    {
+      "id": "bde3d5c4-4afd-4a83-94ce-59ca5f62b0b2",
+      "memory": "The earrings are a special pair with little diamonds that grandma gave",
+      "hash": "f03f05501c0f57f90bdda445c499b840",
+      "metadata": null,
+      "score": 0.4350731015220382,
+      "created_at": "2025-12-01T16:29:46.028700-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.002003303589270919
+    },
+    {
+      "id": "857977d6-08ae-40c1-abae-7ca620d3c839",
+      "memory": "Will look into getting the emerald earrings appraised or certified",
+      "hash": "362ccba30c3202625841441ecddcfb7a",
+      "metadata": null,
+      "score": 0.5116751703972124,
+      "created_at": "2025-12-01T16:13:08.903098-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.0015179324122184465
+    },
+    {
+      "id": "a1bc6ec9-fcca-42ac-a516-0a0a0da9a438",
+      "memory": "Didn't think of getting the emerald earrings appraised or certified",
+      "hash": "7a3bd8a3f9073e80defaed1deba1e934",
+      "metadata": null,
+      "score": 0.5032887880584525,
+      "created_at": "2025-12-01T16:13:08.872851-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.0013801181397778833
+    },
+    {
+      "id": "ec830c42-a9de-4df7-a00f-b98f4a009f0a",
+      "memory": "Wants to take good care of the new emerald earrings",
+      "hash": "5d11f9050b802994f71f4f06981b4334",
+      "metadata": null,
+      "score": 0.4692940034532365,
+      "created_at": "2025-12-01T16:13:08.761485-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.0011520157647350287
+    },
+    {
+      "id": "14a9b461-a8d5-4746-803f-12ced9ef105d",
+      "memory": "Glad about getting the emerald earrings at the flea market last weekend",
+      "hash": "c8d3f36305eea45219d24c9b66bc80cb",
+      "metadata": null,
+      "score": 0.5210575398768671,
+      "created_at": "2025-12-01T16:13:08.844722-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.0010406952984634776
+    },
+    {
+      "id": "7b2acddc-3293-4850-b9a0-3d2e5a27d430",
+      "memory": "Will reach out to cousin now and ask about the earrings",
+      "hash": "6572297132782ab7d1bd9088be835768",
+      "metadata": null,
+      "score": 0.4266665923230776,
+      "created_at": "2025-12-01T16:29:46.072848-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.0006004100722600256
+    },
+    {
+      "id": "cbe4ae0f-0ccd-4484-b278-eb5ed7c6c5eb",
+      "memory": "Thinking about getting great-grandmother's antique locket appraised",
+      "hash": "e29a4ce55029c14b794f3310565e0e9e",
+      "metadata": null,
+      "score": 0.40939969311631363,
+      "created_at": "2025-12-01T16:19:37.416396-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.0004387746144482013
+    },
+    {
+      "id": "45c3e357-b190-41a4-8ee7-780389d53e97",
+      "memory": "Needs to get in touch with cousin to ask her to return the earrings",
+      "hash": "06088272437231652d7ac7df859ac9d3",
+      "metadata": null,
+      "score": 0.4079933600728775,
+      "created_at": "2025-12-01T16:29:46.043982-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_106",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 1.2049,
+    "load_time": 1836.5167
+  }
+}

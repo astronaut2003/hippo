@@ -1,0 +1,242 @@
+{
+  "sample_idx": 182,
+  "question_id": "4bc144e2",
+  "question": "How much did I spend on car wash and parking ticket?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-08T22:06:44.943190",
+  "load_result": {
+    "total_sessions": 48,
+    "added_sessions": 48,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "2bf2bfc8-dce1-4e63-8bb7-e7e31e5bf649",
+      "memory": "Had a car wash on February 3rd that cost $15",
+      "hash": "08fe1d08f438f69cf74aeb146c0c0899",
+      "metadata": null,
+      "score": 0.6803257435769794,
+      "created_at": "2025-12-08T06:09:02.903329-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.999999998991027
+    },
+    {
+      "id": "8ff987e1-248c-49bf-8f5a-e82fd31c786b",
+      "memory": "Got a parking ticket on January 5th near work for $50",
+      "hash": "795518701a90ababe64cbc1d513acffa",
+      "metadata": null,
+      "score": 0.6741437751697992,
+      "created_at": "2025-12-08T06:33:08.525342-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.8616075762807026
+    },
+    {
+      "id": "131288b2-e4b0-4335-beeb-16f5968e3233",
+      "memory": "Has been spending on car maintenance lately",
+      "hash": "fd04b2b40943f2197fd97d196bb72353",
+      "metadata": null,
+      "score": 0.3513986048700927,
+      "created_at": "2025-12-08T06:09:02.871085-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.6937194851335537
+    },
+    {
+      "id": "3e4005c0-4f52-43db-9178-c447ad096464",
+      "memory": "Trying to get a better handle on expenses and track car maintenance costs for the past few months",
+      "hash": "5b784b6bdc052be98512e829920b1024",
+      "metadata": null,
+      "score": 0.43576883643520653,
+      "created_at": "2025-12-08T06:09:02.847886-08:00",
+      "updated_at": "2025-12-08T06:33:08.412471-08:00",
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.385581864394525
+    },
+    {
+      "id": "a547092b-e07e-4027-af81-86976b0325bc",
+      "memory": "Filled up the gas tank around February 10th, which cost $30",
+      "hash": "dd78825fe35dde4f33a102a7d1e73c5d",
+      "metadata": null,
+      "score": 0.3526799200631826,
+      "created_at": "2025-12-08T06:09:02.936936-08:00",
+      "updated_at": "2025-12-08T06:33:08.493429-08:00",
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.35436120346725253
+    },
+    {
+      "id": "ea0c0ae0-05d8-4de9-b24b-a08709cf6cc3",
+      "memory": "Got car serviced on February 10th and replaced the air filter for $25",
+      "hash": "df1fd09f78f9598e21cb7b0b6ee85097",
+      "metadata": null,
+      "score": 0.41529366664289147,
+      "created_at": "2025-12-08T06:09:02.885137-08:00",
+      "updated_at": "2025-12-08T06:33:08.458694-08:00",
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.29694802255030756
+    },
+    {
+      "id": "f7234806-a618-4177-920c-387565955230",
+      "memory": "Got car serviced on February 10th and replaced the air filter for $25",
+      "hash": "df1fd09f78f9598e21cb7b0b6ee85097",
+      "metadata": null,
+      "score": 0.41529366664289147,
+      "created_at": "2025-12-08T06:09:02.921252-08:00",
+      "updated_at": "2025-12-08T06:33:08.477131-08:00",
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.29694802255030756
+    },
+    {
+      "id": "29b3fa56-cc50-4ec3-b9d2-49c3b03717ad",
+      "memory": "Insurance premium is around $80 a month",
+      "hash": "2af574f409a4e8e13d5183a0102d2aa7",
+      "metadata": null,
+      "score": 0.2912396953090657,
+      "created_at": "2025-12-08T06:09:02.957328-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.16667842176054407
+    },
+    {
+      "id": "3f62eaaa-ae14-4a76-8fda-7f1bd116e79f",
+      "memory": "Had a bike repair done on January 25th that cost $40",
+      "hash": "61a499a00e8b3252269a1cd234552dc3",
+      "metadata": null,
+      "score": 0.4588940803878224,
+      "created_at": "2025-12-08T06:09:03.053488-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.15416373451141355
+    },
+    {
+      "id": "81f9ca39-8873-4443-969b-f509f8c01321",
+      "memory": "Considering using motorcycle sale proceeds to cover the gas fill-up that cost $30 around February 10th",
+      "hash": "caa5b8c9252afe9a126162f46913b7a4",
+      "metadata": null,
+      "score": 0.40600848630642444,
+      "created_at": "2025-12-08T06:09:03.070792-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.1517675855184346
+    },
+    {
+      "id": "7eadd6ca-abdc-44d0-8471-7bbbcaf84ab2",
+      "memory": "Was thinking of using some proceeds from the motorcycle sale to cover recent costs",
+      "hash": "126707bc9e4d643592b7fabde393fd95",
+      "metadata": null,
+      "score": 0.43355388789455973,
+      "created_at": "2025-12-08T06:09:03.033651-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.034982793821316756
+    },
+    {
+      "id": "0af2a347-272f-490a-9a26-41d7f4f7cac8",
+      "memory": "Not sure about spending a lot of money on a camera",
+      "hash": "335ac8cc0b3828042d1c9eb35c0a6a6e",
+      "metadata": null,
+      "score": 0.27565781688754404,
+      "created_at": "2025-12-08T06:27:04.385565-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.03493881983971723
+    },
+    {
+      "id": "e94d3314-c2ae-48c1-8797-1ab9c3bfb12c",
+      "memory": "Listed the motorcycle for $3,500 on January 20th",
+      "hash": "299b52856f52395fea4047a072f38e9d",
+      "metadata": null,
+      "score": 0.39761199200930375,
+      "created_at": "2025-12-08T06:09:02.994988-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.01065950483066476
+    },
+    {
+      "id": "2e2e68dc-e2f3-4920-a748-ab0d426c0ff9",
+      "memory": "Got bike serviced recently",
+      "hash": "47faba2e0bd9462aa47db663874e39bd",
+      "metadata": null,
+      "score": 0.27018008076296757,
+      "created_at": "2025-12-08T06:33:08.541151-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.002181378912169004
+    },
+    {
+      "id": "02be22ff-1e86-4094-8364-0b2b843b200f",
+      "memory": "Thinking of buying tickets to upcoming concerts",
+      "hash": "45eb3112ec3f80ea3ac8c7dd0dfaca80",
+      "metadata": null,
+      "score": 0.2903284409397219,
+      "created_at": "2025-12-08T06:34:02.703259-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.0013952357400286968
+    },
+    {
+      "id": "6c82615d-2def-4fba-bfb6-6083ab23af03",
+      "memory": "Recently bought a set of facial cleansers and moisturizers at Sephora during their 20% off sale on all skincare products",
+      "hash": "940cf79e5441be15c952e5520889c186",
+      "metadata": null,
+      "score": 0.26441962213783493,
+      "created_at": "2025-12-08T06:22:29.873920-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.001185661709560938
+    },
+    {
+      "id": "325715bd-4c1f-4566-b270-16656f12a44d",
+      "memory": "Looking to buy tickets to the Taylor Swift concert at SoFi Stadium in September",
+      "hash": "e6539e0b2240c62c52111b2e870396b6",
+      "metadata": null,
+      "score": 0.26243204520593255,
+      "created_at": "2025-12-08T06:34:02.738351-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.0006965594153150162
+    },
+    {
+      "id": "353496a8-5ede-4d59-b36f-d78eb6cffefa",
+      "memory": "Went to the Katy Perry concert at the Staples Center today and had floor seats",
+      "hash": "3db60a234e9092c2264ae40b7f27fbb7",
+      "metadata": null,
+      "score": 0.25149921927936963,
+      "created_at": "2025-12-08T06:34:02.723011-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.0004983397170764566
+    },
+    {
+      "id": "3530c639-7552-4fef-9681-0aa6c088ab3c",
+      "memory": "Cleaned white Adidas sneakers last month after they got dirty and stained, especially after attending an outdoor music festival on the 15th",
+      "hash": "86b7b991de7fc5c5d614a0c75181fa35",
+      "metadata": null,
+      "score": 0.25214249629528823,
+      "created_at": "2025-12-08T06:17:56.956616-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.0003693044669124233
+    },
+    {
+      "id": "40eab952-3fab-49a8-a3f4-df07b66927b1",
+      "memory": "Was thinking of wearing new Vans to the outdoor concert on May 1st",
+      "hash": "0891c768cd7fb46b5b5a0949b38e73c4",
+      "metadata": null,
+      "score": 0.26807070168131736,
+      "created_at": "2025-12-08T06:08:04.709493-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_182",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.4562,
+    "load_time": 1870.2039
+  }
+}

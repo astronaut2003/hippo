@@ -1,0 +1,77 @@
+{
+  "sample_idx": 114,
+  "question_id": "gpt4_e05b82a6",
+  "question": "How many times did I ride rollercoasters across all the events I attended from July to October?",
+  "question_type": "multi-session",
+  "gold_answer": "10 times",
+  "question_date": "2023/11/04 (Sat) 23:49",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-06T23:23:13.776611",
+  "predicted_answer": "You rode rollercoasters a total of 10 times across the events you attended from July to October: \n\n- 3 times on the Revenge of the Mummy at Universal Studios Hollywood on October 15th.\n- 3 times on Space Mountain: Ghost Galaxy at Disneyland on September 24th.\n- 3 rollercoasters (Mako, Kraken, and Manta) at SeaWorld San Diego in July.\n- 1 time on the Xcelerator at Knott's Berry Farm on October 8th. \n\nTotal: 3 + 3 + 3 + 1 = 10 times.",
+  "prompt_length": 3116,
+  "gen_token_usage": {
+    "prompt_tokens": 858,
+    "answer_tokens": 125,
+    "total_tokens": 983,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.65,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 83,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.05633802816901409,
+      "rouge1_f": 0.05128205128205127,
+      "rouge2_f": 0.02631578947368421,
+      "rougeL_f": 0.05128205128205127,
+      "semantic_similarity": 0.22004008293151855,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.039725532683279156,
+      "avg_semantic": 0.22004008293151855,
+      "overall_average": 0.07578843832015991
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.05633802816901409,
+    "rouge1_f": 0.05128205128205127,
+    "rouge2_f": 0.02631578947368421,
+    "rougeL_f": 0.05128205128205127,
+    "semantic_similarity": 0.22004008293151855,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.039725532683279156,
+    "avg_semantic": 0.22004008293151855,
+    "overall_average": 0.07578843832015991
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1692.4201,
+    "retrieval_time": 1.1764,
+    "generation_time": 2.3361,
+    "evaluation_time": 0.9588,
+    "cleanup_time": 1.4255,
+    "total_time": 1698.3366
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_idx": 187,
+  "question_id": "3fdac837",
+  "question": "What is the total number of days I spent in Japan and Chicago?",
+  "question_type": "multi-session",
+  "gold_answer": "11 days (or 12 days, if April 15th to 22nd is considered as 8 days)",
+  "question_date": "2023/05/30 (Tue) 19:13",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-09T00:23:37.803434",
+  "predicted_answer": "You spent 7 days in Japan from April 15th to 22nd. I don't have any information about the number of days you spent in Chicago. Therefore, I don't have enough information to answer your question about the total number of days spent in Japan and Chicago.",
+  "prompt_length": 3101,
+  "gen_token_usage": {
+    "prompt_tokens": 843,
+    "answer_tokens": 55,
+    "total_tokens": 898,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 15,
+      "response_length": 46,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.24137931034482765,
+      "rouge1_f": 0.22222222222222224,
+      "rouge2_f": 0.0983606557377049,
+      "rougeL_f": 0.19047619047619047,
+      "semantic_similarity": 0.4737142324447632,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.1635194307608101,
+      "avg_semantic": 0.4737142324447632,
+      "overall_average": 0.22555837035179138
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.24137931034482765,
+    "rouge1_f": 0.22222222222222224,
+    "rouge2_f": 0.0983606557377049,
+    "rougeL_f": 0.19047619047619047,
+    "semantic_similarity": 0.4737142324447632,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.1635194307608101,
+    "avg_semantic": 0.4737142324447632,
+    "overall_average": 0.22555837035179138
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1618.1321,
+    "retrieval_time": 1.4527,
+    "generation_time": 2.2833,
+    "evaluation_time": 1.3799,
+    "cleanup_time": 1.621,
+    "total_time": 1624.8705
+  }
+}

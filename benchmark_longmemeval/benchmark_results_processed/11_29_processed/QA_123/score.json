@@ -1,0 +1,77 @@
+{
+  "sample_idx": 123,
+  "question_id": "gpt4_372c3eed",
+  "question": "How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+  "question_type": "multi-session",
+  "gold_answer": "10 years",
+  "question_date": "2021/08/20 (Fri) 23:34",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-12-07T03:05:46.120483",
+  "predicted_answer": "You spent a total of 8 years in formal education from high school to the completion of your Bachelor's degree: 4 years in high school (2010 to 2014) and 4 years for your Bachelor's degree (2016 to 2020).",
+  "prompt_length": 3053,
+  "gen_token_usage": {
+    "prompt_tokens": 832,
+    "answer_tokens": 52,
+    "total_tokens": 884,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 38,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.05405405405405405,
+      "rouge1_f": 0.047619047619047616,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.047619047619047616,
+      "semantic_similarity": 0.36581021547317505,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.03732303732303732,
+      "avg_semantic": 0.36581021547317505,
+      "overall_average": 0.10302047431468964
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.05405405405405405,
+    "rouge1_f": 0.047619047619047616,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.047619047619047616,
+    "semantic_similarity": 0.36581021547317505,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.03732303732303732,
+    "avg_semantic": 0.36581021547317505,
+    "overall_average": 0.10302047431468964
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 1407.1853,
+    "retrieval_time": 1.2414,
+    "generation_time": 1.9124,
+    "evaluation_time": 1.85,
+    "cleanup_time": 1.4528,
+    "total_time": 1413.6636
+  }
+}

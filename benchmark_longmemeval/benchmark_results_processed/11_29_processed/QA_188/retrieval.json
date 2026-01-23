@@ -1,0 +1,242 @@
+{
+  "sample_idx": 188,
+  "question_id": "91b15a6e",
+  "question": "What is the minimum amount I could get if I sold the vintage diamond necklace and the antique vanity?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-12-09T00:50:42.677189",
+  "load_result": {
+    "total_sessions": 49,
+    "added_sessions": 49,
+    "failed_sessions": 0,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 20,
+  "retrieved_memories": [
+    {
+      "id": "02f9a3c2-e33d-4e4a-b175-74b5e2c0a497",
+      "memory": "Also thinking of selling the vintage diamond necklace, which is worth $5,000",
+      "hash": "273450bfe2cd36b8096f3e98d17a7323",
+      "metadata": null,
+      "score": 0.724281939733484,
+      "created_at": "2025-12-08T08:59:17.893615-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.9999999992747998
+    },
+    {
+      "id": "8a385460-3f9e-4caf-974e-e7830685a685",
+      "memory": "Thinks can sell the vanity for at least $150, considering originally bought it for that amount and put in some work to restore it",
+      "hash": "5432dd1d99cd957607e3965231d05e36",
+      "metadata": null,
+      "score": 0.690762760239811,
+      "created_at": "2025-12-08T09:05:43.797422-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.7692738107645162
+    },
+    {
+      "id": "78896b5a-2658-409f-bfe2-38df1ec71544",
+      "memory": "Will include a note about the vanity's history in the description, mentioning that bought it for $150 and put in some work to restore it, so confident it's worth at least that amount now",
+      "hash": "1bdaacfa70892e109bfceb121f042f10",
+      "metadata": null,
+      "score": 0.613090045308195,
+      "created_at": "2025-12-08T09:05:43.812197-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.5373081367662278
+    },
+    {
+      "id": "a957de72-7e03-49ae-94bc-686970b5e15c",
+      "memory": "Recently inherited a vintage diamond necklace from grandmother and got it appraised last week",
+      "hash": "3c9803dd4cf57eb9d058d31924633f03",
+      "metadata": null,
+      "score": 0.5843725461107407,
+      "created_at": "2025-12-08T08:59:17.749284-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.530181823556512
+    },
+    {
+      "id": "1af2c942-7c55-4145-a629-37f9aee4b5d3",
+      "memory": "Thinking of selling some old family heirlooms to make some extra cash",
+      "hash": "097077926cc65a48167116c056237970",
+      "metadata": null,
+      "score": 0.5067431164397002,
+      "created_at": "2025-12-08T09:05:43.713669-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.5254981029100173
+    },
+    {
+      "id": "9cb8ccad-2253-4ba9-9906-bfb028367432",
+      "memory": "Restoring an antique vanity and thinking of selling it online or at a local antique market",
+      "hash": "42e6ecb94b79fc740cbea3ae27534f91",
+      "metadata": null,
+      "score": 0.5731631000593862,
+      "created_at": "2025-12-08T09:05:43.731748-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.49353819761527584
+    },
+    {
+      "id": "1600bd25-3947-4fe9-b9f8-bdfa6285574b",
+      "memory": "Planning to sell the vanity online",
+      "hash": "f7f40da6765f2a31eb31dbb2285c30bc",
+      "metadata": null,
+      "score": 0.5899919444084023,
+      "created_at": "2025-12-08T09:05:43.767590-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.46219637953553266
+    },
+    {
+      "id": "8b0cd554-0402-4e35-806c-cddc43ad680c",
+      "memory": "Planning to do research and get an appraisal before selling the necklace",
+      "hash": "262d2c29ef882e428608dd338ae0bfd6",
+      "metadata": null,
+      "score": 0.6104633695864774,
+      "created_at": "2025-12-08T08:59:17.926190-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.44282273075086026
+    },
+    {
+      "id": "7d1a8cf6-fe48-47f8-9d31-14cb1a19f305",
+      "memory": "Thinking of getting the vintage diamond necklace insured and keeping it in a safe at home",
+      "hash": "91f3a6afdd0038554a943e5258dc3174",
+      "metadata": null,
+      "score": 0.530668306212304,
+      "created_at": "2025-12-08T08:59:17.769032-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.4285095543306755
+    },
+    {
+      "id": "2a2a15b4-ed1b-45c6-a530-16861b01ac38",
+      "memory": "Looking for a good insurance provider that specializes in insuring high-value items like a vintage diamond necklace",
+      "hash": "c84f8a5e6e64805cc46797d06afe4649",
+      "metadata": null,
+      "score": 0.41201281767863024,
+      "created_at": "2025-12-08T08:59:17.784308-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.3903082095950776
+    },
+    {
+      "id": "7e0a521f-023c-4a11-a076-bb1ed9e8a340",
+      "memory": "Will mention that the vanity is a great piece for anyone who loves antique furniture and is looking for a unique addition to their home",
+      "hash": "2cf9ed02965cde0c35e6cd765b536a15",
+      "metadata": null,
+      "score": 0.46272776277063676,
+      "created_at": "2025-12-08T09:05:43.826049-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.36292812861487034
+    },
+    {
+      "id": "759deb52-d859-45ec-ae94-436a9a325699",
+      "memory": "Will emphasize that the vanity has been well-cared for and is in good condition, making it a great value for the price",
+      "hash": "8d7b534e364bf82da90cfb8a71296ecb",
+      "metadata": null,
+      "score": 0.5228657487571453,
+      "created_at": "2025-12-08T09:05:43.841577-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.292568889418733
+    },
+    {
+      "id": "9b058356-5f4a-4a43-b783-e52d973a2263",
+      "memory": "Looking for online marketplaces or local antique stores to sell the antique music box, vintage typewriter, and depression-era glassware and get a good price for them",
+      "hash": "b2239afeabf00f79342b971ea0cbd7ef",
+      "metadata": null,
+      "score": 0.4310575059491855,
+      "created_at": "2025-12-08T08:59:17.815098-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.25504963992291585
+    },
+    {
+      "id": "5ae907ac-81a6-4b9d-8249-e64c05bbe4b9",
+      "memory": "Has put in some work to restore the vanity",
+      "hash": "0f6d8863ec1c5808705ba99fe4e2a805",
+      "metadata": null,
+      "score": 0.34805485585489493,
+      "created_at": "2025-12-08T09:05:43.747045-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.2505057963484066
+    },
+    {
+      "id": "27ae5043-57da-4791-a7fb-0ab38fb0afdb",
+      "memory": "Thinking of selling the antique music box and vintage typewriter online but not sure how to price them",
+      "hash": "63f684b3e0e12aa3e5fd061c851881c5",
+      "metadata": null,
+      "score": 0.5031783510682862,
+      "created_at": "2025-12-08T08:59:17.831202-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.17981711120299718
+    },
+    {
+      "id": "7b490ff1-8e7b-42b5-abba-8792c94be484",
+      "memory": "Hoping to get a good price for the music box and typewriter",
+      "hash": "8157b9d2bd2fd19b9e930eea9431d041",
+      "metadata": null,
+      "score": 0.3717484485141935,
+      "created_at": "2025-12-08T08:59:17.877171-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.08604200061336938
+    },
+    {
+      "id": "fd9022b2-9175-452f-85f4-ed247e5a1774",
+      "memory": "Looking for online marketplaces or local jewelers that specialize in buying high-end jewelry",
+      "hash": "0279c128770d3514052ab948896cfb67",
+      "metadata": null,
+      "score": 0.416755398909888,
+      "created_at": "2025-12-08T08:59:17.909561-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.06734321979825647
+    },
+    {
+      "id": "c9c402d9-36e8-4687-aa3f-e1fcdfc7962a",
+      "memory": "Looking for online resources or pricing guides to help determine the value of the antique music box and vintage typewriter",
+      "hash": "3dd4edb5495f42d5a2419a7c0c784379",
+      "metadata": null,
+      "score": 0.47416483451355074,
+      "created_at": "2025-12-08T08:59:17.846185-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.033865535886691764
+    },
+    {
+      "id": "99a0159c-5f54-4b7b-aa00-59e29fdd3a7e",
+      "memory": "Thinking of getting the antique music box restored",
+      "hash": "9936b75d73bb2d7885423054376510a6",
+      "metadata": null,
+      "score": 0.36591480353020933,
+      "created_at": "2025-12-08T08:59:17.941589-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.02119505920138897
+    },
+    {
+      "id": "697173ee-28a4-4a5d-bbb0-dc028122b105",
+      "memory": "Trying to get sports memorabilia collection organized",
+      "hash": "5a5b2ab5e7c41ea4e1cef2aee7c0398e",
+      "metadata": null,
+      "score": 0.33454863384193506,
+      "created_at": "2025-12-08T09:01:40.939756-08:00",
+      "updated_at": null,
+      "user_id": "benchmark_processed_188",
+      "rerank_score": 0.0
+    }
+  ],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.5787,
+    "load_time": 1265.664
+  }
+}
