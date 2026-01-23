@@ -1,0 +1,76 @@
+{
+  "sample_idx": 446,
+  "question_id": "89527b6b",
+  "question": "I'm going back to our previous conversation about the children's book on dinosaurs. Can you remind me what color was the scaly body of the Plesiosaur in the image?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "The Plesiosaur had a blue scaly body.",
+  "question_date": "2023/05/30 (Tue) 23:39",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:01:36.563307",
+  "predicted_answer": "The scaly body of the Plesiosaur in the image was blue.",
+  "prompt_length": 21860,
+  "gen_token_usage": {
+    "prompt_tokens": 6037,
+    "answer_tokens": 16,
+    "total_tokens": 6053,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.61,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 7,
+      "response_length": 11,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.6153846153846154,
+      "rouge1_f": 0.5555555555555556,
+      "rouge2_f": 0.25,
+      "rougeL_f": 0.33333333333333326,
+      "semantic_similarity": 0.9408968091011047,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.37606837606837606,
+      "avg_semantic": 0.9408968091011047,
+      "overall_average": 0.48903408646583557
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.6153846153846154,
+    "rouge1_f": 0.5555555555555556,
+    "rouge2_f": 0.25,
+    "rougeL_f": 0.33333333333333326,
+    "semantic_similarity": 0.9408968091011047,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.37606837606837606,
+    "avg_semantic": 0.9408968091011047,
+    "overall_average": 0.48903408646583557
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.2904,
+    "retrieval_time": 0.8268,
+    "generation_time": 2.2279,
+    "evaluation_time": 0.6628,
+    "cleanup_time": 1.7221,
+    "total_time": 18.7307
+  }
+}

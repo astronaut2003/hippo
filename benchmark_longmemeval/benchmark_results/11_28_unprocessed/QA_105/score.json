@@ -1,0 +1,76 @@
+{
+  "sample_idx": 105,
+  "question_id": "60bf93ed",
+  "question": "How many days did it take for my laptop backpack to arrive after I bought it?",
+  "question_type": "multi-session",
+  "gold_answer": "5 days. 6 days (including the last day) is also acceptable.",
+  "question_date": "2023/01/24 (Tue) 23:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:33:01.900764",
+  "predicted_answer": "Your laptop backpack arrived 5 days after you bought it on January 15, as it was delivered on January 20.",
+  "prompt_length": 14737,
+  "gen_token_usage": {
+    "prompt_tokens": 3204,
+    "answer_tokens": 25,
+    "total_tokens": 3229,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.44,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 20,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.13333333333333333,
+      "rouge1_f": 0.12903225806451613,
+      "rouge2_f": 0.06896551724137931,
+      "rougeL_f": 0.12903225806451613,
+      "semantic_similarity": 0.3737892508506775,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.09784946236559139,
+      "avg_semantic": 0.3737892508506775,
+      "overall_average": 0.153037428855896
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.13333333333333333,
+    "rouge1_f": 0.12903225806451613,
+    "rouge2_f": 0.06896551724137931,
+    "rougeL_f": 0.12903225806451613,
+    "semantic_similarity": 0.3737892508506775,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.09784946236559139,
+    "avg_semantic": 0.3737892508506775,
+    "overall_average": 0.153037428855896
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.9867,
+    "retrieval_time": 0.5684,
+    "generation_time": 2.622,
+    "evaluation_time": 0.644,
+    "cleanup_time": 1.0228,
+    "total_time": 16.8444
+  }
+}

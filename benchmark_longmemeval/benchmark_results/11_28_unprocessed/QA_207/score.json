@@ -1,0 +1,76 @@
+{
+  "sample_idx": 207,
+  "question_id": "73d42213",
+  "question": "What time did I reach the clinic on Monday?",
+  "question_type": "multi-session",
+  "gold_answer": "9:00 AM",
+  "question_date": "2023/05/30 (Tue) 22:10",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:04:03.813963",
+  "predicted_answer": "You reached the clinic around 1:00 PM on Monday.",
+  "prompt_length": 12348,
+  "gen_token_usage": {
+    "prompt_tokens": 2800,
+    "answer_tokens": 13,
+    "total_tokens": 2813,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.14,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.15384615384615383,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.15384615384615383,
+      "semantic_similarity": 0.2513124942779541,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.07692307692307691,
+      "avg_semantic": 0.2513124942779541,
+      "overall_average": 0.11180095374584198
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.15384615384615383,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.15384615384615383,
+    "semantic_similarity": 0.2513124942779541,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.07692307692307691,
+    "avg_semantic": 0.2513124942779541,
+    "overall_average": 0.11180095374584198
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.4,
+    "retrieval_time": 0.5453,
+    "generation_time": 1.3052,
+    "evaluation_time": 0.7413,
+    "cleanup_time": 1.385,
+    "total_time": 17.3773
+  }
+}

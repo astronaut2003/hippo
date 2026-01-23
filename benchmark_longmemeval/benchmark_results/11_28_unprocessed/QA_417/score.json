@@ -1,0 +1,76 @@
+{
+  "sample_idx": 417,
+  "question_id": "f685340e",
+  "question": "How often do I play tennis with my friends at the local park previously? How often do I play now?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Previously, you play tennis with your friends at the local park every week (on Sunday). Currently, you play tennis every other week (on Sunday).",
+  "question_date": "2023/07/31 (Mon) 11:43",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:53:33.026025",
+  "predicted_answer": "You previously played tennis with your friends at the local park every other week, and you are still planning to play this Sunday, which suggests you continue to play at the same frequency.",
+  "prompt_length": 16064,
+  "gen_token_usage": {
+    "prompt_tokens": 3527,
+    "answer_tokens": 36,
+    "total_tokens": 3563,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.69,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 24,
+      "response_length": 33,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.6037735849056605,
+      "rouge1_f": 0.5964912280701754,
+      "rouge2_f": 0.4,
+      "rougeL_f": 0.5263157894736842,
+      "semantic_similarity": 0.888273298740387,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.43164515061237996,
+      "avg_semantic": 0.888273298740387,
+      "overall_average": 0.5229707956314087
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.6037735849056605,
+    "rouge1_f": 0.5964912280701754,
+    "rouge2_f": 0.4,
+    "rougeL_f": 0.5263157894736842,
+    "semantic_similarity": 0.888273298740387,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.43164515061237996,
+    "avg_semantic": 0.888273298740387,
+    "overall_average": 0.5229707956314087
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 10.7107,
+    "retrieval_time": 0.5017,
+    "generation_time": 2.429,
+    "evaluation_time": 0.7625,
+    "cleanup_time": 1.5339,
+    "total_time": 15.9389
+  }
+}

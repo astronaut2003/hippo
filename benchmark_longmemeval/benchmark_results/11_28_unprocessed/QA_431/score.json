@@ -1,0 +1,76 @@
+{
+  "sample_idx": 431,
+  "question_id": "42ec0761",
+  "question": "Do I have a spare screwdriver for opening up my laptop?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Yes",
+  "question_date": "2023/08/31 (Thu) 00:39",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:57:15.505017",
+  "predicted_answer": "Yes, you mentioned that you have a spare screwdriver that you picked up when you organized your computer desk, so you're all set for opening up your laptop.",
+  "prompt_length": 17572,
+  "gen_token_usage": {
+    "prompt_tokens": 3845,
+    "answer_tokens": 31,
+    "total_tokens": 3876,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.93,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.07142857142857142,
+      "rouge1_f": 0.06666666666666667,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06666666666666667,
+      "semantic_similarity": 0.17428547143936157,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.05119047619047619,
+      "avg_semantic": 0.17428547143936157,
+      "overall_average": 0.07580947875976562
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.07142857142857142,
+    "rouge1_f": 0.06666666666666667,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06666666666666667,
+    "semantic_similarity": 0.17428547143936157,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.05119047619047619,
+    "avg_semantic": 0.17428547143936157,
+    "overall_average": 0.07580947875976562
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.6306,
+    "retrieval_time": 0.6072,
+    "generation_time": 1.4867,
+    "evaluation_time": 0.7719,
+    "cleanup_time": 1.2263,
+    "total_time": 15.7233
+  }
+}

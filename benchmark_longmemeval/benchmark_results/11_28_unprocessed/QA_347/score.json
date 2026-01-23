@@ -1,0 +1,76 @@
+{
+  "sample_idx": 347,
+  "question_id": "gpt4_93f6379c",
+  "question": "Which group did I join first, 'Page Turners' or 'Marketing Professionals'?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Page Turners",
+  "question_date": "2023/05/25 (Thu) 08:24",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:34:21.577525",
+  "predicted_answer": "You joined the \"Marketing Professionals\" group first, as you mentioned engaging with it since you joined it yesterday, while you joined the \"Page Turners\" group last week.",
+  "prompt_length": 30135,
+  "gen_token_usage": {
+    "prompt_tokens": 6159,
+    "answer_tokens": 35,
+    "total_tokens": 6194,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.7,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 27,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14814814814814814,
+      "rouge1_f": 0.13793103448275862,
+      "rouge2_f": 0.07407407407407407,
+      "rougeL_f": 0.13793103448275862,
+      "semantic_similarity": 0.445163369178772,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.10600255427841634,
+      "avg_semantic": 0.445163369178772,
+      "overall_average": 0.17383471131324768
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14814814814814814,
+    "rouge1_f": 0.13793103448275862,
+    "rouge2_f": 0.07407407407407407,
+    "rougeL_f": 0.13793103448275862,
+    "semantic_similarity": 0.445163369178772,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.10600255427841634,
+    "avg_semantic": 0.445163369178772,
+    "overall_average": 0.17383471131324768
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 10.4296,
+    "retrieval_time": 0.517,
+    "generation_time": 11.3037,
+    "evaluation_time": 1.0963,
+    "cleanup_time": 1.2905,
+    "total_time": 24.6374
+  }
+}

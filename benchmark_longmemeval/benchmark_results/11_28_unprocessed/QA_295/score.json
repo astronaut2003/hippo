@@ -1,0 +1,76 @@
+{
+  "sample_idx": 295,
+  "question_id": "gpt4_4929293b",
+  "question": "What was the the life event of one of my relatives that I participated in a week ago?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "my cousin's wedding",
+  "question_date": "2023/06/22 (Thu) 18:33",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:20:18.327235",
+  "predicted_answer": "You participated in your niece's kindergarten graduation ceremony last week.",
+  "prompt_length": 18814,
+  "gen_token_usage": {
+    "prompt_tokens": 3801,
+    "answer_tokens": 12,
+    "total_tokens": 3813,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.9,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.13333333333333333,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.13333333333333333,
+      "semantic_similarity": 0.4204574227333069,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.06666666666666667,
+      "avg_semantic": 0.4204574227333069,
+      "overall_average": 0.13742482662200928
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.13333333333333333,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.13333333333333333,
+    "semantic_similarity": 0.4204574227333069,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.06666666666666667,
+    "avg_semantic": 0.4204574227333069,
+    "overall_average": 0.13742482662200928
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.0534,
+    "retrieval_time": 0.6006,
+    "generation_time": 1.9134,
+    "evaluation_time": 0.6814,
+    "cleanup_time": 1.4769,
+    "total_time": 16.7263
+  }
+}

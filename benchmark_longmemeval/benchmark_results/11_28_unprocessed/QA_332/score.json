@@ -1,0 +1,76 @@
+{
+  "sample_idx": 332,
+  "question_id": "gpt4_2c50253f",
+  "question": "What time do I wake up on Tuesdays and Thursdays?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "6:45 AM",
+  "question_date": "2023/05/27 (Sat) 19:21",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:30:10.926159",
+  "predicted_answer": "You wake up at 6:45 AM on Tuesdays and Thursdays, as you mentioned waking up 15 minutes earlier than your usual time of 7:00 AM.",
+  "prompt_length": 21076,
+  "gen_token_usage": {
+    "prompt_tokens": 4711,
+    "answer_tokens": 34,
+    "total_tokens": 4745,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.59,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 25,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.15384615384615385,
+      "rouge1_f": 0.19999999999999998,
+      "rouge2_f": 0.14285714285714288,
+      "rougeL_f": 0.19999999999999998,
+      "semantic_similarity": 0.5146080851554871,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.13846153846153844,
+      "avg_semantic": 0.5146080851554871,
+      "overall_average": 0.213690847158432
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.15384615384615385,
+    "rouge1_f": 0.19999999999999998,
+    "rouge2_f": 0.14285714285714288,
+    "rougeL_f": 0.19999999999999998,
+    "semantic_similarity": 0.5146080851554871,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.13846153846153844,
+    "avg_semantic": 0.5146080851554871,
+    "overall_average": 0.213690847158432
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 14.9791,
+    "retrieval_time": 0.545,
+    "generation_time": 1.4215,
+    "evaluation_time": 1.2185,
+    "cleanup_time": 1.419,
+    "total_time": 19.5837
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 111,
+  "question_id": "d851d5ba",
+  "question": "How much money did I raise for charity in total?",
+  "question_type": "multi-session",
+  "gold_answer": "$3,750",
+  "question_date": "2023/03/20 (Mon) 23:59",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:34:38.140769",
+  "predicted_answer": "You raised a total of $2,250 for charity: $2,000 for a local animal shelter on January 20th and $250 for a local food bank during the \"Run for Hunger\" charity event on March 12th.",
+  "prompt_length": 26305,
+  "gen_token_usage": {
+    "prompt_tokens": 5575,
+    "answer_tokens": 49,
+    "total_tokens": 5624,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.25,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 34,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.2235056757926941,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.2235056757926941,
+      "overall_average": 0.04470113664865494
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.2235056757926941,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.2235056757926941,
+    "overall_average": 0.04470113664865494
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.3705,
+    "retrieval_time": 0.5588,
+    "generation_time": 1.7382,
+    "evaluation_time": 0.761,
+    "cleanup_time": 1.0581,
+    "total_time": 16.487
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 97,
+  "question_id": "2318644b",
+  "question": "How much more did I spend on accommodations per night in Hawaii compared to Tokyo?",
+  "question_type": "multi-session",
+  "gold_answer": "$270",
+  "question_date": "2023/05/30 (Tue) 22:16",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:30:48.621453",
+  "predicted_answer": "You mentioned staying at a luxurious resort in Maui that costs over $300 per night. In Tokyo, you stayed in a hostel that cost around $30 per night. Therefore, you spent approximately $270 more per night on accommodations in Hawaii compared to Tokyo.",
+  "prompt_length": 28523,
+  "gen_token_usage": {
+    "prompt_tokens": 6551,
+    "answer_tokens": 51,
+    "total_tokens": 6602,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 5.0,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 43,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.047619047619047616,
+      "rouge1_f": 0.04545454545454545,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.04545454545454545,
+      "semantic_similarity": 0.1990872025489807,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.034632034632034625,
+      "avg_semantic": 0.1990872025489807,
+      "overall_average": 0.06752306967973709
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.047619047619047616,
+    "rouge1_f": 0.04545454545454545,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.04545454545454545,
+    "semantic_similarity": 0.1990872025489807,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.034632034632034625,
+    "avg_semantic": 0.1990872025489807,
+    "overall_average": 0.06752306967973709
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.6867,
+    "retrieval_time": 0.6548,
+    "generation_time": 3.1401,
+    "evaluation_time": 0.6779,
+    "cleanup_time": 1.6114,
+    "total_time": 19.7714
+  }
+}

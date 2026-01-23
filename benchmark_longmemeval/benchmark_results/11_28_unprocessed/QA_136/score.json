@@ -1,0 +1,76 @@
+{
+  "sample_idx": 136,
+  "question_id": "35a27287",
+  "question": "Can you recommend some interesting cultural events happening around me this weekend?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that suggest cultural events where they can practice their language skills, particularly Spanish and French. They would also appreciate if the event has a focus on language learning resources. They would not prefer events that do not provide opportunities for language practice or cultural exchange.",
+  "question_date": "2023/05/30 (Tue) 22:15",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:42:17.294010",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 19609,
+  "gen_token_usage": {
+    "prompt_tokens": 4084,
+    "answer_tokens": 10,
+    "total_tokens": 4094,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.12,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 50,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.0,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.0,
+      "overall_average": 0.0
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.0,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.0,
+    "overall_average": 0.0
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.0332,
+    "retrieval_time": 0.5228,
+    "generation_time": 1.3386,
+    "evaluation_time": 0.7432,
+    "cleanup_time": 1.624,
+    "total_time": 17.2623
+  }
+}

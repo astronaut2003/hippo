@@ -1,0 +1,76 @@
+{
+  "sample_idx": 2,
+  "question_id": "51a45a95",
+  "question": "Where did I redeem a $5 coupon on coffee creamer?",
+  "question_type": "single-session-user",
+  "gold_answer": "Target",
+  "question_date": "2023/05/30 (Tue) 20:42",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T14:56:17.736559",
+  "predicted_answer": "You redeemed a $5 coupon on coffee creamer last Sunday.",
+  "prompt_length": 18939,
+  "gen_token_usage": {
+    "prompt_tokens": 4060,
+    "answer_tokens": 13,
+    "total_tokens": 4073,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.1,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.08127707242965698,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.08127707242965698,
+      "overall_average": 0.016255414113402367
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.08127707242965698,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.08127707242965698,
+    "overall_average": 0.016255414113402367
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 21.2339,
+    "retrieval_time": 0.6235,
+    "generation_time": 1.3656,
+    "evaluation_time": 0.7381,
+    "cleanup_time": 2.0976,
+    "total_time": 26.0596
+  }
+}

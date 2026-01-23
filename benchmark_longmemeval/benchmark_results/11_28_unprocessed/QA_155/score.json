@@ -1,0 +1,76 @@
+{
+  "sample_idx": 155,
+  "question_id": "b6025781",
+  "question": "I'm planning my meal prep next week, any suggestions for new recipes?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that suggest healthy meal prep recipes, especially those that incorporate quinoa and roasted vegetables, and offer variations in protein sources. They might appreciate suggestions that build upon their existing preferences, such as new twists on chicken Caesar salads or turkey and avocado wraps. The user may not prefer responses that suggest unhealthy or high-calorie meal prep options, or those that deviate significantly from their established healthy eating habits.",
+  "question_date": "2023/05/30 (Tue) 21:41",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:48:18.116690",
+  "predicted_answer": "生成失败: Connection error.",
+  "prompt_length": 20295,
+  "gen_token_usage": {
+    "prompt_tokens": 4731,
+    "answer_tokens": 6,
+    "total_tokens": 4737,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.61,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 73,
+      "response_length": 3,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.0,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.0,
+      "overall_average": 0.0
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.0,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.0,
+    "overall_average": 0.0
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.7041,
+    "retrieval_time": 0.6271,
+    "generation_time": 4.789,
+    "evaluation_time": 2.7928,
+    "cleanup_time": 0.8919,
+    "total_time": 21.8054
+  }
+}

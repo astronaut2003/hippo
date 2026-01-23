@@ -1,0 +1,76 @@
+{
+  "sample_idx": 38,
+  "question_id": "577d4d32",
+  "question": "What time do I stop checking work emails and messages?",
+  "question_type": "single-session-user",
+  "gold_answer": "7 pm",
+  "question_date": "2023/05/30 (Tue) 23:54",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:11:53.082974",
+  "predicted_answer": "You stop checking work emails and messages by 7 pm to separate your work and personal life.",
+  "prompt_length": 23666,
+  "gen_token_usage": {
+    "prompt_tokens": 5016,
+    "answer_tokens": 19,
+    "total_tokens": 5035,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.83,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 17,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.23529411764705882,
+      "rouge1_f": 0.21052631578947367,
+      "rouge2_f": 0.11764705882352941,
+      "rougeL_f": 0.21052631578947367,
+      "semantic_similarity": 0.3183937072753906,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.16408668730650156,
+      "avg_semantic": 0.3183937072753906,
+      "overall_average": 0.19494809210300446
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.23529411764705882,
+    "rouge1_f": 0.21052631578947367,
+    "rouge2_f": 0.11764705882352941,
+    "rougeL_f": 0.21052631578947367,
+    "semantic_similarity": 0.3183937072753906,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.16408668730650156,
+    "avg_semantic": 0.3183937072753906,
+    "overall_average": 0.19494809210300446
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 18.9827,
+    "retrieval_time": 0.6138,
+    "generation_time": 1.5021,
+    "evaluation_time": 0.755,
+    "cleanup_time": 2.7685,
+    "total_time": 24.6245
+  }
+}

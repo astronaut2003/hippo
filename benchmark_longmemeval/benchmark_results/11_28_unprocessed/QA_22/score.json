@@ -1,0 +1,76 @@
+{
+  "sample_idx": 22,
+  "question_id": "6b168ec8",
+  "question": "How many bikes do I own?",
+  "question_type": "single-session-user",
+  "gold_answer": "three",
+  "question_date": "2023/05/30 (Tue) 20:24",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:04:45.593901",
+  "predicted_answer": "You own three bikes: a road bike, a mountain bike, and a commuter bike.",
+  "prompt_length": 25864,
+  "gen_token_usage": {
+    "prompt_tokens": 5743,
+    "answer_tokens": 18,
+    "total_tokens": 5761,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.38,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.18181818181818182,
+      "rouge1_f": 0.13333333333333333,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.13333333333333333,
+      "semantic_similarity": 0.2874408960342407,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.11212121212121212,
+      "avg_semantic": 0.2874408960342407,
+      "overall_average": 0.14718514680862427
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.18181818181818182,
+    "rouge1_f": 0.13333333333333333,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.13333333333333333,
+    "semantic_similarity": 0.2874408960342407,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.11212121212121212,
+    "avg_semantic": 0.2874408960342407,
+    "overall_average": 0.14718514680862427
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 18.6004,
+    "retrieval_time": 0.547,
+    "generation_time": 1.4388,
+    "evaluation_time": 1.1216,
+    "cleanup_time": 2.6447,
+    "total_time": 24.3551
+  }
+}

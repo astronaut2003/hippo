@@ -1,0 +1,76 @@
+{
+  "sample_idx": 91,
+  "question_id": "d23cf73b",
+  "question": "How many different cuisines have I learned to cook or tried out in the past few months?",
+  "question_type": "multi-session",
+  "gold_answer": 4,
+  "question_date": "2023/05/30 (Tue) 16:04",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:29:03.032730",
+  "predicted_answer": "Based on the memories, you have learned to cook or tried out the following cuisines in the past few months:\n\n1. Ethiopian cuisine (including dishes like misir wot and injera)\n2. Indian cuisine (specifically chicken tikka masala)\n3. Vegan cuisine (including vegan lasagna with cashew-based ricotta)\n\nSo, you have explored at least three different cuisines.",
+  "prompt_length": 15127,
+  "gen_token_usage": {
+    "prompt_tokens": 3353,
+    "answer_tokens": 78,
+    "total_tokens": 3431,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.56,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 55,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.13350021839141846,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.13350021839141846,
+      "overall_average": 0.02670004405081272
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.13350021839141846,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.13350021839141846,
+    "overall_average": 0.02670004405081272
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.8425,
+    "retrieval_time": 0.642,
+    "generation_time": 2.1702,
+    "evaluation_time": 0.7347,
+    "cleanup_time": 1.4166,
+    "total_time": 16.8066
+  }
+}

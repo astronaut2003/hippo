@@ -1,0 +1,76 @@
+{
+  "sample_idx": 13,
+  "question_id": "3b6f954b",
+  "question": "Where did I attend for my study abroad program?",
+  "question_type": "single-session-user",
+  "gold_answer": "University of Melbourne in Australia",
+  "question_date": "2023/05/30 (Tue) 16:24",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:00:55.683719",
+  "predicted_answer": "You attended the University of Melbourne for your study abroad program.",
+  "prompt_length": 18887,
+  "gen_token_usage": {
+    "prompt_tokens": 3664,
+    "answer_tokens": 12,
+    "total_tokens": 3676,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.8,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 11,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.4,
+      "rouge1_f": 0.37499999999999994,
+      "rouge2_f": 0.28571428571428575,
+      "rougeL_f": 0.37499999999999994,
+      "semantic_similarity": 0.7925946116447449,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2875,
+      "avg_semantic": 0.7925946116447449,
+      "overall_average": 0.38851889967918396
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.4,
+    "rouge1_f": 0.37499999999999994,
+    "rouge2_f": 0.28571428571428575,
+    "rougeL_f": 0.37499999999999994,
+    "semantic_similarity": 0.7925946116447449,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2875,
+    "avg_semantic": 0.7925946116447449,
+    "overall_average": 0.38851889967918396
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 17.9359,
+    "retrieval_time": 0.5872,
+    "generation_time": 1.5835,
+    "evaluation_time": 0.9402,
+    "cleanup_time": 3.017,
+    "total_time": 24.0664
+  }
+}

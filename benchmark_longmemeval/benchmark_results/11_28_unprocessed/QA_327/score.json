@@ -1,0 +1,76 @@
+{
+  "sample_idx": 327,
+  "question_id": "gpt4_4edbafa2",
+  "question": "What was the date on which I attended the first BBQ event in June?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "June 3rd",
+  "question_date": "2023/07/01 (Sat) 02:36",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:28:49.631769",
+  "predicted_answer": "You attended the first BBQ event in June on the 3rd of June.",
+  "prompt_length": 22625,
+  "gen_token_usage": {
+    "prompt_tokens": 5254,
+    "answer_tokens": 16,
+    "total_tokens": 5270,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.01,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3076923076923077,
+      "rouge1_f": 0.2666666666666667,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.2666666666666667,
+      "semantic_similarity": 0.552825927734375,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2102564102564103,
+      "avg_semantic": 0.552825927734375,
+      "overall_average": 0.2787702977657318
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3076923076923077,
+    "rouge1_f": 0.2666666666666667,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.2666666666666667,
+    "semantic_similarity": 0.552825927734375,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2102564102564103,
+    "avg_semantic": 0.552825927734375,
+    "overall_average": 0.2787702977657318
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 10.5374,
+    "retrieval_time": 0.5953,
+    "generation_time": 1.3072,
+    "evaluation_time": 0.6415,
+    "cleanup_time": 1.3928,
+    "total_time": 14.4748
+  }
+}

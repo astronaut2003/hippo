@@ -1,0 +1,76 @@
+{
+  "sample_idx": 262,
+  "question_id": "gpt4_e061b84f",
+  "question": "What is the order of the three sports events I participated in during the past month, from earliest to latest?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "I first completed the Spring Sprint Triathlon, then took part in the Midsummer 5K Run, and finally participated in the company's annual charity soccer tournament.",
+  "question_date": "2023/07/01 (Sat) 20:43",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:11:32.340084",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 16623,
+  "gen_token_usage": {
+    "prompt_tokens": 3647,
+    "answer_tokens": 10,
+    "total_tokens": 3657,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.78,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 25,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.06666666666666667,
+      "rouge1_f": 0.05555555555555555,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.05555555555555555,
+      "semantic_similarity": 0.06805765628814697,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.04444444444444444,
+      "avg_semantic": 0.06805765628814697,
+      "overall_average": 0.04916708916425705
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.06666666666666667,
+    "rouge1_f": 0.05555555555555555,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.05555555555555555,
+    "semantic_similarity": 0.06805765628814697,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.04444444444444444,
+    "avg_semantic": 0.06805765628814697,
+    "overall_average": 0.04916708916425705
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.3465,
+    "retrieval_time": 0.5983,
+    "generation_time": 1.026,
+    "evaluation_time": 0.9912,
+    "cleanup_time": 1.3917,
+    "total_time": 15.3541
+  }
+}

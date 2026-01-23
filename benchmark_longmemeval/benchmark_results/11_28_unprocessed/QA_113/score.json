@@ -1,0 +1,76 @@
+{
+  "sample_idx": 113,
+  "question_id": "gpt4_ab202e7f",
+  "question": "How many kitchen items did I replace or fix?",
+  "question_type": "multi-session",
+  "gold_answer": "I replaced or fixed five items: the kitchen faucet, the kitchen mat, the toaster, the coffee maker, and the kitchen shelves.",
+  "question_date": "2023/05/30 (Tue) 22:20",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:35:10.340897",
+  "predicted_answer": "You replaced your old toaster with a toaster oven and fixed your kitchen shelves. That's a total of two kitchen items you replaced or fixed.",
+  "prompt_length": 12713,
+  "gen_token_usage": {
+    "prompt_tokens": 2828,
+    "answer_tokens": 27,
+    "total_tokens": 2855,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.16,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 21,
+      "response_length": 25,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.43243243243243246,
+      "rouge1_f": 0.3829787234042554,
+      "rouge2_f": 0.1333333333333333,
+      "rougeL_f": 0.21276595744680848,
+      "semantic_similarity": 0.6588855385780334,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.25704427832087406,
+      "avg_semantic": 0.6588855385780334,
+      "overall_average": 0.3374125361442566
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.43243243243243246,
+    "rouge1_f": 0.3829787234042554,
+    "rouge2_f": 0.1333333333333333,
+    "rougeL_f": 0.21276595744680848,
+    "semantic_similarity": 0.6588855385780334,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.25704427832087406,
+    "avg_semantic": 0.6588855385780334,
+    "overall_average": 0.3374125361442566
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.2704,
+    "retrieval_time": 0.5863,
+    "generation_time": 1.3384,
+    "evaluation_time": 0.6386,
+    "cleanup_time": 0.9999,
+    "total_time": 15.834
+  }
+}

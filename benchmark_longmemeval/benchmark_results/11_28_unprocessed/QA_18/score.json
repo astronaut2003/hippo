@@ -1,0 +1,76 @@
+{
+  "sample_idx": 18,
+  "question_id": "af8d2e46",
+  "question": "How many shirts did I pack for my 5-day trip to Costa Rica?",
+  "question_type": "single-session-user",
+  "gold_answer": "7",
+  "question_date": "2023/05/30 (Tue) 14:18",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:03:00.070212",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 19673,
+  "gen_token_usage": {
+    "prompt_tokens": 4472,
+    "answer_tokens": 10,
+    "total_tokens": 4482,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.41,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.12827551364898682,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.12827551364898682,
+      "overall_average": 0.025655101984739304
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.12827551364898682,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.12827551364898682,
+    "overall_average": 0.025655101984739304
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 19.226,
+    "retrieval_time": 0.4954,
+    "generation_time": 1.211,
+    "evaluation_time": 0.7438,
+    "cleanup_time": 3.045,
+    "total_time": 24.7233
+  }
+}

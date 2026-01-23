@@ -1,0 +1,76 @@
+{
+  "sample_idx": 109,
+  "question_id": "gpt4_194be4b3",
+  "question": "How many musical instruments do I currently own?",
+  "question_type": "multi-session",
+  "gold_answer": "I currently own 4 musical instruments. I've had the Fender Stratocaster electric guitar for 5 years, the Yamaha FG800 acoustic guitar for 8 years, the 5-piece Pearl Export drum set for an unspecified amount of time, and the Korg B1 piano for 3 years.",
+  "question_date": "2023/05/30 (Tue) 23:29",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:34:07.132621",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 25947,
+  "gen_token_usage": {
+    "prompt_tokens": 5992,
+    "answer_tokens": 10,
+    "total_tokens": 6002,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.57,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 44,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.0425531914893617,
+      "rouge1_f": 0.03571428571428571,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.03571428571428571,
+      "semantic_similarity": 0.0,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.02849544072948328,
+      "avg_semantic": 0.0,
+      "overall_average": 0.022796352583586622
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.0425531914893617,
+    "rouge1_f": 0.03571428571428571,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.03571428571428571,
+    "semantic_similarity": 0.0,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.02849544072948328,
+    "avg_semantic": 0.0,
+    "overall_average": 0.022796352583586622
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.9263,
+    "retrieval_time": 0.6114,
+    "generation_time": 1.28,
+    "evaluation_time": 0.703,
+    "cleanup_time": 1.0355,
+    "total_time": 15.5568
+  }
+}

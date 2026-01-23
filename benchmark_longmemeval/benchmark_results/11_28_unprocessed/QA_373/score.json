@@ -1,0 +1,76 @@
+{
+  "sample_idx": 373,
+  "question_id": "89941a93",
+  "question": "How many bikes do I currently own?",
+  "question_type": "knowledge-update",
+  "gold_answer": "4",
+  "question_date": "2023/10/27 (Fri) 13:00",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:41:33.436435",
+  "predicted_answer": "You currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike.",
+  "prompt_length": 11945,
+  "gen_token_usage": {
+    "prompt_tokens": 2615,
+    "answer_tokens": 24,
+    "total_tokens": 2639,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.0,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 19,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.19648289680480957,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.19648289680480957,
+      "overall_average": 0.039296578615903854
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.19648289680480957,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.19648289680480957,
+    "overall_average": 0.039296578615903854
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.2906,
+    "retrieval_time": 0.5968,
+    "generation_time": 1.2455,
+    "evaluation_time": 0.5829,
+    "cleanup_time": 1.2506,
+    "total_time": 15.9669
+  }
+}

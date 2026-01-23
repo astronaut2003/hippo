@@ -1,0 +1,76 @@
+{
+  "sample_idx": 117,
+  "question_id": "10d9b85a",
+  "question": "How many days did I spend attending workshops, lectures, and conferences in April?",
+  "question_type": "multi-session",
+  "gold_answer": "3 days",
+  "question_date": "2023/05/01 (Mon) 23:15",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:36:25.025526",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 26658,
+  "gen_token_usage": {
+    "prompt_tokens": 5670,
+    "answer_tokens": 10,
+    "total_tokens": 5680,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.33,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.05817216634750366,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.05817216634750366,
+      "overall_average": 0.011634433642029762
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.05817216634750366,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.05817216634750366,
+    "overall_average": 0.011634433642029762
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.8267,
+    "retrieval_time": 0.5501,
+    "generation_time": 1.673,
+    "evaluation_time": 1.0655,
+    "cleanup_time": 1.7481,
+    "total_time": 17.8638
+  }
+}

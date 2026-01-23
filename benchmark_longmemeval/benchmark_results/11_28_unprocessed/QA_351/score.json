@@ -1,0 +1,76 @@
+{
+  "sample_idx": 351,
+  "question_id": "gpt4_78cf46a3",
+  "question": "Which event happened first, the narrator losing their phone charger or the narrator receiving their new phone case?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Receiving the new phone case",
+  "question_date": "2023/05/26 (Fri) 12:55",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:35:30.809974",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 11336,
+  "gen_token_usage": {
+    "prompt_tokens": 2547,
+    "answer_tokens": 10,
+    "total_tokens": 2557,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.94,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.090603768825531,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.090603768825531,
+      "overall_average": 0.01812075451016426
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.090603768825531,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.090603768825531,
+    "overall_average": 0.01812075451016426
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.861,
+    "retrieval_time": 0.5992,
+    "generation_time": 1.125,
+    "evaluation_time": 1.4042,
+    "cleanup_time": 1.3189,
+    "total_time": 16.3087
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 319,
+  "question_id": "gpt4_6ed717ea",
+  "question": "Which item did I purchase first, the dog bed for Max or the training pads for Luna?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Training pads for Luna",
+  "question_date": "2023/05/29 (Mon) 08:51",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:26:44.091761",
+  "predicted_answer": "You purchased the training pads for Luna about a month ago, and you got the dog bed for Max three weeks ago. Therefore, you purchased the training pads for Luna first.",
+  "prompt_length": 21520,
+  "gen_token_usage": {
+    "prompt_tokens": 4674,
+    "answer_tokens": 35,
+    "total_tokens": 4709,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.57,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 4,
+      "response_length": 31,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2666666666666667,
+      "rouge1_f": 0.2285714285714286,
+      "rouge2_f": 0.18181818181818182,
+      "rougeL_f": 0.2285714285714286,
+      "semantic_similarity": 0.640553891658783,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.18095238095238098,
+      "avg_semantic": 0.640553891658783,
+      "overall_average": 0.2728726863861084
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2666666666666667,
+    "rouge1_f": 0.2285714285714286,
+    "rouge2_f": 0.18181818181818182,
+    "rougeL_f": 0.2285714285714286,
+    "semantic_similarity": 0.640553891658783,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.18095238095238098,
+    "avg_semantic": 0.640553891658783,
+    "overall_average": 0.2728726863861084
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 10.7431,
+    "retrieval_time": 0.5974,
+    "generation_time": 1.7579,
+    "evaluation_time": 1.9213,
+    "cleanup_time": 1.2372,
+    "total_time": 16.2572
+  }
+}

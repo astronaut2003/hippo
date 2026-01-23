@@ -1,0 +1,76 @@
+{
+  "sample_idx": 407,
+  "question_id": "4b24c848",
+  "question": "How many tops have I bought from H&M so far?",
+  "question_type": "knowledge-update",
+  "gold_answer": "five",
+  "question_date": "2023/10/20 (Fri) 08:09",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:50:47.075514",
+  "predicted_answer": "You have bought five tops from H&M so far.",
+  "prompt_length": 17639,
+  "gen_token_usage": {
+    "prompt_tokens": 4049,
+    "answer_tokens": 11,
+    "total_tokens": 4060,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.09,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.19999999999999998,
+      "rouge1_f": 0.18181818181818182,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.18181818181818182,
+      "semantic_similarity": 0.2431626319885254,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.14090909090909093,
+      "avg_semantic": 0.2431626319885254,
+      "overall_average": 0.16135980188846588
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.19999999999999998,
+    "rouge1_f": 0.18181818181818182,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.18181818181818182,
+    "semantic_similarity": 0.2431626319885254,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.14090909090909093,
+    "avg_semantic": 0.2431626319885254,
+    "overall_average": 0.16135980188846588
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.084,
+    "retrieval_time": 0.519,
+    "generation_time": 1.5287,
+    "evaluation_time": 0.6247,
+    "cleanup_time": 1.9901,
+    "total_time": 16.747
+  }
+}

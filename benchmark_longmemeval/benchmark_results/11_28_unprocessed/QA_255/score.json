@@ -1,0 +1,76 @@
+{
+  "sample_idx": 255,
+  "question_id": "gpt4_7abb270c",
+  "question": "What is the order of the six museums I visited from earliest to latest?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Science Museum, Museum of Contemporary Art, Metropolitan Museum of Art, Museum of History, Modern Art Museum, Natural History Museum",
+  "question_date": "2023/03/10 (Fri) 08:15",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:09:32.155443",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 20004,
+  "gen_token_usage": {
+    "prompt_tokens": 4179,
+    "answer_tokens": 10,
+    "total_tokens": 4189,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.19,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 19,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.0,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.0,
+      "overall_average": 0.0
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.0,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.0,
+    "overall_average": 0.0
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.5753,
+    "retrieval_time": 0.5544,
+    "generation_time": 1.0737,
+    "evaluation_time": 0.6413,
+    "cleanup_time": 1.5226,
+    "total_time": 16.3677
+  }
+}

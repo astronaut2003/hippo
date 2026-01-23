@@ -1,0 +1,76 @@
+{
+  "sample_idx": 161,
+  "question_id": "0a34ad58",
+  "question": "I’m a bit anxious about getting around Tokyo. Do you have any helpful tips?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that utilize their existing resources, such as their Suica card and TripIt app, to provide personalized tips for navigating Tokyo's public transportation. They might not prefer general tips or recommendations that do not take into account their prior preparations.",
+  "question_date": "2023/05/30 (Tue) 22:40",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:50:16.507918",
+  "predicted_answer": "Here are some helpful tips for getting around Tokyo:\n\n1. **Use a Suica Card**: This prepaid IC card makes traveling on public transportation convenient. You can use it on trains, buses, and even at some shops.\n\n2. **Plan Your Route**: Use transit apps or Google Maps to find the best routes and check train schedules. This will help you navigate the system more easily.\n\n3. **Be Mindful of Crowds**: Tokyo's public transport can get crowded, especially during peak hours. Try to travel during off-peak times if possible.\n\n4. **Comfortable Footwear**: Wear comfortable shoes, as you may be doing a lot of walking between stations and attractions.\n\n5. **Ask for Help**: If you're unsure about your route or need assistance, don't hesitate to ask station staff or locals for help.\n\n6. **Keep Your Belongings Secure**: Be mindful of your belongings, especially in crowded areas.\n\nBy following these tips, you can navigate Tokyo with more confidence. Enjoy your trip!",
+  "prompt_length": 26505,
+  "gen_token_usage": {
+    "prompt_tokens": 6033,
+    "answer_tokens": 210,
+    "total_tokens": 6243,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.6,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 44,
+      "response_length": 157,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14583333333333334,
+      "rouge1_f": 0.1650485436893204,
+      "rouge2_f": 0.0588235294117647,
+      "rougeL_f": 0.10679611650485439,
+      "semantic_similarity": 0.5544408559799194,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.10441949838187703,
+      "avg_semantic": 0.5544408559799194,
+      "overall_average": 0.19442376494407654
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14583333333333334,
+    "rouge1_f": 0.1650485436893204,
+    "rouge2_f": 0.0588235294117647,
+    "rougeL_f": 0.10679611650485439,
+    "semantic_similarity": 0.5544408559799194,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.10441949838187703,
+    "avg_semantic": 0.5544408559799194,
+    "overall_average": 0.19442376494407654
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.8927,
+    "retrieval_time": 0.5325,
+    "generation_time": 4.6249,
+    "evaluation_time": 0.6847,
+    "cleanup_time": 1.6751,
+    "total_time": 21.4109
+  }
+}

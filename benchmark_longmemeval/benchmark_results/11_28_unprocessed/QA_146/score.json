@@ -1,0 +1,76 @@
+{
+  "sample_idx": 146,
+  "question_id": "38146c39",
+  "question": "I've been feeling like my chocolate chip cookies need something extra. Any advice?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that build upon their previous experimentation with turbinado sugar, suggesting ingredients or techniques that complement its richer flavor. They might not prefer generic cookie-making advice or suggestions that don't take into account their existing use of turbinado sugar.",
+  "question_date": "2023/05/30 (Tue) 20:02",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:45:19.777607",
+  "predicted_answer": "To enhance your chocolate chip cookies, consider adding turbinado sugar for a richer flavor and subtle caramel notes. You can also experiment with spices like cinnamon or nutmeg to add warmth. Additionally, incorporating nuts such as walnuts or pecans can provide a nice crunch and complement the sweetness of the cookies. Enjoy experimenting with these additions!",
+  "prompt_length": 26839,
+  "gen_token_usage": {
+    "prompt_tokens": 6213,
+    "answer_tokens": 66,
+    "total_tokens": 6279,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.74,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 43,
+      "response_length": 56,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1956521739130435,
+      "rouge1_f": 0.21782178217821782,
+      "rouge2_f": 0.0404040404040404,
+      "rougeL_f": 0.11881188118811882,
+      "semantic_similarity": 0.6372627019882202,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.13307145931984504,
+      "avg_semantic": 0.6372627019882202,
+      "overall_average": 0.2339096963405609
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1956521739130435,
+    "rouge1_f": 0.21782178217821782,
+    "rouge2_f": 0.0404040404040404,
+    "rougeL_f": 0.11881188118811882,
+    "semantic_similarity": 0.6372627019882202,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.13307145931984504,
+    "avg_semantic": 0.6372627019882202,
+    "overall_average": 0.2339096963405609
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 14.8019,
+    "retrieval_time": 0.5795,
+    "generation_time": 1.9651,
+    "evaluation_time": 0.6495,
+    "cleanup_time": 1.7553,
+    "total_time": 19.7522
+  }
+}

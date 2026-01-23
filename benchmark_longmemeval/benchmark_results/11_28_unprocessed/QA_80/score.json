@@ -1,0 +1,76 @@
+{
+  "sample_idx": 80,
+  "question_id": "c4a1ceb8",
+  "question": "How many different types of citrus fruits have I used in my cocktail recipes?",
+  "question_type": "multi-session",
+  "gold_answer": 3,
+  "question_date": "2023/05/30 (Tue) 23:22",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:25:55.962208",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 30815,
+  "gen_token_usage": {
+    "prompt_tokens": 7012,
+    "answer_tokens": 10,
+    "total_tokens": 7022,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 5.35,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.12314581871032715,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.12314581871032715,
+      "overall_average": 0.02462916448712349
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.12314581871032715,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.12314581871032715,
+    "overall_average": 0.02462916448712349
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.2688,
+    "retrieval_time": 0.616,
+    "generation_time": 1.3491,
+    "evaluation_time": 0.6556,
+    "cleanup_time": 1.5751,
+    "total_time": 16.4652
+  }
+}

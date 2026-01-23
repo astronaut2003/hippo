@@ -1,0 +1,76 @@
+{
+  "sample_idx": 219,
+  "question_id": "8cf4d046",
+  "question": "What is the average GPA of my undergraduate and graduate studies?",
+  "question_type": "multi-session",
+  "gold_answer": "3.83",
+  "question_date": "2023/05/30 (Tue) 18:42",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:07:30.758639",
+  "predicted_answer": "Your undergraduate GPA is 3.86 out of 4.0 from the University of Mumbai, and your graduate GPA is 3.8 out of 4.0 from the University of Illinois at Urbana-Champaign.",
+  "prompt_length": 24833,
+  "gen_token_usage": {
+    "prompt_tokens": 5231,
+    "answer_tokens": 45,
+    "total_tokens": 5276,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.99,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 29,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.05555555555555555,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.05555555555555555,
+      "semantic_similarity": 0.3192042112350464,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.027777777777777776,
+      "avg_semantic": 0.3192042112350464,
+      "overall_average": 0.08606306463479996
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.05555555555555555,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.05555555555555555,
+    "semantic_similarity": 0.3192042112350464,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.027777777777777776,
+    "avg_semantic": 0.3192042112350464,
+    "overall_average": 0.08606306463479996
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.0823,
+    "retrieval_time": 0.6668,
+    "generation_time": 1.8399,
+    "evaluation_time": 1.4313,
+    "cleanup_time": 1.6475,
+    "total_time": 17.6685
+  }
+}

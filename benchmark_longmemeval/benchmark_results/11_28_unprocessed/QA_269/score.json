@@ -1,0 +1,76 @@
+{
+  "sample_idx": 269,
+  "question_id": "gpt4_f420262c",
+  "question": "What is the order of airlines I flew with from earliest to latest before today?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "JetBlue, Delta, United, American Airlines",
+  "question_date": "2023/03/02 (Thu) 06:11",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:13:24.468330",
+  "predicted_answer": "The order of airlines you flew with from earliest to latest before today is:\n\n1. American Airlines (LAX to JFK)\n2. United Airlines (Boston to Chicago)\n3. American Airlines (New York to Los Angeles)\n\nI don't have specific dates for the flights, but the latest flight mentioned was with United Airlines today.",
+  "prompt_length": 18684,
+  "gen_token_usage": {
+    "prompt_tokens": 4142,
+    "answer_tokens": 65,
+    "total_tokens": 4207,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.16,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 52,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1111111111111111,
+      "rouge1_f": 0.10344827586206896,
+      "rouge2_f": 0.03571428571428572,
+      "rougeL_f": 0.10344827586206896,
+      "semantic_similarity": 0.5242020487785339,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.07950191570881225,
+      "avg_semantic": 0.5242020487785339,
+      "overall_average": 0.16844193637371063
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1111111111111111,
+    "rouge1_f": 0.10344827586206896,
+    "rouge2_f": 0.03571428571428572,
+    "rougeL_f": 0.10344827586206896,
+    "semantic_similarity": 0.5242020487785339,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.07950191570881225,
+    "avg_semantic": 0.5242020487785339,
+    "overall_average": 0.16844193637371063
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.7568,
+    "retrieval_time": 0.6007,
+    "generation_time": 1.7213,
+    "evaluation_time": 0.5878,
+    "cleanup_time": 1.4959,
+    "total_time": 16.163
+  }
+}

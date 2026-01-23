@@ -1,0 +1,76 @@
+{
+  "sample_idx": 286,
+  "question_id": "2ebe6c92",
+  "question": "Which book did I finish a week ago?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "'The Nightingale' by Kristin Hannah",
+  "question_date": "2023/02/07 (Tue) 09:09",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:17:55.160282",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 9875,
+  "gen_token_usage": {
+    "prompt_tokens": 2224,
+    "answer_tokens": 10,
+    "total_tokens": 2234,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.7,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.0,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.0,
+      "overall_average": 0.0
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.0,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.0,
+    "overall_average": 0.0
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.3559,
+    "retrieval_time": 0.5142,
+    "generation_time": 1.7973,
+    "evaluation_time": 0.5971,
+    "cleanup_time": 1.37,
+    "total_time": 15.6352
+  }
+}

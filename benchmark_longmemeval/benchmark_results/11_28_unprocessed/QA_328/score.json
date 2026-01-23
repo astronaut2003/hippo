@@ -1,0 +1,76 @@
+{
+  "sample_idx": 328,
+  "question_id": "c8090214",
+  "question": "How many days before I bought the iPhone 13 Pro did I attend the Holiday Market?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "7 days. 8 days (including the last day) is also acceptable.",
+  "question_date": "2023/12/10 (Sun) 17:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:29:04.107184",
+  "predicted_answer": "You attended the Holiday Market a week before Black Friday, and you bought the iPhone 13 Pro on Black Friday. Therefore, you attended the Holiday Market 7 days before you bought the iPhone 13 Pro.",
+  "prompt_length": 20659,
+  "gen_token_usage": {
+    "prompt_tokens": 4667,
+    "answer_tokens": 44,
+    "total_tokens": 4711,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.56,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 35,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.10256410256410257,
+      "rouge1_f": 0.13043478260869562,
+      "rouge2_f": 0.04545454545454545,
+      "rougeL_f": 0.13043478260869562,
+      "semantic_similarity": 0.3594096302986145,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.09085841694537346,
+      "avg_semantic": 0.3594096302986145,
+      "overall_average": 0.14456865191459656
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.10256410256410257,
+    "rouge1_f": 0.13043478260869562,
+    "rouge2_f": 0.04545454545454545,
+    "rougeL_f": 0.13043478260869562,
+    "semantic_similarity": 0.3594096302986145,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.09085841694537346,
+    "avg_semantic": 0.3594096302986145,
+    "overall_average": 0.14456865191459656
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.0978,
+    "retrieval_time": 0.5437,
+    "generation_time": 1.4697,
+    "evaluation_time": 2.0013,
+    "cleanup_time": 1.4006,
+    "total_time": 16.5136
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 151,
+  "question_id": "75f70248",
+  "question": "I've been sneezing quite a bit lately. Do you think it might be my living room?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that consider the potential impact of their cat, Luna, and her shedding on their sneezing, as well as the recent deep clean of the living room and its possible effect on stirring up dust. They might not prefer responses that fail to take into account these specific details previously mentioned, such as generic suggestions or unrelated factors.",
+  "question_date": "2023/05/30 (Tue) 17:51",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:46:55.237049",
+  "predicted_answer": "It’s possible that your sneezing could be related to your living room, especially if you have a cat that sheds a lot. Dust, dander, and allergens can accumulate in your living space, which might trigger allergy symptoms. Regular cleaning, such as vacuuming and dusting, can help reduce these irritants. If you haven't already, consider implementing some of the tips mentioned for maintaining a cleaner living room.",
+  "prompt_length": 18325,
+  "gen_token_usage": {
+    "prompt_tokens": 4117,
+    "answer_tokens": 83,
+    "total_tokens": 4200,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.14,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 62,
+      "response_length": 66,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3103448275862069,
+      "rouge1_f": 0.3230769230769231,
+      "rouge2_f": 0.04687500000000001,
+      "rougeL_f": 0.12307692307692307,
+      "semantic_similarity": 0.6039319634437561,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.18912466843501327,
+      "avg_semantic": 0.6039319634437561,
+      "overall_average": 0.27208614349365234
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3103448275862069,
+    "rouge1_f": 0.3230769230769231,
+    "rouge2_f": 0.04687500000000001,
+    "rougeL_f": 0.12307692307692307,
+    "semantic_similarity": 0.6039319634437561,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.18912466843501327,
+    "avg_semantic": 0.6039319634437561,
+    "overall_average": 0.27208614349365234
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.612,
+    "retrieval_time": 0.6267,
+    "generation_time": 2.252,
+    "evaluation_time": 0.6674,
+    "cleanup_time": 1.5534,
+    "total_time": 17.7122
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 379,
+  "question_id": "031748ae",
+  "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+  "question_type": "knowledge-update",
+  "gold_answer": "When you just started your new role as Senior Software Engineer, you led 4 engineers. Now, you lead 5 engineers",
+  "question_date": "2023/11/10 (Fri) 04:20",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:43:11.180797",
+  "predicted_answer": "When you just started your new role as Senior Software Engineer, you led a team of 4 engineers. Now, you lead a total of 5 engineers, including yourself.",
+  "prompt_length": 19227,
+  "gen_token_usage": {
+    "prompt_tokens": 4004,
+    "answer_tokens": 35,
+    "total_tokens": 4039,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.05,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 20,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.8695652173913044,
+      "rouge1_f": 0.8333333333333333,
+      "rouge2_f": 0.7391304347826088,
+      "rougeL_f": 0.8333333333333333,
+      "semantic_similarity": 0.9463281631469727,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.6340579710144927,
+      "avg_semantic": 0.9463281631469727,
+      "overall_average": 0.6965120434761047
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.8695652173913044,
+    "rouge1_f": 0.8333333333333333,
+    "rouge2_f": 0.7391304347826088,
+    "rougeL_f": 0.8333333333333333,
+    "semantic_similarity": 0.9463281631469727,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.6340579710144927,
+    "avg_semantic": 0.9463281631469727,
+    "overall_average": 0.6965120434761047
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.2476,
+    "retrieval_time": 0.52,
+    "generation_time": 2.0708,
+    "evaluation_time": 0.6772,
+    "cleanup_time": 1.5283,
+    "total_time": 16.0447
+  }
+}

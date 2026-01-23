@@ -1,0 +1,76 @@
+{
+  "sample_idx": 103,
+  "question_id": "eeda8a6d",
+  "question": "How many fish are there in total in both of my aquariums?",
+  "question_type": "multi-session",
+  "gold_answer": 17,
+  "question_date": "2023/05/30 (Tue) 20:36",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:32:29.875900",
+  "predicted_answer": "In your 20-gallon tank, you have 10 neon tetras, 5 golden honey gouramis, and a small pleco catfish, which totals 16 fish. In your 10-gallon tank, you have 1 betta fish named Bubbles. Therefore, the total number of fish in both aquariums is 17.",
+  "prompt_length": 26734,
+  "gen_token_usage": {
+    "prompt_tokens": 5909,
+    "answer_tokens": 72,
+    "total_tokens": 5981,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.51,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 44,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.047619047619047616,
+      "rouge1_f": 0.042553191489361694,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.042553191489361694,
+      "semantic_similarity": 0.1919880509376526,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.03318135764944275,
+      "avg_semantic": 0.1919880509376526,
+      "overall_average": 0.06494269520044327
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.047619047619047616,
+    "rouge1_f": 0.042553191489361694,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.042553191489361694,
+    "semantic_similarity": 0.1919880509376526,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.03318135764944275,
+    "avg_semantic": 0.1919880509376526,
+    "overall_average": 0.06494269520044327
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.3509,
+    "retrieval_time": 0.6452,
+    "generation_time": 2.1344,
+    "evaluation_time": 0.719,
+    "cleanup_time": 0.8261,
+    "total_time": 16.6762
+  }
+}

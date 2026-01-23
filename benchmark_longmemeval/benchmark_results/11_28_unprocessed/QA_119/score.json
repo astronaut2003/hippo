@@ -1,0 +1,76 @@
+{
+  "sample_idx": 119,
+  "question_id": "2b8f3739",
+  "question": "What is the total amount of money I earned from selling my products at the markets?",
+  "question_type": "multi-session",
+  "gold_answer": "$495",
+  "question_date": "2023/06/01 (Thu) 23:37",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:37:00.129648",
+  "predicted_answer": "You earned a total of $345 from selling your products at the markets: $120 from selling 12 bunches of fresh organic herbs on May 15th and $225 from selling 15 jars of homemade jam on May 29th.",
+  "prompt_length": 19456,
+  "gen_token_usage": {
+    "prompt_tokens": 4299,
+    "answer_tokens": 49,
+    "total_tokens": 4348,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.28,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 37,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.30571532249450684,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.30571532249450684,
+      "overall_average": 0.06114306300878525
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.30571532249450684,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.30571532249450684,
+    "overall_average": 0.06114306300878525
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.2264,
+    "retrieval_time": 0.651,
+    "generation_time": 2.2401,
+    "evaluation_time": 0.7271,
+    "cleanup_time": 1.5187,
+    "total_time": 17.3639
+  }
+}

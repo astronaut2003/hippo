@@ -1,0 +1,76 @@
+{
+  "sample_idx": 458,
+  "question_id": "18dcd5a5",
+  "question": "I'm going back to our previous chat about the Lost Temple of the Djinn one-shot. Can you remind me how many mummies the party will face in the temple?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "4",
+  "question_date": "2023/05/30 (Tue) 23:50",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:05:26.733055",
+  "predicted_answer": "The party will face 4 mummies in the Lost Temple of the Djinn.",
+  "prompt_length": 12689,
+  "gen_token_usage": {
+    "prompt_tokens": 2867,
+    "answer_tokens": 17,
+    "total_tokens": 2884,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.19,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.18181818181818182,
+      "rouge1_f": 0.14285714285714288,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.14285714285714288,
+      "semantic_similarity": 0.23665636777877808,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1168831168831169,
+      "avg_semantic": 0.23665636777877808,
+      "overall_average": 0.14083775877952576
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.18181818181818182,
+    "rouge1_f": 0.14285714285714288,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.14285714285714288,
+    "semantic_similarity": 0.23665636777877808,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1168831168831169,
+    "avg_semantic": 0.23665636777877808,
+    "overall_average": 0.14083775877952576
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.9764,
+    "retrieval_time": 0.6249,
+    "generation_time": 1.1055,
+    "evaluation_time": 0.6518,
+    "cleanup_time": 1.6757,
+    "total_time": 18.0346
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 81,
+  "question_id": "gpt4_a56e767c",
+  "question": "How many movie festivals that I attended?",
+  "question_type": "multi-session",
+  "gold_answer": "I attended four movie festivals.",
+  "question_date": "2023/05/30 (Tue) 20:53",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:26:12.428307",
+  "predicted_answer": "Based on the memories, you attended at least two film festivals: AFI Fest, where you saw \"Joker\" and participated in a Q&A session, and the Portland Film Festival, where you volunteered.",
+  "prompt_length": 16664,
+  "gen_token_usage": {
+    "prompt_tokens": 3514,
+    "answer_tokens": 42,
+    "total_tokens": 3556,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.68,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 31,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.12903225806451613,
+      "rouge1_f": 0.10810810810810811,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.10810810810810811,
+      "semantic_similarity": 0.708783745765686,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.08631211857018309,
+      "avg_semantic": 0.708783745765686,
+      "overall_average": 0.2108064442873001
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.12903225806451613,
+    "rouge1_f": 0.10810810810810811,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.10810810810810811,
+    "semantic_similarity": 0.708783745765686,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.08631211857018309,
+    "avg_semantic": 0.708783745765686,
+    "overall_average": 0.2108064442873001
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.8077,
+    "retrieval_time": 0.6021,
+    "generation_time": 0.9781,
+    "evaluation_time": 0.7042,
+    "cleanup_time": 1.5823,
+    "total_time": 15.6749
+  }
+}

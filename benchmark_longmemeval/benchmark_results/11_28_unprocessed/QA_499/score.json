@@ -1,0 +1,76 @@
+{
+  "sample_idx": 499,
+  "question_id": "778164c6",
+  "question": "I was looking back at our previous conversation about Caribbean dishes and I was wondering, what was the name of that Jamaican dish you recommended I try with snapper that has fruit in it?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Grilled Snapper with Mango Salsa",
+  "question_date": "2023/05/30 (Tue) 20:36",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:18:17.729789",
+  "predicted_answer": "The Jamaican dish I recommended for you to try with snapper that has fruit in it is Grilled Snapper with Mango Salsa.",
+  "prompt_length": 11433,
+  "gen_token_usage": {
+    "prompt_tokens": 2659,
+    "answer_tokens": 26,
+    "total_tokens": 2685,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.03,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 22,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3846153846153846,
+      "rouge1_f": 0.37037037037037035,
+      "rouge2_f": 0.32,
+      "rougeL_f": 0.37037037037037035,
+      "semantic_similarity": 0.8146308064460754,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2813390313390313,
+      "avg_semantic": 0.8146308064460754,
+      "overall_average": 0.3879973888397217
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3846153846153846,
+    "rouge1_f": 0.37037037037037035,
+    "rouge2_f": 0.32,
+    "rougeL_f": 0.37037037037037035,
+    "semantic_similarity": 0.8146308064460754,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2813390313390313,
+    "avg_semantic": 0.8146308064460754,
+    "overall_average": 0.3879973888397217
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 16.2054,
+    "retrieval_time": 0.5463,
+    "generation_time": 1.1994,
+    "evaluation_time": 0.6935,
+    "cleanup_time": 1.7259,
+    "total_time": 20.371
+  }
+}

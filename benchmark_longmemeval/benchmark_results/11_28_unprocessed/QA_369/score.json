@@ -1,0 +1,76 @@
+{
+  "sample_idx": 369,
+  "question_id": "852ce960",
+  "question": "What was the amount I was pre-approved for when I got my mortgage from Wells Fargo?",
+  "question_type": "knowledge-update",
+  "gold_answer": "$400,000",
+  "question_date": "2023/12/18 (Mon) 04:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:40:29.698907",
+  "predicted_answer": "You were pre-approved for $350,000 when you got your mortgage from Wells Fargo.",
+  "prompt_length": 17773,
+  "gen_token_usage": {
+    "prompt_tokens": 4388,
+    "answer_tokens": 18,
+    "total_tokens": 4406,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.35,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.11764705882352941,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.11764705882352941,
+      "semantic_similarity": 0.3381618857383728,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.058823529411764705,
+      "avg_semantic": 0.3381618857383728,
+      "overall_average": 0.11469119787216187
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.11764705882352941,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.11764705882352941,
+    "semantic_similarity": 0.3381618857383728,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.058823529411764705,
+    "avg_semantic": 0.3381618857383728,
+    "overall_average": 0.11469119787216187
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 10.1065,
+    "retrieval_time": 0.5095,
+    "generation_time": 1.2951,
+    "evaluation_time": 0.9346,
+    "cleanup_time": 1.4576,
+    "total_time": 14.3037
+  }
+}

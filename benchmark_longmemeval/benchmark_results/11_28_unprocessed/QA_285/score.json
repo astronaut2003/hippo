@@ -1,0 +1,76 @@
+{
+  "sample_idx": 285,
+  "question_id": "gpt4_7bc6cf22",
+  "question": "How many days ago did I read the March 15th issue of The New Yorker?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "12 days ago. 13 days (including the last day) is also acceptable.",
+  "question_date": "2023/04/01 (Sat) 08:36",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:17:39.045378",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 19780,
+  "gen_token_usage": {
+    "prompt_tokens": 3990,
+    "answer_tokens": 10,
+    "total_tokens": 4000,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.04,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 12,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.0,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.0,
+      "overall_average": 0.0
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.0,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.0,
+    "overall_average": 0.0
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.2426,
+    "retrieval_time": 0.5802,
+    "generation_time": 1.2019,
+    "evaluation_time": 0.6652,
+    "cleanup_time": 1.4238,
+    "total_time": 16.1141
+  }
+}

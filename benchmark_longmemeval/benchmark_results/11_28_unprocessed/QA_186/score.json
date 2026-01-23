@@ -1,0 +1,76 @@
+{
+  "sample_idx": 186,
+  "question_id": "9ee3ecd6",
+  "question": "How many points do I need to earn to redeem a free skincare product at Sephora?",
+  "question_type": "multi-session",
+  "gold_answer": "100",
+  "question_date": "2023/05/30 (Tue) 21:46",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:58:00.508726",
+  "predicted_answer": "You need to earn a total of 300 points to redeem a free skincare product at Sephora.",
+  "prompt_length": 26541,
+  "gen_token_usage": {
+    "prompt_tokens": 5641,
+    "answer_tokens": 20,
+    "total_tokens": 5661,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.3,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 17,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.23072278499603271,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.23072278499603271,
+      "overall_average": 0.04614455625414848
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.23072278499603271,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.23072278499603271,
+    "overall_average": 0.04614455625414848
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.3016,
+    "retrieval_time": 0.5476,
+    "generation_time": 1.5631,
+    "evaluation_time": 0.8423,
+    "cleanup_time": 1.7647,
+    "total_time": 18.0197
+  }
+}

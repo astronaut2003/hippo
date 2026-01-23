@@ -1,0 +1,76 @@
+{
+  "sample_idx": 19,
+  "question_id": "dccbc061",
+  "question": "What was my previous stance on spirituality?",
+  "question_type": "single-session-user",
+  "gold_answer": "A staunch atheist",
+  "question_date": "2023/05/30 (Tue) 19:10",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:03:24.795796",
+  "predicted_answer": "Your previous stance on spirituality was that you were a staunch atheist. However, you have since been exploring other possibilities and have been reading a lot about Buddhism, indicating a shift in your perspective.",
+  "prompt_length": 17359,
+  "gen_token_usage": {
+    "prompt_tokens": 3630,
+    "answer_tokens": 39,
+    "total_tokens": 3669,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.77,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 34,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.125,
+      "rouge1_f": 0.1621621621621622,
+      "rouge2_f": 0.1142857142857143,
+      "rougeL_f": 0.1621621621621622,
+      "semantic_similarity": 0.6398811340332031,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.11233108108108109,
+      "avg_semantic": 0.6398811340332031,
+      "overall_average": 0.21784110367298126
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.125,
+    "rouge1_f": 0.1621621621621622,
+    "rouge2_f": 0.1142857142857143,
+    "rougeL_f": 0.1621621621621622,
+    "semantic_similarity": 0.6398811340332031,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.11233108108108109,
+    "avg_semantic": 0.6398811340332031,
+    "overall_average": 0.21784110367298126
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 22.2469,
+    "retrieval_time": 0.6092,
+    "generation_time": 1.6579,
+    "evaluation_time": 0.6926,
+    "cleanup_time": 3.3151,
+    "total_time": 28.5251
+  }
+}

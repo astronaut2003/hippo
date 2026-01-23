@@ -1,0 +1,76 @@
+{
+  "sample_idx": 210,
+  "question_id": "09ba9854",
+  "question": "How much will I save by taking the train from the airport to my hotel instead of a taxi?",
+  "question_type": "multi-session",
+  "gold_answer": "$50",
+  "question_date": "2023/05/30 (Tue) 11:49",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:04:52.431991",
+  "predicted_answer": "Taking the train from Narita Airport to your hotel in Shinjuku will cost around ¥1,000-1,200 (approximately $9-11 USD). In contrast, a taxi ride is estimated to cost around ¥15,000-20,000 (approximately $140-180 USD). \n\nTherefore, by taking the train instead of a taxi, you could save approximately ¥13,800-18,000 (around $130-170 USD).",
+  "prompt_length": 22582,
+  "gen_token_usage": {
+    "prompt_tokens": 5262,
+    "answer_tokens": 92,
+    "total_tokens": 5354,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.01,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 49,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.19967132806777954,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.19967132806777954,
+      "overall_average": 0.03993426635861397
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.19967132806777954,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.19967132806777954,
+    "overall_average": 0.03993426635861397
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.4661,
+    "retrieval_time": 0.6123,
+    "generation_time": 2.6427,
+    "evaluation_time": 0.8369,
+    "cleanup_time": 1.5907,
+    "total_time": 17.1491
+  }
+}

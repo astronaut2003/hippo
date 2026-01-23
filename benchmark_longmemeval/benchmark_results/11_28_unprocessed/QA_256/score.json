@@ -1,0 +1,76 @@
+{
+  "sample_idx": 256,
+  "question_id": "gpt4_1e4a8aeb",
+  "question": "How many days passed between the day I attended the gardening workshop and the day I planted the tomato saplings?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "6 days. 7 days (including the last day) is also acceptable.",
+  "question_date": "2023/05/08 (Mon) 06:05",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:09:48.523889",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 19962,
+  "gen_token_usage": {
+    "prompt_tokens": 4525,
+    "answer_tokens": 10,
+    "total_tokens": 4535,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.45,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.0,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.0,
+      "overall_average": 0.0
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.0,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.0,
+    "overall_average": 0.0
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.4849,
+    "retrieval_time": 0.6085,
+    "generation_time": 1.1181,
+    "evaluation_time": 0.8759,
+    "cleanup_time": 1.6867,
+    "total_time": 17.7743
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 6,
+  "question_id": "6ade9755",
+  "question": "Where do I take yoga classes?",
+  "question_type": "single-session-user",
+  "gold_answer": "Serenity Yoga",
+  "question_date": "2023/05/30 (Tue) 21:04",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T14:58:02.938643",
+  "predicted_answer": "You can take yoga classes at Serenity Yoga, as you mentioned having a connection to that studio. Additionally, you can practice yoga at home using the Down Dog app, which you've found helpful for your home practice.",
+  "prompt_length": 15154,
+  "gen_token_usage": {
+    "prompt_tokens": 3363,
+    "answer_tokens": 42,
+    "total_tokens": 3405,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.57,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 37,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1081081081081081,
+      "rouge1_f": 0.1,
+      "rouge2_f": 0.052631578947368425,
+      "rougeL_f": 0.1,
+      "semantic_similarity": 0.6816585063934326,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.07702702702702702,
+      "avg_semantic": 0.6816585063934326,
+      "overall_average": 0.19795331358909607
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1081081081081081,
+    "rouge1_f": 0.1,
+    "rouge2_f": 0.052631578947368425,
+    "rougeL_f": 0.1,
+    "semantic_similarity": 0.6816585063934326,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.07702702702702702,
+    "avg_semantic": 0.6816585063934326,
+    "overall_average": 0.19795331358909607
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 17.8169,
+    "retrieval_time": 0.597,
+    "generation_time": 2.3597,
+    "evaluation_time": 0.7706,
+    "cleanup_time": 2.8318,
+    "total_time": 24.3785
+  }
+}

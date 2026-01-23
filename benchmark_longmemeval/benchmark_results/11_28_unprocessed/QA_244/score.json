@@ -1,0 +1,76 @@
+{
+  "sample_idx": 244,
+  "question_id": "gpt4_e072b769",
+  "question": "How many weeks ago did I start using the cashback app 'Ibotta'?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "3 weeks ago",
+  "question_date": "2023/05/06 (Sat) 09:18",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:14:40.777545",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 18415,
+  "gen_token_usage": {
+    "prompt_tokens": 4010,
+    "answer_tokens": 10,
+    "total_tokens": 4020,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.06,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.03994172811508179,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.03994172811508179,
+      "overall_average": 0.007988345809280872
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.03994172811508179,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.03994172811508179,
+    "overall_average": 0.007988345809280872
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.7522,
+    "retrieval_time": 0.5948,
+    "generation_time": 1.538,
+    "evaluation_time": 0.7025,
+    "cleanup_time": 1.5919,
+    "total_time": 16.1805
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 318,
+  "question_id": "f0853d11",
+  "question": "How many days had passed between the 'Walk for Hunger' event and the 'Coastal Cleanup' event?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "14 days. 8 days (including the last day) is also acceptable.",
+  "question_date": "2023/03/14 (Tue) 21:24",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:26:26.332793",
+  "predicted_answer": "The 'Walk for Hunger' event took place on February 21st, and the 'Coastal Cleanup' event was on March 7th. To calculate the number of days between these two events:\n\nMarch 7 - February 21 = 14 days\n\nSo, 14 days had passed between the 'Walk for Hunger' event and the 'Coastal Cleanup' event.",
+  "prompt_length": 27228,
+  "gen_token_usage": {
+    "prompt_tokens": 5572,
+    "answer_tokens": 77,
+    "total_tokens": 5649,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.25,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 53,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14814814814814814,
+      "rouge1_f": 0.16129032258064516,
+      "rouge2_f": 0.03333333333333333,
+      "rougeL_f": 0.12903225806451613,
+      "semantic_similarity": 0.4181476831436157,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.10961768219832735,
+      "avg_semantic": 0.4181476831436157,
+      "overall_average": 0.17132368683815002
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14814814814814814,
+    "rouge1_f": 0.16129032258064516,
+    "rouge2_f": 0.03333333333333333,
+    "rougeL_f": 0.12903225806451613,
+    "semantic_similarity": 0.4181476831436157,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.10961768219832735,
+    "avg_semantic": 0.4181476831436157,
+    "overall_average": 0.17132368683815002
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.7542,
+    "retrieval_time": 0.5526,
+    "generation_time": 3.2966,
+    "evaluation_time": 0.7269,
+    "cleanup_time": 1.4272,
+    "total_time": 17.7581
+  }
+}

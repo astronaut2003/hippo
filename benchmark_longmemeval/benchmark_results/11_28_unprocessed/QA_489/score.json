@@ -1,0 +1,76 @@
+{
+  "sample_idx": 489,
+  "question_id": "b759caee",
+  "question": "I was looking back at our previous conversation about buying unique engagement rings directly from designers. Can you remind me of the Instagram handle of the UK-based designer who works with unusual gemstones?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "@jessica_poole_jewellery",
+  "question_date": "2023/05/30 (Tue) 23:50",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:15:06.388652",
+  "predicted_answer": "The Instagram handle of the UK-based designer who works with unusual gemstones is @jessica_poole_jewellery.",
+  "prompt_length": 23323,
+  "gen_token_usage": {
+    "prompt_tokens": 5015,
+    "answer_tokens": 24,
+    "total_tokens": 5039,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.83,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.15384615384615385,
+      "rouge1_f": 0.3,
+      "rouge2_f": 0.2222222222222222,
+      "rougeL_f": 0.3,
+      "semantic_similarity": 0.7437739968299866,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.18846153846153846,
+      "avg_semantic": 0.7437739968299866,
+      "overall_average": 0.2995240092277527
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.15384615384615385,
+    "rouge1_f": 0.3,
+    "rouge2_f": 0.2222222222222222,
+    "rougeL_f": 0.3,
+    "semantic_similarity": 0.7437739968299866,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.18846153846153846,
+    "avg_semantic": 0.7437739968299866,
+    "overall_average": 0.2995240092277527
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.7041,
+    "retrieval_time": 0.6116,
+    "generation_time": 1.561,
+    "evaluation_time": 0.6993,
+    "cleanup_time": 1.5318,
+    "total_time": 18.1087
+  }
+}

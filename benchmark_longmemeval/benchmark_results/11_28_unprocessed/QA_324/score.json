@@ -1,0 +1,76 @@
+{
+  "sample_idx": 324,
+  "question_id": "gpt4_65aabe59",
+  "question": "Which device did I set up first, the smart thermostat or the mesh network system?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Smart thermostat",
+  "question_date": "2023/05/25 (Thu) 11:29",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:28:01.786505",
+  "predicted_answer": "You set up the smart thermostat first, as you mentioned it has been helping with your energy bills since you set it up a month ago. You upgraded your home Wi-Fi router to a new mesh network system three weeks ago.",
+  "prompt_length": 19108,
+  "gen_token_usage": {
+    "prompt_tokens": 4252,
+    "answer_tokens": 45,
+    "total_tokens": 4297,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.24,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 41,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1,
+      "rouge1_f": 0.0909090909090909,
+      "rouge2_f": 0.047619047619047616,
+      "rougeL_f": 0.0909090909090909,
+      "semantic_similarity": 0.5425812602043152,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.07045454545454545,
+      "avg_semantic": 0.5425812602043152,
+      "overall_average": 0.16487988829612732
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1,
+    "rouge1_f": 0.0909090909090909,
+    "rouge2_f": 0.047619047619047616,
+    "rougeL_f": 0.0909090909090909,
+    "semantic_similarity": 0.5425812602043152,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.07045454545454545,
+    "avg_semantic": 0.5425812602043152,
+    "overall_average": 0.16487988829612732
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.1771,
+    "retrieval_time": 0.6443,
+    "generation_time": 1.6749,
+    "evaluation_time": 0.6493,
+    "cleanup_time": 1.3408,
+    "total_time": 15.4869
+  }
+}

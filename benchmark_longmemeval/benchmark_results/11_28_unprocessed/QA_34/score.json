@@ -1,0 +1,76 @@
+{
+  "sample_idx": 34,
+  "question_id": "8550ddae",
+  "question": "What type of cocktail recipe did I try last weekend?",
+  "question_type": "single-session-user",
+  "gold_answer": "lavender gin fizz",
+  "question_date": "2023/05/30 (Tue) 23:51",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:10:07.240965",
+  "predicted_answer": "You tried a lavender gin fizz recipe last weekend.",
+  "prompt_length": 26720,
+  "gen_token_usage": {
+    "prompt_tokens": 5950,
+    "answer_tokens": 10,
+    "total_tokens": 5960,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.54,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.5454545454545454,
+      "rouge1_f": 0.5,
+      "rouge2_f": 0.4,
+      "rougeL_f": 0.5,
+      "semantic_similarity": 0.8149518370628357,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.38636363636363635,
+      "avg_semantic": 0.8149518370628357,
+      "overall_average": 0.4720812737941742
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.5454545454545454,
+    "rouge1_f": 0.5,
+    "rouge2_f": 0.4,
+    "rougeL_f": 0.5,
+    "semantic_similarity": 0.8149518370628357,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.38636363636363635,
+    "avg_semantic": 0.8149518370628357,
+    "overall_average": 0.4720812737941742
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 19.7087,
+    "retrieval_time": 0.64,
+    "generation_time": 1.5297,
+    "evaluation_time": 0.6607,
+    "cleanup_time": 2.8925,
+    "total_time": 25.4324
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 107,
+  "question_id": "129d1232",
+  "question": "How much money did I raise in total through all the charity events I participated in?",
+  "question_type": "multi-session",
+  "gold_answer": "$5,850",
+  "question_date": "2023/05/01 (Mon) 23:45",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:33:35.211537",
+  "predicted_answer": "You raised a total of $5,250 through the charity events you participated in: $5,000 from the Bike-a-Thon for Cancer Research and $250 from the charity walk.",
+  "prompt_length": 23367,
+  "gen_token_usage": {
+    "prompt_tokens": 4789,
+    "answer_tokens": 38,
+    "total_tokens": 4827,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.65,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 26,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0625,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0625,
+      "semantic_similarity": 0.27114784717559814,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.03125,
+      "avg_semantic": 0.27114784717559814,
+      "overall_average": 0.07922957092523575
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0625,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0625,
+    "semantic_similarity": 0.27114784717559814,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.03125,
+    "avg_semantic": 0.27114784717559814,
+    "overall_average": 0.07922957092523575
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.3117,
+    "retrieval_time": 0.5455,
+    "generation_time": 1.78,
+    "evaluation_time": 0.6612,
+    "cleanup_time": 1.0655,
+    "total_time": 15.3644
+  }
+}

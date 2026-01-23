@@ -1,0 +1,76 @@
+{
+  "sample_idx": 313,
+  "question_id": "gpt4_385a5000",
+  "question": "Which seeds were started first, the tomatoes or the marigolds?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Tomatoes",
+  "question_date": "2023/03/10 (Fri) 15:30",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:25:06.518994",
+  "predicted_answer": "The marigold seeds were started first, as you mentioned that they arrived on March 3rd and were already germinating. The tomatoes were started indoors around February 20th, but there is no specific mention of when they were planted compared to the marigolds. Therefore, based on the information provided, the marigolds were started first.",
+  "prompt_length": 23153,
+  "gen_token_usage": {
+    "prompt_tokens": 5220,
+    "answer_tokens": 71,
+    "total_tokens": 5291,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.98,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 53,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.04166666666666667,
+      "rouge1_f": 0.037037037037037035,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.037037037037037035,
+      "semantic_similarity": 0.274802029132843,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.028935185185185185,
+      "avg_semantic": 0.274802029132843,
+      "overall_average": 0.07810855656862259
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.04166666666666667,
+    "rouge1_f": 0.037037037037037035,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.037037037037037035,
+    "semantic_similarity": 0.274802029132843,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.028935185185185185,
+    "avg_semantic": 0.274802029132843,
+    "overall_average": 0.07810855656862259
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 10.9352,
+    "retrieval_time": 0.5829,
+    "generation_time": 2.4932,
+    "evaluation_time": 0.7428,
+    "cleanup_time": 1.2301,
+    "total_time": 15.9847
+  }
+}

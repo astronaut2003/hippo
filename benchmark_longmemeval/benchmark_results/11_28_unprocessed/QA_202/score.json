@@ -1,0 +1,76 @@
+{
+  "sample_idx": 202,
+  "question_id": "bb7c3b45",
+  "question": "How much did I save on the Jimmy Choo heels?",
+  "question_type": "multi-session",
+  "gold_answer": "$300",
+  "question_date": "2023/05/30 (Tue) 23:31",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:02:42.376958",
+  "predicted_answer": "You saved $300 on the Jimmy Choo heels, as they originally retailed for $500 and you purchased them for $200.",
+  "prompt_length": 22064,
+  "gen_token_usage": {
+    "prompt_tokens": 4780,
+    "answer_tokens": 27,
+    "total_tokens": 4807,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.65,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 20,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.10526315789473684,
+      "rouge1_f": 0.09523809523809523,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.09523809523809523,
+      "semantic_similarity": 0.5126843452453613,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.07393483709273183,
+      "avg_semantic": 0.5126843452453613,
+      "overall_average": 0.16168473660945892
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.10526315789473684,
+    "rouge1_f": 0.09523809523809523,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.09523809523809523,
+    "semantic_similarity": 0.5126843452453613,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.07393483709273183,
+    "avg_semantic": 0.5126843452453613,
+    "overall_average": 0.16168473660945892
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.0139,
+    "retrieval_time": 0.5643,
+    "generation_time": 0.8749,
+    "evaluation_time": 1.0259,
+    "cleanup_time": 1.6455,
+    "total_time": 17.1251
+  }
+}

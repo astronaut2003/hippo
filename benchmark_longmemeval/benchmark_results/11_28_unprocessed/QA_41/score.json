@@ -1,0 +1,76 @@
+{
+  "sample_idx": 41,
+  "question_id": "e01b8e2f",
+  "question": "Where did I go on a week-long trip with my family?",
+  "question_type": "single-session-user",
+  "gold_answer": "Hawaii",
+  "question_date": "2023/05/30 (Tue) 21:42",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:13:12.780209",
+  "predicted_answer": "You went on a week-long trip with your family to Hawaii.",
+  "prompt_length": 14242,
+  "gen_token_usage": {
+    "prompt_tokens": 3275,
+    "answer_tokens": 13,
+    "total_tokens": 3288,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.5,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 11,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.18181818181818182,
+      "rouge1_f": 0.15384615384615385,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.15384615384615385,
+      "semantic_similarity": 0.6149646639823914,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.12237762237762238,
+      "avg_semantic": 0.6149646639823914,
+      "overall_average": 0.22089502215385437
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.18181818181818182,
+    "rouge1_f": 0.15384615384615385,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.15384615384615385,
+    "semantic_similarity": 0.6149646639823914,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.12237762237762238,
+    "avg_semantic": 0.6149646639823914,
+    "overall_average": 0.22089502215385437
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 22.5304,
+    "retrieval_time": 0.6217,
+    "generation_time": 1.5269,
+    "evaluation_time": 0.757,
+    "cleanup_time": 3.163,
+    "total_time": 28.6011
+  }
+}

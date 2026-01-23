@@ -1,0 +1,76 @@
+{
+  "sample_idx": 63,
+  "question_id": "a82c026e",
+  "question": "What game did I finally beat last weekend?",
+  "question_type": "single-session-user",
+  "gold_answer": "Dark Souls 3 DLC",
+  "question_date": "2023/05/30 (Tue) 21:26",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:21:03.658738",
+  "predicted_answer": "You finally beat the last boss in the Dark Souls 3 DLC last weekend.",
+  "prompt_length": 11468,
+  "gen_token_usage": {
+    "prompt_tokens": 2562,
+    "answer_tokens": 16,
+    "total_tokens": 2578,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.95,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 4,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.5,
+      "rouge1_f": 0.4444444444444445,
+      "rouge2_f": 0.375,
+      "rougeL_f": 0.4444444444444445,
+      "semantic_similarity": 0.6464087963104248,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.3472222222222222,
+      "avg_semantic": 0.6464087963104248,
+      "overall_average": 0.40705952048301697
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.5,
+    "rouge1_f": 0.4444444444444445,
+    "rouge2_f": 0.375,
+    "rougeL_f": 0.4444444444444445,
+    "semantic_similarity": 0.6464087963104248,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.3472222222222222,
+    "avg_semantic": 0.6464087963104248,
+    "overall_average": 0.40705952048301697
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.2204,
+    "retrieval_time": 0.6235,
+    "generation_time": 3.6149,
+    "evaluation_time": 2.1914,
+    "cleanup_time": 1.7156,
+    "total_time": 21.3662
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 492,
+  "question_id": "16c90bf4",
+  "question": "I'm looking back at our previous conversation about the Seco de Cordero recipe from Ancash. You mentioned using a light or medium-bodied beer, but I was wondering if you could remind me what type of beer you specifically recommended?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "I recommended using a Pilsner or Lager for the recipe.",
+  "question_date": "2023/05/30 (Tue) 22:48",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:16:02.938915",
+  "predicted_answer": "I recommended using a pilsner or lager for the Seco de Cordero recipe, as they are light or medium-bodied beers that won't overpower the flavors of the lamb and spices. You can also consider using a local beer from Ancash for a more authentic touch.",
+  "prompt_length": 20960,
+  "gen_token_usage": {
+    "prompt_tokens": 4851,
+    "answer_tokens": 54,
+    "total_tokens": 4905,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.7,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 10,
+      "response_length": 45,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.34782608695652173,
+      "rouge1_f": 0.3508771929824561,
+      "rouge2_f": 0.29090909090909095,
+      "rougeL_f": 0.3508771929824561,
+      "semantic_similarity": 0.512438178062439,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2623951182303585,
+      "avg_semantic": 0.512438178062439,
+      "overall_average": 0.31240373849868774
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.34782608695652173,
+    "rouge1_f": 0.3508771929824561,
+    "rouge2_f": 0.29090909090909095,
+    "rougeL_f": 0.3508771929824561,
+    "semantic_similarity": 0.512438178062439,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2623951182303585,
+    "avg_semantic": 0.512438178062439,
+    "overall_average": 0.31240373849868774
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 14.9263,
+    "retrieval_time": 0.5295,
+    "generation_time": 2.1637,
+    "evaluation_time": 0.6691,
+    "cleanup_time": 1.7074,
+    "total_time": 19.9965
+  }
+}

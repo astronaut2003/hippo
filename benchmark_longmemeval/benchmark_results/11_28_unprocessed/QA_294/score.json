@@ -1,0 +1,76 @@
+{
+  "sample_idx": 294,
+  "question_id": "gpt4_e414231f",
+  "question": "Which bike did I fixed or serviced the past weekend?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "road bike",
+  "question_date": "2023/03/21 (Tue) 21:43",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:20:02.296156",
+  "predicted_answer": "You fixed the flat tire on your mountain bike.",
+  "prompt_length": 19080,
+  "gen_token_usage": {
+    "prompt_tokens": 4108,
+    "answer_tokens": 10,
+    "total_tokens": 4118,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.13,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2,
+      "rouge1_f": 0.1818181818181818,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.1818181818181818,
+      "semantic_similarity": 0.45149099826812744,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.1409090909090909,
+      "avg_semantic": 0.45149099826812744,
+      "overall_average": 0.20302549004554749
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2,
+    "rouge1_f": 0.1818181818181818,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.1818181818181818,
+    "semantic_similarity": 0.45149099826812744,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.1409090909090909,
+    "avg_semantic": 0.45149099826812744,
+    "overall_average": 0.20302549004554749
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.8572,
+    "retrieval_time": 0.5653,
+    "generation_time": 1.4407,
+    "evaluation_time": 0.6242,
+    "cleanup_time": 1.5424,
+    "total_time": 16.0302
+  }
+}

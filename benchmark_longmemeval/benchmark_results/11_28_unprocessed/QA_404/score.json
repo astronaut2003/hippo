@@ -1,0 +1,76 @@
+{
+  "sample_idx": 404,
+  "question_id": "b01defab",
+  "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Yes",
+  "question_date": "2023/04/12 (Wed) 06:37",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:50:00.376512",
+  "predicted_answer": "Yes, you finished reading \"The Nightingale\" by Kristin Hannah recently, and you found it to be a powerful and emotional read.",
+  "prompt_length": 21136,
+  "gen_token_usage": {
+    "prompt_tokens": 4646,
+    "answer_tokens": 27,
+    "total_tokens": 4673,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.54,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 21,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1111111111111111,
+      "rouge1_f": 0.0909090909090909,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0909090909090909,
+      "semantic_similarity": 0.22218263149261475,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.07323232323232322,
+      "avg_semantic": 0.22218263149261475,
+      "overall_average": 0.10302238166332245
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1111111111111111,
+    "rouge1_f": 0.0909090909090909,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0909090909090909,
+    "semantic_similarity": 0.22218263149261475,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.07323232323232322,
+    "avg_semantic": 0.22218263149261475,
+    "overall_average": 0.10302238166332245
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.0629,
+    "retrieval_time": 0.5696,
+    "generation_time": 1.6275,
+    "evaluation_time": 0.6469,
+    "cleanup_time": 1.4843,
+    "total_time": 16.3925
+  }
+}

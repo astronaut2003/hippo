@@ -1,0 +1,76 @@
+{
+  "sample_idx": 261,
+  "question_id": "2ebe6c90",
+  "question": "How many days did it take me to finish 'The Nightingale' by Kristin Hannah?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "21 days. 22 days (including the last day) is also acceptable.",
+  "question_date": "2023/05/01 (Mon) 21:05",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:11:15.641128",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 19618,
+  "gen_token_usage": {
+    "prompt_tokens": 4522,
+    "answer_tokens": 10,
+    "total_tokens": 4532,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.45,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.0,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.0,
+      "overall_average": 0.0
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.0,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.0,
+    "overall_average": 0.0
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.7772,
+    "retrieval_time": 0.6136,
+    "generation_time": 1.3288,
+    "evaluation_time": 1.5742,
+    "cleanup_time": 1.4039,
+    "total_time": 16.6982
+  }
+}

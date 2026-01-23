@@ -1,0 +1,76 @@
+{
+  "sample_idx": 350,
+  "question_id": "6613b389",
+  "question": "How many months before my anniversary did Rachel get engaged?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "2",
+  "question_date": "2023/07/07 (Fri) 13:04",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:35:15.889472",
+  "predicted_answer": "Rachel got engaged on May 15th, and your anniversary is on July 22nd. This means Rachel got engaged approximately 2 months and 7 days before your anniversary.",
+  "prompt_length": 21149,
+  "gen_token_usage": {
+    "prompt_tokens": 4569,
+    "answer_tokens": 36,
+    "total_tokens": 4605,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.49,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 27,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.07692307692307693,
+      "rouge1_f": 0.07142857142857142,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.07142857142857142,
+      "semantic_similarity": 0.020358145236968994,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.054945054945054944,
+      "avg_semantic": 0.020358145236968994,
+      "overall_average": 0.04802767187356949
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.07692307692307693,
+    "rouge1_f": 0.07142857142857142,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.07142857142857142,
+    "semantic_similarity": 0.020358145236968994,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.054945054945054944,
+    "avg_semantic": 0.020358145236968994,
+    "overall_average": 0.04802767187356949
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 10.7535,
+    "retrieval_time": 0.5762,
+    "generation_time": 1.4526,
+    "evaluation_time": 0.6288,
+    "cleanup_time": 1.5078,
+    "total_time": 14.9195
+  }
+}

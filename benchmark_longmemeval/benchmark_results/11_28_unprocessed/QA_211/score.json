@@ -1,0 +1,76 @@
+{
+  "sample_idx": 211,
+  "question_id": "d6062bb9",
+  "question": "What is the total number of views on my most popular videos on YouTube and TikTok?",
+  "question_type": "multi-session",
+  "gold_answer": "1,998",
+  "question_date": "2023/05/30 (Tue) 17:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:05:09.582103",
+  "predicted_answer": "Your most popular video on YouTube has 542 views, and your TikTok video of Luna chasing a laser pointer has 1,456 views. The total number of views on your most popular videos on YouTube and TikTok is 1,998 views.",
+  "prompt_length": 23264,
+  "gen_token_usage": {
+    "prompt_tokens": 4843,
+    "answer_tokens": 53,
+    "total_tokens": 4896,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.69,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 39,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.05555555555555556,
+      "rouge1_f": 0.09302325581395349,
+      "rouge2_f": 0.04878048780487806,
+      "rougeL_f": 0.09302325581395349,
+      "semantic_similarity": 0.061544060707092285,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.06040051679586563,
+      "avg_semantic": 0.061544060707092285,
+      "overall_average": 0.0606292262673378
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.05555555555555556,
+    "rouge1_f": 0.09302325581395349,
+    "rouge2_f": 0.04878048780487806,
+    "rougeL_f": 0.09302325581395349,
+    "semantic_similarity": 0.061544060707092285,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.06040051679586563,
+    "avg_semantic": 0.061544060707092285,
+    "overall_average": 0.0606292262673378
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.2171,
+    "retrieval_time": 0.562,
+    "generation_time": 1.8892,
+    "evaluation_time": 0.9229,
+    "cleanup_time": 1.8497,
+    "total_time": 18.4418
+  }
+}

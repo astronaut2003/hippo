@@ -1,0 +1,76 @@
+{
+  "sample_idx": 388,
+  "question_id": "5a4f22c0",
+  "question": "What company is Rachel, an old colleague from my previous company, currently working at?",
+  "question_type": "knowledge-update",
+  "gold_answer": "TechCorp",
+  "question_date": "2023/06/21 (Wed) 13:02",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:45:38.773358",
+  "predicted_answer": "Rachel is currently working at her old company, as indicated in the memories.",
+  "prompt_length": 18834,
+  "gen_token_usage": {
+    "prompt_tokens": 4303,
+    "answer_tokens": 15,
+    "total_tokens": 4318,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.28,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.19205999374389648,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.19205999374389648,
+      "overall_average": 0.03841199725866318
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.19205999374389648,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.19205999374389648,
+    "overall_average": 0.03841199725866318
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.4014,
+    "retrieval_time": 0.4824,
+    "generation_time": 1.5211,
+    "evaluation_time": 0.6236,
+    "cleanup_time": 1.4497,
+    "total_time": 16.4786
+  }
+}

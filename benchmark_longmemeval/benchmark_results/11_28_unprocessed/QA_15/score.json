@@ -1,0 +1,76 @@
+{
+  "sample_idx": 15,
+  "question_id": "94f70d80",
+  "question": "How long did it take me to assemble the IKEA bookshelf?",
+  "question_type": "single-session-user",
+  "gold_answer": "4 hours",
+  "question_date": "2023/05/30 (Tue) 23:11",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:01:44.450598",
+  "predicted_answer": "It took you 4 hours to assemble the IKEA bookshelf.",
+  "prompt_length": 22235,
+  "gen_token_usage": {
+    "prompt_tokens": 6436,
+    "answer_tokens": 12,
+    "total_tokens": 6448,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.91,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3636363636363636,
+      "rouge1_f": 0.33333333333333337,
+      "rouge2_f": 0.19999999999999998,
+      "rougeL_f": 0.33333333333333337,
+      "semantic_similarity": 0.3767293691635132,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.25757575757575757,
+      "avg_semantic": 0.3767293691635132,
+      "overall_average": 0.2814064621925354
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3636363636363636,
+    "rouge1_f": 0.33333333333333337,
+    "rouge2_f": 0.19999999999999998,
+    "rougeL_f": 0.33333333333333337,
+    "semantic_similarity": 0.3767293691635132,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.25757575757575757,
+    "avg_semantic": 0.3767293691635132,
+    "overall_average": 0.2814064621925354
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 20.1487,
+    "retrieval_time": 0.58,
+    "generation_time": 1.2496,
+    "evaluation_time": 0.793,
+    "cleanup_time": 2.6901,
+    "total_time": 25.4636
+  }
+}

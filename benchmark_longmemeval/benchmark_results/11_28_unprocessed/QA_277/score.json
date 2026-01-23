@@ -1,0 +1,76 @@
+{
+  "sample_idx": 277,
+  "question_id": "eac54adc",
+  "question": "How many days ago did I launch my website when I signed a contract with my first client?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "19 days ago. 20 days (including the last day) is also acceptable.",
+  "question_date": "2023/03/25 (Sat) 19:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:15:32.294594",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 29985,
+  "gen_token_usage": {
+    "prompt_tokens": 7347,
+    "answer_tokens": 10,
+    "total_tokens": 7357,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 5.61,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 12,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.0036116838455200195,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.0036116838455200195,
+      "overall_average": 0.0007223367574624717
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.0036116838455200195,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.0036116838455200195,
+    "overall_average": 0.0007223367574624717
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 10.5892,
+    "retrieval_time": 0.5878,
+    "generation_time": 1.6537,
+    "evaluation_time": 0.7312,
+    "cleanup_time": 1.4192,
+    "total_time": 14.9815
+  }
+}

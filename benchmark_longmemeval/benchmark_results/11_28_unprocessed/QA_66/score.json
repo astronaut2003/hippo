@@ -1,0 +1,76 @@
+{
+  "sample_idx": 66,
+  "question_id": "bc8a6e93_abs",
+  "question": "What did I bake for my uncle's birthday party?",
+  "question_type": "single-session-user",
+  "gold_answer": "You did not mention this information. You mentioned baking for your niece's birthday party but not your uncle's",
+  "question_date": "2023/05/30 (Tue) 15:26",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:22:01.567384",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 18417,
+  "gen_token_usage": {
+    "prompt_tokens": 4225,
+    "answer_tokens": 10,
+    "total_tokens": 4235,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.22,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 18,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14814814814814814,
+      "rouge1_f": 0.13333333333333333,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06666666666666667,
+      "semantic_similarity": 0.12973731756210327,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.08703703703703702,
+      "avg_semantic": 0.12973731756210327,
+      "overall_average": 0.09557709097862244
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14814814814814814,
+    "rouge1_f": 0.13333333333333333,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06666666666666667,
+    "semantic_similarity": 0.12973731756210327,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.08703703703703702,
+    "avg_semantic": 0.12973731756210327,
+    "overall_average": 0.09557709097862244
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.3634,
+    "retrieval_time": 0.5252,
+    "generation_time": 1.2026,
+    "evaluation_time": 0.7846,
+    "cleanup_time": 1.6161,
+    "total_time": 16.4924
+  }
+}

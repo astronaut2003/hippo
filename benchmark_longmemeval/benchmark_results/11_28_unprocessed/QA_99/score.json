@@ -1,0 +1,76 @@
+{
+  "sample_idx": 99,
+  "question_id": "gpt4_d12ceb0e",
+  "question": "What is the average age of me, my parents, and my grandparents?",
+  "question_type": "multi-session",
+  "gold_answer": "59.6",
+  "question_date": "2023/05/30 (Tue) 22:44",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:31:24.872988",
+  "predicted_answer": "Based on the information provided in the memories, you are 32 years old, your mom is 55, your dad is 58, your grandma was 75, and your grandpa was 78.",
+  "prompt_length": 15586,
+  "gen_token_usage": {
+    "prompt_tokens": 3535,
+    "answer_tokens": 42,
+    "total_tokens": 3577,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.7,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 30,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.1672164797782898,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.1672164797782898,
+      "overall_average": 0.03344329446554184
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.1672164797782898,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.1672164797782898,
+    "overall_average": 0.03344329446554184
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.7996,
+    "retrieval_time": 0.5255,
+    "generation_time": 1.633,
+    "evaluation_time": 0.8705,
+    "cleanup_time": 1.3657,
+    "total_time": 16.195
+  }
+}

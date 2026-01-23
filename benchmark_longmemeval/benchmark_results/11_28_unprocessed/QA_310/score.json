@@ -1,0 +1,76 @@
+{
+  "sample_idx": 310,
+  "question_id": "0bb5a684",
+  "question": "How many days before the team meeting I was preparing for did I attend the workshop on 'Effective Communication in the Workplace'?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "7 days. 8 days (including the last day) is also acceptable.",
+  "question_date": "2023/01/13 (Fri) 12:09",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:24:19.576514",
+  "predicted_answer": "You attended the workshop on \"Effective Communication in the Workplace\" on January 10th, and your team meeting is on January 17th. This means you attended the workshop 7 days before the team meeting.",
+  "prompt_length": 26139,
+  "gen_token_usage": {
+    "prompt_tokens": 5358,
+    "answer_tokens": 43,
+    "total_tokens": 5401,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.09,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 33,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.15789473684210525,
+      "rouge1_f": 0.18181818181818182,
+      "rouge2_f": 0.047619047619047616,
+      "rougeL_f": 0.13636363636363635,
+      "semantic_similarity": 0.2948758602142334,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.11901913875598086,
+      "avg_semantic": 0.2948758602142334,
+      "overall_average": 0.15419048070907593
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.15789473684210525,
+    "rouge1_f": 0.18181818181818182,
+    "rouge2_f": 0.047619047619047616,
+    "rougeL_f": 0.13636363636363635,
+    "semantic_similarity": 0.2948758602142334,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.11901913875598086,
+    "avg_semantic": 0.2948758602142334,
+    "overall_average": 0.15419048070907593
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.2297,
+    "retrieval_time": 0.5564,
+    "generation_time": 1.6245,
+    "evaluation_time": 0.6409,
+    "cleanup_time": 1.4364,
+    "total_time": 15.4885
+  }
+}

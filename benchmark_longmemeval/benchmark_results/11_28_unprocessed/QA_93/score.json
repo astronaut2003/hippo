@@ -1,0 +1,76 @@
+{
+  "sample_idx": 93,
+  "question_id": "d682f1a2",
+  "question": "How many different types of food delivery services have I used recently?",
+  "question_type": "multi-session",
+  "gold_answer": 3,
+  "question_date": "2023/05/30 (Tue) 23:30",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:29:36.426548",
+  "predicted_answer": "You have mentioned using two different food delivery services recently: Fresh Fusion and Uber Eats.",
+  "prompt_length": 22913,
+  "gen_token_usage": {
+    "prompt_tokens": 5018,
+    "answer_tokens": 17,
+    "total_tokens": 5035,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.83,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 15,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.005615711212158203,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.005615711212158203,
+      "overall_average": 0.001123142195865512
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.005615711212158203,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.005615711212158203,
+    "overall_average": 0.001123142195865512
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.6923,
+    "retrieval_time": 0.632,
+    "generation_time": 2.0534,
+    "evaluation_time": 0.7399,
+    "cleanup_time": 1.6183,
+    "total_time": 16.7366
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 182,
+  "question_id": "4bc144e2",
+  "question": "How much did I spend on car wash and parking ticket?",
+  "question_type": "multi-session",
+  "gold_answer": "$65",
+  "question_date": "2023/05/30 (Tue) 22:46",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:56:48.160699",
+  "predicted_answer": "You spent $15 on a car wash on February 3rd and $50 on a parking ticket on January 5th.",
+  "prompt_length": 16216,
+  "gen_token_usage": {
+    "prompt_tokens": 3829,
+    "answer_tokens": 26,
+    "total_tokens": 3855,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.92,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 19,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.30431562662124634,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.30431562662124634,
+      "overall_average": 0.06086312606930733
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.30431562662124634,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.30431562662124634,
+    "overall_average": 0.06086312606930733
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 15.1526,
+    "retrieval_time": 0.5736,
+    "generation_time": 1.3179,
+    "evaluation_time": 0.6846,
+    "cleanup_time": 1.2811,
+    "total_time": 19.0105
+  }
+}

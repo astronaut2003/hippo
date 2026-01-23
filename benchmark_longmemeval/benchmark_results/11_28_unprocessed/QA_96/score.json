@@ -1,0 +1,76 @@
+{
+  "sample_idx": 96,
+  "question_id": "gpt4_2ba83207",
+  "question": "Which grocery store did I spend the most money at in the past month?",
+  "question_type": "multi-session",
+  "gold_answer": "Thrive Market",
+  "question_date": "2023/05/30 (Tue) 22:59",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:30:28.797823",
+  "predicted_answer": "You spent the most money at Walmart, where you spent around $120 last Saturday.",
+  "prompt_length": 19305,
+  "gen_token_usage": {
+    "prompt_tokens": 4459,
+    "answer_tokens": 17,
+    "total_tokens": 4476,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.4,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.09207850694656372,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.09207850694656372,
+      "overall_average": 0.018415700644254684
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.09207850694656372,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.09207850694656372,
+    "overall_average": 0.018415700644254684
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.4728,
+    "retrieval_time": 0.5834,
+    "generation_time": 1.4585,
+    "evaluation_time": 3.735,
+    "cleanup_time": 1.5725,
+    "total_time": 19.8227
+  }
+}

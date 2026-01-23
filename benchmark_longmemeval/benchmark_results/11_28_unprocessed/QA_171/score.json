@@ -1,0 +1,76 @@
+{
+  "sample_idx": 171,
+  "question_id": "51c32626",
+  "question": "When did I submit my research paper on sentiment analysis?",
+  "question_type": "multi-session",
+  "gold_answer": "February 1st",
+  "question_date": "2023/05/30 (Tue) 16:23",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:53:22.629941",
+  "predicted_answer": "You submitted your research paper on sentiment analysis to ACL on February 1st.",
+  "prompt_length": 24668,
+  "gen_token_usage": {
+    "prompt_tokens": 5197,
+    "answer_tokens": 16,
+    "total_tokens": 5213,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.96,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2666666666666667,
+      "rouge1_f": 0.2666666666666667,
+      "rouge2_f": 0.15384615384615385,
+      "rougeL_f": 0.2666666666666667,
+      "semantic_similarity": 0.3954448699951172,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.20000000000000004,
+      "avg_semantic": 0.3954448699951172,
+      "overall_average": 0.2390889674425125
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2666666666666667,
+    "rouge1_f": 0.2666666666666667,
+    "rouge2_f": 0.15384615384615385,
+    "rougeL_f": 0.2666666666666667,
+    "semantic_similarity": 0.3954448699951172,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.20000000000000004,
+    "avg_semantic": 0.3954448699951172,
+    "overall_average": 0.2390889674425125
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.3285,
+    "retrieval_time": 0.6273,
+    "generation_time": 4.8197,
+    "evaluation_time": 0.7085,
+    "cleanup_time": 1.8131,
+    "total_time": 21.2977
+  }
+}

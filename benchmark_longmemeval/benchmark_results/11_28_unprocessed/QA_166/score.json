@@ -1,0 +1,76 @@
+{
+  "sample_idx": 166,
+  "question_id": "4f54b7c9",
+  "question": "How many antique items did I inherit or acquire from my family members?",
+  "question_type": "multi-session",
+  "gold_answer": "5",
+  "question_date": "2023/05/30 (Tue) 23:47",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:51:49.581722",
+  "predicted_answer": "You inherited or acquired at least four antique items from your family members: your grandmother's vintage diamond necklace, an antique music box from your great-aunt, a set of depression-era glassware from your mom, and an antique tea set from your cousin Rachel. Additionally, you have a vintage typewriter that belonged to your dad.",
+  "prompt_length": 25060,
+  "gen_token_usage": {
+    "prompt_tokens": 5374,
+    "answer_tokens": 66,
+    "total_tokens": 5440,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.1,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 53,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.00861436128616333,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.00861436128616333,
+      "overall_average": 0.001722872257232666
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.00861436128616333,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.00861436128616333,
+    "overall_average": 0.001722872257232666
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.9011,
+    "retrieval_time": 0.593,
+    "generation_time": 2.1725,
+    "evaluation_time": 0.7432,
+    "cleanup_time": 1.6065,
+    "total_time": 19.0172
+  }
+}

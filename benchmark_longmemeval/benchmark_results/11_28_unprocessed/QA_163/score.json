@@ -1,0 +1,76 @@
+{
+  "sample_idx": 163,
+  "question_id": "2311e44b",
+  "question": "How many pages do I have left to read in 'The Nightingale'?",
+  "question_type": "multi-session",
+  "gold_answer": "190",
+  "question_date": "2023/05/30 (Tue) 22:55",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:50:56.545840",
+  "predicted_answer": "You are currently on page 250 of \"The Nightingale,\" which has a total of 440 pages. Therefore, you have 440 - 250 = 190 pages left to read.",
+  "prompt_length": 21521,
+  "gen_token_usage": {
+    "prompt_tokens": 4934,
+    "answer_tokens": 39,
+    "total_tokens": 4973,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.76,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.07999999999999999,
+      "rouge1_f": 0.07407407407407407,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.07407407407407407,
+      "semantic_similarity": 0.1693582534790039,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.05703703703703703,
+      "avg_semantic": 0.1693582534790039,
+      "overall_average": 0.07950128614902496
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.07999999999999999,
+    "rouge1_f": 0.07407407407407407,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.07407407407407407,
+    "semantic_similarity": 0.1693582534790039,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.05703703703703703,
+    "avg_semantic": 0.1693582534790039,
+    "overall_average": 0.07950128614902496
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.635,
+    "retrieval_time": 0.6674,
+    "generation_time": 1.6013,
+    "evaluation_time": 0.7355,
+    "cleanup_time": 1.6568,
+    "total_time": 18.2968
+  }
+}

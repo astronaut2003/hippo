@@ -1,0 +1,76 @@
+{
+  "sample_idx": 354,
+  "question_id": "gpt4_2f584639",
+  "question": "Which gift did I buy first, the necklace for my sister or the photo album for my mom?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "the photo album for my mom",
+  "question_date": "2023/05/30 (Tue) 07:03",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:36:24.623722",
+  "predicted_answer": "You bought the necklace for your sister first, as you mentioned getting it last weekend, while you ordered the photo album for your mom two weeks ago.",
+  "prompt_length": 21932,
+  "gen_token_usage": {
+    "prompt_tokens": 4762,
+    "answer_tokens": 30,
+    "total_tokens": 4792,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 6,
+      "response_length": 27,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.26666666666666666,
+      "rouge1_f": 0.303030303030303,
+      "rouge2_f": 0.1935483870967742,
+      "rougeL_f": 0.303030303030303,
+      "semantic_similarity": 0.4930320382118225,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.21818181818181814,
+      "avg_semantic": 0.4930320382118225,
+      "overall_average": 0.27315187454223633
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.26666666666666666,
+    "rouge1_f": 0.303030303030303,
+    "rouge2_f": 0.1935483870967742,
+    "rougeL_f": 0.303030303030303,
+    "semantic_similarity": 0.4930320382118225,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.21818181818181814,
+    "avg_semantic": 0.4930320382118225,
+    "overall_average": 0.27315187454223633
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.5875,
+    "retrieval_time": 0.6113,
+    "generation_time": 1.3679,
+    "evaluation_time": 0.6387,
+    "cleanup_time": 1.6994,
+    "total_time": 15.9055
+  }
+}

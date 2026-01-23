@@ -1,0 +1,76 @@
+{
+  "sample_idx": 479,
+  "question_id": "352ab8bd",
+  "question": "Can you remind me what was the average improvement in framerate when using the Hardware-Aware Modular Training (HAMT) agent in the 'To Adapt or Not to Adapt? Real-Time Adaptation for Semantic Segmentation' submission?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "The average improvement in framerate was approximately 20% when using the Hardware-Aware Modular Training (HAMT) agent.",
+  "question_date": "2023/05/30 (Tue) 23:31",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:11:58.411019",
+  "predicted_answer": "The average improvement in framerate when using the Hardware-Aware Modular Training (HAMT) agent in the \"To Adapt or Not to Adapt? Real-Time Adaptation for Semantic Segmentation\" submission was approximately 20%.",
+  "prompt_length": 22720,
+  "gen_token_usage": {
+    "prompt_tokens": 4716,
+    "answer_tokens": 44,
+    "total_tokens": 4760,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.6,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 16,
+      "response_length": 30,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.6829268292682926,
+      "rouge1_f": 0.6938775510204082,
+      "rouge2_f": 0.5957446808510638,
+      "rougeL_f": 0.5714285714285714,
+      "semantic_similarity": 0.818493664264679,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.48705823792931807,
+      "avg_semantic": 0.818493664264679,
+      "overall_average": 0.5533453226089478
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.6829268292682926,
+    "rouge1_f": 0.6938775510204082,
+    "rouge2_f": 0.5957446808510638,
+    "rougeL_f": 0.5714285714285714,
+    "semantic_similarity": 0.818493664264679,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.48705823792931807,
+    "avg_semantic": 0.818493664264679,
+    "overall_average": 0.5533453226089478
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 14.7636,
+    "retrieval_time": 0.6615,
+    "generation_time": 1.6346,
+    "evaluation_time": 0.7245,
+    "cleanup_time": 1.6981,
+    "total_time": 19.4829
+  }
+}

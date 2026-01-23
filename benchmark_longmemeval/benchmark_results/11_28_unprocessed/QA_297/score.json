@@ -1,0 +1,76 @@
+{
+  "sample_idx": 297,
+  "question_id": "gpt4_fa19884d",
+  "question": "What is the artist that I started to listen to last Friday?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "a bluegrass band that features a banjo player",
+  "question_date": "2023/04/05 (Wed) 19:25",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:20:49.985447",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 19999,
+  "gen_token_usage": {
+    "prompt_tokens": 4587,
+    "answer_tokens": 10,
+    "total_tokens": 4597,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.5,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 8,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.04526287317276001,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.04526287317276001,
+      "overall_average": 0.009052574634552002
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.04526287317276001,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.04526287317276001,
+    "overall_average": 0.009052574634552002
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 14.195,
+    "retrieval_time": 0.5791,
+    "generation_time": 1.5793,
+    "evaluation_time": 0.6064,
+    "cleanup_time": 1.4493,
+    "total_time": 18.4099
+  }
+}

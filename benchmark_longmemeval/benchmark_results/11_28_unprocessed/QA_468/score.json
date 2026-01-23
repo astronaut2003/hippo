@@ -1,0 +1,76 @@
+{
+  "sample_idx": 468,
+  "question_id": "8752c811",
+  "question": "I remember you provided a list of 100 prompt parameters that I can specify to influence your output. Can you remind me what was the 27th parameter on that list?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "The 27th parameter was 'Sound effects (e.g., ambient, diegetic, non-diegetic, etc.)'.",
+  "question_date": "2023/05/30 (Tue) 21:25",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:08:33.561585",
+  "predicted_answer": "The 27th parameter on the list is \"Sound effects (e.g., ambient, diegetic, non-diegetic, etc.).\"",
+  "prompt_length": 12914,
+  "gen_token_usage": {
+    "prompt_tokens": 3304,
+    "answer_tokens": 31,
+    "total_tokens": 3335,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.52,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.8181818181818182,
+      "rouge1_f": 0.8275862068965517,
+      "rouge2_f": 0.7407407407407408,
+      "rougeL_f": 0.8275862068965517,
+      "semantic_similarity": 0.9039475917816162,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.6183385579937304,
+      "avg_semantic": 0.9039475917816162,
+      "overall_average": 0.6754603981971741
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.8181818181818182,
+    "rouge1_f": 0.8275862068965517,
+    "rouge2_f": 0.7407407407407408,
+    "rougeL_f": 0.8275862068965517,
+    "semantic_similarity": 0.9039475917816162,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.6183385579937304,
+    "avg_semantic": 0.9039475917816162,
+    "overall_average": 0.6754603981971741
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 14.0155,
+    "retrieval_time": 0.5295,
+    "generation_time": 1.5627,
+    "evaluation_time": 0.6711,
+    "cleanup_time": 1.719,
+    "total_time": 18.4982
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 174,
+  "question_id": "f35224e0",
+  "question": "What is the total number of episodes I've listened to from 'How I Built This' and 'My Favorite Murder'?",
+  "question_type": "multi-session",
+  "gold_answer": "27",
+  "question_date": "2023/05/30 (Tue) 23:58",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:54:21.358538",
+  "predicted_answer": "You mentioned that you've finished around 15 episodes of \"How I Built This\" and you've completed episode 12 of \"My Favorite Murder.\" Therefore, the total number of episodes you've listened to from both podcasts is 15 + 12 = 27 episodes.",
+  "prompt_length": 18241,
+  "gen_token_usage": {
+    "prompt_tokens": 4016,
+    "answer_tokens": 52,
+    "total_tokens": 4068,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.06,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 41,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.052631578947368425,
+      "rouge1_f": 0.046511627906976744,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.046511627906976744,
+      "semantic_similarity": 0.2104925513267517,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.036413708690330476,
+      "avg_semantic": 0.2104925513267517,
+      "overall_average": 0.0712294727563858
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.052631578947368425,
+    "rouge1_f": 0.046511627906976744,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.046511627906976744,
+    "semantic_similarity": 0.2104925513267517,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.036413708690330476,
+    "avg_semantic": 0.2104925513267517,
+    "overall_average": 0.0712294727563858
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 14.0919,
+    "retrieval_time": 0.5545,
+    "generation_time": 2.0386,
+    "evaluation_time": 0.6476,
+    "cleanup_time": 1.5123,
+    "total_time": 18.8453
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 389,
+  "question_id": "6071bd76",
+  "question": "For the coffee-to-water ratio in my French press, did I switch to more water per tablespoon of coffee, or less?",
+  "question_type": "knowledge-update",
+  "gold_answer": "You switched to less water (5 ounces) per tablespoon of coffee.",
+  "question_date": "2023/07/30 (Sun) 05:53",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:45:55.252945",
+  "predicted_answer": "You switched to more water per tablespoon of coffee. Initially, you mentioned a ratio of 1 tablespoon of coffee for every 5 ounces of water, and later you found that 1 tablespoon of coffee for every 6 ounces of water was the perfect ratio for you.",
+  "prompt_length": 17704,
+  "gen_token_usage": {
+    "prompt_tokens": 3912,
+    "answer_tokens": 54,
+    "total_tokens": 3966,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.98,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 46,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3703703703703703,
+      "rouge1_f": 0.3508771929824562,
+      "rouge2_f": 0.2181818181818182,
+      "rougeL_f": 0.3157894736842105,
+      "semantic_similarity": 0.8413571119308472,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.25925925925925924,
+      "avg_semantic": 0.8413571119308472,
+      "overall_average": 0.3756788372993469
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3703703703703703,
+    "rouge1_f": 0.3508771929824562,
+    "rouge2_f": 0.2181818181818182,
+    "rougeL_f": 0.3157894736842105,
+    "semantic_similarity": 0.8413571119308472,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.25925925925925924,
+    "avg_semantic": 0.8413571119308472,
+    "overall_average": 0.3756788372993469
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.771,
+    "retrieval_time": 1.1081,
+    "generation_time": 1.8991,
+    "evaluation_time": 0.6852,
+    "cleanup_time": 1.5227,
+    "total_time": 16.9869
+  }
+}

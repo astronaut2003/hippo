@@ -1,0 +1,76 @@
+{
+  "sample_idx": 132,
+  "question_id": "8a2466db",
+  "question": "Can you recommend some resources where I can learn more about video editing?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that suggest resources specifically tailored to Adobe Premiere Pro, especially those that delve into its advanced settings. They might not prefer general video editing resources or resources related to other video editing software.",
+  "question_date": "2023/05/30 (Tue) 22:03",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:41:07.514543",
+  "predicted_answer": "Here are some resources to help you learn more about video editing, specifically with Adobe Premiere Pro:\n\n1. **Adobe Premiere Pro's Official Documentation and Tutorials**: This is a great starting point for understanding the software's features and capabilities.\n2. **YouTube Channels**:\n   - **Premiere Bro**: Offers tutorials and tips for using Premiere Pro effectively.\n   - **Video Copilot**: Focuses on visual effects and motion graphics, which can enhance your editing skills.\n   - **Adobe Creative Cloud**: Provides a variety of tutorials on different Adobe products, including Premiere Pro.\n3. **Online Courses**: Consider platforms like **Udemy**, **LinkedIn Learning**, and **Skillshare** for structured courses on video editing.\n4. **Communities and Forums**: Engage with others in forums like **Reddit's r/premierepro** and Adobe's Premiere Pro forum to ask questions and share experiences.\n\nThese resources should help you improve your video editing skills.",
+  "prompt_length": 23071,
+  "gen_token_usage": {
+    "prompt_tokens": 4919,
+    "answer_tokens": 199,
+    "total_tokens": 5118,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.75,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 38,
+      "response_length": 135,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.17721518987341772,
+      "rouge1_f": 0.17142857142857143,
+      "rouge2_f": 0.046242774566473986,
+      "rougeL_f": 0.11428571428571428,
+      "semantic_similarity": 0.6131611466407776,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.11573236889692586,
+      "avg_semantic": 0.6131611466407776,
+      "overall_average": 0.21521811187267303
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.17721518987341772,
+    "rouge1_f": 0.17142857142857143,
+    "rouge2_f": 0.046242774566473986,
+    "rougeL_f": 0.11428571428571428,
+    "semantic_similarity": 0.6131611466407776,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.11573236889692586,
+    "avg_semantic": 0.6131611466407776,
+    "overall_average": 0.21521811187267303
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.2271,
+    "retrieval_time": 0.5808,
+    "generation_time": 4.6593,
+    "evaluation_time": 0.6883,
+    "cleanup_time": 1.6501,
+    "total_time": 20.8069
+  }
+}

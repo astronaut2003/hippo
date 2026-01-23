@@ -1,0 +1,76 @@
+{
+  "sample_idx": 284,
+  "question_id": "gpt4_7ca326fa",
+  "question": "Who graduated first, second and third among Emma, Rachel and Alex?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Emma graduated first, followed by Rachel and then Alex.",
+  "question_date": "2022/08/20 (Sat) 21:47",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:17:21.653255",
+  "predicted_answer": "Based on the information provided in the memories, Rachel graduated first, followed by Alex, and then Emma graduated last. Rachel's graduation ceremony was mentioned as occurring yesterday, Alex graduated about two weeks ago, and Emma's graduation ceremony took place on a sunny Saturday in late May.",
+  "prompt_length": 22508,
+  "gen_token_usage": {
+    "prompt_tokens": 4941,
+    "answer_tokens": 55,
+    "total_tokens": 4996,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.77,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 9,
+      "response_length": 46,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.326530612244898,
+      "rouge1_f": 0.3157894736842105,
+      "rouge2_f": 0.1818181818181818,
+      "rougeL_f": 0.24561403508771928,
+      "semantic_similarity": 0.8398458957672119,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.22198353025420695,
+      "avg_semantic": 0.8398458957672119,
+      "overall_average": 0.34555602073669434
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.326530612244898,
+    "rouge1_f": 0.3157894736842105,
+    "rouge2_f": 0.1818181818181818,
+    "rougeL_f": 0.24561403508771928,
+    "semantic_similarity": 0.8398458957672119,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.22198353025420695,
+    "avg_semantic": 0.8398458957672119,
+    "overall_average": 0.34555602073669434
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.7046,
+    "retrieval_time": 0.4961,
+    "generation_time": 2.4052,
+    "evaluation_time": 1.3192,
+    "cleanup_time": 1.4654,
+    "total_time": 17.3911
+  }
+}

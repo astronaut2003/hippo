@@ -1,0 +1,76 @@
+{
+  "sample_idx": 7,
+  "question_id": "6f9b354f",
+  "question": "What color did I repaint my bedroom walls?",
+  "question_type": "single-session-user",
+  "gold_answer": "a lighter shade of gray",
+  "question_date": "2023/05/30 (Tue) 22:42",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T14:58:27.318290",
+  "predicted_answer": "You repainted your bedroom walls a lighter shade of gray.",
+  "prompt_length": 21326,
+  "gen_token_usage": {
+    "prompt_tokens": 4697,
+    "answer_tokens": 12,
+    "total_tokens": 4709,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.58,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.6153846153846153,
+      "rouge1_f": 0.6666666666666666,
+      "rouge2_f": 0.6153846153846153,
+      "rougeL_f": 0.6666666666666666,
+      "semantic_similarity": 0.6346909403800964,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.4871794871794871,
+      "avg_semantic": 0.6346909403800964,
+      "overall_average": 0.5166817903518677
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.6153846153846153,
+    "rouge1_f": 0.6666666666666666,
+    "rouge2_f": 0.6153846153846153,
+    "rougeL_f": 0.6666666666666666,
+    "semantic_similarity": 0.6346909403800964,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.4871794871794871,
+    "avg_semantic": 0.6346909403800964,
+    "overall_average": 0.5166817903518677
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 20.2928,
+    "retrieval_time": 0.6021,
+    "generation_time": 1.4874,
+    "evaluation_time": 0.9776,
+    "cleanup_time": 2.5597,
+    "total_time": 25.923
+  }
+}

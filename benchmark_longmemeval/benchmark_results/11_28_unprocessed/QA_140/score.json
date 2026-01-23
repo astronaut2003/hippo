@@ -1,0 +1,76 @@
+{
+  "sample_idx": 140,
+  "question_id": "caf03d32",
+  "question": "I've been struggling with my slow cooker recipes. Any advice on getting better results?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that provide tips and advice specifically tailored to their slow cooker experiences, utilizing their recent success with beef stew and interest in making yogurt in the slow cooker. They might not prefer general slow cooker recipes or advice unrelated to their specific experiences and interests.",
+  "question_date": "2023/05/30 (Tue) 23:44",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:43:28.497140",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 18896,
+  "gen_token_usage": {
+    "prompt_tokens": 4445,
+    "answer_tokens": 10,
+    "total_tokens": 4455,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.39,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 50,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.037037037037037035,
+      "rouge1_f": 0.03333333333333333,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.03333333333333333,
+      "semantic_similarity": 0.0,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.02592592592592592,
+      "avg_semantic": 0.0,
+      "overall_average": 0.020740740740740737
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.037037037037037035,
+    "rouge1_f": 0.03333333333333333,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.03333333333333333,
+    "semantic_similarity": 0.0,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.02592592592592592,
+    "avg_semantic": 0.0,
+    "overall_average": 0.020740740740740737
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.7574,
+    "retrieval_time": 0.5397,
+    "generation_time": 1.1359,
+    "evaluation_time": 0.7713,
+    "cleanup_time": 1.6963,
+    "total_time": 17.9011
+  }
+}

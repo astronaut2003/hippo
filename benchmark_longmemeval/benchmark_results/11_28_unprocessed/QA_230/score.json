@@ -1,0 +1,76 @@
+{
+  "sample_idx": 230,
+  "question_id": "a96c20ee_abs",
+  "question": "At which university did I present a poster for my undergrad course research project?",
+  "question_type": "multi-session",
+  "gold_answer": "The information provided is not enough. You did not mention presenting a poster for your undergrad course research project.",
+  "question_date": "2023/05/30 (Tue) 12:03",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:10:42.994212",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 14722,
+  "gen_token_usage": {
+    "prompt_tokens": 3160,
+    "answer_tokens": 10,
+    "total_tokens": 3170,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.41,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 19,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.15384615384615383,
+      "rouge1_f": 0.13793103448275862,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06896551724137931,
+      "semantic_similarity": 0.2574063539505005,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.09018567639257294,
+      "avg_semantic": 0.2574063539505005,
+      "overall_average": 0.12362980842590332
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.15384615384615383,
+    "rouge1_f": 0.13793103448275862,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06896551724137931,
+    "semantic_similarity": 0.2574063539505005,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.09018567639257294,
+    "avg_semantic": 0.2574063539505005,
+    "overall_average": 0.12362980842590332
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.0846,
+    "retrieval_time": 0.6147,
+    "generation_time": 1.6653,
+    "evaluation_time": 0.6922,
+    "cleanup_time": 1.6244,
+    "total_time": 17.6815
+  }
+}

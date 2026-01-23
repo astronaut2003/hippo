@@ -1,0 +1,76 @@
+{
+  "sample_idx": 398,
+  "question_id": "db467c8c",
+  "question": "How long have my parents been staying with me in the US?",
+  "question_type": "knowledge-update",
+  "gold_answer": "nine months",
+  "question_date": "2023/10/22 (Sun) 09:15",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:48:22.356756",
+  "predicted_answer": "Your parents have been staying with you in the US for nine months.",
+  "prompt_length": 34383,
+  "gen_token_usage": {
+    "prompt_tokens": 7095,
+    "answer_tokens": 14,
+    "total_tokens": 7109,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 5.41,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2857142857142857,
+      "rouge1_f": 0.2666666666666667,
+      "rouge2_f": 0.15384615384615385,
+      "rougeL_f": 0.2666666666666667,
+      "semantic_similarity": 0.43543583154678345,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.20476190476190478,
+      "avg_semantic": 0.43543583154678345,
+      "overall_average": 0.250896692276001
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2857142857142857,
+    "rouge1_f": 0.2666666666666667,
+    "rouge2_f": 0.15384615384615385,
+    "rougeL_f": 0.2666666666666667,
+    "semantic_similarity": 0.43543583154678345,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.20476190476190478,
+    "avg_semantic": 0.43543583154678345,
+    "overall_average": 0.250896692276001
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.4803,
+    "retrieval_time": 0.5269,
+    "generation_time": 1.3385,
+    "evaluation_time": 1.0441,
+    "cleanup_time": 1.4282,
+    "total_time": 15.8184
+  }
+}

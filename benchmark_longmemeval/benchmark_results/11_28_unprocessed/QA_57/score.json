@@ -1,0 +1,76 @@
+{
+  "sample_idx": 57,
+  "question_id": "1faac195",
+  "question": "Where does my sister Emily live?",
+  "question_type": "single-session-user",
+  "gold_answer": "Denver",
+  "question_date": "2023/05/30 (Tue) 19:50",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:19:07.775261",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 13816,
+  "gen_token_usage": {
+    "prompt_tokens": 3254,
+    "answer_tokens": 10,
+    "total_tokens": 3264,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.48,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.10209876298904419,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.10209876298904419,
+      "overall_average": 0.020419752225279808
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.10209876298904419,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.10209876298904419,
+    "overall_average": 0.020419752225279808
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.2674,
+    "retrieval_time": 0.5989,
+    "generation_time": 1.0706,
+    "evaluation_time": 4.5648,
+    "cleanup_time": 1.7217,
+    "total_time": 21.2239
+  }
+}

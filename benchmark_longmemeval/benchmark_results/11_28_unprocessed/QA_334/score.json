@@ -1,0 +1,76 @@
+{
+  "sample_idx": 334,
+  "question_id": "gpt4_b4a80587",
+  "question": "Which event happened first, the road trip to the coast or the arrival of the new prime lens?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "The arrival of the new prime lens",
+  "question_date": "2023/05/23 (Tue) 04:05",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:30:46.501439",
+  "predicted_answer": "The arrival of the new prime lens happened before the road trip to the coast. You mentioned experimenting with the lens and getting used to it, and then later referred to taking a road trip to the coast with friends.",
+  "prompt_length": 21089,
+  "gen_token_usage": {
+    "prompt_tokens": 4541,
+    "answer_tokens": 43,
+    "total_tokens": 4584,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.46,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 7,
+      "response_length": 40,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.27777777777777773,
+      "rouge1_f": 0.2978723404255319,
+      "rouge2_f": 0.2666666666666667,
+      "rougeL_f": 0.2978723404255319,
+      "semantic_similarity": 0.7517234086990356,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.21838061465721037,
+      "avg_semantic": 0.7517234086990356,
+      "overall_average": 0.32504916191101074
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.27777777777777773,
+    "rouge1_f": 0.2978723404255319,
+    "rouge2_f": 0.2666666666666667,
+    "rougeL_f": 0.2978723404255319,
+    "semantic_similarity": 0.7517234086990356,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.21838061465721037,
+    "avg_semantic": 0.7517234086990356,
+    "overall_average": 0.32504916191101074
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.1004,
+    "retrieval_time": 0.5512,
+    "generation_time": 1.4002,
+    "evaluation_time": 0.6508,
+    "cleanup_time": 1.6021,
+    "total_time": 17.3052
+  }
+}

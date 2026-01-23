@@ -1,0 +1,76 @@
+{
+  "sample_idx": 145,
+  "question_id": "09d032c9",
+  "question": "I've been having trouble with the battery life on my phone lately. Any tips?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that build upon their previous mention of purchasing a portable power bank, such as suggestions on how to optimize its use, like ensuring it's fully charged before use. They might also appreciate tips on utilizing battery-saving features on their phone. The user may not prefer responses that suggest alternative solutions or unrelated advice.",
+  "question_date": "2023/05/30 (Tue) 16:42",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:45:02.093855",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 24476,
+  "gen_token_usage": {
+    "prompt_tokens": 5519,
+    "answer_tokens": 10,
+    "total_tokens": 5529,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.21,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 58,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.03125,
+      "rouge1_f": 0.028571428571428574,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.028571428571428574,
+      "semantic_similarity": 0.05897945165634155,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.022098214285714287,
+      "avg_semantic": 0.05897945165634155,
+      "overall_average": 0.02947446145117283
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.03125,
+    "rouge1_f": 0.028571428571428574,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.028571428571428574,
+    "semantic_similarity": 0.05897945165634155,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.022098214285714287,
+    "avg_semantic": 0.05897945165634155,
+    "overall_average": 0.02947446145117283
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.4557,
+    "retrieval_time": 0.5662,
+    "generation_time": 1.2526,
+    "evaluation_time": 0.6764,
+    "cleanup_time": 1.7316,
+    "total_time": 17.6829
+  }
+}

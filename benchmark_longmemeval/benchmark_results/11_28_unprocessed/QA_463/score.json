@@ -1,0 +1,76 @@
+{
+  "sample_idx": 463,
+  "question_id": "8464fc84",
+  "question": "I'm planning to visit the Vatican again and I was wondering if you could remind me of the name of that famous deli near the Vatican that serves the best cured meats and cheeses?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Roscioli",
+  "question_date": "2023/05/30 (Tue) 23:01",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:07:00.744645",
+  "predicted_answer": "The famous deli near the Vatican that serves the best cured meats and cheeses is called Roscioli.",
+  "prompt_length": 13706,
+  "gen_token_usage": {
+    "prompt_tokens": 3142,
+    "answer_tokens": 20,
+    "total_tokens": 3162,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.4,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 17,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14285714285714288,
+      "rouge1_f": 0.1111111111111111,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.1111111111111111,
+      "semantic_similarity": 0.5954251289367676,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.09126984126984126,
+      "avg_semantic": 0.5954251289367676,
+      "overall_average": 0.1921009123325348
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14285714285714288,
+    "rouge1_f": 0.1111111111111111,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.1111111111111111,
+    "semantic_similarity": 0.5954251289367676,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.09126984126984126,
+    "avg_semantic": 0.5954251289367676,
+    "overall_average": 0.1921009123325348
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.4949,
+    "retrieval_time": 0.5854,
+    "generation_time": 1.2626,
+    "evaluation_time": 0.7326,
+    "cleanup_time": 1.7106,
+    "total_time": 17.7865
+  }
+}

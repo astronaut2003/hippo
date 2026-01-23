@@ -1,0 +1,76 @@
+{
+  "sample_idx": 457,
+  "question_id": "dc439ea3",
+  "question": "I was looking back at our previous conversation about Native American powwows and I was wondering, which traditional game did you say was often performed by skilled dancers at powwows?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Hoop Dance",
+  "question_date": "2023/05/30 (Tue) 17:54",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:05:08.624803",
+  "predicted_answer": "The traditional game often performed by skilled dancers at powwows is the Hoop Dance.",
+  "prompt_length": 17726,
+  "gen_token_usage": {
+    "prompt_tokens": 3921,
+    "answer_tokens": 17,
+    "total_tokens": 3938,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.99,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2857142857142857,
+      "rouge1_f": 0.25,
+      "rouge2_f": 0.14285714285714288,
+      "rougeL_f": 0.25,
+      "semantic_similarity": 0.6000186800956726,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.19642857142857142,
+      "avg_semantic": 0.6000186800956726,
+      "overall_average": 0.277146577835083
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2857142857142857,
+    "rouge1_f": 0.25,
+    "rouge2_f": 0.14285714285714288,
+    "rougeL_f": 0.25,
+    "semantic_similarity": 0.6000186800956726,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.19642857142857142,
+    "avg_semantic": 0.6000186800956726,
+    "overall_average": 0.277146577835083
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.8729,
+    "retrieval_time": 0.6184,
+    "generation_time": 1.3026,
+    "evaluation_time": 0.6695,
+    "cleanup_time": 1.6436,
+    "total_time": 18.1073
+  }
+}

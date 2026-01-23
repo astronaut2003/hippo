@@ -1,0 +1,76 @@
+{
+  "sample_idx": 45,
+  "question_id": "b320f3f8",
+  "question": "What type of action figure did I buy from a thrift store?",
+  "question_type": "single-session-user",
+  "gold_answer": "a blue Snaggletooth",
+  "question_date": "2023/05/30 (Tue) 17:49",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:14:57.293396",
+  "predicted_answer": "You bought a rare blue Snaggletooth action figure from a thrift store.",
+  "prompt_length": 29357,
+  "gen_token_usage": {
+    "prompt_tokens": 6371,
+    "answer_tokens": 17,
+    "total_tokens": 6388,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.86,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 12,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.33333333333333337,
+      "rouge1_f": 0.4,
+      "rouge2_f": 0.15384615384615385,
+      "rougeL_f": 0.4,
+      "semantic_similarity": 0.6502125263214111,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2833333333333333,
+      "avg_semantic": 0.6502125263214111,
+      "overall_average": 0.35670918226242065
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.33333333333333337,
+    "rouge1_f": 0.4,
+    "rouge2_f": 0.15384615384615385,
+    "rougeL_f": 0.4,
+    "semantic_similarity": 0.6502125263214111,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2833333333333333,
+    "avg_semantic": 0.6502125263214111,
+    "overall_average": 0.35670918226242065
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 15.5512,
+    "retrieval_time": 0.5398,
+    "generation_time": 1.5968,
+    "evaluation_time": 0.666,
+    "cleanup_time": 2.3641,
+    "total_time": 20.7195
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 156,
+  "question_id": "a89d7624",
+  "question": "I'm planning a trip to Denver soon. Any suggestions on what to do there?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that take into account their previous experience in Denver, specifically their interest in live music and memorable encounter with Brandon Flowers. They might appreciate suggestions that revisit or build upon this experience, such as revisiting the same bar or exploring similar music venues in the area. The user may not prefer general tourist recommendations or activities unrelated to their interest in live music.",
+  "question_date": "2023/05/30 (Tue) 21:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:48:39.922991",
+  "predicted_answer": "In Denver, you should definitely explore the vibrant music scene. Here are some must-visit music venues:\n\n1. **Red Rocks Park and Amphitheatre**: An iconic venue for a wide range of acts.\n2. **The Ogden Theatre**: Hosts indie, rock, and electronic acts in an intimate setting.\n3. **The Bluebird Theater**: Offers a unique atmosphere with a diverse lineup.\n4. **The Fillmore Auditorium**: Features a variety of genres from rock to hip-hop.\n5. **Larimer Lounge**: A cozy venue perfect for discovering new talent.\n\nAdditionally, consider attending some music festivals like Grandoozy, the Denver Folk Festival, or the Denver Jazz Festival. Enjoy your trip!",
+  "prompt_length": 20630,
+  "gen_token_usage": {
+    "prompt_tokens": 4658,
+    "answer_tokens": 147,
+    "total_tokens": 4805,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.55,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 68,
+      "response_length": 101,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1476510067114094,
+      "rouge1_f": 0.18713450292397657,
+      "rouge2_f": 0.023668639053254437,
+      "rougeL_f": 0.11695906432748539,
+      "semantic_similarity": 0.5917984247207642,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.11293614349071784,
+      "avg_semantic": 0.5917984247207642,
+      "overall_average": 0.20870859920978546
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1476510067114094,
+    "rouge1_f": 0.18713450292397657,
+    "rouge2_f": 0.023668639053254437,
+    "rougeL_f": 0.11695906432748539,
+    "semantic_similarity": 0.5917984247207642,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.11293614349071784,
+    "avg_semantic": 0.5917984247207642,
+    "overall_average": 0.20870859920978546
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.3811,
+    "retrieval_time": 0.6087,
+    "generation_time": 5.2828,
+    "evaluation_time": 0.7882,
+    "cleanup_time": 1.4611,
+    "total_time": 21.5225
+  }
+}

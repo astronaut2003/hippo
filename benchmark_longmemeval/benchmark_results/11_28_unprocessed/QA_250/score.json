@@ -1,0 +1,76 @@
+{
+  "sample_idx": 250,
+  "question_id": "gpt4_18c2b244",
+  "question": "What is the order of the three events: 'I signed up for the rewards program at ShopRite', 'I used a Buy One Get One Free coupon on Luvs diapers at Walmart', and 'I redeemed $12 cashback for a $10 Amazon gift card from Ibotta'?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "First, I used a Buy One Get One Free coupon on Luvs diapers at Walmart. Then, I redeemed $12 cashback for a $10 Amazon gift card from Ibotta. Finally, I signed up for the rewards program at ShopRite.",
+  "question_date": "2023/05/10 (Wed) 21:38",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:07:58.385085",
+  "predicted_answer": "The order of the three events is as follows:\n\n1. I signed up for the rewards program at ShopRite.\n2. I used a Buy One Get One Free coupon on Luvs diapers at Walmart.\n3. I redeemed $12 cashback for a $10 Amazon gift card from Ibotta.",
+  "prompt_length": 28033,
+  "gen_token_usage": {
+    "prompt_tokens": 6056,
+    "answer_tokens": 62,
+    "total_tokens": 6118,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 38,
+      "response_length": 47,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.8311688311688312,
+      "rouge1_f": 0.8235294117647057,
+      "rouge2_f": 0.7710843373493975,
+      "rougeL_f": 0.611764705882353,
+      "semantic_similarity": 0.8170602917671204,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.5666157372039725,
+      "avg_semantic": 0.8170602917671204,
+      "overall_average": 0.6167046427726746
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.8311688311688312,
+    "rouge1_f": 0.8235294117647057,
+    "rouge2_f": 0.7710843373493975,
+    "rougeL_f": 0.611764705882353,
+    "semantic_similarity": 0.8170602917671204,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.5666157372039725,
+    "avg_semantic": 0.8170602917671204,
+    "overall_average": 0.6167046427726746
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.3542,
+    "retrieval_time": 1.2865,
+    "generation_time": 1.6623,
+    "evaluation_time": 0.8695,
+    "cleanup_time": 1.6128,
+    "total_time": 18.7861
+  }
+}

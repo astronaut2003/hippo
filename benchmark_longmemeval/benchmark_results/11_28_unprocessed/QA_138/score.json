@@ -1,0 +1,76 @@
+{
+  "sample_idx": 138,
+  "question_id": "195a1a1b",
+  "question": "Can you suggest some activities that I can do in the evening?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer suggestions that involve relaxing activities that can be done in the evening, preferably before 9:30 pm. They would not prefer suggestions that involve using their phone or watching TV, as these activities have been affecting their sleep quality.",
+  "question_date": "2023/05/30 (Tue) 22:28",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:42:51.681353",
+  "predicted_answer": "Based on your preference for winding down by 9:30 pm, here are some evening activities you can consider:\n\n1. **Reflection and Journaling**: Spend some time reflecting on your day and writing in a journal. This can help you process your thoughts and emotions.\n\n2. **Nature Walks**: Take a leisurely walk around the lake or in the surrounding woods to connect with nature and clear your mind.\n\n3. **Relaxation Techniques**: Engage in relaxation activities such as reading, meditation, or gentle yoga to help calm your mind and body before bed.\n\n4. **Prepare for Sleep**: Follow a calming pre-sleep routine, such as brushing your teeth, changing into comfortable pajamas, and dimming the lights in your space.\n\nThese activities can help you unwind and prepare for a restful night's sleep.",
+  "prompt_length": 26134,
+  "gen_token_usage": {
+    "prompt_tokens": 5801,
+    "answer_tokens": 165,
+    "total_tokens": 5966,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.43,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 42,
+      "response_length": 127,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.18300653594771243,
+      "rouge1_f": 0.19653179190751446,
+      "rouge2_f": 0.058479532163742694,
+      "rougeL_f": 0.11560693641618495,
+      "semantic_similarity": 0.6455250382423401,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.12378631606785297,
+      "avg_semantic": 0.6455250382423401,
+      "overall_average": 0.22813406586647034
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.18300653594771243,
+    "rouge1_f": 0.19653179190751446,
+    "rouge2_f": 0.058479532163742694,
+    "rougeL_f": 0.11560693641618495,
+    "semantic_similarity": 0.6455250382423401,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.12378631606785297,
+    "avg_semantic": 0.6455250382423401,
+    "overall_average": 0.22813406586647034
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.6592,
+    "retrieval_time": 0.8649,
+    "generation_time": 3.0378,
+    "evaluation_time": 0.7064,
+    "cleanup_time": 1.501,
+    "total_time": 19.7705
+  }
+}

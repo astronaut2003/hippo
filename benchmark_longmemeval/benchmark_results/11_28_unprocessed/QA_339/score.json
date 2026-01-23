@@ -1,0 +1,76 @@
+{
+  "sample_idx": 339,
+  "question_id": "gpt4_7de946e7",
+  "question": "Which health issue did I deal with first, the persistent cough or the skin tag removal?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Persistent cough",
+  "question_date": "2023/02/28 (Tue) 18:07",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:32:09.292530",
+  "predicted_answer": "You dealt with the persistent cough first, as you visited your primary care physician on February 10th regarding it, while the skin tag removal occurred later on February 22nd.",
+  "prompt_length": 24468,
+  "gen_token_usage": {
+    "prompt_tokens": 5048,
+    "answer_tokens": 36,
+    "total_tokens": 5084,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.85,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 29,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.13793103448275862,
+      "rouge1_f": 0.12903225806451613,
+      "rouge2_f": 0.0689655172413793,
+      "rougeL_f": 0.12903225806451613,
+      "semantic_similarity": 0.5466659069061279,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.09899888765294772,
+      "avg_semantic": 0.5466659069061279,
+      "overall_average": 0.188532292842865
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.13793103448275862,
+    "rouge1_f": 0.12903225806451613,
+    "rouge2_f": 0.0689655172413793,
+    "rougeL_f": 0.12903225806451613,
+    "semantic_similarity": 0.5466659069061279,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.09899888765294772,
+    "avg_semantic": 0.5466659069061279,
+    "overall_average": 0.188532292842865
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.7139,
+    "retrieval_time": 0.5534,
+    "generation_time": 1.4871,
+    "evaluation_time": 0.709,
+    "cleanup_time": 1.4971,
+    "total_time": 16.961
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 248,
+  "question_id": "gpt4_6dc9b45b",
+  "question": "How many months ago did I attend the Seattle International Film Festival?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "4 months ago",
+  "question_date": "2021/10/02 (Sat) 03:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:07:20.159467",
+  "predicted_answer": "You attended the Seattle International Film Festival today, so I don't have enough information to answer how many months ago that was.",
+  "prompt_length": 25217,
+  "gen_token_usage": {
+    "prompt_tokens": 4939,
+    "answer_tokens": 24,
+    "total_tokens": 4963,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.77,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 22,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.16666666666666666,
+      "rouge1_f": 0.15384615384615383,
+      "rouge2_f": 0.08333333333333334,
+      "rougeL_f": 0.15384615384615383,
+      "semantic_similarity": 0.4370030164718628,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.11858974358974358,
+      "avg_semantic": 0.4370030164718628,
+      "overall_average": 0.18227240443229675
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.16666666666666666,
+    "rouge1_f": 0.15384615384615383,
+    "rouge2_f": 0.08333333333333334,
+    "rougeL_f": 0.15384615384615383,
+    "semantic_similarity": 0.4370030164718628,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.11858974358974358,
+    "avg_semantic": 0.4370030164718628,
+    "overall_average": 0.18227240443229675
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 15.3758,
+    "retrieval_time": 0.5122,
+    "generation_time": 1.581,
+    "evaluation_time": 0.7818,
+    "cleanup_time": 2.362,
+    "total_time": 20.6133
+  }
+}

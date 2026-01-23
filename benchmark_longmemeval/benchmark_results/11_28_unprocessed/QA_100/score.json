@@ -1,0 +1,76 @@
+{
+  "sample_idx": 100,
+  "question_id": "00ca467f",
+  "question": "How many doctor's appointments did I go to in March?",
+  "question_type": "multi-session",
+  "gold_answer": 2,
+  "question_date": "2023/03/27 (Mon) 23:35",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:31:41.068860",
+  "predicted_answer": "You had two doctor's appointments in March: one with your orthopedic surgeon, Dr. Thompson, on March 20th, and another related to your physical therapy sessions starting on March 25th.",
+  "prompt_length": 11158,
+  "gen_token_usage": {
+    "prompt_tokens": 2588,
+    "answer_tokens": 39,
+    "total_tokens": 2627,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.97,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 29,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.07182198762893677,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.07182198762893677,
+      "overall_average": 0.014364397153258324
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.07182198762893677,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.07182198762893677,
+    "overall_average": 0.014364397153258324
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.2363,
+    "retrieval_time": 0.6144,
+    "generation_time": 1.4386,
+    "evaluation_time": 1.2497,
+    "cleanup_time": 1.5177,
+    "total_time": 16.0572
+  }
+}

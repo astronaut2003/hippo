@@ -1,0 +1,76 @@
+{
+  "sample_idx": 292,
+  "question_id": "gpt4_f420262d",
+  "question": "What was the airline that I flied with on Valentine's day?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "American Airlines",
+  "question_date": "2023/03/02 (Thu) 08:00",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:19:29.259157",
+  "predicted_answer": "You flew with American Airlines on February 10th, which is close to Valentine's Day.",
+  "prompt_length": 20326,
+  "gen_token_usage": {
+    "prompt_tokens": 4543,
+    "answer_tokens": 18,
+    "total_tokens": 4561,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.47,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.25,
+      "rouge1_f": 0.23529411764705882,
+      "rouge2_f": 0.13333333333333333,
+      "rougeL_f": 0.23529411764705882,
+      "semantic_similarity": 0.5729994773864746,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1801470588235294,
+      "avg_semantic": 0.5729994773864746,
+      "overall_average": 0.25871753692626953
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.25,
+    "rouge1_f": 0.23529411764705882,
+    "rouge2_f": 0.13333333333333333,
+    "rougeL_f": 0.23529411764705882,
+    "semantic_similarity": 0.5729994773864746,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1801470588235294,
+    "avg_semantic": 0.5729994773864746,
+    "overall_average": 0.25871753692626953
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 10.8573,
+    "retrieval_time": 0.5775,
+    "generation_time": 1.1868,
+    "evaluation_time": 0.7053,
+    "cleanup_time": 1.4722,
+    "total_time": 14.7996
+  }
+}

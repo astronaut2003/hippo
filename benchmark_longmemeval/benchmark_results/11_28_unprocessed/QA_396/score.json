@@ -1,0 +1,76 @@
+{
+  "sample_idx": 396,
+  "question_id": "2133c1b5",
+  "question": "How long have I been living in my current apartment in Harajuku?",
+  "question_type": "knowledge-update",
+  "gold_answer": "3 months",
+  "question_date": "2023/10/15 (Sun) 08:39",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:47:50.293911",
+  "predicted_answer": "You have been living in your current apartment in Harajuku for 3 months.",
+  "prompt_length": 21730,
+  "gen_token_usage": {
+    "prompt_tokens": 4759,
+    "answer_tokens": 17,
+    "total_tokens": 4776,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2666666666666667,
+      "rouge1_f": 0.2666666666666667,
+      "rouge2_f": 0.15384615384615385,
+      "rougeL_f": 0.2666666666666667,
+      "semantic_similarity": 0.4173518419265747,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.20000000000000004,
+      "avg_semantic": 0.4173518419265747,
+      "overall_average": 0.24347038567066193
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2666666666666667,
+    "rouge1_f": 0.2666666666666667,
+    "rouge2_f": 0.15384615384615385,
+    "rougeL_f": 0.2666666666666667,
+    "semantic_similarity": 0.4173518419265747,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.20000000000000004,
+    "avg_semantic": 0.4173518419265747,
+    "overall_average": 0.24347038567066193
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.1695,
+    "retrieval_time": 0.5952,
+    "generation_time": 1.2528,
+    "evaluation_time": 1.2105,
+    "cleanup_time": 1.418,
+    "total_time": 16.6464
+  }
+}

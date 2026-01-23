@@ -1,0 +1,76 @@
+{
+  "sample_idx": 340,
+  "question_id": "d01c6aa8",
+  "question": "How old was I when I moved to the United States?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "27",
+  "question_date": "2023/05/27 (Sat) 10:19",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:32:26.254427",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 29117,
+  "gen_token_usage": {
+    "prompt_tokens": 6091,
+    "answer_tokens": 10,
+    "total_tokens": 6101,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.65,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.12164473533630371,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.12164473533630371,
+      "overall_average": 0.024328947067260742
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.12164473533630371,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.12164473533630371,
+    "overall_average": 0.024328947067260742
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 10.7621,
+    "retrieval_time": 0.517,
+    "generation_time": 1.291,
+    "evaluation_time": 0.7616,
+    "cleanup_time": 1.4982,
+    "total_time": 14.8313
+  }
+}

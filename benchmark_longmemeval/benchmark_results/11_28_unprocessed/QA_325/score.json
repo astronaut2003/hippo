@@ -1,0 +1,76 @@
+{
+  "sample_idx": 325,
+  "question_id": "982b5123",
+  "question": "How many months ago did I book the Airbnb in San Francisco?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Five months ago",
+  "question_date": "2023/05/21 (Sun) 10:30",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:28:17.274184",
+  "predicted_answer": "You booked the Airbnb in San Francisco three months in advance for your best friend's wedding, which was two months ago. Therefore, you booked it five months ago.",
+  "prompt_length": 14750,
+  "gen_token_usage": {
+    "prompt_tokens": 3313,
+    "answer_tokens": 32,
+    "total_tokens": 3345,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.53,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.19999999999999998,
+      "rouge1_f": 0.1875,
+      "rouge2_f": 0.13333333333333333,
+      "rougeL_f": 0.1875,
+      "semantic_similarity": 0.2915341854095459,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.14375,
+      "avg_semantic": 0.2915341854095459,
+      "overall_average": 0.17330683767795563
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.19999999999999998,
+    "rouge1_f": 0.1875,
+    "rouge2_f": 0.13333333333333333,
+    "rougeL_f": 0.1875,
+    "semantic_similarity": 0.2915341854095459,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.14375,
+    "avg_semantic": 0.2915341854095459,
+    "overall_average": 0.17330683767795563
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.0225,
+    "retrieval_time": 0.4904,
+    "generation_time": 1.5978,
+    "evaluation_time": 0.6557,
+    "cleanup_time": 1.5133,
+    "total_time": 15.2805
+  }
+}

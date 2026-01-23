@@ -1,0 +1,76 @@
+{
+  "sample_idx": 399,
+  "question_id": "7a87bd0c",
+  "question": "How long have I been sticking to my daily tidying routine?",
+  "question_type": "knowledge-update",
+  "gold_answer": "4 weeks",
+  "question_date": "2023/09/30 (Sat) 23:15",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:48:38.176111",
+  "predicted_answer": "You've been sticking to your daily tidying routine for 4 weeks now.",
+  "prompt_length": 23986,
+  "gen_token_usage": {
+    "prompt_tokens": 5297,
+    "answer_tokens": 15,
+    "total_tokens": 5312,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.04,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 12,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2857142857142857,
+      "rouge1_f": 0.2666666666666667,
+      "rouge2_f": 0.15384615384615385,
+      "rougeL_f": 0.2666666666666667,
+      "semantic_similarity": 0.48980093002319336,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.20476190476190478,
+      "avg_semantic": 0.48980093002319336,
+      "overall_average": 0.26176971197128296
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2857142857142857,
+    "rouge1_f": 0.2666666666666667,
+    "rouge2_f": 0.15384615384615385,
+    "rougeL_f": 0.2666666666666667,
+    "semantic_similarity": 0.48980093002319336,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.20476190476190478,
+    "avg_semantic": 0.48980093002319336,
+    "overall_average": 0.26176971197128296
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.2691,
+    "retrieval_time": 0.5481,
+    "generation_time": 1.7062,
+    "evaluation_time": 0.7648,
+    "cleanup_time": 1.5277,
+    "total_time": 16.8165
+  }
+}

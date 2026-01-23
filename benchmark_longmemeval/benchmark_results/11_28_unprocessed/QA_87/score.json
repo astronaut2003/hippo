@@ -1,0 +1,76 @@
+{
+  "sample_idx": 87,
+  "question_id": "2e6d26dc",
+  "question": "How many babies were born to friends and family members in the last few months?",
+  "question_type": "multi-session",
+  "gold_answer": 5,
+  "question_date": "2023/05/13 (Sat) 23:55",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:27:54.410845",
+  "predicted_answer": "Based on the information provided in the memories, the following babies were born to friends and family members in the last few months:\n\n1. Mike and Emma's daughter, Charlotte.\n2. David's son, Jasper.\n3. Rachel's son, Max.\n4. Ava and Lily, twins born to your aunt.\n\nIn total, there were four babies born: Charlotte, Jasper, Max, and the twins Ava and Lily.",
+  "prompt_length": 14966,
+  "gen_token_usage": {
+    "prompt_tokens": 3372,
+    "answer_tokens": 85,
+    "total_tokens": 3457,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.57,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 62,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.07156413793563843,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.07156413793563843,
+      "overall_average": 0.014312827959656715
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.07156413793563843,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.07156413793563843,
+    "overall_average": 0.014312827959656715
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.3581,
+    "retrieval_time": 0.492,
+    "generation_time": 2.4607,
+    "evaluation_time": 0.8106,
+    "cleanup_time": 1.4323,
+    "total_time": 17.554
+  }
+}

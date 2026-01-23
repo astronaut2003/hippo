@@ -1,0 +1,76 @@
+{
+  "sample_idx": 384,
+  "question_id": "41698283",
+  "question": "What type of camera lens did I purchase most recently?",
+  "question_type": "knowledge-update",
+  "gold_answer": "a 70-200mm zoom lens",
+  "question_date": "2023/09/21 (Thu) 08:41",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:44:33.209966",
+  "predicted_answer": "You recently purchased the Canon EF 70-200mm f/2.8L IS III USM lens.",
+  "prompt_length": 25959,
+  "gen_token_usage": {
+    "prompt_tokens": 5802,
+    "answer_tokens": 23,
+    "total_tokens": 5825,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.43,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 4,
+      "response_length": 12,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.28571428571428575,
+      "rouge1_f": 0.3,
+      "rouge2_f": 0.11111111111111112,
+      "rougeL_f": 0.3,
+      "semantic_similarity": 0.5566105842590332,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.22142857142857142,
+      "avg_semantic": 0.5566105842590332,
+      "overall_average": 0.2884649634361267
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.28571428571428575,
+    "rouge1_f": 0.3,
+    "rouge2_f": 0.11111111111111112,
+    "rougeL_f": 0.3,
+    "semantic_similarity": 0.5566105842590332,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.22142857142857142,
+    "avg_semantic": 0.5566105842590332,
+    "overall_average": 0.2884649634361267
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.6713,
+    "retrieval_time": 0.5873,
+    "generation_time": 1.3042,
+    "evaluation_time": 0.6411,
+    "cleanup_time": 1.4696,
+    "total_time": 15.6744
+  }
+}

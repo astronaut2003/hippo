@@ -1,0 +1,76 @@
+{
+  "sample_idx": 200,
+  "question_id": "0ea62687",
+  "question": "How much more miles per gallon was my car getting a few months ago compared to now?",
+  "question_type": "multi-session",
+  "gold_answer": "2",
+  "question_date": "2023/05/30 (Tue) 23:51",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:02:07.834541",
+  "predicted_answer": "Your car was getting 30 miles per gallon in the city a few months ago, and it is currently getting around 28 miles per gallon. This means your car is getting 2 miles per gallon less than it was a few months ago.",
+  "prompt_length": 17231,
+  "gen_token_usage": {
+    "prompt_tokens": 3688,
+    "answer_tokens": 49,
+    "total_tokens": 3737,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.81,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 43,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.05,
+      "rouge1_f": 0.04545454545454545,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.04545454545454545,
+      "semantic_similarity": 0.06223803758621216,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.035227272727272725,
+      "avg_semantic": 0.06223803758621216,
+      "overall_average": 0.04062942415475845
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.05,
+    "rouge1_f": 0.04545454545454545,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.04545454545454545,
+    "semantic_similarity": 0.06223803758621216,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.035227272727272725,
+    "avg_semantic": 0.06223803758621216,
+    "overall_average": 0.04062942415475845
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.7178,
+    "retrieval_time": 0.5689,
+    "generation_time": 1.4936,
+    "evaluation_time": 0.8966,
+    "cleanup_time": 1.1035,
+    "total_time": 16.7808
+  }
+}

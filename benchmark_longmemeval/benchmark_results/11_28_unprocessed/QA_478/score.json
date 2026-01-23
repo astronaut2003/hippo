@@ -1,0 +1,76 @@
+{
+  "sample_idx": 478,
+  "question_id": "e982271f",
+  "question": "I was going through our previous chat. Can you remind me of the name of the last venue you recommended in the list of popular venues in Portland for indie music shows?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Revolution Hall",
+  "question_date": "2023/05/30 (Tue) 17:51",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:11:38.263798",
+  "predicted_answer": "The last venue I recommended in the list of popular venues in Portland for indie music shows is Revolution Hall.",
+  "prompt_length": 12457,
+  "gen_token_usage": {
+    "prompt_tokens": 2956,
+    "answer_tokens": 21,
+    "total_tokens": 2977,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.26,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 20,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.19999999999999998,
+      "rouge1_f": 0.18181818181818182,
+      "rouge2_f": 0.1,
+      "rougeL_f": 0.18181818181818182,
+      "semantic_similarity": 0.4539426565170288,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.14090909090909093,
+      "avg_semantic": 0.4539426565170288,
+      "overall_average": 0.20351581275463104
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.19999999999999998,
+    "rouge1_f": 0.18181818181818182,
+    "rouge2_f": 0.1,
+    "rougeL_f": 0.18181818181818182,
+    "semantic_similarity": 0.4539426565170288,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.14090909090909093,
+    "avg_semantic": 0.4539426565170288,
+    "overall_average": 0.20351581275463104
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 15.7542,
+    "retrieval_time": 0.5182,
+    "generation_time": 1.4566,
+    "evaluation_time": 0.9353,
+    "cleanup_time": 1.4813,
+    "total_time": 20.1462
+  }
+}

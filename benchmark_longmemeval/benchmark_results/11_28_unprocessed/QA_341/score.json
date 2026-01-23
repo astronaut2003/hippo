@@ -1,0 +1,76 @@
+{
+  "sample_idx": 341,
+  "question_id": "993da5e2",
+  "question": "How long had I been using the new area rug when I rearranged my living room furniture?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "One week. Answers ranging from 7 days to 10 days are also acceptable.",
+  "question_date": "2023/05/26 (Fri) 17:49",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:32:41.086549",
+  "predicted_answer": "You had been using the new area rug for about one month when you rearranged your living room furniture three weeks ago.",
+  "prompt_length": 16135,
+  "gen_token_usage": {
+    "prompt_tokens": 3587,
+    "answer_tokens": 24,
+    "total_tokens": 3611,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.74,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 13,
+      "response_length": 22,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.11764705882352941,
+      "rouge1_f": 0.1142857142857143,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.1142857142857143,
+      "semantic_similarity": 0.23268967866897583,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0865546218487395,
+      "avg_semantic": 0.23268967866897583,
+      "overall_average": 0.11578164249658585
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.11764705882352941,
+    "rouge1_f": 0.1142857142857143,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.1142857142857143,
+    "semantic_similarity": 0.23268967866897583,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0865546218487395,
+    "avg_semantic": 0.23268967866897583,
+    "overall_average": 0.11578164249658585
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.6488,
+    "retrieval_time": 0.5843,
+    "generation_time": 1.3106,
+    "evaluation_time": 0.7203,
+    "cleanup_time": 1.4667,
+    "total_time": 15.7312
+  }
+}

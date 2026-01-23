@@ -1,0 +1,76 @@
+{
+  "sample_idx": 237,
+  "question_id": "gpt4_fa19884c",
+  "question": "How many days passed between the day I started playing along to my favorite songs on my old keyboard and the day I discovered a bluegrass band?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "6 days. 7 days (including the last day) is also acceptable.",
+  "question_date": "2023/04/05 (Wed) 09:11",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:12:40.684042",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 15473,
+  "gen_token_usage": {
+    "prompt_tokens": 3421,
+    "answer_tokens": 10,
+    "total_tokens": 3431,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.61,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.0,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.0,
+      "overall_average": 0.0
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.0,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.0,
+    "overall_average": 0.0
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.433,
+    "retrieval_time": 0.5462,
+    "generation_time": 1.1962,
+    "evaluation_time": 1.3029,
+    "cleanup_time": 1.5869,
+    "total_time": 17.0656
+  }
+}

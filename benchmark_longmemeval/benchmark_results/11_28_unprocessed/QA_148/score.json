@@ -1,0 +1,76 @@
+{
+  "sample_idx": 148,
+  "question_id": "57f827a0",
+  "question": "I was thinking about rearranging the furniture in my bedroom this weekend. Any tips?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that take into account their existing plans to replace the bedroom dresser and their interest in mid-century modern style, suggesting furniture layouts that accommodate the new dresser and incorporate elements of this design aesthetic. They might not prefer general furniture arrangement tips or suggestions that do not consider their specific design preferences.",
+  "question_date": "2023/05/30 (Tue) 23:39",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:45:57.887284",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 20841,
+  "gen_token_usage": {
+    "prompt_tokens": 4401,
+    "answer_tokens": 10,
+    "total_tokens": 4411,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.36,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 57,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.0655737704918033,
+      "rouge1_f": 0.0588235294117647,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0588235294117647,
+      "semantic_similarity": 0.023258626461029053,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.04580520732883317,
+      "avg_semantic": 0.023258626461029053,
+      "overall_average": 0.041295893490314484
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.0655737704918033,
+    "rouge1_f": 0.0588235294117647,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0588235294117647,
+    "semantic_similarity": 0.023258626461029053,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.04580520732883317,
+    "avg_semantic": 0.023258626461029053,
+    "overall_average": 0.041295893490314484
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.2756,
+    "retrieval_time": 0.6382,
+    "generation_time": 1.1844,
+    "evaluation_time": 0.8565,
+    "cleanup_time": 1.7103,
+    "total_time": 17.6653
+  }
+}

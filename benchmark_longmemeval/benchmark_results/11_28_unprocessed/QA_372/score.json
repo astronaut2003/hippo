@@ -1,0 +1,76 @@
+{
+  "sample_idx": 372,
+  "question_id": "71315a70",
+  "question": "How many hours have I spent on my abstract ocean sculpture?",
+  "question_type": "knowledge-update",
+  "gold_answer": "10-12 hours",
+  "question_date": "2023/06/18 (Sun) 19:47",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:41:16.928395",
+  "predicted_answer": "You have spent 10-12 hours on your abstract ocean sculpture.",
+  "prompt_length": 25890,
+  "gen_token_usage": {
+    "prompt_tokens": 5517,
+    "answer_tokens": 14,
+    "total_tokens": 5531,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.21,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.33333333333333337,
+      "rouge1_f": 0.42857142857142855,
+      "rouge2_f": 0.33333333333333337,
+      "rougeL_f": 0.42857142857142855,
+      "semantic_similarity": 0.4563560485839844,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2976190476190476,
+      "avg_semantic": 0.4563560485839844,
+      "overall_average": 0.32936644554138184
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.33333333333333337,
+    "rouge1_f": 0.42857142857142855,
+    "rouge2_f": 0.33333333333333337,
+    "rougeL_f": 0.42857142857142855,
+    "semantic_similarity": 0.4563560485839844,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2976190476190476,
+    "avg_semantic": 0.4563560485839844,
+    "overall_average": 0.32936644554138184
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.1191,
+    "retrieval_time": 0.596,
+    "generation_time": 1.7023,
+    "evaluation_time": 0.5946,
+    "cleanup_time": 1.4947,
+    "total_time": 16.507
+  }
+}

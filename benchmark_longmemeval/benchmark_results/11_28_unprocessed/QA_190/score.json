@@ -1,0 +1,76 @@
+{
+  "sample_idx": 190,
+  "question_id": "720133ac",
+  "question": "What is the total cost of Lola's vet visit and flea medication?",
+  "question_type": "multi-session",
+  "gold_answer": "$75",
+  "question_date": "2023/05/30 (Tue) 18:40",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:59:14.309961",
+  "predicted_answer": "The total cost of Lola's vet visit and flea medication is $75. The vet visit was $50, and the flea and tick prevention medication was $25 for a 3-month supply.",
+  "prompt_length": 15821,
+  "gen_token_usage": {
+    "prompt_tokens": 3638,
+    "answer_tokens": 39,
+    "total_tokens": 3677,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.78,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 30,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.08333333333333333,
+      "rouge1_f": 0.06060606060606061,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06060606060606061,
+      "semantic_similarity": 0.26288139820098877,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.05113636363636363,
+      "avg_semantic": 0.26288139820098877,
+      "overall_average": 0.09348537027835846
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.08333333333333333,
+    "rouge1_f": 0.06060606060606061,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06060606060606061,
+    "semantic_similarity": 0.26288139820098877,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.05113636363636363,
+    "avg_semantic": 0.26288139820098877,
+    "overall_average": 0.09348537027835846
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.1491,
+    "retrieval_time": 0.5638,
+    "generation_time": 1.5019,
+    "evaluation_time": 1.8303,
+    "cleanup_time": 1.6491,
+    "total_time": 18.6944
+  }
+}

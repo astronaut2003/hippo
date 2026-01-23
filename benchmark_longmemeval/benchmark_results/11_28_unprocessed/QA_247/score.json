@@ -1,0 +1,76 @@
+{
+  "sample_idx": 247,
+  "question_id": "gpt4_7f6b06db",
+  "question": "What is the order of the three trips I took in the past three months, from earliest to latest?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "I went on a day hike to Muir Woods National Monument with my family, then I went on a road trip with friends to Big Sur and Monterey, and finally I started my solo camping trip to Yosemite National Park.",
+  "question_date": "2023/06/01 (Thu) 03:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:06:20.701651",
+  "predicted_answer": "The order of the three trips you took in the past three months, from earliest to latest, is:\n\n1. Trip to Dubai and Abu Dhabi (April 27-28, 2023)\n2. Trip to Yosemite (exact date not specified, but mentioned as recent)\n3. Trip to the Eastern Sierra (planned for July, mentioned in the context of upcoming trips) \n\nI don't have enough information to provide specific dates for the Yosemite trip.",
+  "prompt_length": 16332,
+  "gen_token_usage": {
+    "prompt_tokens": 3771,
+    "answer_tokens": 91,
+    "total_tokens": 3862,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.88,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 40,
+      "response_length": 69,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14285714285714285,
+      "rouge1_f": 0.14414414414414414,
+      "rouge2_f": 0.03669724770642202,
+      "rougeL_f": 0.12612612612612611,
+      "semantic_similarity": 0.4246724843978882,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.10328185328185328,
+      "avg_semantic": 0.4246724843978882,
+      "overall_average": 0.16755998134613037
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14285714285714285,
+    "rouge1_f": 0.14414414414414414,
+    "rouge2_f": 0.03669724770642202,
+    "rougeL_f": 0.12612612612612611,
+    "semantic_similarity": 0.4246724843978882,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.10328185328185328,
+    "avg_semantic": 0.4246724843978882,
+    "overall_average": 0.16755998134613037
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 16.853,
+    "retrieval_time": 0.5772,
+    "generation_time": 1.9644,
+    "evaluation_time": 38.3736,
+    "cleanup_time": 1.6883,
+    "total_time": 59.457
+  }
+}

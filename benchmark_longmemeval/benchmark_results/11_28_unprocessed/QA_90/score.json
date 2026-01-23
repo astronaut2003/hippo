@@ -1,0 +1,76 @@
+{
+  "sample_idx": 90,
+  "question_id": "80ec1f4f",
+  "question": "How many different museums or galleries did I visit in the month of February?",
+  "question_type": "multi-session",
+  "gold_answer": 2,
+  "question_date": "2023/03/03 (Fri) 23:25",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:28:45.797085",
+  "predicted_answer": "You visited at least two different places in February: the Natural History Museum on February 8th and The Art Cube on February 15th.",
+  "prompt_length": 13086,
+  "gen_token_usage": {
+    "prompt_tokens": 2767,
+    "answer_tokens": 29,
+    "total_tokens": 2796,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.11,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 23,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.09629058837890625,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.09629058837890625,
+      "overall_average": 0.01925811730325222
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.09629058837890625,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.09629058837890625,
+    "overall_average": 0.01925811730325222
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.9775,
+    "retrieval_time": 0.6524,
+    "generation_time": 1.3709,
+    "evaluation_time": 0.6264,
+    "cleanup_time": 1.6068,
+    "total_time": 17.2348
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 392,
+  "question_id": "72e3ee87",
+  "question": "How many episodes of the Science series have I completed on Crash Course?",
+  "question_type": "knowledge-update",
+  "gold_answer": "50",
+  "question_date": "2023/06/27 (Tue) 19:26",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:46:46.178460",
+  "predicted_answer": "You have completed 50 episodes of the Science series on Crash Course.",
+  "prompt_length": 14375,
+  "gen_token_usage": {
+    "prompt_tokens": 3251,
+    "answer_tokens": 14,
+    "total_tokens": 3265,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.48,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 12,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.16666666666666669,
+      "rouge1_f": 0.15384615384615385,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.15384615384615385,
+      "semantic_similarity": 0.31923389434814453,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1185897435897436,
+      "avg_semantic": 0.31923389434814453,
+      "overall_average": 0.15871857106685638
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.16666666666666669,
+    "rouge1_f": 0.15384615384615385,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.15384615384615385,
+    "semantic_similarity": 0.31923389434814453,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1185897435897436,
+    "avg_semantic": 0.31923389434814453,
+    "overall_average": 0.15871857106685638
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.2082,
+    "retrieval_time": 0.5741,
+    "generation_time": 1.1602,
+    "evaluation_time": 0.6487,
+    "cleanup_time": 1.4302,
+    "total_time": 16.0218
+  }
+}

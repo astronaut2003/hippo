@@ -1,0 +1,76 @@
+{
+  "sample_idx": 124,
+  "question_id": "gpt4_2f91af09",
+  "question": "How many total pieces of writing have I completed since I started writing again three weeks ago, including short stories, poems, and pieces for the writing challenge?",
+  "question_type": "multi-session",
+  "gold_answer": "23",
+  "question_date": "2023/05/30 (Tue) 17:14",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:38:32.580957",
+  "predicted_answer": "You have completed a total of 22 pieces of writing since you started writing again three weeks ago. This includes 5 short stories and 17 poems. Additionally, you have been participating in a writing challenge, but the exact number of pieces for that is not specified.",
+  "prompt_length": 34602,
+  "gen_token_usage": {
+    "prompt_tokens": 7367,
+    "answer_tokens": 54,
+    "total_tokens": 7421,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 5.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 46,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.3084823489189148,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.3084823489189148,
+      "overall_average": 0.06169646978378296
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.3084823489189148,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.3084823489189148,
+    "overall_average": 0.06169646978378296
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.9467,
+    "retrieval_time": 0.6511,
+    "generation_time": 4.8211,
+    "evaluation_time": 0.7203,
+    "cleanup_time": 1.6851,
+    "total_time": 21.8247
+  }
+}

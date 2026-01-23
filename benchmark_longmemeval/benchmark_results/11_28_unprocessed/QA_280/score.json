@@ -1,0 +1,76 @@
+{
+  "sample_idx": 280,
+  "question_id": "gpt4_85da3956",
+  "question": "How many weeks ago did I attend the 'Summer Nights' festival at Universal Studios Hollywood?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "3 weeks ago",
+  "question_date": "2023/08/05 (Sat) 08:21",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:16:18.524231",
+  "predicted_answer": "You attended the 'Summer Nights' festival at Universal Studios Hollywood three weeks ago.",
+  "prompt_length": 19292,
+  "gen_token_usage": {
+    "prompt_tokens": 4194,
+    "answer_tokens": 16,
+    "total_tokens": 4210,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.2,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.26666666666666666,
+      "rouge1_f": 0.25,
+      "rouge2_f": 0.14285714285714285,
+      "rougeL_f": 0.25,
+      "semantic_similarity": 0.27850985527038574,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.19166666666666665,
+      "avg_semantic": 0.27850985527038574,
+      "overall_average": 0.20903530716896057
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.26666666666666666,
+    "rouge1_f": 0.25,
+    "rouge2_f": 0.14285714285714285,
+    "rougeL_f": 0.25,
+    "semantic_similarity": 0.27850985527038574,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.19166666666666665,
+    "avg_semantic": 0.27850985527038574,
+    "overall_average": 0.20903530716896057
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.5232,
+    "retrieval_time": 0.6551,
+    "generation_time": 1.2791,
+    "evaluation_time": 0.7612,
+    "cleanup_time": 1.4351,
+    "total_time": 16.6543
+  }
+}

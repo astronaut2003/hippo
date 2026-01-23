@@ -1,0 +1,76 @@
+{
+  "sample_idx": 472,
+  "question_id": "6222b6eb",
+  "question": "I was going through our previous conversation about atmospheric correction methods, and I wanted to confirm - you mentioned that 6S, MAJA, and Sen2Cor are all algorithms for atmospheric correction of remote sensing images. Can you remind me which one is implemented in the SIAC_GEE tool?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "The 6S algorithm is implemented in the SIAC_GEE tool.",
+  "question_date": "2023/05/30 (Tue) 23:32",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:09:46.293578",
+  "predicted_answer": "The 6S algorithm is implemented in the SIAC_GEE tool for atmospheric correction of remote sensing images.",
+  "prompt_length": 13103,
+  "gen_token_usage": {
+    "prompt_tokens": 2828,
+    "answer_tokens": 22,
+    "total_tokens": 2850,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.16,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 9,
+      "response_length": 16,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.6666666666666666,
+      "rouge1_f": 0.7407407407407407,
+      "rouge2_f": 0.72,
+      "rougeL_f": 0.7407407407407407,
+      "semantic_similarity": 0.7298489212989807,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.537037037037037,
+      "avg_semantic": 0.7298489212989807,
+      "overall_average": 0.5755993723869324
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.6666666666666666,
+    "rouge1_f": 0.7407407407407407,
+    "rouge2_f": 0.72,
+    "rougeL_f": 0.7407407407407407,
+    "semantic_similarity": 0.7298489212989807,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.537037037037037,
+    "avg_semantic": 0.7298489212989807,
+    "overall_average": 0.5755993723869324
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 14.2735,
+    "retrieval_time": 0.6185,
+    "generation_time": 1.1791,
+    "evaluation_time": 0.653,
+    "cleanup_time": 1.747,
+    "total_time": 18.4717
+  }
+}

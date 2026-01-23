@@ -1,0 +1,76 @@
+{
+  "sample_idx": 51,
+  "question_id": "86f00804",
+  "question": "What book am I currently reading?",
+  "question_type": "single-session-user",
+  "gold_answer": "The Seven Husbands of Evelyn Hugo",
+  "question_date": "2023/05/30 (Tue) 18:40",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:17:17.200851",
+  "predicted_answer": "You are currently reading \"The Seven Husbands of Evelyn Hugo.\"",
+  "prompt_length": 22872,
+  "gen_token_usage": {
+    "prompt_tokens": 5015,
+    "answer_tokens": 13,
+    "total_tokens": 5028,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.83,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 6,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.7142857142857143,
+      "rouge1_f": 0.7499999999999999,
+      "rouge2_f": 0.7142857142857143,
+      "rougeL_f": 0.7499999999999999,
+      "semantic_similarity": 0.8620030283927917,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.5535714285714285,
+      "avg_semantic": 0.8620030283927917,
+      "overall_average": 0.615257740020752
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.7142857142857143,
+    "rouge1_f": 0.7499999999999999,
+    "rouge2_f": 0.7142857142857143,
+    "rougeL_f": 0.7499999999999999,
+    "semantic_similarity": 0.8620030283927917,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.5535714285714285,
+    "avg_semantic": 0.8620030283927917,
+    "overall_average": 0.615257740020752
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.4892,
+    "retrieval_time": 0.7681,
+    "generation_time": 1.1783,
+    "evaluation_time": 0.7085,
+    "cleanup_time": 1.7,
+    "total_time": 17.8446
+  }
+}

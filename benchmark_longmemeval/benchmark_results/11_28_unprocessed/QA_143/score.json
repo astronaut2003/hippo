@@ -1,0 +1,76 @@
+{
+  "sample_idx": 143,
+  "question_id": "6b7dfb22",
+  "question": "I've been feeling a bit stuck with my paintings lately. Do you have any ideas on how I can find new inspiration?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that build upon their existing sources of inspiration, such as revisiting Instagram art accounts or exploring new techniques from online tutorials. They might also appreciate suggestions that revisit previous themes they found enjoyable, like painting flowers. The user would not prefer generic or vague suggestions for finding inspiration, and would likely appreciate responses that utilize their recent 30-day painting challenge experience.",
+  "question_date": "2023/05/30 (Tue) 13:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:44:23.846901",
+  "predicted_answer": "You can find new inspiration for your paintings by exploring different sources, such as looking at flower paintings on social media, participating in challenges like a 30-day painting challenge, or studying real flowers to capture their details and colors. Additionally, consider experimenting with new techniques, such as using palette knives to create interesting textures, or setting up a dedicated studio space that inspires creativity. Engaging with other artists and their work can also spark new ideas.",
+  "prompt_length": 27226,
+  "gen_token_usage": {
+    "prompt_tokens": 5851,
+    "answer_tokens": 88,
+    "total_tokens": 5939,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.46,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 66,
+      "response_length": 76,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3407407407407407,
+      "rouge1_f": 0.34722222222222227,
+      "rouge2_f": 0.07042253521126761,
+      "rougeL_f": 0.13888888888888887,
+      "semantic_similarity": 0.6622416377067566,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.20671296296296293,
+      "avg_semantic": 0.6622416377067566,
+      "overall_average": 0.29781872034072876
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3407407407407407,
+    "rouge1_f": 0.34722222222222227,
+    "rouge2_f": 0.07042253521126761,
+    "rougeL_f": 0.13888888888888887,
+    "semantic_similarity": 0.6622416377067566,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.20671296296296293,
+    "avg_semantic": 0.6622416377067566,
+    "overall_average": 0.29781872034072876
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.8461,
+    "retrieval_time": 0.5448,
+    "generation_time": 3.235,
+    "evaluation_time": 0.737,
+    "cleanup_time": 1.6023,
+    "total_time": 18.966
+  }
+}

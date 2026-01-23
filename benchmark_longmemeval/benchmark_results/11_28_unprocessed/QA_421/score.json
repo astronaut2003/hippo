@@ -1,0 +1,76 @@
+{
+  "sample_idx": 421,
+  "question_id": "7401057b",
+  "question": "How many free night's stays can I redeem at any Hilton property with my accumulated points?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Two",
+  "question_date": "2023/06/16 (Fri) 09:50",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:54:37.277717",
+  "predicted_answer": "You have accumulated enough points for a single free night's stay at any Hilton property. Since the Hilton Lake Las Vegas Resort is a Category 5 hotel, it typically requires around 40,000 points for a standard room reward night. If you have more points, you could potentially redeem for additional nights, depending on the category of the hotel and the points required.",
+  "prompt_length": 26889,
+  "gen_token_usage": {
+    "prompt_tokens": 5974,
+    "answer_tokens": 72,
+    "total_tokens": 6046,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.56,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 62,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.10124647617340088,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.10124647617340088,
+      "overall_average": 0.020249295979738235
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.10124647617340088,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.10124647617340088,
+    "overall_average": 0.020249295979738235
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 10.8805,
+    "retrieval_time": 0.5453,
+    "generation_time": 2.0825,
+    "evaluation_time": 1.3419,
+    "cleanup_time": 1.3234,
+    "total_time": 16.1746
+  }
+}

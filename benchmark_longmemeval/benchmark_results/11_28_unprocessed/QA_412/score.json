@@ -1,0 +1,76 @@
+{
+  "sample_idx": 412,
+  "question_id": "eace081b",
+  "question": "Where am I planning to stay for my birthday trip to Hawaii?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Oahu",
+  "question_date": "2023/06/06 (Tue) 04:18",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:52:07.154104",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 25067,
+  "gen_token_usage": {
+    "prompt_tokens": 5698,
+    "answer_tokens": 10,
+    "total_tokens": 5708,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.35,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.17289632558822632,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.17289632558822632,
+      "overall_average": 0.03457926586270332
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.17289632558822632,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.17289632558822632,
+    "overall_average": 0.03457926586270332
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.6918,
+    "retrieval_time": 0.508,
+    "generation_time": 1.2313,
+    "evaluation_time": 0.7524,
+    "cleanup_time": 1.5015,
+    "total_time": 16.6855
+  }
+}

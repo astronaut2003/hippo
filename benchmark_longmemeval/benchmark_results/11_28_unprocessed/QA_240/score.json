@@ -1,0 +1,76 @@
+{
+  "sample_idx": 240,
+  "question_id": "gpt4_4929293a",
+  "question": "Which event happened first, my cousin's wedding or Michael's engagement party?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Michael's engagement party",
+  "question_date": "2023/10/01 (Sun) 07:41",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:13:29.815928",
+  "predicted_answer": "Michael's engagement party happened first, as you mentioned attending it today and later reflected on being a bridesmaid at your cousin's wedding.",
+  "prompt_length": 22119,
+  "gen_token_usage": {
+    "prompt_tokens": 4591,
+    "answer_tokens": 27,
+    "total_tokens": 4618,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.5,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 22,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2608695652173913,
+      "rouge1_f": 0.2857142857142857,
+      "rouge2_f": 0.23076923076923078,
+      "rougeL_f": 0.2857142857142857,
+      "semantic_similarity": 0.7286075949668884,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.20807453416149066,
+      "avg_semantic": 0.7286075949668884,
+      "overall_average": 0.31218114495277405
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2608695652173913,
+    "rouge1_f": 0.2857142857142857,
+    "rouge2_f": 0.23076923076923078,
+    "rougeL_f": 0.2857142857142857,
+    "semantic_similarity": 0.7286075949668884,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.20807453416149066,
+    "avg_semantic": 0.7286075949668884,
+    "overall_average": 0.31218114495277405
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.8436,
+    "retrieval_time": 0.5156,
+    "generation_time": 1.545,
+    "evaluation_time": 0.8218,
+    "cleanup_time": 1.5274,
+    "total_time": 16.2539
+  }
+}

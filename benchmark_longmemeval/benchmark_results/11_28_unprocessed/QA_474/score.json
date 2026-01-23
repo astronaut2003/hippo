@@ -1,0 +1,76 @@
+{
+  "sample_idx": 474,
+  "question_id": "d596882b",
+  "question": "I'm planning another trip to New York City and I was wondering if you could remind me of that vegan eatery you recommended last time, the one with multiple locations throughout the city?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "By Chloe",
+  "question_date": "2023/05/30 (Tue) 19:29",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:10:23.018529",
+  "predicted_answer": "The vegan eatery I recommended last time is By Chloe, which has multiple locations throughout New York City.",
+  "prompt_length": 14996,
+  "gen_token_usage": {
+    "prompt_tokens": 3323,
+    "answer_tokens": 21,
+    "total_tokens": 3344,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.54,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 18,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.21052631578947367,
+      "rouge1_f": 0.19999999999999998,
+      "rouge2_f": 0.1111111111111111,
+      "rougeL_f": 0.19999999999999998,
+      "semantic_similarity": 0.25470805168151855,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1526315789473684,
+      "avg_semantic": 0.25470805168151855,
+      "overall_average": 0.17304687201976776
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.21052631578947367,
+    "rouge1_f": 0.19999999999999998,
+    "rouge2_f": 0.1111111111111111,
+    "rougeL_f": 0.19999999999999998,
+    "semantic_similarity": 0.25470805168151855,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1526315789473684,
+    "avg_semantic": 0.25470805168151855,
+    "overall_average": 0.17304687201976776
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.6308,
+    "retrieval_time": 0.551,
+    "generation_time": 1.5476,
+    "evaluation_time": 0.7659,
+    "cleanup_time": 2.1979,
+    "total_time": 18.6937
+  }
+}

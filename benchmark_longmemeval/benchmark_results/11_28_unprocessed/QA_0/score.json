@@ -1,0 +1,76 @@
+{
+  "sample_idx": 0,
+  "question_id": "e47becba",
+  "question": "What degree did I graduate with?",
+  "question_type": "single-session-user",
+  "gold_answer": "Business Administration",
+  "question_date": "2023/05/30 (Tue) 23:40",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T14:54:49.792758",
+  "predicted_answer": "You graduated with a degree in Business Administration.",
+  "prompt_length": 9167,
+  "gen_token_usage": {
+    "prompt_tokens": 1985,
+    "answer_tokens": 9,
+    "total_tokens": 1994,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.51,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 8,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.4444444444444445,
+      "rouge1_f": 0.4,
+      "rouge2_f": 0.25,
+      "rougeL_f": 0.4,
+      "semantic_similarity": 0.6785406470298767,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.3111111111111111,
+      "avg_semantic": 0.6785406470298767,
+      "overall_average": 0.3845970034599304
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.4444444444444445,
+    "rouge1_f": 0.4,
+    "rouge2_f": 0.25,
+    "rougeL_f": 0.4,
+    "semantic_similarity": 0.6785406470298767,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.3111111111111111,
+    "avg_semantic": 0.6785406470298767,
+    "overall_average": 0.3845970034599304
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 22.6491,
+    "retrieval_time": 0.5832,
+    "generation_time": 1.3056,
+    "evaluation_time": 36.3214,
+    "cleanup_time": 2.1592,
+    "total_time": 63.0194
+  }
+}

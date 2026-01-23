@@ -1,0 +1,76 @@
+{
+  "sample_idx": 198,
+  "question_id": "6c49646a",
+  "question": "What is the total distance I covered in my four road trips?",
+  "question_type": "multi-session",
+  "gold_answer": "3,000 miles",
+  "question_date": "2023/05/30 (Tue) 22:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:01:35.851580",
+  "predicted_answer": "You covered a total of 1,800 miles on your recent three road trips, but I don't have enough information to determine the total distance for your four road trips.",
+  "prompt_length": 22311,
+  "gen_token_usage": {
+    "prompt_tokens": 4895,
+    "answer_tokens": 34,
+    "total_tokens": 4929,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.73,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 29,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.06896551724137931,
+      "rouge1_f": 0.0588235294117647,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0588235294117647,
+      "semantic_similarity": 0.562924861907959,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.04665314401622717,
+      "avg_semantic": 0.562924861907959,
+      "overall_average": 0.14990749955177307
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.06896551724137931,
+    "rouge1_f": 0.0588235294117647,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0588235294117647,
+    "semantic_similarity": 0.562924861907959,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.04665314401622717,
+    "avg_semantic": 0.562924861907959,
+    "overall_average": 0.14990749955177307
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.6875,
+    "retrieval_time": 0.5158,
+    "generation_time": 1.417,
+    "evaluation_time": 0.682,
+    "cleanup_time": 1.6325,
+    "total_time": 15.9352
+  }
+}

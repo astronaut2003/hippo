@@ -1,0 +1,76 @@
+{
+  "sample_idx": 366,
+  "question_id": "6a1eabeb",
+  "question": "What was my personal best time in the charity 5K run?",
+  "question_type": "knowledge-update",
+  "gold_answer": "25 minutes and 50 seconds (or 25:50)",
+  "question_date": "2023/06/25 (Sun) 13:22",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:39:39.835497",
+  "predicted_answer": "Your personal best time in the charity 5K run was 25:50.",
+  "prompt_length": 26624,
+  "gen_token_usage": {
+    "prompt_tokens": 5920,
+    "answer_tokens": 17,
+    "total_tokens": 5937,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.52,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 7,
+      "response_length": 11,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.125,
+      "rouge1_f": 0.2,
+      "rouge2_f": 0.1111111111111111,
+      "rougeL_f": 0.2,
+      "semantic_similarity": 0.485212504863739,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.13125,
+      "avg_semantic": 0.485212504863739,
+      "overall_average": 0.20204249024391174
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.125,
+    "rouge1_f": 0.2,
+    "rouge2_f": 0.1111111111111111,
+    "rougeL_f": 0.2,
+    "semantic_similarity": 0.485212504863739,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.13125,
+    "avg_semantic": 0.485212504863739,
+    "overall_average": 0.20204249024391174
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 9.8383,
+    "retrieval_time": 0.6059,
+    "generation_time": 1.2151,
+    "evaluation_time": 3.8393,
+    "cleanup_time": 1.4361,
+    "total_time": 16.9353
+  }
+}

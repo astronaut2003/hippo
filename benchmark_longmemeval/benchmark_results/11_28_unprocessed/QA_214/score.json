@@ -1,0 +1,76 @@
+{
+  "sample_idx": 214,
+  "question_id": "a3332713",
+  "question": "What is the total amount I spent on gifts for my coworker and brother?",
+  "question_type": "multi-session",
+  "gold_answer": "$200",
+  "question_date": "2023/05/30 (Tue) 21:10",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:06:02.113838",
+  "predicted_answer": "You spent a total of $100 on your brother's graduation gift and $100 on your coworker's baby shower gift. Therefore, the total amount spent on gifts for your coworker and brother is $200.",
+  "prompt_length": 13982,
+  "gen_token_usage": {
+    "prompt_tokens": 3206,
+    "answer_tokens": 42,
+    "total_tokens": 3248,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.45,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 33,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.06666666666666667,
+      "rouge1_f": 0.05555555555555556,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.05555555555555556,
+      "semantic_similarity": 0.3589996099472046,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.044444444444444446,
+      "avg_semantic": 0.3589996099472046,
+      "overall_average": 0.10735547542572021
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.06666666666666667,
+    "rouge1_f": 0.05555555555555556,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.05555555555555556,
+    "semantic_similarity": 0.3589996099472046,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.044444444444444446,
+    "avg_semantic": 0.3589996099472046,
+    "overall_average": 0.10735547542572021
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.5447,
+    "retrieval_time": 0.5885,
+    "generation_time": 1.8978,
+    "evaluation_time": 0.6333,
+    "cleanup_time": 1.3864,
+    "total_time": 16.0514
+  }
+}

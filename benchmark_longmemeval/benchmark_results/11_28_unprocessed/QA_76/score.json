@@ -1,0 +1,76 @@
+{
+  "sample_idx": 76,
+  "question_id": "gpt4_d84a3211",
+  "question": "How much total money have I spent on bike-related expenses since the start of the year?",
+  "question_type": "multi-session",
+  "gold_answer": "$185",
+  "question_date": "2023/05/05 (Fri) 23:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:24:52.943199",
+  "predicted_answer": "Based on the information provided in the memories, you have spent a total of $65 on bike-related expenses since the start of the year. This includes $25 for a new chain and $40 for a new set of bike lights.",
+  "prompt_length": 19934,
+  "gen_token_usage": {
+    "prompt_tokens": 4452,
+    "answer_tokens": 47,
+    "total_tokens": 4499,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.4,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 40,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.2654038667678833,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.2654038667678833,
+      "overall_average": 0.05308077484369278
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.2654038667678833,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.2654038667678833,
+    "overall_average": 0.05308077484369278
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.5493,
+    "retrieval_time": 0.5778,
+    "generation_time": 1.5951,
+    "evaluation_time": 0.6751,
+    "cleanup_time": 1.3651,
+    "total_time": 15.763
+  }
+}

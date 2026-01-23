@@ -1,0 +1,76 @@
+{
+  "sample_idx": 215,
+  "question_id": "55241a1f",
+  "question": "What is the total number of comments on my recent Facebook Live session and my most popular YouTube video?",
+  "question_type": "multi-session",
+  "gold_answer": "33",
+  "question_date": "2023/05/30 (Tue) 21:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:06:18.166241",
+  "predicted_answer": "Your recent Facebook Live session received 12 comments. However, I don't have enough information to provide the total number of comments on your most popular YouTube video.",
+  "prompt_length": 27409,
+  "gen_token_usage": {
+    "prompt_tokens": 5637,
+    "answer_tokens": 32,
+    "total_tokens": 5669,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.3,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 27,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.16534322500228882,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.16534322500228882,
+      "overall_average": 0.03306864574551582
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.16534322500228882,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.16534322500228882,
+    "overall_average": 0.03306864574551582
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.4156,
+    "retrieval_time": 0.53,
+    "generation_time": 1.3755,
+    "evaluation_time": 0.6719,
+    "cleanup_time": 1.59,
+    "total_time": 17.5836
+  }
+}

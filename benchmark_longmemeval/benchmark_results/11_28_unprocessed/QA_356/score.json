@@ -1,0 +1,76 @@
+{
+  "sample_idx": 356,
+  "question_id": "gpt4_5438fa52",
+  "question": "Which event happened first, my attendance at a cultural festival or the start of my Spanish classes?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Spanish classes",
+  "question_date": "2023/05/27 (Sat) 16:21",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:36:55.763326",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 15633,
+  "gen_token_usage": {
+    "prompt_tokens": 3350,
+    "answer_tokens": 10,
+    "total_tokens": 3360,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.56,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.09039205312728882,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.09039205312728882,
+      "overall_average": 0.018078410997986794
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.09039205312728882,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.09039205312728882,
+    "overall_average": 0.018078410997986794
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.7332,
+    "retrieval_time": 0.5936,
+    "generation_time": 1.0452,
+    "evaluation_time": 0.643,
+    "cleanup_time": 1.3219,
+    "total_time": 15.3372
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 449,
+  "question_id": "6ae235be",
+  "question": "I remember you told me about the refining processes at CITGO's three refineries earlier. Can you remind me what kind of processes are used at the Lake Charles Refinery?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Atmospheric distillation, fluid catalytic cracking (FCC), alkylation, and hydrotreating.",
+  "question_date": "2023/05/30 (Tue) 23:41",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:02:36.541963",
+  "predicted_answer": "The refining processes used at the Lake Charles Refinery include:\n\n1. Atmospheric distillation\n2. Fluid catalytic cracking (FCC)\n3. Alkylation\n4. Hydrotreating\n\nThese processes help separate crude oil into different fractions and convert heavier fractions into lighter, more valuable products.",
+  "prompt_length": 19390,
+  "gen_token_usage": {
+    "prompt_tokens": 3787,
+    "answer_tokens": 59,
+    "total_tokens": 3846,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.89,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 9,
+      "response_length": 40,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.35555555555555557,
+      "rouge1_f": 0.36734693877551017,
+      "rouge2_f": 0.1702127659574468,
+      "rougeL_f": 0.326530612244898,
+      "semantic_similarity": 0.6160773634910583,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2623582766439909,
+      "avg_semantic": 0.6160773634910583,
+      "overall_average": 0.3331020772457123
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.35555555555555557,
+    "rouge1_f": 0.36734693877551017,
+    "rouge2_f": 0.1702127659574468,
+    "rougeL_f": 0.326530612244898,
+    "semantic_similarity": 0.6160773634910583,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2623582766439909,
+    "avg_semantic": 0.6160773634910583,
+    "overall_average": 0.3331020772457123
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.8346,
+    "retrieval_time": 0.5949,
+    "generation_time": 1.7534,
+    "evaluation_time": 3.448,
+    "cleanup_time": 1.7161,
+    "total_time": 20.348
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 46,
+  "question_id": "19b5f2b3",
+  "question": "How long was I in Japan for?",
+  "question_type": "single-session-user",
+  "gold_answer": "two weeks",
+  "question_date": "2023/05/30 (Tue) 20:50",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:15:18.016167",
+  "predicted_answer": "You were in Japan for two weeks.",
+  "prompt_length": 21109,
+  "gen_token_usage": {
+    "prompt_tokens": 4931,
+    "answer_tokens": 8,
+    "total_tokens": 4939,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.76,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 7,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.4444444444444445,
+      "rouge1_f": 0.4444444444444445,
+      "rouge2_f": 0.2857142857142857,
+      "rougeL_f": 0.4444444444444445,
+      "semantic_similarity": 0.42109858989715576,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.33333333333333337,
+      "avg_semantic": 0.42109858989715576,
+      "overall_average": 0.35088640451431274
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.4444444444444445,
+    "rouge1_f": 0.4444444444444445,
+    "rouge2_f": 0.2857142857142857,
+    "rougeL_f": 0.4444444444444445,
+    "semantic_similarity": 0.42109858989715576,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.33333333333333337,
+    "avg_semantic": 0.42109858989715576,
+    "overall_average": 0.35088640451431274
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 19.0683,
+    "retrieval_time": 0.6099,
+    "generation_time": 1.344,
+    "evaluation_time": 0.7041,
+    "cleanup_time": 2.2811,
+    "total_time": 24.0087
+  }
+}

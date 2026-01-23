@@ -1,0 +1,76 @@
+{
+  "sample_idx": 125,
+  "question_id": "81507db6",
+  "question": "How many graduation ceremonies have I attended in the past three months?",
+  "question_type": "multi-session",
+  "gold_answer": 3,
+  "question_date": "2023/07/21 (Fri) 23:33",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:38:54.406910",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 16899,
+  "gen_token_usage": {
+    "prompt_tokens": 3681,
+    "answer_tokens": 10,
+    "total_tokens": 3691,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.81,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.12314581871032715,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.12314581871032715,
+      "overall_average": 0.02462916448712349
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.12314581871032715,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.12314581871032715,
+    "overall_average": 0.02462916448712349
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.633,
+    "retrieval_time": 0.5951,
+    "generation_time": 5.1507,
+    "evaluation_time": 0.6791,
+    "cleanup_time": 1.6906,
+    "total_time": 21.7491
+  }
+}

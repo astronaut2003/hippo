@@ -1,0 +1,76 @@
+{
+  "sample_idx": 433,
+  "question_id": "c6853660",
+  "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+  "question_type": "knowledge-update",
+  "gold_answer": "You increased the limit (from one cup to two cups)",
+  "question_date": "2023/06/11 (Sun) 21:37",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:57:46.559668",
+  "predicted_answer": "You mostly recently increased the limit on the number of cups of coffee in the morning to two cups.",
+  "prompt_length": 22475,
+  "gen_token_usage": {
+    "prompt_tokens": 4996,
+    "answer_tokens": 20,
+    "total_tokens": 5016,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.81,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 10,
+      "response_length": 19,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.56,
+      "rouge1_f": 0.5517241379310345,
+      "rouge2_f": 0.2962962962962963,
+      "rougeL_f": 0.5517241379310345,
+      "semantic_similarity": 0.6931132078170776,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.41586206896551725,
+      "avg_semantic": 0.6931132078170776,
+      "overall_average": 0.47131234407424927
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.56,
+    "rouge1_f": 0.5517241379310345,
+    "rouge2_f": 0.2962962962962963,
+    "rougeL_f": 0.5517241379310345,
+    "semantic_similarity": 0.6931132078170776,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.41586206896551725,
+    "avg_semantic": 0.6931132078170776,
+    "overall_average": 0.47131234407424927
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.0494,
+    "retrieval_time": 0.5666,
+    "generation_time": 1.5603,
+    "evaluation_time": 1.0129,
+    "cleanup_time": 1.2827,
+    "total_time": 15.4723
+  }
+}

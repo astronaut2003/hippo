@@ -1,0 +1,76 @@
+{
+  "sample_idx": 410,
+  "question_id": "59524333",
+  "question": "What time do I usually go to the gym?",
+  "question_type": "knowledge-update",
+  "gold_answer": "6:00 pm",
+  "question_date": "2023/06/06 (Tue) 16:35",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:51:34.860443",
+  "predicted_answer": "You usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.",
+  "prompt_length": 23161,
+  "gen_token_usage": {
+    "prompt_tokens": 5271,
+    "answer_tokens": 20,
+    "total_tokens": 5291,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.02,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2857142857142857,
+      "rouge1_f": 0.33333333333333337,
+      "rouge2_f": 0.25,
+      "rougeL_f": 0.33333333333333337,
+      "semantic_similarity": 0.4211554527282715,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2380952380952381,
+      "avg_semantic": 0.4211554527282715,
+      "overall_average": 0.27470725774765015
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2857142857142857,
+    "rouge1_f": 0.33333333333333337,
+    "rouge2_f": 0.25,
+    "rougeL_f": 0.33333333333333337,
+    "semantic_similarity": 0.4211554527282715,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2380952380952381,
+    "avg_semantic": 0.4211554527282715,
+    "overall_average": 0.27470725774765015
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.5508,
+    "retrieval_time": 0.493,
+    "generation_time": 1.403,
+    "evaluation_time": 0.9382,
+    "cleanup_time": 1.4944,
+    "total_time": 17.88
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 484,
+  "question_id": "5809eb10",
+  "question": "I'm looking back at our previous conversation about the Bajimaya v Reward Homes Pty Ltd case. Can you remind me what year the construction of the house began?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "2014.",
+  "question_date": "2023/05/30 (Tue) 23:23",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:13:31.086117",
+  "predicted_answer": "The construction of the house began in 2014.",
+  "prompt_length": 18889,
+  "gen_token_usage": {
+    "prompt_tokens": 3783,
+    "answer_tokens": 11,
+    "total_tokens": 3794,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.89,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 8,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2857142857142857,
+      "rouge1_f": 0.2222222222222222,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.2222222222222222,
+      "semantic_similarity": 0.39880359172821045,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.18253968253968253,
+      "avg_semantic": 0.39880359172821045,
+      "overall_average": 0.22579245269298553
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2857142857142857,
+    "rouge1_f": 0.2222222222222222,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.2222222222222222,
+    "semantic_similarity": 0.39880359172821045,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.18253968253968253,
+    "avg_semantic": 0.39880359172821045,
+    "overall_average": 0.22579245269298553
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 16.6986,
+    "retrieval_time": 0.6181,
+    "generation_time": 1.4674,
+    "evaluation_time": 0.8543,
+    "cleanup_time": 1.6366,
+    "total_time": 21.2753
+  }
+}

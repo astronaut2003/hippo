@@ -1,0 +1,76 @@
+{
+  "sample_idx": 264,
+  "question_id": "gpt4_d6585ce8",
+  "question": "What is the order of the concerts and musical events I attended in the past two months, starting from the earliest?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "The order of the concerts I attended is: 1. Billie Eilish concert at the Wells Fargo Center in Philly, 2. Free outdoor concert series in the park, 3. Music festival in Brooklyn, 4. Jazz night at a local bar, 5. Queen + Adam Lambert concert at the Prudential Center in Newark, NJ.",
+  "question_date": "2023/04/22 (Sat) 19:31",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:12:05.209861",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 28209,
+  "gen_token_usage": {
+    "prompt_tokens": 6319,
+    "answer_tokens": 10,
+    "total_tokens": 6329,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.82,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 52,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.037037037037037035,
+      "rouge1_f": 0.032786885245901634,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.032786885245901634,
+      "semantic_similarity": 0.03368335962295532,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.025652701882210076,
+      "avg_semantic": 0.03368335962295532,
+      "overall_average": 0.02725883200764656
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.037037037037037035,
+    "rouge1_f": 0.032786885245901634,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.032786885245901634,
+    "semantic_similarity": 0.03368335962295532,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.025652701882210076,
+    "avg_semantic": 0.03368335962295532,
+    "overall_average": 0.02725883200764656
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.2394,
+    "retrieval_time": 0.6142,
+    "generation_time": 1.2334,
+    "evaluation_time": 0.655,
+    "cleanup_time": 1.5262,
+    "total_time": 15.2686
+  }
+}

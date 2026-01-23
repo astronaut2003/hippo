@@ -1,0 +1,76 @@
+{
+  "sample_idx": 430,
+  "question_id": "ba61f0b9",
+  "question": "How many women are on the team led by my former manager Rachel?",
+  "question_type": "knowledge-update",
+  "gold_answer": "6",
+  "question_date": "2023/08/03 (Thu) 06:02",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:57:00.325660",
+  "predicted_answer": "There are 5 women on the team led by your former manager Rachel, which consists of a total of 10 people.",
+  "prompt_length": 36748,
+  "gen_token_usage": {
+    "prompt_tokens": 7508,
+    "answer_tokens": 25,
+    "total_tokens": 7533,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 5.73,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 21,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.23261815309524536,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.23261815309524536,
+      "overall_average": 0.04652363061904907
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.23261815309524536,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.23261815309524536,
+    "overall_average": 0.04652363061904907
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 10.7821,
+    "retrieval_time": 0.5033,
+    "generation_time": 1.4528,
+    "evaluation_time": 1.1602,
+    "cleanup_time": 1.2787,
+    "total_time": 15.1782
+  }
+}

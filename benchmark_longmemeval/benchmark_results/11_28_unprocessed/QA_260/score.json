@@ -1,0 +1,76 @@
+{
+  "sample_idx": 260,
+  "question_id": "gpt4_45189cb4",
+  "question": "What is the order of the sports events I watched in January?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "First, I attended a NBA game at the Staples Center, then I watched the College Football National Championship game, and finally, I watched the NFL playoffs.",
+  "question_date": "2023/01/30 (Mon) 01:53",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:10:59.256216",
+  "predicted_answer": "In January, you watched the College Football National Championship game where Georgia defeated Alabama on January 10, 2023. You also attended an NBA game at the Staples Center in LA on January 11, 2023, where the Lakers played against the Chicago Bulls. Therefore, the order of the sports events you watched in January is:\n\n1. College Football National Championship (January 10, 2023)\n2. NBA game (January 11, 2023)",
+  "prompt_length": 21656,
+  "gen_token_usage": {
+    "prompt_tokens": 4677,
+    "answer_tokens": 96,
+    "total_tokens": 4773,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.57,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 26,
+      "response_length": 68,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3170731707317073,
+      "rouge1_f": 0.3404255319148936,
+      "rouge2_f": 0.2391304347826087,
+      "rougeL_f": 0.2765957446808511,
+      "semantic_similarity": 0.5588982701301575,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.233523611831863,
+      "avg_semantic": 0.5588982701301575,
+      "overall_average": 0.2985985279083252
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3170731707317073,
+    "rouge1_f": 0.3404255319148936,
+    "rouge2_f": 0.2391304347826087,
+    "rougeL_f": 0.2765957446808511,
+    "semantic_similarity": 0.5588982701301575,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.233523611831863,
+    "avg_semantic": 0.5588982701301575,
+    "overall_average": 0.2985985279083252
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.723,
+    "retrieval_time": 0.591,
+    "generation_time": 1.9885,
+    "evaluation_time": 0.7206,
+    "cleanup_time": 1.3604,
+    "total_time": 16.3839
+  }
+}

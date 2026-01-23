@@ -1,0 +1,76 @@
+{
+  "sample_idx": 123,
+  "question_id": "gpt4_372c3eed",
+  "question": "How many years in total did I spend in formal education from high school to the completion of my Bachelor's degree?",
+  "question_type": "multi-session",
+  "gold_answer": "10 years",
+  "question_date": "2021/08/20 (Fri) 23:34",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:38:13.768490",
+  "predicted_answer": "You spent a total of 14 years in formal education from high school to the completion of your Bachelor's degree. You attended high school from 2010 to 2014 (4 years) and then completed your Bachelor's degree at UCLA in 2020, which took you 4 years (2016 to 2020). Adding these together gives you 4 (high school) + 4 (Bachelor's) = 8 years. However, you also mentioned earning an Associate's degree in Computer Science from Pasadena City College in May 2016, which adds an additional 2 years (2014 to 2016). Therefore, the total is 4 (high school) + 2 (Associate's) + 4 (Bachelor's) = 10 years. \n\nSo, the total years in formal education is 10 years.",
+  "prompt_length": 14888,
+  "gen_token_usage": {
+    "prompt_tokens": 3363,
+    "answer_tokens": 170,
+    "total_tokens": 3533,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.57,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 115,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.03809523809523809,
+      "rouge1_f": 0.03389830508474576,
+      "rouge2_f": 0.017241379310344827,
+      "rougeL_f": 0.03389830508474576,
+      "semantic_similarity": 0.3850144147872925,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.026472962066182402,
+      "avg_semantic": 0.3850144147872925,
+      "overall_average": 0.09818125516176224
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.03809523809523809,
+    "rouge1_f": 0.03389830508474576,
+    "rouge2_f": 0.017241379310344827,
+    "rougeL_f": 0.03389830508474576,
+    "semantic_similarity": 0.3850144147872925,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.026472962066182402,
+    "avg_semantic": 0.3850144147872925,
+    "overall_average": 0.09818125516176224
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.6595,
+    "retrieval_time": 0.565,
+    "generation_time": 3.2,
+    "evaluation_time": 0.7589,
+    "cleanup_time": 1.6271,
+    "total_time": 18.8114
+  }
+}

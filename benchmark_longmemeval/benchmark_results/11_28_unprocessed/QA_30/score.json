@@ -1,0 +1,76 @@
+{
+  "sample_idx": 30,
+  "question_id": "b86304ba",
+  "question": "How much is the painting of a sunset worth in terms of the amount I paid for it?",
+  "question_type": "single-session-user",
+  "gold_answer": "The painting is worth triple what I paid for it.",
+  "question_date": "2023/05/30 (Tue) 23:18",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:08:20.034193",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 25132,
+  "gen_token_usage": {
+    "prompt_tokens": 5524,
+    "answer_tokens": 10,
+    "total_tokens": 5534,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.21,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 10,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1111111111111111,
+      "rouge1_f": 0.10000000000000002,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.10000000000000002,
+      "semantic_similarity": 0.039446115493774414,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.07777777777777779,
+      "avg_semantic": 0.039446115493774414,
+      "overall_average": 0.07011144608259201
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1111111111111111,
+    "rouge1_f": 0.10000000000000002,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.10000000000000002,
+    "semantic_similarity": 0.039446115493774414,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.07777777777777779,
+    "avg_semantic": 0.039446115493774414,
+    "overall_average": 0.07011144608259201
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 16.5524,
+    "retrieval_time": 0.5447,
+    "generation_time": 1.3241,
+    "evaluation_time": 4.2125,
+    "cleanup_time": 2.6673,
+    "total_time": 25.3042
+  }
+}

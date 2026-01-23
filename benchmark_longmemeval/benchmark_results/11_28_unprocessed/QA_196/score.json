@@ -1,0 +1,76 @@
+{
+  "sample_idx": 196,
+  "question_id": "3fe836c9",
+  "question": "How much more was the pre-approval amount than the final sale price of the house?",
+  "question_type": "multi-session",
+  "gold_answer": "$25,000",
+  "question_date": "2023/05/30 (Tue) 18:41",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:01:01.438761",
+  "predicted_answer": "The pre-approval amount was $350,000, and the final sale price of the house was $325,000. Therefore, the pre-approval amount was $25,000 more than the final sale price of the house.",
+  "prompt_length": 26516,
+  "gen_token_usage": {
+    "prompt_tokens": 5970,
+    "answer_tokens": 47,
+    "total_tokens": 6017,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.55,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 30,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.08333333333333333,
+      "rouge1_f": 0.1081081081081081,
+      "rouge2_f": 0.05714285714285715,
+      "rougeL_f": 0.1081081081081081,
+      "semantic_similarity": 0.3189871311187744,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.07488738738738739,
+      "avg_semantic": 0.3189871311187744,
+      "overall_average": 0.12370733916759491
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.08333333333333333,
+    "rouge1_f": 0.1081081081081081,
+    "rouge2_f": 0.05714285714285715,
+    "rougeL_f": 0.1081081081081081,
+    "semantic_similarity": 0.3189871311187744,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.07488738738738739,
+    "avg_semantic": 0.3189871311187744,
+    "overall_average": 0.12370733916759491
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.0168,
+    "retrieval_time": 0.5962,
+    "generation_time": 2.1925,
+    "evaluation_time": 0.687,
+    "cleanup_time": 1.6316,
+    "total_time": 17.1245
+  }
+}

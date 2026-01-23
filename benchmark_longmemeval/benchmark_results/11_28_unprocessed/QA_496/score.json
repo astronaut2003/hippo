@@ -1,0 +1,76 @@
+{
+  "sample_idx": 496,
+  "question_id": "e48988bc",
+  "question": "I was looking back at our previous conversation about environmentally responsible supply chain practices, and I was wondering if you could remind me of the company you mentioned that's doing a great job with sustainability?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Patagonia",
+  "question_date": "2023/05/30 (Tue) 23:26",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:17:22.157374",
+  "predicted_answer": "The company I mentioned that is doing a great job with sustainability in its supply chain is Patagonia. They are known for their commitment to environmentally responsible practices, including sustainable sourcing, green transportation, packaging optimization, waste reduction, and compliance with environmental regulations.",
+  "prompt_length": 20433,
+  "gen_token_usage": {
+    "prompt_tokens": 3925,
+    "answer_tokens": 49,
+    "total_tokens": 3974,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.99,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 42,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.05,
+      "rouge1_f": 0.046511627906976744,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.046511627906976744,
+      "semantic_similarity": 0.2936748266220093,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.03575581395348837,
+      "avg_semantic": 0.2936748266220093,
+      "overall_average": 0.0873396173119545
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.05,
+    "rouge1_f": 0.046511627906976744,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.046511627906976744,
+    "semantic_similarity": 0.2936748266220093,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.03575581395348837,
+    "avg_semantic": 0.2936748266220093,
+    "overall_average": 0.0873396173119545
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 15.7503,
+    "retrieval_time": 0.5489,
+    "generation_time": 1.696,
+    "evaluation_time": 0.6864,
+    "cleanup_time": 1.5652,
+    "total_time": 20.2475
+  }
+}

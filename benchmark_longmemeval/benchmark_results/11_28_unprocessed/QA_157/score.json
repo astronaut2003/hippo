@@ -1,0 +1,76 @@
+{
+  "sample_idx": 157,
+  "question_id": "b0479f84",
+  "question": "I've got some free time tonight, any documentary recommendations?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer documentary recommendations that are similar in style and theme to 'Our Planet', 'Free Solo', and 'Tiger King', which they have previously enjoyed. They might not prefer recommendations of documentaries that are vastly different in tone or subject matter from these titles. The preferred response utilizes the user's previously mentioned viewing history to suggest documentaries that cater to their tastes.",
+  "question_date": "2023/05/30 (Tue) 22:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:49:01.446488",
+  "predicted_answer": "Here are some documentary recommendations based on your interest in nature and wildlife documentaries:\n\n1. **Planet Earth** (Netflix) - Stunning natural history footage.\n2. **Blue Planet** (Netflix) - Explore the marine world with David Attenborough.\n3. **Dynasties** (Netflix) - Follow the lives of five animal families in the wild, narrated by David Attenborough.\n4. **Chasing Coral** (Netflix) - A visually stunning documentary about the decline of coral reefs.\n5. **March of the Penguins** (Netflix) - A heartwarming documentary about Emperor Penguins in Antarctica.\n\nEnjoy your documentary binge tonight!",
+  "prompt_length": 16152,
+  "gen_token_usage": {
+    "prompt_tokens": 3686,
+    "answer_tokens": 129,
+    "total_tokens": 3815,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.81,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 63,
+      "response_length": 88,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.16541353383458646,
+      "rouge1_f": 0.2040816326530612,
+      "rouge2_f": 0.013793103448275862,
+      "rougeL_f": 0.13605442176870747,
+      "semantic_similarity": 0.5403566956520081,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1263873970640888,
+      "avg_semantic": 0.5403566956520081,
+      "overall_average": 0.2091812640428543
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.16541353383458646,
+    "rouge1_f": 0.2040816326530612,
+    "rouge2_f": 0.013793103448275862,
+    "rougeL_f": 0.13605442176870747,
+    "semantic_similarity": 0.5403566956520081,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1263873970640888,
+    "avg_semantic": 0.5403566956520081,
+    "overall_average": 0.2091812640428543
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.6292,
+    "retrieval_time": 0.6437,
+    "generation_time": 2.7511,
+    "evaluation_time": 0.7277,
+    "cleanup_time": 1.4871,
+    "total_time": 18.2396
+  }
+}

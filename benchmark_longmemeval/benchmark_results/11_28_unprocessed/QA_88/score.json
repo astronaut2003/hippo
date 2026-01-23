@@ -1,0 +1,76 @@
+{
+  "sample_idx": 88,
+  "question_id": "gpt4_15e38248",
+  "question": "How many pieces of furniture did I buy, assemble, sell, or fix in the past few months?",
+  "question_type": "multi-session",
+  "gold_answer": "4",
+  "question_date": "2023/05/30 (Tue) 15:31",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:28:11.965712",
+  "predicted_answer": "Based on the memories, you bought and assembled one piece of furniture, which is the IKEA bookshelf for your home office about two months ago. You also purchased a new coffee table from West Elm about three weeks ago. There is no mention of selling or fixing any furniture in the past few months. Therefore, you have bought and assembled two pieces of furniture.",
+  "prompt_length": 21918,
+  "gen_token_usage": {
+    "prompt_tokens": 4776,
+    "answer_tokens": 71,
+    "total_tokens": 4847,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 64,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.06062811613082886,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.06062811613082886,
+      "overall_average": 0.012125623412430286
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.06062811613082886,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.06062811613082886,
+    "overall_average": 0.012125623412430286
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.3827,
+    "retrieval_time": 0.608,
+    "generation_time": 2.363,
+    "evaluation_time": 0.781,
+    "cleanup_time": 1.6557,
+    "total_time": 17.7913
+  }
+}

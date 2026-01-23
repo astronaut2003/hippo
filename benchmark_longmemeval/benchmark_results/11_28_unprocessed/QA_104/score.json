@@ -1,0 +1,76 @@
+{
+  "sample_idx": 104,
+  "question_id": "2788b940",
+  "question": "How many fitness classes do I attend in a typical week?",
+  "question_type": "multi-session",
+  "gold_answer": 5,
+  "question_date": "2023/05/30 (Tue) 20:00",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:32:46.553014",
+  "predicted_answer": "You attend fitness classes twice a week: Zumba on Tuesdays and Thursdays at 7:00 PM, and BodyPump on Mondays at 6:30 PM.",
+  "prompt_length": 14849,
+  "gen_token_usage": {
+    "prompt_tokens": 3293,
+    "answer_tokens": 33,
+    "total_tokens": 3326,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.51,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 22,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.06370466947555542,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.06370466947555542,
+      "overall_average": 0.012740934267640114
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.06370466947555542,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.06370466947555542,
+    "overall_average": 0.012740934267640114
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 11.0192,
+    "retrieval_time": 0.6294,
+    "generation_time": 1.5865,
+    "evaluation_time": 0.7394,
+    "cleanup_time": 1.3716,
+    "total_time": 15.3469
+  }
+}

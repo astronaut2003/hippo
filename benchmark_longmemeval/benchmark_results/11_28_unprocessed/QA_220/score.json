@@ -1,0 +1,76 @@
+{
+  "sample_idx": 220,
+  "question_id": "a346bb18",
+  "question": "How many minutes did I exceed my target time by in the marathon?",
+  "question_type": "multi-session",
+  "gold_answer": "12",
+  "question_date": "2023/05/30 (Tue) 22:30",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T16:07:48.428040",
+  "predicted_answer": "You completed your marathon in 4 hours and 22 minutes, while your target time was 4 hours and 10 minutes. You exceeded your target time by 12 minutes.",
+  "prompt_length": 31326,
+  "gen_token_usage": {
+    "prompt_tokens": 6942,
+    "answer_tokens": 36,
+    "total_tokens": 6978,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 5.3,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.07407407407407407,
+      "rouge1_f": 0.0689655172413793,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0689655172413793,
+      "semantic_similarity": 0.2171872854232788,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.05300127713920816,
+      "avg_semantic": 0.2171872854232788,
+      "overall_average": 0.08583848178386688
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.07407407407407407,
+    "rouge1_f": 0.0689655172413793,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0689655172413793,
+    "semantic_similarity": 0.2171872854232788,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.05300127713920816,
+    "avg_semantic": 0.2171872854232788,
+    "overall_average": 0.08583848178386688
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.8033,
+    "retrieval_time": 0.5521,
+    "generation_time": 1.4824,
+    "evaluation_time": 1.0155,
+    "cleanup_time": 1.6442,
+    "total_time": 17.4982
+  }
+}

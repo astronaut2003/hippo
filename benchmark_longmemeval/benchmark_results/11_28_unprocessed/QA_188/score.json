@@ -1,0 +1,76 @@
+{
+  "sample_idx": 188,
+  "question_id": "91b15a6e",
+  "question": "What is the minimum amount I could get if I sold the vintage diamond necklace and the antique vanity?",
+  "question_type": "multi-session",
+  "gold_answer": "$5,150",
+  "question_date": "2023/05/30 (Tue) 20:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:58:36.824545",
+  "predicted_answer": "Based on the information provided in your memories, the minimum amount you could expect to get if you sold the vintage diamond necklace is $5,000, as you mentioned its worth. For the antique vanity, considering you've put in work to restore it, you could sell it for at least $150. Therefore, the minimum total amount you could get from selling both items would be $5,150.",
+  "prompt_length": 27471,
+  "gen_token_usage": {
+    "prompt_tokens": 5736,
+    "answer_tokens": 80,
+    "total_tokens": 5816,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.38,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 65,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.03278688524590164,
+      "rouge1_f": 0.05714285714285715,
+      "rouge2_f": 0.029411764705882353,
+      "rougeL_f": 0.05714285714285715,
+      "semantic_similarity": 0.21805685758590698,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.036768149882903986,
+      "avg_semantic": 0.21805685758590698,
+      "overall_average": 0.0730258971452713
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.03278688524590164,
+    "rouge1_f": 0.05714285714285715,
+    "rouge2_f": 0.029411764705882353,
+    "rougeL_f": 0.05714285714285715,
+    "semantic_similarity": 0.21805685758590698,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.036768149882903986,
+    "avg_semantic": 0.21805685758590698,
+    "overall_average": 0.0730258971452713
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.2708,
+    "retrieval_time": 0.538,
+    "generation_time": 2.9125,
+    "evaluation_time": 0.8179,
+    "cleanup_time": 1.5797,
+    "total_time": 19.1193
+  }
+}

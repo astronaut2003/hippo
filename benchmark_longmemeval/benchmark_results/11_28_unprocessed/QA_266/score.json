@@ -1,0 +1,76 @@
+{
+  "sample_idx": 266,
+  "question_id": "gpt4_ec93e27f",
+  "question": "Which mode of transport did I use most recently, a bus or a train?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "train",
+  "question_date": "2023/05/02 (Tue) 08:12",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:12:35.597952",
+  "predicted_answer": "You most recently used a train to visit your family in the countryside on March 3rd.",
+  "prompt_length": 19502,
+  "gen_token_usage": {
+    "prompt_tokens": 4266,
+    "answer_tokens": 19,
+    "total_tokens": 4285,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.25,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 16,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.13333333333333333,
+      "rouge1_f": 0.11764705882352941,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.11764705882352941,
+      "semantic_similarity": 0.5156548023223877,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.09215686274509804,
+      "avg_semantic": 0.5156548023223877,
+      "overall_average": 0.17685644328594208
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.13333333333333333,
+    "rouge1_f": 0.11764705882352941,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.11764705882352941,
+    "semantic_similarity": 0.5156548023223877,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.09215686274509804,
+    "avg_semantic": 0.5156548023223877,
+    "overall_average": 0.17685644328594208
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 12.0902,
+    "retrieval_time": 0.5598,
+    "generation_time": 1.2611,
+    "evaluation_time": 0.7405,
+    "cleanup_time": 1.2444,
+    "total_time": 15.8965
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 437,
+  "question_id": "031748ae_abs",
+  "question": "How many engineers do I lead when I just started my new role as Software Engineer Manager?",
+  "question_type": "knowledge-update",
+  "gold_answer": "The information provided is not enough. You mentioned starting the role as Senior Software Engineer but not Software Engineer Manager.",
+  "question_date": "2023/06/06 (Tue) 08:19",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T17:58:52.747191",
+  "predicted_answer": "You lead a team of 4 engineers in your new role as Senior Software Engineer, making it a total of 5 people in your team, including yourself.",
+  "prompt_length": 18973,
+  "gen_token_usage": {
+    "prompt_tokens": 3894,
+    "answer_tokens": 32,
+    "total_tokens": 3926,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.97,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 20,
+      "response_length": 27,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.32558139534883723,
+      "rouge1_f": 0.29787234042553196,
+      "rouge2_f": 0.17777777777777778,
+      "rougeL_f": 0.25531914893617025,
+      "semantic_similarity": 0.5377653241157532,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.21969322117763487,
+      "avg_semantic": 0.5377653241157532,
+      "overall_average": 0.28330764174461365
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.32558139534883723,
+    "rouge1_f": 0.29787234042553196,
+    "rouge2_f": 0.17777777777777778,
+    "rougeL_f": 0.25531914893617025,
+    "semantic_similarity": 0.5377653241157532,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.21969322117763487,
+    "avg_semantic": 0.5377653241157532,
+    "overall_average": 0.28330764174461365
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.641,
+    "retrieval_time": 0.565,
+    "generation_time": 1.7544,
+    "evaluation_time": 0.7169,
+    "cleanup_time": 1.4156,
+    "total_time": 18.0935
+  }
+}

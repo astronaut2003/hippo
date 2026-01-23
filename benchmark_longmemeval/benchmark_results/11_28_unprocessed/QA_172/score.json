@@ -1,0 +1,76 @@
+{
+  "sample_idx": 172,
+  "question_id": "d905b33f",
+  "question": "What percentage discount did I get on the book from my favorite author?",
+  "question_type": "multi-session",
+  "gold_answer": "20%",
+  "question_date": "2023/05/30 (Tue) 21:08",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:53:43.928888",
+  "predicted_answer": "You originally mentioned that the book from your favorite author was priced at $30, and you got it for $24 after a discount. To calculate the percentage discount:\n\n1. Find the discount amount: $30 - $24 = $6\n2. Calculate the percentage discount: ($6 / $30) * 100 = 20%\n\nSo, you received a 20% discount on the book.",
+  "prompt_length": 19506,
+  "gen_token_usage": {
+    "prompt_tokens": 4418,
+    "answer_tokens": 82,
+    "total_tokens": 4500,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.37,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 59,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.042553191489361694,
+      "rouge1_f": 0.03636363636363636,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.03636363636363636,
+      "semantic_similarity": 0.3882436752319336,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.028820116054158604,
+      "avg_semantic": 0.3882436752319336,
+      "overall_average": 0.10070482641458511
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.042553191489361694,
+    "rouge1_f": 0.03636363636363636,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.03636363636363636,
+    "semantic_similarity": 0.3882436752319336,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.028820116054158604,
+    "avg_semantic": 0.3882436752319336,
+    "overall_average": 0.10070482641458511
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.8336,
+    "retrieval_time": 0.5368,
+    "generation_time": 1.8365,
+    "evaluation_time": 1.1072,
+    "cleanup_time": 1.7475,
+    "total_time": 19.0622
+  }
+}

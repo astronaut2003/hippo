@@ -1,0 +1,76 @@
+{
+  "sample_idx": 460,
+  "question_id": "58470ed2",
+  "question": "I was going through our previous conversation about The Library of Babel, and I wanted to confirm - what did Borges say about the center and circumference of the Library?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "According to Borges, 'The Library is a sphere whose exact center is any one of its hexagons and whose circumference is inaccessible.'",
+  "question_date": "2023/05/30 (Tue) 23:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T18:06:03.923606",
+  "predicted_answer": "Borges noted, \"The Library is a sphere whose exact center is any one of its hexagons and whose circumference is inaccessible.\" This highlights the unique structure of the Library of Babel, emphasizing its infinite nature and the paradox of its organization.",
+  "prompt_length": 15458,
+  "gen_token_usage": {
+    "prompt_tokens": 3287,
+    "answer_tokens": 49,
+    "total_tokens": 3336,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.51,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 22,
+      "response_length": 41,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.6415094339622641,
+      "rouge1_f": 0.6349206349206349,
+      "rouge2_f": 0.5901639344262294,
+      "rougeL_f": 0.6349206349206349,
+      "semantic_similarity": 0.8510429859161377,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.47783767595088344,
+      "avg_semantic": 0.8510429859161377,
+      "overall_average": 0.5524787306785583
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.6415094339622641,
+    "rouge1_f": 0.6349206349206349,
+    "rouge2_f": 0.5901639344262294,
+    "rougeL_f": 0.6349206349206349,
+    "semantic_similarity": 0.8510429859161377,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.47783767595088344,
+    "avg_semantic": 0.8510429859161377,
+    "overall_average": 0.5524787306785583
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.1693,
+    "retrieval_time": 0.6169,
+    "generation_time": 2.1353,
+    "evaluation_time": 0.6276,
+    "cleanup_time": 1.7009,
+    "total_time": 18.2505
+  }
+}

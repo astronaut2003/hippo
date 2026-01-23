@@ -1,0 +1,76 @@
+{
+  "sample_idx": 131,
+  "question_id": "gpt4_372c3eed_abs",
+  "question": "How many years in total did I spend in formal education from high school to the completion of my Master's degree?",
+  "question_type": "multi-session",
+  "gold_answer": "The information provided is not enough. You mentioned 4 years in high school (2010-2014), 2 years at PCC (2014-2016), and 4 years at UCLA (2016-2020). But you didn't mention the number of years you spend getting the Master's degree",
+  "question_date": "2023/08/20 (Sun) 23:54",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T15:40:44.769704",
+  "predicted_answer": "生成失败: Connection error.",
+  "prompt_length": 14173,
+  "gen_token_usage": {
+    "prompt_tokens": 3147,
+    "answer_tokens": 6,
+    "total_tokens": 3153,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.4,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 39,
+      "response_length": 3,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.06210583448410034,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.06210583448410034,
+      "overall_average": 0.012421166524291039
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.06210583448410034,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.06210583448410034,
+    "overall_average": 0.012421166524291039
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 13.2612,
+    "retrieval_time": 0.5862,
+    "generation_time": 5.1875,
+    "evaluation_time": 2.1266,
+    "cleanup_time": 1.5814,
+    "total_time": 22.7433
+  }
+}
