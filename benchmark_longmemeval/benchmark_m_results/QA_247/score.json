@@ -1,0 +1,76 @@
+{
+  "sample_idx": 247,
+  "question_id": "0ddfec37",
+  "question": "How many autographed baseballs have I added to my collection in the first three months of collection?",
+  "question_type": "knowledge-update",
+  "gold_answer": "15",
+  "question_date": "2024/01/05 (Fri) 01:32",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:17:30.348435",
+  "predicted_answer": "You have added 20 autographed baseballs to your collection in the past few months.",
+  "prompt_length": 15373,
+  "gen_token_usage": {
+    "prompt_tokens": 3301,
+    "answer_tokens": 18,
+    "total_tokens": 3319,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.52,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.21377378702163696,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.21377378702163696,
+      "overall_average": 0.04275475814938545
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.21377378702163696,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.21377378702163696,
+    "overall_average": 0.04275475814938545
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.1215,
+    "retrieval_time": 0.7187,
+    "generation_time": 4.7793,
+    "evaluation_time": 1.0345,
+    "cleanup_time": 1.6168,
+    "total_time": 133.2713
+  }
+}

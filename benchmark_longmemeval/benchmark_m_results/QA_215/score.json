@@ -1,0 +1,76 @@
+{
+  "sample_idx": 215,
+  "question_id": "41698283",
+  "question": "What type of camera lens did I purchase most recently?",
+  "question_type": "knowledge-update",
+  "gold_answer": "a 70-200mm zoom lens",
+  "question_date": "2023/09/18 (Mon) 05:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T07:08:31.100316",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 21226,
+  "gen_token_usage": {
+    "prompt_tokens": 4909,
+    "answer_tokens": 10,
+    "total_tokens": 4919,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.75,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 4,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.06153428554534912,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.06153428554534912,
+      "overall_average": 0.01230685692280531
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.06153428554534912,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.06153428554534912,
+    "overall_average": 0.01230685692280531
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.3779,
+    "retrieval_time": 0.7085,
+    "generation_time": 4.1687,
+    "evaluation_time": 1.3144,
+    "cleanup_time": 1.6337,
+    "total_time": 129.2039
+  }
+}

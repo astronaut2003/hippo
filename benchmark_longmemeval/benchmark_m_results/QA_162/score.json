@@ -1,0 +1,76 @@
+{
+  "sample_idx": 162,
+  "question_id": "6c49646a",
+  "question": "What is the total distance I covered in my four road trips?",
+  "question_type": "multi-session",
+  "gold_answer": "3,000 miles",
+  "question_date": "2023/05/30 (Tue) 23:51",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T05:14:02.119350",
+  "predicted_answer": "Based on the memories, you covered 1,200 miles on your trip to Yellowstone National Park. However, there is no information provided about the distances for your other road trips, including the trip to Mount Rushmore or any other trips mentioned. Therefore, I don't have enough information to answer this question.",
+  "prompt_length": 10650,
+  "gen_token_usage": {
+    "prompt_tokens": 2466,
+    "answer_tokens": 61,
+    "total_tokens": 2527,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.88,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 50,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.04081632653061224,
+      "rouge1_f": 0.03636363636363637,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.03636363636363637,
+      "semantic_similarity": 0.42014962434768677,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.028385899814471247,
+      "avg_semantic": 0.42014962434768677,
+      "overall_average": 0.10673864185810089
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.04081632653061224,
+    "rouge1_f": 0.03636363636363637,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.03636363636363637,
+    "semantic_similarity": 0.42014962434768677,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.028385899814471247,
+    "avg_semantic": 0.42014962434768677,
+    "overall_average": 0.10673864185810089
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.2717,
+    "retrieval_time": 0.9438,
+    "generation_time": 2.2674,
+    "evaluation_time": 1.2278,
+    "cleanup_time": 1.5691,
+    "total_time": 127.2809
+  }
+}

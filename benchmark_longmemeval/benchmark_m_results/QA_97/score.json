@@ -1,0 +1,76 @@
+{
+  "sample_idx": 97,
+  "question_id": "e01b8e2f",
+  "question": "Where did I go on a week-long trip with my family?",
+  "question_type": "single-session-user",
+  "gold_answer": "Hawaii",
+  "question_date": "2023/05/30 (Tue) 23:12",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T02:55:14.535969",
+  "predicted_answer": "You went on a week-long trip to Hawaii with your family last month.",
+  "prompt_length": 17527,
+  "gen_token_usage": {
+    "prompt_tokens": 3874,
+    "answer_tokens": 15,
+    "total_tokens": 3889,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.96,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.15384615384615385,
+      "rouge1_f": 0.13333333333333333,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.13333333333333333,
+      "semantic_similarity": 0.5625160932540894,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.10512820512820512,
+      "avg_semantic": 0.5625160932540894,
+      "overall_average": 0.19660577178001404
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.15384615384615385,
+    "rouge1_f": 0.13333333333333333,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.13333333333333333,
+    "semantic_similarity": 0.5625160932540894,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.10512820512820512,
+    "avg_semantic": 0.5625160932540894,
+    "overall_average": 0.19660577178001404
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.2133,
+    "retrieval_time": 0.581,
+    "generation_time": 2.0732,
+    "evaluation_time": 1.1955,
+    "cleanup_time": 1.562,
+    "total_time": 129.6255
+  }
+}

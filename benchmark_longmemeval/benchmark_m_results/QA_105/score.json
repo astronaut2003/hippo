@@ -1,0 +1,76 @@
+{
+  "sample_idx": 105,
+  "question_id": "8a137a7f",
+  "question": "What type of bulb did I replace in my bedside lamp?",
+  "question_type": "single-session-user",
+  "gold_answer": "Philips LED bulb",
+  "question_date": "2023/05/30 (Tue) 23:18",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T03:12:11.421950",
+  "predicted_answer": "You replaced the bulb in your bedside lamp with a Philips LED bulb, which you really like for the warm tone it provides.",
+  "prompt_length": 23514,
+  "gen_token_usage": {
+    "prompt_tokens": 5217,
+    "answer_tokens": 25,
+    "total_tokens": 5242,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.98,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 23,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2608695652173913,
+      "rouge1_f": 0.23076923076923078,
+      "rouge2_f": 0.16666666666666669,
+      "rougeL_f": 0.23076923076923078,
+      "semantic_similarity": 0.5418908596038818,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1806020066889632,
+      "avg_semantic": 0.5418908596038818,
+      "overall_average": 0.25285977125167847
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2608695652173913,
+    "rouge1_f": 0.23076923076923078,
+    "rouge2_f": 0.16666666666666669,
+    "rougeL_f": 0.23076923076923078,
+    "semantic_similarity": 0.5418908596038818,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1806020066889632,
+    "avg_semantic": 0.5418908596038818,
+    "overall_average": 0.25285977125167847
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 119.0637,
+    "retrieval_time": 0.6204,
+    "generation_time": 3.4088,
+    "evaluation_time": 1.24,
+    "cleanup_time": 1.5312,
+    "total_time": 125.8646
+  }
+}

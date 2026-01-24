@@ -1,0 +1,76 @@
+{
+  "sample_idx": 134,
+  "question_id": "e6041065",
+  "question": "What percentage of packed shoes did I wear on my last trip?",
+  "question_type": "multi-session",
+  "gold_answer": "40%",
+  "question_date": "2023/05/30 (Tue) 23:53",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T04:14:12.103306",
+  "predicted_answer": "You wore 2 out of the many shoes you packed on your last trip, which means you wore approximately 25% of the packed shoes.",
+  "prompt_length": 22482,
+  "gen_token_usage": {
+    "prompt_tokens": 5008,
+    "answer_tokens": 29,
+    "total_tokens": 5037,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.82,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 24,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.3159729242324829,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.3159729242324829,
+      "overall_average": 0.06319458782672882
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.3159729242324829,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.3159729242324829,
+    "overall_average": 0.06319458782672882
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.0926,
+    "retrieval_time": 0.6699,
+    "generation_time": 2.9905,
+    "evaluation_time": 2.0906,
+    "cleanup_time": 1.5698,
+    "total_time": 132.414
+  }
+}

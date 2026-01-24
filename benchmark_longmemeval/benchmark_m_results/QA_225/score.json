@@ -1,0 +1,76 @@
+{
+  "sample_idx": 225,
+  "question_id": "01493427",
+  "question": "How many new postcards have I added to my collection since I started collecting again?",
+  "question_type": "knowledge-update",
+  "gold_answer": "25",
+  "question_date": "2023/12/09 (Sat) 19:55",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T07:29:52.401248",
+  "predicted_answer": "You have added 25 new postcards to your collection since you started collecting again.",
+  "prompt_length": 20594,
+  "gen_token_usage": {
+    "prompt_tokens": 4539,
+    "answer_tokens": 16,
+    "total_tokens": 4555,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.46,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.13333333333333333,
+      "rouge1_f": 0.13333333333333333,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.13333333333333333,
+      "semantic_similarity": 0.2950657606124878,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1,
+      "avg_semantic": 0.2950657606124878,
+      "overall_average": 0.1390131413936615
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.13333333333333333,
+    "rouge1_f": 0.13333333333333333,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.13333333333333333,
+    "semantic_similarity": 0.2950657606124878,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1,
+    "avg_semantic": 0.2950657606124878,
+    "overall_average": 0.1390131413936615
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.3987,
+    "retrieval_time": 0.604,
+    "generation_time": 3.1995,
+    "evaluation_time": 0.7555,
+    "cleanup_time": 1.475,
+    "total_time": 130.4332
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 416,
+  "question_id": "caf03d32",
+  "question": "I've been struggling with my slow cooker recipes. Any advice on getting better results?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that provide tips and advice specifically tailored to their slow cooker experiences, utilizing their recent success with beef stew and interest in making yogurt in the slow cooker. They might not prefer general slow cooker recipes or advice unrelated to their specific experiences and interests.",
+  "question_date": "2023/05/30 (Tue) 23:45",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T18:07:05.715074",
+  "predicted_answer": "To improve your slow cooker recipes, consider the following tips:\n\n1. **Layer Ingredients Properly**: Place denser ingredients like root vegetables at the bottom and lighter ingredients on top to ensure even cooking.\n\n2. **Avoid Overfilling**: Do not fill the slow cooker beyond two-thirds full to allow for proper heat circulation.\n\n3. **Use the Right Cut of Meat**: Choose tougher cuts of meat, as they become tender during the long cooking process.\n\n4. **Adjust Cooking Times**: Be mindful of cooking times; if a recipe suggests a time range, check for doneness towards the lower end of the range.\n\n5. **Seasoning**: Add herbs and spices at the beginning, but consider adding fresh herbs towards the end of cooking for a brighter flavor.\n\n6. **Thicken Sauces**: If your dish is too watery, remove the lid for the last 30 minutes of cooking to allow some liquid to evaporate.\n\n7. **Experiment with Recipes**: Try different recipes and adjust ingredients to suit your taste preferences.\n\nBy following these tips, you should see better results with your slow cooker meals! Happy cooking!",
+  "prompt_length": 22514,
+  "gen_token_usage": {
+    "prompt_tokens": 5067,
+    "answer_tokens": 232,
+    "total_tokens": 5299,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.87,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 50,
+      "response_length": 176,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14705882352941177,
+      "rouge1_f": 0.1762114537444934,
+      "rouge2_f": 0.04444444444444444,
+      "rougeL_f": 0.10572687224669604,
+      "semantic_similarity": 0.6123763918876648,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.1072492873801503,
+      "avg_semantic": 0.6123763918876648,
+      "overall_average": 0.2082746922969818
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14705882352941177,
+    "rouge1_f": 0.1762114537444934,
+    "rouge2_f": 0.04444444444444444,
+    "rougeL_f": 0.10572687224669604,
+    "semantic_similarity": 0.6123763918876648,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.1072492873801503,
+    "avg_semantic": 0.6123763918876648,
+    "overall_average": 0.2082746922969818
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 117.1029,
+    "retrieval_time": 0.6386,
+    "generation_time": 5.6277,
+    "evaluation_time": 0.9682,
+    "cleanup_time": 1.345,
+    "total_time": 125.6839
+  }
+}

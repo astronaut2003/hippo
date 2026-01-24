@@ -1,0 +1,76 @@
+{
+  "sample_idx": 478,
+  "question_id": "a9f6b44c",
+  "question": "How many bikes did I service or plan to service in March?",
+  "question_type": "multi-session",
+  "gold_answer": 2,
+  "question_date": "2023/03/20 (Mon) 23:58",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T23:03:32.999204",
+  "predicted_answer": "You serviced your road bike at Pedal Power on March 10th and cleaned and lubricated your bike chain on March 22nd. Therefore, you planned to service at least one bike in March.",
+  "prompt_length": 17707,
+  "gen_token_usage": {
+    "prompt_tokens": 3985,
+    "answer_tokens": 41,
+    "total_tokens": 4026,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.04,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 32,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.06995093822479248,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.06995093822479248,
+      "overall_average": 0.013990188017487526
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.06995093822479248,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.06995093822479248,
+    "overall_average": 0.013990188017487526
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 119.7086,
+    "retrieval_time": 0.6678,
+    "generation_time": 10.0267,
+    "evaluation_time": 4.7721,
+    "cleanup_time": 1.3543,
+    "total_time": 136.5301
+  }
+}

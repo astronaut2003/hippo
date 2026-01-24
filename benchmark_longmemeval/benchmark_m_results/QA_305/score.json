@@ -1,0 +1,76 @@
+{
+  "sample_idx": 305,
+  "question_id": "370a8ff4",
+  "question": "How many weeks had passed since I recovered from the flu when I went on my 10th jog outdoors?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": 15,
+  "question_date": "2023/10/15 (Sun) 10:30",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T10:28:08.911177",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 21232,
+  "gen_token_usage": {
+    "prompt_tokens": 4682,
+    "answer_tokens": 10,
+    "total_tokens": 4692,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.57,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.07921653985977173,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.07921653985977173,
+      "overall_average": 0.015843307599425316
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.07921653985977173,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.07921653985977173,
+    "overall_average": 0.015843307599425316
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 147.3948,
+    "retrieval_time": 0.6626,
+    "generation_time": 2.4321,
+    "evaluation_time": 1.1264,
+    "cleanup_time": 1.6012,
+    "total_time": 153.218
+  }
+}

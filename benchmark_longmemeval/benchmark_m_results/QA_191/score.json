@@ -1,0 +1,76 @@
+{
+  "sample_idx": 191,
+  "question_id": "2311e44b_abs",
+  "question": "How many pages do I have left to read in 'Sapiens'?",
+  "question_type": "multi-session",
+  "gold_answer": "The information provided is not enough. You did not mention how many paged do you have left to read in 'Sapiens'.",
+  "question_date": "2023/05/30 (Tue) 23:30",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T06:16:32.957032",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 22425,
+  "gen_token_usage": {
+    "prompt_tokens": 5131,
+    "answer_tokens": 10,
+    "total_tokens": 5141,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.91,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 21,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2758620689655173,
+      "rouge1_f": 0.25806451612903225,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.12903225806451613,
+      "semantic_similarity": 0.21961838006973267,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.16573971078976643,
+      "avg_semantic": 0.21961838006973267,
+      "overall_average": 0.17651544511318207
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2758620689655173,
+    "rouge1_f": 0.25806451612903225,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.12903225806451613,
+    "semantic_similarity": 0.21961838006973267,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.16573971078976643,
+    "avg_semantic": 0.21961838006973267,
+    "overall_average": 0.17651544511318207
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.4275,
+    "retrieval_time": 0.6857,
+    "generation_time": 1.9933,
+    "evaluation_time": 1.4074,
+    "cleanup_time": 1.5352,
+    "total_time": 127.0496
+  }
+}

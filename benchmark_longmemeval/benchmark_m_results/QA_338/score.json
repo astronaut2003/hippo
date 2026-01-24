@@ -1,0 +1,76 @@
+{
+  "sample_idx": 338,
+  "question_id": "gpt4_468eb064",
+  "question": "Who did I meet with during the lunch last Tuesday?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Emma",
+  "question_date": "2023/04/18 (Tue) 02:09",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T11:41:23.268177",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 12156,
+  "gen_token_usage": {
+    "prompt_tokens": 2789,
+    "answer_tokens": 10,
+    "total_tokens": 2799,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.13,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.12522369623184204,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.12522369623184204,
+      "overall_average": 0.025044739246368408
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.12522369623184204,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.12522369623184204,
+    "overall_average": 0.025044739246368408
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.7134,
+    "retrieval_time": 0.7245,
+    "generation_time": 2.2952,
+    "evaluation_time": 0.9422,
+    "cleanup_time": 1.366,
+    "total_time": 130.0422
+  }
+}

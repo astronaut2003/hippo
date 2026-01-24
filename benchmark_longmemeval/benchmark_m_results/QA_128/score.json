@@ -1,0 +1,76 @@
+{
+  "sample_idx": 128,
+  "question_id": "cc06de0d",
+  "question": "For my daily commute, how much more expensive was the taxi ride compared to the train fare?",
+  "question_type": "multi-session",
+  "gold_answer": "$6",
+  "question_date": "2023/05/30 (Tue) 23:53",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T04:01:08.810644",
+  "predicted_answer": "The taxi ride cost you $12, while your estimated daily train fare is approximately $9.14. Therefore, the taxi ride was $2.86 more expensive than the train fare.",
+  "prompt_length": 15937,
+  "gen_token_usage": {
+    "prompt_tokens": 3449,
+    "answer_tokens": 38,
+    "total_tokens": 3487,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.63,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 27,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.2273693084716797,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.2273693084716797,
+      "overall_average": 0.045473862439394
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.2273693084716797,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.2273693084716797,
+    "overall_average": 0.045473862439394
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 119.3793,
+    "retrieval_time": 0.6788,
+    "generation_time": 3.0065,
+    "evaluation_time": 1.0906,
+    "cleanup_time": 1.6489,
+    "total_time": 125.8049
+  }
+}

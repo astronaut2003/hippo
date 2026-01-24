@@ -1,0 +1,76 @@
+{
+  "sample_idx": 63,
+  "question_id": "6f9b354f",
+  "question": "What color did I repaint my bedroom walls?",
+  "question_type": "single-session-user",
+  "gold_answer": "a lighter shade of gray",
+  "question_date": "2023/05/30 (Tue) 23:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T01:43:37.423640",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 24898,
+  "gen_token_usage": {
+    "prompt_tokens": 5447,
+    "answer_tokens": 10,
+    "total_tokens": 5457,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.16,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.1562831997871399,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.1562831997871399,
+      "overall_average": 0.03125663846731186
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.1562831997871399,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.1562831997871399,
+    "overall_average": 0.03125663846731186
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 117.8604,
+    "retrieval_time": 0.5888,
+    "generation_time": 3.5962,
+    "evaluation_time": 1.0587,
+    "cleanup_time": 1.3394,
+    "total_time": 124.4443
+  }
+}

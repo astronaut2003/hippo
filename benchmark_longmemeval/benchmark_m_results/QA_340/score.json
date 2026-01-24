@@ -1,0 +1,76 @@
+{
+  "sample_idx": 340,
+  "question_id": "9a707b82",
+  "question": "I mentioned cooking something for my friend a couple of days ago. What was it?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "a chocolate cake",
+  "question_date": "2022/04/12 (Tue) 23:10",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T11:45:43.923916",
+  "predicted_answer": "You mentioned cooking a delicious chicken fajita recipe for your friend last Sunday.",
+  "prompt_length": 19096,
+  "gen_token_usage": {
+    "prompt_tokens": 4172,
+    "answer_tokens": 15,
+    "total_tokens": 4187,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.18,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.125,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.125,
+      "semantic_similarity": 0.20920789241790771,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0625,
+      "avg_semantic": 0.20920789241790771,
+      "overall_average": 0.09184157848358154
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.125,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.125,
+    "semantic_similarity": 0.20920789241790771,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0625,
+    "avg_semantic": 0.20920789241790771,
+    "overall_average": 0.09184157848358154
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 128.5045,
+    "retrieval_time": 0.7478,
+    "generation_time": 2.7946,
+    "evaluation_time": 1.0817,
+    "cleanup_time": 2.0578,
+    "total_time": 135.1869
+  }
+}

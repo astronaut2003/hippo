@@ -1,0 +1,76 @@
+{
+  "sample_idx": 245,
+  "question_id": "50635ada",
+  "question": "What was my previous frequent flyer status on United Airlines before I got the current status?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Premier Silver",
+  "question_date": "2023/06/17 (Sat) 14:19",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:13:16.644475",
+  "predicted_answer": "Your previous frequent flyer status on United Airlines was Premier Silver before you achieved Premier Gold status.",
+  "prompt_length": 22990,
+  "gen_token_usage": {
+    "prompt_tokens": 5241,
+    "answer_tokens": 18,
+    "total_tokens": 5259,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.0,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 17,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.21052631578947367,
+      "rouge1_f": 0.21052631578947367,
+      "rouge2_f": 0.11764705882352941,
+      "rougeL_f": 0.21052631578947367,
+      "semantic_similarity": 0.5484799742698669,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.15789473684210525,
+      "avg_semantic": 0.5484799742698669,
+      "overall_average": 0.2360117882490158
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.21052631578947367,
+    "rouge1_f": 0.21052631578947367,
+    "rouge2_f": 0.11764705882352941,
+    "rougeL_f": 0.21052631578947367,
+    "semantic_similarity": 0.5484799742698669,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.15789473684210525,
+    "avg_semantic": 0.5484799742698669,
+    "overall_average": 0.2360117882490158
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 123.6599,
+    "retrieval_time": 0.6656,
+    "generation_time": 1.6023,
+    "evaluation_time": 1.0773,
+    "cleanup_time": 1.5885,
+    "total_time": 128.5944
+  }
+}

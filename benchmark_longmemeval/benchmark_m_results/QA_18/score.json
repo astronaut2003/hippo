@@ -1,0 +1,76 @@
+{
+  "sample_idx": 18,
+  "question_id": "1d4da289",
+  "question": "I was thinking about our previous conversation about data privacy and security. You mentioned that companies use two-factor authentication to enhance security. Can you remind me what kind of two-factor authentication methods you were referring to?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "I mentioned biometric authentication or one-time passwords (OTP) as examples of two-factor authentication methods.",
+  "question_date": "2023/05/30 (Tue) 23:31",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-09T23:35:55.387289",
+  "predicted_answer": "The two-factor authentication methods mentioned include biometric authentication and one-time passwords (OTP). These methods enhance security by ensuring that only authorized users can access sensitive data.",
+  "prompt_length": 22028,
+  "gen_token_usage": {
+    "prompt_tokens": 4246,
+    "answer_tokens": 31,
+    "total_tokens": 4277,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.24,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 14,
+      "response_length": 26,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.4736842105263159,
+      "rouge1_f": 0.5,
+      "rouge2_f": 0.33333333333333337,
+      "rougeL_f": 0.36363636363636365,
+      "semantic_similarity": 0.8595676422119141,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.3343301435406699,
+      "avg_semantic": 0.8595676422119141,
+      "overall_average": 0.43937763571739197
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.4736842105263159,
+    "rouge1_f": 0.5,
+    "rouge2_f": 0.33333333333333337,
+    "rougeL_f": 0.36363636363636365,
+    "semantic_similarity": 0.8595676422119141,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.3343301435406699,
+    "avg_semantic": 0.8595676422119141,
+    "overall_average": 0.43937763571739197
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 117.14,
+    "retrieval_time": 0.63,
+    "generation_time": 2.8542,
+    "evaluation_time": 0.845,
+    "cleanup_time": 1.4939,
+    "total_time": 122.9635
+  }
+}

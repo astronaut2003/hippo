@@ -1,0 +1,76 @@
+{
+  "sample_idx": 106,
+  "question_id": "76d63226",
+  "question": "What size is my new Samsung TV?",
+  "question_type": "single-session-user",
+  "gold_answer": "55-inch",
+  "question_date": "2023/05/30 (Tue) 22:33",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T03:14:17.288354",
+  "predicted_answer": "Your new Samsung TV is a 55-inch model.",
+  "prompt_length": 16732,
+  "gen_token_usage": {
+    "prompt_tokens": 3961,
+    "answer_tokens": 11,
+    "total_tokens": 3972,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.02,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 8,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.25,
+      "rouge1_f": 0.3636363636363636,
+      "rouge2_f": 0.2222222222222222,
+      "rougeL_f": 0.3636363636363636,
+      "semantic_similarity": 0.43801987171173096,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.24431818181818177,
+      "avg_semantic": 0.43801987171173096,
+      "overall_average": 0.2830585241317749
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.25,
+    "rouge1_f": 0.3636363636363636,
+    "rouge2_f": 0.2222222222222222,
+    "rougeL_f": 0.3636363636363636,
+    "semantic_similarity": 0.43801987171173096,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.24431818181818177,
+    "avg_semantic": 0.43801987171173096,
+    "overall_average": 0.2830585241317749
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 120.1109,
+    "retrieval_time": 0.716,
+    "generation_time": 2.8244,
+    "evaluation_time": 1.0,
+    "cleanup_time": 1.4133,
+    "total_time": 126.0659
+  }
+}

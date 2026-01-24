@@ -1,0 +1,76 @@
+{
+  "sample_idx": 258,
+  "question_id": "9bbe84a2",
+  "question": "What was my previous goal for my Apex Legends level before I updated my goal?",
+  "question_type": "knowledge-update",
+  "gold_answer": "level 100",
+  "question_date": "2023/10/20 (Fri) 02:26",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:41:29.609176",
+  "predicted_answer": "Your previous goal for your Apex Legends level was to reach level 100 before the end of the year. You later updated your goal to reach level 150.",
+  "prompt_length": 30823,
+  "gen_token_usage": {
+    "prompt_tokens": 6420,
+    "answer_tokens": 32,
+    "total_tokens": 6452,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.9,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14285714285714288,
+      "rouge1_f": 0.13333333333333333,
+      "rouge2_f": 0.07142857142857142,
+      "rougeL_f": 0.13333333333333333,
+      "semantic_similarity": 0.5194004774093628,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.10238095238095238,
+      "avg_semantic": 0.5194004774093628,
+      "overall_average": 0.18578486144542694
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14285714285714288,
+    "rouge1_f": 0.13333333333333333,
+    "rouge2_f": 0.07142857142857142,
+    "rougeL_f": 0.13333333333333333,
+    "semantic_similarity": 0.5194004774093628,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.10238095238095238,
+    "avg_semantic": 0.5194004774093628,
+    "overall_average": 0.18578486144542694
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 140.2234,
+    "retrieval_time": 0.5926,
+    "generation_time": 3.1137,
+    "evaluation_time": 1.0565,
+    "cleanup_time": 1.6401,
+    "total_time": 146.6275
+  }
+}

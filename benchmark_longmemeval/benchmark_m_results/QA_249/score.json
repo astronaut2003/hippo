@@ -1,0 +1,76 @@
+{
+  "sample_idx": 249,
+  "question_id": "cc5ded98",
+  "question": "How much time do I dedicate to coding exercises each day?",
+  "question_type": "knowledge-update",
+  "gold_answer": "about two hours",
+  "question_date": "2023/06/21 (Wed) 09:07",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:21:54.155560",
+  "predicted_answer": "You dedicate about two hours each day to coding exercises.",
+  "prompt_length": 23242,
+  "gen_token_usage": {
+    "prompt_tokens": 5101,
+    "answer_tokens": 11,
+    "total_tokens": 5112,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.89,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.4615384615384615,
+      "rouge1_f": 0.4615384615384615,
+      "rouge2_f": 0.3636363636363636,
+      "rougeL_f": 0.4615384615384615,
+      "semantic_similarity": 0.42934268712997437,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.34615384615384615,
+      "avg_semantic": 0.42934268712997437,
+      "overall_average": 0.36279162764549255
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.4615384615384615,
+    "rouge1_f": 0.4615384615384615,
+    "rouge2_f": 0.3636363636363636,
+    "rougeL_f": 0.4615384615384615,
+    "semantic_similarity": 0.42934268712997437,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.34615384615384615,
+    "avg_semantic": 0.42934268712997437,
+    "overall_average": 0.36279162764549255
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 126.1626,
+    "retrieval_time": 0.7034,
+    "generation_time": 4.3058,
+    "evaluation_time": 1.1446,
+    "cleanup_time": 1.5556,
+    "total_time": 133.8872
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 196,
+  "question_id": "09ba9854_abs",
+  "question": "How much will I save by taking the bus from the airport to my hotel instead of a taxi?",
+  "question_type": "multi-session",
+  "gold_answer": "The information provided is not enough. You did not mention how much will the bus take.",
+  "question_date": "2023/05/30 (Tue) 23:08",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T06:27:16.411768",
+  "predicted_answer": "Taking the Airport Limousine Bus from the airport to your hotel will cost around $10-$20, while a taxi ride is estimated to be around $60. Therefore, you could save approximately $40-$50 by choosing the bus over a taxi.",
+  "prompt_length": 19581,
+  "gen_token_usage": {
+    "prompt_tokens": 4669,
+    "answer_tokens": 50,
+    "total_tokens": 4719,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.56,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 16,
+      "response_length": 38,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.21276595744680848,
+      "rouge1_f": 0.24999999999999994,
+      "rouge2_f": 0.037037037037037035,
+      "rougeL_f": 0.17857142857142858,
+      "semantic_similarity": 0.37238609790802,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.16033434650455924,
+      "avg_semantic": 0.37238609790802,
+      "overall_average": 0.20274469256401062
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.21276595744680848,
+    "rouge1_f": 0.24999999999999994,
+    "rouge2_f": 0.037037037037037035,
+    "rougeL_f": 0.17857142857142858,
+    "semantic_similarity": 0.37238609790802,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.16033434650455924,
+    "avg_semantic": 0.37238609790802,
+    "overall_average": 0.20274469256401062
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.8289,
+    "retrieval_time": 0.6892,
+    "generation_time": 2.3252,
+    "evaluation_time": 0.7238,
+    "cleanup_time": 1.6386,
+    "total_time": 128.2061
+  }
+}

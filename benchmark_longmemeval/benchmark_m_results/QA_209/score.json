@@ -1,0 +1,76 @@
+{
+  "sample_idx": 209,
+  "question_id": "184da446",
+  "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+  "question_type": "knowledge-update",
+  "gold_answer": "220",
+  "question_date": "2023/06/22 (Thu) 06:09",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T06:55:25.102136",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 12367,
+  "gen_token_usage": {
+    "prompt_tokens": 2866,
+    "answer_tokens": 10,
+    "total_tokens": 2876,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.19,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.20491033792495728,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.20491033792495728,
+      "overall_average": 0.040982067584991455
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.20491033792495728,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.20491033792495728,
+    "overall_average": 0.040982067584991455
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 120.3883,
+    "retrieval_time": 0.6644,
+    "generation_time": 4.1686,
+    "evaluation_time": 2.0821,
+    "cleanup_time": 1.5675,
+    "total_time": 128.8714
+  }
+}

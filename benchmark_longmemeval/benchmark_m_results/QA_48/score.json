@@ -1,0 +1,76 @@
+{
+  "sample_idx": 48,
+  "question_id": "16c90bf4",
+  "question": "I'm looking back at our previous conversation about the Seco de Cordero recipe from Ancash. You mentioned using a light or medium-bodied beer, but I was wondering if you could remind me what type of beer you specifically recommended?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "I recommended using a Pilsner or Lager for the recipe.",
+  "question_date": "2023/05/30 (Tue) 23:13",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T01:12:05.953332",
+  "predicted_answer": "I recommended using a light or medium-bodied beer for the Seco de Cordero recipe, such as a pilsner or lager. You can also use a local beer from Ancash for a more authentic touch.",
+  "prompt_length": 14076,
+  "gen_token_usage": {
+    "prompt_tokens": 3373,
+    "answer_tokens": 43,
+    "total_tokens": 3416,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.57,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 10,
+      "response_length": 34,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.4324324324324324,
+      "rouge1_f": 0.4444444444444445,
+      "rouge2_f": 0.3255813953488372,
+      "rougeL_f": 0.3555555555555555,
+      "semantic_similarity": 0.4867214560508728,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.30810810810810807,
+      "avg_semantic": 0.4867214560508728,
+      "overall_average": 0.34383076429367065
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.4324324324324324,
+    "rouge1_f": 0.4444444444444445,
+    "rouge2_f": 0.3255813953488372,
+    "rougeL_f": 0.3555555555555555,
+    "semantic_similarity": 0.4867214560508728,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.30810810810810807,
+    "avg_semantic": 0.4867214560508728,
+    "overall_average": 0.34383076429367065
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.6407,
+    "retrieval_time": 0.6665,
+    "generation_time": 2.708,
+    "evaluation_time": 1.2683,
+    "cleanup_time": 1.5246,
+    "total_time": 128.8089
+  }
+}

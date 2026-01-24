@@ -1,0 +1,76 @@
+{
+  "sample_idx": 487,
+  "question_id": "2b8f3739",
+  "question": "What is the total amount of money I earned from selling my products at the markets?",
+  "question_type": "multi-session",
+  "gold_answer": "$495",
+  "question_date": "2023/06/01 (Thu) 23:58",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T23:22:34.727816",
+  "predicted_answer": "You earned a total of $225 from selling 15 jars of your homemade jam at the Homemade and Handmade Market on May 29th. I don't have information about any other sales at the Harvest Festival Market on October 2nd.",
+  "prompt_length": 11739,
+  "gen_token_usage": {
+    "prompt_tokens": 2591,
+    "answer_tokens": 47,
+    "total_tokens": 2638,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.98,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 39,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.2811182737350464,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.2811182737350464,
+      "overall_average": 0.05622365325689316
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.2811182737350464,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.2811182737350464,
+    "overall_average": 0.05622365325689316
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 117.8928,
+    "retrieval_time": 0.6704,
+    "generation_time": 2.5374,
+    "evaluation_time": 2.6042,
+    "cleanup_time": 1.394,
+    "total_time": 125.0994
+  }
+}

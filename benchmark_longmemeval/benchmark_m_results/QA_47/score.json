@@ -1,0 +1,76 @@
+{
+  "sample_idx": 47,
+  "question_id": "28bcfaac",
+  "question": "I'm going back to our previous conversation about music theory. You mentioned some online resources for learning music theory. Can you remind me of the website you recommended for free lessons and exercises?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "MusicTheory.net",
+  "question_date": "2023/05/30 (Tue) 23:26",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T01:09:55.334525",
+  "predicted_answer": "The website I recommended for free lessons and exercises on music theory is MusicTheory.net.",
+  "prompt_length": 15651,
+  "gen_token_usage": {
+    "prompt_tokens": 3347,
+    "answer_tokens": 17,
+    "total_tokens": 3364,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.55,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.15384615384615385,
+      "rouge1_f": 0.23529411764705882,
+      "rouge2_f": 0.13333333333333333,
+      "rougeL_f": 0.23529411764705882,
+      "semantic_similarity": 0.5827868580818176,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.15610859728506787,
+      "avg_semantic": 0.5827868580818176,
+      "overall_average": 0.24144425988197327
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.15384615384615385,
+    "rouge1_f": 0.23529411764705882,
+    "rouge2_f": 0.13333333333333333,
+    "rougeL_f": 0.23529411764705882,
+    "semantic_similarity": 0.5827868580818176,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.15610859728506787,
+    "avg_semantic": 0.5827868580818176,
+    "overall_average": 0.24144425988197327
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.6059,
+    "retrieval_time": 0.685,
+    "generation_time": 2.7616,
+    "evaluation_time": 1.0527,
+    "cleanup_time": 1.5112,
+    "total_time": 130.617
+  }
+}

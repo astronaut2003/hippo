@@ -1,0 +1,76 @@
+{
+  "sample_idx": 234,
+  "question_id": "8fb83627",
+  "question": "How many issues of National Geographic have I finished reading?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Five",
+  "question_date": "2023/07/29 (Sat) 00:29",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T07:49:26.916597",
+  "predicted_answer": "You have finished reading five issues of National Geographic.",
+  "prompt_length": 17599,
+  "gen_token_usage": {
+    "prompt_tokens": 3796,
+    "answer_tokens": 10,
+    "total_tokens": 3806,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.9,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.19999999999999998,
+      "rouge1_f": 0.19999999999999998,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.19999999999999998,
+      "semantic_similarity": 0.2753887176513672,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.15,
+      "avg_semantic": 0.2753887176513672,
+      "overall_average": 0.17507775127887726
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.19999999999999998,
+    "rouge1_f": 0.19999999999999998,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.19999999999999998,
+    "semantic_similarity": 0.2753887176513672,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.15,
+    "avg_semantic": 0.2753887176513672,
+    "overall_average": 0.17507775127887726
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 129.229,
+    "retrieval_time": 0.6421,
+    "generation_time": 1.8937,
+    "evaluation_time": 0.7773,
+    "cleanup_time": 1.4908,
+    "total_time": 134.0334
+  }
+}

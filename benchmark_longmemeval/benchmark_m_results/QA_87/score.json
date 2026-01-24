@@ -1,0 +1,76 @@
+{
+  "sample_idx": 87,
+  "question_id": "d52b4f67",
+  "question": "Where did I attend my cousin's wedding?",
+  "question_type": "single-session-user",
+  "gold_answer": "The Grand Ballroom",
+  "question_date": "2023/05/30 (Tue) 22:30",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T02:34:00.399609",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 17192,
+  "gen_token_usage": {
+    "prompt_tokens": 3779,
+    "answer_tokens": 10,
+    "total_tokens": 3789,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.88,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.1019631028175354,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.1019631028175354,
+      "overall_average": 0.02039262093603611
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.1019631028175354,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.1019631028175354,
+    "overall_average": 0.02039262093603611
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.409,
+    "retrieval_time": 0.666,
+    "generation_time": 2.0351,
+    "evaluation_time": 2.1153,
+    "cleanup_time": 1.6365,
+    "total_time": 127.8625
+  }
+}

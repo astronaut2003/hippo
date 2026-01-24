@@ -1,0 +1,76 @@
+{
+  "sample_idx": 113,
+  "question_id": "1faac195",
+  "question": "Where does my sister Emily live?",
+  "question_type": "single-session-user",
+  "gold_answer": "Denver",
+  "question_date": "2023/05/30 (Tue) 23:39",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T03:29:10.425355",
+  "predicted_answer": "Your sister Emily lives in San Francisco.",
+  "prompt_length": 12144,
+  "gen_token_usage": {
+    "prompt_tokens": 2744,
+    "answer_tokens": 8,
+    "total_tokens": 2752,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.09,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 7,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.28822386264801025,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.28822386264801025,
+      "overall_average": 0.05764477327466011
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.28822386264801025,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.28822386264801025,
+    "overall_average": 0.05764477327466011
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 116.5619,
+    "retrieval_time": 0.9241,
+    "generation_time": 3.2331,
+    "evaluation_time": 1.0411,
+    "cleanup_time": 1.7795,
+    "total_time": 123.5405
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 481,
+  "question_id": "gpt4_ab202e7f",
+  "question": "How many kitchen items did I replace or fix?",
+  "question_type": "multi-session",
+  "gold_answer": "I replaced or fixed five items: the kitchen faucet, the kitchen mat, the toaster, the coffee maker, and the kitchen shelves.",
+  "question_date": "2023/05/30 (Tue) 22:38",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T23:09:57.303121",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 19908,
+  "gen_token_usage": {
+    "prompt_tokens": 4514,
+    "answer_tokens": 10,
+    "total_tokens": 4524,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.44,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 21,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.08333333333333334,
+      "rouge1_f": 0.06451612903225806,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06451612903225806,
+      "semantic_similarity": 0.11362457275390625,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.05309139784946237,
+      "avg_semantic": 0.11362457275390625,
+      "overall_average": 0.06519803404808044
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.08333333333333334,
+    "rouge1_f": 0.06451612903225806,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06451612903225806,
+    "semantic_similarity": 0.11362457275390625,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.05309139784946237,
+    "avg_semantic": 0.11362457275390625,
+    "overall_average": 0.06519803404808044
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 119.2041,
+    "retrieval_time": 0.7053,
+    "generation_time": 3.6204,
+    "evaluation_time": 1.3092,
+    "cleanup_time": 1.3697,
+    "total_time": 126.2092
+  }
+}

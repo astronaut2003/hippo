@@ -1,0 +1,76 @@
+{
+  "sample_idx": 29,
+  "question_id": "e8a79c70",
+  "question": "I was going through our previous conversation about making a classic French omelette, and I wanted to confirm - how many eggs did you say we need for the recipe?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "2-3 eggs",
+  "question_date": "2023/05/30 (Tue) 23:54",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-09T23:58:52.506553",
+  "predicted_answer": "You need 2-3 eggs for the classic French omelette recipe.",
+  "prompt_length": 30235,
+  "gen_token_usage": {
+    "prompt_tokens": 6914,
+    "answer_tokens": 15,
+    "total_tokens": 6929,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 5.27,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3636363636363636,
+      "rouge1_f": 0.42857142857142855,
+      "rouge2_f": 0.33333333333333337,
+      "rougeL_f": 0.42857142857142855,
+      "semantic_similarity": 0.6075072288513184,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.3051948051948052,
+      "avg_semantic": 0.6075072288513184,
+      "overall_average": 0.3656572699546814
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3636363636363636,
+    "rouge1_f": 0.42857142857142855,
+    "rouge2_f": 0.33333333333333337,
+    "rougeL_f": 0.42857142857142855,
+    "semantic_similarity": 0.6075072288513184,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.3051948051948052,
+    "avg_semantic": 0.6075072288513184,
+    "overall_average": 0.3656572699546814
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 118.9097,
+    "retrieval_time": 0.7023,
+    "generation_time": 4.1774,
+    "evaluation_time": 1.1099,
+    "cleanup_time": 1.5162,
+    "total_time": 126.416
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 59,
+  "question_id": "58bf7951",
+  "question": "What play did I attend at the local community theater?",
+  "question_type": "single-session-user",
+  "gold_answer": "The Glass Menagerie",
+  "question_date": "2023/05/30 (Tue) 23:55",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T01:35:12.239954",
+  "predicted_answer": "You attended a production of \"The Glass Menagerie\" at the local community theater.",
+  "prompt_length": 12155,
+  "gen_token_usage": {
+    "prompt_tokens": 2618,
+    "answer_tokens": 17,
+    "total_tokens": 2635,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.0,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.33333333333333337,
+      "rouge1_f": 0.375,
+      "rouge2_f": 0.2857142857142857,
+      "rougeL_f": 0.375,
+      "semantic_similarity": 0.698201060295105,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.27083333333333337,
+      "avg_semantic": 0.698201060295105,
+      "overall_average": 0.35630688071250916
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.33333333333333337,
+    "rouge1_f": 0.375,
+    "rouge2_f": 0.2857142857142857,
+    "rougeL_f": 0.375,
+    "semantic_similarity": 0.698201060295105,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.27083333333333337,
+    "avg_semantic": 0.698201060295105,
+    "overall_average": 0.35630688071250916
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 116.64,
+    "retrieval_time": 0.5846,
+    "generation_time": 2.8997,
+    "evaluation_time": 1.9361,
+    "cleanup_time": 1.5256,
+    "total_time": 123.5868
+  }
+}

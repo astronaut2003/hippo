@@ -1,0 +1,76 @@
+{
+  "sample_idx": 17,
+  "question_id": "8cf51dda",
+  "question": "I'm going back to our previous conversation about the grant aim page on molecular subtypes and endometrial cancer. Can you remind me what were the three objectives we outlined for the project?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "The three objectives were: 1) to identify molecular subtypes of endometrial cancer, 2) to investigate their clinical and biological significance, and 3) to develop biomarkers for early detection and prognosis.",
+  "question_date": "2023/05/30 (Tue) 23:23",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-09T23:33:50.732394",
+  "predicted_answer": "The three objectives outlined for the project on molecular subtypes and endometrial cancer are:\n\n1. To identify molecular subtypes of endometrial cancer using a combination of genomic and transcriptomic approaches.\n2. To investigate the clinical and biological significance of the identified molecular subtypes, including their association with patient outcomes and response to therapy.\n3. To develop biomarkers for the early detection and prognosis of endometrial cancer based on the identified molecular subtypes.",
+  "prompt_length": 22268,
+  "gen_token_usage": {
+    "prompt_tokens": 4351,
+    "answer_tokens": 91,
+    "total_tokens": 4442,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.32,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 30,
+      "response_length": 72,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.5813953488372093,
+      "rouge1_f": 0.5686274509803922,
+      "rouge2_f": 0.42000000000000004,
+      "rougeL_f": 0.5490196078431373,
+      "semantic_similarity": 0.8568611145019531,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.4247606019151847,
+      "avg_semantic": 0.8568611145019531,
+      "overall_average": 0.5111806988716125
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.5813953488372093,
+    "rouge1_f": 0.5686274509803922,
+    "rouge2_f": 0.42000000000000004,
+    "rougeL_f": 0.5490196078431373,
+    "semantic_similarity": 0.8568611145019531,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.4247606019151847,
+    "avg_semantic": 0.8568611145019531,
+    "overall_average": 0.5111806988716125
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 117.091,
+    "retrieval_time": 0.7101,
+    "generation_time": 4.0708,
+    "evaluation_time": 1.0333,
+    "cleanup_time": 1.747,
+    "total_time": 124.6533
+  }
+}

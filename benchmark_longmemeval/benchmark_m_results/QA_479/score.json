@@ -1,0 +1,76 @@
+{
+  "sample_idx": 479,
+  "question_id": "d851d5ba",
+  "question": "How much money did I raise for charity in total?",
+  "question_type": "multi-session",
+  "gold_answer": "$3,750",
+  "question_date": "2023/03/20 (Mon) 23:58",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T23:05:49.530998",
+  "predicted_answer": "You raised a total of $2,550 for charity. This includes $300 from the \"Pedals for a Purpose\" event, $2,000 for a local animal shelter, and $250 from the \"Run for Hunger\" charity event.",
+  "prompt_length": 26460,
+  "gen_token_usage": {
+    "prompt_tokens": 5550,
+    "answer_tokens": 50,
+    "total_tokens": 5600,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.23,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 33,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.23343932628631592,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.23343932628631592,
+      "overall_average": 0.046687863767147064
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.23343932628631592,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.23343932628631592,
+    "overall_average": 0.046687863767147064
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 118.0994,
+    "retrieval_time": 0.5834,
+    "generation_time": 5.329,
+    "evaluation_time": 1.0143,
+    "cleanup_time": 1.3249,
+    "total_time": 126.3516
+  }
+}

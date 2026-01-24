@@ -1,0 +1,76 @@
+{
+  "sample_idx": 10,
+  "question_id": "0e5e2d1a",
+  "question": "I wanted to follow up on our previous conversation about binaural beats for anxiety and depression. Can you remind me how many subjects were in the study published in the journal Music and Medicine that found significant reductions in symptoms of depression, anxiety, and stress?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "38 subjects",
+  "question_date": "2023/05/30 (Tue) 22:41",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-09T23:19:27.624171",
+  "predicted_answer": "The study published in the journal Music and Medicine involved 38 subjects who listened to binaural beats for 30 minutes daily for three weeks, and it found significant reductions in symptoms of depression, anxiety, and stress.",
+  "prompt_length": 11376,
+  "gen_token_usage": {
+    "prompt_tokens": 2346,
+    "answer_tokens": 43,
+    "total_tokens": 2389,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.79,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 36,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.12121212121212122,
+      "rouge1_f": 0.10526315789473684,
+      "rouge2_f": 0.05555555555555556,
+      "rougeL_f": 0.10526315789473684,
+      "semantic_similarity": 0.20772719383239746,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.08293460925039872,
+      "avg_semantic": 0.20772719383239746,
+      "overall_average": 0.10789313167333603
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.12121212121212122,
+    "rouge1_f": 0.10526315789473684,
+    "rouge2_f": 0.05555555555555556,
+    "rougeL_f": 0.10526315789473684,
+    "semantic_similarity": 0.20772719383239746,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.08293460925039872,
+    "avg_semantic": 0.20772719383239746,
+    "overall_average": 0.10789313167333603
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 110.6312,
+    "retrieval_time": 0.6759,
+    "generation_time": 3.5549,
+    "evaluation_time": 1.0071,
+    "cleanup_time": 1.5406,
+    "total_time": 117.4106
+  }
+}

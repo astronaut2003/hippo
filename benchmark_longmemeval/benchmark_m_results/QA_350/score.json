@@ -1,0 +1,76 @@
+{
+  "sample_idx": 350,
+  "question_id": "gpt4_76048e76",
+  "question": "Which vehicle did I take care of first in February, the bike or the car?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "bike",
+  "question_date": "2023/03/10 (Fri) 21:24",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T12:08:07.972637",
+  "predicted_answer": "You took care of your car first in February, as you mentioned a gas fill-up on February 10th and a car wash on February 3rd. You got your bike repaired later in mid-February.",
+  "prompt_length": 23149,
+  "gen_token_usage": {
+    "prompt_tokens": 5158,
+    "answer_tokens": 43,
+    "total_tokens": 5201,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.94,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 33,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.06451612903225806,
+      "rouge1_f": 0.05555555555555556,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.05555555555555556,
+      "semantic_similarity": 0.316692054271698,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.04390681003584229,
+      "avg_semantic": 0.316692054271698,
+      "overall_average": 0.09846385568380356
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.06451612903225806,
+    "rouge1_f": 0.05555555555555556,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.05555555555555556,
+    "semantic_similarity": 0.316692054271698,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.04390681003584229,
+    "avg_semantic": 0.316692054271698,
+    "overall_average": 0.09846385568380356
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.7877,
+    "retrieval_time": 0.6417,
+    "generation_time": 2.3675,
+    "evaluation_time": 1.8066,
+    "cleanup_time": 1.6051,
+    "total_time": 131.2097
+  }
+}

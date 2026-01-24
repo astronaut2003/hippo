@@ -1,0 +1,76 @@
+{
+  "sample_idx": 473,
+  "question_id": "60bf93ed",
+  "question": "How many days did it take for my laptop backpack to arrive after I bought it?",
+  "question_type": "multi-session",
+  "gold_answer": "5 days. 6 days (including the last day) is also acceptable.",
+  "question_date": "2023/01/24 (Tue) 23:51",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T22:52:59.495540",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 21213,
+  "gen_token_usage": {
+    "prompt_tokens": 4711,
+    "answer_tokens": 10,
+    "total_tokens": 4721,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.59,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.015957355499267578,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.015957355499267578,
+      "overall_average": 0.0031914710998535156
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.015957355499267578,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.015957355499267578,
+    "overall_average": 0.0031914710998535156
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 117.1293,
+    "retrieval_time": 0.6443,
+    "generation_time": 2.8761,
+    "evaluation_time": 0.9438,
+    "cleanup_time": 1.5491,
+    "total_time": 123.143
+  }
+}

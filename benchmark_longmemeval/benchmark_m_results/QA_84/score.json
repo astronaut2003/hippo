@@ -1,0 +1,76 @@
+{
+  "sample_idx": 84,
+  "question_id": "a06e4cfe",
+  "question": "What is my preferred gin-to-vermouth ratio for a classic gin martini?",
+  "question_type": "single-session-user",
+  "gold_answer": "3:1",
+  "question_date": "2023/05/30 (Tue) 23:48",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T02:27:34.267022",
+  "predicted_answer": "Your preferred gin-to-vermouth ratio for a classic gin martini is 3:1, with a dash of citrus bitters.",
+  "prompt_length": 20832,
+  "gen_token_usage": {
+    "prompt_tokens": 4894,
+    "answer_tokens": 26,
+    "total_tokens": 4920,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.73,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 17,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.125,
+      "rouge1_f": 0.18181818181818182,
+      "rouge2_f": 0.1,
+      "rougeL_f": 0.18181818181818182,
+      "semantic_similarity": 0.1979272961616516,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.12215909090909091,
+      "avg_semantic": 0.1979272961616516,
+      "overall_average": 0.13731274008750916
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.125,
+    "rouge1_f": 0.18181818181818182,
+    "rouge2_f": 0.1,
+    "rougeL_f": 0.18181818181818182,
+    "semantic_similarity": 0.1979272961616516,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.12215909090909091,
+    "avg_semantic": 0.1979272961616516,
+    "overall_average": 0.13731274008750916
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.8495,
+    "retrieval_time": 0.5944,
+    "generation_time": 2.8879,
+    "evaluation_time": 1.8152,
+    "cleanup_time": 1.3996,
+    "total_time": 129.5475
+  }
+}

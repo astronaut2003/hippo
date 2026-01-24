@@ -1,0 +1,76 @@
+{
+  "sample_idx": 399,
+  "question_id": "gpt4_c27434e8",
+  "question": "Which project did I start first, the Ferrari model or the Japanese Zero fighter plane model?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Japanese Zero fighter plane model",
+  "question_date": "2023/05/26 (Fri) 17:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T17:30:33.719861",
+  "predicted_answer": "You started building the Ferrari 288 GTO model about three weeks ago, while you mentioned starting the Japanese Zero fighter plane model about a month ago. Therefore, you started the Japanese Zero fighter plane model first.",
+  "prompt_length": 27525,
+  "gen_token_usage": {
+    "prompt_tokens": 6006,
+    "answer_tokens": 42,
+    "total_tokens": 6048,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.58,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 36,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2702702702702703,
+      "rouge1_f": 0.24390243902439027,
+      "rouge2_f": 0.20512820512820512,
+      "rougeL_f": 0.24390243902439027,
+      "semantic_similarity": 0.6276705265045166,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1895187870797627,
+      "avg_semantic": 0.6276705265045166,
+      "overall_average": 0.27714914083480835
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2702702702702703,
+    "rouge1_f": 0.24390243902439027,
+    "rouge2_f": 0.20512820512820512,
+    "rougeL_f": 0.24390243902439027,
+    "semantic_similarity": 0.6276705265045166,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1895187870797627,
+    "avg_semantic": 0.6276705265045166,
+    "overall_average": 0.27714914083480835
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.9919,
+    "retrieval_time": 0.6539,
+    "generation_time": 1.8772,
+    "evaluation_time": 1.0864,
+    "cleanup_time": 1.5594,
+    "total_time": 127.1695
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 301,
+  "question_id": "gpt4_61e13b3c",
+  "question": "How many weeks passed between the time I sold homemade baked goods at the Farmers' Market for the last time and the time I participated in the Spring Fling Market?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "3 weeks",
+  "question_date": "2023/04/01 (Sat) 09:44",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T10:18:36.653203",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 17100,
+  "gen_token_usage": {
+    "prompt_tokens": 3814,
+    "answer_tokens": 10,
+    "total_tokens": 3824,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.91,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.004354357719421387,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.004354357719421387,
+      "overall_average": 0.0008708715322427452
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.004354357719421387,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.004354357719421387,
+    "overall_average": 0.0008708715322427452
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 127.4036,
+    "retrieval_time": 0.7376,
+    "generation_time": 1.8537,
+    "evaluation_time": 0.7547,
+    "cleanup_time": 1.6259,
+    "total_time": 132.3761
+  }
+}

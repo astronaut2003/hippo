@@ -1,0 +1,76 @@
+{
+  "sample_idx": 161,
+  "question_id": "1c549ce4",
+  "question": "What is the total cost of the car cover and detailing spray I purchased?",
+  "question_type": "multi-session",
+  "gold_answer": "$140",
+  "question_date": "2023/05/30 (Tue) 23:50",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T05:12:00.387075",
+  "predicted_answer": "The total cost of the waterproof car cover you purchased is $120. You mentioned a detailing spray that you got from Amazon for $20. Therefore, the total cost of both the car cover and detailing spray is $120 + $20 = $140.",
+  "prompt_length": 14054,
+  "gen_token_usage": {
+    "prompt_tokens": 3158,
+    "answer_tokens": 51,
+    "total_tokens": 3209,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.41,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 42,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.05714285714285715,
+      "rouge1_f": 0.04878048780487806,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.04878048780487806,
+      "semantic_similarity": 0.2624683976173401,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.038675958188153316,
+      "avg_semantic": 0.2624683976173401,
+      "overall_average": 0.08343444764614105
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.05714285714285715,
+    "rouge1_f": 0.04878048780487806,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.04878048780487806,
+    "semantic_similarity": 0.2624683976173401,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.038675958188153316,
+    "avg_semantic": 0.2624683976173401,
+    "overall_average": 0.08343444764614105
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 115.5778,
+    "retrieval_time": 0.5903,
+    "generation_time": 2.6591,
+    "evaluation_time": 1.296,
+    "cleanup_time": 1.6063,
+    "total_time": 121.7305
+  }
+}

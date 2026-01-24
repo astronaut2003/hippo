@@ -1,0 +1,76 @@
+{
+  "sample_idx": 383,
+  "question_id": "993da5e2",
+  "question": "How long had I been using the new area rug when I rearranged my living room furniture?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "One week. Answers ranging from 7 days to 10 days are also acceptable.",
+  "question_date": "2023/05/20 (Sat) 01:55",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:56:04.282961",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 22958,
+  "gen_token_usage": {
+    "prompt_tokens": 5283,
+    "answer_tokens": 10,
+    "total_tokens": 5293,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.03,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 13,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.18181818181818185,
+      "rouge1_f": 0.17391304347826086,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.08695652173913043,
+      "semantic_similarity": 0.009470641613006592,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.1106719367588933,
+      "avg_semantic": 0.009470641613006592,
+      "overall_average": 0.09043167531490326
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.18181818181818185,
+    "rouge1_f": 0.17391304347826086,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.08695652173913043,
+    "semantic_similarity": 0.009470641613006592,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.1106719367588933,
+    "avg_semantic": 0.009470641613006592,
+    "overall_average": 0.09043167531490326
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.3109,
+    "retrieval_time": 0.6507,
+    "generation_time": 2.2406,
+    "evaluation_time": 1.149,
+    "cleanup_time": 2.5489,
+    "total_time": 127.9005
+  }
+}

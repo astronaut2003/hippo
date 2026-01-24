@@ -1,0 +1,76 @@
+{
+  "sample_idx": 283,
+  "question_id": "gpt4_b5700ca9",
+  "question": "How many days ago did I attend the Maundy Thursday service at the Episcopal Church?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "4 days.",
+  "question_date": "2023/04/10 (Mon) 20:37",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T09:39:30.061108",
+  "predicted_answer": "You attended the Maundy Thursday service at the Episcopal Church today, which means it was on March 28. Since today is March 28, you attended the service today, so it was not any days ago.",
+  "prompt_length": 9948,
+  "gen_token_usage": {
+    "prompt_tokens": 2243,
+    "answer_tokens": 44,
+    "total_tokens": 2287,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.71,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 35,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.058823529411764705,
+      "rouge1_f": 0.05405405405405405,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.05405405405405405,
+      "semantic_similarity": 0.3148910403251648,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0417329093799682,
+      "avg_semantic": 0.3148910403251648,
+      "overall_average": 0.09636453539133072
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.058823529411764705,
+    "rouge1_f": 0.05405405405405405,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.05405405405405405,
+    "semantic_similarity": 0.3148910403251648,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0417329093799682,
+    "avg_semantic": 0.3148910403251648,
+    "overall_average": 0.09636453539133072
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 120.1846,
+    "retrieval_time": 0.5868,
+    "generation_time": 1.8743,
+    "evaluation_time": 2.0029,
+    "cleanup_time": 1.5913,
+    "total_time": 126.2407
+  }
+}

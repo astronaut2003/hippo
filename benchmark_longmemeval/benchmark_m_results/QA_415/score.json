@@ -1,0 +1,76 @@
+{
+  "sample_idx": 415,
+  "question_id": "afdc33df",
+  "question": "My kitchen's becoming a bit of a mess again. Any tips for keeping it clean?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that acknowledge and build upon their existing efforts to organize their kitchen, such as utilizing their new utensil holder to keep countertops clutter-free. They would also appreciate tips that address their concern for maintaining their granite surface, particularly around the sink area. Preferred responses would provide practical and actionable steps to maintain cleanliness, leveraging the user's current tools and setup. They might not prefer generic or vague suggestions that do not take into account their specific kitchen setup or concerns.",
+  "question_date": "2023/05/30 (Tue) 22:37",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T18:04:50.323789",
+  "predicted_answer": "To keep your kitchen clean, consider implementing these tips:\n\n1. **Clean as You Go**: Wipe down counters and put away dishes immediately after use to prevent mess accumulation.\n2. **Daily Tidying**: Set aside a quick 10-minute tidy after meals to address any clutter and maintain cleanliness.\n3. **Organize Utensils**: Use dividers in your utensil holder to keep items categorized and easily accessible, reducing clutter.\n4. **Prioritize High-Traffic Areas**: Focus on cleaning areas that see the most use, like countertops and the sink.\n5. **Use Multi-Purpose Cleaners**: Opt for cleaning products that can be used on multiple surfaces to simplify your cleaning routine.\n\nBy following these strategies, you can maintain a cleaner and more organized kitchen.",
+  "prompt_length": 26096,
+  "gen_token_usage": {
+    "prompt_tokens": 5758,
+    "answer_tokens": 162,
+    "total_tokens": 5920,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.39,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 85,
+      "response_length": 115,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.23783783783783785,
+      "rouge1_f": 0.2731707317073171,
+      "rouge2_f": 0.04926108374384236,
+      "rougeL_f": 0.14634146341463414,
+      "semantic_similarity": 0.5449322462081909,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.16433750823994728,
+      "avg_semantic": 0.5449322462081909,
+      "overall_average": 0.24045643210411072
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.23783783783783785,
+    "rouge1_f": 0.2731707317073171,
+    "rouge2_f": 0.04926108374384236,
+    "rougeL_f": 0.14634146341463414,
+    "semantic_similarity": 0.5449322462081909,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.16433750823994728,
+    "avg_semantic": 0.5449322462081909,
+    "overall_average": 0.24045643210411072
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 128.4388,
+    "retrieval_time": 0.5946,
+    "generation_time": 3.904,
+    "evaluation_time": 0.8986,
+    "cleanup_time": 1.5521,
+    "total_time": 135.3887
+  }
+}

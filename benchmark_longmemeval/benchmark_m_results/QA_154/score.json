@@ -1,0 +1,76 @@
+{
+  "sample_idx": 154,
+  "question_id": "720133ac",
+  "question": "What is the total cost of Lola's vet visit and flea medication?",
+  "question_type": "multi-session",
+  "gold_answer": "$75",
+  "question_date": "2023/05/30 (Tue) 23:55",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T04:56:55.403160",
+  "predicted_answer": "The total cost of Lola's vet visit is $50, and the flea medication was $25 for a 3-month supply. Therefore, the total cost is $50 + $25 = $75.",
+  "prompt_length": 19245,
+  "gen_token_usage": {
+    "prompt_tokens": 4237,
+    "answer_tokens": 41,
+    "total_tokens": 4278,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.23,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 29,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.08695652173913045,
+      "rouge1_f": 0.06666666666666667,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06666666666666667,
+      "semantic_similarity": 0.2981458902359009,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.05507246376811595,
+      "avg_semantic": 0.2981458902359009,
+      "overall_average": 0.10368714481592178
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.08695652173913045,
+    "rouge1_f": 0.06666666666666667,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06666666666666667,
+    "semantic_similarity": 0.2981458902359009,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.05507246376811595,
+    "avg_semantic": 0.2981458902359009,
+    "overall_average": 0.10368714481592178
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 117.9647,
+    "retrieval_time": 0.5922,
+    "generation_time": 2.7885,
+    "evaluation_time": 1.1939,
+    "cleanup_time": 1.5468,
+    "total_time": 124.0865
+  }
+}

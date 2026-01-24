@@ -1,0 +1,76 @@
+{
+  "sample_idx": 108,
+  "question_id": "8e9d538c",
+  "question": "How many skeins of worsted weight yarn did I find in my stash?",
+  "question_type": "single-session-user",
+  "gold_answer": "17",
+  "question_date": "2023/05/30 (Tue) 23:59",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T03:18:27.824390",
+  "predicted_answer": "You found 17 skeins of worsted weight yarn in your stash.",
+  "prompt_length": 19564,
+  "gen_token_usage": {
+    "prompt_tokens": 4679,
+    "answer_tokens": 15,
+    "total_tokens": 4694,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.57,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 11,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.16666666666666669,
+      "rouge1_f": 0.16666666666666669,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.16666666666666669,
+      "semantic_similarity": 0.25422561168670654,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.125,
+      "avg_semantic": 0.25422561168670654,
+      "overall_average": 0.15084512531757355
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.16666666666666669,
+    "rouge1_f": 0.16666666666666669,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.16666666666666669,
+    "semantic_similarity": 0.25422561168670654,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.125,
+    "avg_semantic": 0.25422561168670654,
+    "overall_average": 0.15084512531757355
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 123.8897,
+    "retrieval_time": 0.5902,
+    "generation_time": 2.3945,
+    "evaluation_time": 1.1121,
+    "cleanup_time": 1.5662,
+    "total_time": 129.5534
+  }
+}

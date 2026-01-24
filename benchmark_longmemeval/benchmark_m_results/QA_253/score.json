@@ -1,0 +1,76 @@
+{
+  "sample_idx": 253,
+  "question_id": "cf22b7bf",
+  "question": "How much weight have I lost since I started going to the gym consistently?",
+  "question_type": "knowledge-update",
+  "gold_answer": "10 pounds",
+  "question_date": "2023/06/23 (Fri) 10:53",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:30:37.207317",
+  "predicted_answer": "You have lost 10 pounds since you started going consistently to the gym 3 months ago.",
+  "prompt_length": 27134,
+  "gen_token_usage": {
+    "prompt_tokens": 5956,
+    "answer_tokens": 19,
+    "total_tokens": 5975,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.54,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 16,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.23529411764705882,
+      "rouge1_f": 0.2222222222222222,
+      "rouge2_f": 0.125,
+      "rougeL_f": 0.2222222222222222,
+      "semantic_similarity": 0.4349612593650818,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.16993464052287582,
+      "avg_semantic": 0.4349612593650818,
+      "overall_average": 0.22293996810913086
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.23529411764705882,
+    "rouge1_f": 0.2222222222222222,
+    "rouge2_f": 0.125,
+    "rougeL_f": 0.2222222222222222,
+    "semantic_similarity": 0.4349612593650818,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.16993464052287582,
+    "avg_semantic": 0.4349612593650818,
+    "overall_average": 0.22293996810913086
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 128.835,
+    "retrieval_time": 0.6869,
+    "generation_time": 2.1152,
+    "evaluation_time": 1.2607,
+    "cleanup_time": 1.5141,
+    "total_time": 134.4124
+  }
+}

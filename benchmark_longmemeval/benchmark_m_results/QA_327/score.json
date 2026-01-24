@@ -1,0 +1,76 @@
+{
+  "sample_idx": 327,
+  "question_id": "gpt4_7bc6cf22",
+  "question": "How many days ago did I read the March 15th issue of The New Yorker?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "12 days ago. 13 days (including the last day) is also acceptable.",
+  "question_date": "2023/04/01 (Sat) 19:45",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T11:17:10.049081",
+  "predicted_answer": "You read the March 15th issue of The New Yorker today, which means it was read on the current date. Since today is October 24th, that means you read it 223 days ago.",
+  "prompt_length": 17262,
+  "gen_token_usage": {
+    "prompt_tokens": 3837,
+    "answer_tokens": 42,
+    "total_tokens": 3879,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.93,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 12,
+      "response_length": 33,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14634146341463417,
+      "rouge1_f": 0.17777777777777776,
+      "rouge2_f": 0.046511627906976744,
+      "rougeL_f": 0.08888888888888888,
+      "semantic_similarity": 0.4897260069847107,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.1032520325203252,
+      "avg_semantic": 0.4897260069847107,
+      "overall_average": 0.180546835064888
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14634146341463417,
+    "rouge1_f": 0.17777777777777776,
+    "rouge2_f": 0.046511627906976744,
+    "rougeL_f": 0.08888888888888888,
+    "semantic_similarity": 0.4897260069847107,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.1032520325203252,
+    "avg_semantic": 0.4897260069847107,
+    "overall_average": 0.180546835064888
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 129.661,
+    "retrieval_time": 0.7033,
+    "generation_time": 2.3401,
+    "evaluation_time": 1.0484,
+    "cleanup_time": 1.6194,
+    "total_time": 135.3737
+  }
+}

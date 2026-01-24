@@ -1,0 +1,76 @@
+{
+  "sample_idx": 115,
+  "question_id": "f4f1d8a4",
+  "question": "Who gave me a new stand mixer as a birthday gift?",
+  "question_type": "single-session-user",
+  "gold_answer": "my sister",
+  "question_date": "2023/05/30 (Tue) 23:33",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T03:33:32.674197",
+  "predicted_answer": "Your sister gave you a new stand mixer as a birthday gift last month.",
+  "prompt_length": 13750,
+  "gen_token_usage": {
+    "prompt_tokens": 3130,
+    "answer_tokens": 15,
+    "total_tokens": 3145,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.39,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14285714285714285,
+      "rouge1_f": 0.125,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.125,
+      "semantic_similarity": 0.44737303256988525,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.09821428571428571,
+      "avg_semantic": 0.44737303256988525,
+      "overall_average": 0.1680460274219513
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14285714285714285,
+    "rouge1_f": 0.125,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.125,
+    "semantic_similarity": 0.44737303256988525,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.09821428571428571,
+    "avg_semantic": 0.44737303256988525,
+    "overall_average": 0.1680460274219513
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.9626,
+    "retrieval_time": 0.6446,
+    "generation_time": 2.2865,
+    "evaluation_time": 1.7709,
+    "cleanup_time": 1.5577,
+    "total_time": 131.2234
+  }
+}

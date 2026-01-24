@@ -1,0 +1,76 @@
+{
+  "sample_idx": 276,
+  "question_id": "gpt4_f49edff3",
+  "question": "Which three events happened in the order from first to last: the day I helped my friend prepare the nursery, the day I helped my cousin pick out stuff for her baby shower, and the day I ordered a customized phone case for my friend's birthday?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "First, I helped my friend prepare the nursery, then I helped my cousin pick out stuff for her baby shower, and lastly, I ordered a customized phone case for my friend's birthday.",
+  "question_date": "2023/03/22 (Wed) 17:52",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T09:24:11.812779",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 13578,
+  "gen_token_usage": {
+    "prompt_tokens": 3133,
+    "answer_tokens": 10,
+    "total_tokens": 3143,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.39,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 32,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.05263157894736842,
+      "rouge1_f": 0.04651162790697675,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.04651162790697675,
+      "semantic_similarity": 0.11746382713317871,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.036413708690330476,
+      "avg_semantic": 0.11746382713317871,
+      "overall_average": 0.05262373015284538
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.05263157894736842,
+    "rouge1_f": 0.04651162790697675,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.04651162790697675,
+    "semantic_similarity": 0.11746382713317871,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.036413708690330476,
+    "avg_semantic": 0.11746382713317871,
+    "overall_average": 0.05262373015284538
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 123.7854,
+    "retrieval_time": 0.5996,
+    "generation_time": 3.5655,
+    "evaluation_time": 0.8671,
+    "cleanup_time": 1.6556,
+    "total_time": 130.4742
+  }
+}

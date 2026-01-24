@@ -1,0 +1,76 @@
+{
+  "sample_idx": 435,
+  "question_id": "07b6f563",
+  "question": "Can you suggest some useful accessories for my phone?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer suggestions of accessories that are compatible with an iPhone 13 Pro, such as high-quality screen protectors, durable cases, portable power banks, or phone wallet cases. They may not prefer suggestions of accessories that are not compatible with Apple products or do not enhance the functionality or protection of their phone.",
+  "question_date": "2023/05/30 (Tue) 23:37",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T18:49:00.887439",
+  "predicted_answer": "Here are some useful accessories for your phone:\n\n1. **Phone Wallet Case**: Consider brands like Nomad, Fossil, Bellroy, or OtterBox for high-quality wallet cases that combine protection and functionality.\n\n2. **Screen Protector**: Brands like Zagg, TechArmor, and Spigen offer durable screen protectors to keep your screen safe from scratches and cracks.\n\n3. **Portable Power Bank**: Look into brands like Anker, Mophie, or Jackery for reliable power banks to charge your phone on-the-go.\n\nThese accessories can enhance the functionality and protection of your phone.",
+  "prompt_length": 21989,
+  "gen_token_usage": {
+    "prompt_tokens": 4643,
+    "answer_tokens": 122,
+    "total_tokens": 4765,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.54,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 54,
+      "response_length": 83,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3410852713178295,
+      "rouge1_f": 0.3546099290780142,
+      "rouge2_f": 0.12949640287769784,
+      "rougeL_f": 0.2553191489361702,
+      "semantic_similarity": 0.5220118761062622,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.23775358733300345,
+      "avg_semantic": 0.5220118761062622,
+      "overall_average": 0.2946052551269531
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3410852713178295,
+    "rouge1_f": 0.3546099290780142,
+    "rouge2_f": 0.12949640287769784,
+    "rougeL_f": 0.2553191489361702,
+    "semantic_similarity": 0.5220118761062622,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.23775358733300345,
+    "avg_semantic": 0.5220118761062622,
+    "overall_average": 0.2946052551269531
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 123.6849,
+    "retrieval_time": 0.5612,
+    "generation_time": 3.9899,
+    "evaluation_time": 2.0394,
+    "cleanup_time": 1.6126,
+    "total_time": 131.8886
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 368,
+  "question_id": "b9cfe692",
+  "question": "How long did I take to finish 'The Seven Husbands of Evelyn Hugo' and 'The Nightingale' combined?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "5.5 weeks",
+  "question_date": "2023/05/26 (Fri) 04:08",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:23:59.670138",
+  "predicted_answer": "You took two and a half weeks to finish \"The Seven Husbands of Evelyn Hugo\" and three weeks to finish \"The Nightingale.\" Combined, that totals five and a half weeks.",
+  "prompt_length": 18002,
+  "gen_token_usage": {
+    "prompt_tokens": 4181,
+    "answer_tokens": 38,
+    "total_tokens": 4219,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.19,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 30,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.08,
+      "rouge1_f": 0.0606060606060606,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0606060606060606,
+      "semantic_similarity": 0.4223216772079468,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.0503030303030303,
+      "avg_semantic": 0.4223216772079468,
+      "overall_average": 0.12470676004886627
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.08,
+    "rouge1_f": 0.0606060606060606,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0606060606060606,
+    "semantic_similarity": 0.4223216772079468,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.0503030303030303,
+    "avg_semantic": 0.4223216772079468,
+    "overall_average": 0.12470676004886627
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 118.4739,
+    "retrieval_time": 0.5868,
+    "generation_time": 1.7257,
+    "evaluation_time": 1.06,
+    "cleanup_time": 1.48,
+    "total_time": 123.3268
+  }
+}

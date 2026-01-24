@@ -1,0 +1,76 @@
+{
+  "sample_idx": 20,
+  "question_id": "8aef76bc",
+  "question": "I'm going back to our previous conversation about DIY home decor projects using recycled materials. Can you remind me what sealant you recommended for the newspaper flower vase?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Mod Podge or another sealant",
+  "question_date": "2023/05/30 (Tue) 23:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-09T23:40:02.658551",
+  "predicted_answer": "The sealant recommended for the newspaper flower vase is Mod Podge or another sealant to make it water-resistant.",
+  "prompt_length": 22752,
+  "gen_token_usage": {
+    "prompt_tokens": 4869,
+    "answer_tokens": 23,
+    "total_tokens": 4892,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.71,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 18,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.47619047619047616,
+      "rouge1_f": 0.4166666666666667,
+      "rouge2_f": 0.3636363636363636,
+      "rougeL_f": 0.4166666666666667,
+      "semantic_similarity": 0.5164628028869629,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.3273809523809524,
+      "avg_semantic": 0.5164628028869629,
+      "overall_average": 0.3651973307132721
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.47619047619047616,
+    "rouge1_f": 0.4166666666666667,
+    "rouge2_f": 0.3636363636363636,
+    "rougeL_f": 0.4166666666666667,
+    "semantic_similarity": 0.5164628028869629,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.3273809523809524,
+    "avg_semantic": 0.5164628028869629,
+    "overall_average": 0.3651973307132721
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 116.3928,
+    "retrieval_time": 0.6775,
+    "generation_time": 2.2872,
+    "evaluation_time": 1.9925,
+    "cleanup_time": 1.5646,
+    "total_time": 122.915
+  }
+}

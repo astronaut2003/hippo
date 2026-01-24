@@ -1,0 +1,76 @@
+{
+  "sample_idx": 367,
+  "question_id": "982b5123",
+  "question": "How many months ago did I book the Airbnb in San Francisco?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Five months ago",
+  "question_date": "2023/05/23 (Tue) 01:05",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:21:46.758485",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 15805,
+  "gen_token_usage": {
+    "prompt_tokens": 3229,
+    "answer_tokens": 10,
+    "total_tokens": 3239,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.46,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.12843257188796997,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.12843257188796997,
+      "overall_average": 0.025686513632535934
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.12843257188796997,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.12843257188796997,
+    "overall_average": 0.025686513632535934
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 128.3578,
+    "retrieval_time": 0.618,
+    "generation_time": 1.1843,
+    "evaluation_time": 1.2172,
+    "cleanup_time": 1.5324,
+    "total_time": 132.91
+  }
+}

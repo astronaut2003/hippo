@@ -1,0 +1,76 @@
+{
+  "sample_idx": 231,
+  "question_id": "e61a7584",
+  "question": "How long have I had my cat, Luna?",
+  "question_type": "knowledge-update",
+  "gold_answer": "9 months",
+  "question_date": "2023/11/30 (Thu) 13:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T07:42:59.122861",
+  "predicted_answer": "You have had your cat, Luna, for about 9 months now.",
+  "prompt_length": 24396,
+  "gen_token_usage": {
+    "prompt_tokens": 5309,
+    "answer_tokens": 15,
+    "total_tokens": 5324,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.05,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 11,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3076923076923077,
+      "rouge1_f": 0.3076923076923077,
+      "rouge2_f": 0.18181818181818182,
+      "rougeL_f": 0.3076923076923077,
+      "semantic_similarity": 0.4882711172103882,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.23076923076923078,
+      "avg_semantic": 0.4882711172103882,
+      "overall_average": 0.2822696268558502
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3076923076923077,
+    "rouge1_f": 0.3076923076923077,
+    "rouge2_f": 0.18181818181818182,
+    "rougeL_f": 0.3076923076923077,
+    "semantic_similarity": 0.4882711172103882,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.23076923076923078,
+    "avg_semantic": 0.4882711172103882,
+    "overall_average": 0.2822696268558502
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.5794,
+    "retrieval_time": 0.6648,
+    "generation_time": 2.2444,
+    "evaluation_time": 1.154,
+    "cleanup_time": 1.5643,
+    "total_time": 128.2075
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 471,
+  "question_id": "eeda8a6d",
+  "question": "How many fish are there in total in both of my aquariums?",
+  "question_type": "multi-session",
+  "gold_answer": 17,
+  "question_date": "2023/05/30 (Tue) 23:14",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T22:48:39.085685",
+  "predicted_answer": "In your 20-gallon tank, you have 10 neon tetras and 5 golden honey gouramis, which totals 15 fish. In your 10-gallon tank, you have 1 betta fish named Bubbles. Therefore, the total number of fish in both aquariums is 15 + 1 = 16 fish.",
+  "prompt_length": 27321,
+  "gen_token_usage": {
+    "prompt_tokens": 6010,
+    "answer_tokens": 71,
+    "total_tokens": 6081,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.59,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 45,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.20418298244476318,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.20418298244476318,
+      "overall_average": 0.04083659499883652
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.20418298244476318,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.20418298244476318,
+    "overall_average": 0.04083659499883652
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 128.8998,
+    "retrieval_time": 0.7101,
+    "generation_time": 4.0882,
+    "evaluation_time": 1.0788,
+    "cleanup_time": 1.4812,
+    "total_time": 136.259
+  }
+}

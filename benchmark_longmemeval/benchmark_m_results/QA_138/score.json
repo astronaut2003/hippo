@@ -1,0 +1,76 @@
+{
+  "sample_idx": 138,
+  "question_id": "f35224e0",
+  "question": "What is the total number of episodes I've listened to from 'How I Built This' and 'My Favorite Murder'?",
+  "question_type": "multi-session",
+  "gold_answer": "27",
+  "question_date": "2023/05/30 (Tue) 23:28",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T04:22:52.219609",
+  "predicted_answer": "You mentioned listening to at least 2-3 episodes of \"How I Built This\" a week for about a month, which would total approximately 8-12 episodes. For \"My Favorite Murder,\" you stated that you just finished episode 12 and try to listen to at least one episode a week. Therefore, you have listened to a total of 12 episodes of \"My Favorite Murder.\" \n\nIn total, you have listened to approximately 20-24 episodes combined from both podcasts.",
+  "prompt_length": 15635,
+  "gen_token_usage": {
+    "prompt_tokens": 3436,
+    "answer_tokens": 99,
+    "total_tokens": 3535,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.62,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 75,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.11070036888122559,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.11070036888122559,
+      "overall_average": 0.022140074521303177
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.11070036888122559,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.11070036888122559,
+    "overall_average": 0.022140074521303177
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.8068,
+    "retrieval_time": 0.6786,
+    "generation_time": 2.9602,
+    "evaluation_time": 1.1446,
+    "cleanup_time": 1.5791,
+    "total_time": 128.1702
+  }
+}

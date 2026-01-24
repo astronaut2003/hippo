@@ -1,0 +1,76 @@
+{
+  "sample_idx": 489,
+  "question_id": "c2ac3c61",
+  "question": "How many online courses have I completed in total?",
+  "question_type": "multi-session",
+  "gold_answer": 5,
+  "question_date": "2023/05/30 (Tue) 23:37",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T23:26:49.742861",
+  "predicted_answer": "You have completed a total of five online courses: three on Coursera and two on edX.",
+  "prompt_length": 22485,
+  "gen_token_usage": {
+    "prompt_tokens": 4468,
+    "answer_tokens": 20,
+    "total_tokens": 4488,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.41,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 16,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.14470946788787842,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.14470946788787842,
+      "overall_average": 0.028941893950104713
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.14470946788787842,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.14470946788787842,
+    "overall_average": 0.028941893950104713
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 118.9275,
+    "retrieval_time": 0.61,
+    "generation_time": 2.3798,
+    "evaluation_time": 1.2701,
+    "cleanup_time": 2.081,
+    "total_time": 125.2688
+  }
+}

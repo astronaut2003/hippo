@@ -1,0 +1,76 @@
+{
+  "sample_idx": 54,
+  "question_id": "65240037",
+  "question": "I remember you told me to dilute tea tree oil with a carrier oil before applying it to my skin. Can you remind me what the recommended ratio is?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "The recommended ratio is 1:10, meaning one part tea tree oil to ten parts carrier oil.",
+  "question_date": "2023/05/30 (Tue) 23:34",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T01:24:43.931620",
+  "predicted_answer": "The recommended ratio for diluting tea tree oil with a carrier oil is 1:10, meaning you should mix a few drops of tea tree oil with a carrier oil such as coconut oil, jojoba oil, or almond oil.",
+  "prompt_length": 15783,
+  "gen_token_usage": {
+    "prompt_tokens": 3604,
+    "answer_tokens": 47,
+    "total_tokens": 3651,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.75,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 16,
+      "response_length": 38,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.40816326530612246,
+      "rouge1_f": 0.42857142857142866,
+      "rouge2_f": 0.2962962962962963,
+      "rougeL_f": 0.42857142857142866,
+      "semantic_similarity": 0.7805999517440796,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.3163265306122449,
+      "avg_semantic": 0.7805999517440796,
+      "overall_average": 0.4091812074184418
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.40816326530612246,
+    "rouge1_f": 0.42857142857142866,
+    "rouge2_f": 0.2962962962962963,
+    "rougeL_f": 0.42857142857142866,
+    "semantic_similarity": 0.7805999517440796,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.3163265306122449,
+    "avg_semantic": 0.7805999517440796,
+    "overall_average": 0.4091812074184418
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 119.043,
+    "retrieval_time": 0.6601,
+    "generation_time": 2.4454,
+    "evaluation_time": 0.9737,
+    "cleanup_time": 1.5927,
+    "total_time": 124.7155
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 140,
+  "question_id": "a4996e51",
+  "question": "How many hours do I work in a typical week during peak campaign seasons?",
+  "question_type": "multi-session",
+  "gold_answer": "50",
+  "question_date": "2023/05/30 (Tue) 23:05",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T04:27:06.630785",
+  "predicted_answer": "During peak campaign seasons, you typically work up to 50 hours per week.",
+  "prompt_length": 16543,
+  "gen_token_usage": {
+    "prompt_tokens": 3550,
+    "answer_tokens": 16,
+    "total_tokens": 3566,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.71,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14285714285714288,
+      "rouge1_f": 0.14285714285714288,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.14285714285714288,
+      "semantic_similarity": 0.20077693462371826,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.10714285714285715,
+      "avg_semantic": 0.20077693462371826,
+      "overall_average": 0.12586967647075653
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14285714285714288,
+    "rouge1_f": 0.14285714285714288,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.14285714285714288,
+    "semantic_similarity": 0.20077693462371826,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.10714285714285715,
+    "avg_semantic": 0.20077693462371826,
+    "overall_average": 0.12586967647075653
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 118.3092,
+    "retrieval_time": 0.6183,
+    "generation_time": 1.9189,
+    "evaluation_time": 3.1358,
+    "cleanup_time": 1.3925,
+    "total_time": 125.3752
+  }
+}

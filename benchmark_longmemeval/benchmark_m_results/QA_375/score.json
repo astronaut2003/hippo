@@ -1,0 +1,76 @@
+{
+  "sample_idx": 375,
+  "question_id": "dcfa8644",
+  "question": "How many days had passed since I bought my Adidas running shoes when I realized one of the shoelaces on my old Converse sneakers had broken?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "14 days. 15 days (including the last day) is also acceptable.",
+  "question_date": "2023/02/03 (Fri) 05:30",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:38:54.246777",
+  "predicted_answer": "You bought your Adidas running shoes on January 10th and realized one of the shoelaces on your old Converse sneakers had broken on January 24th. Therefore, 14 days had passed between these two events.",
+  "prompt_length": 19041,
+  "gen_token_usage": {
+    "prompt_tokens": 4240,
+    "answer_tokens": 44,
+    "total_tokens": 4284,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.23,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 34,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.09523809523809523,
+      "rouge1_f": 0.13333333333333333,
+      "rouge2_f": 0.04651162790697675,
+      "rougeL_f": 0.08888888888888888,
+      "semantic_similarity": 0.34656399488449097,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.07936507936507936,
+      "avg_semantic": 0.34656399488449097,
+      "overall_average": 0.13280487060546875
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.09523809523809523,
+    "rouge1_f": 0.13333333333333333,
+    "rouge2_f": 0.04651162790697675,
+    "rougeL_f": 0.08888888888888888,
+    "semantic_similarity": 0.34656399488449097,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.07936507936507936,
+    "avg_semantic": 0.34656399488449097,
+    "overall_average": 0.13280487060546875
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 116.5466,
+    "retrieval_time": 0.77,
+    "generation_time": 2.2051,
+    "evaluation_time": 1.8947,
+    "cleanup_time": 1.4867,
+    "total_time": 122.9039
+  }
+}

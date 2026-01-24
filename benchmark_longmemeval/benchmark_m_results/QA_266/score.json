@@ -1,0 +1,76 @@
+{
+  "sample_idx": 266,
+  "question_id": "0977f2af",
+  "question": "What new kitchen gadget did I invest in before getting the Air Fryer?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Instant Pot",
+  "question_date": "2023/06/23 (Fri) 17:20",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T09:01:02.561684",
+  "predicted_answer": "You invested in a new Instant Pot before getting the Air Fryer.",
+  "prompt_length": 13208,
+  "gen_token_usage": {
+    "prompt_tokens": 2940,
+    "answer_tokens": 14,
+    "total_tokens": 2954,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.24,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 12,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.33333333333333337,
+      "rouge1_f": 0.2857142857142857,
+      "rouge2_f": 0.16666666666666669,
+      "rougeL_f": 0.2857142857142857,
+      "semantic_similarity": 0.6584746837615967,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2261904761904762,
+      "avg_semantic": 0.6584746837615967,
+      "overall_average": 0.3126473128795624
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.33333333333333337,
+    "rouge1_f": 0.2857142857142857,
+    "rouge2_f": 0.16666666666666669,
+    "rougeL_f": 0.2857142857142857,
+    "semantic_similarity": 0.6584746837615967,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2261904761904762,
+    "avg_semantic": 0.6584746837615967,
+    "overall_average": 0.3126473128795624
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 134.028,
+    "retrieval_time": 0.5876,
+    "generation_time": 3.2014,
+    "evaluation_time": 1.1358,
+    "cleanup_time": 1.4632,
+    "total_time": 140.4164
+  }
+}

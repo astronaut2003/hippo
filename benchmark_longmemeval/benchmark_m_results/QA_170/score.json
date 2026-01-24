@@ -1,0 +1,76 @@
+{
+  "sample_idx": 170,
+  "question_id": "ef9cf60a",
+  "question": "How much did I spend on gifts for my sister?",
+  "question_type": "multi-session",
+  "gold_answer": "$300",
+  "question_date": "2023/05/30 (Tue) 23:50",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T05:31:08.018221",
+  "predicted_answer": "You spent around $200 on a silver necklace for your sister's birthday and $100 on a gift card to her favorite spa. In total, you spent approximately $300 on gifts for your sister.",
+  "prompt_length": 24848,
+  "gen_token_usage": {
+    "prompt_tokens": 5636,
+    "answer_tokens": 40,
+    "total_tokens": 5676,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.3,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 33,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.06451612903225806,
+      "rouge1_f": 0.05714285714285715,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.05714285714285715,
+      "semantic_similarity": 0.2955927848815918,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.04470046082949309,
+      "avg_semantic": 0.2955927848815918,
+      "overall_average": 0.09487892687320709
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.06451612903225806,
+    "rouge1_f": 0.05714285714285715,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.05714285714285715,
+    "semantic_similarity": 0.2955927848815918,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.04470046082949309,
+    "avg_semantic": 0.2955927848815918,
+    "overall_average": 0.09487892687320709
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.1769,
+    "retrieval_time": 0.6742,
+    "generation_time": 2.8468,
+    "evaluation_time": 1.6495,
+    "cleanup_time": 1.5947,
+    "total_time": 127.9426
+  }
+}

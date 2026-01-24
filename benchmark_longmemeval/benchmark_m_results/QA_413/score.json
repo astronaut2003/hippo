@@ -1,0 +1,76 @@
+{
+  "sample_idx": 413,
+  "question_id": "32260d93",
+  "question": "Can you recommend a show or movie for me to watch tonight?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer recommendations for stand-up comedy specials on Netflix, especially those that are known for their storytelling. They may not prefer recommendations for other genres or platforms.",
+  "question_date": "2023/05/30 (Tue) 23:37",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T18:00:40.898787",
+  "predicted_answer": "Based on your interest in \"Stranger Things,\" I recommend watching **The Haunting of Hill House** for a mix of horror, drama, and mystery. If you're in the mood for something lighter, you might enjoy **Parks and Recreation** or **Brooklyn Nine-Nine** for some comedy. Let me know if you have a specific genre in mind!",
+  "prompt_length": 14803,
+  "gen_token_usage": {
+    "prompt_tokens": 3362,
+    "answer_tokens": 74,
+    "total_tokens": 3436,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.57,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 29,
+      "response_length": 54,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2105263157894737,
+      "rouge1_f": 0.20930232558139533,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.11627906976744186,
+      "semantic_similarity": 0.4398127794265747,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.13402692778457773,
+      "avg_semantic": 0.4398127794265747,
+      "overall_average": 0.19518409669399261
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2105263157894737,
+    "rouge1_f": 0.20930232558139533,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.11627906976744186,
+    "semantic_similarity": 0.4398127794265747,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.13402692778457773,
+    "avg_semantic": 0.4398127794265747,
+    "overall_average": 0.19518409669399261
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 118.9143,
+    "retrieval_time": 0.6412,
+    "generation_time": 2.0355,
+    "evaluation_time": 0.8724,
+    "cleanup_time": 1.4959,
+    "total_time": 123.9598
+  }
+}

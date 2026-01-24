@@ -1,0 +1,76 @@
+{
+  "sample_idx": 364,
+  "question_id": "gpt4_93159ced",
+  "question": "How long have I been working before I started my current job at NovaTech?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "4 years and 9 months",
+  "question_date": "2023/05/22 (Mon) 14:09",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:14:58.366021",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 18823,
+  "gen_token_usage": {
+    "prompt_tokens": 3997,
+    "answer_tokens": 10,
+    "total_tokens": 4007,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.05,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.07600533962249756,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.07600533962249756,
+      "overall_average": 0.015201067551970482
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.07600533962249756,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.07600533962249756,
+    "overall_average": 0.015201067551970482
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.5948,
+    "retrieval_time": 0.5655,
+    "generation_time": 1.4137,
+    "evaluation_time": 1.7118,
+    "cleanup_time": 1.5023,
+    "total_time": 129.7886
+  }
+}

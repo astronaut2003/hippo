@@ -1,0 +1,76 @@
+{
+  "sample_idx": 205,
+  "question_id": "ce6d2d27",
+  "question": "What day of the week do I take a cocktail-making class?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Friday",
+  "question_date": "2023/07/30 (Sun) 20:35",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T06:46:51.616969",
+  "predicted_answer": "You take a cocktail-making class on Fridays.",
+  "prompt_length": 15357,
+  "gen_token_usage": {
+    "prompt_tokens": 3494,
+    "answer_tokens": 9,
+    "total_tokens": 3503,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.67,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 7,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2857142857142857,
+      "rouge1_f": 0.2222222222222222,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.2222222222222222,
+      "semantic_similarity": 0.47226858139038086,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.18253968253968253,
+      "avg_semantic": 0.47226858139038086,
+      "overall_average": 0.24048547446727753
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2857142857142857,
+    "rouge1_f": 0.2222222222222222,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.2222222222222222,
+    "semantic_similarity": 0.47226858139038086,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.18253968253968253,
+    "avg_semantic": 0.47226858139038086,
+    "overall_average": 0.24048547446727753
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.5448,
+    "retrieval_time": 0.5995,
+    "generation_time": 2.9799,
+    "evaluation_time": 1.2257,
+    "cleanup_time": 1.5543,
+    "total_time": 127.9051
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 299,
+  "question_id": "gpt4_4fc4f797",
+  "question": "How many days passed between the day I received feedback about my car's suspension and the day I tested my new suspension setup?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "38 days. 39 days (including the last day) is also acceptable.",
+  "question_date": "2023/06/01 (Thu) 17:48",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T10:14:09.490700",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 22102,
+  "gen_token_usage": {
+    "prompt_tokens": 4853,
+    "answer_tokens": 10,
+    "total_tokens": 4863,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.7,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.0,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.0,
+      "overall_average": 0.0
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.0,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.0,
+    "overall_average": 0.0
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 126.7078,
+    "retrieval_time": 0.6193,
+    "generation_time": 2.085,
+    "evaluation_time": 0.9471,
+    "cleanup_time": 1.4499,
+    "total_time": 131.8125
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 344,
+  "question_id": "6e984302",
+  "question": "I mentioned an investment for a competition four weeks ago? What did I buy?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "I got my own set of sculpting tools.",
+  "question_date": "2023/04/01 (Sat) 06:39",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T11:54:41.770465",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 22926,
+  "gen_token_usage": {
+    "prompt_tokens": 4901,
+    "answer_tokens": 10,
+    "total_tokens": 4911,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.74,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 8,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.11764705882352941,
+      "rouge1_f": 0.11111111111111112,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.11111111111111112,
+      "semantic_similarity": 0.08904069662094116,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.08496732026143791,
+      "avg_semantic": 0.08904069662094116,
+      "overall_average": 0.0857819989323616
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.11764705882352941,
+    "rouge1_f": 0.11111111111111112,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.11111111111111112,
+    "semantic_similarity": 0.08904069662094116,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.08496732026143791,
+    "avg_semantic": 0.08904069662094116,
+    "overall_average": 0.0857819989323616
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 127.6041,
+    "retrieval_time": 0.7418,
+    "generation_time": 3.4867,
+    "evaluation_time": 1.1538,
+    "cleanup_time": 1.6445,
+    "total_time": 134.6313
+  }
+}

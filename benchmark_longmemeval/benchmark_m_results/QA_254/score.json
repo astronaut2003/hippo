@@ -1,0 +1,76 @@
+{
+  "sample_idx": 254,
+  "question_id": "a2f3aa27",
+  "question": "How many followers do I have on Instagram now?",
+  "question_type": "knowledge-update",
+  "gold_answer": 1300,
+  "question_date": "2023/06/12 (Mon) 10:53",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:32:51.621495",
+  "predicted_answer": "You have 1250 followers on Instagram now.",
+  "prompt_length": 27500,
+  "gen_token_usage": {
+    "prompt_tokens": 5845,
+    "answer_tokens": 10,
+    "total_tokens": 5855,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.46,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 7,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.28470683097839355,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.28470683097839355,
+      "overall_average": 0.05694136768579483
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.28470683097839355,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.28470683097839355,
+    "overall_average": 0.05694136768579483
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.8591,
+    "retrieval_time": 0.7186,
+    "generation_time": 1.7709,
+    "evaluation_time": 1.0991,
+    "cleanup_time": 1.5235,
+    "total_time": 129.9715
+  }
+}

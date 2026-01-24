@@ -1,0 +1,76 @@
+{
+  "sample_idx": 446,
+  "question_id": "gpt4_f2262a51",
+  "question": "How many different doctors did I visit?",
+  "question_type": "multi-session",
+  "gold_answer": "I visited three different doctors: a primary care physician, an ENT specialist, and a dermatologist.",
+  "question_date": "2023/05/30 (Tue) 23:48",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T19:17:49.769054",
+  "predicted_answer": "You visited at least three different doctors: Dr. Patel, your primary care physician, and Dr. Lee.",
+  "prompt_length": 10923,
+  "gen_token_usage": {
+    "prompt_tokens": 2565,
+    "answer_tokens": 22,
+    "total_tokens": 2587,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.96,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 15,
+      "response_length": 16,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.5384615384615385,
+      "rouge1_f": 0.5161290322580646,
+      "rouge2_f": 0.2758620689655172,
+      "rougeL_f": 0.5161290322580646,
+      "semantic_similarity": 0.678101122379303,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.39267990074441694,
+      "avg_semantic": 0.678101122379303,
+      "overall_average": 0.4497641623020172
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.5384615384615385,
+    "rouge1_f": 0.5161290322580646,
+    "rouge2_f": 0.2758620689655172,
+    "rougeL_f": 0.5161290322580646,
+    "semantic_similarity": 0.678101122379303,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.39267990074441694,
+    "avg_semantic": 0.678101122379303,
+    "overall_average": 0.4497641623020172
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 135.4186,
+    "retrieval_time": 0.6484,
+    "generation_time": 1.7166,
+    "evaluation_time": 1.0149,
+    "cleanup_time": 1.6168,
+    "total_time": 140.416
+  }
+}

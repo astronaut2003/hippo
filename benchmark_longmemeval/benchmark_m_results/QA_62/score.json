@@ -1,0 +1,76 @@
+{
+  "sample_idx": 62,
+  "question_id": "6ade9755",
+  "question": "Where do I take yoga classes?",
+  "question_type": "single-session-user",
+  "gold_answer": "Serenity Yoga",
+  "question_date": "2023/05/30 (Tue) 23:20",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T01:41:30.009546",
+  "predicted_answer": "To find yoga classes, you can try the following methods:\n\n1. **Google Search**: Type \"yoga studios near me\" or \"yoga classes near me\" to see nearby options with addresses and reviews.\n2. **Yoga Studio Directories**: Use websites like YogaFinder or YogaStudioFinder to search for studios in your area.\n3. **Yelp**: Check Yelp for reviews and ratings of local yoga studios.\n4. **Social Media**: Look for local yoga groups on Facebook for recommendations.\n5. **Ask Around**: Talk to friends, family, or coworkers for personal recommendations.\n\nWhen searching, consider looking for beginner-friendly classes and studios with flexible schedules to suit your needs.",
+  "prompt_length": 21192,
+  "gen_token_usage": {
+    "prompt_tokens": 4703,
+    "answer_tokens": 143,
+    "total_tokens": 4846,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.59,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 100,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.020408163265306124,
+      "rouge1_f": 0.019417475728155338,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.019417475728155338,
+      "semantic_similarity": 0.5205052495002747,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0148107786804042,
+      "avg_semantic": 0.5205052495002747,
+      "overall_average": 0.11594967544078827
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.020408163265306124,
+    "rouge1_f": 0.019417475728155338,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.019417475728155338,
+    "semantic_similarity": 0.5205052495002747,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0148107786804042,
+    "avg_semantic": 0.5205052495002747,
+    "overall_average": 0.11594967544078827
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 119.4073,
+    "retrieval_time": 0.6214,
+    "generation_time": 4.9913,
+    "evaluation_time": 0.8451,
+    "cleanup_time": 1.5459,
+    "total_time": 127.4123
+  }
+}

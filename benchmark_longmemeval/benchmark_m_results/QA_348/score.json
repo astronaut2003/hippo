@@ -1,0 +1,76 @@
+{
+  "sample_idx": 348,
+  "question_id": "gpt4_2655b836",
+  "question": "What was the first issue I had with my new car after its first service?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "GPS system not functioning correctly",
+  "question_date": "2023/04/10 (Mon) 11:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T12:03:31.599765",
+  "predicted_answer": "The first issue you had with your new car after its first service was with the GPS system, which occurred on March 22nd.",
+  "prompt_length": 15315,
+  "gen_token_usage": {
+    "prompt_tokens": 3352,
+    "answer_tokens": 27,
+    "total_tokens": 3379,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.56,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 23,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.15384615384615385,
+      "rouge1_f": 0.14285714285714285,
+      "rouge2_f": 0.07692307692307693,
+      "rougeL_f": 0.14285714285714285,
+      "semantic_similarity": 0.5258512496948242,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.10989010989010989,
+      "avg_semantic": 0.5258512496948242,
+      "overall_average": 0.19308233261108398
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.15384615384615385,
+    "rouge1_f": 0.14285714285714285,
+    "rouge2_f": 0.07692307692307693,
+    "rougeL_f": 0.14285714285714285,
+    "semantic_similarity": 0.5258512496948242,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.10989010989010989,
+    "avg_semantic": 0.5258512496948242,
+    "overall_average": 0.19308233261108398
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 133.7693,
+    "retrieval_time": 0.6157,
+    "generation_time": 2.0061,
+    "evaluation_time": 0.7464,
+    "cleanup_time": 1.6552,
+    "total_time": 138.7933
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 414,
+  "question_id": "195a1a1b",
+  "question": "Can you suggest some activities that I can do in the evening?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer suggestions that involve relaxing activities that can be done in the evening, preferably before 9:30 pm. They would not prefer suggestions that involve using their phone or watching TV, as these activities have been affecting their sleep quality.",
+  "question_date": "2023/05/30 (Tue) 23:40",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T18:02:44.860218",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 10020,
+  "gen_token_usage": {
+    "prompt_tokens": 2243,
+    "answer_tokens": 10,
+    "total_tokens": 2253,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.71,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 42,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.04081632653061225,
+      "rouge1_f": 0.03773584905660377,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.03773584905660377,
+      "semantic_similarity": 0.0,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.029072006160954948,
+      "avg_semantic": 0.0,
+      "overall_average": 0.02325760492876396
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.04081632653061225,
+    "rouge1_f": 0.03773584905660377,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.03773584905660377,
+    "semantic_similarity": 0.0,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.029072006160954948,
+    "avg_semantic": 0.0,
+    "overall_average": 0.02325760492876396
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.0483,
+    "retrieval_time": 0.5056,
+    "generation_time": 1.4331,
+    "evaluation_time": 0.9261,
+    "cleanup_time": 1.5485,
+    "total_time": 125.462
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 432,
+  "question_id": "a89d7624",
+  "question": "I'm planning a trip to Denver soon. Any suggestions on what to do there?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that take into account their previous experience in Denver, specifically their interest in live music and memorable encounter with Brandon Flowers. They might appreciate suggestions that revisit or build upon this experience, such as revisiting the same bar or exploring similar music venues in the area. The user may not prefer general tourist recommendations or activities unrelated to their interest in live music.",
+  "question_date": "2023/05/30 (Tue) 23:29",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T18:41:53.542429",
+  "predicted_answer": "You should definitely explore Denver's vibrant music scene! Here are some must-visit music venues and festivals:\n\n**Music Venues:**\n1. **Red Rocks Park and Amphitheatre**: An iconic venue known for its stunning natural acoustics and beautiful surroundings.\n2. **The Ogden Theatre**: A historic venue in LoDo that hosts a variety of indie and rock acts.\n3. **The Bluebird Theater**: Offers a unique atmosphere with a diverse lineup of performances.\n4. **The Fillmore Auditorium**: A legendary venue featuring a wide range of genres.\n5. **Larimer Lounge**: A cozy spot perfect for discovering new talent.\n\n**Music Festivals:**\n1. **Grandoozy**: Features a diverse lineup of acts across various genres.\n2. **Denver Folk Festival**: A must-visit for fans of folk and bluegrass music.\n3. **Denver Jazz Festival**: Celebrates jazz with local and national acts.\n4. **Westword Music Showcase**: A one-day festival showcasing local and national talent.\n5. **Riot Fest Denver**: A punk and alternative music festival held in September.\n\nEnjoy your trip and the music scene in Denver!",
+  "prompt_length": 20323,
+  "gen_token_usage": {
+    "prompt_tokens": 4533,
+    "answer_tokens": 243,
+    "total_tokens": 4776,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.46,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 68,
+      "response_length": 163,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.10945273631840796,
+      "rouge1_f": 0.13617021276595745,
+      "rouge2_f": 0.02575107296137339,
+      "rougeL_f": 0.0851063829787234,
+      "semantic_similarity": 0.48824071884155273,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0826823330157722,
+      "avg_semantic": 0.48824071884155273,
+      "overall_average": 0.16379401087760925
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.10945273631840796,
+    "rouge1_f": 0.13617021276595745,
+    "rouge2_f": 0.02575107296137339,
+    "rougeL_f": 0.0851063829787234,
+    "semantic_similarity": 0.48824071884155273,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0826823330157722,
+    "avg_semantic": 0.48824071884155273,
+    "overall_average": 0.16379401087760925
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 133.381,
+    "retrieval_time": 0.589,
+    "generation_time": 8.9152,
+    "evaluation_time": 1.6662,
+    "cleanup_time": 1.6995,
+    "total_time": 146.2518
+  }
+}

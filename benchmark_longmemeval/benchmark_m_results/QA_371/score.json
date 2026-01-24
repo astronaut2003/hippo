@@ -1,0 +1,76 @@
+{
+  "sample_idx": 371,
+  "question_id": "gpt4_483dd43c",
+  "question": "Which show did I start watching first, 'The Crown' or 'Game of Thrones'?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "'Game of Thrones'",
+  "question_date": "2023/05/20 (Sat) 13:28",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:30:17.763523",
+  "predicted_answer": "You started watching \"Game of Thrones\" about a month ago and finished the first four seasons, while you binge-watched \"The Crown\" and finished the entire season in just 14 days. Therefore, you started watching \"Game of Thrones\" first.",
+  "prompt_length": 18374,
+  "gen_token_usage": {
+    "prompt_tokens": 4172,
+    "answer_tokens": 51,
+    "total_tokens": 4223,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.18,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 38,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.17142857142857143,
+      "rouge1_f": 0.14285714285714288,
+      "rouge2_f": 0.1,
+      "rougeL_f": 0.14285714285714288,
+      "semantic_similarity": 0.5304246544837952,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1142857142857143,
+      "avg_semantic": 0.5304246544837952,
+      "overall_average": 0.19751350581645966
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.17142857142857143,
+    "rouge1_f": 0.14285714285714288,
+    "rouge2_f": 0.1,
+    "rougeL_f": 0.14285714285714288,
+    "semantic_similarity": 0.5304246544837952,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1142857142857143,
+    "avg_semantic": 0.5304246544837952,
+    "overall_average": 0.19751350581645966
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.6192,
+    "retrieval_time": 0.5717,
+    "generation_time": 2.2458,
+    "evaluation_time": 1.075,
+    "cleanup_time": 1.3035,
+    "total_time": 127.8157
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 428,
+  "question_id": "d6233ab6",
+  "question": "I've been feeling nostalgic lately. Do you think it would be a good idea to attend my high school reunion?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that draw upon their personal experiences and memories, specifically their positive high school experiences such as being part of the debate team and taking advanced placement courses. They would prefer suggestions that highlight the potential benefits of attending the reunion, such as reconnecting with old friends and revisiting favorite subjects like history and economics. The user might not prefer generic or vague responses that do not take into account their individual experiences and interests.",
+  "question_date": "2023/05/30 (Tue) 22:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T18:33:16.438162",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 12266,
+  "gen_token_usage": {
+    "prompt_tokens": 2723,
+    "answer_tokens": 10,
+    "total_tokens": 2733,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.08,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 79,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.11771678924560547,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.11771678924560547,
+      "overall_average": 0.023543357849121094
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.11771678924560547,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.11771678924560547,
+    "overall_average": 0.023543357849121094
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 118.0297,
+    "retrieval_time": 1.7118,
+    "generation_time": 1.7149,
+    "evaluation_time": 1.7223,
+    "cleanup_time": 1.544,
+    "total_time": 124.7234
+  }
+}

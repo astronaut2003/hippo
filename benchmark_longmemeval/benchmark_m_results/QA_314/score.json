@@ -1,0 +1,76 @@
+{
+  "sample_idx": 314,
+  "question_id": "bcbe585f",
+  "question": "How many weeks ago did I attend a bird watching workshop at the local Audubon society?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": 4,
+  "question_date": "2023/05/01 (Mon) 00:13",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T10:48:29.407158",
+  "predicted_answer": "You attended the bird watching workshop at the local Audubon society today, which means it was on the same day as your inquiry about the wildlife refuge. Therefore, you attended the workshop today, and there are no weeks to count.",
+  "prompt_length": 11036,
+  "gen_token_usage": {
+    "prompt_tokens": 2594,
+    "answer_tokens": 46,
+    "total_tokens": 2640,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.98,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 40,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.1924465298652649,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.1924465298652649,
+      "overall_average": 0.03848930448293686
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.1924465298652649,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.1924465298652649,
+    "overall_average": 0.03848930448293686
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.7405,
+    "retrieval_time": 0.6583,
+    "generation_time": 3.0286,
+    "evaluation_time": 1.3966,
+    "cleanup_time": 1.5709,
+    "total_time": 132.3956
+  }
+}

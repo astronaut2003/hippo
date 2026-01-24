@@ -1,0 +1,76 @@
+{
+  "sample_idx": 264,
+  "question_id": "c6853660",
+  "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+  "question_type": "knowledge-update",
+  "gold_answer": "You increased the limit (from one cup to two cups)",
+  "question_date": "2023/05/27 (Sat) 00:26",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:55:57.562640",
+  "predicted_answer": "You recently decreased your morning coffee limit to just one cup, which has been helping you feel more focused.",
+  "prompt_length": 20804,
+  "gen_token_usage": {
+    "prompt_tokens": 4575,
+    "answer_tokens": 21,
+    "total_tokens": 4596,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.49,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 10,
+      "response_length": 19,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.35714285714285715,
+      "rouge1_f": 0.3448275862068966,
+      "rouge2_f": 0.07407407407407407,
+      "rougeL_f": 0.27586206896551724,
+      "semantic_similarity": 0.550482451915741,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.24445812807881775,
+      "avg_semantic": 0.550482451915741,
+      "overall_average": 0.30566298961639404
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.35714285714285715,
+    "rouge1_f": 0.3448275862068966,
+    "rouge2_f": 0.07407407407407407,
+    "rougeL_f": 0.27586206896551724,
+    "semantic_similarity": 0.550482451915741,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.24445812807881775,
+    "avg_semantic": 0.550482451915741,
+    "overall_average": 0.30566298961639404
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 143.7404,
+    "retrieval_time": 0.7028,
+    "generation_time": 2.0973,
+    "evaluation_time": 1.3186,
+    "cleanup_time": 1.9495,
+    "total_time": 149.8092
+  }
+}

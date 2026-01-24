@@ -1,0 +1,76 @@
+{
+  "sample_idx": 472,
+  "question_id": "2788b940",
+  "question": "How many fitness classes do I attend in a typical week?",
+  "question_type": "multi-session",
+  "gold_answer": 5,
+  "question_date": "2023/05/30 (Tue) 23:26",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T22:50:55.346343",
+  "predicted_answer": "Based on the information provided in the memories, you typically attend spin classes and Zumba classes, but the exact number of fitness classes you attend in a typical week is not specified. Therefore, I don't have enough information to answer this question.",
+  "prompt_length": 18907,
+  "gen_token_usage": {
+    "prompt_tokens": 4220,
+    "answer_tokens": 48,
+    "total_tokens": 4268,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.22,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 42,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.10488969087600708,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.10488969087600708,
+      "overall_average": 0.020977938547730446
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.10488969087600708,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.10488969087600708,
+    "overall_average": 0.020977938547730446
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 116.7734,
+    "retrieval_time": 0.5901,
+    "generation_time": 3.865,
+    "evaluation_time": 1.4614,
+    "cleanup_time": 1.4568,
+    "total_time": 124.1475
+  }
+}

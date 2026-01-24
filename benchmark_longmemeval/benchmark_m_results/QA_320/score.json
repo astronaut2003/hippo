@@ -1,0 +1,76 @@
+{
+  "sample_idx": 320,
+  "question_id": "gpt4_7ddcf75f",
+  "question": "How many days ago did I go on a whitewater rafting trip in the Oregon mountains?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "3 days ago. 4 days (including the last day) is also acceptable.",
+  "question_date": "2023/06/20 (Tue) 11:37",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T11:01:43.619942",
+  "predicted_answer": "You mentioned that you just got back from an amazing whitewater rafting trip in the Oregon mountains today. Therefore, you went on the trip today.",
+  "prompt_length": 14560,
+  "gen_token_usage": {
+    "prompt_tokens": 3216,
+    "answer_tokens": 29,
+    "total_tokens": 3245,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.45,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 12,
+      "response_length": 25,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.05405405405405406,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.05405405405405406,
+      "semantic_similarity": 0.2787742614746094,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.02702702702702703,
+      "avg_semantic": 0.2787742614746094,
+      "overall_average": 0.07737646996974945
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.05405405405405406,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.05405405405405406,
+    "semantic_similarity": 0.2787742614746094,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.02702702702702703,
+    "avg_semantic": 0.2787742614746094,
+    "overall_average": 0.07737646996974945
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.3183,
+    "retrieval_time": 0.6939,
+    "generation_time": 4.4337,
+    "evaluation_time": 1.0249,
+    "cleanup_time": 1.5385,
+    "total_time": 133.0102
+  }
+}

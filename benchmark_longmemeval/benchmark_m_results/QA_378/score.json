@@ -1,0 +1,76 @@
+{
+  "sample_idx": 378,
+  "question_id": "cc6d1ec1",
+  "question": "How long had I been bird watching when I attended the bird watching workshop?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Two months",
+  "question_date": "2023/05/23 (Tue) 00:45",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:45:15.196330",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 20496,
+  "gen_token_usage": {
+    "prompt_tokens": 4387,
+    "answer_tokens": 10,
+    "total_tokens": 4397,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.35,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.06299829483032227,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.06299829483032227,
+      "overall_average": 0.012599659152328968
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.06299829483032227,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.06299829483032227,
+    "overall_average": 0.012599659152328968
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.4329,
+    "retrieval_time": 0.5685,
+    "generation_time": 1.5599,
+    "evaluation_time": 1.1043,
+    "cleanup_time": 1.629,
+    "total_time": 127.2949
+  }
+}

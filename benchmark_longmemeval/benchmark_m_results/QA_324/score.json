@@ -1,0 +1,76 @@
+{
+  "sample_idx": 324,
+  "question_id": "gpt4_68e94287",
+  "question": "Which event happened first, my participation in the #PlankChallenge or my post about vegan chili recipe?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "You posted a recipe for vegan chili on Instagram using the hashtag #FoodieAdventures first.",
+  "question_date": "2023/04/12 (Wed) 13:53",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T11:10:32.549099",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 15083,
+  "gen_token_usage": {
+    "prompt_tokens": 3662,
+    "answer_tokens": 10,
+    "total_tokens": 3672,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.79,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 14,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.0930219292640686,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.0930219292640686,
+      "overall_average": 0.01860438659787178
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.0930219292640686,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.0930219292640686,
+    "overall_average": 0.01860438659787178
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 123.8483,
+    "retrieval_time": 0.62,
+    "generation_time": 1.9697,
+    "evaluation_time": 2.3425,
+    "cleanup_time": 1.594,
+    "total_time": 130.3753
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 394,
+  "question_id": "gpt4_0a05b494",
+  "question": "Who did I meet first, the woman selling jam at the farmer's market or the tourist from Australia?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "the woman selling jam at the farmer's market",
+  "question_date": "2023/05/25 (Thu) 02:36",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T17:19:46.833247",
+  "predicted_answer": "You met the tourist from Australia first, last Thursday, and then you met the woman selling jam at the farmer's market two weeks ago on a Saturday morning.",
+  "prompt_length": 16601,
+  "gen_token_usage": {
+    "prompt_tokens": 3687,
+    "answer_tokens": 32,
+    "total_tokens": 3719,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.81,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 8,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.41379310344827586,
+      "rouge1_f": 0.4736842105263158,
+      "rouge2_f": 0.4444444444444445,
+      "rougeL_f": 0.4736842105263158,
+      "semantic_similarity": 0.5069928169250488,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.3402903811252269,
+      "avg_semantic": 0.5069928169250488,
+      "overall_average": 0.3736308515071869
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.41379310344827586,
+    "rouge1_f": 0.4736842105263158,
+    "rouge2_f": 0.4444444444444445,
+    "rougeL_f": 0.4736842105263158,
+    "semantic_similarity": 0.5069928169250488,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.3402903811252269,
+    "avg_semantic": 0.5069928169250488,
+    "overall_average": 0.3736308515071869
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 123.6663,
+    "retrieval_time": 0.7151,
+    "generation_time": 2.3159,
+    "evaluation_time": 1.0559,
+    "cleanup_time": 1.4913,
+    "total_time": 129.2452
+  }
+}

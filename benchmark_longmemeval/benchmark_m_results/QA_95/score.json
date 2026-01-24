@@ -1,0 +1,76 @@
+{
+  "sample_idx": 95,
+  "question_id": "ec81a493",
+  "question": "How many copies of my favorite artist's debut album were released worldwide?",
+  "question_type": "single-session-user",
+  "gold_answer": "500",
+  "question_date": "2023/05/30 (Tue) 22:26",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T02:50:59.207078",
+  "predicted_answer": "Your favorite artist's debut album was released in a limited edition of only 500 copies worldwide.",
+  "prompt_length": 11575,
+  "gen_token_usage": {
+    "prompt_tokens": 2704,
+    "answer_tokens": 19,
+    "total_tokens": 2723,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.06,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 16,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.125,
+      "rouge1_f": 0.1111111111111111,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.1111111111111111,
+      "semantic_similarity": 0.22884905338287354,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.08680555555555555,
+      "avg_semantic": 0.22884905338287354,
+      "overall_average": 0.11521425098180771
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.125,
+    "rouge1_f": 0.1111111111111111,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.1111111111111111,
+    "semantic_similarity": 0.22884905338287354,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.08680555555555555,
+    "avg_semantic": 0.22884905338287354,
+    "overall_average": 0.11521425098180771
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.0164,
+    "retrieval_time": 0.6852,
+    "generation_time": 1.5667,
+    "evaluation_time": 0.761,
+    "cleanup_time": 1.6566,
+    "total_time": 128.6867
+  }
+}

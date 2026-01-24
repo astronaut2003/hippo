@@ -1,0 +1,76 @@
+{
+  "sample_idx": 270,
+  "question_id": "2133c1b5_abs",
+  "question": "How long have I been living in my current apartment in Shinjuku?",
+  "question_type": "knowledge-update",
+  "gold_answer": "The information provided is not enough. You mentioned living in Harajuku but not Shinjuku.",
+  "question_date": "2023/10/15 (Sun) 14:59",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T09:10:18.328904",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 27604,
+  "gen_token_usage": {
+    "prompt_tokens": 6348,
+    "answer_tokens": 10,
+    "total_tokens": 6358,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.84,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 14,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.18181818181818185,
+      "rouge1_f": 0.16666666666666666,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.08333333333333333,
+      "semantic_similarity": 0.16872596740722656,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.10795454545454546,
+      "avg_semantic": 0.16872596740722656,
+      "overall_average": 0.12010882794857025
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.18181818181818185,
+    "rouge1_f": 0.16666666666666666,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.08333333333333333,
+    "semantic_similarity": 0.16872596740722656,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.10795454545454546,
+    "avg_semantic": 0.16872596740722656,
+    "overall_average": 0.12010882794857025
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 130.6087,
+    "retrieval_time": 0.639,
+    "generation_time": 4.5382,
+    "evaluation_time": 1.0059,
+    "cleanup_time": 1.6429,
+    "total_time": 138.4352
+  }
+}

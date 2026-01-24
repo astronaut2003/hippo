@@ -1,0 +1,76 @@
+{
+  "sample_idx": 77,
+  "question_id": "8ebdbe50",
+  "question": "What certification did I complete last month?",
+  "question_type": "single-session-user",
+  "gold_answer": "Data Science",
+  "question_date": "2023/05/30 (Tue) 23:06",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T02:13:00.530662",
+  "predicted_answer": "You completed a certification in Data Science last month.",
+  "prompt_length": 28997,
+  "gen_token_usage": {
+    "prompt_tokens": 5926,
+    "answer_tokens": 10,
+    "total_tokens": 5936,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.52,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.4,
+      "rouge1_f": 0.3636363636363636,
+      "rouge2_f": 0.2222222222222222,
+      "rougeL_f": 0.3636363636363636,
+      "semantic_similarity": 0.5106819868087769,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2818181818181818,
+      "avg_semantic": 0.5106819868087769,
+      "overall_average": 0.3275909423828125
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.4,
+    "rouge1_f": 0.3636363636363636,
+    "rouge2_f": 0.2222222222222222,
+    "rougeL_f": 0.3636363636363636,
+    "semantic_similarity": 0.5106819868087769,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2818181818181818,
+    "avg_semantic": 0.5106819868087769,
+    "overall_average": 0.3275909423828125
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.3523,
+    "retrieval_time": 0.5876,
+    "generation_time": 2.6474,
+    "evaluation_time": 1.0854,
+    "cleanup_time": 1.5739,
+    "total_time": 130.2473
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 325,
+  "question_id": "gpt4_e414231e",
+  "question": "How many days passed between the day I fixed my mountain bike and the day I decided to upgrade my road bike's pedals?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "4 days. 5 days (including the last day) is also acceptable.",
+  "question_date": "2023/04/10 (Mon) 13:01",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T11:12:42.927293",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 16712,
+  "gen_token_usage": {
+    "prompt_tokens": 3718,
+    "answer_tokens": 10,
+    "total_tokens": 3728,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.84,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.014966130256652832,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.014966130256652832,
+      "overall_average": 0.0029932260513305664
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.014966130256652832,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.014966130256652832,
+    "overall_average": 0.0029932260513305664
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.3586,
+    "retrieval_time": 0.7011,
+    "generation_time": 1.718,
+    "evaluation_time": 1.992,
+    "cleanup_time": 1.5529,
+    "total_time": 131.3235
+  }
+}

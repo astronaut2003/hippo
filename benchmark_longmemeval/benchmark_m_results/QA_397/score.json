@@ -1,0 +1,76 @@
+{
+  "sample_idx": 397,
+  "question_id": "gpt4_213fd887",
+  "question": "Which event did I participate in first, the volleyball league or the charity 5K run to raise money for a local children's hospital?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "volleyball league",
+  "question_date": "2023/05/24 (Wed) 20:50",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T17:26:18.402393",
+  "predicted_answer": "You participated in the charity 5K run to raise money for a local children's hospital about a month ago, but there is no mention of when you started playing volleyball or if you were involved in a volleyball league. Therefore, I don't have enough information to answer this question.",
+  "prompt_length": 27288,
+  "gen_token_usage": {
+    "prompt_tokens": 5738,
+    "answer_tokens": 55,
+    "total_tokens": 5793,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.38,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 49,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.0851063829787234,
+      "rouge1_f": 0.07547169811320754,
+      "rouge2_f": 0.0392156862745098,
+      "rougeL_f": 0.07547169811320754,
+      "semantic_similarity": 0.5102603435516357,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.05901244480128462,
+      "avg_semantic": 0.5102603435516357,
+      "overall_average": 0.14926202595233917
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.0851063829787234,
+    "rouge1_f": 0.07547169811320754,
+    "rouge2_f": 0.0392156862745098,
+    "rougeL_f": 0.07547169811320754,
+    "semantic_similarity": 0.5102603435516357,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.05901244480128462,
+    "avg_semantic": 0.5102603435516357,
+    "overall_average": 0.14926202595233917
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.7917,
+    "retrieval_time": 0.6247,
+    "generation_time": 2.1744,
+    "evaluation_time": 2.0106,
+    "cleanup_time": 1.5074,
+    "total_time": 128.1091
+  }
+}

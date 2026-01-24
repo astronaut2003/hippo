@@ -1,0 +1,76 @@
+{
+  "sample_idx": 309,
+  "question_id": "6e984301",
+  "question": "How many weeks have I been taking sculpting classes when I invested in my own set of sculpting tools?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": 3,
+  "question_date": "2023/04/01 (Sat) 08:34",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T10:37:36.276014",
+  "predicted_answer": "You have been taking sculpting classes for 6 weeks when you invested in your own set of sculpting tools.",
+  "prompt_length": 21625,
+  "gen_token_usage": {
+    "prompt_tokens": 4603,
+    "answer_tokens": 23,
+    "total_tokens": 4626,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.51,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 19,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.12462681531906128,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.12462681531906128,
+      "overall_average": 0.024925362318754196
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.12462681531906128,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.12462681531906128,
+    "overall_average": 0.024925362318754196
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 130.0084,
+    "retrieval_time": 0.7636,
+    "generation_time": 3.1855,
+    "evaluation_time": 0.978,
+    "cleanup_time": 1.5986,
+    "total_time": 136.5347
+  }
+}

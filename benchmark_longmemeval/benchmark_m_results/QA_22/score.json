@@ -1,0 +1,76 @@
+{
+  "sample_idx": 22,
+  "question_id": "2bf43736",
+  "question": "I was going through our previous chat and I wanted to clarify something about the prayer of beginners in Tanqueray's Spiritual Life treatise. Can you remind me which chapter of the second part discusses vocal prayer and meditation?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Chapter 4 of Book 1, titled 'Vocal Prayer and Meditation'.",
+  "question_date": "2023/05/30 (Tue) 23:25",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-09T23:44:09.625673",
+  "predicted_answer": "Chapter 4 of Book 1 in Adolphe Tanqueray's Spiritual Life treatise discusses vocal prayer and meditation, specifically focusing on the prayer of beginners.",
+  "prompt_length": 31964,
+  "gen_token_usage": {
+    "prompt_tokens": 6644,
+    "answer_tokens": 33,
+    "total_tokens": 6677,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 5.07,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 10,
+      "response_length": 23,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.5333333333333333,
+      "rouge1_f": 0.5294117647058825,
+      "rouge2_f": 0.43750000000000006,
+      "rougeL_f": 0.5294117647058825,
+      "semantic_similarity": 0.7555609941482544,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.3980392156862746,
+      "avg_semantic": 0.7555609941482544,
+      "overall_average": 0.46954354643821716
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.5333333333333333,
+    "rouge1_f": 0.5294117647058825,
+    "rouge2_f": 0.43750000000000006,
+    "rougeL_f": 0.5294117647058825,
+    "semantic_similarity": 0.7555609941482544,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.3980392156862746,
+    "avg_semantic": 0.7555609941482544,
+    "overall_average": 0.46954354643821716
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 118.4805,
+    "retrieval_time": 0.6144,
+    "generation_time": 2.1741,
+    "evaluation_time": 7.5789,
+    "cleanup_time": 1.323,
+    "total_time": 130.1716
+  }
+}

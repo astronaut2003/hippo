@@ -1,0 +1,76 @@
+{
+  "sample_idx": 376,
+  "question_id": "gpt4_b4a80587",
+  "question": "Which event happened first, the road trip to the coast or the arrival of the new prime lens?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "The arrival of the new prime lens",
+  "question_date": "2023/05/30 (Tue) 10:46",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:40:57.152322",
+  "predicted_answer": "The arrival of the new prime lens happened before the road trip to the coast. You mentioned using the lens on the coastal trip, indicating that you had it prior to that trip.",
+  "prompt_length": 12891,
+  "gen_token_usage": {
+    "prompt_tokens": 2905,
+    "answer_tokens": 36,
+    "total_tokens": 2941,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.22,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 7,
+      "response_length": 33,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3125,
+      "rouge1_f": 0.35,
+      "rouge2_f": 0.3157894736842105,
+      "rougeL_f": 0.35,
+      "semantic_similarity": 0.6923065185546875,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.253125,
+      "avg_semantic": 0.6923065185546875,
+      "overall_average": 0.3409613072872162
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3125,
+    "rouge1_f": 0.35,
+    "rouge2_f": 0.3157894736842105,
+    "rougeL_f": 0.35,
+    "semantic_similarity": 0.6923065185546875,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.253125,
+    "avg_semantic": 0.6923065185546875,
+    "overall_average": 0.3409613072872162
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.6635,
+    "retrieval_time": 0.6362,
+    "generation_time": 1.8876,
+    "evaluation_time": 1.7385,
+    "cleanup_time": 1.461,
+    "total_time": 127.3873
+  }
+}

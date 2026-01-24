@@ -1,0 +1,76 @@
+{
+  "sample_idx": 214,
+  "question_id": "f9e8c073",
+  "question": "How many sessions of the bereavement support group did I attend?",
+  "question_type": "knowledge-update",
+  "gold_answer": "five",
+  "question_date": "2023/10/31 (Tue) 18:51",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T07:06:09.056263",
+  "predicted_answer": "You attended five sessions of the bereavement support group.",
+  "prompt_length": 26405,
+  "gen_token_usage": {
+    "prompt_tokens": 5560,
+    "answer_tokens": 12,
+    "total_tokens": 5572,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.24,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2222222222222222,
+      "rouge1_f": 0.19999999999999998,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.19999999999999998,
+      "semantic_similarity": 0.3167555332183838,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.15555555555555553,
+      "avg_semantic": 0.3167555332183838,
+      "overall_average": 0.18779554963111877
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2222222222222222,
+    "rouge1_f": 0.19999999999999998,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.19999999999999998,
+    "semantic_similarity": 0.3167555332183838,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.15555555555555553,
+    "avg_semantic": 0.3167555332183838,
+    "overall_average": 0.18779554963111877
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 126.3659,
+    "retrieval_time": 0.7059,
+    "generation_time": 12.1707,
+    "evaluation_time": 1.1662,
+    "cleanup_time": 1.6322,
+    "total_time": 142.0415
+  }
+}

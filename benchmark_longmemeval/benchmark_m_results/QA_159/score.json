@@ -1,0 +1,76 @@
+{
+  "sample_idx": 159,
+  "question_id": "92a0aa75",
+  "question": "How long have I been working in my current role?",
+  "question_type": "multi-session",
+  "gold_answer": "1 year and 5 months",
+  "question_date": "2023/05/30 (Tue) 23:11",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T05:07:37.458403",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 25619,
+  "gen_token_usage": {
+    "prompt_tokens": 5580,
+    "answer_tokens": 10,
+    "total_tokens": 5590,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.26,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.09054684638977051,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.09054684638977051,
+      "overall_average": 0.01810937002301216
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.09054684638977051,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.09054684638977051,
+    "overall_average": 0.01810937002301216
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.7709,
+    "retrieval_time": 0.6851,
+    "generation_time": 2.748,
+    "evaluation_time": 2.0374,
+    "cleanup_time": 1.62,
+    "total_time": 131.8618
+  }
+}

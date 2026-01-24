@@ -1,0 +1,76 @@
+{
+  "sample_idx": 12,
+  "question_id": "cc539528",
+  "question": "I wanted to follow up on our previous conversation about front-end and back-end development. Can you remind me of the specific back-end programming languages you recommended I learn?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "I recommended learning Ruby, Python, or PHP as a back-end programming language.",
+  "question_date": "2023/05/30 (Tue) 23:54",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-09T23:23:27.360165",
+  "predicted_answer": "The specific back-end programming languages I recommended you learn are Ruby, Python, and PHP.",
+  "prompt_length": 19208,
+  "gen_token_usage": {
+    "prompt_tokens": 3988,
+    "answer_tokens": 18,
+    "total_tokens": 4006,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.04,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 12,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.7826086956521738,
+      "rouge1_f": 0.7142857142857142,
+      "rouge2_f": 0.3846153846153846,
+      "rougeL_f": 0.42857142857142855,
+      "semantic_similarity": 0.9129859209060669,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.48136645962732916,
+      "avg_semantic": 0.9129859209060669,
+      "overall_average": 0.567690372467041
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.7826086956521738,
+    "rouge1_f": 0.7142857142857142,
+    "rouge2_f": 0.3846153846153846,
+    "rougeL_f": 0.42857142857142855,
+    "semantic_similarity": 0.9129859209060669,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.48136645962732916,
+    "avg_semantic": 0.9129859209060669,
+    "overall_average": 0.567690372467041
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 119.3423,
+    "retrieval_time": 0.6485,
+    "generation_time": 4.2191,
+    "evaluation_time": 0.8161,
+    "cleanup_time": 1.6117,
+    "total_time": 126.6382
+  }
+}

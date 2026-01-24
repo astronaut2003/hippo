@@ -1,0 +1,76 @@
+{
+  "sample_idx": 492,
+  "question_id": "gpt4_2f91af09",
+  "question": "How many total pieces of writing have I completed since I started writing again three weeks ago, including short stories, poems, and pieces for the writing challenge?",
+  "question_type": "multi-session",
+  "gold_answer": "23",
+  "question_date": "2023/05/30 (Tue) 23:58",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T23:33:06.904121",
+  "predicted_answer": "You have completed a total of 22 pieces of writing since you started writing again three weeks ago: 5 short stories and 17 poems.",
+  "prompt_length": 30821,
+  "gen_token_usage": {
+    "prompt_tokens": 6571,
+    "answer_tokens": 29,
+    "total_tokens": 6600,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 5.01,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 24,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.3109172582626343,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.3109172582626343,
+      "overall_average": 0.062183450907468796
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.3109172582626343,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.3109172582626343,
+    "overall_average": 0.062183450907468796
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 120.1837,
+    "retrieval_time": 0.5879,
+    "generation_time": 2.2762,
+    "evaluation_time": 1.2749,
+    "cleanup_time": 1.5163,
+    "total_time": 125.8396
+  }
+}

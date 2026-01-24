@@ -1,0 +1,76 @@
+{
+  "sample_idx": 463,
+  "question_id": "gpt4_5501fe77",
+  "question": "Which social media platform did I gain the most followers on over the past month?",
+  "question_type": "multi-session",
+  "gold_answer": "TikTok",
+  "question_date": "2023/05/30 (Tue) 23:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T19:58:12.298600",
+  "predicted_answer": "You gained the most followers on Twitter, where your follower count increased from 420 to 540 over the past month.",
+  "prompt_length": 35572,
+  "gen_token_usage": {
+    "prompt_tokens": 7402,
+    "answer_tokens": 24,
+    "total_tokens": 7426,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 5.65,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 20,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.09688276052474976,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.09688276052474976,
+      "overall_average": 0.01937655173242092
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.09688276052474976,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.09688276052474976,
+    "overall_average": 0.01937655173242092
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 130.0519,
+    "retrieval_time": 0.645,
+    "generation_time": 1.9179,
+    "evaluation_time": 0.87,
+    "cleanup_time": 1.5559,
+    "total_time": 135.0411
+  }
+}

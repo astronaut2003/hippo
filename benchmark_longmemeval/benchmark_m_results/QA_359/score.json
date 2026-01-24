@@ -1,0 +1,76 @@
+{
+  "sample_idx": 359,
+  "question_id": "gpt4_0b2f1d21",
+  "question": "Which event happened first, the purchase of the coffee maker or the malfunction of the stand mixer?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "The malfunction of the stand mixer",
+  "question_date": "2023/05/28 (Sun) 17:12",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:03:30.215806",
+  "predicted_answer": "The purchase of the coffee maker happened first, as you mentioned having issues with it after three weeks of use, and there is no specific mention of the stand mixer malfunctioning before that timeframe.",
+  "prompt_length": 14294,
+  "gen_token_usage": {
+    "prompt_tokens": 3206,
+    "answer_tokens": 38,
+    "total_tokens": 3244,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.45,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 6,
+      "response_length": 34,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.23529411764705882,
+      "rouge1_f": 0.3,
+      "rouge2_f": 0.15789473684210525,
+      "rougeL_f": 0.25,
+      "semantic_similarity": 0.7271950244903564,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.1963235294117647,
+      "avg_semantic": 0.7271950244903564,
+      "overall_average": 0.3024978041648865
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.23529411764705882,
+    "rouge1_f": 0.3,
+    "rouge2_f": 0.15789473684210525,
+    "rougeL_f": 0.25,
+    "semantic_similarity": 0.7271950244903564,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.1963235294117647,
+    "avg_semantic": 0.7271950244903564,
+    "overall_average": 0.3024978041648865
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 135.2131,
+    "retrieval_time": 0.7161,
+    "generation_time": 2.893,
+    "evaluation_time": 1.1906,
+    "cleanup_time": 1.6309,
+    "total_time": 141.6447
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 38,
+  "question_id": "a40e080f",
+  "question": "I was going through our previous conversation and I was wondering if you could remind me of the two companies you mentioned that prioritize employee safety and well-being like Triumvirate?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Patagonia and Southwest Airlines.",
+  "question_date": "2023/05/30 (Tue) 23:42",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T00:50:25.515604",
+  "predicted_answer": "The two companies I mentioned that prioritize employee safety and well-being like Triumvirate are Patagonia and Southwest Airlines.",
+  "prompt_length": 22501,
+  "gen_token_usage": {
+    "prompt_tokens": 4857,
+    "answer_tokens": 23,
+    "total_tokens": 4880,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.71,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 4,
+      "response_length": 18,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.33333333333333337,
+      "rouge1_f": 0.34782608695652173,
+      "rouge2_f": 0.2857142857142857,
+      "rougeL_f": 0.34782608695652173,
+      "semantic_similarity": 0.623369038105011,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.25724637681159424,
+      "avg_semantic": 0.623369038105011,
+      "overall_average": 0.33047088980674744
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.33333333333333337,
+    "rouge1_f": 0.34782608695652173,
+    "rouge2_f": 0.2857142857142857,
+    "rougeL_f": 0.34782608695652173,
+    "semantic_similarity": 0.623369038105011,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.25724637681159424,
+    "avg_semantic": 0.623369038105011,
+    "overall_average": 0.33047088980674744
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 134.8147,
+    "retrieval_time": 0.693,
+    "generation_time": 2.757,
+    "evaluation_time": 2.1826,
+    "cleanup_time": 1.5657,
+    "total_time": 142.0135
+  }
+}

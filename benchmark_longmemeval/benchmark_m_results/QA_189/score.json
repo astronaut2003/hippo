@@ -1,0 +1,76 @@
+{
+  "sample_idx": 189,
+  "question_id": "efc3f7c2",
+  "question": "How much earlier do I wake up on Fridays compared to other weekdays?",
+  "question_type": "multi-session",
+  "gold_answer": "30 minutes",
+  "question_date": "2023/05/30 (Tue) 23:19",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T06:12:13.543507",
+  "predicted_answer": "You wake up at 6:00 AM on Fridays, which is 30 minutes earlier than your usual wake-up time of 6:30 AM on other weekdays.",
+  "prompt_length": 18336,
+  "gen_token_usage": {
+    "prompt_tokens": 5030,
+    "answer_tokens": 34,
+    "total_tokens": 5064,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.84,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 24,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.15384615384615385,
+      "rouge1_f": 0.13793103448275862,
+      "rouge2_f": 0.07407407407407407,
+      "rougeL_f": 0.13793103448275862,
+      "semantic_similarity": 0.30450570583343506,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.10742705570291777,
+      "avg_semantic": 0.30450570583343506,
+      "overall_average": 0.14684279263019562
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.15384615384615385,
+    "rouge1_f": 0.13793103448275862,
+    "rouge2_f": 0.07407407407407407,
+    "rougeL_f": 0.13793103448275862,
+    "semantic_similarity": 0.30450570583343506,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.10742705570291777,
+    "avg_semantic": 0.30450570583343506,
+    "overall_average": 0.14684279263019562
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.134,
+    "retrieval_time": 0.6537,
+    "generation_time": 2.2297,
+    "evaluation_time": 1.515,
+    "cleanup_time": 1.6138,
+    "total_time": 127.1474
+  }
+}

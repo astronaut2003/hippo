@@ -1,0 +1,76 @@
+{
+  "sample_idx": 219,
+  "question_id": "5a4f22c0",
+  "question": "What company is Rachel, an old colleague from my previous company, currently working at?",
+  "question_type": "knowledge-update",
+  "gold_answer": "TechCorp",
+  "question_date": "2023/06/03 (Sat) 01:40",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T07:17:02.085034",
+  "predicted_answer": "Rachel is currently working at her old company, as indicated in the memories. I don't have enough information to provide the specific name of the company she is currently working at.",
+  "prompt_length": 21597,
+  "gen_token_usage": {
+    "prompt_tokens": 4780,
+    "answer_tokens": 34,
+    "total_tokens": 4814,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.65,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 31,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.2517372965812683,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.2517372965812683,
+      "overall_average": 0.0503474585711956
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.2517372965812683,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.2517372965812683,
+    "overall_average": 0.0503474585711956
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 123.2821,
+    "retrieval_time": 0.6567,
+    "generation_time": 3.1795,
+    "evaluation_time": 1.2428,
+    "cleanup_time": 1.6098,
+    "total_time": 129.9716
+  }
+}

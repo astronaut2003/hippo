@@ -1,0 +1,76 @@
+{
+  "sample_idx": 193,
+  "question_id": "e5ba910e_abs",
+  "question": "What is the total cost of my recently purchased headphones and the iPad?",
+  "question_type": "multi-session",
+  "gold_answer": "The information provided is not enough. You mentioned purchasing a headphone, but you did not mention the iPad.",
+  "question_date": "2023/05/30 (Tue) 23:28",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T06:20:48.076024",
+  "predicted_answer": "The total cost of your recently purchased Sony WH-1000XM4 headphones is $378. However, I don't have the specific price of the iPad Pro you are considering, so I can't provide the total cost for both items.",
+  "prompt_length": 14798,
+  "gen_token_usage": {
+    "prompt_tokens": 3471,
+    "answer_tokens": 47,
+    "total_tokens": 3518,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.65,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 18,
+      "response_length": 36,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.25531914893617025,
+      "rouge1_f": 0.2807017543859649,
+      "rouge2_f": 0.03636363636363636,
+      "rougeL_f": 0.17543859649122806,
+      "semantic_similarity": 0.5610185265541077,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.1778648749533408,
+      "avg_semantic": 0.5610185265541077,
+      "overall_average": 0.25449562072753906
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.25531914893617025,
+    "rouge1_f": 0.2807017543859649,
+    "rouge2_f": 0.03636363636363636,
+    "rougeL_f": 0.17543859649122806,
+    "semantic_similarity": 0.5610185265541077,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.1778648749533408,
+    "avg_semantic": 0.5610185265541077,
+    "overall_average": 0.25449562072753906
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.9912,
+    "retrieval_time": 0.6539,
+    "generation_time": 3.2282,
+    "evaluation_time": 1.3532,
+    "cleanup_time": 1.4793,
+    "total_time": 129.7063
+  }
+}

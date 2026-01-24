@@ -1,0 +1,76 @@
+{
+  "sample_idx": 206,
+  "question_id": "9ea5eabc",
+  "question": "Where did I go on my most recent family trip?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Paris",
+  "question_date": "2023/06/19 (Mon) 05:42",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T06:48:59.523855",
+  "predicted_answer": "You went on your most recent family trip to Hawaii.",
+  "prompt_length": 17389,
+  "gen_token_usage": {
+    "prompt_tokens": 3783,
+    "answer_tokens": 11,
+    "total_tokens": 3794,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.89,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.08520805835723877,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.08520805835723877,
+      "overall_average": 0.017041612416505814
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.08520805835723877,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.08520805835723877,
+    "overall_average": 0.017041612416505814
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 117.2973,
+    "retrieval_time": 0.7243,
+    "generation_time": 2.1864,
+    "evaluation_time": 0.9747,
+    "cleanup_time": 1.571,
+    "total_time": 122.7542
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 289,
+  "question_id": "gpt4_7f6b06db",
+  "question": "What is the order of the three trips I took in the past three months, from earliest to latest?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "I went on a day hike to Muir Woods National Monument with my family, then I went on a road trip with friends to Big Sur and Monterey, and finally I started my solo camping trip to Yosemite National Park.",
+  "question_date": "2023/06/01 (Thu) 22:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T09:52:25.218532",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 16328,
+  "gen_token_usage": {
+    "prompt_tokens": 3574,
+    "answer_tokens": 10,
+    "total_tokens": 3584,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.73,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 40,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.08888888888888888,
+      "rouge1_f": 0.08000000000000002,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.08000000000000002,
+      "semantic_similarity": 0.11743921041488647,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.06222222222222223,
+      "avg_semantic": 0.11743921041488647,
+      "overall_average": 0.07326562702655792
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.08888888888888888,
+    "rouge1_f": 0.08000000000000002,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.08000000000000002,
+    "semantic_similarity": 0.11743921041488647,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.06222222222222223,
+    "avg_semantic": 0.11743921041488647,
+    "overall_average": 0.07326562702655792
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 118.9378,
+    "retrieval_time": 0.6511,
+    "generation_time": 2.1956,
+    "evaluation_time": 1.0737,
+    "cleanup_time": 1.5856,
+    "total_time": 124.4441
+  }
+}

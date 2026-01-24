@@ -1,0 +1,76 @@
+{
+  "sample_idx": 246,
+  "question_id": "e66b632c",
+  "question": "What was my previous personal best time for the charity 5K run?",
+  "question_type": "knowledge-update",
+  "gold_answer": "27 minutes and 45 seconds",
+  "question_date": "2023/08/22 (Tue) 22:29",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:15:25.240738",
+  "predicted_answer": "Your previous personal best time for the charity 5K run was 26 minutes and 30 seconds.",
+  "prompt_length": 26751,
+  "gen_token_usage": {
+    "prompt_tokens": 6176,
+    "answer_tokens": 21,
+    "total_tokens": 6197,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.71,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 16,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.22222222222222224,
+      "rouge1_f": 0.2857142857142857,
+      "rouge2_f": 0.10526315789473685,
+      "rougeL_f": 0.2857142857142857,
+      "semantic_similarity": 0.5236019492149353,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.1984126984126984,
+      "avg_semantic": 0.5236019492149353,
+      "overall_average": 0.263450562953949
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.22222222222222224,
+    "rouge1_f": 0.2857142857142857,
+    "rouge2_f": 0.10526315789473685,
+    "rougeL_f": 0.2857142857142857,
+    "semantic_similarity": 0.5236019492149353,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.1984126984126984,
+    "avg_semantic": 0.5236019492149353,
+    "overall_average": 0.263450562953949
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 119.2052,
+    "retrieval_time": 0.7105,
+    "generation_time": 2.3498,
+    "evaluation_time": 1.2728,
+    "cleanup_time": 1.5668,
+    "total_time": 125.1059
+  }
+}

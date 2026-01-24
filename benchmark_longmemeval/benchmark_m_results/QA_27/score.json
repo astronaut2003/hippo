@@ -1,0 +1,76 @@
+{
+  "sample_idx": 27,
+  "question_id": "1568498a",
+  "question": "I'm looking back at our previous chess game and I was wondering, what was the move you made after 27. Kg2 Bd5+?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "28. Kg3",
+  "question_date": "2023/05/30 (Tue) 23:41",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-09T23:54:39.664108",
+  "predicted_answer": "After 27. Kg2 Bd5+, the next move made was 28. Kg3.",
+  "prompt_length": 10226,
+  "gen_token_usage": {
+    "prompt_tokens": 3511,
+    "answer_tokens": 20,
+    "total_tokens": 3531,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.68,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 11,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.33333333333333337,
+      "rouge1_f": 0.3076923076923077,
+      "rouge2_f": 0.18181818181818182,
+      "rougeL_f": 0.3076923076923077,
+      "semantic_similarity": 0.7409926056861877,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2371794871794872,
+      "avg_semantic": 0.7409926056861877,
+      "overall_average": 0.33794212341308594
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.33333333333333337,
+    "rouge1_f": 0.3076923076923077,
+    "rouge2_f": 0.18181818181818182,
+    "rougeL_f": 0.3076923076923077,
+    "semantic_similarity": 0.7409926056861877,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2371794871794872,
+    "avg_semantic": 0.7409926056861877,
+    "overall_average": 0.33794212341308594
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 119.063,
+    "retrieval_time": 0.6245,
+    "generation_time": 2.5938,
+    "evaluation_time": 1.2728,
+    "cleanup_time": 1.3908,
+    "total_time": 124.9464
+  }
+}

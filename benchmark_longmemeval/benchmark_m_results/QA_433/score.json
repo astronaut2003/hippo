@@ -1,0 +1,76 @@
+{
+  "sample_idx": 433,
+  "question_id": "b0479f84",
+  "question": "I've got some free time tonight, any documentary recommendations?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer documentary recommendations that are similar in style and theme to 'Our Planet', 'Free Solo', and 'Tiger King', which they have previously enjoyed. They might not prefer recommendations of documentaries that are vastly different in tone or subject matter from these titles. The preferred response utilizes the user's previously mentioned viewing history to suggest documentaries that cater to their tastes.",
+  "question_date": "2023/05/30 (Tue) 23:50",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T18:44:19.796226",
+  "predicted_answer": "Here are some documentary recommendations you might enjoy:\n\n1. **\"The Ascent of Man\" (1973)** - A 13-part BBC series exploring the evolution of humanity from a scientific and philosophical perspective.\n2. **\"The Story of Human Language\" (1991)** - A 5-part PBS series examining the development and diversity of human language.\n3. **\"The Human Spark\" (2010)** - A 3-part PBS series investigating what makes us human, featuring interviews with experts.\n4. **\"The Ancient Apocalypse\" (2012)** - A 2-part BBC series exploring the collapse of ancient civilizations.\n5. **\"Rise of the Humans\" (2019)** - A 3-part BBC series delving into the evolution of Homo sapiens.\n\nIf you're looking for something more recent, consider checking out documentaries on Netflix like **\"Chasing Coral\"** or **\"Dynasties\"**, which showcase stunning visuals and compelling narratives about nature and wildlife. Enjoy your documentary night!",
+  "prompt_length": 18601,
+  "gen_token_usage": {
+    "prompt_tokens": 4232,
+    "answer_tokens": 205,
+    "total_tokens": 4437,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.23,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 63,
+      "response_length": 136,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.12941176470588234,
+      "rouge1_f": 0.15920398009950248,
+      "rouge2_f": 0.010050251256281405,
+      "rougeL_f": 0.07960199004975124,
+      "semantic_similarity": 0.391603946685791,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.09205443371378402,
+      "avg_semantic": 0.391603946685791,
+      "overall_average": 0.15196433663368225
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.12941176470588234,
+    "rouge1_f": 0.15920398009950248,
+    "rouge2_f": 0.010050251256281405,
+    "rougeL_f": 0.07960199004975124,
+    "semantic_similarity": 0.391603946685791,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.09205443371378402,
+    "avg_semantic": 0.391603946685791,
+    "overall_average": 0.15196433663368225
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 128.8902,
+    "retrieval_time": 0.6367,
+    "generation_time": 4.2168,
+    "evaluation_time": 0.8116,
+    "cleanup_time": 1.4749,
+    "total_time": 136.0311
+  }
+}

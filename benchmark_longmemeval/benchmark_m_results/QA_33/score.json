@@ -1,0 +1,76 @@
+{
+  "sample_idx": 33,
+  "question_id": "3e321797",
+  "question": "I wanted to follow up on our previous conversation about natural remedies for dark circles under the eyes. You mentioned applying tomato juice mixed with lemon juice, how long did you say I should leave it on for?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "10 minutes",
+  "question_date": "2023/05/30 (Tue) 23:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T00:07:10.859025",
+  "predicted_answer": "You should leave the tomato juice mixed with lemon juice on your under-eye area for 10 minutes, then wash it off with cold water.",
+  "prompt_length": 24939,
+  "gen_token_usage": {
+    "prompt_tokens": 5588,
+    "answer_tokens": 28,
+    "total_tokens": 5616,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.26,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 24,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.16,
+      "rouge1_f": 0.14814814814814814,
+      "rouge2_f": 0.07999999999999999,
+      "rougeL_f": 0.14814814814814814,
+      "semantic_similarity": 0.14932191371917725,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.11407407407407408,
+      "avg_semantic": 0.14932191371917725,
+      "overall_average": 0.12112364917993546
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.16,
+    "rouge1_f": 0.14814814814814814,
+    "rouge2_f": 0.07999999999999999,
+    "rougeL_f": 0.14814814814814814,
+    "semantic_similarity": 0.14932191371917725,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.11407407407407408,
+    "avg_semantic": 0.14932191371917725,
+    "overall_average": 0.12112364917993546
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 115.5211,
+    "retrieval_time": 0.688,
+    "generation_time": 2.4434,
+    "evaluation_time": 1.2391,
+    "cleanup_time": 1.3335,
+    "total_time": 121.2256
+  }
+}

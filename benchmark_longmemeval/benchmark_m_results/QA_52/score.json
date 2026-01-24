@@ -1,0 +1,76 @@
+{
+  "sample_idx": 52,
+  "question_id": "e48988bc",
+  "question": "I was looking back at our previous conversation about environmentally responsible supply chain practices, and I was wondering if you could remind me of the company you mentioned that's doing a great job with sustainability?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Patagonia",
+  "question_date": "2023/05/30 (Tue) 23:52",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T01:20:33.308653",
+  "predicted_answer": "The company I mentioned that is doing a great job with sustainability is Patagonia. They are known for their commitment to environmentally responsible practices throughout their supply chain.",
+  "prompt_length": 13934,
+  "gen_token_usage": {
+    "prompt_tokens": 2664,
+    "answer_tokens": 30,
+    "total_tokens": 2694,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.03,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.07407407407407407,
+      "rouge1_f": 0.0689655172413793,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0689655172413793,
+      "semantic_similarity": 0.3083253502845764,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.05300127713920816,
+      "avg_semantic": 0.3083253502845764,
+      "overall_average": 0.10406608879566193
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.07407407407407407,
+    "rouge1_f": 0.0689655172413793,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0689655172413793,
+    "semantic_similarity": 0.3083253502845764,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.05300127713920816,
+    "avg_semantic": 0.3083253502845764,
+    "overall_average": 0.10406608879566193
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 119.6522,
+    "retrieval_time": 0.6419,
+    "generation_time": 3.0027,
+    "evaluation_time": 1.5928,
+    "cleanup_time": 1.3591,
+    "total_time": 126.2493
+  }
+}

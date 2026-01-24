@@ -1,0 +1,76 @@
+{
+  "sample_idx": 402,
+  "question_id": "gpt4_70e84552_abs",
+  "question": "Which task did I complete first, fixing the fence or purchasing three cows from Peter?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "The information provided is not enough. You mentioned fixing the fence but did not mention purchasing cows from Peter.",
+  "question_date": "2023/05/26 (Fri) 04:24",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T17:36:59.584531",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 17878,
+  "gen_token_usage": {
+    "prompt_tokens": 3954,
+    "answer_tokens": 10,
+    "total_tokens": 3964,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.02,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 19,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.15384615384615383,
+      "rouge1_f": 0.13793103448275862,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06896551724137931,
+      "semantic_similarity": 0.12819665670394897,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.09018567639257294,
+      "avg_semantic": 0.12819665670394897,
+      "overall_average": 0.09778787195682526
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.15384615384615383,
+    "rouge1_f": 0.13793103448275862,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06896551724137931,
+    "semantic_similarity": 0.12819665670394897,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.09018567639257294,
+    "avg_semantic": 0.12819665670394897,
+    "overall_average": 0.09778787195682526
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 120.6449,
+    "retrieval_time": 0.5807,
+    "generation_time": 1.6661,
+    "evaluation_time": 2.4032,
+    "cleanup_time": 1.3247,
+    "total_time": 126.6203
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 252,
+  "question_id": "7401057b",
+  "question": "How many free night's stays can I redeem at any Hilton property with my accumulated points?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Two",
+  "question_date": "2023/06/04 (Sun) 06:12",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:28:25.161362",
+  "predicted_answer": "You can redeem one free night's stay at any Hilton property with your accumulated points, as you have enough points for a single free night. The specific number of nights you can redeem may vary depending on the category of the hotel and the points required for a free night. For example, the Hilton Lake Las Vegas Resort is a Category 5 hotel, which typically requires around 40,000 points for a standard room reward night.",
+  "prompt_length": 20128,
+  "gen_token_usage": {
+    "prompt_tokens": 4490,
+    "answer_tokens": 85,
+    "total_tokens": 4575,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.43,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 75,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.1046021580696106,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.1046021580696106,
+      "overall_average": 0.02092043124139309
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.1046021580696106,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.1046021580696106,
+    "overall_average": 0.02092043124139309
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.9981,
+    "retrieval_time": 0.611,
+    "generation_time": 2.6109,
+    "evaluation_time": 1.3524,
+    "cleanup_time": 1.4697,
+    "total_time": 132.0436
+  }
+}

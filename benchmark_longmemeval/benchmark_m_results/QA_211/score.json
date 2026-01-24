@@ -1,0 +1,76 @@
+{
+  "sample_idx": 211,
+  "question_id": "4d6b87c8",
+  "question": "How many titles are currently on my to-watch list?",
+  "question_type": "knowledge-update",
+  "gold_answer": "25",
+  "question_date": "2023/06/02 (Fri) 17:55",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T06:59:37.602706",
+  "predicted_answer": "You currently have 25 titles on your to-watch list.",
+  "prompt_length": 11957,
+  "gen_token_usage": {
+    "prompt_tokens": 2850,
+    "answer_tokens": 12,
+    "total_tokens": 2862,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.17,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.19999999999999998,
+      "rouge1_f": 0.18181818181818182,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.18181818181818182,
+      "semantic_similarity": 0.2533409595489502,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.14090909090909093,
+      "avg_semantic": 0.2533409595489502,
+      "overall_average": 0.1633954644203186
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.19999999999999998,
+    "rouge1_f": 0.18181818181818182,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.18181818181818182,
+    "semantic_similarity": 0.2533409595489502,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.14090909090909093,
+    "avg_semantic": 0.2533409595489502,
+    "overall_average": 0.1633954644203186
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.8949,
+    "retrieval_time": 0.6186,
+    "generation_time": 1.8154,
+    "evaluation_time": 2.2642,
+    "cleanup_time": 1.606,
+    "total_time": 128.1999
+  }
+}

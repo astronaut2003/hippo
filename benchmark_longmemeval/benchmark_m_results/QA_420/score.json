@@ -1,0 +1,76 @@
+{
+  "sample_idx": 420,
+  "question_id": "1a1907b4",
+  "question": "I've been thinking about making a cocktail for an upcoming get-together, but I'm not sure which one to choose. Any suggestions?",
+  "question_type": "single-session-preference",
+  "gold_answer": "Considering their mixology class background, the user would prefer cocktail suggestions that build upon their existing skills and interests, such as creative variations of classic cocktails or innovative twists on familiar flavors. They might appreciate recommendations that incorporate their experience with refreshing summer drinks like Pimm's Cup. The user would not prefer overly simplistic or basic cocktail recipes, and may not be interested in suggestions that don't take into account their mixology class background.",
+  "question_date": "2023/05/30 (Tue) 20:21",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T18:15:50.238638",
+  "predicted_answer": "You might consider making the **Pimm's Cup with a Twist** using Hendrick's gin. It's a refreshing summer cocktail that combines 1 1/2 oz Hendrick's gin, 1/2 oz lemon juice, 1/2 oz simple syrup, 1/2 oz Pimm's No. 1, and a splash of ginger beer. Garnish it with cucumber, mint, and fruit for a visually appealing presentation. Enjoy your get-together!",
+  "prompt_length": 17755,
+  "gen_token_usage": {
+    "prompt_tokens": 4120,
+    "answer_tokens": 97,
+    "total_tokens": 4217,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.14,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 74,
+      "response_length": 59,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.180327868852459,
+      "rouge1_f": 0.20689655172413793,
+      "rouge2_f": 0.04195804195804196,
+      "rougeL_f": 0.11034482758620688,
+      "semantic_similarity": 0.6609777212142944,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.12439231204070095,
+      "avg_semantic": 0.6609777212142944,
+      "overall_average": 0.23170939087867737
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.180327868852459,
+    "rouge1_f": 0.20689655172413793,
+    "rouge2_f": 0.04195804195804196,
+    "rougeL_f": 0.11034482758620688,
+    "semantic_similarity": 0.6609777212142944,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.12439231204070095,
+    "avg_semantic": 0.6609777212142944,
+    "overall_average": 0.23170939087867737
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 120.4153,
+    "retrieval_time": 0.5852,
+    "generation_time": 9.9606,
+    "evaluation_time": 2.4469,
+    "cleanup_time": 1.5845,
+    "total_time": 134.9942
+  }
+}

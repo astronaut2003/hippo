@@ -1,0 +1,76 @@
+{
+  "sample_idx": 142,
+  "question_id": "60036106",
+  "question": "What was the total number of people reached by my Facebook ad campaign and Instagram influencer collaboration?",
+  "question_type": "multi-session",
+  "gold_answer": "12,000",
+  "question_date": "2023/05/30 (Tue) 23:00",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T04:31:18.586885",
+  "predicted_answer": "Your Facebook ad campaign reached around 2,000 people. However, I don't have enough information regarding the total number of people reached by your Instagram influencer collaboration.",
+  "prompt_length": 31020,
+  "gen_token_usage": {
+    "prompt_tokens": 6197,
+    "answer_tokens": 32,
+    "total_tokens": 6229,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.73,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 26,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.06666666666666667,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06666666666666667,
+      "semantic_similarity": 0.2274385690689087,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.03333333333333333,
+      "avg_semantic": 0.2274385690689087,
+      "overall_average": 0.07215438038110733
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.06666666666666667,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06666666666666667,
+    "semantic_similarity": 0.2274385690689087,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.03333333333333333,
+    "avg_semantic": 0.2274385690689087,
+    "overall_average": 0.07215438038110733
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.2503,
+    "retrieval_time": 0.6736,
+    "generation_time": 2.6462,
+    "evaluation_time": 1.3031,
+    "cleanup_time": 1.5269,
+    "total_time": 131.4005
+  }
+}

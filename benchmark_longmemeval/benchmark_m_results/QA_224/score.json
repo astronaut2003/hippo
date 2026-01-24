@@ -1,0 +1,76 @@
+{
+  "sample_idx": 224,
+  "question_id": "c4ea545c",
+  "question": "Do I go to the gym more frequently than I did previously?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Yes",
+  "question_date": "2023/09/03 (Sun) 17:32",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T07:27:45.683417",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 19738,
+  "gen_token_usage": {
+    "prompt_tokens": 4248,
+    "answer_tokens": 10,
+    "total_tokens": 4258,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.24,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.17052149772644043,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.17052149772644043,
+      "overall_average": 0.034104298800230026
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.17052149772644043,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.17052149772644043,
+    "overall_average": 0.034104298800230026
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 120.4452,
+    "retrieval_time": 0.6527,
+    "generation_time": 2.4368,
+    "evaluation_time": 1.6179,
+    "cleanup_time": 1.5626,
+    "total_time": 126.716
+  }
+}

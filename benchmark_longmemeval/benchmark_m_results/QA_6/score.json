@@ -1,0 +1,76 @@
+{
+  "sample_idx": 6,
+  "question_id": "7e00a6cb",
+  "question": "I'm planning my trip to Amsterdam again and I was wondering, what was the name of that hostel near the Red Light District that you recommended last time?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "International Budget Hostel",
+  "question_date": "2023/05/30 (Tue) 23:39",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-09T23:11:13.221981",
+  "predicted_answer": "The hostel near the Red Light District that I recommended last time is the International Budget Hostel.",
+  "prompt_length": 15628,
+  "gen_token_usage": {
+    "prompt_tokens": 3400,
+    "answer_tokens": 18,
+    "total_tokens": 3418,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.59,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 17,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.35294117647058826,
+      "rouge1_f": 0.3,
+      "rouge2_f": 0.2222222222222222,
+      "rougeL_f": 0.3,
+      "semantic_similarity": 0.7713281512260437,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.23823529411764705,
+      "avg_semantic": 0.7713281512260437,
+      "overall_average": 0.34485387802124023
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.35294117647058826,
+    "rouge1_f": 0.3,
+    "rouge2_f": 0.2222222222222222,
+    "rougeL_f": 0.3,
+    "semantic_similarity": 0.7713281512260437,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.23823529411764705,
+    "avg_semantic": 0.7713281512260437,
+    "overall_average": 0.34485387802124023
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 117.3957,
+    "retrieval_time": 0.579,
+    "generation_time": 2.1285,
+    "evaluation_time": 2.1589,
+    "cleanup_time": 1.3247,
+    "total_time": 123.5879
+  }
+}

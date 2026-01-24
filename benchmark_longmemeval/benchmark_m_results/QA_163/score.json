@@ -1,0 +1,76 @@
+{
+  "sample_idx": 163,
+  "question_id": "1192316e",
+  "question": "What is the total time it takes I to get ready and commute to work?",
+  "question_type": "multi-session",
+  "gold_answer": "an hour and a half",
+  "question_date": "2023/05/30 (Tue) 23:27",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T05:16:09.401945",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 17035,
+  "gen_token_usage": {
+    "prompt_tokens": 3795,
+    "answer_tokens": 10,
+    "total_tokens": 3805,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.9,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.025197148323059082,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.025197148323059082,
+      "overall_average": 0.005039429757744074
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.025197148323059082,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.025197148323059082,
+    "overall_average": 0.005039429757744074
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 126.3477,
+    "retrieval_time": 0.5909,
+    "generation_time": 2.7293,
+    "evaluation_time": 2.3151,
+    "cleanup_time": 1.5952,
+    "total_time": 133.5789
+  }
+}

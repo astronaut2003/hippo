@@ -1,0 +1,76 @@
+{
+  "sample_idx": 480,
+  "question_id": "5a7937c8",
+  "question": "How many days did I spend participating in faith-related activities in December?",
+  "question_type": "multi-session",
+  "gold_answer": "3 days.",
+  "question_date": "2024/01/10 (Wed) 23:59",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T23:07:55.884389",
+  "predicted_answer": "You participated in faith-related activities on December 17th, when you led a Bible study group. Additionally, you attended a midnight mass on December 24th. Therefore, you spent 2 days participating in faith-related activities in December.",
+  "prompt_length": 27691,
+  "gen_token_usage": {
+    "prompt_tokens": 5930,
+    "answer_tokens": 48,
+    "total_tokens": 5978,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.52,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 35,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.05714285714285715,
+      "rouge1_f": 0.05128205128205129,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.05128205128205129,
+      "semantic_similarity": 0.2921332120895386,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.03992673992673993,
+      "avg_semantic": 0.2921332120895386,
+      "overall_average": 0.09036803245544434
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.05714285714285715,
+    "rouge1_f": 0.05128205128205129,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.05128205128205129,
+    "semantic_similarity": 0.2921332120895386,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.03992673992673993,
+    "avg_semantic": 0.2921332120895386,
+    "overall_average": 0.09036803245544434
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 115.1747,
+    "retrieval_time": 0.693,
+    "generation_time": 2.999,
+    "evaluation_time": 1.0119,
+    "cleanup_time": 1.5378,
+    "total_time": 121.417
+  }
+}

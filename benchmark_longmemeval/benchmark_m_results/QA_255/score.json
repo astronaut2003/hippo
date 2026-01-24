@@ -1,0 +1,76 @@
+{
+  "sample_idx": 255,
+  "question_id": "c7dc5443",
+  "question": "What is my current record in the recreational volleyball league?",
+  "question_type": "knowledge-update",
+  "gold_answer": "5-2",
+  "question_date": "2023/07/13 (Thu) 08:09",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:35:01.594890",
+  "predicted_answer": "Your current record in the recreational volleyball league is 3 wins and 2 losses.",
+  "prompt_length": 29217,
+  "gen_token_usage": {
+    "prompt_tokens": 6092,
+    "answer_tokens": 17,
+    "total_tokens": 6109,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.65,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.125,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.125,
+      "semantic_similarity": 0.2542266845703125,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0625,
+      "avg_semantic": 0.2542266845703125,
+      "overall_average": 0.1008453369140625
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.125,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.125,
+    "semantic_similarity": 0.2542266845703125,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0625,
+    "avg_semantic": 0.2542266845703125,
+    "overall_average": 0.1008453369140625
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.9912,
+    "retrieval_time": 0.6238,
+    "generation_time": 1.8559,
+    "evaluation_time": 0.6872,
+    "cleanup_time": 1.6046,
+    "total_time": 129.7632
+  }
+}

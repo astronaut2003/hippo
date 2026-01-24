@@ -1,0 +1,76 @@
+{
+  "sample_idx": 179,
+  "question_id": "55241a1f",
+  "question": "What is the total number of comments on my recent Facebook Live session and my most popular YouTube video?",
+  "question_type": "multi-session",
+  "gold_answer": "33",
+  "question_date": "2023/05/30 (Tue) 23:27",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T05:50:40.788584",
+  "predicted_answer": "You received 12 comments on your recent Facebook Live session. However, I don't have enough information to determine the total number of comments on your most popular YouTube video.",
+  "prompt_length": 33105,
+  "gen_token_usage": {
+    "prompt_tokens": 6921,
+    "answer_tokens": 34,
+    "total_tokens": 6955,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 5.28,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 29,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.17244833707809448,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.17244833707809448,
+      "overall_average": 0.034489668905735016
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.17244833707809448,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.17244833707809448,
+    "overall_average": 0.034489668905735016
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 126.4156,
+    "retrieval_time": 0.7355,
+    "generation_time": 3.0252,
+    "evaluation_time": 2.0677,
+    "cleanup_time": 1.5717,
+    "total_time": 133.8162
+  }
+}

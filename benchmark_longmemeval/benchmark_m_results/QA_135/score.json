@@ -1,0 +1,76 @@
+{
+  "sample_idx": 135,
+  "question_id": "51c32626",
+  "question": "When did I submit my research paper on sentiment analysis?",
+  "question_type": "multi-session",
+  "gold_answer": "February 1st",
+  "question_date": "2023/05/30 (Tue) 23:38",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T04:16:24.519218",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 19039,
+  "gen_token_usage": {
+    "prompt_tokens": 4113,
+    "answer_tokens": 10,
+    "total_tokens": 4123,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.14,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.06933039426803589,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.06933039426803589,
+      "overall_average": 0.013866079039871693
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.06933039426803589,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.06933039426803589,
+    "overall_average": 0.013866079039871693
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.5256,
+    "retrieval_time": 0.6819,
+    "generation_time": 1.6234,
+    "evaluation_time": 1.1443,
+    "cleanup_time": 1.5785,
+    "total_time": 126.5542
+  }
+}

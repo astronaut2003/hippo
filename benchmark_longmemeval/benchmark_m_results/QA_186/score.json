@@ -1,0 +1,76 @@
+{
+  "sample_idx": 186,
+  "question_id": "8e91e7d9",
+  "question": "What is the total number of siblings I have?",
+  "question_type": "multi-session",
+  "gold_answer": "4",
+  "question_date": "2023/05/30 (Tue) 23:47",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T06:05:46.847878",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 16013,
+  "gen_token_usage": {
+    "prompt_tokens": 3495,
+    "answer_tokens": 10,
+    "total_tokens": 3505,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.67,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.16813254356384277,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.16813254356384277,
+      "overall_average": 0.033626507967710495
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.16813254356384277,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.16813254356384277,
+    "overall_average": 0.033626507967710495
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.35,
+    "retrieval_time": 0.6616,
+    "generation_time": 2.3987,
+    "evaluation_time": 2.6929,
+    "cleanup_time": 1.3663,
+    "total_time": 131.4702
+  }
+}

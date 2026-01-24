@@ -1,0 +1,76 @@
+{
+  "sample_idx": 331,
+  "question_id": "b46e15ee",
+  "question": "What charity event did I participate in a month ago?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "the 'Walk for Hunger' charity event",
+  "question_date": "2023/04/18 (Tue) 13:08",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T11:25:48.510991",
+  "predicted_answer": "You participated in a charity concert in February where a local musician performed to raise funds for a mental health organization, and you donated $50 at the door.",
+  "prompt_length": 21782,
+  "gen_token_usage": {
+    "prompt_tokens": 4576,
+    "answer_tokens": 31,
+    "total_tokens": 4607,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.49,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 6,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14285714285714285,
+      "rouge1_f": 0.17647058823529413,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.058823529411764705,
+      "semantic_similarity": 0.515994668006897,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.09453781512605042,
+      "avg_semantic": 0.515994668006897,
+      "overall_average": 0.17882919311523438
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14285714285714285,
+    "rouge1_f": 0.17647058823529413,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.058823529411764705,
+    "semantic_similarity": 0.515994668006897,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.09453781512605042,
+    "avg_semantic": 0.515994668006897,
+    "overall_average": 0.17882919311523438
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 128.2831,
+    "retrieval_time": 0.5793,
+    "generation_time": 3.886,
+    "evaluation_time": 0.8227,
+    "cleanup_time": 1.5059,
+    "total_time": 135.0775
+  }
+}

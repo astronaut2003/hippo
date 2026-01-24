@@ -1,0 +1,76 @@
+{
+  "sample_idx": 442,
+  "question_id": "e831120c",
+  "question": "How many weeks did it take me to watch all the Marvel Cinematic Universe movies and the main Star Wars films?",
+  "question_type": "multi-session",
+  "gold_answer": "3.5 weeks",
+  "question_date": "2023/05/30 (Tue) 23:45",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T19:06:00.217790",
+  "predicted_answer": "You watched all 22 Marvel Cinematic Universe movies in about two weeks and completed the main Star Wars films in a week and a half.",
+  "prompt_length": 20888,
+  "gen_token_usage": {
+    "prompt_tokens": 5850,
+    "answer_tokens": 28,
+    "total_tokens": 5878,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.46,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 25,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.09090909090909091,
+      "rouge1_f": 0.07142857142857142,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.07142857142857142,
+      "semantic_similarity": 0.22543293237686157,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.05844155844155844,
+      "avg_semantic": 0.22543293237686157,
+      "overall_average": 0.09183983504772186
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.09090909090909091,
+    "rouge1_f": 0.07142857142857142,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.07142857142857142,
+    "semantic_similarity": 0.22543293237686157,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.05844155844155844,
+    "avg_semantic": 0.22543293237686157,
+    "overall_average": 0.09183983504772186
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 169.9951,
+    "retrieval_time": 0.7578,
+    "generation_time": 1.6517,
+    "evaluation_time": 1.0958,
+    "cleanup_time": 1.8715,
+    "total_time": 175.3726
+  }
+}

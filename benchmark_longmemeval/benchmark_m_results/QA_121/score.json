@@ -1,0 +1,76 @@
+{
+  "sample_idx": 121,
+  "question_id": "15745da0_abs",
+  "question": "How long have I been collecting vintage films?",
+  "question_type": "single-session-user",
+  "gold_answer": "You did not mention this information. You mentioned collecting vintage cameras but not vintage films.",
+  "question_date": "2023/05/30 (Tue) 23:44",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T03:46:10.793971",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 25812,
+  "gen_token_usage": {
+    "prompt_tokens": 5225,
+    "answer_tokens": 10,
+    "total_tokens": 5235,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.99,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 15,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.16666666666666669,
+      "rouge1_f": 0.16,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.08,
+      "semantic_similarity": 0.13046693801879883,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.10166666666666667,
+      "avg_semantic": 0.13046693801879883,
+      "overall_average": 0.107426717877388
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.16666666666666669,
+    "rouge1_f": 0.16,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.08,
+    "semantic_similarity": 0.13046693801879883,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.10166666666666667,
+    "avg_semantic": 0.13046693801879883,
+    "overall_average": 0.107426717877388
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.5401,
+    "retrieval_time": 0.6006,
+    "generation_time": 3.1739,
+    "evaluation_time": 1.0206,
+    "cleanup_time": 1.637,
+    "total_time": 127.9726
+  }
+}

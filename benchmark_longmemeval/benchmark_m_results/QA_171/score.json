@@ -1,0 +1,76 @@
+{
+  "sample_idx": 171,
+  "question_id": "73d42213",
+  "question": "What time did I reach the clinic on Monday?",
+  "question_type": "multi-session",
+  "gold_answer": "9:00 AM",
+  "question_date": "2023/05/30 (Tue) 23:48",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T05:33:15.962767",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 13392,
+  "gen_token_usage": {
+    "prompt_tokens": 3125,
+    "answer_tokens": 10,
+    "total_tokens": 3135,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.38,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.08515560626983643,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.08515560626983643,
+      "overall_average": 0.017031121999025345
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.08515560626983643,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.08515560626983643,
+    "overall_average": 0.017031121999025345
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 129.8218,
+    "retrieval_time": 0.5437,
+    "generation_time": 4.6696,
+    "evaluation_time": 2.1286,
+    "cleanup_time": 1.559,
+    "total_time": 138.7233
+  }
+}

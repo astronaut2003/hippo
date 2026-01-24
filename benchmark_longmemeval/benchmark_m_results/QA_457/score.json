@@ -1,0 +1,76 @@
+{
+  "sample_idx": 457,
+  "question_id": "88432d0a",
+  "question": "How many times did I bake something in the past two weeks?",
+  "question_type": "multi-session",
+  "gold_answer": 4,
+  "question_date": "2023/05/30 (Tue) 23:22",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T19:43:43.850516",
+  "predicted_answer": "Based on the memories, you baked at least twice in the past two weeks: once for your sister's birthday party (a chocolate cake) and once on Tuesday when you tried a sourdough bread recipe.",
+  "prompt_length": 20113,
+  "gen_token_usage": {
+    "prompt_tokens": 4639,
+    "answer_tokens": 42,
+    "total_tokens": 4681,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.54,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 34,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.07863450050354004,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.07863450050354004,
+      "overall_average": 0.015726899728178978
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.07863450050354004,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.07863450050354004,
+    "overall_average": 0.015726899728178978
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 128.8837,
+    "retrieval_time": 3.6646,
+    "generation_time": 1.8935,
+    "evaluation_time": 1.7068,
+    "cleanup_time": 1.6681,
+    "total_time": 137.8173
+  }
+}

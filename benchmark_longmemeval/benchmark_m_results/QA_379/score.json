@@ -1,0 +1,76 @@
+{
+  "sample_idx": 379,
+  "question_id": "gpt4_8c8961ae",
+  "question": "Which trip did I take first, the one to Europe with family or the solo trip to Thailand?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "The solo trip to Thailand",
+  "question_date": "2023/05/20 (Sat) 12:33",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:47:22.492890",
+  "predicted_answer": "You took the trip to Europe with your family first, as you mentioned it was just last month, while your solo trip to Thailand was the previous year.",
+  "prompt_length": 24293,
+  "gen_token_usage": {
+    "prompt_tokens": 5218,
+    "answer_tokens": 31,
+    "total_tokens": 5249,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.98,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 5,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2666666666666667,
+      "rouge1_f": 0.30303030303030304,
+      "rouge2_f": 0.19354838709677416,
+      "rougeL_f": 0.30303030303030304,
+      "semantic_similarity": 0.7155261039733887,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.2181818181818182,
+      "avg_semantic": 0.7155261039733887,
+      "overall_average": 0.3176506757736206
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2666666666666667,
+    "rouge1_f": 0.30303030303030304,
+    "rouge2_f": 0.19354838709677416,
+    "rougeL_f": 0.30303030303030304,
+    "semantic_similarity": 0.7155261039733887,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.2181818181818182,
+    "avg_semantic": 0.7155261039733887,
+    "overall_average": 0.3176506757736206
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.6136,
+    "retrieval_time": 0.6377,
+    "generation_time": 2.5988,
+    "evaluation_time": 1.8756,
+    "cleanup_time": 1.2999,
+    "total_time": 129.0262
+  }
+}

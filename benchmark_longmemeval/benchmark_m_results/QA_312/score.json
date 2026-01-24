@@ -1,0 +1,76 @@
+{
+  "sample_idx": 312,
+  "question_id": "gpt4_8e165409",
+  "question": "How many days passed between the day I repotted the previous spider plant and the day I gave my neighbor, Mrs. Johnson, a few cuttings from my spider plant?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "14 days. 15 days (including the last day) is also acceptable.",
+  "question_date": "2023/03/26 (Sun) 19:50",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T10:44:03.953937",
+  "predicted_answer": "Based on the retrieved memories, you repotted your previous spider plant on the same day you mentioned giving Mrs. Johnson a few cuttings from your spider plant. Therefore, 0 days passed between these two events.",
+  "prompt_length": 14504,
+  "gen_token_usage": {
+    "prompt_tokens": 3427,
+    "answer_tokens": 43,
+    "total_tokens": 3470,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.61,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 11,
+      "response_length": 35,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.09523809523809523,
+      "rouge1_f": 0.13043478260869562,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.08695652173913043,
+      "semantic_similarity": 0.3409416079521179,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.07815734989648032,
+      "avg_semantic": 0.3409416079521179,
+      "overall_average": 0.13071420788764954
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.09523809523809523,
+    "rouge1_f": 0.13043478260869562,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.08695652173913043,
+    "semantic_similarity": 0.3409416079521179,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.07815734989648032,
+    "avg_semantic": 0.3409416079521179,
+    "overall_average": 0.13071420788764954
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 126.2801,
+    "retrieval_time": 0.5891,
+    "generation_time": 2.6251,
+    "evaluation_time": 1.2376,
+    "cleanup_time": 1.6505,
+    "total_time": 132.3831
+  }
+}

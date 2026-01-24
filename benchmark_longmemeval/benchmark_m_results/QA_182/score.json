@@ -1,0 +1,76 @@
+{
+  "sample_idx": 182,
+  "question_id": "078150f1",
+  "question": "How much more money did I raise than my initial goal in the charity cycling event?",
+  "question_type": "multi-session",
+  "gold_answer": "$50",
+  "question_date": "2023/05/30 (Tue) 23:51",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T05:57:11.196356",
+  "predicted_answer": "You raised $250 in donations for the charity cycling event, but I don't have information about your initial goal for that event. Therefore, I don't have enough information to answer this question.",
+  "prompt_length": 15223,
+  "gen_token_usage": {
+    "prompt_tokens": 3251,
+    "answer_tokens": 37,
+    "total_tokens": 3288,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.48,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 32,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.16632306575775146,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.16632306575775146,
+      "overall_average": 0.03326461464166641
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.16632306575775146,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.16632306575775146,
+    "overall_average": 0.03326461464166641
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 123.997,
+    "retrieval_time": 0.6853,
+    "generation_time": 3.1716,
+    "evaluation_time": 2.1758,
+    "cleanup_time": 1.6078,
+    "total_time": 131.64
+  }
+}

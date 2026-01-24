@@ -1,0 +1,76 @@
+{
+  "sample_idx": 438,
+  "question_id": "0a995998",
+  "question": "How many items of clothing do I need to pick up or return from a store?",
+  "question_type": "multi-session",
+  "gold_answer": 3,
+  "question_date": "2023/02/15 (Wed) 23:58",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T18:55:44.985133",
+  "predicted_answer": "You need to pick up one pair of boots from Zara, which you exchanged on 2/5. There is no mention of any items that need to be returned from a store.",
+  "prompt_length": 26505,
+  "gen_token_usage": {
+    "prompt_tokens": 5919,
+    "answer_tokens": 37,
+    "total_tokens": 5956,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.52,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 31,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.0932302474975586,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.0932302474975586,
+      "overall_average": 0.01864605024456978
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.0932302474975586,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.0932302474975586,
+    "overall_average": 0.01864605024456978
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 130.4923,
+    "retrieval_time": 0.6029,
+    "generation_time": 1.9263,
+    "evaluation_time": 1.456,
+    "cleanup_time": 1.646,
+    "total_time": 136.1241
+  }
+}

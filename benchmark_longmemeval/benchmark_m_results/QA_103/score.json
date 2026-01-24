@@ -1,0 +1,76 @@
+{
+  "sample_idx": 103,
+  "question_id": "4fd1909e",
+  "question": "Where did I attend the Imagine Dragons concert?",
+  "question_type": "single-session-user",
+  "gold_answer": "Xfinity Center",
+  "question_date": "2023/05/30 (Tue) 23:37",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T03:07:55.928171",
+  "predicted_answer": "You attended the Imagine Dragons concert at the Xfinity Center on June 15th.",
+  "prompt_length": 8894,
+  "gen_token_usage": {
+    "prompt_tokens": 2065,
+    "answer_tokens": 17,
+    "total_tokens": 2082,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.58,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3076923076923077,
+      "rouge1_f": 0.2666666666666667,
+      "rouge2_f": 0.15384615384615385,
+      "rougeL_f": 0.2666666666666667,
+      "semantic_similarity": 0.4792332649230957,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2102564102564103,
+      "avg_semantic": 0.4792332649230957,
+      "overall_average": 0.26405176520347595
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3076923076923077,
+    "rouge1_f": 0.2666666666666667,
+    "rouge2_f": 0.15384615384615385,
+    "rougeL_f": 0.2666666666666667,
+    "semantic_similarity": 0.4792332649230957,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2102564102564103,
+    "avg_semantic": 0.4792332649230957,
+    "overall_average": 0.26405176520347595
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.677,
+    "retrieval_time": 0.5439,
+    "generation_time": 2.5797,
+    "evaluation_time": 1.187,
+    "cleanup_time": 1.4451,
+    "total_time": 128.433
+  }
+}

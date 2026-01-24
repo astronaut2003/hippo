@@ -1,0 +1,76 @@
+{
+  "sample_idx": 168,
+  "question_id": "61f8c8f8",
+  "question": "How much faster did I finish the 5K run compared to my previous year's time?",
+  "question_type": "multi-session",
+  "gold_answer": "10 minutes",
+  "question_date": "2023/10/01 (Sun) 23:54",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T05:26:56.171672",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 29170,
+  "gen_token_usage": {
+    "prompt_tokens": 6513,
+    "answer_tokens": 10,
+    "total_tokens": 6523,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.97,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.09703469276428223,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.09703469276428223,
+      "overall_average": 0.019406938925385475
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.09703469276428223,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.09703469276428223,
+    "overall_average": 0.019406938925385475
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 119.9113,
+    "retrieval_time": 0.6503,
+    "generation_time": 2.5985,
+    "evaluation_time": 0.9584,
+    "cleanup_time": 1.5456,
+    "total_time": 125.6646
+  }
+}

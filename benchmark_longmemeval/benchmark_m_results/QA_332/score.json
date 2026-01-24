@@ -1,0 +1,76 @@
+{
+  "sample_idx": 332,
+  "question_id": "gpt4_d6585ce9",
+  "question": "Who did I go with to the music event last Saturday?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "my parents",
+  "question_date": "2023/04/22 (Sat) 08:29",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T11:28:03.590390",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 20634,
+  "gen_token_usage": {
+    "prompt_tokens": 4677,
+    "answer_tokens": 10,
+    "total_tokens": 4687,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.57,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.15261435508728027,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.15261435508728027,
+      "overall_average": 0.030522871762514114
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.15261435508728027,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.15261435508728027,
+    "overall_average": 0.030522871762514114
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 126.7296,
+    "retrieval_time": 0.6615,
+    "generation_time": 1.7833,
+    "evaluation_time": 3.0984,
+    "cleanup_time": 1.5586,
+    "total_time": 133.8325
+  }
+}

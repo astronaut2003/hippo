@@ -1,0 +1,76 @@
+{
+  "sample_idx": 373,
+  "question_id": "c9f37c46",
+  "question": "How long had I been watching stand-up comedy specials regularly when I attended the open mic night at the local comedy club?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "2 months",
+  "question_date": "2023/05/27 (Sat) 07:24",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:34:30.663246",
+  "predicted_answer": "You had been watching stand-up comedy specials regularly for about 2 months when you attended the open mic night at the local comedy club, as you started watching regularly 3 months ago and attended the open mic night last month.",
+  "prompt_length": 22757,
+  "gen_token_usage": {
+    "prompt_tokens": 5070,
+    "answer_tokens": 45,
+    "total_tokens": 5115,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.87,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 40,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.10526315789473684,
+      "rouge1_f": 0.09302325581395349,
+      "rouge2_f": 0.04878048780487806,
+      "rougeL_f": 0.09302325581395349,
+      "semantic_similarity": 0.3696422576904297,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.07282741738066095,
+      "avg_semantic": 0.3696422576904297,
+      "overall_average": 0.13219037652015686
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.10526315789473684,
+    "rouge1_f": 0.09302325581395349,
+    "rouge2_f": 0.04878048780487806,
+    "rougeL_f": 0.09302325581395349,
+    "semantic_similarity": 0.3696422576904297,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.07282741738066095,
+    "avg_semantic": 0.3696422576904297,
+    "overall_average": 0.13219037652015686
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.0598,
+    "retrieval_time": 0.6759,
+    "generation_time": 3.0065,
+    "evaluation_time": 1.7873,
+    "cleanup_time": 1.5141,
+    "total_time": 128.044
+  }
+}

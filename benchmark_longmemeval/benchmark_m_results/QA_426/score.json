@@ -1,0 +1,76 @@
+{
+  "sample_idx": 426,
+  "question_id": "505af2f5",
+  "question": "I was thinking of trying a new coffee creamer recipe. Any recommendations?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that suggest variations on their existing almond milk, vanilla extract, and honey creamer recipe or new ideas that align with their goals of reducing sugar intake and saving money. They might not prefer responses that recommend commercial creamer products or recipes that are high in sugar or expensive.",
+  "question_date": "2023/05/30 (Tue) 22:50",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T18:28:58.793806",
+  "predicted_answer": "You can try making your own flavored creamer with almond milk, vanilla extract, and honey. To make it healthier, consider these tips:\n\n1. Use a healthier sweetener like stevia or monk fruit sweetener instead of honey.\n2. Opt for unsweetened, organic almond milk to avoid added sugars.\n3. Reduce the amount of sweetener and add spices like cinnamon or nutmeg for flavor.\n4. Experiment with flavor combinations, such as pairing vanilla with almond or coconut extracts.\n\nThese adjustments can help you create a delicious and healthier coffee creamer!",
+  "prompt_length": 16175,
+  "gen_token_usage": {
+    "prompt_tokens": 3550,
+    "answer_tokens": 113,
+    "total_tokens": 3663,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.71,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 53,
+      "response_length": 88,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.21212121212121213,
+      "rouge1_f": 0.24113475177304963,
+      "rouge2_f": 0.07194244604316546,
+      "rougeL_f": 0.1702127659574468,
+      "semantic_similarity": 0.6790178418159485,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.15586718246292713,
+      "avg_semantic": 0.6790178418159485,
+      "overall_average": 0.2604973316192627
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.21212121212121213,
+    "rouge1_f": 0.24113475177304963,
+    "rouge2_f": 0.07194244604316546,
+    "rougeL_f": 0.1702127659574468,
+    "semantic_similarity": 0.6790178418159485,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.15586718246292713,
+    "avg_semantic": 0.6790178418159485,
+    "overall_average": 0.2604973316192627
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.7518,
+    "retrieval_time": 0.6613,
+    "generation_time": 2.5778,
+    "evaluation_time": 1.6845,
+    "cleanup_time": 1.5845,
+    "total_time": 131.2606
+  }
+}

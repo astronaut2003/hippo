@@ -1,0 +1,76 @@
+{
+  "sample_idx": 453,
+  "question_id": "28dc39ac",
+  "question": "How many hours have I spent playing games in total?",
+  "question_type": "multi-session",
+  "gold_answer": "140 hours",
+  "question_date": "2023/05/30 (Tue) 22:11",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T19:34:39.466807",
+  "predicted_answer": "You have spent a total of 10 hours playing games based on the information provided: 5 hours playing Overwatch in one session and 10 hours completing Celeste. I don't have enough information about other gaming sessions to provide a total beyond that.",
+  "prompt_length": 18354,
+  "gen_token_usage": {
+    "prompt_tokens": 4198,
+    "answer_tokens": 50,
+    "total_tokens": 4248,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.2,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 42,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.05,
+      "rouge1_f": 0.04444444444444444,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.04444444444444444,
+      "semantic_similarity": 0.5214166641235352,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.034722222222222224,
+      "avg_semantic": 0.5214166641235352,
+      "overall_average": 0.13206110894680023
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.05,
+    "rouge1_f": 0.04444444444444444,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.04444444444444444,
+    "semantic_similarity": 0.5214166641235352,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.034722222222222224,
+    "avg_semantic": 0.5214166641235352,
+    "overall_average": 0.13206110894680023
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 132.1119,
+    "retrieval_time": 0.575,
+    "generation_time": 1.8774,
+    "evaluation_time": 1.0227,
+    "cleanup_time": 1.6029,
+    "total_time": 137.1909
+  }
+}

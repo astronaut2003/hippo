@@ -1,0 +1,76 @@
+{
+  "sample_idx": 392,
+  "question_id": "6613b389",
+  "question": "How many months before my anniversary did Rachel get engaged?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "2",
+  "question_date": "2023/07/07 (Fri) 22:06",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T17:15:23.660965",
+  "predicted_answer": "Rachel got engaged on May 15th, and your anniversary is on July 22nd. This means Rachel got engaged approximately two months before your anniversary.",
+  "prompt_length": 16261,
+  "gen_token_usage": {
+    "prompt_tokens": 3596,
+    "answer_tokens": 31,
+    "total_tokens": 3627,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.74,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 24,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.008066177368164062,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.008066177368164062,
+      "overall_average": 0.0016132354503497481
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.008066177368164062,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.008066177368164062,
+    "overall_average": 0.0016132354503497481
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.6201,
+    "retrieval_time": 0.5963,
+    "generation_time": 1.7089,
+    "evaluation_time": 1.0934,
+    "cleanup_time": 1.3194,
+    "total_time": 129.339
+  }
+}

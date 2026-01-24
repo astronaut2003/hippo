@@ -1,0 +1,76 @@
+{
+  "sample_idx": 418,
+  "question_id": "06f04340",
+  "question": "What should I serve for dinner this weekend with my homegrown ingredients?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer dinner suggestions that incorporate their homegrown cherry tomatoes and herbs like basil and mint, highlighting recipes that showcase their garden produce. They might not prefer suggestions that do not utilize these specific ingredients or do not emphasize the use of homegrown elements.",
+  "question_date": "2023/05/30 (Tue) 23:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T18:11:28.715255",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 17337,
+  "gen_token_usage": {
+    "prompt_tokens": 3982,
+    "answer_tokens": 10,
+    "total_tokens": 3992,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.04,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 46,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.027289986610412598,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.027289986610412598,
+      "overall_average": 0.0054579973220825195
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.027289986610412598,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.027289986610412598,
+    "overall_average": 0.0054579973220825195
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 126.6051,
+    "retrieval_time": 0.5928,
+    "generation_time": 3.8586,
+    "evaluation_time": 2.1926,
+    "cleanup_time": 1.4227,
+    "total_time": 134.6724
+  }
+}

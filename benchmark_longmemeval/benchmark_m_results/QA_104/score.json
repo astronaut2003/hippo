@@ -1,0 +1,76 @@
+{
+  "sample_idx": 104,
+  "question_id": "545bd2b5",
+  "question": "How much screen time have I been averaging on Instagram per day?",
+  "question_type": "single-session-user",
+  "gold_answer": "2 hours",
+  "question_date": "2023/05/30 (Tue) 23:43",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T03:10:04.362850",
+  "predicted_answer": "You have been averaging around 2 hours of screen time on Instagram per day for the past two weeks.",
+  "prompt_length": 24914,
+  "gen_token_usage": {
+    "prompt_tokens": 5583,
+    "answer_tokens": 21,
+    "total_tokens": 5604,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.26,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 19,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.19999999999999998,
+      "rouge1_f": 0.1904761904761905,
+      "rouge2_f": 0.10526315789473684,
+      "rougeL_f": 0.1904761904761905,
+      "semantic_similarity": 0.4742468595504761,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.14523809523809525,
+      "avg_semantic": 0.4742468595504761,
+      "overall_average": 0.21103985607624054
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.19999999999999998,
+    "rouge1_f": 0.1904761904761905,
+    "rouge2_f": 0.10526315789473684,
+    "rougeL_f": 0.1904761904761905,
+    "semantic_similarity": 0.4742468595504761,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.14523809523809525,
+    "avg_semantic": 0.4742468595504761,
+    "overall_average": 0.21103985607624054
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.1631,
+    "retrieval_time": 0.5871,
+    "generation_time": 2.3995,
+    "evaluation_time": 1.538,
+    "cleanup_time": 1.3688,
+    "total_time": 127.0573
+  }
+}

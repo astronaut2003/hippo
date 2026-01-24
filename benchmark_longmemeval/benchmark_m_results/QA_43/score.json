@@ -1,0 +1,76 @@
+{
+  "sample_idx": 43,
+  "question_id": "4baee567",
+  "question": "I was looking back at our previous chat and I wanted to confirm, how many times did the Chiefs play the Jaguars at Arrowhead Stadium?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "The Chiefs played the Jaguars 12 times at Arrowhead Stadium.",
+  "question_date": "2023/05/30 (Tue) 23:11",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T01:01:30.970496",
+  "predicted_answer": "The Kansas City Chiefs and the Jacksonville Jaguars have played 12 times at Arrowhead Stadium.",
+  "prompt_length": 9137,
+  "gen_token_usage": {
+    "prompt_tokens": 2068,
+    "answer_tokens": 18,
+    "total_tokens": 2086,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.58,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 10,
+      "response_length": 15,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.8,
+      "rouge1_f": 0.8,
+      "rouge2_f": 0.34782608695652173,
+      "rougeL_f": 0.7200000000000001,
+      "semantic_similarity": 0.918476402759552,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.5800000000000001,
+      "avg_semantic": 0.918476402759552,
+      "overall_average": 0.6476952433586121
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.8,
+    "rouge1_f": 0.8,
+    "rouge2_f": 0.34782608695652173,
+    "rougeL_f": 0.7200000000000001,
+    "semantic_similarity": 0.918476402759552,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.5800000000000001,
+    "avg_semantic": 0.918476402759552,
+    "overall_average": 0.6476952433586121
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 119.3748,
+    "retrieval_time": 0.5818,
+    "generation_time": 5.2738,
+    "evaluation_time": 1.1342,
+    "cleanup_time": 1.3326,
+    "total_time": 127.6977
+  }
+}

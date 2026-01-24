@@ -1,0 +1,76 @@
+{
+  "sample_idx": 201,
+  "question_id": "945e3d21",
+  "question": "How often do I attend yoga classes to help with my anxiety?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Three times a week.",
+  "question_date": "2023/12/20 (Wed) 16:42",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T06:38:12.182680",
+  "predicted_answer": "You attend yoga classes three times a week, which has been helping you feel more grounded and centered, especially on days when you're feeling anxious.",
+  "prompt_length": 22530,
+  "gen_token_usage": {
+    "prompt_tokens": 4984,
+    "answer_tokens": 28,
+    "total_tokens": 5012,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.8,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 4,
+      "response_length": 25,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.23076923076923078,
+      "rouge1_f": 0.2666666666666667,
+      "rouge2_f": 0.21428571428571425,
+      "rougeL_f": 0.2666666666666667,
+      "semantic_similarity": 0.38818883895874023,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.19102564102564107,
+      "avg_semantic": 0.38818883895874023,
+      "overall_average": 0.23045828938484192
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.23076923076923078,
+    "rouge1_f": 0.2666666666666667,
+    "rouge2_f": 0.21428571428571425,
+    "rougeL_f": 0.2666666666666667,
+    "semantic_similarity": 0.38818883895874023,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.19102564102564107,
+    "avg_semantic": 0.38818883895874023,
+    "overall_average": 0.23045828938484192
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.2077,
+    "retrieval_time": 0.6742,
+    "generation_time": 3.7637,
+    "evaluation_time": 1.349,
+    "cleanup_time": 1.9318,
+    "total_time": 131.9271
+  }
+}

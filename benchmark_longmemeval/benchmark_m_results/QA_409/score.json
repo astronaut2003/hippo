@@ -1,0 +1,76 @@
+{
+  "sample_idx": 409,
+  "question_id": "06878be2",
+  "question": "Can you suggest some accessories that would complement my current photography setup?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer suggestions of Sony-compatible accessories or high-quality photography gear that can enhance their photography experience. They may not prefer suggestions of other brands' equipment or low-quality gear.",
+  "question_date": "2023/05/30 (Tue) 21:46",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T17:51:54.362004",
+  "predicted_answer": "Based on your current photography setup, here are some accessories that would complement it:\n\n1. **Tripod**: A compact travel tripod can help with low-light shots and stability.\n2. **Remote Shutter Release**: Useful for reducing camera shake and taking selfies.\n3. **Lens Cleaning Kit**: To keep your lenses clean and free of dust.\n4. **Memory Cards**: Bring multiple high-capacity memory cards for ample storage.\n5. **Battery and Charger**: Extra batteries and a portable charger to keep your camera powered.\n6. **Lighting**: Consider adding softboxes or LED light panels to enhance your lighting setup.\n\nThese accessories can enhance your photography experience and improve the quality of your shots.",
+  "prompt_length": 29597,
+  "gen_token_usage": {
+    "prompt_tokens": 6264,
+    "answer_tokens": 145,
+    "total_tokens": 6409,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.78,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 30,
+      "response_length": 106,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.17460317460317462,
+      "rouge1_f": 0.21276595744680854,
+      "rouge2_f": 0.028776978417266185,
+      "rougeL_f": 0.11347517730496452,
+      "semantic_similarity": 0.5767174363136292,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.1252110773387369,
+      "avg_semantic": 0.5767174363136292,
+      "overall_average": 0.21551235020160675
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.17460317460317462,
+    "rouge1_f": 0.21276595744680854,
+    "rouge2_f": 0.028776978417266185,
+    "rougeL_f": 0.11347517730496452,
+    "semantic_similarity": 0.5767174363136292,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.1252110773387369,
+    "avg_semantic": 0.5767174363136292,
+    "overall_average": 0.21551235020160675
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.2127,
+    "retrieval_time": 0.6089,
+    "generation_time": 10.3176,
+    "evaluation_time": 0.9885,
+    "cleanup_time": 1.3022,
+    "total_time": 138.4308
+  }
+}

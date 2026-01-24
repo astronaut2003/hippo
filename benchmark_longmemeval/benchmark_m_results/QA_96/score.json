@@ -1,0 +1,76 @@
+{
+  "sample_idx": 96,
+  "question_id": "15745da0",
+  "question": "How long have I been collecting vintage cameras?",
+  "question_type": "single-session-user",
+  "gold_answer": "three months",
+  "question_date": "2023/05/30 (Tue) 23:55",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T02:53:07.895406",
+  "predicted_answer": "You have been collecting vintage cameras for three months.",
+  "prompt_length": 25069,
+  "gen_token_usage": {
+    "prompt_tokens": 5282,
+    "answer_tokens": 10,
+    "total_tokens": 5292,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.03,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3636363636363636,
+      "rouge1_f": 0.3636363636363636,
+      "rouge2_f": 0.2222222222222222,
+      "rougeL_f": 0.3636363636363636,
+      "semantic_similarity": 0.39280277490615845,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2727272727272727,
+      "avg_semantic": 0.39280277490615845,
+      "overall_average": 0.29674237966537476
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3636363636363636,
+    "rouge1_f": 0.3636363636363636,
+    "rouge2_f": 0.2222222222222222,
+    "rougeL_f": 0.3636363636363636,
+    "semantic_similarity": 0.39280277490615845,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2727272727272727,
+    "avg_semantic": 0.39280277490615845,
+    "overall_average": 0.29674237966537476
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 120.3913,
+    "retrieval_time": 0.6161,
+    "generation_time": 2.9989,
+    "evaluation_time": 1.188,
+    "cleanup_time": 1.4434,
+    "total_time": 126.6389
+  }
+}

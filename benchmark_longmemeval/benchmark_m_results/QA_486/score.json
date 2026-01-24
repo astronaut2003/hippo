@@ -1,0 +1,76 @@
+{
+  "sample_idx": 486,
+  "question_id": "e3038f8c",
+  "question": "How many rare items do I have in total?",
+  "question_type": "multi-session",
+  "gold_answer": 99,
+  "question_date": "2023/05/30 (Tue) 22:43",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T23:20:25.608316",
+  "predicted_answer": "You have a total of 57 rare records. Additionally, you mentioned a 1913 Liberty Head nickel as a rare item, but the total number of rare items beyond the records is not specified. Therefore, I don't have enough information to answer this question completely.",
+  "prompt_length": 11507,
+  "gen_token_usage": {
+    "prompt_tokens": 2737,
+    "answer_tokens": 53,
+    "total_tokens": 2790,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.09,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 44,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.2735709547996521,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.2735709547996521,
+      "overall_average": 0.05471419170498848
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.2735709547996521,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.2735709547996521,
+    "overall_average": 0.05471419170498848
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.1893,
+    "retrieval_time": 0.667,
+    "generation_time": 3.8924,
+    "evaluation_time": 0.8704,
+    "cleanup_time": 1.4976,
+    "total_time": 129.1177
+  }
+}

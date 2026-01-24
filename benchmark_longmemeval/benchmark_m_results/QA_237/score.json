@@ -1,0 +1,76 @@
+{
+  "sample_idx": 237,
+  "question_id": "0e4e4c46",
+  "question": "What is my current highest score in Ticket to Ride?",
+  "question_type": "knowledge-update",
+  "gold_answer": "132 points",
+  "question_date": "2023/06/15 (Thu) 17:30",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T07:56:00.903019",
+  "predicted_answer": "Your current highest score in Ticket to Ride is 124 points.",
+  "prompt_length": 20661,
+  "gen_token_usage": {
+    "prompt_tokens": 5186,
+    "answer_tokens": 13,
+    "total_tokens": 5199,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.96,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 11,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.15384615384615385,
+      "rouge1_f": 0.15384615384615385,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.15384615384615385,
+      "semantic_similarity": 0.5512151718139648,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.11538461538461539,
+      "avg_semantic": 0.5512151718139648,
+      "overall_average": 0.2025507241487503
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.15384615384615385,
+    "rouge1_f": 0.15384615384615385,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.15384615384615385,
+    "semantic_similarity": 0.5512151718139648,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.11538461538461539,
+    "avg_semantic": 0.5512151718139648,
+    "overall_average": 0.2025507241487503
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.3258,
+    "retrieval_time": 0.5773,
+    "generation_time": 2.3717,
+    "evaluation_time": 1.1828,
+    "cleanup_time": 1.5683,
+    "total_time": 131.0266
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 46,
+  "question_id": "ac031881",
+  "question": "I'm trying to recall what the designation on my jumpsuit was that helped me find the file number in the records room?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "The designation on your jumpsuit was 'LIV'.",
+  "question_date": "2023/05/30 (Tue) 23:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T01:07:46.832196",
+  "predicted_answer": "The designation on your jumpsuit was \"LIV,\" which is the Roman numeral for 54. This helped you identify that you needed to search for file number 54 in the records room.",
+  "prompt_length": 7525,
+  "gen_token_usage": {
+    "prompt_tokens": 1778,
+    "answer_tokens": 39,
+    "total_tokens": 1817,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.36,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 7,
+      "response_length": 31,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.35294117647058826,
+      "rouge1_f": 0.3684210526315789,
+      "rouge2_f": 0.33333333333333337,
+      "rougeL_f": 0.3684210526315789,
+      "semantic_similarity": 0.6792537569999695,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.2724458204334365,
+      "avg_semantic": 0.6792537569999695,
+      "overall_average": 0.35380738973617554
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.35294117647058826,
+    "rouge1_f": 0.3684210526315789,
+    "rouge2_f": 0.33333333333333337,
+    "rougeL_f": 0.3684210526315789,
+    "semantic_similarity": 0.6792537569999695,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.2724458204334365,
+    "avg_semantic": 0.6792537569999695,
+    "overall_average": 0.35380738973617554
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 123.4562,
+    "retrieval_time": 0.3726,
+    "generation_time": 2.0096,
+    "evaluation_time": 1.082,
+    "cleanup_time": 1.5795,
+    "total_time": 128.5008
+  }
+}

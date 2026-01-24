@@ -1,0 +1,76 @@
+{
+  "sample_idx": 452,
+  "question_id": "36b9f61e",
+  "question": "What is the total amount I spent on luxury items in the past few months?",
+  "question_type": "multi-session",
+  "gold_answer": "$2,500",
+  "question_date": "2023/05/30 (Tue) 23:28",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T19:32:14.103841",
+  "predicted_answer": "Based on the memories, you mentioned purchasing a luxury evening gown for $800 and a Gucci handbag for $1,200. Additionally, you bought leather boots from a high-end Italian designer for $500. \n\nAdding these amounts together:\n\n- Evening gown: $800\n- Gucci handbag: $1,200\n- Leather boots: $500\n\nTotal spent on luxury items: **$2,500**.",
+  "prompt_length": 19641,
+  "gen_token_usage": {
+    "prompt_tokens": 4266,
+    "answer_tokens": 83,
+    "total_tokens": 4349,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.25,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 53,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.04347826086956522,
+      "rouge1_f": 0.07142857142857142,
+      "rouge2_f": 0.037037037037037035,
+      "rougeL_f": 0.07142857142857142,
+      "semantic_similarity": 0.31160497665405273,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.046583850931677016,
+      "avg_semantic": 0.31160497665405273,
+      "overall_average": 0.0995880737900734
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.04347826086956522,
+    "rouge1_f": 0.07142857142857142,
+    "rouge2_f": 0.037037037037037035,
+    "rougeL_f": 0.07142857142857142,
+    "semantic_similarity": 0.31160497665405273,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.046583850931677016,
+    "avg_semantic": 0.31160497665405273,
+    "overall_average": 0.0995880737900734
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 137.6065,
+    "retrieval_time": 0.6773,
+    "generation_time": 4.0553,
+    "evaluation_time": 1.5569,
+    "cleanup_time": 1.4643,
+    "total_time": 145.3609
+  }
+}

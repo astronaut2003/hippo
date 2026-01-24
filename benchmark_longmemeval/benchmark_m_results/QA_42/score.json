@@ -1,0 +1,76 @@
+{
+  "sample_idx": 42,
+  "question_id": "4388e9dd",
+  "question": "I was going through our previous chat and I was wondering, what was Andy wearing in the script you wrote for the comedy movie scene?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Andy was wearing an untidy, stained white shirt.",
+  "question_date": "2023/05/30 (Tue) 23:14",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T00:59:17.788467",
+  "predicted_answer": "Andy was wearing an untidy, stained white shirt in the script for the comedy movie scene.",
+  "prompt_length": 13579,
+  "gen_token_usage": {
+    "prompt_tokens": 3189,
+    "answer_tokens": 19,
+    "total_tokens": 3208,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.43,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 8,
+      "response_length": 16,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.7000000000000001,
+      "rouge1_f": 0.6666666666666666,
+      "rouge2_f": 0.6363636363636364,
+      "rougeL_f": 0.6666666666666666,
+      "semantic_similarity": 0.8080620765686035,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.5083333333333333,
+      "avg_semantic": 0.8080620765686035,
+      "overall_average": 0.5682790875434875
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.7000000000000001,
+    "rouge1_f": 0.6666666666666666,
+    "rouge2_f": 0.6363636363636364,
+    "rougeL_f": 0.6666666666666666,
+    "semantic_similarity": 0.8080620765686035,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.5083333333333333,
+    "avg_semantic": 0.8080620765686035,
+    "overall_average": 0.5682790875434875
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.4224,
+    "retrieval_time": 0.6323,
+    "generation_time": 4.3966,
+    "evaluation_time": 2.3469,
+    "cleanup_time": 1.3796,
+    "total_time": 133.1801
+  }
+}

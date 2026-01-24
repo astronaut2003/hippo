@@ -1,0 +1,76 @@
+{
+  "sample_idx": 251,
+  "question_id": "69fee5aa",
+  "question": "How many pre-1920 American coins do I have in my collection?",
+  "question_type": "knowledge-update",
+  "gold_answer": "38",
+  "question_date": "2023/06/05 (Mon) 08:03",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:26:17.665367",
+  "predicted_answer": "You have a total of 37 pre-1920 American coins in your collection.",
+  "prompt_length": 27825,
+  "gen_token_usage": {
+    "prompt_tokens": 6040,
+    "answer_tokens": 17,
+    "total_tokens": 6057,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.61,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 12,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.3024274706840515,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.3024274706840515,
+      "overall_average": 0.06048549339175224
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.3024274706840515,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.3024274706840515,
+    "overall_average": 0.06048549339175224
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.748,
+    "retrieval_time": 0.6054,
+    "generation_time": 2.4181,
+    "evaluation_time": 1.1048,
+    "cleanup_time": 1.616,
+    "total_time": 127.493
+  }
+}

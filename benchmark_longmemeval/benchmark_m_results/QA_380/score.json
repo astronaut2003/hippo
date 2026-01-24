@@ -1,0 +1,76 @@
+{
+  "sample_idx": 380,
+  "question_id": "gpt4_d9af6064",
+  "question": "Which device did I set up first, the smart thermostat or the new router?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "new router",
+  "question_date": "2023/03/28 (Tue) 01:10",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:49:31.520755",
+  "predicted_answer": "You set up the smart thermostat on February 10th, and you got the new router on January 15th. Therefore, you set up the new router first.",
+  "prompt_length": 23912,
+  "gen_token_usage": {
+    "prompt_tokens": 4932,
+    "answer_tokens": 34,
+    "total_tokens": 4966,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.76,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 26,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.16666666666666669,
+      "rouge1_f": 0.14285714285714288,
+      "rouge2_f": 0.07692307692307693,
+      "rougeL_f": 0.14285714285714288,
+      "semantic_similarity": 0.5386515259742737,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.11309523809523811,
+      "avg_semantic": 0.5386515259742737,
+      "overall_average": 0.19820649921894073
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.16666666666666669,
+    "rouge1_f": 0.14285714285714288,
+    "rouge2_f": 0.07692307692307693,
+    "rougeL_f": 0.14285714285714288,
+    "semantic_similarity": 0.5386515259742737,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.11309523809523811,
+    "avg_semantic": 0.5386515259742737,
+    "overall_average": 0.19820649921894073
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 123.4651,
+    "retrieval_time": 0.7049,
+    "generation_time": 1.6764,
+    "evaluation_time": 1.0065,
+    "cleanup_time": 1.5069,
+    "total_time": 128.3601
+  }
+}

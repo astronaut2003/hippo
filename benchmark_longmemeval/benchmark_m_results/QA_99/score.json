@@ -1,0 +1,76 @@
+{
+  "sample_idx": 99,
+  "question_id": "ccb36322",
+  "question": "What is the name of the music streaming service have I been using lately?",
+  "question_type": "single-session-user",
+  "gold_answer": "Spotify",
+  "question_date": "2023/05/30 (Tue) 23:04",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T02:59:33.277489",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 18201,
+  "gen_token_usage": {
+    "prompt_tokens": 3818,
+    "answer_tokens": 10,
+    "total_tokens": 3828,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.91,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.09926724433898926,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.09926724433898926,
+      "overall_average": 0.01985344849526882
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.09926724433898926,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.09926724433898926,
+    "overall_average": 0.01985344849526882
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 115.9945,
+    "retrieval_time": 0.6441,
+    "generation_time": 2.3442,
+    "evaluation_time": 1.8527,
+    "cleanup_time": 1.592,
+    "total_time": 122.4278
+  }
+}

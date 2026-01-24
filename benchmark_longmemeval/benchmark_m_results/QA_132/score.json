@@ -1,0 +1,76 @@
+{
+  "sample_idx": 132,
+  "question_id": "9aaed6a3",
+  "question": "How much cashback did I earn at SaveMart last Thursday?",
+  "question_type": "multi-session",
+  "gold_answer": "$0.75",
+  "question_date": "2023/05/30 (Tue) 22:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T04:09:47.039091",
+  "predicted_answer": "You spent $75 at SaveMart last Thursday. With your 1% cashback, you earned $0.75 in cashback from that purchase.",
+  "prompt_length": 13924,
+  "gen_token_usage": {
+    "prompt_tokens": 3492,
+    "answer_tokens": 29,
+    "total_tokens": 3521,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.66,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 19,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.1,
+      "rouge1_f": 0.18181818181818182,
+      "rouge2_f": 0.1,
+      "rougeL_f": 0.18181818181818182,
+      "semantic_similarity": 0.41784173250198364,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.11590909090909092,
+      "avg_semantic": 0.41784173250198364,
+      "overall_average": 0.17629560828208923
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.1,
+    "rouge1_f": 0.18181818181818182,
+    "rouge2_f": 0.1,
+    "rougeL_f": 0.18181818181818182,
+    "semantic_similarity": 0.41784173250198364,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.11590909090909092,
+    "avg_semantic": 0.41784173250198364,
+    "overall_average": 0.17629560828208923
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 127.9077,
+    "retrieval_time": 0.5966,
+    "generation_time": 2.9865,
+    "evaluation_time": 0.8604,
+    "cleanup_time": 1.6086,
+    "total_time": 133.9604
+  }
+}

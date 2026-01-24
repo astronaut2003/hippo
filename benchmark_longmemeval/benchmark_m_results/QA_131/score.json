@@ -1,0 +1,76 @@
+{
+  "sample_idx": 131,
+  "question_id": "85fa3a3f",
+  "question": "What is the total cost of the new food bowl, measuring cup, dental chews, and flea and tick collar I got for Max?",
+  "question_type": "multi-session",
+  "gold_answer": "$50",
+  "question_date": "2023/05/30 (Tue) 23:38",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T04:07:41.684568",
+  "predicted_answer": "The total cost of the new food bowl ($15), measuring cup ($5), dental chews ($10), and flea and tick collar ($20) for Max is:\n\n$15 + $5 + $10 + $20 = **$50**.",
+  "prompt_length": 12416,
+  "gen_token_usage": {
+    "prompt_tokens": 2916,
+    "answer_tokens": 51,
+    "total_tokens": 2967,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.22,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 33,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.07692307692307693,
+      "rouge1_f": 0.06666666666666667,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06666666666666667,
+      "semantic_similarity": 0.31055212020874023,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.05256410256410256,
+      "avg_semantic": 0.31055212020874023,
+      "overall_average": 0.10416170209646225
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.07692307692307693,
+    "rouge1_f": 0.06666666666666667,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06666666666666667,
+    "semantic_similarity": 0.31055212020874023,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.05256410256410256,
+    "avg_semantic": 0.31055212020874023,
+    "overall_average": 0.10416170209646225
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 119.74,
+    "retrieval_time": 0.5514,
+    "generation_time": 2.5687,
+    "evaluation_time": 0.9544,
+    "cleanup_time": 1.5369,
+    "total_time": 125.3528
+  }
+}

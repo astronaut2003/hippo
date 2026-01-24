@@ -1,0 +1,76 @@
+{
+  "sample_idx": 114,
+  "question_id": "faba32e5",
+  "question": "How long did Alex marinate the BBQ ribs in special sauce?",
+  "question_type": "single-session-user",
+  "gold_answer": "24 hours",
+  "question_date": "2023/05/30 (Tue) 23:52",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T03:31:13.967748",
+  "predicted_answer": "Alex marinated the BBQ ribs in a special sauce for 24 hours before grilling them.",
+  "prompt_length": 23824,
+  "gen_token_usage": {
+    "prompt_tokens": 5670,
+    "answer_tokens": 18,
+    "total_tokens": 5688,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.33,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 15,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2666666666666667,
+      "rouge1_f": 0.23529411764705882,
+      "rouge2_f": 0.13333333333333333,
+      "rougeL_f": 0.23529411764705882,
+      "semantic_similarity": 0.295001745223999,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1843137254901961,
+      "avg_semantic": 0.295001745223999,
+      "overall_average": 0.20645132660865784
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2666666666666667,
+    "rouge1_f": 0.23529411764705882,
+    "rouge2_f": 0.13333333333333333,
+    "rougeL_f": 0.23529411764705882,
+    "semantic_similarity": 0.295001745223999,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1843137254901961,
+    "avg_semantic": 0.295001745223999,
+    "overall_average": 0.20645132660865784
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 131.2442,
+    "retrieval_time": 0.7183,
+    "generation_time": 3.3521,
+    "evaluation_time": 1.8172,
+    "cleanup_time": 1.5714,
+    "total_time": 138.7044
+  }
+}

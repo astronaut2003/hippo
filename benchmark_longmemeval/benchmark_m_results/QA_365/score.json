@@ -1,0 +1,76 @@
+{
+  "sample_idx": 365,
+  "question_id": "gpt4_2d58bcd6",
+  "question": "Which book did I finish reading first, 'The Hate U Give' or 'The Nightingale'?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "'The Hate U Give'",
+  "question_date": "2023/05/23 (Tue) 23:42",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:17:08.156242",
+  "predicted_answer": "You finished reading \"The Hate U Give\" first, as you mentioned finishing it for your book club meeting two weeks ago, while you finished \"The Nightingale\" last weekend.",
+  "prompt_length": 22033,
+  "gen_token_usage": {
+    "prompt_tokens": 4949,
+    "answer_tokens": 36,
+    "total_tokens": 4985,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.78,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 4,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.20689655172413793,
+      "rouge1_f": 0.25,
+      "rouge2_f": 0.19999999999999998,
+      "rougeL_f": 0.25,
+      "semantic_similarity": 0.40556466579437256,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.17672413793103448,
+      "avg_semantic": 0.40556466579437256,
+      "overall_average": 0.2224922478199005
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.20689655172413793,
+    "rouge1_f": 0.25,
+    "rouge2_f": 0.19999999999999998,
+    "rougeL_f": 0.25,
+    "semantic_similarity": 0.40556466579437256,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.17672413793103448,
+    "avg_semantic": 0.40556466579437256,
+    "overall_average": 0.2224922478199005
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 126.6619,
+    "retrieval_time": 0.6103,
+    "generation_time": 3.9171,
+    "evaluation_time": 11.2402,
+    "cleanup_time": 1.4119,
+    "total_time": 143.8421
+  }
+}

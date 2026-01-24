@@ -1,0 +1,76 @@
+{
+  "sample_idx": 212,
+  "question_id": "0f05491a",
+  "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+  "question_type": "knowledge-update",
+  "gold_answer": 120,
+  "question_date": "2023/08/01 (Tue) 09:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T07:01:45.804464",
+  "predicted_answer": "To reach the Gold level on your Starbucks Rewards app, you need to earn a total of **300 stars** within a 12-month period.",
+  "prompt_length": 13084,
+  "gen_token_usage": {
+    "prompt_tokens": 2909,
+    "answer_tokens": 29,
+    "total_tokens": 2938,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.22,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 23,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.10037565231323242,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.10037565231323242,
+      "overall_average": 0.020075131207704544
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.10037565231323242,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.10037565231323242,
+    "overall_average": 0.020075131207704544
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 126.5242,
+    "retrieval_time": 0.6103,
+    "generation_time": 2.6898,
+    "evaluation_time": 1.5224,
+    "cleanup_time": 1.4294,
+    "total_time": 132.7768
+  }
+}

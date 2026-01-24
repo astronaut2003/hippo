@@ -1,0 +1,76 @@
+{
+  "sample_idx": 26,
+  "question_id": "1b9b7252",
+  "question": "I wanted to follow up on our previous conversation about mindfulness techniques. You mentioned some great resources for guided imagery exercises, can you remind me of the website that had free exercises like 'The Mountain Meditation' and 'The Body Scan Meditation'?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Mindful.org.",
+  "question_date": "2023/05/30 (Tue) 22:29",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-09T23:52:36.415770",
+  "predicted_answer": "The website that has free guided imagery exercises like 'The Mountain Meditation' and 'The Body Scan Meditation' is Mindful.org.",
+  "prompt_length": 24533,
+  "gen_token_usage": {
+    "prompt_tokens": 5307,
+    "answer_tokens": 26,
+    "total_tokens": 5333,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.05,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 19,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.125,
+      "rouge1_f": 0.18181818181818182,
+      "rouge2_f": 0.1,
+      "rougeL_f": 0.18181818181818182,
+      "semantic_similarity": 0.5322431921958923,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.12215909090909091,
+      "avg_semantic": 0.5322431921958923,
+      "overall_average": 0.2041759043931961
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.125,
+    "rouge1_f": 0.18181818181818182,
+    "rouge2_f": 0.1,
+    "rougeL_f": 0.18181818181818182,
+    "semantic_similarity": 0.5322431921958923,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.12215909090909091,
+    "avg_semantic": 0.5322431921958923,
+    "overall_average": 0.2041759043931961
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 114.636,
+    "retrieval_time": 0.6663,
+    "generation_time": 3.0553,
+    "evaluation_time": 3.3697,
+    "cleanup_time": 1.5188,
+    "total_time": 123.2465
+  }
+}

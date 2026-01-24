@@ -1,0 +1,76 @@
+{
+  "sample_idx": 410,
+  "question_id": "75832dbd",
+  "question": "Can you recommend some recent publications or conferences that I might find interesting?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer suggestions related to recent research papers, articles, or conferences that focus on artificial intelligence in healthcare, particularly those that involve deep learning for medical image analysis. They would not be interested in general AI topics or those unrelated to healthcare.",
+  "question_date": "2023/05/30 (Tue) 23:55",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T17:54:12.794607",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 9720,
+  "gen_token_usage": {
+    "prompt_tokens": 2155,
+    "answer_tokens": 10,
+    "total_tokens": 2165,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.64,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 44,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.038461538461538464,
+      "rouge1_f": 0.037037037037037035,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.037037037037037035,
+      "semantic_similarity": 0.01295536756515503,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.028133903133903133,
+      "avg_semantic": 0.01295536756515503,
+      "overall_average": 0.025098195299506187
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.038461538461538464,
+    "rouge1_f": 0.037037037037037035,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.037037037037037035,
+    "semantic_similarity": 0.01295536756515503,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.028133903133903133,
+    "avg_semantic": 0.01295536756515503,
+    "overall_average": 0.025098195299506187
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.3765,
+    "retrieval_time": 0.655,
+    "generation_time": 1.3544,
+    "evaluation_time": 1.0151,
+    "cleanup_time": 2.8251,
+    "total_time": 127.2264
+  }
+}

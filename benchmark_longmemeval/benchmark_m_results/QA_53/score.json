@@ -1,0 +1,76 @@
+{
+  "sample_idx": 53,
+  "question_id": "1de5cff2",
+  "question": "I was going through our previous conversation about high-end fashion brands, and I was wondering if you could remind me of the brand that uses wild rubber sourced from the Amazon rainforest?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Veja",
+  "question_date": "2023/05/30 (Tue) 23:42",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T01:22:39.559557",
+  "predicted_answer": "The brand that uses wild rubber sourced from the Amazon rainforest is Veja.",
+  "prompt_length": 19525,
+  "gen_token_usage": {
+    "prompt_tokens": 4216,
+    "answer_tokens": 14,
+    "total_tokens": 4230,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.22,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.16666666666666669,
+      "rouge1_f": 0.14285714285714288,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.14285714285714288,
+      "semantic_similarity": 0.5322672724723816,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.11309523809523811,
+      "avg_semantic": 0.5322672724723816,
+      "overall_average": 0.19692964851856232
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.16666666666666669,
+    "rouge1_f": 0.14285714285714288,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.14285714285714288,
+    "semantic_similarity": 0.5322672724723816,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.11309523809523811,
+    "avg_semantic": 0.5322672724723816,
+    "overall_average": 0.19692964851856232
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 117.1003,
+    "retrieval_time": 0.6148,
+    "generation_time": 2.9491,
+    "evaluation_time": 2.0854,
+    "cleanup_time": 1.6204,
+    "total_time": 124.3704
+  }
+}

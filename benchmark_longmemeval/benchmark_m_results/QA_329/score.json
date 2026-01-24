@@ -1,0 +1,76 @@
+{
+  "sample_idx": 329,
+  "question_id": "gpt4_e061b84g",
+  "question": "I mentioned participating in a sports event two weeks ago. What was the event?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "The company's annual charity soccer tournament.",
+  "question_date": "2023/07/01 (Sat) 06:23",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T11:21:31.570507",
+  "predicted_answer": "The event you participated in two weeks ago was the Turbocharged event on March 17th, where you placed 3rd in the amateur drift competition.",
+  "prompt_length": 11546,
+  "gen_token_usage": {
+    "prompt_tokens": 2512,
+    "answer_tokens": 31,
+    "total_tokens": 2543,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.92,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 6,
+      "response_length": 24,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.06451612903225806,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06451612903225806,
+      "semantic_similarity": 0.26705628633499146,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.03225806451612903,
+      "avg_semantic": 0.26705628633499146,
+      "overall_average": 0.07921770960092545
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.06451612903225806,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06451612903225806,
+    "semantic_similarity": 0.26705628633499146,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.03225806451612903,
+    "avg_semantic": 0.26705628633499146,
+    "overall_average": 0.07921770960092545
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 123.7495,
+    "retrieval_time": 0.6581,
+    "generation_time": 2.3678,
+    "evaluation_time": 1.1007,
+    "cleanup_time": 1.5284,
+    "total_time": 129.4052
+  }
+}

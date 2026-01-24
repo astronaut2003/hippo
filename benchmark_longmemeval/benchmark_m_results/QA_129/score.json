@@ -1,0 +1,76 @@
+{
+  "sample_idx": 129,
+  "question_id": "a11281a2",
+  "question": "What was the approximate increase in Instagram followers I experienced in two weeks?",
+  "question_type": "multi-session",
+  "gold_answer": "100",
+  "question_date": "2023/05/30 (Tue) 23:43",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T04:03:14.617378",
+  "predicted_answer": "You experienced an increase of approximately 350 followers on Instagram in two weeks.",
+  "prompt_length": 32171,
+  "gen_token_usage": {
+    "prompt_tokens": 6724,
+    "answer_tokens": 15,
+    "total_tokens": 6739,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 5.13,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.17562443017959595,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.17562443017959595,
+      "overall_average": 0.03512488678097725
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.17562443017959595,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.17562443017959595,
+    "overall_average": 0.03512488678097725
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 126.2245,
+    "retrieval_time": 0.6972,
+    "generation_time": 5.0087,
+    "evaluation_time": 1.6598,
+    "cleanup_time": 1.611,
+    "total_time": 135.2027
+  }
+}

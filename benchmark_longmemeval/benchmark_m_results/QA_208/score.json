@@ -1,0 +1,76 @@
+{
+  "sample_idx": 208,
+  "question_id": "a1eacc2a",
+  "question": "How many short stories have I written since I started writing regularly?",
+  "question_type": "knowledge-update",
+  "gold_answer": "seven",
+  "question_date": "2023/06/20 (Tue) 00:10",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T06:53:13.400407",
+  "predicted_answer": "You have written seven short stories since you started writing regularly three months ago.",
+  "prompt_length": 17208,
+  "gen_token_usage": {
+    "prompt_tokens": 3683,
+    "answer_tokens": 15,
+    "total_tokens": 3698,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.81,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.13333333333333333,
+      "rouge1_f": 0.13333333333333333,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.13333333333333333,
+      "semantic_similarity": 0.33831536769866943,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1,
+      "avg_semantic": 0.33831536769866943,
+      "overall_average": 0.14766307175159454
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.13333333333333333,
+    "rouge1_f": 0.13333333333333333,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.13333333333333333,
+    "semantic_similarity": 0.33831536769866943,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1,
+    "avg_semantic": 0.33831536769866943,
+    "overall_average": 0.14766307175159454
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.0489,
+    "retrieval_time": 0.6883,
+    "generation_time": 2.0168,
+    "evaluation_time": 1.2523,
+    "cleanup_time": 2.693,
+    "total_time": 131.7009
+  }
+}

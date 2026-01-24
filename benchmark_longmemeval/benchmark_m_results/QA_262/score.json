@@ -1,0 +1,76 @@
+{
+  "sample_idx": 262,
+  "question_id": "42ec0761",
+  "question": "Do I have a spare screwdriver for opening up my laptop?",
+  "question_type": "knowledge-update",
+  "gold_answer": "Yes",
+  "question_date": "2023/08/21 (Mon) 03:03",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:51:15.221754",
+  "predicted_answer": "Yes, you have a spare screwdriver that you picked up when you organized your computer desk. You're all set for cleaning the laptop fans!",
+  "prompt_length": 20657,
+  "gen_token_usage": {
+    "prompt_tokens": 4662,
+    "answer_tokens": 27,
+    "total_tokens": 4689,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.56,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 24,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.08695652173913045,
+      "rouge1_f": 0.07692307692307693,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.07692307692307693,
+      "semantic_similarity": 0.20971131324768066,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.06020066889632107,
+      "avg_semantic": 0.20971131324768066,
+      "overall_average": 0.09010279923677444
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.08695652173913045,
+    "rouge1_f": 0.07692307692307693,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.07692307692307693,
+    "semantic_similarity": 0.20971131324768066,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.06020066889632107,
+    "avg_semantic": 0.20971131324768066,
+    "overall_average": 0.09010279923677444
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 146.624,
+    "retrieval_time": 0.676,
+    "generation_time": 3.3529,
+    "evaluation_time": 0.9722,
+    "cleanup_time": 1.6583,
+    "total_time": 153.2844
+  }
+}

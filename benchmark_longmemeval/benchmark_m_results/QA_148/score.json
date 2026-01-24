@@ -1,0 +1,76 @@
+{
+  "sample_idx": 148,
+  "question_id": "5025383b",
+  "question": "What are the two hobbies that led me to join online communities?",
+  "question_type": "multi-session",
+  "gold_answer": "photography and cooking",
+  "question_date": "2023/05/30 (Tue) 23:23",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T04:43:57.897438",
+  "predicted_answer": "The two hobbies that led you to join online communities are cooking and reading.",
+  "prompt_length": 25542,
+  "gen_token_usage": {
+    "prompt_tokens": 5199,
+    "answer_tokens": 15,
+    "total_tokens": 5214,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.97,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 14,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14285714285714285,
+      "rouge1_f": 0.23529411764705882,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.11764705882352941,
+      "semantic_similarity": 0.5129055380821228,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.12394957983193278,
+      "avg_semantic": 0.5129055380821228,
+      "overall_average": 0.20174077153205872
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14285714285714285,
+    "rouge1_f": 0.23529411764705882,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.11764705882352941,
+    "semantic_similarity": 0.5129055380821228,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.12394957983193278,
+    "avg_semantic": 0.5129055380821228,
+    "overall_average": 0.20174077153205872
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.8831,
+    "retrieval_time": 0.6759,
+    "generation_time": 2.8208,
+    "evaluation_time": 1.1326,
+    "cleanup_time": 1.4754,
+    "total_time": 131.9886
+  }
+}

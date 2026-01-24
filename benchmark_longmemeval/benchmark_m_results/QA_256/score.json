@@ -1,0 +1,76 @@
+{
+  "sample_idx": 256,
+  "question_id": "06db6396",
+  "question": "How many projects have I completed since starting painting classes?",
+  "question_type": "knowledge-update",
+  "gold_answer": "5",
+  "question_date": "2023/10/10 (Tue) 02:01",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:37:11.360399",
+  "predicted_answer": "You have completed 5 projects since starting painting classes.",
+  "prompt_length": 17415,
+  "gen_token_usage": {
+    "prompt_tokens": 3781,
+    "answer_tokens": 11,
+    "total_tokens": 3792,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.88,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.19999999999999998,
+      "rouge1_f": 0.19999999999999998,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.19999999999999998,
+      "semantic_similarity": 0.29329079389572144,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.15,
+      "avg_semantic": 0.29329079389572144,
+      "overall_average": 0.1786581575870514
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.19999999999999998,
+    "rouge1_f": 0.19999999999999998,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.19999999999999998,
+    "semantic_similarity": 0.29329079389572144,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.15,
+    "avg_semantic": 0.29329079389572144,
+    "overall_average": 0.1786581575870514
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.9065,
+    "retrieval_time": 0.6874,
+    "generation_time": 2.1166,
+    "evaluation_time": 1.1762,
+    "cleanup_time": 1.5865,
+    "total_time": 128.4742
+  }
+}

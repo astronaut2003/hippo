@@ -1,0 +1,76 @@
+{
+  "sample_idx": 11,
+  "question_id": "fea54f57",
+  "question": "I was thinking about our previous conversation about the Fifth Album, and I was wondering if you could remind me what song you said best exemplified the band's growth and development as artists?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Evolution",
+  "question_date": "2023/05/30 (Tue) 23:08",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-09T23:21:25.036315",
+  "predicted_answer": "The song that best exemplifies the band's growth and development as artists from the Fifth Album is \"Evolution.\"",
+  "prompt_length": 11265,
+  "gen_token_usage": {
+    "prompt_tokens": 2630,
+    "answer_tokens": 21,
+    "total_tokens": 2651,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.01,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 18,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.13333333333333333,
+      "rouge1_f": 0.1,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.1,
+      "semantic_similarity": 0.446847140789032,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.08333333333333334,
+      "avg_semantic": 0.446847140789032,
+      "overall_average": 0.15603609383106232
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.13333333333333333,
+    "rouge1_f": 0.1,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.1,
+    "semantic_similarity": 0.446847140789032,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.08333333333333334,
+    "avg_semantic": 0.446847140789032,
+    "overall_average": 0.15603609383106232
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 115.7256,
+    "retrieval_time": 0.6034,
+    "generation_time": 2.3559,
+    "evaluation_time": 2.1075,
+    "cleanup_time": 1.5292,
+    "total_time": 122.3223
+  }
+}

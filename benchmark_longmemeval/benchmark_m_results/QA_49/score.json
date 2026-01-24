@@ -1,0 +1,76 @@
+{
+  "sample_idx": 49,
+  "question_id": "c8f1aeed",
+  "question": "I wanted to follow up on our previous conversation about fracking in the Marcellus Shale region. You mentioned that some states require fracking companies to monitor groundwater quality at nearby wells before drilling and for a certain period after drilling is complete. Can you remind me which state you mentioned as an example that has this requirement?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Pennsylvania",
+  "question_date": "2023/05/30 (Tue) 23:40",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T01:14:14.763821",
+  "predicted_answer": "The state mentioned as an example that requires fracking companies to monitor groundwater quality at nearby wells before drilling and for a certain period after drilling is Pennsylvania.",
+  "prompt_length": 24766,
+  "gen_token_usage": {
+    "prompt_tokens": 5157,
+    "answer_tokens": 30,
+    "total_tokens": 5187,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.93,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 28,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.07999999999999999,
+      "rouge1_f": 0.0689655172413793,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0689655172413793,
+      "semantic_similarity": 0.4230647683143616,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.054482758620689645,
+      "avg_semantic": 0.4230647683143616,
+      "overall_average": 0.12819916009902954
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.07999999999999999,
+    "rouge1_f": 0.0689655172413793,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0689655172413793,
+    "semantic_similarity": 0.4230647683143616,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.054482758620689645,
+    "avg_semantic": 0.4230647683143616,
+    "overall_average": 0.12819916009902954
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 120.4651,
+    "retrieval_time": 0.6187,
+    "generation_time": 2.0472,
+    "evaluation_time": 1.853,
+    "cleanup_time": 1.5222,
+    "total_time": 126.5071
+  }
+}

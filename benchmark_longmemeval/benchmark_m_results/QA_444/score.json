@@ -1,0 +1,76 @@
+{
+  "sample_idx": 444,
+  "question_id": "gpt4_d84a3211",
+  "question": "How much total money have I spent on bike-related expenses since the start of the year?",
+  "question_type": "multi-session",
+  "gold_answer": "$185",
+  "question_date": "2023/05/05 (Fri) 23:59",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T19:12:04.052247",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 23919,
+  "gen_token_usage": {
+    "prompt_tokens": 5067,
+    "answer_tokens": 10,
+    "total_tokens": 5077,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.87,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.09433764219284058,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.09433764219284058,
+      "overall_average": 0.018867528066039085
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.09433764219284058,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.09433764219284058,
+    "overall_average": 0.018867528066039085
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 176.5297,
+    "retrieval_time": 0.6629,
+    "generation_time": 2.1233,
+    "evaluation_time": 0.9644,
+    "cleanup_time": 1.7898,
+    "total_time": 182.071
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 216,
+  "question_id": "2698e78f",
+  "question": "How often do I see my therapist, Dr. Smith?",
+  "question_type": "knowledge-update",
+  "gold_answer": "every week",
+  "question_date": "2023/11/08 (Wed) 15:30",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T07:10:40.307136",
+  "predicted_answer": "You see your therapist, Dr. Smith, every two weeks.",
+  "prompt_length": 12425,
+  "gen_token_usage": {
+    "prompt_tokens": 2665,
+    "answer_tokens": 13,
+    "total_tokens": 2678,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.03,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3636363636363636,
+      "rouge1_f": 0.3636363636363636,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.3636363636363636,
+      "semantic_similarity": 0.46029436588287354,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.2727272727272727,
+      "avg_semantic": 0.46029436588287354,
+      "overall_average": 0.3102406859397888
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3636363636363636,
+    "rouge1_f": 0.3636363636363636,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.3636363636363636,
+    "semantic_similarity": 0.46029436588287354,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.2727272727272727,
+    "avg_semantic": 0.46029436588287354,
+    "overall_average": 0.3102406859397888
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.9383,
+    "retrieval_time": 0.621,
+    "generation_time": 1.7445,
+    "evaluation_time": 0.8707,
+    "cleanup_time": 1.5912,
+    "total_time": 126.7667
+  }
+}

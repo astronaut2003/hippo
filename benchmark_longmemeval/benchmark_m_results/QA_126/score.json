@@ -1,0 +1,76 @@
+{
+  "sample_idx": 126,
+  "question_id": "d3ab962e",
+  "question": "What is the total distance of the hikes I did on two consecutive weekends?",
+  "question_type": "multi-session",
+  "gold_answer": "8 miles",
+  "question_date": "2022/09/24 (Sat) 23:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T03:56:48.646006",
+  "predicted_answer": "You mentioned doing a 14-mile round-trip hike to Clouds Rest in Yosemite on the 17th. However, I don't have information about any other hikes you did on the following weekend or any other hikes you may have completed. Therefore, I don't have enough information to answer your question about the total distance of the hikes you did on two consecutive weekends.",
+  "prompt_length": 25439,
+  "gen_token_usage": {
+    "prompt_tokens": 5625,
+    "answer_tokens": 71,
+    "total_tokens": 5696,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.29,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 61,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.029850746268656723,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.029850746268656723,
+      "semantic_similarity": 0.3762882947921753,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.014925373134328361,
+      "avg_semantic": 0.3762882947921753,
+      "overall_average": 0.08719795942306519
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.029850746268656723,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.029850746268656723,
+    "semantic_similarity": 0.3762882947921753,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.014925373134328361,
+    "avg_semantic": 0.3762882947921753,
+    "overall_average": 0.08719795942306519
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.7791,
+    "retrieval_time": 0.6748,
+    "generation_time": 2.727,
+    "evaluation_time": 2.0735,
+    "cleanup_time": 1.6011,
+    "total_time": 132.8565
+  }
+}

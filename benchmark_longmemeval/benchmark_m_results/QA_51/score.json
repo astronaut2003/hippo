@@ -1,0 +1,76 @@
+{
+  "sample_idx": 51,
+  "question_id": "c7cf7dfd",
+  "question": "I'm going back to our previous conversation about traditional Indian embroidery and tailoring techniques. Can you remind me of the name of that online store based in India that sells traditional Indian fabrics, threads, and embellishments?",
+  "question_type": "single-session-assistant",
+  "gold_answer": "Nostalgia",
+  "question_date": "2023/05/30 (Tue) 23:33",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T01:18:26.313309",
+  "predicted_answer": "The online store based in India that sells traditional Indian fabrics, threads, and embellishments is called Nostalgia.",
+  "prompt_length": 19774,
+  "gen_token_usage": {
+    "prompt_tokens": 4361,
+    "answer_tokens": 22,
+    "total_tokens": 4383,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.33,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 17,
+      "context_length": 0,
+      "question_type": "single-session-assistant"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.125,
+      "rouge1_f": 0.1111111111111111,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.1111111111111111,
+      "semantic_similarity": 0.42671746015548706,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.08680555555555555,
+      "avg_semantic": 0.42671746015548706,
+      "overall_average": 0.15478792786598206
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-assistant",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.125,
+    "rouge1_f": 0.1111111111111111,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.1111111111111111,
+    "semantic_similarity": 0.42671746015548706,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.08680555555555555,
+    "avg_semantic": 0.42671746015548706,
+    "overall_average": 0.15478792786598206
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 120.0873,
+    "retrieval_time": 0.682,
+    "generation_time": 2.9327,
+    "evaluation_time": 1.7448,
+    "cleanup_time": 1.546,
+    "total_time": 126.9936
+  }
+}

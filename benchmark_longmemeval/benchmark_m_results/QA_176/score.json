@@ -1,0 +1,76 @@
+{
+  "sample_idx": 176,
+  "question_id": "157a136e",
+  "question": "How many years older is my grandma than me?",
+  "question_type": "multi-session",
+  "gold_answer": "43",
+  "question_date": "2024/02/05 (Mon) 23:59",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T05:44:15.320114",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 16788,
+  "gen_token_usage": {
+    "prompt_tokens": 3718,
+    "answer_tokens": 10,
+    "total_tokens": 3728,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.84,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.1591218113899231,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.1591218113899231,
+      "overall_average": 0.03182436153292656
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.1591218113899231,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.1591218113899231,
+    "overall_average": 0.03182436153292656
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 123.7896,
+    "retrieval_time": 0.6216,
+    "generation_time": 2.1969,
+    "evaluation_time": 1.064,
+    "cleanup_time": 1.5726,
+    "total_time": 129.2454
+  }
+}

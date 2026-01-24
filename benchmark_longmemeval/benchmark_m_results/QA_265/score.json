@@ -1,0 +1,76 @@
+{
+  "sample_idx": 265,
+  "question_id": "26bdc477",
+  "question": "How many trips have I taken my Canon EOS 80D camera on?",
+  "question_type": "knowledge-update",
+  "gold_answer": "five",
+  "question_date": "2023/06/03 (Sat) 04:00",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:58:27.375469",
+  "predicted_answer": "You have taken your Canon EOS 80D camera on five trips.",
+  "prompt_length": 14444,
+  "gen_token_usage": {
+    "prompt_tokens": 3230,
+    "answer_tokens": 14,
+    "total_tokens": 3244,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.46,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 11,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.16666666666666669,
+      "rouge1_f": 0.16666666666666669,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.16666666666666669,
+      "semantic_similarity": 0.16238486766815186,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.125,
+      "avg_semantic": 0.16238486766815186,
+      "overall_average": 0.13247697055339813
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.16666666666666669,
+    "rouge1_f": 0.16666666666666669,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.16666666666666669,
+    "semantic_similarity": 0.16238486766815186,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.125,
+    "avg_semantic": 0.16238486766815186,
+    "overall_average": 0.13247697055339813
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 149.9788,
+    "retrieval_time": 0.6416,
+    "generation_time": 1.6278,
+    "evaluation_time": 1.2232,
+    "cleanup_time": 1.7115,
+    "total_time": 155.1844
+  }
+}

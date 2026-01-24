@@ -1,0 +1,76 @@
+{
+  "sample_idx": 475,
+  "question_id": "129d1232",
+  "question": "How much money did I raise in total through all the charity events I participated in?",
+  "question_type": "multi-session",
+  "gold_answer": "$5,850",
+  "question_date": "2023/05/01 (Mon) 23:59",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T22:57:08.629991",
+  "predicted_answer": "You raised a total of $55,000 through the charity events you participated in: $5,000 from the Bike-a-Thon for Cancer Research and $50,000 from the charity gala for the local children's hospital.",
+  "prompt_length": 26157,
+  "gen_token_usage": {
+    "prompt_tokens": 5352,
+    "answer_tokens": 45,
+    "total_tokens": 5397,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.08,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 31,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.05128205128205129,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.05128205128205129,
+      "semantic_similarity": 0.24247539043426514,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.025641025641025644,
+      "avg_semantic": 0.24247539043426514,
+      "overall_average": 0.06900789588689804
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.05128205128205129,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.05128205128205129,
+    "semantic_similarity": 0.24247539043426514,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.025641025641025644,
+    "avg_semantic": 0.24247539043426514,
+    "overall_average": 0.06900789588689804
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.058,
+    "retrieval_time": 0.6495,
+    "generation_time": 4.9308,
+    "evaluation_time": 1.1366,
+    "cleanup_time": 1.4786,
+    "total_time": 133.254
+  }
+}

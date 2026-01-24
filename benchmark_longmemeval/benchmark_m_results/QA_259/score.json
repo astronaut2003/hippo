@@ -1,0 +1,76 @@
+{
+  "sample_idx": 259,
+  "question_id": "10e09553",
+  "question": "How many largemouth bass did I catch with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip?",
+  "question_type": "knowledge-update",
+  "gold_answer": "7",
+  "question_date": "2023/12/17 (Sun) 03:33",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:43:56.238506",
+  "predicted_answer": "You caught 9 largemouth bass with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip.",
+  "prompt_length": 19911,
+  "gen_token_usage": {
+    "prompt_tokens": 4534,
+    "answer_tokens": 25,
+    "total_tokens": 4559,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.46,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 19,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.09523809523809523,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.09523809523809523,
+      "semantic_similarity": 0.2542579770088196,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.047619047619047616,
+      "avg_semantic": 0.2542579770088196,
+      "overall_average": 0.08894683420658112
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.09523809523809523,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.09523809523809523,
+    "semantic_similarity": 0.2542579770088196,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.047619047619047616,
+    "avg_semantic": 0.2542579770088196,
+    "overall_average": 0.08894683420658112
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 126.1734,
+    "retrieval_time": 0.6103,
+    "generation_time": 4.4405,
+    "evaluation_time": 1.0422,
+    "cleanup_time": 1.6233,
+    "total_time": 133.9041
+  }
+}

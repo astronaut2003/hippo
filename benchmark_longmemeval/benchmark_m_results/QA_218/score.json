@@ -1,0 +1,76 @@
+{
+  "sample_idx": 218,
+  "question_id": "45dc21b6",
+  "question": "How many of Emma's recipes have I tried out?",
+  "question_type": "knowledge-update",
+  "gold_answer": "3",
+  "question_date": "2023/06/12 (Mon) 07:00",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T07:14:52.514096",
+  "predicted_answer": "You have tried out 3 of Emma's recipes so far.",
+  "prompt_length": 18190,
+  "gen_token_usage": {
+    "prompt_tokens": 4150,
+    "answer_tokens": 13,
+    "total_tokens": 4163,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.17,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 10,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.18181818181818182,
+      "rouge1_f": 0.16666666666666669,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.16666666666666669,
+      "semantic_similarity": 0.12339657545089722,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.12878787878787878,
+      "avg_semantic": 0.12339657545089722,
+      "overall_average": 0.12770961225032806
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.18181818181818182,
+    "rouge1_f": 0.16666666666666669,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.16666666666666669,
+    "semantic_similarity": 0.12339657545089722,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.12878787878787878,
+    "avg_semantic": 0.12339657545089722,
+    "overall_average": 0.12770961225032806
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 123.9097,
+    "retrieval_time": 0.587,
+    "generation_time": 2.3921,
+    "evaluation_time": 1.0318,
+    "cleanup_time": 1.6481,
+    "total_time": 129.5691
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 496,
+  "question_id": "eeda8a6d_abs",
+  "question": "How many fish are there in my 30-gallon tank?",
+  "question_type": "multi-session",
+  "gold_answer": "The information provided is not enough. You did not mention that you have a 30-gallon tank.",
+  "question_date": "2023/05/30 (Tue) 23:37",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T23:41:45.863111",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 22706,
+  "gen_token_usage": {
+    "prompt_tokens": 5227,
+    "answer_tokens": 10,
+    "total_tokens": 5237,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.99,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 16,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.2608695652173913,
+      "rouge1_f": 0.22222222222222224,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.07407407407407408,
+      "semantic_similarity": 0.06077158451080322,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.1392914653784219,
+      "avg_semantic": 0.06077158451080322,
+      "overall_average": 0.12358748912811279
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.2608695652173913,
+    "rouge1_f": 0.22222222222222224,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.07407407407407408,
+    "semantic_similarity": 0.06077158451080322,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.1392914653784219,
+    "avg_semantic": 0.06077158451080322,
+    "overall_average": 0.12358748912811279
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 120.4929,
+    "retrieval_time": 0.6811,
+    "generation_time": 3.7981,
+    "evaluation_time": 2.0318,
+    "cleanup_time": 1.5424,
+    "total_time": 128.548
+  }
+}

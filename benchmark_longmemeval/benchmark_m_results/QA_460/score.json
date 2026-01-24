@@ -1,0 +1,76 @@
+{
+  "sample_idx": 460,
+  "question_id": "gpt4_7fce9456",
+  "question": "How many properties did I view before making an offer on the townhouse in the Brookside neighborhood?",
+  "question_type": "multi-session",
+  "gold_answer": "I viewed four properties before making an offer on the townhouse in the Brookside neighborhood. The reasons I didn't make an offer on them were: the kitchen of the bungalow needed serious renovation, the property in Cedar Creek was out of my budget, the noise from the highway was a deal-breaker for the 1-bedroom condo, and my offer on the 2-bedroom condo was rejected due to a higher bid.",
+  "question_date": "2023/03/08 (Wed) 23:59",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T19:50:46.407171",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 25397,
+  "gen_token_usage": {
+    "prompt_tokens": 5359,
+    "answer_tokens": 10,
+    "total_tokens": 5369,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.09,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 69,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.06349206349206349,
+      "rouge1_f": 0.07228915662650602,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.07228915662650602,
+      "semantic_similarity": 0.05063450336456299,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.05201759418626889,
+      "avg_semantic": 0.05063450336456299,
+      "overall_average": 0.05174098163843155
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.06349206349206349,
+    "rouge1_f": 0.07228915662650602,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.07228915662650602,
+    "semantic_similarity": 0.05063450336456299,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.05201759418626889,
+    "avg_semantic": 0.05063450336456299,
+    "overall_average": 0.05174098163843155
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 148.9409,
+    "retrieval_time": 0.6524,
+    "generation_time": 1.5817,
+    "evaluation_time": 0.6541,
+    "cleanup_time": 1.7577,
+    "total_time": 153.5875
+  }
+}

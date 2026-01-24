@@ -1,0 +1,76 @@
+{
+  "sample_idx": 192,
+  "question_id": "6456829e_abs",
+  "question": "How many plants did I initially plant for tomatoes and chili peppers?",
+  "question_type": "multi-session",
+  "gold_answer": "The information provided is not enough. You mentioned planting 5 plants for tomatoes but you did not mention chili peppers.",
+  "question_date": "2023/05/30 (Tue) 23:42",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T06:18:40.008398",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 19905,
+  "gen_token_usage": {
+    "prompt_tokens": 4630,
+    "answer_tokens": 10,
+    "total_tokens": 4640,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.53,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 20,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14285714285714285,
+      "rouge1_f": 0.13333333333333333,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06666666666666667,
+      "semantic_similarity": 0.06855815649032593,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.08571428571428572,
+      "avg_semantic": 0.06855815649032593,
+      "overall_average": 0.08228306472301483
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14285714285714285,
+    "rouge1_f": 0.13333333333333333,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06666666666666667,
+    "semantic_similarity": 0.06855815649032593,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.08571428571428572,
+    "avg_semantic": 0.06855815649032593,
+    "overall_average": 0.08228306472301483
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.5289,
+    "retrieval_time": 0.5986,
+    "generation_time": 2.2471,
+    "evaluation_time": 1.0257,
+    "cleanup_time": 1.665,
+    "total_time": 128.0658
+  }
+}

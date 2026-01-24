@@ -1,0 +1,76 @@
+{
+  "sample_idx": 363,
+  "question_id": "a3838d2b",
+  "question": "How many charity events did I participate in before the 'Run for the Cure' event?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "4",
+  "question_date": "2023/11/29 (Wed) 18:21",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T16:12:49.536231",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 21978,
+  "gen_token_usage": {
+    "prompt_tokens": 4523,
+    "answer_tokens": 10,
+    "total_tokens": 4533,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.45,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.16813254356384277,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.16813254356384277,
+      "overall_average": 0.033626507967710495
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.16813254356384277,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.16813254356384277,
+    "overall_average": 0.033626507967710495
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 121.4767,
+    "retrieval_time": 0.6217,
+    "generation_time": 4.2273,
+    "evaluation_time": 1.0349,
+    "cleanup_time": 1.4671,
+    "total_time": 128.8282
+  }
+}

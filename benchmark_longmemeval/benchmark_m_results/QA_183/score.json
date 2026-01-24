@@ -1,0 +1,76 @@
+{
+  "sample_idx": 183,
+  "question_id": "8cf4d046",
+  "question": "What is the average GPA of my undergraduate and graduate studies?",
+  "question_type": "multi-session",
+  "gold_answer": "3.83",
+  "question_date": "2023/05/30 (Tue) 23:40",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T05:59:22.837944",
+  "predicted_answer": "You have a GPA of 3.8 out of 4.0 for your Master's degree in Data Science from the University of Illinois at Urbana-Champaign. However, I don't have information about your undergraduate GPA from the University of Mumbai. Therefore, I don't have enough information to answer your question about the average GPA of your undergraduate and graduate studies.",
+  "prompt_length": 17158,
+  "gen_token_usage": {
+    "prompt_tokens": 3560,
+    "answer_tokens": 70,
+    "total_tokens": 3630,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.72,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 57,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.03076923076923077,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.03076923076923077,
+      "semantic_similarity": 0.32263195514678955,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.015384615384615385,
+      "avg_semantic": 0.32263195514678955,
+      "overall_average": 0.07683408260345459
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.03076923076923077,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.03076923076923077,
+    "semantic_similarity": 0.32263195514678955,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.015384615384615385,
+    "avg_semantic": 0.32263195514678955,
+    "overall_average": 0.07683408260345459
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.1992,
+    "retrieval_time": 0.6845,
+    "generation_time": 2.6473,
+    "evaluation_time": 1.1455,
+    "cleanup_time": 1.5521,
+    "total_time": 128.2291
+  }
+}

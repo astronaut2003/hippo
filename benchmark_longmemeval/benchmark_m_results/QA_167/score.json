@@ -1,0 +1,76 @@
+{
+  "sample_idx": 167,
+  "question_id": "ba358f49",
+  "question": "How many years will I be when my friend Rachel gets married?",
+  "question_type": "multi-session",
+  "gold_answer": "33",
+  "question_date": "2022/09/01 (Thu) 23:57",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T05:24:45.941002",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 10624,
+  "gen_token_usage": {
+    "prompt_tokens": 2339,
+    "answer_tokens": 10,
+    "total_tokens": 2349,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.78,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.16142988204956055,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.16142988204956055,
+      "overall_average": 0.03228597715497017
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.16142988204956055,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.16142988204956055,
+    "overall_average": 0.03228597715497017
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.988,
+    "retrieval_time": 0.6125,
+    "generation_time": 2.0686,
+    "evaluation_time": 2.9589,
+    "cleanup_time": 1.6004,
+    "total_time": 130.2292
+  }
+}

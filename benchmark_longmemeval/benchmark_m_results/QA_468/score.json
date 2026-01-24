@@ -1,0 +1,76 @@
+{
+  "sample_idx": 468,
+  "question_id": "00ca467f",
+  "question": "How many doctor's appointments did I go to in March?",
+  "question_type": "multi-session",
+  "gold_answer": 2,
+  "question_date": "2023/03/27 (Mon) 23:56",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T22:41:40.533270",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 7808,
+  "gen_token_usage": {
+    "prompt_tokens": 1915,
+    "answer_tokens": 10,
+    "total_tokens": 1925,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 1.46,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.11290138959884644,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.11290138959884644,
+      "overall_average": 0.022580277174711227
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.11290138959884644,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.11290138959884644,
+    "overall_average": 0.022580277174711227
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 130.984,
+    "retrieval_time": 0.5522,
+    "generation_time": 3.1977,
+    "evaluation_time": 2.4213,
+    "cleanup_time": 1.4828,
+    "total_time": 138.6386
+  }
+}

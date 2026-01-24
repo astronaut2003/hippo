@@ -1,0 +1,76 @@
+{
+  "sample_idx": 244,
+  "question_id": "affe2881",
+  "question": "How many different species of birds have I seen in my local park?",
+  "question_type": "knowledge-update",
+  "gold_answer": "32",
+  "question_date": "2023/06/21 (Wed) 22:31",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T08:11:03.344421",
+  "predicted_answer": "You have seen 27 different species of birds in your local park.",
+  "prompt_length": 25198,
+  "gen_token_usage": {
+    "prompt_tokens": 5773,
+    "answer_tokens": 14,
+    "total_tokens": 5787,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 4.4,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 12,
+      "context_length": 0,
+      "question_type": "knowledge-update"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.2179396152496338,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.2179396152496338,
+      "overall_average": 0.04358792304992676
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "knowledge-update",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.2179396152496338,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.2179396152496338,
+    "overall_average": 0.04358792304992676
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.9696,
+    "retrieval_time": 0.6866,
+    "generation_time": 3.0793,
+    "evaluation_time": 2.9477,
+    "cleanup_time": 1.6144,
+    "total_time": 133.2981
+  }
+}

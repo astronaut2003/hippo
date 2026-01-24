@@ -1,0 +1,76 @@
+{
+  "sample_idx": 58,
+  "question_id": "51a45a95",
+  "question": "Where did I redeem a $5 coupon on coffee creamer?",
+  "question_type": "single-session-user",
+  "gold_answer": "Target",
+  "question_date": "2023/05/30 (Tue) 23:54",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T01:33:03.347834",
+  "predicted_answer": "You redeemed a $5 coupon on coffee creamer at a store, but the specific store is not mentioned in the memories.",
+  "prompt_length": 17782,
+  "gen_token_usage": {
+    "prompt_tokens": 4162,
+    "answer_tokens": 25,
+    "total_tokens": 4187,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.18,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 21,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.11971050500869751,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.11971050500869751,
+      "overall_average": 0.02394210174679756
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.11971050500869751,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.11971050500869751,
+    "overall_average": 0.02394210174679756
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 122.6345,
+    "retrieval_time": 0.6678,
+    "generation_time": 2.9843,
+    "evaluation_time": 1.0611,
+    "cleanup_time": 1.5422,
+    "total_time": 128.8905
+  }
+}

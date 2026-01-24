@@ -1,0 +1,76 @@
+{
+  "sample_idx": 151,
+  "question_id": "3fdac837",
+  "question": "What is the total number of days I spent in Japan and Chicago?",
+  "question_type": "multi-session",
+  "gold_answer": "11 days (or 12 days, if April 15th to 22nd is considered as 8 days)",
+  "question_date": "2023/05/30 (Tue) 23:38",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T04:50:26.880763",
+  "predicted_answer": "You spent 7 days in Japan from April 15th to 22nd, and 3 days in Chicago from March 10th to 12th. \n\nTotal days: 7 (Japan) + 3 (Chicago) = 10 days.",
+  "prompt_length": 9965,
+  "gen_token_usage": {
+    "prompt_tokens": 2662,
+    "answer_tokens": 53,
+    "total_tokens": 2715,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.03,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 15,
+      "response_length": 31,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.32558139534883723,
+      "rouge1_f": 0.3181818181818182,
+      "rouge2_f": 0.14285714285714285,
+      "rougeL_f": 0.2727272727272727,
+      "semantic_similarity": 0.5029125213623047,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.22912262156448204,
+      "avg_semantic": 0.5029125213623047,
+      "overall_average": 0.2838806211948395
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.32558139534883723,
+    "rouge1_f": 0.3181818181818182,
+    "rouge2_f": 0.14285714285714285,
+    "rougeL_f": 0.2727272727272727,
+    "semantic_similarity": 0.5029125213623047,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.22912262156448204,
+    "avg_semantic": 0.5029125213623047,
+    "overall_average": 0.2838806211948395
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 124.7858,
+    "retrieval_time": 0.6957,
+    "generation_time": 3.8841,
+    "evaluation_time": 2.0388,
+    "cleanup_time": 1.631,
+    "total_time": 133.0363
+  }
+}

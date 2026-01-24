@@ -1,0 +1,76 @@
+{
+  "sample_idx": 75,
+  "question_id": "dccbc061",
+  "question": "What was my previous stance on spirituality?",
+  "question_type": "single-session-user",
+  "gold_answer": "A staunch atheist",
+  "question_date": "2023/05/30 (Tue) 23:50",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T02:08:49.068327",
+  "predicted_answer": "Your previous stance on spirituality was that you were a staunch atheist.",
+  "prompt_length": 17204,
+  "gen_token_usage": {
+    "prompt_tokens": 3589,
+    "answer_tokens": 14,
+    "total_tokens": 3603,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.74,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 3,
+      "response_length": 12,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.3076923076923077,
+      "rouge1_f": 0.4,
+      "rouge2_f": 0.3076923076923077,
+      "rougeL_f": 0.4,
+      "semantic_similarity": 0.6884282231330872,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.27692307692307694,
+      "avg_semantic": 0.6884282231330872,
+      "overall_average": 0.3592241406440735
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.3076923076923077,
+    "rouge1_f": 0.4,
+    "rouge2_f": 0.3076923076923077,
+    "rougeL_f": 0.4,
+    "semantic_similarity": 0.6884282231330872,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.27692307692307694,
+    "avg_semantic": 0.6884282231330872,
+    "overall_average": 0.3592241406440735
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 113.8615,
+    "retrieval_time": 0.6557,
+    "generation_time": 3.1637,
+    "evaluation_time": 1.0976,
+    "cleanup_time": 1.5798,
+    "total_time": 120.3587
+  }
+}

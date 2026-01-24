@@ -1,0 +1,76 @@
+{
+  "sample_idx": 431,
+  "question_id": "b6025781",
+  "question": "I'm planning my meal prep next week, any suggestions for new recipes?",
+  "question_type": "single-session-preference",
+  "gold_answer": "The user would prefer responses that suggest healthy meal prep recipes, especially those that incorporate quinoa and roasted vegetables, and offer variations in protein sources. They might appreciate suggestions that build upon their existing preferences, such as new twists on chicken Caesar salads or turkey and avocado wraps. The user may not prefer responses that suggest unhealthy or high-calorie meal prep options, or those that deviate significantly from their established healthy eating habits.",
+  "question_date": "2023/05/30 (Tue) 23:55",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T18:39:43.743202",
+  "predicted_answer": "Here are some healthy meal prep ideas you can try for next week:\n\n1. **Quinoa Salad**: Cook quinoa and mix with roasted vegetables like sweet potatoes, Brussels sprouts, and chickpeas. Add a citrus vinaigrette dressing.\n\n2. **Lentil Salad**: Cook lentils and mix with diced veggies like onions, bell peppers, and carrots. Dress with a simple vinaigrette.\n\n3. **Grilled Chicken Salad**: Grill chicken breast and prep mixed greens, cherry tomatoes, cucumber, and carrots. Add nuts or seeds for extra crunch.\n\n4. **Lentil Soup**: Prepare a big batch of lentil soup and portion it out for the week. Pair with whole-grain bread.\n\n5. **Breakfast Burritos**: Scramble eggs with black beans, cheese, and veggies, then wrap in whole grain tortillas. Refrigerate or freeze for easy reheating.\n\n6. **Muffin Tin Frittatas**: Whisk eggs with diced veggies, pour into muffin tins, and bake. These can be refrigerated or frozen for quick breakfasts.\n\n7. **Chickpea and Avocado Salad**: Mix cooked chickpeas with diced avocado, red onion, and cherry tomatoes, served on a bed of mixed greens.\n\nThese recipes can be prepared in advance and stored for easy access throughout the week!",
+  "prompt_length": 18573,
+  "gen_token_usage": {
+    "prompt_tokens": 4394,
+    "answer_tokens": 271,
+    "total_tokens": 4665,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.35,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 73,
+      "response_length": 185,
+      "context_length": 0,
+      "question_type": "single-session-preference"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.14468085106382977,
+      "rouge1_f": 0.16923076923076927,
+      "rouge2_f": 0.03875968992248062,
+      "rougeL_f": 0.11538461538461538,
+      "semantic_similarity": 0.554745078086853,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.10732405891980361,
+      "avg_semantic": 0.554745078086853,
+      "overall_average": 0.19680826365947723
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-preference",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.14468085106382977,
+    "rouge1_f": 0.16923076923076927,
+    "rouge2_f": 0.03875968992248062,
+    "rougeL_f": 0.11538461538461538,
+    "semantic_similarity": 0.554745078086853,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.10732405891980361,
+    "avg_semantic": 0.554745078086853,
+    "overall_average": 0.19680826365947723
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 120.5977,
+    "retrieval_time": 0.6736,
+    "generation_time": 5.7039,
+    "evaluation_time": 1.2637,
+    "cleanup_time": 1.5568,
+    "total_time": 129.7975
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sample_idx": 83,
+  "question_id": "853b0a1d",
+  "question": "How old was I when my grandma gave me the silver necklace?",
+  "question_type": "single-session-user",
+  "gold_answer": "18",
+  "question_date": "2023/05/30 (Tue) 23:08",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T02:25:30.488870",
+  "predicted_answer": "You were 18 years old when your grandma gave you the silver necklace.",
+  "prompt_length": 21768,
+  "gen_token_usage": {
+    "prompt_tokens": 4627,
+    "answer_tokens": 15,
+    "total_tokens": 4642,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.53,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 13,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.15384615384615385,
+      "rouge1_f": 0.14285714285714288,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.14285714285714288,
+      "semantic_similarity": 0.33972489833831787,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.10989010989010992,
+      "avg_semantic": 0.33972489833831787,
+      "overall_average": 0.15585705637931824
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.15384615384615385,
+    "rouge1_f": 0.14285714285714288,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.14285714285714288,
+    "semantic_similarity": 0.33972489833831787,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.10989010989010992,
+    "avg_semantic": 0.33972489833831787,
+    "overall_average": 0.15585705637931824
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 117.529,
+    "retrieval_time": 0.6919,
+    "generation_time": 2.8228,
+    "evaluation_time": 1.2758,
+    "cleanup_time": 1.4563,
+    "total_time": 123.7765
+  }
+}

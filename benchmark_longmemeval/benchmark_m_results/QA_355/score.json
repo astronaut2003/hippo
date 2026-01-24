@@ -1,0 +1,76 @@
+{
+  "sample_idx": 355,
+  "question_id": "gpt4_385a5000",
+  "question": "Which seeds were started first, the tomatoes or the marigolds?",
+  "question_type": "temporal-reasoning",
+  "gold_answer": "Tomatoes",
+  "question_date": "2023/03/10 (Fri) 18:17",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T15:54:04.735055",
+  "predicted_answer": "The marigold seeds were started first, as you mentioned they arrived on March 3rd and were already germinating. The tomatoes were started indoors around February 20th, which is earlier than the marigolds.",
+  "prompt_length": 16718,
+  "gen_token_usage": {
+    "prompt_tokens": 3841,
+    "answer_tokens": 45,
+    "total_tokens": 3886,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 2.93,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 32,
+      "context_length": 0,
+      "question_type": "temporal-reasoning"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.0689655172413793,
+      "rouge1_f": 0.06060606060606061,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.06060606060606061,
+      "semantic_similarity": 0.3195567727088928,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.047544409613375124,
+      "avg_semantic": 0.3195567727088928,
+      "overall_average": 0.1019468754529953
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "temporal-reasoning",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.0689655172413793,
+    "rouge1_f": 0.06060606060606061,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.06060606060606061,
+    "semantic_similarity": 0.3195567727088928,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.047544409613375124,
+    "avg_semantic": 0.3195567727088928,
+    "overall_average": 0.1019468754529953
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 145.0062,
+    "retrieval_time": 0.5808,
+    "generation_time": 1.6776,
+    "evaluation_time": 1.9532,
+    "cleanup_time": 1.5934,
+    "total_time": 150.8116
+  }
+}

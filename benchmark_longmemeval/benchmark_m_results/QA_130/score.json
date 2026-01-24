@@ -1,0 +1,76 @@
+{
+  "sample_idx": 130,
+  "question_id": "4f54b7c9",
+  "question": "How many antique items did I inherit or acquire from my family members?",
+  "question_type": "multi-session",
+  "gold_answer": "5",
+  "question_date": "2023/05/30 (Tue) 23:26",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-12-10T04:05:29.822056",
+  "predicted_answer": "You inherited or acquired at least three antique items from your family members: an antique tea set from your cousin Rachel, a vintage typewriter that belonged to your dad, and a vintage diamond necklace from your grandmother.",
+  "prompt_length": 23887,
+  "gen_token_usage": {
+    "prompt_tokens": 5171,
+    "answer_tokens": 42,
+    "total_tokens": 5213,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.95,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 37,
+      "context_length": 0,
+      "question_type": "multi-session"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.032595038414001465,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.032595038414001465,
+      "overall_average": 0.006519007496535778
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "multi-session",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.032595038414001465,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.032595038414001465,
+    "overall_average": 0.006519007496535778
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 125.6362,
+    "retrieval_time": 0.6504,
+    "generation_time": 3.1838,
+    "evaluation_time": 0.8068,
+    "cleanup_time": 1.583,
+    "total_time": 131.8608
+  }
+}
