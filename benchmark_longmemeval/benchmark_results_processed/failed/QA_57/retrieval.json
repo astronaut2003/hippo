@@ -1,0 +1,21 @@
+{
+  "sample_idx": 57,
+  "question_id": "1faac195",
+  "question": "Where does my sister Emily live?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T15:54:14.026069",
+  "load_result": {
+    "total_sessions": 45,
+    "added_sessions": 14,
+    "failed_sessions": 31,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0028,
+    "load_time": 250.9044
+  }
+}

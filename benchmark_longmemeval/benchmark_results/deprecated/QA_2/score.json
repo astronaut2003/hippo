@@ -1,0 +1,68 @@
+{
+  "sample_idx": 2,
+  "question_id": "51a45a95",
+  "question": "Where did I redeem a $5 coupon on coffee creamer?",
+  "question_type": "single-session-user",
+  "gold_answer": "Target",
+  "question_date": "2023/05/30 (Tue) 20:42",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "timestamp": "2025-11-28T14:46:07.789462",
+  "predicted_answer": "You redeemed a $5 coupon on coffee creamer at Target last Sunday.",
+  "prompt_length": 18939,
+  "gen_token_usage": {
+    "prompt_tokens": 4060,
+    "answer_tokens": 15,
+    "total_tokens": 4075,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 3.1,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 1,
+      "response_length": 12,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0.16666666666666669,
+      "rouge1_f": 0.15384615384615385,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.15384615384615385,
+      "semantic_similarity": 0.3263015151023865,
+      "llm_accuracy": 1.0,
+      "avg_lexical": 0.1185897435897436,
+      "avg_semantic": 0.3263015151023865,
+      "overall_average": 0.16013209521770477
+    },
+    "llm_details": {
+      "judgments": [
+        true
+      ],
+      "accuracy": 1.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0.16666666666666669,
+    "rouge1_f": 0.15384615384615385,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.15384615384615385,
+    "semantic_similarity": 0.3263015151023865,
+    "llm_accuracy": 1.0,
+    "avg_lexical": 0.1185897435897436,
+    "avg_semantic": 0.3263015151023865,
+    "overall_average": 0.16013209521770477
+  },
+  "status": "success"
+}

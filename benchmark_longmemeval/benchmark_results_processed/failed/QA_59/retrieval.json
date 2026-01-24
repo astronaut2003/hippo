@@ -1,0 +1,21 @@
+{
+  "sample_idx": 59,
+  "question_id": "f4f1d8a4",
+  "question": "Who gave me a new stand mixer as a birthday gift?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T16:02:03.126284",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 22,
+    "failed_sessions": 30,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0034,
+    "load_time": 233.9461
+  }
+}

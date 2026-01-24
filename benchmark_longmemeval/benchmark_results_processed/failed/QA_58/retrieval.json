@@ -1,0 +1,21 @@
+{
+  "sample_idx": 58,
+  "question_id": "faba32e5",
+  "question": "How long did Alex marinate the BBQ ribs in special sauce?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T15:58:26.842425",
+  "load_result": {
+    "total_sessions": 46,
+    "added_sessions": 14,
+    "failed_sessions": 32,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0036,
+    "load_time": 213.9257
+  }
+}

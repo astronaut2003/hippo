@@ -1,0 +1,33 @@
+{
+  "benchmark_info": {
+    "dataset_path": "benchmark_longmemeval/dataset/LongMemEval/longmemeval_s_cleaned.json",
+    "gen_llm_model": "gpt-4o-mini-closeai",
+    "eval_llm_model": "gpt-4o-mini-closeai",
+    "user_id_base": "benchmark_processed",
+    "infer": true,
+    "mode": "processed",
+    "query_top_k": 20,
+    "start_index": 0,
+    "end_index": 0,
+    "start_time": "2025-11-29T11:32:25.579769",
+    "end_time": "2025-11-29T11:58:03.219872",
+    "total_time_seconds": 1537.640103
+  },
+  "statistics": {
+    "total_samples_in_dataset": 500,
+    "samples_processed": 1,
+    "successful": 1,
+    "failed": 0,
+    "success_rate": 1.0,
+    "avg_time_per_sample": 1537.640103
+  },
+  "average_metrics": {
+    "avg_exact_match": 0.0,
+    "avg_semantic_similarity": 0.21263086795806885,
+    "avg_retrieved_memories": 20.0
+  },
+  "processed_indices": [
+    0
+  ],
+  "failed_indices": []
+}

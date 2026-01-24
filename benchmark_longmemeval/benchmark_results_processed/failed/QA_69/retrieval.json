@@ -1,0 +1,21 @@
+{
+  "sample_idx": 69,
+  "question_id": "f4f1d8a4_abs",
+  "question": "What did my dad gave me as a birthday gift?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T16:40:01.356025",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 17,
+    "failed_sessions": 33,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0031,
+    "load_time": 221.9666
+  }
+}

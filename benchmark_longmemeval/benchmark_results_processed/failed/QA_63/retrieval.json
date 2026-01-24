@@ -1,0 +1,21 @@
+{
+  "sample_idx": 63,
+  "question_id": "a82c026e",
+  "question": "What game did I finally beat last weekend?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T16:17:53.361376",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 20,
+    "failed_sessions": 27,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0031,
+    "load_time": 220.0688
+  }
+}

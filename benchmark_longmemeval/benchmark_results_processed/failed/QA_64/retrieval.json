@@ -1,0 +1,21 @@
+{
+  "sample_idx": 64,
+  "question_id": "0862e8bf_abs",
+  "question": "What is the name of my hamster?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T16:21:35.854018",
+  "load_result": {
+    "total_sessions": 52,
+    "added_sessions": 19,
+    "failed_sessions": 33,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0027,
+    "load_time": 227.6179
+  }
+}

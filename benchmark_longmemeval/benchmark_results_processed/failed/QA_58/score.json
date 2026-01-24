@@ -1,0 +1,77 @@
+{
+  "sample_idx": 58,
+  "question_id": "faba32e5",
+  "question": "How long did Alex marinate the BBQ ribs in special sauce?",
+  "question_type": "single-session-user",
+  "gold_answer": "24 hours",
+  "question_date": "2023/05/30 (Tue) 22:10",
+  "gen_llm_model": "gpt-4o-mini-closeai",
+  "eval_llm_model": "gpt-4o-mini-closeai",
+  "infer_mode": true,
+  "timestamp": "2025-11-30T15:58:26.842423",
+  "predicted_answer": "I don't have enough information to answer this question.",
+  "prompt_length": 852,
+  "gen_token_usage": {
+    "prompt_tokens": 152,
+    "answer_tokens": 10,
+    "total_tokens": 162,
+    "context_length": 131072,
+    "max_context_tokens": 111411,
+    "prompt_ratio": 0.12,
+    "tokenizer_type": "tiktoken",
+    "encoding": "o200k_base"
+  },
+  "evaluation": {
+    "input_info": {
+      "gold_length": 2,
+      "response_length": 9,
+      "context_length": 0,
+      "question_type": "single-session-user"
+    },
+    "scores": {
+      "exact_match": 0.0,
+      "token_f1": 0,
+      "rouge1_f": 0.0,
+      "rouge2_f": 0.0,
+      "rougeL_f": 0.0,
+      "semantic_similarity": 0.0,
+      "llm_accuracy": 0.0,
+      "avg_lexical": 0.0,
+      "avg_semantic": 0.0,
+      "overall_average": 0.0
+    },
+    "llm_details": {
+      "judgments": [
+        false
+      ],
+      "accuracy": 0.0,
+      "num_runs": 1,
+      "consistency": true,
+      "confidence": "high",
+      "question_type": "single-session-user",
+      "context_provided": false
+    },
+    "evaluation_success": true
+  },
+  "scores": {
+    "exact_match": 0.0,
+    "token_f1": 0,
+    "rouge1_f": 0.0,
+    "rouge2_f": 0.0,
+    "rougeL_f": 0.0,
+    "semantic_similarity": 0.0,
+    "llm_accuracy": 0.0,
+    "avg_lexical": 0.0,
+    "avg_semantic": 0.0,
+    "overall_average": 0.0
+  },
+  "status": "success",
+  "timing": {
+    "load_time": 213.9257,
+    "retrieval_time": 0.0036,
+    "generation_time": 1.5978,
+    "evaluation_time": 0.7272,
+    "cleanup_time": 0.0287,
+    "total_time": 216.2834
+  }
+}

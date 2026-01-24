@@ -1,0 +1,21 @@
+{
+  "sample_idx": 65,
+  "question_id": "15745da0_abs",
+  "question": "How long have I been collecting vintage films?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T16:25:25.674603",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 23,
+    "failed_sessions": 27,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0032,
+    "load_time": 215.6992
+  }
+}

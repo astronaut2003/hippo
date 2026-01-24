@@ -1,0 +1,22 @@
+{
+  "sample_idx": 55,
+  "question_id": "4100d0a0",
+  "question": "What is my ethnicity?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T15:38:51.193931",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 33,
+    "failed_sessions": 17,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "failed",
+  "error": "attempt to write a readonly database",
+  "timing": {
+    "retrieval_time": 0.0028,
+    "load_time": 675.2195
+  }
+}

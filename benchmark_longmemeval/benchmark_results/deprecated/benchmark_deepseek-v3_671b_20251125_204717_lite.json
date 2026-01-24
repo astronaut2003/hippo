@@ -1,0 +1,64 @@
+{
+  "benchmark_info": {
+    "dataset_path": "benchmark_longmemeval/dataset/LongMemEval/extracted_samples_index_1.json",
+    "llm_model": "deepseek-v3:671b",
+    "user_id_base": "benchmark",
+    "infer": false,
+    "query_top_k": 5,
+    "start_time": "2025-11-25T20:46:48.635628",
+    "end_time": "2025-11-25T20:47:17.948000",
+    "total_time_seconds": 29.312372
+  },
+  "statistics": {
+    "total_samples": 2,
+    "successful": 2,
+    "failed": 0,
+    "success_rate": 1.0,
+    "avg_time_per_sample": 14.656186
+  },
+  "average_metrics": {
+    "avg_exact_match": 0.0,
+    "avg_semantic_similarity": 0.028604358434677124,
+    "avg_retrieved_memories": 5.0
+  },
+  "sample_results": [
+    {
+      "sample_idx": 1,
+      "question_id": "118b2229",
+      "question": "How long is my daily commute to work?",
+      "gold_answer": "45 minutes each way",
+      "predicted_answer": "生成失败: Error code: 401 - {'code': 401, 'message': 'Unauthorized'}",
+      "status": "success",
+      "evaluation_scores": {
+        "exact_match": 0.0,
+        "token_f1": 0,
+        "rouge1_f": 0.0,
+        "rouge2_f": 0.0,
+        "rougeL_f": 0.0,
+        "semantic_similarity": 0.01349729299545288,
+        "avg_lexical": 0.0,
+        "avg_semantic": 0.01349729299545288,
+        "overall_average": 0.0026994585059583187
+      }
+    },
+    {
+      "sample_idx": 1,
+      "question_id": "gpt4_2487a7cb",
+      "question": "Which event did I attend first, the 'Effective Time Management' workshop or the 'Data Analysis using Python' webinar?",
+      "gold_answer": "'Data Analysis using Python' webinar",
+      "predicted_answer": "生成失败: Error code: 401 - {'code': 401, 'message': 'Unauthorized'}",
+      "status": "success",
+      "evaluation_scores": {
+        "exact_match": 0.0,
+        "token_f1": 0,
+        "rouge1_f": 0.0,
+        "rouge2_f": 0.0,
+        "rougeL_f": 0.0,
+        "semantic_similarity": 0.04371142387390137,
+        "avg_lexical": 0.0,
+        "avg_semantic": 0.04371142387390137,
+        "overall_average": 0.008742284961044788
+      }
+    }
+  ]
+}

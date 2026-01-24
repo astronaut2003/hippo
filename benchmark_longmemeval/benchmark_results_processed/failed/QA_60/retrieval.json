@@ -1,0 +1,21 @@
+{
+  "sample_idx": 60,
+  "question_id": "c14c00dd",
+  "question": "What brand of shampoo do I currently use?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T16:05:59.286474",
+  "load_result": {
+    "total_sessions": 51,
+    "added_sessions": 17,
+    "failed_sessions": 34,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0152,
+    "load_time": 220.2357
+  }
+}

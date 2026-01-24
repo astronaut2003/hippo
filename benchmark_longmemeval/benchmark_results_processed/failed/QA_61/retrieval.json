@@ -1,0 +1,21 @@
+{
+  "sample_idx": 61,
+  "question_id": "36580ce8",
+  "question": "What health issue did I initially think was just a cold?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T16:09:42.081137",
+  "load_result": {
+    "total_sessions": 55,
+    "added_sessions": 25,
+    "failed_sessions": 30,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0093,
+    "load_time": 228.5096
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "benchmark_info": {
+    "dataset_path": "benchmark_longmemeval/dataset/LongMemEval/extracted_samples_index_1.json",
+    "llm_model": "gpt-4o-mini-closeai",
+    "user_id_base": "benchmark",
+    "infer": false,
+    "query_top_k": 5,
+    "start_time": "2025-11-25T20:52:46.508922",
+    "end_time": "2025-11-25T20:53:19.571345",
+    "total_time_seconds": 33.062423
+  },
+  "statistics": {
+    "total_samples": 2,
+    "successful": 2,
+    "failed": 0,
+    "success_rate": 1.0,
+    "avg_time_per_sample": 16.5312115
+  },
+  "average_metrics": {
+    "avg_exact_match": 0.0,
+    "avg_semantic_similarity": 0.27457284927368164,
+    "avg_retrieved_memories": 5.0
+  },
+  "sample_results": [
+    {
+      "sample_idx": 1,
+      "question_id": "118b2229",
+      "question": "How long is my daily commute to work?",
+      "gold_answer": "45 minutes each way",
+      "predicted_answer": "Your daily commute to work takes 45 minutes each way.",
+      "status": "success",
+      "evaluation_scores": {
+        "exact_match": 0.0,
+        "token_f1": 0.5714285714285715,
+        "rouge1_f": 0.5714285714285715,
+        "rouge2_f": 0.5,
+        "rougeL_f": 0.5714285714285715,
+        "semantic_similarity": 0.5491456985473633,
+        "avg_lexical": 0.4285714285714286,
+        "avg_semantic": 0.5491456985473633,
+        "overall_average": 0.4526863098144531
+      }
+    },
+    {
+      "sample_idx": 1,
+      "question_id": "gpt4_2487a7cb",
+      "question": "Which event did I attend first, the 'Effective Time Management' workshop or the 'Data Analysis using Python' webinar?",
+      "gold_answer": "'Data Analysis using Python' webinar",
+      "predicted_answer": "I don't have enough information to answer this question.",
+      "status": "success",
+      "evaluation_scores": {
+        "exact_match": 0.0,
+        "token_f1": 0,
+        "rouge1_f": 0.0,
+        "rouge2_f": 0.0,
+        "rougeL_f": 0.0,
+        "semantic_similarity": 0.0,
+        "avg_lexical": 0.0,
+        "avg_semantic": 0.0,
+        "overall_average": 0.0
+      }
+    }
+  ]
+}

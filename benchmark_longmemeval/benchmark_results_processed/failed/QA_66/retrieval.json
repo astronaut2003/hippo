@@ -1,0 +1,21 @@
+{
+  "sample_idx": 66,
+  "question_id": "bc8a6e93_abs",
+  "question": "What did I bake for my uncle's birthday party?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T16:29:03.927866",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 15,
+    "failed_sessions": 32,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0029,
+    "load_time": 214.7893
+  }
+}

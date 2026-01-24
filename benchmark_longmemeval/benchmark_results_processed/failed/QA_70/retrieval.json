@@ -1,0 +1,21 @@
+{
+  "sample_idx": 70,
+  "question_id": "0a995998",
+  "question": "How many items of clothing do I need to pick up or return from a store?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T16:43:45.716205",
+  "load_result": {
+    "total_sessions": 44,
+    "added_sessions": 10,
+    "failed_sessions": 34,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0027,
+    "load_time": 220.8998
+  }
+}

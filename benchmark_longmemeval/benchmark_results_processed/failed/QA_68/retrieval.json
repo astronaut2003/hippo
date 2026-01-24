@@ -1,0 +1,21 @@
+{
+  "sample_idx": 68,
+  "question_id": "29f2956b_abs",
+  "question": "How much time do I dedicate to practicing violin every day?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T16:36:17.715936",
+  "load_result": {
+    "total_sessions": 50,
+    "added_sessions": 20,
+    "failed_sessions": 30,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0028,
+    "load_time": 221.2782
+  }
+}

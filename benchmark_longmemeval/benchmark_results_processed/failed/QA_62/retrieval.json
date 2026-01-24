@@ -1,0 +1,21 @@
+{
+  "sample_idx": 62,
+  "question_id": "3d86fd0a",
+  "question": "Where did I meet Sophia?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T16:13:32.739386",
+  "load_result": {
+    "total_sessions": 55,
+    "added_sessions": 21,
+    "failed_sessions": 34,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0157,
+    "load_time": 258.3954
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "sample_idx": 72,
+  "question_id": "gpt4_59c863d7",
+  "question": "How many model kits have I worked on or bought?",
+  "query_top_k": 20,
+  "infer_mode": true,
+  "timestamp": "2025-11-30T16:50:58.730659",
+  "load_result": {
+    "total_sessions": 47,
+    "added_sessions": 16,
+    "failed_sessions": 31,
+    "infer_mode": true
+  },
+  "retrieved_memories_count": 0,
+  "retrieved_memories": [],
+  "status": "success",
+  "timing": {
+    "retrieval_time": 0.0026,
+    "load_time": 224.3311
+  }
+}
