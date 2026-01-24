@@ -306,11 +306,11 @@ class LongMemEvalLoader:
             try:
                 # 将对话历史添加到 mem0
                 # session 格式: [{"role": "user", "content": "..."}, {"role": "assistant", "content": "..."}, ...]
-                # 🔥 infer=True 时，mem0 会对对话进行推理，提取关键信息
+                #  infer=True 时，mem0 会对对话进行推理，提取关键信息
                 result = self.memory.add(
                     messages=session,
-                    user_id=user_id,  # 🔥 使用唯一的 user_id
-                    infer=infer  # 🔥 默认启用推理
+                    user_id=user_id,  #  使用唯一的 user_id
+                    infer=infer  #  默认启用推理
                 )
                 
                 results['memory_results'].append({
