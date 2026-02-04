@@ -2,7 +2,7 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 import { sendMessage as apiSendMessage } from '../api/chat'
-import { createSession, getSessions, getSessionMessages } from '../api/sessions'
+import { createSession, getSessions, getSessionMessages, deleteSession as apiDeleteSession } from '../api/sessions'
 
 function getUserId(): string {
   let userId = localStorage.getItem('hippo_user_id')
@@ -121,6 +121,29 @@ export const useChatStore = defineStore('chat', () => {
     }
   }
 
+  // Action: 删除会话
+  async function deleteSession(sessionId: string) {
+    try {
+      await apiDeleteSession(sessionId)
+      
+      // 从会话列表中移除
+      sessions.value = sessions.value.filter(s => s.id !== sessionId)
+      
+      // 如果删除的是当前会话，切换到第一个会话或清空
+      if (currentSessionId.value === sessionId) {
+        if (sessions.value.length > 0) {
+          await switchSession(sessions.value[0].id)
+        } else {
+          currentSessionId.value = ''
+          messages.value = []
+        }
+      }
+    } catch (e) {
+      console.error('删除会话失败', e)
+      throw e
+    }
+  }
+
   return {
     messages,
     isLoading,
@@ -130,6 +153,7 @@ export const useChatStore = defineStore('chat', () => {
     loadSessions,
     newSession,
     switchSession,
-    sendMessage
+    sendMessage,
+    deleteSession
   }
 })

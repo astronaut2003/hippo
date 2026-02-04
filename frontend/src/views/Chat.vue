@@ -190,16 +190,18 @@ async function handleSwitchSession(sessionId: string) {
 // 删除会话
 async function handleDeleteSession(sessionId: string) {
   try {
-    await ElMessageBox.confirm('确定要删除这个会话及其所有记录吗？', '删除确认', {
+    await ElMessageBox.confirm('确定要删除这个会话及其所有聊天记录吗？（记忆不会被删除）', '删除确认', {
       confirmButtonText: '删除',
       cancelButtonText: '取消',
       type: 'warning'
     })
-    // 假设 store 里有 deleteSession 方法 (如果没有，记得去 store 加一个)
-    // await chatStore.deleteSession(sessionId) 
+    await chatStore.deleteSession(sessionId) 
     ElMessage.success('会话已删除')
   } catch (e) {
-    // 取消删除
+    // 取消删除或删除失败
+    if (e !== 'cancel') {
+      ElMessage.error('删除会话失败')
+    }
   }
 }
 

@@ -40,3 +40,11 @@ export function getSessionMessages(sessionId: string) {
     method: 'get'
   })
 }
+
+// 删除会话
+export function deleteSession(sessionId: string) {
+  return request({
+    url: `/api/v1/sessions/${sessionId}`,
+    method: 'delete'
+  })
+}
