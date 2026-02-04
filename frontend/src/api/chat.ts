@@ -10,8 +10,7 @@ export interface Message {
 export interface ChatRequest {
     message: string
     user_id?: string
-    conversation_id: string
-    history?: Message[]
+    session_id: string  // 改为 session_id
 }
 
 export interface ChatResponse {
@@ -95,6 +94,16 @@ export const chatAPI = {
             reader.releaseLock()
         }
     }
+}
+
+/**
+ * 发送消息（简化版本，供store使用）
+ */
+export async function sendMessage(
+    request: ChatRequest,
+    onChunk: (chunk: string) => void
+): Promise<void> {
+    return chatAPI.sendMessageStream(request, onChunk)
 }
 
 /**

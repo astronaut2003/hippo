@@ -26,6 +26,12 @@ pip install -r requirements.txt
 python -m src.main
 ```
 
+> ⚠️ **重要提示**: 如果是首次运行或升级到多会话版本，请先运行数据库修复脚本：
+> ```bash
+> python scripts/quick_fix.py
+> ```
+> 这将自动创建 `sessions` 和 `chat_messages` 表。
+
 #### 前端启动
 
 1. 进入 frontend 文件夹，打开一个新的命令行，输入以下命令：

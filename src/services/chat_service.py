@@ -1,12 +1,15 @@
 """
 对话服务
-整合记忆检索和 LLM 生成
+整合记忆检索和 LLM 生成，自动保存和加载对话历史
 """
 from typing import List, Dict, AsyncGenerator, Optional
 from src.services.memory_service import MemoryService
 from src.services.llm_service import LLMService
 from src.utils.prompt_templates import SYSTEM_PROMPT
 import logging
+import asyncpg
+import os
+from urllib.parse import quote_plus
 
 logger = logging.getLogger(__name__)
 
@@ -26,39 +29,124 @@ class ChatService:
         self.llm_service = llm_service
         logger.info("✅ 对话服务初始化成功")
     
+    async def _get_db_connection(self):
+        """获取数据库连接"""
+        db_password = os.getenv('POSTGRES_PASSWORD')
+        
+        return await asyncpg.connect(
+            host=os.getenv('POSTGRES_HOST', 'localhost'),
+            port=int(os.getenv('POSTGRES_PORT', 5432)),
+            database=os.getenv('POSTGRES_DB', 'hippo'),
+            user=os.getenv('POSTGRES_USER', 'postgres'),
+            password=db_password
+        )
+    
+    async def _save_message(self, session_id: str, role: str, content: str):
+        """
+        保存消息到数据库
+        
+        Args:
+            session_id: 会话ID
+            role: 角色 (user/assistant)
+            content: 消息内容
+        """
+        try:
+            conn = await self._get_db_connection()
+            try:
+                await conn.execute(
+                    """
+                    INSERT INTO chat_messages (session_id, role, content)
+                    VALUES ($1, $2, $3)
+                    """,
+                    session_id,
+                    role,
+                    content
+                )
+                # 更新会话的 updated_at 时间
+                await conn.execute(
+                    """
+                    UPDATE sessions
+                    SET updated_at = CURRENT_TIMESTAMP
+                    WHERE id = $1
+                    """,
+                    session_id
+                )
+            finally:
+                await conn.close()
+        except Exception as e:
+            logger.warning(f"⚠️ 保存消息失败: {e}")
+    
+    async def _fetch_history(self, session_id: str, limit: int = 10) -> List[Dict]:
+        """
+        从数据库获取对话历史
+        
+        Args:
+            session_id: 会话ID
+            limit: 获取的消息数量
+        
+        Returns:
+            List[Dict]: 对话历史列表
+        """
+        try:
+            conn = await self._get_db_connection()
+            try:
+                rows = await conn.fetch(
+                    """
+                    SELECT role, content
+                    FROM chat_messages
+                    WHERE session_id = $1
+                    ORDER BY created_at DESC
+                    LIMIT $2
+                    """,
+                    session_id,
+                    limit
+                )
+                # 反转顺序（最旧的在前）
+                history = [{"role": row['role'], "content": row['content']} for row in reversed(rows)]
+                return history
+            finally:
+                await conn.close()
+        except Exception as e:
+            logger.warning(f"⚠️ 获取历史失败: {e}")
+            return []
+    
     async def chat_stream(
         self,
         user_input: str,
         user_id: str,
-        conversation_id: str,
-        history: Optional[List[Dict]] = None
+        session_id: str
     ) -> AsyncGenerator[str, None]:
         """
-        流式对话生成
+        流式对话生成（自动保存消息到数据库）
         
         Args:
             user_input: 用户输入
             user_id: 用户ID
-            conversation_id: 会话ID
-            history: 对话历史
+            session_id: 会话ID
         
         Yields:
             生成的文本块
         """
-        logger.info(f"💬 开始对话: user={user_id}, conv={conversation_id}")
+        logger.info(f"💬 开始对话: user={user_id}, session={session_id}")
         
-        # 1. 检索相关记忆
+        # 1. 保存用户消息到数据库
+        await self._save_message(session_id, "user", user_input)
+        
+        # 2. 从数据库获取对话历史
+        history = await self._fetch_history(session_id, limit=10)
+        
+        # 3. 检索相关记忆
         relevant_memories = await self.memory_service.search_memory(
             query=user_input,
             user_id=user_id,
             limit=5
         )
         
-        # 2. 构造上下文
+        # 4. 构造上下文
         memory_context = self._format_memory_context(relevant_memories)
-        history_context = self._format_history_context(history or [])
+        history_context = self._format_history_context(history)
         
-        # 3. 构造 prompt
+        # 5. 构造 prompt
         messages = [
             {"role": "system", "content": SYSTEM_PROMPT}
         ]
@@ -77,19 +165,22 @@ class ChatService:
         
         messages.append({"role": "user", "content": user_input})
         
-        # 4. 流式生成回答
+        # 6. 流式生成回答
         full_response = ""
         async for chunk in self.llm_service.chat_stream(messages):
             full_response += chunk
             yield chunk
         
-        # 5. 存储新记忆（异步，不阻塞返回）
+        # 7. 保存助手消息到数据库
+        await self._save_message(session_id, "assistant", full_response)
+        
+        # 8. 存储新记忆（异步，不阻塞返回）
         try:
             await self.memory_service.add_memory(
                 content=f"User: {user_input}\nAssistant: {full_response}",
                 user_id=user_id,
                 metadata={
-                    "conversation_id": conversation_id,
+                    "session_id": session_id,
                     "type": "conversation"
                 }
             )

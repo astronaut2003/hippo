@@ -10,7 +10,18 @@ export const useMemoryStore = defineStore('memory', () => {
     // 状态
     const memories = ref<Memory[]>([])
     const isLoading = ref(false)
-    const currentUserId = ref('default_user')
+
+    // 从 localStorage 获取与聊天一致的 user id（如果不存在则生成并保存）
+    function getUserId(): string {
+        let userId = localStorage.getItem('hippo_user_id')
+        if (!userId) {
+            userId = `user_${Date.now()}_${Math.random().toString(36).substr(2,9)}`
+            localStorage.setItem('hippo_user_id', userId)
+        }
+        return userId
+    }
+
+    const currentUserId = ref(getUserId())
 
     // 获取所有记忆
     async function fetchMemories() {

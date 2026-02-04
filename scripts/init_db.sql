@@ -13,6 +13,32 @@ CREATE TABLE IF NOT EXISTS users (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+-- ==============================
+-- 多会话系统表结构
+-- ==============================
+
+-- 创建会话表 (sessions)
+CREATE TABLE IF NOT EXISTS sessions (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id VARCHAR(50) REFERENCES users(id) ON DELETE CASCADE,
+    title TEXT DEFAULT 'New Chat',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- 创建聊天消息表 (chat_messages)
+CREATE TABLE IF NOT EXISTS chat_messages (
+    id SERIAL PRIMARY KEY,
+    session_id UUID REFERENCES sessions(id) ON DELETE CASCADE,
+    role TEXT NOT NULL CHECK (role IN ('user', 'assistant', 'system')),
+    content TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- ==============================
+-- 兼容旧版：保留 conversations 和 messages 表
+-- ==============================
+
 -- 创建会话表
 CREATE TABLE IF NOT EXISTS conversations (
     id SERIAL PRIMARY KEY,
@@ -49,6 +75,10 @@ CREATE TABLE IF NOT EXISTS memory_metadata (
 );
 
 -- 创建索引以提高查询性能
+CREATE INDEX IF NOT EXISTS idx_sessions_user ON sessions(user_id);
+CREATE INDEX IF NOT EXISTS idx_sessions_created ON sessions(created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_chat_messages_session ON chat_messages(session_id);
+CREATE INDEX IF NOT EXISTS idx_chat_messages_created ON chat_messages(created_at DESC);
 CREATE INDEX IF NOT EXISTS idx_conversations_user ON conversations(user_id);
 CREATE INDEX IF NOT EXISTS idx_conversations_created ON conversations(created_at DESC);
 CREATE INDEX IF NOT EXISTS idx_messages_conversation ON messages(conversation_id);
@@ -77,6 +107,8 @@ ORDER BY table_name;
 SELECT * FROM pg_extension WHERE extname = 'vector';
 
 COMMENT ON TABLE users IS '用户表';
-COMMENT ON TABLE conversations IS '会话表';
-COMMENT ON TABLE messages IS '消息表';
+COMMENT ON TABLE sessions IS '会话表 (新版多会话)';
+COMMENT ON TABLE chat_messages IS '聊天消息表 (新版多会话)';
+COMMENT ON TABLE conversations IS '会话表 (旧版兼容)';
+COMMENT ON TABLE messages IS '消息表 (旧版兼容)';
 COMMENT ON TABLE memory_metadata IS '记忆元数据表';

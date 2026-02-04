@@ -21,7 +21,7 @@ from src.core.logger import setup_logging
 from src.services.memory_service import get_memory_service
 from src.services.llm_service import LLMService
 from src.services.chat_service import ChatService
-from src.api.v1 import chat, memory
+from src.api.v1 import chat, memory, sessions
 
 # 设置日志
 setup_logging(os.getenv('LOG_LEVEL', 'INFO'))
@@ -156,6 +156,7 @@ app.add_middleware(
 # 注册路由
 app.include_router(chat.router, prefix="/api/v1")
 app.include_router(memory.router, prefix="/api/v1")
+app.include_router(sessions.router, prefix="/api/v1")
 
 
 @app.get("/")

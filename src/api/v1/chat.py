@@ -25,8 +25,7 @@ class ChatRequest(BaseModel):
     """聊天请求模型"""
     message: str
     user_id: str = "default_user"
-    conversation_id: str
-    history: Optional[List[Message]] = []
+    session_id: str  # 改为 session_id，使用 UUID 格式
 
 
 @router.post("/message")
@@ -51,15 +50,11 @@ async def chat_message(request: ChatRequest):
         async def generate():
             """生成器函数，产生 SSE 格式的数据"""
             try:
-                # 将 Pydantic 模型转换为字典
-                history_list = [msg.dict() for msg in request.history] if request.history else []
-                
-                # 流式生成回答
+                # 流式生成回答 (不再传递 history，由 ChatService 自动从 DB 获取)
                 async for chunk in chat_service.chat_stream(
                     user_input=request.message,
                     user_id=request.user_id,
-                    conversation_id=request.conversation_id,
-                    history=history_list
+                    session_id=request.session_id
                 ):
                     # SSE 格式: data: {json}\n\n
                     yield f"data: {json.dumps({'content': chunk}, ensure_ascii=False)}\n\n"
