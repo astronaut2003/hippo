@@ -110,6 +110,52 @@ class ChatService:
             logger.warning(f"⚠️ 获取历史失败: {e}")
             return []
     
+    async def _update_session_title(self, session_id: str, user_input: str):
+        """
+        自动生成会话标题（基于第一条用户消息）
+        
+        Args:
+            session_id: 会话ID
+            user_input: 用户输入内容
+        """
+        try:
+            conn = await self._get_db_connection()
+            try:
+                # 检查会话标题是否为默认值，且是否为第一条用户消息
+                session_info = await conn.fetchrow(
+                    """
+                    SELECT title, 
+                           (SELECT COUNT(*) FROM chat_messages WHERE session_id = $1 AND role = 'user') as user_msg_count
+                    FROM sessions
+                    WHERE id = $1
+                    """,
+                    session_id
+                )
+                
+                if session_info:
+                    title = session_info['title']
+                    user_msg_count = session_info['user_msg_count']
+                    
+                    # 如果标题是默认值且这是第一条用户消息，则自动生成标题
+                    if title == 'New Chat' and user_msg_count == 0:
+                        # 生成标题：取前20个字符，超过则加省略号
+                        new_title = user_input[:20] + ('...' if len(user_input) > 20 else '')
+                        
+                        await conn.execute(
+                            """
+                            UPDATE sessions
+                            SET title = $1, updated_at = CURRENT_TIMESTAMP
+                            WHERE id = $2
+                            """,
+                            new_title,
+                            session_id
+                        )
+                        logger.info(f"📝 自动生成会话标题: session={session_id}, title='{new_title}'")
+            finally:
+                await conn.close()
+        except Exception as e:
+            logger.warning(f"⚠️ 更新会话标题失败: {e}")
+    
     async def chat_stream(
         self,
         user_input: str,
@@ -129,24 +175,27 @@ class ChatService:
         """
         logger.info(f"💬 开始对话: user={user_id}, session={session_id}")
         
-        # 1. 保存用户消息到数据库
+        # 1. 自动生成会话标题（如果是第一条消息）
+        await self._update_session_title(session_id, user_input)
+        
+        # 2. 保存用户消息到数据库
         await self._save_message(session_id, "user", user_input)
         
-        # 2. 从数据库获取对话历史
+        # 3. 从数据库获取对话历史
         history = await self._fetch_history(session_id, limit=10)
         
-        # 3. 检索相关记忆
+        # 4. 检索相关记忆
         relevant_memories = await self.memory_service.search_memory(
             query=user_input,
             user_id=user_id,
             limit=5
         )
         
-        # 4. 构造上下文
+        # 5. 构造上下文
         memory_context = self._format_memory_context(relevant_memories)
         history_context = self._format_history_context(history)
         
-        # 5. 构造 prompt
+        # 6. 构造 prompt
         messages = [
             {"role": "system", "content": SYSTEM_PROMPT}
         ]
@@ -165,16 +214,16 @@ class ChatService:
         
         messages.append({"role": "user", "content": user_input})
         
-        # 6. 流式生成回答
+        # 7. 流式生成回答
         full_response = ""
         async for chunk in self.llm_service.chat_stream(messages):
             full_response += chunk
             yield chunk
         
-        # 7. 保存助手消息到数据库
+        # 8. 保存助手消息到数据库
         await self._save_message(session_id, "assistant", full_response)
         
-        # 8. 存储新记忆（异步，不阻塞返回）
+        # 9. 存储新记忆（异步，不阻塞返回）
         try:
             await self.memory_service.add_memory(
                 content=f"User: {user_input}\nAssistant: {full_response}",

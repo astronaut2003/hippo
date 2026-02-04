@@ -116,6 +116,7 @@ export const useChatStore = defineStore('chat', () => {
       })
     } finally {
       isLoading.value = false
+      // 刷新会话列表（包括自动生成的标题）
       loadSessions()
     }
   }
